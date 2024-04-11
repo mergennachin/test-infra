@@ -205,6 +205,16 @@
       "slow"
     ]
   ],
+  "test_backward (__main__.TestAutogradWithCompiledAutograd)": [
+    "123819",
+    "https://github.com/pytorch/pytorch/issues/123819",
+    [
+      "linux",
+      "mac",
+      "macos",
+      "rocm"
+    ]
+  ],
   "test_backward_ddp_inside (__main__.TensorPipeDdpUnderDistAutogradTest)": [
     "104328",
     "https://github.com/pytorch/pytorch/issues/104328",
@@ -268,13 +278,6 @@
   "test_binary_op_float_inf_nan__foreach_add_cuda_bfloat16 (__main__.TestForeachCUDA)": [
     "123634",
     "https://github.com/pytorch/pytorch/issues/123634",
-    [
-      "linux"
-    ]
-  ],
-  "test_binary_op_list_error_cases__foreach_add_cuda_bfloat16 (__main__.TestForeachCUDA)": [
-    "122790",
-    "https://github.com/pytorch/pytorch/issues/122790",
     [
       "linux"
     ]
@@ -445,7 +448,8 @@
     "122715",
     "https://github.com/pytorch/pytorch/issues/122715",
     [
-      "inductor"
+      "inductor",
+      "rocm"
     ]
   ],
   "test_comprehensive_linalg_ldl_factor_ex_cuda (__main__.TestDecompCUDA)": [
@@ -467,15 +471,6 @@
     "https://github.com/pytorch/pytorch/issues/109379",
     [
       "linux"
-    ]
-  ],
-  "test_constant_insertion (__main__.TestJit)": [
-    "96894",
-    "https://github.com/pytorch/pytorch/issues/96894",
-    [
-      "win",
-      "windows",
-      "dynamo"
     ]
   ],
   "test_conv (quantization.jit.test_quantize_jit.TestQuantizeJit)": [
@@ -525,6 +520,13 @@
     "https://github.com/pytorch/pytorch/issues/105528",
     [
       "rocm"
+    ]
+  ],
+  "test_cow_input_nn_functional_conv3d_cuda_float32 (__main__.TestCompositeComplianceCUDA)": [
+    "123820",
+    "https://github.com/pytorch/pytorch/issues/123820",
+    [
+      "linux"
     ]
   ],
   "test_cow_input_sparse_sampled_addmm_cuda_float32 (__main__.TestCompositeComplianceCUDA)": [
@@ -1500,6 +1502,13 @@
     "https://github.com/pytorch/pytorch/issues/118804",
     [
       "linux"
+    ]
+  ],
+  "test_output_misaligned_non_abi_compatible_cuda (__main__.AOTInductorTestNonABICompatibleCuda)": [
+    "123818",
+    "https://github.com/pytorch/pytorch/issues/123818",
+    [
+      "rocm"
     ]
   ],
   "test_param_registration_after_forward (__main__.TestFullyShardRegisteredParams)": [
