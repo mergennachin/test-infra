@@ -278,6 +278,13 @@
       "slow"
     ]
   ],
+  "test_backward_twice_with_saved_values (__main__.TestAutogradWithCompiledAutograd)": [
+    "123875",
+    "https://github.com/pytorch/pytorch/issues/123875",
+    [
+      "linux"
+    ]
+  ],
   "test_barrier_cuda (__main__.TestDistBackendWithSpawn)": [
     "118051",
     "https://github.com/pytorch/pytorch/issues/118051",
@@ -510,6 +517,13 @@
     "https://github.com/pytorch/pytorch/issues/76962",
     [
       "linux"
+    ]
+  ],
+  "test_comprehensive_nn_functional_conv1d_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
+    "123874",
+    "https://github.com/pytorch/pytorch/issues/123874",
+    [
+      "inductor"
     ]
   ],
   "test_comprehensive_ones_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
