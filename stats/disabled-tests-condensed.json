@@ -212,6 +212,16 @@
       "linux",
       "mac",
       "macos",
+      "rocm",
+      "asan",
+      "slow"
+    ]
+  ],
+  "test_backward_copy (__main__.TestAutogradWithCompiledAutograd)": [
+    "123831",
+    "https://github.com/pytorch/pytorch/issues/123831",
+    [
+      "linux",
       "rocm"
     ]
   ],
@@ -1038,6 +1048,13 @@
   "test_is_isnot (__main__.TestScript)": [
     "120694",
     "https://github.com/pytorch/pytorch/issues/120694",
+    [
+      "dynamo"
+    ]
+  ],
+  "test_isinstance (__main__.TestScript)": [
+    "123832",
+    "https://github.com/pytorch/pytorch/issues/123832",
     [
       "dynamo"
     ]
