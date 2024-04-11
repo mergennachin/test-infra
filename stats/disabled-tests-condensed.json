@@ -262,7 +262,8 @@
     "https://github.com/pytorch/pytorch/issues/123839",
     [
       "linux",
-      "rocm"
+      "rocm",
+      "asan"
     ]
   ],
   "test_barrier_cuda (__main__.TestDistBackendWithSpawn)": [
@@ -294,6 +295,14 @@
     [
       "linux",
       "rocm",
+      "slow"
+    ]
+  ],
+  "test_batched_mm_bfloat16_bs_1_cuda_bfloat16 (__main__.TestDecompCUDA)": [
+    "123850",
+    "https://github.com/pytorch/pytorch/issues/123850",
+    [
+      "linux",
       "slow"
     ]
   ],
@@ -1190,6 +1199,14 @@
       "mac"
     ]
   ],
+  "test_load_tensor_cuda (__main__.TestContentStoreCUDA)": [
+    "123849",
+    "https://github.com/pytorch/pytorch/issues/123849",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_lobpcg (__main__.TestAutograd)": [
     "80338",
     "https://github.com/pytorch/pytorch/issues/80338",
@@ -1536,6 +1553,13 @@
   "test_optional_tensor (test_jit.TestScript)": [
     "91494",
     "https://github.com/pytorch/pytorch/issues/91494",
+    [
+      "linux"
+    ]
+  ],
+  "test_output_match_nn_functional_poisson_nll_loss_cpu_int32 (__main__.TORCH_EXPORT_EXPORTEDPROGRAMCPU)": [
+    "123851",
+    "https://github.com/pytorch/pytorch/issues/123851",
     [
       "linux"
     ]
