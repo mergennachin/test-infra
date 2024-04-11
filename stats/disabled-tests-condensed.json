@@ -582,13 +582,6 @@
       "rocm"
     ]
   ],
-  "test_cow_input_nn_functional_conv3d_cuda_float32 (__main__.TestCompositeComplianceCUDA)": [
-    "123820",
-    "https://github.com/pytorch/pytorch/issues/123820",
-    [
-      "linux"
-    ]
-  ],
   "test_cow_input_sparse_sampled_addmm_cuda_float32 (__main__.TestCompositeComplianceCUDA)": [
     "123792",
     "https://github.com/pytorch/pytorch/issues/123792",
