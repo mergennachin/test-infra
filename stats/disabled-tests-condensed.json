@@ -222,7 +222,11 @@
     "https://github.com/pytorch/pytorch/issues/123831",
     [
       "linux",
-      "rocm"
+      "rocm",
+      "asan",
+      "mac",
+      "macos",
+      "slow"
     ]
   ],
   "test_backward_ddp_inside (__main__.TensorPipeDdpUnderDistAutogradTest)": [
@@ -251,6 +255,14 @@
     "https://github.com/pytorch/pytorch/issues/114670",
     [
       "linux"
+    ]
+  ],
+  "test_backward_twice_retained_graph_with_saved_values (__main__.TestAutogradWithCompiledAutograd)": [
+    "123839",
+    "https://github.com/pytorch/pytorch/issues/123839",
+    [
+      "linux",
+      "rocm"
     ]
   ],
   "test_barrier_cuda (__main__.TestDistBackendWithSpawn)": [
@@ -467,6 +479,13 @@
     "https://github.com/pytorch/pytorch/issues/76962",
     [
       "linux"
+    ]
+  ],
+  "test_comprehensive_ones_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
+    "123837",
+    "https://github.com/pytorch/pytorch/issues/123837",
+    [
+      "rocm"
     ]
   ],
   "test_comprehensive_special_spherical_bessel_j0_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
@@ -718,6 +737,13 @@
       "linux"
     ]
   ],
+  "test_fake_tensor_mode_huggingface_mosaicml_mpt (__main__.TORCH_NN_MODULE)": [
+    "123838",
+    "https://github.com/pytorch/pytorch/issues/123838",
+    [
+      "linux"
+    ]
+  ],
   "test_fd_pool (__main__.TestMultiprocessing)": [
     "69660",
     "https://github.com/pytorch/pytorch/issues/69660",
@@ -729,6 +755,13 @@
     [
       "linux",
       "rocm"
+    ]
+  ],
+  "test_fn_fwgrad_bwgrad_linalg_lu_factor_ex_cuda_complex128 (__main__.TestFwdGradientsCUDA)": [
+    "113908",
+    "https://github.com/pytorch/pytorch/issues/113908",
+    [
+      "linux"
     ]
   ],
   "test_fn_grad___rmod___cuda_float64 (__main__.TestBwdGradientsCUDA)": [
