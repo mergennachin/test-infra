@@ -261,9 +261,21 @@
     "123839",
     "https://github.com/pytorch/pytorch/issues/123839",
     [
+      "asan",
       "linux",
       "rocm",
-      "asan"
+      "mac",
+      "macos"
+    ]
+  ],
+  "test_backward_twice_retained_graph_without_saved_values (__main__.TestAutogradWithCompiledAutograd)": [
+    "123863",
+    "https://github.com/pytorch/pytorch/issues/123863",
+    [
+      "asan",
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_barrier_cuda (__main__.TestDistBackendWithSpawn)": [
@@ -303,7 +315,8 @@
     "https://github.com/pytorch/pytorch/issues/123850",
     [
       "linux",
-      "slow"
+      "slow",
+      "rocm"
     ]
   ],
   "test_binary_op_float_inf_nan__foreach_add_cuda_bfloat16 (__main__.TestForeachCUDA)": [
@@ -346,6 +359,15 @@
     "https://github.com/pytorch/pytorch/issues/98048",
     [
       "linux"
+    ]
+  ],
+  "test_broadcast_tensors_cuda (__main__.TestUnbackedSymintsCUDA)": [
+    "123862",
+    "https://github.com/pytorch/pytorch/issues/123862",
+    [
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_buffer_mutation_3_abi_compatible_cuda (__main__.AOTInductorTestABICompatibleCuda)": [
