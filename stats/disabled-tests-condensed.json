@@ -617,13 +617,6 @@
       "rocm"
     ]
   ],
-  "test_cow_input_sparse_sampled_addmm_cuda_float32 (__main__.TestCompositeComplianceCUDA)": [
-    "123792",
-    "https://github.com/pytorch/pytorch/issues/123792",
-    [
-      "linux"
-    ]
-  ],
   "test_cpp_frontend_module_has_same_output_as_python (__main__.TestCppExtensionJIT)": [
     "116105",
     "https://github.com/pytorch/pytorch/issues/116105",
