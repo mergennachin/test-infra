@@ -100,13 +100,6 @@
       "linux"
     ]
   ],
-  "test_all_to_all_single_compile_True (__main__.TestFunctionalAutograd)": [
-    "123916",
-    "https://github.com/pytorch/pytorch/issues/123916",
-    [
-      "linux"
-    ]
-  ],
   "test_all_to_all_single_inductor (__main__.TestFunctionalAutograd)": [
     "123933",
     "https://github.com/pytorch/pytorch/issues/123933",
@@ -2520,6 +2513,22 @@
     [
       "asan",
       "linux"
+    ]
+  ],
+  "test_torchvision_models_regnet_y_16gf (__main__.TestVisionTracing)": [
+    "123976",
+    "https://github.com/pytorch/pytorch/issues/123976",
+    [
+      "linux",
+      "rocm"
+    ]
+  ],
+  "test_torchvision_models_regnet_y_8gf (__main__.TestVisionTracing)": [
+    "123977",
+    "https://github.com/pytorch/pytorch/issues/123977",
+    [
+      "linux",
+      "rocm"
     ]
   ],
   "test_tp_transform_with_uncovered_op (__main__.TensorParallelTest)": [
