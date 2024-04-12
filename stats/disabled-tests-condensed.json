@@ -295,7 +295,8 @@
     [
       "asan",
       "linux",
-      "rocm"
+      "rocm",
+      "slow"
     ]
   ],
   "test_barrier_cuda (__main__.TestDistBackendWithSpawn)": [
@@ -586,6 +587,13 @@
     "https://github.com/pytorch/pytorch/issues/105124",
     [
       "rocm"
+    ]
+  ],
+  "test_conv_unary_fusion_nnc (__main__.TestMkldnnFusion)": [
+    "123905",
+    "https://github.com/pytorch/pytorch/issues/123905",
+    [
+      "linux"
     ]
   ],
   "test_conv_weight_layout_convert_cuda (__main__.FreezingCudaTests)": [
@@ -1919,6 +1927,13 @@
       "linux"
     ]
   ],
+  "test_scatter_1d_use_native_funcol_False (__main__.DeviceMeshCollectiveTest)": [
+    "123906",
+    "https://github.com/pytorch/pytorch/issues/123906",
+    [
+      "linux"
+    ]
+  ],
   "test_scatter_uneven (__main__.DeviceMeshCollectiveTest)": [
     "96282",
     "https://github.com/pytorch/pytorch/issues/96282",
@@ -2359,6 +2374,20 @@
     "https://github.com/pytorch/pytorch/issues/121876",
     [
       "dynamo"
+    ]
+  ],
+  "test_torchvision_models_alexnet (__main__.TestVisionTracing)": [
+    "123908",
+    "https://github.com/pytorch/pytorch/issues/123908",
+    [
+      "linux"
+    ]
+  ],
+  "test_torchvision_models_densenet169 (__main__.TestVisionTracing)": [
+    "123907",
+    "https://github.com/pytorch/pytorch/issues/123907",
+    [
+      "rocm"
     ]
   ],
   "test_torchvision_models_efficientnet_b1 (__main__.TestVisionTracing)": [
