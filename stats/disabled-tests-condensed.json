@@ -100,6 +100,13 @@
       "linux"
     ]
   ],
+  "test_all_to_all_single_compile_True (__main__.TestFunctionalAutograd)": [
+    "123916",
+    "https://github.com/pytorch/pytorch/issues/123916",
+    [
+      "linux"
+    ]
+  ],
   "test_always_alive_values (jit.test_freezing.TestMKLDNNReinplacing)": [
     "91486",
     "https://github.com/pytorch/pytorch/issues/91486",
@@ -284,9 +291,11 @@
     "123875",
     "https://github.com/pytorch/pytorch/issues/123875",
     [
-      "linux",
       "asan",
-      "rocm"
+      "linux",
+      "rocm",
+      "mac",
+      "macos"
     ]
   ],
   "test_backward_twice_without_saved_values (__main__.TestAutogradWithCompiledAutograd)": [
@@ -547,6 +556,14 @@
       "rocm"
     ]
   ],
+  "test_comprehensive_special_bessel_y1_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
+    "123919",
+    "https://github.com/pytorch/pytorch/issues/123919",
+    [
+      "rocm",
+      "inductor"
+    ]
+  ],
   "test_comprehensive_special_spherical_bessel_j0_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
     "123332",
     "https://github.com/pytorch/pytorch/issues/123332",
@@ -615,6 +632,16 @@
     "https://github.com/pytorch/pytorch/issues/105528",
     [
       "rocm"
+    ]
+  ],
+  "test_copy_slices_graph_task_updates (__main__.TestAutogradWithCompiledAutograd)": [
+    "123917",
+    "https://github.com/pytorch/pytorch/issues/123917",
+    [
+      "asan",
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_cpp_frontend_module_has_same_output_as_python (__main__.TestCppExtensionJIT)": [
@@ -2405,6 +2432,14 @@
       "asan",
       "linux",
       "rocm"
+    ]
+  ],
+  "test_torchvision_models_maxvit_t (__main__.TestVisionTracing)": [
+    "123918",
+    "https://github.com/pytorch/pytorch/issues/123918",
+    [
+      "asan",
+      "linux"
     ]
   ],
   "test_tp_transform_with_uncovered_op (__main__.TensorParallelTest)": [
