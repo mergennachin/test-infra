@@ -691,6 +691,13 @@
       "rocm"
     ]
   ],
+  "test_custom_function_saved_tensors (__main__.TestAutogradWithCompiledAutograd)": [
+    "123927",
+    "https://github.com/pytorch/pytorch/issues/123927",
+    [
+      "rocm"
+    ]
+  ],
   "test_custom_op_1_cuda_cuda_wrapper (__main__.TestCudaWrapper)": [
     "122811",
     "https://github.com/pytorch/pytorch/issues/122811",
