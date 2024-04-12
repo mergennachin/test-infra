@@ -107,6 +107,13 @@
       "linux"
     ]
   ],
+  "test_all_to_all_single_inductor (__main__.TestFunctionalAutograd)": [
+    "123933",
+    "https://github.com/pytorch/pytorch/issues/123933",
+    [
+      "linux"
+    ]
+  ],
   "test_always_alive_values (jit.test_freezing.TestMKLDNNReinplacing)": [
     "91486",
     "https://github.com/pytorch/pytorch/issues/91486",
@@ -695,7 +702,9 @@
     "123927",
     "https://github.com/pytorch/pytorch/issues/123927",
     [
-      "rocm"
+      "rocm",
+      "asan",
+      "linux"
     ]
   ],
   "test_custom_op_1_cuda_cuda_wrapper (__main__.TestCudaWrapper)": [
