@@ -275,14 +275,27 @@
       "asan",
       "linux",
       "rocm",
-      "slow"
+      "slow",
+      "mac",
+      "macos"
     ]
   ],
   "test_backward_twice_with_saved_values (__main__.TestAutogradWithCompiledAutograd)": [
     "123875",
     "https://github.com/pytorch/pytorch/issues/123875",
     [
-      "linux"
+      "linux",
+      "asan",
+      "rocm"
+    ]
+  ],
+  "test_backward_twice_without_saved_values (__main__.TestAutogradWithCompiledAutograd)": [
+    "123892",
+    "https://github.com/pytorch/pytorch/issues/123892",
+    [
+      "asan",
+      "linux",
+      "rocm"
     ]
   ],
   "test_barrier_cuda (__main__.TestDistBackendWithSpawn)": [
@@ -1664,6 +1677,13 @@
       "linux"
     ]
   ],
+  "test_print (__main__.TestTorch)": [
+    "123893",
+    "https://github.com/pytorch/pytorch/issues/123893",
+    [
+      "inductor"
+    ]
+  ],
   "test_profiler (__main__.TestJit)": [
     "65521",
     "https://github.com/pytorch/pytorch/issues/65521",
@@ -2052,6 +2072,13 @@
       "slow"
     ]
   ],
+  "test_set__not_allowed (__main__.TestAOTAutograd)": [
+    "123888",
+    "https://github.com/pytorch/pytorch/issues/123888",
+    [
+      "dynamo"
+    ]
+  ],
   "test_set_gloo_pg_timeout (__main__.ProcessGroupGlooTest)": [
     "115740",
     "https://github.com/pytorch/pytorch/issues/115740",
@@ -2332,6 +2359,30 @@
     "https://github.com/pytorch/pytorch/issues/121876",
     [
       "dynamo"
+    ]
+  ],
+  "test_torchvision_models_efficientnet_b1 (__main__.TestVisionTracing)": [
+    "123889",
+    "https://github.com/pytorch/pytorch/issues/123889",
+    [
+      "rocm"
+    ]
+  ],
+  "test_torchvision_models_efficientnet_b3 (__main__.TestVisionTracing)": [
+    "123891",
+    "https://github.com/pytorch/pytorch/issues/123891",
+    [
+      "linux",
+      "rocm"
+    ]
+  ],
+  "test_torchvision_models_efficientnet_b7 (__main__.TestVisionTracing)": [
+    "123890",
+    "https://github.com/pytorch/pytorch/issues/123890",
+    [
+      "asan",
+      "linux",
+      "rocm"
     ]
   ],
   "test_tp_transform_with_uncovered_op (__main__.TensorParallelTest)": [
