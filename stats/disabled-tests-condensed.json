@@ -941,7 +941,8 @@
     "https://github.com/pytorch/pytorch/issues/123949",
     [
       "linux",
-      "rocm"
+      "rocm",
+      "slow"
     ]
   ],
   "test_fs_preserve_sharing (__main__.TestMultiprocessing)": [
