@@ -1057,13 +1057,6 @@
       "linux"
     ]
   ],
-  "test_hsdp_save_load_state_dict (__main__.TestFSDPHybridShard)": [
-    "123749",
-    "https://github.com/pytorch/pytorch/issues/123749",
-    [
-      "linux"
-    ]
-  ],
   "test_ind_worker_queue (__main__.TestIndividualWorkerQueue)": [
     "68643",
     "https://github.com/pytorch/pytorch/issues/68643",
