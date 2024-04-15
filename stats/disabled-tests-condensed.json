@@ -368,6 +368,15 @@
       "slow"
     ]
   ],
+  "test_batched_mm_bfloat16_bs_4_cuda_bfloat16 (__main__.TestDecompCUDA)": [
+    "124073",
+    "https://github.com/pytorch/pytorch/issues/124073",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_binary_op_float_inf_nan__foreach_add_cuda_bfloat16 (__main__.TestForeachCUDA)": [
     "123634",
     "https://github.com/pytorch/pytorch/issues/123634",
@@ -378,13 +387,6 @@
   "test_binary_op_list_error_cases__foreach_add_cuda_bool (__main__.TestForeachCUDA)": [
     "122900",
     "https://github.com/pytorch/pytorch/issues/122900",
-    [
-      "linux"
-    ]
-  ],
-  "test_binary_op_list_error_cases__foreach_add_cuda_complex128 (__main__.TestForeachCUDA)": [
-    "123003",
-    "https://github.com/pytorch/pytorch/issues/123003",
     [
       "linux"
     ]
@@ -827,6 +829,15 @@
     "https://github.com/pytorch/pytorch/issues/123536",
     [
       "dynamo"
+    ]
+  ],
+  "test_expand_cuda (__main__.TestUnbackedSymintsCUDA)": [
+    "124074",
+    "https://github.com/pytorch/pytorch/issues/124074",
+    [
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_extract_gradients_from_optimizer_set_to_none (__main__.TestIdentifyGradients)": [
