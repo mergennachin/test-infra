@@ -384,13 +384,6 @@
       "linux"
     ]
   ],
-  "test_binary_op_list_error_cases__foreach_add_cuda_bool (__main__.TestForeachCUDA)": [
-    "122900",
-    "https://github.com/pytorch/pytorch/issues/122900",
-    [
-      "linux"
-    ]
-  ],
   "test_binary_op_list_error_cases__foreach_add_cuda_complex64 (__main__.TestForeachCUDA)": [
     "124075",
     "https://github.com/pytorch/pytorch/issues/124075",
@@ -1337,6 +1330,13 @@
   "test_lobpcg (__main__.TestAutograd)": [
     "80338",
     "https://github.com/pytorch/pytorch/issues/80338",
+    [
+      "linux"
+    ]
+  ],
+  "test_long (__main__.NCCLTraceTest)": [
+    "124087",
+    "https://github.com/pytorch/pytorch/issues/124087",
     [
       "linux"
     ]
@@ -2398,13 +2398,6 @@
   "test_successful (jit.test_freezing.TestMKLDNNReinplacing)": [
     "91489",
     "https://github.com/pytorch/pytorch/issues/91489",
-    [
-      "linux"
-    ]
-  ],
-  "test_super_resolution_cuda (__main__.TestModels)": [
-    "105332",
-    "https://github.com/pytorch/pytorch/issues/105332",
     [
       "linux"
     ]
