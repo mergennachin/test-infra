@@ -377,16 +377,16 @@
       "linux"
     ]
   ],
-  "test_binary_op_list_error_cases__foreach_add_cuda_bool (__main__.TestForeachCUDA)": [
-    "122900",
-    "https://github.com/pytorch/pytorch/issues/122900",
+  "test_binary_op_list_error_cases__foreach_add_cuda (__main__.TestForeachCUDA)": [
+    "124075",
+    "https://github.com/pytorch/pytorch/issues/124075",
     [
       "linux"
     ]
   ],
-  "test_binary_op_list_error_cases__foreach_add_cuda_complex64 (__main__.TestForeachCUDA)": [
-    "124075",
-    "https://github.com/pytorch/pytorch/issues/124075",
+  "test_binary_op_list_error_cases__foreach_add_cuda_bool (__main__.TestForeachCUDA)": [
+    "122900",
+    "https://github.com/pytorch/pytorch/issues/122900",
     [
       "linux"
     ]
