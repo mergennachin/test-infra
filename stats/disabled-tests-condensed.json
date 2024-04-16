@@ -379,6 +379,15 @@
       "slow"
     ]
   ],
+  "test_batched_mm_float32_bs_10_cuda_float32 (__main__.TestDecompCUDA)": [
+    "124201",
+    "https://github.com/pytorch/pytorch/issues/124201",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_binary_op_float_inf_nan__foreach_add_cuda_bfloat16 (__main__.TestForeachCUDA)": [
     "123634",
     "https://github.com/pytorch/pytorch/issues/123634",
@@ -592,6 +601,13 @@
     [
       "inductor",
       "linux"
+    ]
+  ],
+  "test_comprehensive_ones_cuda_int32 (__main__.TestInductorOpInfoCUDA)": [
+    "124202",
+    "https://github.com/pytorch/pytorch/issues/124202",
+    [
+      "inductor"
     ]
   ],
   "test_comprehensive_ones_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
@@ -824,7 +840,9 @@
     "124165",
     "https://github.com/pytorch/pytorch/issues/124165",
     [
-      "rocm"
+      "rocm",
+      "linux",
+      "slow"
     ]
   ],
   "test_diagonal_expanded_v (__main__.TestAutogradWithCompiledAutograd)": [
