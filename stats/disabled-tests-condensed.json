@@ -138,13 +138,6 @@
       "slow"
     ]
   ],
-  "test_aot_export_cond_simple_cuda_float32 (__main__.TestHOPCUDA)": [
-    "123096",
-    "https://github.com/pytorch/pytorch/issues/123096",
-    [
-      "linux"
-    ]
-  ],
   "test_aot_export_cond_simple_cuda_int32 (__main__.TestHOPCUDA)": [
     "123194",
     "https://github.com/pytorch/pytorch/issues/123194",
@@ -156,6 +149,13 @@
   "test_aot_export_module_joint (__main__.TestAOTExport)": [
     "124166",
     "https://github.com/pytorch/pytorch/issues/124166",
+    [
+      "dynamo"
+    ]
+  ],
+  "test_aot_export_multiple_outputs_require_grad_banned (__main__.TestAOTExport)": [
+    "124221",
+    "https://github.com/pytorch/pytorch/issues/124221",
     [
       "dynamo"
     ]
@@ -771,7 +771,9 @@
     [
       "asan",
       "linux",
-      "rocm"
+      "rocm",
+      "mac",
+      "macos"
     ]
   ],
   "test_custom_op_1_cuda_cuda_wrapper (__main__.TestCudaWrapper)": [
@@ -840,9 +842,10 @@
     "124165",
     "https://github.com/pytorch/pytorch/issues/124165",
     [
-      "rocm",
       "linux",
-      "slow"
+      "rocm",
+      "slow",
+      "asan"
     ]
   ],
   "test_diagonal_expanded_v (__main__.TestAutogradWithCompiledAutograd)": [
@@ -901,6 +904,13 @@
     "https://github.com/pytorch/pytorch/issues/116121",
     [
       "dynamo"
+    ]
+  ],
+  "test_duplicate_backward_root (__main__.TestAutogradWithCompiledAutograd)": [
+    "124219",
+    "https://github.com/pytorch/pytorch/issues/124219",
+    [
+      "rocm"
     ]
   ],
   "test_equivalent_backed_unbacked_cuda (__main__.TestUnbackedSymintsCUDA)": [
@@ -1471,13 +1481,6 @@
       "rocm"
     ]
   ],
-  "test_memory_format_nn_ConvTranspose1d_cuda_complex32 (__main__.TestModuleCUDA)": [
-    "107426",
-    "https://github.com/pytorch/pytorch/issues/107426",
-    [
-      "linux"
-    ]
-  ],
   "test_memory_format_nn_ConvTranspose2d_cuda_complex32 (__main__.TestModuleCUDA)": [
     "95172",
     "https://github.com/pytorch/pytorch/issues/95172",
@@ -2023,6 +2026,13 @@
     "https://github.com/pytorch/pytorch/issues/107950",
     [
       "rocm"
+    ]
+  ],
+  "test_refcounts (__main__.TestTorchTidyProfiler)": [
+    "124220",
+    "https://github.com/pytorch/pytorch/issues/124220",
+    [
+      "dynamo"
     ]
   ],
   "test_relu_cuda_dynamic_shapes_cuda_wrapper (__main__.DynamicShapesCudaWrapperCudaTests)": [
