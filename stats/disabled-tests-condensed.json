@@ -827,6 +827,13 @@
       "rocm"
     ]
   ],
+  "test_diagonal_expanded_v (__main__.TestAutogradWithCompiledAutograd)": [
+    "124183",
+    "https://github.com/pytorch/pytorch/issues/124183",
+    [
+      "rocm"
+    ]
+  ],
   "test_distributed_checkpoint_state_dict_type0 (__main__.TestDistributedCheckpoint)": [
     "113937",
     "https://github.com/pytorch/pytorch/issues/113937",
