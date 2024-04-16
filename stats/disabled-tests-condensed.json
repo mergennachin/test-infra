@@ -308,7 +308,9 @@
       "asan",
       "linux",
       "rocm",
-      "slow"
+      "slow",
+      "mac",
+      "macos"
     ]
   ],
   "test_barrier_cuda (__main__.TestDistBackendWithSpawn)": [
@@ -373,6 +375,13 @@
   "test_binary_op_float_inf_nan__foreach_add_cuda_bfloat16 (__main__.TestForeachCUDA)": [
     "123634",
     "https://github.com/pytorch/pytorch/issues/123634",
+    [
+      "linux"
+    ]
+  ],
+  "test_binary_op_float_inf_nan__foreach_add_cuda_float16 (__main__.TestForeachCUDA)": [
+    "124125",
+    "https://github.com/pytorch/pytorch/issues/124125",
     [
       "linux"
     ]
@@ -567,7 +576,8 @@
     "123874",
     "https://github.com/pytorch/pytorch/issues/123874",
     [
-      "inductor"
+      "inductor",
+      "linux"
     ]
   ],
   "test_comprehensive_ones_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
@@ -719,6 +729,15 @@
       "rocm",
       "asan",
       "linux"
+    ]
+  ],
+  "test_custom_function_setup_context_simple (__main__.TestAutogradWithCompiledAutograd)": [
+    "124126",
+    "https://github.com/pytorch/pytorch/issues/124126",
+    [
+      "asan",
+      "linux",
+      "rocm"
     ]
   ],
   "test_custom_op_1_cuda_cuda_wrapper (__main__.TestCudaWrapper)": [
@@ -2398,6 +2417,13 @@
   "test_successful (jit.test_freezing.TestMKLDNNReinplacing)": [
     "91489",
     "https://github.com/pytorch/pytorch/issues/91489",
+    [
+      "linux"
+    ]
+  ],
+  "test_super_resolution_cuda (__main__.TestModels)": [
+    "105332",
+    "https://github.com/pytorch/pytorch/issues/105332",
     [
       "linux"
     ]
