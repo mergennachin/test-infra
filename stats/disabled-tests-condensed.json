@@ -153,6 +153,13 @@
       "slow"
     ]
   ],
+  "test_aot_export_module_joint (__main__.TestAOTExport)": [
+    "124166",
+    "https://github.com/pytorch/pytorch/issues/124166",
+    [
+      "dynamo"
+    ]
+  ],
   "test_aot_export_while_loop_simple_cuda_float32 (__main__.TestHOPCUDA)": [
     "123948",
     "https://github.com/pytorch/pytorch/issues/123948",
@@ -508,6 +515,13 @@
       "linux"
     ]
   ],
+  "test_circular_dependencies (__main__.TestImports)": [
+    "110040",
+    "https://github.com/pytorch/pytorch/issues/110040",
+    [
+      "rocm"
+    ]
+  ],
   "test_compare_cpu__refs_empty_strided_cuda_float32 (__main__.TestCommonCUDA)": [
     "101625",
     "https://github.com/pytorch/pytorch/issues/101625",
@@ -728,9 +742,11 @@
     "123927",
     "https://github.com/pytorch/pytorch/issues/123927",
     [
-      "rocm",
       "asan",
-      "linux"
+      "linux",
+      "rocm",
+      "mac",
+      "macos"
     ]
   ],
   "test_custom_function_setup_context_simple (__main__.TestAutogradWithCompiledAutograd)": [
@@ -797,6 +813,16 @@
   "test_dependent_backward (__main__.TestAutogradWithCompiledAutograd)": [
     "124162",
     "https://github.com/pytorch/pytorch/issues/124162",
+    [
+      "rocm",
+      "asan",
+      "linux",
+      "slow"
+    ]
+  ],
+  "test_detach (__main__.TestAutogradWithCompiledAutograd)": [
+    "124165",
+    "https://github.com/pytorch/pytorch/issues/124165",
     [
       "rocm"
     ]
