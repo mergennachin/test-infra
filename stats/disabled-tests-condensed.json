@@ -794,6 +794,13 @@
       "rocm"
     ]
   ],
+  "test_dependent_backward (__main__.TestAutogradWithCompiledAutograd)": [
+    "124162",
+    "https://github.com/pytorch/pytorch/issues/124162",
+    [
+      "rocm"
+    ]
+  ],
   "test_distributed_checkpoint_state_dict_type0 (__main__.TestDistributedCheckpoint)": [
     "113937",
     "https://github.com/pytorch/pytorch/issues/113937",
@@ -900,11 +907,6 @@
     [
       "linux"
     ]
-  ],
-  "test_fd_pool (__main__.TestMultiprocessing)": [
-    "69660",
-    "https://github.com/pytorch/pytorch/issues/69660",
-    []
   ],
   "test_find_or_create_pg (__main__.TestPgTag)": [
     "107278",
