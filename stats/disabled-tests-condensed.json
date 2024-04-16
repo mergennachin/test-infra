@@ -672,7 +672,9 @@
       "asan",
       "linux",
       "rocm",
-      "slow"
+      "slow",
+      "mac",
+      "macos"
     ]
   ],
   "test_cpp_frontend_module_has_same_output_as_python (__main__.TestCppExtensionJIT)": [
@@ -781,6 +783,15 @@
     "https://github.com/pytorch/pytorch/issues/101787",
     [
       "dynamo"
+    ]
+  ],
+  "test_dep_nograd (__main__.TestAutogradWithCompiledAutograd)": [
+    "124153",
+    "https://github.com/pytorch/pytorch/issues/124153",
+    [
+      "asan",
+      "linux",
+      "rocm"
     ]
   ],
   "test_distributed_checkpoint_state_dict_type0 (__main__.TestDistributedCheckpoint)": [
@@ -2532,6 +2543,15 @@
   "test_torchvision_models_efficientnet_b7 (__main__.TestVisionTracing)": [
     "123890",
     "https://github.com/pytorch/pytorch/issues/123890",
+    [
+      "asan",
+      "linux",
+      "rocm"
+    ]
+  ],
+  "test_torchvision_models_efficientnet_v2_m (__main__.TestVisionTracing)": [
+    "124152",
+    "https://github.com/pytorch/pytorch/issues/124152",
     [
       "asan",
       "linux",
