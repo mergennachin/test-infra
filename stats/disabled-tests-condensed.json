@@ -833,6 +833,13 @@
       "dynamo"
     ]
   ],
+  "test_default_partitioner_getitem (__main__.TestPartitioning)": [
+    "124278",
+    "https://github.com/pytorch/pytorch/issues/124278",
+    [
+      "dynamo"
+    ]
+  ],
   "test_dep_nograd (__main__.TestAutogradWithCompiledAutograd)": [
     "124153",
     "https://github.com/pytorch/pytorch/issues/124153",
@@ -848,10 +855,12 @@
     "124162",
     "https://github.com/pytorch/pytorch/issues/124162",
     [
-      "rocm",
       "asan",
       "linux",
-      "slow"
+      "rocm",
+      "slow",
+      "mac",
+      "macos"
     ]
   ],
   "test_detach (__main__.TestAutogradWithCompiledAutograd)": [
@@ -1082,7 +1091,9 @@
     "124243",
     "https://github.com/pytorch/pytorch/issues/124243",
     [
-      "rocm"
+      "rocm",
+      "asan",
+      "linux"
     ]
   ],
   "test_gc_in_destructor (__main__.TestAutogradWithCompiledAutograd)": [
@@ -1102,6 +1113,13 @@
   "test_grad_acc_cpu_offload_use_orig_params_True (__main__.TestGradAcc)": [
     "123726",
     "https://github.com/pytorch/pytorch/issues/123726",
+    [
+      "rocm"
+    ]
+  ],
+  "test_grad_badcalls (__main__.TestAutogradWithCompiledAutograd)": [
+    "124277",
+    "https://github.com/pytorch/pytorch/issues/124277",
     [
       "rocm"
     ]
@@ -1842,6 +1860,13 @@
       "rocm"
     ]
   ],
+  "test_pad_dynamic_cuda (__main__.TestInductorDynamicCUDA)": [
+    "124276",
+    "https://github.com/pytorch/pytorch/issues/124276",
+    [
+      "rocm"
+    ]
+  ],
   "test_param_registration_after_forward (__main__.TestFullyShardRegisteredParams)": [
     "121233",
     "https://github.com/pytorch/pytorch/issues/121233",
@@ -1898,7 +1923,8 @@
     "124265",
     "https://github.com/pytorch/pytorch/issues/124265",
     [
-      "linux"
+      "linux",
+      "slow"
     ]
   ],
   "test_prim_grad_undefined (test_jit.TestScript)": [
@@ -1927,6 +1953,14 @@
       "linux"
     ]
   ],
+  "test_profiler_conv2d_bias_followed_by_batchnorm2d_pattern (__main__.TestExperimentalUtils)": [
+    "82720",
+    "https://github.com/pytorch/pytorch/issues/82720",
+    [
+      "linux",
+      "dynamo"
+    ]
+  ],
   "test_profiler_cuda_sync_events (__main__.TestProfiler)": [
     "106027",
     "https://github.com/pytorch/pytorch/issues/106027",
@@ -1950,14 +1984,6 @@
     [
       "linux",
       "rocm"
-    ]
-  ],
-  "test_profiler_experimental_tree_with_memory_and_stack (__main__.TestProfilerTree)": [
-    "83228",
-    "https://github.com/pytorch/pytorch/issues/83228",
-    [
-      "linux",
-      "asan"
     ]
   ],
   "test_profiler_experimental_tree_with_record_function (__main__.TestProfilerTree)": [
