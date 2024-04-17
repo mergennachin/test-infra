@@ -624,6 +624,13 @@
       "rocm"
     ]
   ],
+  "test_comprehensive_ones_like_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
+    "124264",
+    "https://github.com/pytorch/pytorch/issues/124264",
+    [
+      "rocm"
+    ]
+  ],
   "test_comprehensive_special_bessel_y1_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
     "123919",
     "https://github.com/pytorch/pytorch/issues/123919",
@@ -922,7 +929,10 @@
     "124219",
     "https://github.com/pytorch/pytorch/issues/124219",
     [
-      "rocm"
+      "rocm",
+      "asan",
+      "linux",
+      "slow"
     ]
   ],
   "test_equivalent_backed_unbacked_cuda (__main__.TestUnbackedSymintsCUDA)": [
@@ -1071,6 +1081,13 @@
   "test_function_returns_input (__main__.TestAutogradWithCompiledAutograd)": [
     "124243",
     "https://github.com/pytorch/pytorch/issues/124243",
+    [
+      "rocm"
+    ]
+  ],
+  "test_gc_in_destructor (__main__.TestAutogradWithCompiledAutograd)": [
+    "124266",
+    "https://github.com/pytorch/pytorch/issues/124266",
     [
       "rocm"
     ]
@@ -1875,6 +1892,13 @@
       "linux",
       "rocm",
       "slow"
+    ]
+  ],
+  "test_precompilations (__main__.TestMaxAutotune)": [
+    "124265",
+    "https://github.com/pytorch/pytorch/issues/124265",
+    [
+      "linux"
     ]
   ],
   "test_prim_grad_undefined (test_jit.TestScript)": [
@@ -2724,6 +2748,13 @@
     "https://github.com/pytorch/pytorch/issues/121144",
     [
       "rocm"
+    ]
+  ],
+  "test_transpose_infer_shape (__main__.TORCH_NN_MODULE)": [
+    "124267",
+    "https://github.com/pytorch/pytorch/issues/124267",
+    [
+      "linux"
     ]
   ],
   "test_triton_kernel_extern_kernel_arg_abi_compatible_cuda (__main__.AOTInductorTestABICompatibleCuda)": [
