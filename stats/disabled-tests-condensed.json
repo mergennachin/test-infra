@@ -684,6 +684,13 @@
       "linux"
     ]
   ],
+  "test_contiguous (__main__.TestPartitioning)": [
+    "124323",
+    "https://github.com/pytorch/pytorch/issues/124323",
+    [
+      "dynamo"
+    ]
+  ],
   "test_conv (quantization.jit.test_quantize_jit.TestQuantizeJit)": [
     "105125",
     "https://github.com/pytorch/pytorch/issues/105125",
@@ -913,7 +920,9 @@
       "asan",
       "linux",
       "rocm",
-      "slow"
+      "slow",
+      "mac",
+      "macos"
     ]
   ],
   "test_distributed_checkpoint_state_dict_type0 (__main__.TestDistributedCheckpoint)": [
@@ -1166,9 +1175,10 @@
     "124294",
     "https://github.com/pytorch/pytorch/issues/124294",
     [
-      "rocm",
       "asan",
-      "linux"
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_grad_nn_GroupNorm_cuda_float64 (__main__.TestModuleCUDA)": [
@@ -1225,6 +1235,14 @@
     "https://github.com/pytorch/pytorch/issues/119260",
     [
       "inductor"
+    ]
+  ],
+  "test_grad_to_node_inplace (__main__.TestAutogradWithCompiledAutograd)": [
+    "124322",
+    "https://github.com/pytorch/pytorch/issues/124322",
+    [
+      "linux",
+      "rocm"
     ]
   ],
   "test_gradgrad_nn_GroupNorm_cuda_float64 (__main__.TestModuleCUDA)": [
