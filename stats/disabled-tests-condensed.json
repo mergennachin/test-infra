@@ -160,6 +160,13 @@
       "dynamo"
     ]
   ],
+  "test_aot_export_simplified_basic (__main__.TestAOTExport)": [
+    "124254",
+    "https://github.com/pytorch/pytorch/issues/124254",
+    [
+      "dynamo"
+    ]
+  ],
   "test_aot_export_while_loop_simple_cuda_float32 (__main__.TestHOPCUDA)": [
     "123948",
     "https://github.com/pytorch/pytorch/issues/123948",
@@ -825,7 +832,9 @@
     [
       "asan",
       "linux",
-      "rocm"
+      "rocm",
+      "mac",
+      "macos"
     ]
   ],
   "test_dependent_backward (__main__.TestAutogradWithCompiledAutograd)": [
@@ -852,9 +861,10 @@
     "124183",
     "https://github.com/pytorch/pytorch/issues/124183",
     [
-      "rocm",
       "asan",
-      "linux"
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_distributed_checkpoint_state_dict_type0 (__main__.TestDistributedCheckpoint)": [
@@ -1306,7 +1316,8 @@
     "124242",
     "https://github.com/pytorch/pytorch/issues/124242",
     [
-      "linux"
+      "linux",
+      "slow"
     ]
   ],
   "test_intra_node_comm_all_reduce (__main__.CommTest)": [
@@ -2471,6 +2482,13 @@
       "macos",
       "rocm",
       "slow"
+    ]
+  ],
+  "test_sparse_tensors (__main__.TestTorchTidyProfiler)": [
+    "124253",
+    "https://github.com/pytorch/pytorch/issues/124253",
+    [
+      "dynamo"
     ]
   ],
   "test_split_with_sizes_aot_autograd_cleans_up_traceback_meta (__main__.AotAutogradFallbackTests)": [
