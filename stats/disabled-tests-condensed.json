@@ -852,7 +852,9 @@
     "124183",
     "https://github.com/pytorch/pytorch/issues/124183",
     [
-      "rocm"
+      "rocm",
+      "asan",
+      "linux"
     ]
   ],
   "test_distributed_checkpoint_state_dict_type0 (__main__.TestDistributedCheckpoint)": [
@@ -1052,6 +1054,13 @@
   "test_fully_shard_training_overlap (__main__.TestFullyShardOverlap)": [
     "120961",
     "https://github.com/pytorch/pytorch/issues/120961",
+    [
+      "rocm"
+    ]
+  ],
+  "test_function_returns_input (__main__.TestAutogradWithCompiledAutograd)": [
+    "124243",
+    "https://github.com/pytorch/pytorch/issues/124243",
     [
       "rocm"
     ]
@@ -1291,6 +1300,13 @@
     "https://github.com/pytorch/pytorch/issues/118636",
     [
       "rocm"
+    ]
+  ],
+  "test_inputs_aliasing_bytecode_stack_restore (__main__.TestCompiledAutograd)": [
+    "124242",
+    "https://github.com/pytorch/pytorch/issues/124242",
+    [
+      "linux"
     ]
   ],
   "test_intra_node_comm_all_reduce (__main__.CommTest)": [
