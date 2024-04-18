@@ -1219,10 +1219,12 @@
     "124277",
     "https://github.com/pytorch/pytorch/issues/124277",
     [
+      "asan",
       "linux",
       "rocm",
-      "asan",
-      "slow"
+      "slow",
+      "mac",
+      "macos"
     ]
   ],
   "test_grad_fn_attr_bindings (__main__.TestAutogradWithCompiledAutograd)": [
@@ -1425,6 +1427,16 @@
   "test_indexing (__main__.TestAutogradWithCompiledAutograd)": [
     "124420",
     "https://github.com/pytorch/pytorch/issues/124420",
+    [
+      "linux",
+      "rocm",
+      "asan",
+      "slow"
+    ]
+  ],
+  "test_indexing_duplicates (__main__.TestAutogradWithCompiledAutograd)": [
+    "124430",
+    "https://github.com/pytorch/pytorch/issues/124430",
     [
       "linux",
       "rocm"
