@@ -426,6 +426,13 @@
       "linux"
     ]
   ],
+  "test_binary_op_float_inf_nan__foreach_add_cuda_float32 (__main__.TestForeachCUDA)": [
+    "124354",
+    "https://github.com/pytorch/pytorch/issues/124354",
+    [
+      "linux"
+    ]
+  ],
   "test_binary_op_list_error_cases__foreach_add_cuda (__main__.TestForeachCUDA)": [
     "124075",
     "https://github.com/pytorch/pytorch/issues/124075",
@@ -878,6 +885,13 @@
       "dynamo"
     ]
   ],
+  "test_default_partitioner_output_tensor_shape_tensor (__main__.TestPartitioning)": [
+    "124355",
+    "https://github.com/pytorch/pytorch/issues/124355",
+    [
+      "dynamo"
+    ]
+  ],
   "test_dep_nograd (__main__.TestAutogradWithCompiledAutograd)": [
     "124153",
     "https://github.com/pytorch/pytorch/issues/124153",
@@ -980,10 +994,12 @@
     "124219",
     "https://github.com/pytorch/pytorch/issues/124219",
     [
-      "rocm",
       "asan",
       "linux",
-      "slow"
+      "rocm",
+      "slow",
+      "mac",
+      "macos"
     ]
   ],
   "test_equivalent_backed_unbacked_cuda (__main__.TestUnbackedSymintsCUDA)": [
@@ -1241,9 +1257,10 @@
     "124322",
     "https://github.com/pytorch/pytorch/issues/124322",
     [
+      "asan",
       "linux",
       "rocm",
-      "asan"
+      "slow"
     ]
   ],
   "test_grad_unreachable (__main__.TestAutogradWithCompiledAutograd)": [
@@ -1251,7 +1268,8 @@
     "https://github.com/pytorch/pytorch/issues/124347",
     [
       "linux",
-      "rocm"
+      "rocm",
+      "asan"
     ]
   ],
   "test_gradgrad_nn_GroupNorm_cuda_float64 (__main__.TestModuleCUDA)": [
