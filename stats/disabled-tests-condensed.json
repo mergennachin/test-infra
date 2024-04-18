@@ -498,6 +498,15 @@
       "rocm"
     ]
   ],
+  "test_build_tuple_unpack_dynamic_shapes (__main__.DynamicShapesMiscTests)": [
+    "124364",
+    "https://github.com/pytorch/pytorch/issues/124364",
+    [
+      "linux",
+      "mac",
+      "macos"
+    ]
+  ],
   "test_builtin_remote_message_dropped_timeout_to_self (__main__.FaultyFaultyAgentRpcTest)": [
     "69179",
     "https://github.com/pytorch/pytorch/issues/69179",
@@ -1305,6 +1314,15 @@
     "https://github.com/pytorch/pytorch/issues/105024",
     [
       "linux"
+    ]
+  ],
+  "test_hook_closure_cycle_use_custom_function_False_use_tensor_hook_False (__main__.TestAutogradWithCompiledAutograd)": [
+    "124365",
+    "https://github.com/pytorch/pytorch/issues/124365",
+    [
+      "asan",
+      "linux",
+      "rocm"
     ]
   ],
   "test_ind_worker_queue (__main__.TestIndividualWorkerQueue)": [
