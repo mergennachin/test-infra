@@ -1242,6 +1242,15 @@
     "https://github.com/pytorch/pytorch/issues/124322",
     [
       "linux",
+      "rocm",
+      "asan"
+    ]
+  ],
+  "test_grad_unreachable (__main__.TestAutogradWithCompiledAutograd)": [
+    "124347",
+    "https://github.com/pytorch/pytorch/issues/124347",
+    [
+      "linux",
       "rocm"
     ]
   ],
