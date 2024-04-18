@@ -1153,7 +1153,8 @@
     "https://github.com/pytorch/pytorch/issues/124376",
     [
       "linux",
-      "rocm"
+      "rocm",
+      "slow"
     ]
   ],
   "test_fs_preserve_sharing (__main__.TestMultiprocessing)": [
@@ -1349,6 +1350,15 @@
     "https://github.com/pytorch/pytorch/issues/124377",
     [
       "linux",
+      "rocm",
+      "asan"
+    ]
+  ],
+  "test_hook_with_no_name (__main__.TestAutogradWithCompiledAutograd)": [
+    "124392",
+    "https://github.com/pytorch/pytorch/issues/124392",
+    [
+      "linux",
       "rocm"
     ]
   ],
@@ -1519,14 +1529,6 @@
     [
       "rocm",
       "linux"
-    ]
-  ],
-  "test_item_unbacked_stride_nobreak_cuda (__main__.TestInductorDynamicCUDA)": [
-    "123333",
-    "https://github.com/pytorch/pytorch/issues/123333",
-    [
-      "linux",
-      "slow"
     ]
   ],
   "test_jvpvjp_nn_functional_conv3d_cuda_float32 (__main__.TestOperatorsCUDA)": [
