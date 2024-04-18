@@ -1378,7 +1378,8 @@
     "https://github.com/pytorch/pytorch/issues/124406",
     [
       "linux",
-      "rocm"
+      "rocm",
+      "asan"
     ]
   ],
   "test_ind_worker_queue (__main__.TestIndividualWorkerQueue)": [
@@ -1418,6 +1419,14 @@
     "118306",
     "https://github.com/pytorch/pytorch/issues/118306",
     [
+      "rocm"
+    ]
+  ],
+  "test_indexing (__main__.TestAutogradWithCompiledAutograd)": [
+    "124420",
+    "https://github.com/pytorch/pytorch/issues/124420",
+    [
+      "linux",
       "rocm"
     ]
   ],
@@ -1754,6 +1763,16 @@
       "dynamo"
     ]
   ],
+  "test_min_cut_partitioner_save_shape (__main__.TestPartitioning)": [
+    "104324",
+    "https://github.com/pytorch/pytorch/issues/104324",
+    [
+      "linux",
+      "win",
+      "windows",
+      "dynamo"
+    ]
+  ],
   "test_mlp_contiguous_relu_compile_cutlass (__main__.SparseSemiStructuredTensorCompileTest)": [
     "122352",
     "https://github.com/pytorch/pytorch/issues/122352",
@@ -2080,14 +2099,6 @@
   "test_pre_dispatch_export_auto_functionalize_simple_cuda_float32 (__main__.TestHOPCUDA)": [
     "123267",
     "https://github.com/pytorch/pytorch/issues/123267",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
-  "test_pre_dispatch_export_cond_simple_cuda_float32 (__main__.TestHOPCUDA)": [
-    "123352",
-    "https://github.com/pytorch/pytorch/issues/123352",
     [
       "linux",
       "slow"
