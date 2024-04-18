@@ -657,6 +657,14 @@
       "rocm"
     ]
   ],
+  "test_comprehensive_nn_functional_selu_cpu_float64 (__main__.TestInductorOpInfoCPU)": [
+    "124375",
+    "https://github.com/pytorch/pytorch/issues/124375",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_comprehensive_ones_cuda_int32 (__main__.TestInductorOpInfoCUDA)": [
     "124202",
     "https://github.com/pytorch/pytorch/issues/124202",
@@ -1140,6 +1148,14 @@
       "slow"
     ]
   ],
+  "test_free_activation_memory_subclass (__main__.TestCompiledAutograd)": [
+    "124376",
+    "https://github.com/pytorch/pytorch/issues/124376",
+    [
+      "linux",
+      "rocm"
+    ]
+  ],
   "test_fs_preserve_sharing (__main__.TestMultiprocessing)": [
     "91467",
     "https://github.com/pytorch/pytorch/issues/91467",
@@ -1158,9 +1174,11 @@
     "124243",
     "https://github.com/pytorch/pytorch/issues/124243",
     [
-      "rocm",
       "asan",
-      "linux"
+      "linux",
+      "rocm",
+      "mac",
+      "macos"
     ]
   ],
   "test_gc_in_destructor (__main__.TestAutogradWithCompiledAutograd)": [
@@ -1321,6 +1339,15 @@
     "https://github.com/pytorch/pytorch/issues/124365",
     [
       "asan",
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_hook_closure_cycle_use_custom_function_False_use_tensor_hook_True (__main__.TestAutogradWithCompiledAutograd)": [
+    "124377",
+    "https://github.com/pytorch/pytorch/issues/124377",
+    [
       "linux",
       "rocm"
     ]
@@ -1484,6 +1511,14 @@
     "https://github.com/pytorch/pytorch/issues/123832",
     [
       "dynamo"
+    ]
+  ],
+  "test_item_to_inputs_kernel_nobreak_cuda (__main__.TestInductorDynamicCUDA)": [
+    "119538",
+    "https://github.com/pytorch/pytorch/issues/119538",
+    [
+      "rocm",
+      "linux"
     ]
   ],
   "test_item_unbacked_stride_nobreak_cuda (__main__.TestInductorDynamicCUDA)": [
@@ -1667,6 +1702,16 @@
       "linux",
       "mac",
       "macos",
+      "dynamo"
+    ]
+  ],
+  "test_min_cut_partitioner_output_tensor_shape_tensor (__main__.TestPartitioning)": [
+    "104326",
+    "https://github.com/pytorch/pytorch/issues/104326",
+    [
+      "linux",
+      "win",
+      "windows",
       "dynamo"
     ]
   ],
@@ -2193,6 +2238,15 @@
     "107950",
     "https://github.com/pytorch/pytorch/issues/107950",
     [
+      "rocm"
+    ]
+  ],
+  "test_reentrant_parent_error_on_cpu_cuda (__main__.TestAutogradDeviceTypeCUDA)": [
+    "86735",
+    "https://github.com/pytorch/pytorch/issues/86735",
+    [
+      "win",
+      "windows",
       "rocm"
     ]
   ],
