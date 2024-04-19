@@ -191,6 +191,13 @@
       "slow"
     ]
   ],
+  "test_aot_module_simplified (__main__.TestAOTModuleSimplified)": [
+    "124476",
+    "https://github.com/pytorch/pytorch/issues/124476",
+    [
+      "dynamo"
+    ]
+  ],
   "test_artificial_grid_cpp_wrapper (__main__.TestTritonHeuristics)": [
     "121709",
     "https://github.com/pytorch/pytorch/issues/121709",
@@ -810,6 +817,13 @@
     "https://github.com/pytorch/pytorch/issues/106557",
     [
       "macos"
+    ]
+  ],
+  "test_creation_with_zeros_cuda_float8_e5m2 (__main__.TestFloat8DtypeCUDA)": [
+    "124474",
+    "https://github.com/pytorch/pytorch/issues/124474",
+    [
+      "rocm"
     ]
   ],
   "test_cross_entropy_large_tensor_reduction_mean_cuda (__main__.TestNNDeviceTypeCUDA)": [
@@ -1725,6 +1739,15 @@
   "test_mark_non_differentiable (__main__.TestAutogradWithCompiledAutograd)": [
     "124470",
     "https://github.com/pytorch/pytorch/issues/124470",
+    [
+      "linux",
+      "rocm",
+      "asan"
+    ]
+  ],
+  "test_mark_non_differentiable_none (__main__.TestAutogradWithCompiledAutograd)": [
+    "124475",
+    "https://github.com/pytorch/pytorch/issues/124475",
     [
       "linux",
       "rocm"
