@@ -1332,9 +1332,11 @@
     "124347",
     "https://github.com/pytorch/pytorch/issues/124347",
     [
+      "asan",
       "linux",
       "rocm",
-      "asan"
+      "mac",
+      "macos"
     ]
   ],
   "test_gradgrad_nn_GroupNorm_cuda_float64 (__main__.TestModuleCUDA)": [
@@ -1740,9 +1742,10 @@
     "124470",
     "https://github.com/pytorch/pytorch/issues/124470",
     [
+      "asan",
       "linux",
       "rocm",
-      "asan"
+      "slow"
     ]
   ],
   "test_mark_non_differentiable_none (__main__.TestAutogradWithCompiledAutograd)": [
@@ -1750,7 +1753,8 @@
     "https://github.com/pytorch/pytorch/issues/124475",
     [
       "linux",
-      "rocm"
+      "rocm",
+      "asan"
     ]
   ],
   "test_math_ops (__main__.TestScript)": [
@@ -1897,6 +1901,14 @@
     "https://github.com/pytorch/pytorch/issues/123254",
     [
       "linux"
+    ]
+  ],
+  "test_multi_backward (__main__.TestAutogradWithCompiledAutograd)": [
+    "124491",
+    "https://github.com/pytorch/pytorch/issues/124491",
+    [
+      "linux",
+      "rocm"
     ]
   ],
   "test_multinomial_gpu_device_constrain_cuda (__main__.TestTorchDeviceTypeCUDA)": [
@@ -2192,6 +2204,15 @@
     [
       "linux",
       "slow"
+    ]
+  ],
+  "test_pre_dispatch_export_cond_simple_cuda_float32 (__main__.TestHOPCUDA)": [
+    "123352",
+    "https://github.com/pytorch/pytorch/issues/123352",
+    [
+      "linux",
+      "slow",
+      "rocm"
     ]
   ],
   "test_pre_dispatch_export_while_loop_simple_cuda_float32 (__main__.TestHOPCUDA)": [
@@ -2694,12 +2715,11 @@
       "rocm"
     ]
   ],
-  "test_source_multithreaded_close_in_scope_work_in_main_thread_False (__main__.TestProfiler)": [
-    "119364",
-    "https://github.com/pytorch/pytorch/issues/119364",
+  "test_source_multithreaded_basic_work_in_main_thread_False (__main__.TestProfiler)": [
+    "119346",
+    "https://github.com/pytorch/pytorch/issues/119346",
     [
       "asan",
-      "dynamo",
       "linux",
       "mac",
       "macos",
