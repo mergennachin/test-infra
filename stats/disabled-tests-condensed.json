@@ -1234,7 +1234,9 @@
       "asan",
       "linux",
       "rocm",
-      "slow"
+      "slow",
+      "mac",
+      "macos"
     ]
   ],
   "test_grad_nn_GroupNorm_cuda_float64 (__main__.TestModuleCUDA)": [
@@ -1504,7 +1506,10 @@
     "124446",
     "https://github.com/pytorch/pytorch/issues/124446",
     [
-      "rocm"
+      "rocm",
+      "asan",
+      "linux",
+      "slow"
     ]
   ],
   "test_inplace_grad_div_floor_rounding_cuda_float64 (__main__.TestBwdGradientsCUDA)": [
@@ -1533,6 +1538,14 @@
     "https://github.com/pytorch/pytorch/issues/100675",
     [
       "linux"
+    ]
+  ],
+  "test_inplace_on_view_weak_grad_fn (__main__.TestAutogradWithCompiledAutograd)": [
+    "124453",
+    "https://github.com/pytorch/pytorch/issues/124453",
+    [
+      "linux",
+      "rocm"
     ]
   ],
   "test_inplace_triton_kernel_v3 (__main__.InplacingTests)": [
@@ -2622,18 +2635,6 @@
     "https://github.com/pytorch/pytorch/issues/121316",
     [
       "rocm"
-    ]
-  ],
-  "test_source_multithreaded_basic_work_in_main_thread_False (__main__.TestProfiler)": [
-    "119346",
-    "https://github.com/pytorch/pytorch/issues/119346",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "slow"
     ]
   ],
   "test_source_multithreaded_basic_work_in_main_thread_True (__main__.TestProfiler)": [
