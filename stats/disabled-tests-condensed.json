@@ -1309,7 +1309,9 @@
       "asan",
       "linux",
       "rocm",
-      "slow"
+      "slow",
+      "mac",
+      "macos"
     ]
   ],
   "test_grad_unreachable (__main__.TestAutogradWithCompiledAutograd)": [
@@ -1596,7 +1598,9 @@
     "https://github.com/pytorch/pytorch/issues/124460",
     [
       "linux",
-      "rocm"
+      "rocm",
+      "asan",
+      "slow"
     ]
   ],
   "test_item_to_inputs_kernel_nobreak_cuda (__main__.TestInductorDynamicCUDA)": [
@@ -1718,6 +1722,14 @@
       "linux"
     ]
   ],
+  "test_mark_non_differentiable (__main__.TestAutogradWithCompiledAutograd)": [
+    "124470",
+    "https://github.com/pytorch/pytorch/issues/124470",
+    [
+      "linux",
+      "rocm"
+    ]
+  ],
   "test_math_ops (__main__.TestScript)": [
     "123693",
     "https://github.com/pytorch/pytorch/issues/123693",
@@ -1763,6 +1775,13 @@
     "https://github.com/pytorch/pytorch/issues/110995",
     [
       "rocm"
+    ]
+  ],
+  "test_memory_format_nn_ConvTranspose1d_cuda_complex32 (__main__.TestModuleCUDA)": [
+    "107426",
+    "https://github.com/pytorch/pytorch/issues/107426",
+    [
+      "linux"
     ]
   ],
   "test_memory_format_nn_ConvTranspose2d_cuda_complex32 (__main__.TestModuleCUDA)": [
