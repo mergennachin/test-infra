@@ -51,6 +51,13 @@
       "inductor"
     ]
   ],
+  "test_alibi_bias_float32 (__main__.TestTemplatedSDPA)": [
+    "124526",
+    "https://github.com/pytorch/pytorch/issues/124526",
+    [
+      "linux"
+    ]
+  ],
   "test_alibi_causal_float16 (__main__.TestTemplatedSDPA)": [
     "123610",
     "https://github.com/pytorch/pytorch/issues/123610",
@@ -1388,7 +1395,9 @@
       "asan",
       "linux",
       "rocm",
-      "slow"
+      "slow",
+      "mac",
+      "macos"
     ]
   ],
   "test_hook_closure_cycle_use_custom_function_False_use_tensor_hook_True (__main__.TestAutogradWithCompiledAutograd)": [
@@ -1958,6 +1967,16 @@
   "test_no_requires_grad_inplace (__main__.TestAutogradWithCompiledAutograd)": [
     "124509",
     "https://github.com/pytorch/pytorch/issues/124509",
+    [
+      "linux",
+      "rocm",
+      "asan",
+      "slow"
+    ]
+  ],
+  "test_no_unnecessary_save (__main__.TestAutogradWithCompiledAutograd)": [
+    "124527",
+    "https://github.com/pytorch/pytorch/issues/124527",
     [
       "linux",
       "rocm"
@@ -2737,6 +2756,19 @@
       "slow"
     ]
   ],
+  "test_source_multithreaded_close_in_scope_work_in_main_thread_False (__main__.TestProfiler)": [
+    "119364",
+    "https://github.com/pytorch/pytorch/issues/119364",
+    [
+      "asan",
+      "dynamo",
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_source_multithreaded_close_in_scope_work_in_main_thread_True (__main__.TestProfiler)": [
     "119514",
     "https://github.com/pytorch/pytorch/issues/119514",
@@ -2784,19 +2816,6 @@
       "rocm",
       "asan",
       "slow"
-    ]
-  ],
-  "test_source_multithreaded_open_in_scope_work_in_main_thread_False (__main__.TestProfiler)": [
-    "119537",
-    "https://github.com/pytorch/pytorch/issues/119537",
-    [
-      "dynamo",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "slow",
-      "asan"
     ]
   ],
   "test_source_multithreaded_open_in_scope_work_in_main_thread_True (__main__.TestProfiler)": [
