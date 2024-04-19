@@ -490,6 +490,19 @@
       "linux"
     ]
   ],
+  "test_binary_op_list_error_cases__foreach_add_cuda_complex64 (__main__.TestForeachCUDA)": [
+    "124529",
+    "https://github.com/pytorch/pytorch/issues/124529",
+    [
+      "<fill this in or delete. valid labels are: asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "win",
+      "windows.>"
+    ]
+  ],
   "test_bitwise_cuda_cuda_wrapper (__main__.TestCudaWrapper)": [
     "121511",
     "https://github.com/pytorch/pytorch/issues/121511",
