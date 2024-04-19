@@ -1439,7 +1439,8 @@
     "https://github.com/pytorch/pytorch/issues/124430",
     [
       "linux",
-      "rocm"
+      "rocm",
+      "asan"
     ]
   ],
   "test_inductor_all_reduce_coalesced (__main__.C10DFunctionalNativeTest)": [
@@ -1497,6 +1498,13 @@
     [
       "mac",
       "macos"
+    ]
+  ],
+  "test_inplace (__main__.TestAutogradWithCompiledAutograd)": [
+    "124446",
+    "https://github.com/pytorch/pytorch/issues/124446",
+    [
+      "rocm"
     ]
   ],
   "test_inplace_grad_div_floor_rounding_cuda_float64 (__main__.TestBwdGradientsCUDA)": [
@@ -2235,6 +2243,15 @@
     "https://github.com/pytorch/pytorch/issues/84937",
     [
       "asan"
+    ]
+  ],
+  "test_recompute_partitioning (__main__.TestPartitioning)": [
+    "104325",
+    "https://github.com/pytorch/pytorch/issues/104325",
+    [
+      "asan",
+      "linux",
+      "dynamo"
     ]
   ],
   "test_record_stream_cuda (__main__.TestRecordStream)": [
