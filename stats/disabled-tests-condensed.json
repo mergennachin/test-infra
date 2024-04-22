@@ -772,9 +772,23 @@
       "rocm"
     ]
   ],
+  "test_comprehensive_ones_like_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
+    "124662",
+    "https://github.com/pytorch/pytorch/issues/124662",
+    [
+      "rocm"
+    ]
+  ],
   "test_comprehensive_ones_like_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
     "124264",
     "https://github.com/pytorch/pytorch/issues/124264",
+    [
+      "rocm"
+    ]
+  ],
+  "test_comprehensive_rot90_cuda_bool (__main__.TestInductorOpInfoCUDA)": [
+    "124661",
+    "https://github.com/pytorch/pytorch/issues/124661",
     [
       "rocm"
     ]
@@ -1513,6 +1527,13 @@
       "asan"
     ]
   ],
+  "test_identity_float32 (__main__.TestTemplatedSDPA)": [
+    "124659",
+    "https://github.com/pytorch/pytorch/issues/124659",
+    [
+      "linux"
+    ]
+  ],
   "test_ind_worker_queue (__main__.TestIndividualWorkerQueue)": [
     "68643",
     "https://github.com/pytorch/pytorch/issues/68643",
@@ -1866,6 +1887,13 @@
     "https://github.com/pytorch/pytorch/issues/123693",
     [
       "dynamo"
+    ]
+  ],
+  "test_max_autotune_cutlass_backend_mm_bias_dynamic_False_max_autotune_gemm_backends_ATen,Triton,CUTLASS (__main__.TestCutlassBackend)": [
+    "124660",
+    "https://github.com/pytorch/pytorch/issues/124660",
+    [
+      "linux"
     ]
   ],
   "test_max_autotune_remote_caching_dynamic_False (__main__.TestMaxAutotune)": [
@@ -2592,6 +2620,15 @@
       "rocm"
     ]
   ],
+  "test_requires_grad (__main__.TestAutogradWithCompiledAutograd)": [
+    "124663",
+    "https://github.com/pytorch/pytorch/issues/124663",
+    [
+      "asan",
+      "linux",
+      "rocm"
+    ]
+  ],
   "test_requires_grad_loop (test_jit.TestScript)": [
     "91492",
     "https://github.com/pytorch/pytorch/issues/91492",
@@ -2901,18 +2938,6 @@
     [
       "asan",
       "dynamo",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "slow"
-    ]
-  ],
-  "test_source_multithreaded_close_in_scope_work_in_main_thread_True (__main__.TestProfiler)": [
-    "119514",
-    "https://github.com/pytorch/pytorch/issues/119514",
-    [
-      "asan",
       "linux",
       "mac",
       "macos",
