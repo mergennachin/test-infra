@@ -65,6 +65,14 @@
       "rocm"
     ]
   ],
+  "test_alibi_causal_float32 (__main__.TestTemplatedSDPA)": [
+    "124588",
+    "https://github.com/pytorch/pytorch/issues/124588",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_all_gather_uneven (__main__.DeviceMeshCollectiveTest)": [
     "98049",
     "https://github.com/pytorch/pytorch/issues/98049",
@@ -208,6 +216,13 @@
   "test_aot_module_simplified_dynamic (__main__.TestAOTModuleSimplified)": [
     "124510",
     "https://github.com/pytorch/pytorch/issues/124510",
+    [
+      "dynamo"
+    ]
+  ],
+  "test_aot_module_simplified_fake_tensor_gm_raises (__main__.TestAOTModuleSimplified)": [
+    "124590",
+    "https://github.com/pytorch/pytorch/issues/124590",
     [
       "dynamo"
     ]
@@ -1656,6 +1671,15 @@
       "linux"
     ]
   ],
+  "test_item_unbacked_stride_nobreak_cuda (__main__.TestInductorDynamicCUDA)": [
+    "123333",
+    "https://github.com/pytorch/pytorch/issues/123333",
+    [
+      "linux",
+      "slow",
+      "rocm"
+    ]
+  ],
   "test_jvpvjp_nn_functional_conv3d_cuda_float32 (__main__.TestOperatorsCUDA)": [
     "114654",
     "https://github.com/pytorch/pytorch/issues/114654",
@@ -1993,6 +2017,16 @@
     [
       "linux",
       "rocm"
+    ]
+  ],
+  "test_no_unnecessary_unwrapping (__main__.TestAutogradWithCompiledAutograd)": [
+    "124589",
+    "https://github.com/pytorch/pytorch/issues/124589",
+    [
+      "asan",
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_non_blocking_with_eager_init (__main__.ProcessGroupNCCLTest)": [
