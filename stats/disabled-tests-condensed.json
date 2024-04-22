@@ -1435,7 +1435,9 @@
       "asan",
       "linux",
       "rocm",
-      "slow"
+      "slow",
+      "mac",
+      "macos"
     ]
   ],
   "test_hook_with_no_name (__main__.TestAutogradWithCompiledAutograd)": [
