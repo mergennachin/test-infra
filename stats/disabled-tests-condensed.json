@@ -699,6 +699,13 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_amax_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
+    "124640",
+    "https://github.com/pytorch/pytorch/issues/124640",
+    [
+      "inductor"
+    ]
+  ],
   "test_comprehensive_empty_strided_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
     "102033",
     "https://github.com/pytorch/pytorch/issues/102033",
@@ -792,6 +799,15 @@
     "https://github.com/pytorch/pytorch/issues/109379",
     [
       "linux"
+    ]
+  ],
+  "test_constant_insertion (__main__.TestJit)": [
+    "96894",
+    "https://github.com/pytorch/pytorch/issues/96894",
+    [
+      "win",
+      "windows",
+      "dynamo"
     ]
   ],
   "test_contiguous (__main__.TestPartitioning)": [
@@ -1272,6 +1288,14 @@
       "rocm"
     ]
   ],
+  "test_function_composition_float32 (__main__.TestTemplatedSDPA)": [
+    "124639",
+    "https://github.com/pytorch/pytorch/issues/124639",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_function_returns_input (__main__.TestAutogradWithCompiledAutograd)": [
     "124243",
     "https://github.com/pytorch/pytorch/issues/124243",
@@ -1475,7 +1499,9 @@
     "https://github.com/pytorch/pytorch/issues/124392",
     [
       "linux",
-      "rocm"
+      "rocm",
+      "mac",
+      "macos"
     ]
   ],
   "test_hooks_cpp (__main__.TestAutogradWithCompiledAutograd)": [
@@ -2314,7 +2340,9 @@
     "https://github.com/pytorch/pytorch/issues/124622",
     [
       "linux",
-      "rocm"
+      "rocm",
+      "asan",
+      "slow"
     ]
   ],
   "test_pre_dispatch_export_auto_functionalize_simple_cuda_float32 (__main__.TestHOPCUDA)": [
@@ -2576,6 +2604,13 @@
     "https://github.com/pytorch/pytorch/issues/122491",
     [
       "linux"
+    ]
+  ],
+  "test_resnet18_backward_trace_cpu (__main__.TestPythonKeyCPU)": [
+    "124641",
+    "https://github.com/pytorch/pytorch/issues/124641",
+    [
+      "dynamo"
     ]
   ],
   "test_retrace_export_auto_functionalize_simple_cuda_float32 (__main__.TestHOPCUDA)": [
