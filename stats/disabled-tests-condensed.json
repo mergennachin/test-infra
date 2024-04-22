@@ -227,6 +227,13 @@
       "dynamo"
     ]
   ],
+  "test_aot_module_simplified_preserves_stack_trace (__main__.TestAOTModuleSimplified)": [
+    "124609",
+    "https://github.com/pytorch/pytorch/issues/124609",
+    [
+      "dynamo"
+    ]
+  ],
   "test_artificial_grid_cpp_wrapper (__main__.TestTritonHeuristics)": [
     "121709",
     "https://github.com/pytorch/pytorch/issues/121709",
@@ -576,6 +583,14 @@
     "https://github.com/pytorch/pytorch/issues/69179",
     [
       "mac"
+    ]
+  ],
+  "test_causal_mask_float32 (__main__.TestTemplatedSDPA)": [
+    "124607",
+    "https://github.com/pytorch/pytorch/issues/124607",
+    [
+      "linux",
+      "slow"
     ]
   ],
   "test_causal_variants_compile_causal_variant_CausalVariant_LOWER_RIGHT_shape0_cuda (__main__.TestAttnBiasCUDA)": [
@@ -2281,6 +2296,16 @@
     "https://github.com/pytorch/pytorch/issues/75139",
     [
       "rocm"
+    ]
+  ],
+  "test_pow_zero_tensor_gradient (__main__.TestAutogradWithCompiledAutograd)": [
+    "124608",
+    "https://github.com/pytorch/pytorch/issues/124608",
+    [
+      "asan",
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_pre_dispatch_export_auto_functionalize_simple_cuda_float32 (__main__.TestHOPCUDA)": [
