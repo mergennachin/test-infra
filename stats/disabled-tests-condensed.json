@@ -1581,10 +1581,12 @@
     "124420",
     "https://github.com/pytorch/pytorch/issues/124420",
     [
+      "asan",
       "linux",
       "rocm",
-      "asan",
-      "slow"
+      "slow",
+      "mac",
+      "macos"
     ]
   ],
   "test_indexing_duplicates (__main__.TestAutogradWithCompiledAutograd)": [
@@ -1859,6 +1861,14 @@
       "linux"
     ]
   ],
+  "test_logsumexp_correctness_float32_score_mod0 (__main__.TestTemplatedSDPA)": [
+    "124705",
+    "https://github.com/pytorch/pytorch/issues/124705",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_long (__main__.NCCLTraceTest)": [
     "124087",
     "https://github.com/pytorch/pytorch/issues/124087",
@@ -1895,6 +1905,14 @@
   "test_max_autotune_cutlass_backend_mm_bias_dynamic_False_max_autotune_gemm_backends_ATen,Triton,CUTLASS (__main__.TestCutlassBackend)": [
     "124660",
     "https://github.com/pytorch/pytorch/issues/124660",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
+  "test_max_autotune_cutlass_backend_mm_bias_dynamic_False_max_autotune_gemm_backends_CUTLASS (__main__.TestCutlassBackend)": [
+    "124704",
+    "https://github.com/pytorch/pytorch/issues/124704",
     [
       "linux",
       "slow"
@@ -2692,6 +2710,16 @@
     "124690",
     "https://github.com/pytorch/pytorch/issues/124690",
     [
+      "rocm",
+      "asan",
+      "linux",
+      "slow"
+    ]
+  ],
+  "test_save_on_cpu_and_checkpoint (__main__.TestAutogradWithCompiledAutograd)": [
+    "124706",
+    "https://github.com/pytorch/pytorch/issues/124706",
+    [
       "rocm"
     ]
   ],
@@ -2982,18 +3010,6 @@
       "slow"
     ]
   ],
-  "test_source_multithreaded_complex_work_in_main_thread_True (__main__.TestProfiler)": [
-    "119536",
-    "https://github.com/pytorch/pytorch/issues/119536",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_source_multithreaded_multiple_preexisting_work_in_main_thread_False (__main__.TestProfiler)": [
     "119526",
     "https://github.com/pytorch/pytorch/issues/119526",
@@ -3005,18 +3021,6 @@
       "rocm",
       "slow",
       "asan"
-    ]
-  ],
-  "test_source_multithreaded_multiple_preexisting_work_in_main_thread_True (__main__.TestProfiler)": [
-    "119576",
-    "https://github.com/pytorch/pytorch/issues/119576",
-    [
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "asan",
-      "slow"
     ]
   ],
   "test_source_multithreaded_open_in_scope_work_in_main_thread_False (__main__.TestProfiler)": [
