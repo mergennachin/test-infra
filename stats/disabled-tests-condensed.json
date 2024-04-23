@@ -779,6 +779,13 @@
       "rocm"
     ]
   ],
+  "test_comprehensive_randn_like_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
+    "124758",
+    "https://github.com/pytorch/pytorch/issues/124758",
+    [
+      "linux"
+    ]
+  ],
   "test_comprehensive_rot90_cuda_bool (__main__.TestInductorOpInfoCUDA)": [
     "124661",
     "https://github.com/pytorch/pytorch/issues/124661",
@@ -1263,6 +1270,13 @@
       "rocm"
     ]
   ],
+  "test_forward_mode_AD_linalg_lu_cuda_float64 (__main__.TestFwdGradientsCUDA)": [
+    "86774",
+    "https://github.com/pytorch/pytorch/issues/86774",
+    [
+      "linux"
+    ]
+  ],
   "test_free_activation_memory (__main__.TestCompiledAutograd)": [
     "123949",
     "https://github.com/pytorch/pytorch/issues/123949",
@@ -1647,10 +1661,12 @@
     "124446",
     "https://github.com/pytorch/pytorch/issues/124446",
     [
-      "rocm",
       "asan",
       "linux",
-      "slow"
+      "rocm",
+      "slow",
+      "mac",
+      "macos"
     ]
   ],
   "test_inplace_grad_div_floor_rounding_cuda_float64 (__main__.TestBwdGradientsCUDA)": [
@@ -2711,7 +2727,10 @@
     "124723",
     "https://github.com/pytorch/pytorch/issues/124723",
     [
-      "rocm"
+      "rocm",
+      "asan",
+      "linux",
+      "slow"
     ]
   ],
   "test_saved_variable_packing_unpacking_did_not_save_original_with_default_hooks (__main__.TestAutogradWithCompiledAutograd)": [
@@ -2719,6 +2738,13 @@
     "https://github.com/pytorch/pytorch/issues/124733",
     [
       "linux",
+      "rocm"
+    ]
+  ],
+  "test_saved_variable_packing_unpacking_did_not_save_original_with_hooks (__main__.TestAutogradWithCompiledAutograd)": [
+    "124757",
+    "https://github.com/pytorch/pytorch/issues/124757",
+    [
       "rocm"
     ]
   ],
