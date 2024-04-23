@@ -1804,13 +1804,6 @@
       "linux"
     ]
   ],
-  "test_large_offset_pointwise_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "113134",
-    "https://github.com/pytorch/pytorch/issues/113134",
-    [
-      "linux"
-    ]
-  ],
   "test_large_sampler_indices (__main__.TestDataLoaderPersistentWorkers)": [
     "117784",
     "https://github.com/pytorch/pytorch/issues/117784",
@@ -2128,13 +2121,6 @@
   "test_non_blocking_with_eager_init (__main__.ProcessGroupNCCLTest)": [
     "118827",
     "https://github.com/pytorch/pytorch/issues/118827",
-    [
-      "linux"
-    ]
-  ],
-  "test_non_contiguous_tensors_nn_ConvTranspose1d_cuda_complex32 (__main__.TestModuleCUDA)": [
-    "81732",
-    "https://github.com/pytorch/pytorch/issues/81732",
     [
       "linux"
     ]
@@ -2715,15 +2701,24 @@
     "124706",
     "https://github.com/pytorch/pytorch/issues/124706",
     [
-      "rocm",
       "asan",
-      "linux"
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_saved_tensor_hooks_custom_function_intermediates (__main__.TestAutogradWithCompiledAutograd)": [
     "124723",
     "https://github.com/pytorch/pytorch/issues/124723",
     [
+      "rocm"
+    ]
+  ],
+  "test_saved_variable_packing_unpacking_did_not_save_original_with_default_hooks (__main__.TestAutogradWithCompiledAutograd)": [
+    "124733",
+    "https://github.com/pytorch/pytorch/issues/124733",
+    [
+      "linux",
       "rocm"
     ]
   ],
