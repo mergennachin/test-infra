@@ -1522,16 +1522,19 @@
     "124406",
     "https://github.com/pytorch/pytorch/issues/124406",
     [
+      "asan",
       "linux",
       "rocm",
-      "asan"
+      "mac",
+      "macos"
     ]
   ],
   "test_identity_float32 (__main__.TestTemplatedSDPA)": [
     "124659",
     "https://github.com/pytorch/pytorch/issues/124659",
     [
-      "linux"
+      "linux",
+      "slow"
     ]
   ],
   "test_ind_worker_queue (__main__.TestIndividualWorkerQueue)": [
@@ -1893,7 +1896,8 @@
     "124660",
     "https://github.com/pytorch/pytorch/issues/124660",
     [
-      "linux"
+      "linux",
+      "slow"
     ]
   ],
   "test_max_autotune_remote_caching_dynamic_False (__main__.TestMaxAutotune)": [
@@ -2626,7 +2630,8 @@
     [
       "asan",
       "linux",
-      "rocm"
+      "rocm",
+      "slow"
     ]
   ],
   "test_requires_grad_loop (test_jit.TestScript)": [
@@ -2681,6 +2686,13 @@
     "https://github.com/pytorch/pytorch/issues/117914",
     [
       "linux"
+    ]
+  ],
+  "test_return_leaf_inplace (__main__.TestAutogradWithCompiledAutograd)": [
+    "124690",
+    "https://github.com/pytorch/pytorch/issues/124690",
+    [
+      "rocm"
     ]
   ],
   "test_scatter_1d (__main__.DeviceMeshCollectiveTest)": [
