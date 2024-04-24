@@ -2745,7 +2745,9 @@
     "124757",
     "https://github.com/pytorch/pytorch/issues/124757",
     [
-      "rocm"
+      "rocm",
+      "linux",
+      "slow"
     ]
   ],
   "test_scatter_1d (__main__.DeviceMeshCollectiveTest)": [
