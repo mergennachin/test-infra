@@ -1,1 +1,10 @@
-{}
+{
+  "rocm": [
+    "kit1980",
+    "124951",
+    "https://github.com/pytorch/pytorch/issues/124951",
+    "rocm",
+    "",
+    ""
+  ]
+}
