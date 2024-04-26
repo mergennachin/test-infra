@@ -512,6 +512,13 @@
       "linux"
     ]
   ],
+  "test_binary_op_list_error_cases__foreach_clamp_max_cuda_float64 (__main__.TestForeachCUDA)": [
+    "125035",
+    "https://github.com/pytorch/pytorch/issues/125035",
+    [
+      "linux"
+    ]
+  ],
   "test_bitwise_cuda_cuda_wrapper (__main__.TestCudaWrapper)": [
     "121511",
     "https://github.com/pytorch/pytorch/issues/121511",
