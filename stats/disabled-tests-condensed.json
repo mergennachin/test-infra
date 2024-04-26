@@ -669,14 +669,6 @@
       "inductor"
     ]
   ],
-  "test_comprehensive_fft_fft_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
-    "122715",
-    "https://github.com/pytorch/pytorch/issues/122715",
-    [
-      "inductor",
-      "rocm"
-    ]
-  ],
   "test_comprehensive_linalg_ldl_factor_ex_cuda (__main__.TestDecompCUDA)": [
     "76962",
     "https://github.com/pytorch/pytorch/issues/76962",
@@ -740,14 +732,6 @@
     "https://github.com/pytorch/pytorch/issues/124661",
     [
       "rocm"
-    ]
-  ],
-  "test_comprehensive_special_bessel_y1_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
-    "123919",
-    "https://github.com/pytorch/pytorch/issues/123919",
-    [
-      "rocm",
-      "inductor"
     ]
   ],
   "test_comprehensive_special_spherical_bessel_j0_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
@@ -1230,15 +1214,6 @@
     "https://github.com/pytorch/pytorch/issues/86774",
     [
       "linux"
-    ]
-  ],
-  "test_free_activation_memory (__main__.TestCompiledAutograd)": [
-    "123949",
-    "https://github.com/pytorch/pytorch/issues/123949",
-    [
-      "linux",
-      "rocm",
-      "slow"
     ]
   ],
   "test_free_activation_memory_subclass (__main__.TestCompiledAutograd)": [
@@ -2923,6 +2898,14 @@
     "https://github.com/pytorch/pytorch/issues/115740",
     [
       "linux"
+    ]
+  ],
+  "test_setting_default_saved_variable_hooks_twice_should_use_inner (__main__.TestAutogradWithCompiledAutograd)": [
+    "125074",
+    "https://github.com/pytorch/pytorch/issues/125074",
+    [
+      "linux",
+      "rocm"
     ]
   ],
   "test_shufflenet_v2 (__main__.TORCH_NN_MODULE)": [
