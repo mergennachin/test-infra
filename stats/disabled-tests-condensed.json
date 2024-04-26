@@ -692,13 +692,6 @@
       "inductor"
     ]
   ],
-  "test_comprehensive_amax_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
-    "124640",
-    "https://github.com/pytorch/pytorch/issues/124640",
-    [
-      "inductor"
-    ]
-  ],
   "test_comprehensive_empty_strided_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
     "102033",
     "https://github.com/pytorch/pytorch/issues/102033",
