@@ -532,6 +532,13 @@
       "linux"
     ]
   ],
+  "test_buffer_mutation_3_abi_compatible_cuda (__main__.AOTInductorTestABICompatibleCuda)": [
+    "123251",
+    "https://github.com/pytorch/pytorch/issues/123251",
+    [
+      "rocm"
+    ]
+  ],
   "test_build_tuple_unpack_dynamic_shapes (__main__.DynamicShapesMiscTests)": [
     "124364",
     "https://github.com/pytorch/pytorch/issues/124364",
