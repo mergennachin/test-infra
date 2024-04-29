@@ -2915,6 +2915,15 @@
       "rocm"
     ]
   ],
+  "test_sharded_grad (__main__.TestAutogradWithCompiledAutograd)": [
+    "125130",
+    "https://github.com/pytorch/pytorch/issues/125130",
+    [
+      "asan",
+      "linux",
+      "slow"
+    ]
+  ],
   "test_shufflenet_v2 (__main__.TORCH_NN_MODULE)": [
     "123295",
     "https://github.com/pytorch/pytorch/issues/123295",
@@ -3214,22 +3223,6 @@
       "rocm"
     ]
   ],
-  "test_torchvision_models_regnet_y_16gf (__main__.TestVisionTracing)": [
-    "123976",
-    "https://github.com/pytorch/pytorch/issues/123976",
-    [
-      "linux",
-      "rocm"
-    ]
-  ],
-  "test_torchvision_models_regnet_y_8gf (__main__.TestVisionTracing)": [
-    "123977",
-    "https://github.com/pytorch/pytorch/issues/123977",
-    [
-      "linux",
-      "rocm"
-    ]
-  ],
   "test_tp_transform_with_uncovered_op (__main__.TensorParallelTest)": [
     "115784",
     "https://github.com/pytorch/pytorch/issues/115784",
@@ -3282,41 +3275,6 @@
     "https://github.com/pytorch/pytorch/issues/124267",
     [
       "linux"
-    ]
-  ],
-  "test_triton_kernel_extern_kernel_arg_abi_compatible_cuda (__main__.AOTInductorTestABICompatibleCuda)": [
-    "118544",
-    "https://github.com/pytorch/pytorch/issues/118544",
-    [
-      "rocm"
-    ]
-  ],
-  "test_triton_kernel_extern_kernel_arg_non_abi_compatible_cuda (__main__.AOTInductorTestNonABICompatibleCuda)": [
-    "118545",
-    "https://github.com/pytorch/pytorch/issues/118545",
-    [
-      "rocm"
-    ]
-  ],
-  "test_triton_kernel_multi_output_arg_non_abi_compatible_cuda (__main__.AOTInductorTestNonABICompatibleCuda)": [
-    "118632",
-    "https://github.com/pytorch/pytorch/issues/118632",
-    [
-      "rocm"
-    ]
-  ],
-  "test_triton_kernel_reinterpret_view_mem_leak_abi_compatible_cuda (__main__.AOTInductorTestABICompatibleCuda)": [
-    "118640",
-    "https://github.com/pytorch/pytorch/issues/118640",
-    [
-      "rocm"
-    ]
-  ],
-  "test_triton_kernel_reinterpret_view_mem_leak_non_abi_compatible_cuda (__main__.AOTInductorTestNonABICompatibleCuda)": [
-    "118652",
-    "https://github.com/pytorch/pytorch/issues/118652",
-    [
-      "rocm"
     ]
   ],
   "test_unary_ops (__main__.TestTensorExprFuser)": [
