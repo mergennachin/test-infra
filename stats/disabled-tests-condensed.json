@@ -741,6 +741,13 @@
       "rocm"
     ]
   ],
+  "test_comprehensive_special_bessel_y1_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
+    "125151",
+    "https://github.com/pytorch/pytorch/issues/125151",
+    [
+      "inductor"
+    ]
+  ],
   "test_comprehensive_special_spherical_bessel_j0_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
     "123332",
     "https://github.com/pytorch/pytorch/issues/123332",
@@ -2967,7 +2974,8 @@
     [
       "asan",
       "linux",
-      "slow"
+      "slow",
+      "rocm"
     ]
   ],
   "test_source_multithreaded_basic_work_in_main_thread_False (__main__.TestProfiler)": [
