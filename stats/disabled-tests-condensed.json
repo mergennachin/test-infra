@@ -477,13 +477,6 @@
       "linux"
     ]
   ],
-  "test_binary_op_list_error_cases__foreach_add_cuda_bool (__main__.TestForeachCUDA)": [
-    "122900",
-    "https://github.com/pytorch/pytorch/issues/122900",
-    [
-      "linux"
-    ]
-  ],
   "test_binary_op_list_error_cases__foreach_add_cuda_complex64 (__main__.TestForeachCUDA)": [
     "124529",
     "https://github.com/pytorch/pytorch/issues/124529",
@@ -1110,15 +1103,6 @@
     "https://github.com/pytorch/pytorch/issues/123536",
     [
       "dynamo"
-    ]
-  ],
-  "test_expand_cuda (__main__.TestUnbackedSymintsCUDA)": [
-    "124074",
-    "https://github.com/pytorch/pytorch/issues/124074",
-    [
-      "linux",
-      "rocm",
-      "slow"
     ]
   ],
   "test_extract_gradients_from_optimizer_set_to_none (__main__.TestIdentifyGradients)": [
@@ -1828,9 +1812,10 @@
     [
       "asan",
       "linux",
+      "mac",
       "rocm",
       "slow",
-      "mac"
+      "macos"
     ]
   ],
   "test_mark_non_differentiable_none (__main__.TestAutogradWithCompiledAutograd)": [
@@ -1861,24 +1846,6 @@
     "124704",
     "https://github.com/pytorch/pytorch/issues/124704",
     [
-      "linux",
-      "slow"
-    ]
-  ],
-  "test_max_autotune_remote_caching_dynamic_False (__main__.TestMaxAutotune)": [
-    "121166",
-    "https://github.com/pytorch/pytorch/issues/121166",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
-  "test_max_autotune_remote_caching_dynamic_True (__main__.TestMaxAutotune)": [
-    "121194",
-    "https://github.com/pytorch/pytorch/issues/121194",
-    [
-      "rocm",
       "linux",
       "slow"
     ]
@@ -3192,6 +3159,16 @@
     "https://github.com/pytorch/pytorch/issues/70546",
     [
       "mac"
+    ]
+  ],
+  "test_too_many_grads (__main__.TestAutogradWithCompiledAutograd)": [
+    "125195",
+    "https://github.com/pytorch/pytorch/issues/125195",
+    [
+      "asan",
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_torch_name_rule_map_updated (__main__.TraceRuleTests)": [
