@@ -1829,7 +1829,8 @@
       "asan",
       "linux",
       "rocm",
-      "slow"
+      "slow",
+      "mac"
     ]
   ],
   "test_mark_non_differentiable_none (__main__.TestAutogradWithCompiledAutograd)": [
