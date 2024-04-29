@@ -1780,7 +1780,9 @@
     "124405",
     "https://github.com/pytorch/pytorch/issues/124405",
     [
-      "linux"
+      "linux",
+      "mac",
+      "macos"
     ]
   ],
   "test_learnable_forward_per_channel_cpu (quantization.core.test_workflow_ops.TestFakeQuantizeOps)": [
@@ -2957,6 +2959,15 @@
     "https://github.com/pytorch/pytorch/issues/121316",
     [
       "rocm"
+    ]
+  ],
+  "test_slice_expanded_v (__main__.TestAutogradWithCompiledAutograd)": [
+    "125149",
+    "https://github.com/pytorch/pytorch/issues/125149",
+    [
+      "asan",
+      "linux",
+      "slow"
     ]
   ],
   "test_source_multithreaded_basic_work_in_main_thread_False (__main__.TestProfiler)": [
