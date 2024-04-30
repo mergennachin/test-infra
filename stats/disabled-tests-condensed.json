@@ -1214,6 +1214,15 @@
       "linux"
     ]
   ],
+  "test_free_activation_memory (__main__.TestCompiledAutograd)": [
+    "123949",
+    "https://github.com/pytorch/pytorch/issues/123949",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_free_activation_memory_subclass (__main__.TestCompiledAutograd)": [
     "124376",
     "https://github.com/pytorch/pytorch/issues/124376",
@@ -1822,9 +1831,11 @@
     "124475",
     "https://github.com/pytorch/pytorch/issues/124475",
     [
+      "asan",
       "linux",
       "rocm",
-      "asan"
+      "mac",
+      "macos"
     ]
   ],
   "test_math_ops (__main__.TestScript)": [
@@ -3190,14 +3201,6 @@
       "dynamo"
     ]
   ],
-  "test_torchvision_models_alexnet (__main__.TestVisionTracing)": [
-    "123908",
-    "https://github.com/pytorch/pytorch/issues/123908",
-    [
-      "linux",
-      "asan"
-    ]
-  ],
   "test_torchvision_models_efficientnet_v2_m (__main__.TestVisionTracing)": [
     "124152",
     "https://github.com/pytorch/pytorch/issues/124152",
@@ -3261,6 +3264,14 @@
       "linux"
     ]
   ],
+  "test_type_conversions (__main__.TestAutogradWithCompiledAutograd)": [
+    "125206",
+    "https://github.com/pytorch/pytorch/issues/125206",
+    [
+      "linux",
+      "rocm"
+    ]
+  ],
   "test_unary_ops (__main__.TestTensorExprFuser)": [
     "105119",
     "https://github.com/pytorch/pytorch/issues/105119",
@@ -3274,6 +3285,13 @@
     [
       "linux",
       "rocm"
+    ]
+  ],
+  "test_unused_output (__main__.TestAutogradWithCompiledAutograd)": [
+    "125205",
+    "https://github.com/pytorch/pytorch/issues/125205",
+    [
+      "linux"
     ]
   ],
   "test_unwrap_storage_didnt_work_repro_cuda (__main__.TestInductorDynamicCUDA)": [
