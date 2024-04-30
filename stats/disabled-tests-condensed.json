@@ -518,6 +518,13 @@
       "rocm"
     ]
   ],
+  "test_bmm_multithreaded (__main__.TestTorch)": [
+    "125240",
+    "https://github.com/pytorch/pytorch/issues/125240",
+    [
+      "dynamo"
+    ]
+  ],
   "test_broadcast_1d (__main__.DeviceMeshCollectiveTest)": [
     "98048",
     "https://github.com/pytorch/pytorch/issues/98048",
