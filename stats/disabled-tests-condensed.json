@@ -1707,6 +1707,14 @@
       "macos"
     ]
   ],
+  "test_issue106555 (__main__.TestCompiledAutograd)": [
+    "125228",
+    "https://github.com/pytorch/pytorch/issues/125228",
+    [
+      "linux",
+      "rocm"
+    ]
+  ],
   "test_item_to_inputs_kernel_nobreak_cuda (__main__.TestInductorDynamicCUDA)": [
     "119538",
     "https://github.com/pytorch/pytorch/issues/119538",
@@ -3313,6 +3321,16 @@
   "test_var_mean_differentiable (__main__.TestAutogradWithCompiledAutograd)": [
     "125220",
     "https://github.com/pytorch/pytorch/issues/125220",
+    [
+      "asan",
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_variable_traverse (__main__.TestAutogradWithCompiledAutograd)": [
+    "125229",
+    "https://github.com/pytorch/pytorch/issues/125229",
     [
       "asan",
       "linux",
