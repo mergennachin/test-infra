@@ -2242,6 +2242,19 @@
       "rocm"
     ]
   ],
+  "test_open_device_registration (__main__.TestCppExtensionOpenRgistration)": [
+    "100152",
+    "https://github.com/pytorch/pytorch/issues/100152",
+    [
+      "asan",
+      "linux",
+      "win",
+      "windows",
+      "dynamo",
+      "mac",
+      "macos"
+    ]
+  ],
   "test_optimizer_parameters_sgd (__main__.TestTorchTidyProfiler)": [
     "123624",
     "https://github.com/pytorch/pytorch/issues/123624",
