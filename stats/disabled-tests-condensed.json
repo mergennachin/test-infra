@@ -504,6 +504,13 @@
       "linux"
     ]
   ],
+  "test_binary_op_list_slow_path__foreach_div_cuda_bool (__main__.TestForeachCUDA)": [
+    "125349",
+    "https://github.com/pytorch/pytorch/issues/125349",
+    [
+      "linux"
+    ]
+  ],
   "test_bitwise_cuda_cuda_wrapper (__main__.TestCudaWrapper)": [
     "121511",
     "https://github.com/pytorch/pytorch/issues/121511",
