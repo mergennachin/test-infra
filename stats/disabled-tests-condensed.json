@@ -159,6 +159,14 @@
       "slow"
     ]
   ],
+  "test_aot_export_cond_simple_cuda_float32 (__main__.TestHOPCUDA)": [
+    "123096",
+    "https://github.com/pytorch/pytorch/issues/123096",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_aot_export_cond_simple_cuda_int32 (__main__.TestHOPCUDA)": [
     "123194",
     "https://github.com/pytorch/pytorch/issues/123194",
@@ -538,15 +546,6 @@
       "rocm"
     ]
   ],
-  "test_build_tuple_unpack_dynamic_shapes (__main__.DynamicShapesMiscTests)": [
-    "124364",
-    "https://github.com/pytorch/pytorch/issues/124364",
-    [
-      "linux",
-      "mac",
-      "macos"
-    ]
-  ],
   "test_builtin_remote_message_dropped_timeout_to_self (__main__.FaultyFaultyAgentRpcTest)": [
     "69179",
     "https://github.com/pytorch/pytorch/issues/69179",
@@ -687,14 +686,6 @@
     "https://github.com/pytorch/pytorch/issues/118355",
     [
       "rocm"
-    ]
-  ],
-  "test_comprehensive_nn_functional_selu_cpu_float64 (__main__.TestInductorOpInfoCPU)": [
-    "124375",
-    "https://github.com/pytorch/pytorch/issues/124375",
-    [
-      "mac",
-      "macos"
     ]
   ],
   "test_comprehensive_ones_cuda_int32 (__main__.TestInductorOpInfoCUDA)": [
@@ -1711,14 +1702,6 @@
     [
       "linux",
       "rocm"
-    ]
-  ],
-  "test_item_to_inputs_kernel_nobreak_cuda (__main__.TestInductorDynamicCUDA)": [
-    "119538",
-    "https://github.com/pytorch/pytorch/issues/119538",
-    [
-      "rocm",
-      "linux"
     ]
   ],
   "test_item_unbacked_stride_nobreak_cuda (__main__.TestInductorDynamicCUDA)": [
@@ -2917,6 +2900,13 @@
       "linux",
       "rocm",
       "slow"
+    ]
+  ],
+  "test_set__not_allowed (__main__.TestAOTAutograd)": [
+    "123888",
+    "https://github.com/pytorch/pytorch/issues/123888",
+    [
+      "dynamo"
     ]
   ],
   "test_set_gloo_pg_timeout (__main__.ProcessGroupGlooTest)": [
