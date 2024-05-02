@@ -2978,6 +2978,13 @@
       "rocm"
     ]
   ],
+  "test_some_output_requires_grad_input_doesnt (__main__.TestAOTAutograd)": [
+    "125402",
+    "https://github.com/pytorch/pytorch/issues/125402",
+    [
+      "linux"
+    ]
+  ],
   "test_source_multithreaded_basic_work_in_main_thread_False (__main__.TestProfiler)": [
     "119346",
     "https://github.com/pytorch/pytorch/issues/119346",
