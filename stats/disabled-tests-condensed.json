@@ -434,8 +434,8 @@
     ]
   ],
   "test_binary_op_float_inf_nan__foreach_add_cuda_bfloat16 (__main__.TestForeachCUDA)": [
-    "123634",
-    "https://github.com/pytorch/pytorch/issues/123634",
+    "125427",
+    "https://github.com/pytorch/pytorch/issues/125427",
     [
       "linux"
     ]
