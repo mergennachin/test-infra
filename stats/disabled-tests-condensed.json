@@ -1178,6 +1178,13 @@
       "dynamo"
     ]
   ],
+  "test_full_symbolic_value_cuda (__main__.TestInductorDynamicCUDA)": [
+    "125506",
+    "https://github.com/pytorch/pytorch/issues/125506",
+    [
+      "rocm"
+    ]
+  ],
   "test_full_tensor_sync (__main__.DTensorTest)": [
     "125366",
     "https://github.com/pytorch/pytorch/issues/125366",
