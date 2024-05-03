@@ -196,6 +196,15 @@
       "dynamo"
     ]
   ],
+  "test_aot_export_while_loop_simple_cuda_float32 (__main__.TestHOPCUDA)": [
+    "123948",
+    "https://github.com/pytorch/pytorch/issues/123948",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_aot_module_simplified (__main__.TestAOTModuleSimplified)": [
     "124476",
     "https://github.com/pytorch/pytorch/issues/124476",
@@ -780,13 +789,6 @@
     "https://github.com/pytorch/pytorch/issues/106557",
     [
       "macos"
-    ]
-  ],
-  "test_creation_with_zeros_cuda_float8_e5m2 (__main__.TestFloat8DtypeCUDA)": [
-    "124474",
-    "https://github.com/pytorch/pytorch/issues/124474",
-    [
-      "rocm"
     ]
   ],
   "test_cross_entropy_large_tensor_reduction_mean_cuda (__main__.TestNNDeviceTypeCUDA)": [
@@ -1859,31 +1861,11 @@
       "dynamo"
     ]
   ],
-  "test_min_cut_partitioner_output_tensor_shape_tensor (__main__.TestPartitioning)": [
-    "104326",
-    "https://github.com/pytorch/pytorch/issues/104326",
-    [
-      "linux",
-      "win",
-      "windows",
-      "dynamo"
-    ]
-  ],
   "test_min_cut_partitioner_recomputable_ops (__main__.TestPartitioning)": [
     "104327",
     "https://github.com/pytorch/pytorch/issues/104327",
     [
       "asan",
-      "linux",
-      "win",
-      "windows",
-      "dynamo"
-    ]
-  ],
-  "test_min_cut_partitioner_save_shape (__main__.TestPartitioning)": [
-    "104324",
-    "https://github.com/pytorch/pytorch/issues/104324",
-    [
       "linux",
       "win",
       "windows",
@@ -2273,7 +2255,9 @@
       "asan",
       "linux",
       "rocm",
-      "slow"
+      "slow",
+      "mac",
+      "macos"
     ]
   ],
   "test_power_function (__main__.TestAutogradWithCompiledAutograd)": [
@@ -2284,15 +2268,6 @@
       "rocm",
       "asan",
       "slow"
-    ]
-  ],
-  "test_pre_dispatch_export_cond_simple_cuda_float32 (__main__.TestHOPCUDA)": [
-    "123352",
-    "https://github.com/pytorch/pytorch/issues/123352",
-    [
-      "linux",
-      "slow",
-      "rocm"
     ]
   ],
   "test_precompilations (__main__.TestMaxAutotune)": [
@@ -2404,15 +2379,6 @@
     "https://github.com/pytorch/pytorch/issues/84937",
     [
       "asan"
-    ]
-  ],
-  "test_recompute_partitioning (__main__.TestPartitioning)": [
-    "104325",
-    "https://github.com/pytorch/pytorch/issues/104325",
-    [
-      "asan",
-      "linux",
-      "dynamo"
     ]
   ],
   "test_record_stream_cuda (__main__.TestRecordStream)": [
@@ -2868,18 +2834,6 @@
     "https://github.com/pytorch/pytorch/issues/125402",
     [
       "linux"
-    ]
-  ],
-  "test_source_multithreaded_basic_work_in_main_thread_False (__main__.TestProfiler)": [
-    "119346",
-    "https://github.com/pytorch/pytorch/issues/119346",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "slow"
     ]
   ],
   "test_source_multithreaded_basic_work_in_main_thread_True (__main__.TestProfiler)": [
