@@ -2538,6 +2538,13 @@
       "slow"
     ]
   ],
+  "test_ring_attention_compile_attention_fn0 (__main__.RingAttentionTest)": [
+    "125504",
+    "https://github.com/pytorch/pytorch/issues/125504",
+    [
+      "rocm"
+    ]
+  ],
   "test_save_on_cpu_and_checkpoint (__main__.TestAutogradWithCompiledAutograd)": [
     "124706",
     "https://github.com/pytorch/pytorch/issues/124706",
