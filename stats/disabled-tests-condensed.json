@@ -380,59 +380,6 @@
       "mac"
     ]
   ],
-  "test_batched_mm_bfloat16_bs_1_cuda_bfloat16 (__main__.TestDecompCUDA)": [
-    "123850",
-    "https://github.com/pytorch/pytorch/issues/123850",
-    [
-      "linux",
-      "slow",
-      "rocm"
-    ]
-  ],
-  "test_batched_mm_bfloat16_bs_2_cuda_bfloat16 (__main__.TestDecompCUDA)": [
-    "123945",
-    "https://github.com/pytorch/pytorch/issues/123945",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
-  "test_batched_mm_bfloat16_bs_4_cuda_bfloat16 (__main__.TestDecompCUDA)": [
-    "124073",
-    "https://github.com/pytorch/pytorch/issues/124073",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
-  "test_batched_mm_float32_bs_10_cuda_float32 (__main__.TestDecompCUDA)": [
-    "124201",
-    "https://github.com/pytorch/pytorch/issues/124201",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
-  "test_batched_mm_float32_bs_1_cuda_float32 (__main__.TestDecompCUDA)": [
-    "124295",
-    "https://github.com/pytorch/pytorch/issues/124295",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
-  "test_batched_mm_float32_bs_2_cuda_float32 (__main__.TestDecompCUDA)": [
-    "124404",
-    "https://github.com/pytorch/pytorch/issues/124404",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_binary_op_float_inf_nan__foreach_add_cuda_bfloat16 (__main__.TestForeachCUDA)": [
     "125427",
     "https://github.com/pytorch/pytorch/issues/125427",
@@ -1076,6 +1023,15 @@
     "https://github.com/pytorch/pytorch/issues/125055",
     [
       "linux",
+      "rocm"
+    ]
+  ],
+  "test_dynamic_stride_nobreak_cuda (__main__.TestInductorDynamicCUDA)": [
+    "117954",
+    "https://github.com/pytorch/pytorch/issues/117954",
+    [
+      "linux",
+      "slow",
       "rocm"
     ]
   ],
@@ -1878,13 +1834,6 @@
       "rocm"
     ]
   ],
-  "test_memory_format_nn_ConvTranspose1d_cuda_complex32 (__main__.TestModuleCUDA)": [
-    "107426",
-    "https://github.com/pytorch/pytorch/issues/107426",
-    [
-      "linux"
-    ]
-  ],
   "test_memory_format_nn_ConvTranspose2d_cuda_complex32 (__main__.TestModuleCUDA)": [
     "95172",
     "https://github.com/pytorch/pytorch/issues/95172",
@@ -2060,7 +2009,9 @@
       "asan",
       "linux",
       "rocm",
-      "slow"
+      "slow",
+      "mac",
+      "macos"
     ]
   ],
   "test_non_blocking_with_eager_init (__main__.ProcessGroupNCCLTest)": [
