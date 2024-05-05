@@ -3142,6 +3142,13 @@
       "rocm"
     ]
   ],
+  "test_train_parity_2d_mlp (__main__.TestFullyShard2DTraining)": [
+    "125555",
+    "https://github.com/pytorch/pytorch/issues/125555",
+    [
+      "rocm"
+    ]
+  ],
   "test_train_parity_with_activation_checkpointing (__main__.TestFullyShard1DTrainingCompose)": [
     "121144",
     "https://github.com/pytorch/pytorch/issues/121144",
