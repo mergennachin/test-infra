@@ -2274,7 +2274,9 @@
       "linux",
       "rocm",
       "asan",
-      "slow"
+      "slow",
+      "mac",
+      "macos"
     ]
   ],
   "test_precompilations (__main__.TestMaxAutotune)": [
