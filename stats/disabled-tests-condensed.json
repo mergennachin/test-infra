@@ -233,6 +233,11 @@
       "dynamo"
     ]
   ],
+  "test_aot_sequence_nr (__main__.DynamicShapesAotAutogradFallbackTests)": [
+    "106440",
+    "https://github.com/pytorch/pytorch/issues/106440",
+    []
+  ],
   "test_artificial_grid_cpp_wrapper (__main__.TestTritonHeuristics)": [
     "121709",
     "https://github.com/pytorch/pytorch/issues/121709",
