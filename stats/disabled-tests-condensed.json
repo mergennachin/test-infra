@@ -1917,13 +1917,6 @@
       "rocm"
     ]
   ],
-  "test_mm_batching (__main__.TestScript)": [
-    "119747",
-    "https://github.com/pytorch/pytorch/issues/119747",
-    [
-      "dynamo"
-    ]
-  ],
   "test_mm_plus_mm2_cuda_cuda_wrapper (__main__.TestCudaWrapper)": [
     "122441",
     "https://github.com/pytorch/pytorch/issues/122441",
