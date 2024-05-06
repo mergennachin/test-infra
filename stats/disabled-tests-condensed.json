@@ -3119,6 +3119,20 @@
       "rocm"
     ]
   ],
+  "test_train_parity_2d_transformer_checkpoint_resume (__main__.TestFullyShard2DTraining)": [
+    "125644",
+    "https://github.com/pytorch/pytorch/issues/125644",
+    [
+      "rocm"
+    ]
+  ],
+  "test_train_parity_hsdp (__main__.TestFullyShardHSDPTraining)": [
+    "125645",
+    "https://github.com/pytorch/pytorch/issues/125645",
+    [
+      "rocm"
+    ]
+  ],
   "test_train_parity_with_activation_checkpointing (__main__.TestFullyShard1DTrainingCompose)": [
     "121144",
     "https://github.com/pytorch/pytorch/issues/121144",
