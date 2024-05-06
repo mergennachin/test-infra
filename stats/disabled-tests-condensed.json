@@ -277,6 +277,13 @@
       "rocm"
     ]
   ],
+  "test_autograd_cpp_node_data_dependent (__main__.TestCompiledAutograd)": [
+    "125579",
+    "https://github.com/pytorch/pytorch/issues/125579",
+    [
+      "linux"
+    ]
+  ],
   "test_autograd_python_custom_function_inplace (__main__.TestAutogradWithCompiledAutograd)": [
     "123791",
     "https://github.com/pytorch/pytorch/issues/123791",
