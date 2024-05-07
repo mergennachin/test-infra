@@ -665,25 +665,11 @@
       "inductor"
     ]
   ],
-  "test_comprehensive_ones_like_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
-    "124662",
-    "https://github.com/pytorch/pytorch/issues/124662",
-    [
-      "rocm"
-    ]
-  ],
   "test_comprehensive_randn_like_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
     "124758",
     "https://github.com/pytorch/pytorch/issues/124758",
     [
       "linux"
-    ]
-  ],
-  "test_comprehensive_rot90_cuda_bool (__main__.TestInductorOpInfoCUDA)": [
-    "124661",
-    "https://github.com/pytorch/pytorch/issues/124661",
-    [
-      "rocm"
     ]
   ],
   "test_comprehensive_special_bessel_y1_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
@@ -713,15 +699,6 @@
     "https://github.com/pytorch/pytorch/issues/109379",
     [
       "linux"
-    ]
-  ],
-  "test_constant_insertion (__main__.TestJit)": [
-    "96894",
-    "https://github.com/pytorch/pytorch/issues/96894",
-    [
-      "win",
-      "windows",
-      "dynamo"
     ]
   ],
   "test_contiguous (__main__.TestPartitioning)": [
@@ -1237,14 +1214,6 @@
       "rocm"
     ]
   ],
-  "test_function_composition_float32 (__main__.TestTemplatedSDPA)": [
-    "124639",
-    "https://github.com/pytorch/pytorch/issues/124639",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_function_returns_input (__main__.TestAutogradWithCompiledAutograd)": [
     "124243",
     "https://github.com/pytorch/pytorch/issues/124243",
@@ -1592,6 +1561,13 @@
       "macos"
     ]
   ],
+  "test_inline_dict_function_cpp_guard_manager (__main__.CppGuardManagerMiscTests)": [
+    "125666",
+    "https://github.com/pytorch/pytorch/issues/125666",
+    [
+      "linux"
+    ]
+  ],
   "test_inplace (__main__.TestAutogradWithCompiledAutograd)": [
     "124446",
     "https://github.com/pytorch/pytorch/issues/124446",
@@ -1707,6 +1683,15 @@
       "slow"
     ]
   ],
+  "test_item_unbacked_stride_nobreak_cuda (__main__.TestInductorDynamicCUDA)": [
+    "123333",
+    "https://github.com/pytorch/pytorch/issues/123333",
+    [
+      "linux",
+      "slow",
+      "rocm"
+    ]
+  ],
   "test_jvpvjp_nn_functional_conv3d_cuda_float32 (__main__.TestOperatorsCUDA)": [
     "114654",
     "https://github.com/pytorch/pytorch/issues/114654",
@@ -1798,14 +1783,6 @@
       "linux"
     ]
   ],
-  "test_logsumexp_correctness_float32_score_mod0 (__main__.TestTemplatedSDPA)": [
-    "124705",
-    "https://github.com/pytorch/pytorch/issues/124705",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_long (__main__.NCCLTraceTest)": [
     "124087",
     "https://github.com/pytorch/pytorch/issues/124087",
@@ -1841,22 +1818,6 @@
     "https://github.com/pytorch/pytorch/issues/123693",
     [
       "dynamo"
-    ]
-  ],
-  "test_max_autotune_cutlass_backend_mm_bias_dynamic_False_max_autotune_gemm_backends_ATen,Triton,CUTLASS (__main__.TestCutlassBackend)": [
-    "124660",
-    "https://github.com/pytorch/pytorch/issues/124660",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
-  "test_max_autotune_cutlass_backend_mm_bias_dynamic_False_max_autotune_gemm_backends_CUTLASS (__main__.TestCutlassBackend)": [
-    "124704",
-    "https://github.com/pytorch/pytorch/issues/124704",
-    [
-      "linux",
-      "slow"
     ]
   ],
   "test_mem_get_info (__main__.TestCuda)": [
@@ -2423,6 +2384,34 @@
       "macos"
     ]
   ],
+  "test_quantization_doc_custom (__main__.TestQuantizationDocs)": [
+    "125668",
+    "https://github.com/pytorch/pytorch/issues/125668",
+    [
+      "linux"
+    ]
+  ],
+  "test_quantization_doc_fx (__main__.TestQuantizationDocs)": [
+    "125670",
+    "https://github.com/pytorch/pytorch/issues/125670",
+    [
+      "linux"
+    ]
+  ],
+  "test_quantization_doc_ptdq (__main__.TestQuantizationDocs)": [
+    "125667",
+    "https://github.com/pytorch/pytorch/issues/125667",
+    [
+      "linux"
+    ]
+  ],
+  "test_quantization_doc_ptsq (__main__.TestQuantizationDocs)": [
+    "125669",
+    "https://github.com/pytorch/pytorch/issues/125669",
+    [
+      "linux"
+    ]
+  ],
   "test_raise_comms (__main__.TestComputeCommReorderingMultiProc)": [
     "120946",
     "https://github.com/pytorch/pytorch/issues/120946",
@@ -2604,10 +2593,12 @@
     "124690",
     "https://github.com/pytorch/pytorch/issues/124690",
     [
-      "rocm",
       "asan",
       "linux",
-      "slow"
+      "rocm",
+      "slow",
+      "mac",
+      "macos"
     ]
   ],
   "test_ring_attention_compile_attention_fn0 (__main__.RingAttentionTest)": [
@@ -3269,6 +3260,13 @@
     "https://github.com/pytorch/pytorch/issues/86887",
     [
       "linux"
+    ]
+  ],
+  "test_view_and_inplace_view (__main__.TestAOTAutograd)": [
+    "125671",
+    "https://github.com/pytorch/pytorch/issues/125671",
+    [
+      "dynamo"
     ]
   ],
   "test_vit_aten_export (__main__.TestQuantizePT2EModels)": [
