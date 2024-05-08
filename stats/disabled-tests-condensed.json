@@ -2231,6 +2231,13 @@
       "rocm"
     ]
   ],
+  "test_parity__foreach_abs_fastpath_inplace_cuda_complex128 (__main__.TestForeachCUDA)": [
+    "125774",
+    "https://github.com/pytorch/pytorch/issues/125774",
+    [
+      "linux"
+    ]
+  ],
   "test_perfect_match_on_sequence_and_bool_attributes (__main__.TestFxToOnnx)": [
     "125218",
     "https://github.com/pytorch/pytorch/issues/125218",
@@ -2967,7 +2974,8 @@
     "https://github.com/pytorch/pytorch/issues/125600",
     [
       "win",
-      "windows"
+      "windows",
+      "linux"
     ]
   ],
   "test_switch_inputs_to_inplace (jit.test_freezing.TestMKLDNNReinplacing)": [
