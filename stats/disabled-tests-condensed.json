@@ -2963,6 +2963,15 @@
       "linux"
     ]
   ],
+  "test_svd_cuda_complex64 (__main__.TestLinalgCUDA)": [
+    "125600",
+    "https://github.com/pytorch/pytorch/issues/125600",
+    [
+      "win",
+      "windows",
+      "linux"
+    ]
+  ],
   "test_switch_inputs_to_inplace (jit.test_freezing.TestMKLDNNReinplacing)": [
     "91488",
     "https://github.com/pytorch/pytorch/issues/91488",
