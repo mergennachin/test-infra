@@ -1907,18 +1907,6 @@
       "linux"
     ]
   ],
-  "test_module_order (__main__.OptimizedModuleTest)": [
-    "125567",
-    "https://github.com/pytorch/pytorch/issues/125567",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_multi_backward (__main__.TestAutogradWithCompiledAutograd)": [
     "124491",
     "https://github.com/pytorch/pytorch/issues/124491",
