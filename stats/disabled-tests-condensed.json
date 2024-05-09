@@ -2014,7 +2014,7 @@
       "macos"
     ]
   ],
-  "test_non_blocking_with_eager_init (__main__.ProcessGroupNCCLTest)": [
+  "test_non_blocking_with_eager_init (__main__.ProcessGroupNCCLGroupTest)": [
     "118827",
     "https://github.com/pytorch/pytorch/issues/118827",
     [
