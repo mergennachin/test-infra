@@ -3036,6 +3036,13 @@
       "rocm"
     ]
   ],
+  "test_transformer_training_is_seq_parallel_False (__main__.DistTensorParallelExampleTest)": [
+    "125918",
+    "https://github.com/pytorch/pytorch/issues/125918",
+    [
+      "rocm"
+    ]
+  ],
   "test_transpose_infer_shape (__main__.TORCH_NN_MODULE)": [
     "124267",
     "https://github.com/pytorch/pytorch/issues/124267",
