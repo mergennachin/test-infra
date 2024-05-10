@@ -515,6 +515,14 @@
       "mac"
     ]
   ],
+  "test_byte_mask_accumulate (__main__.TestAdvancedIndexing)": [
+    "125927",
+    "https://github.com/pytorch/pytorch/issues/125927",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_causal_mask_float32 (__main__.TestTemplatedSDPA)": [
     "124607",
     "https://github.com/pytorch/pytorch/issues/124607",
@@ -644,6 +652,15 @@
       "linux"
     ]
   ],
+  "test_comprehensive_nn_functional_nll_loss_cuda_float32 (__main__.TestDecompCUDA)": [
+    "117732",
+    "https://github.com/pytorch/pytorch/issues/117732",
+    [
+      "rocm",
+      "win",
+      "windows"
+    ]
+  ],
   "test_comprehensive_nn_functional_nll_loss_cuda_float64 (__main__.TestDecompCUDA)": [
     "118355",
     "https://github.com/pytorch/pytorch/issues/118355",
@@ -755,6 +772,14 @@
       "macos"
     ]
   ],
+  "test_correctness_ASGD_use_closure_False_cuda_float32 (__main__.CompiledOptimizerParityTestsCUDA)": [
+    "125924",
+    "https://github.com/pytorch/pytorch/issues/125924",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_correctness_Adadelta_use_closure_True_cuda_float32 (__main__.CompiledOptimizerParityTestsCUDA)": [
     "125592",
     "https://github.com/pytorch/pytorch/issues/125592",
@@ -763,9 +788,26 @@
       "slow"
     ]
   ],
+  "test_correctness_NAdam_use_closure_False_cuda_float32 (__main__.CompiledOptimizerParityTestsCUDA)": [
+    "125926",
+    "https://github.com/pytorch/pytorch/issues/125926",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_correctness_NAdam_use_closure_True_cuda_float32 (__main__.CompiledOptimizerParityTestsCUDA)": [
     "124623",
     "https://github.com/pytorch/pytorch/issues/124623",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
+  "test_correctness_RAdam_use_closure_True_cuda_float32 (__main__.CompiledOptimizerParityTestsCUDA)": [
+    "125925",
+    "https://github.com/pytorch/pytorch/issues/125925",
     [
       "linux",
       "slow"
@@ -783,6 +825,13 @@
     "https://github.com/pytorch/pytorch/issues/106557",
     [
       "macos"
+    ]
+  ],
+  "test_creation_with_zeros_cuda_float8_e5m2 (__main__.TestFloat8DtypeCUDA)": [
+    "124474",
+    "https://github.com/pytorch/pytorch/issues/124474",
+    [
+      "rocm"
     ]
   ],
   "test_cross_entropy_large_tensor_reduction_mean_cuda (__main__.TestNNDeviceTypeCUDA)": [
@@ -1821,6 +1870,17 @@
       "linux"
     ]
   ],
+  "test_min_cut_partitioner (__main__.TestPartitioning)": [
+    "104323",
+    "https://github.com/pytorch/pytorch/issues/104323",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "dynamo"
+    ]
+  ],
   "test_mlp_contiguous_relu_compile_cutlass (__main__.SparseSemiStructuredTensorCompileTest)": [
     "122352",
     "https://github.com/pytorch/pytorch/issues/122352",
@@ -2230,6 +2290,15 @@
       "rocm"
     ]
   ],
+  "test_pre_dispatch_export_cond_simple_cuda_float32 (__main__.TestHOPCUDA)": [
+    "123352",
+    "https://github.com/pytorch/pytorch/issues/123352",
+    [
+      "linux",
+      "slow",
+      "rocm"
+    ]
+  ],
   "test_pre_dispatch_export_while_loop_simple_cuda_float32 (__main__.TestHOPCUDA)": [
     "123943",
     "https://github.com/pytorch/pytorch/issues/123943",
@@ -2491,6 +2560,15 @@
       "dynamo"
     ]
   ],
+  "test_retrace_export_auto_functionalize_simple_cuda_float32 (__main__.TestHOPCUDA)": [
+    "123449",
+    "https://github.com/pytorch/pytorch/issues/123449",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_retrace_export_while_loop_simple_cuda_float32 (__main__.TestHOPCUDA)": [
     "123944",
     "https://github.com/pytorch/pytorch/issues/123944",
@@ -2533,7 +2611,9 @@
       "asan",
       "linux",
       "rocm",
-      "slow"
+      "slow",
+      "mac",
+      "macos"
     ]
   ],
   "test_save_with_without_initializer_dont_include_initializer_no_fake_mode_no_exported_program (__main__.TestFxToOnnx)": [
@@ -2739,6 +2819,14 @@
     "https://github.com/pytorch/pytorch/issues/71195",
     [
       "mac"
+    ]
+  ],
+  "test_serialize_export_auto_functionalize_simple_cuda_float32 (__main__.TestHOPCUDA)": [
+    "123563",
+    "https://github.com/pytorch/pytorch/issues/123563",
+    [
+      "linux",
+      "slow"
     ]
   ],
   "test_serialize_export_while_loop_simple_cuda_float32 (__main__.TestHOPCUDA)": [
@@ -3069,14 +3157,6 @@
     "105119",
     "https://github.com/pytorch/pytorch/issues/105119",
     [
-      "rocm"
-    ]
-  ],
-  "test_unbacked_cat_backwards_cuda (__main__.TestInductorDynamicCUDA)": [
-    "125019",
-    "https://github.com/pytorch/pytorch/issues/125019",
-    [
-      "linux",
       "rocm"
     ]
   ],
