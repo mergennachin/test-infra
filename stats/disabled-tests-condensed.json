@@ -445,13 +445,6 @@
       "linux"
     ]
   ],
-  "test_binary_op_list_error_cases__foreach_add_cuda_int16 (__main__.TestForeachCUDA)": [
-    "124636",
-    "https://github.com/pytorch/pytorch/issues/124636",
-    [
-      "linux"
-    ]
-  ],
   "test_binary_op_list_error_cases__foreach_clamp_max_cuda_float64 (__main__.TestForeachCUDA)": [
     "125035",
     "https://github.com/pytorch/pytorch/issues/125035",
@@ -587,13 +580,6 @@
       "linux"
     ]
   ],
-  "test_circular_dependencies (__main__.TestImports)": [
-    "110040",
-    "https://github.com/pytorch/pytorch/issues/110040",
-    [
-      "rocm"
-    ]
-  ],
   "test_compare_cpu__refs_empty_strided_cuda_float32 (__main__.TestCommonCUDA)": [
     "101625",
     "https://github.com/pytorch/pytorch/issues/101625",
@@ -670,13 +656,6 @@
     "https://github.com/pytorch/pytorch/issues/124202",
     [
       "inductor"
-    ]
-  ],
-  "test_comprehensive_randn_like_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
-    "124758",
-    "https://github.com/pytorch/pytorch/issues/124758",
-    [
-      "linux"
     ]
   ],
   "test_comprehensive_special_bessel_y1_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
@@ -1159,13 +1138,6 @@
     "https://github.com/pytorch/pytorch/issues/93045",
     [
       "rocm"
-    ]
-  ],
-  "test_forward_mode_AD_linalg_lu_cuda_float64 (__main__.TestFwdGradientsCUDA)": [
-    "86774",
-    "https://github.com/pytorch/pytorch/issues/86774",
-    [
-      "linux"
     ]
   ],
   "test_free_activation_memory (__main__.TestCompiledAutograd)": [
@@ -1752,13 +1724,6 @@
       "macos"
     ]
   ],
-  "test_lazy_init (__main__.TestCuda)": [
-    "117430",
-    "https://github.com/pytorch/pytorch/issues/117430",
-    [
-      "rocm"
-    ]
-  ],
   "test_leaf_assignment (__main__.TestAutogradWithCompiledAutograd)": [
     "124405",
     "https://github.com/pytorch/pytorch/issues/124405",
@@ -1854,28 +1819,6 @@
     "https://github.com/pytorch/pytorch/issues/91481",
     [
       "linux"
-    ]
-  ],
-  "test_min_cut_partitioner (__main__.TestPartitioning)": [
-    "104323",
-    "https://github.com/pytorch/pytorch/issues/104323",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "dynamo"
-    ]
-  ],
-  "test_min_cut_partitioner_recomputable_ops (__main__.TestPartitioning)": [
-    "104327",
-    "https://github.com/pytorch/pytorch/issues/104327",
-    [
-      "asan",
-      "linux",
-      "win",
-      "windows",
-      "dynamo"
     ]
   ],
   "test_mlp_contiguous_relu_compile_cutlass (__main__.SparseSemiStructuredTensorCompileTest)": [
