@@ -795,17 +795,18 @@
       "slow"
     ]
   ],
-  "test_correctness_NAdam_use_closure_True_cuda_float32 (__main__.CompiledOptimizerParityTestsCUDA)": [
-    "124623",
-    "https://github.com/pytorch/pytorch/issues/124623",
+  "test_correctness_NAdam_use_closure_False_cuda_float32 (__main__.CompiledOptimizerParityTestsCUDA)": [
+    "125926",
+    "https://github.com/pytorch/pytorch/issues/125926",
     [
       "linux",
+      "rocm",
       "slow"
     ]
   ],
-  "test_correctness_RAdam_use_closure_True_cuda_float32 (__main__.CompiledOptimizerParityTestsCUDA)": [
-    "125925",
-    "https://github.com/pytorch/pytorch/issues/125925",
+  "test_correctness_NAdam_use_closure_True_cuda_float32 (__main__.CompiledOptimizerParityTestsCUDA)": [
+    "124623",
+    "https://github.com/pytorch/pytorch/issues/124623",
     [
       "linux",
       "slow"
