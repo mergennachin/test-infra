@@ -3155,6 +3155,14 @@
       "rocm"
     ]
   ],
+  "test_unbacked_cat_backwards_cuda (__main__.TestInductorDynamicCUDA)": [
+    "125019",
+    "https://github.com/pytorch/pytorch/issues/125019",
+    [
+      "linux",
+      "rocm"
+    ]
+  ],
   "test_unused_output (__main__.TestAutogradWithCompiledAutograd)": [
     "125205",
     "https://github.com/pytorch/pytorch/issues/125205",
