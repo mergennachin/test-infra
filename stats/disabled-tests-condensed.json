@@ -445,13 +445,6 @@
       "linux"
     ]
   ],
-  "test_binary_op_list_error_cases__foreach_clamp_max_cuda_float64 (__main__.TestForeachCUDA)": [
-    "125035",
-    "https://github.com/pytorch/pytorch/issues/125035",
-    [
-      "linux"
-    ]
-  ],
   "test_binary_op_list_slow_path__foreach_div_cuda_bool (__main__.TestForeachCUDA)": [
     "125349",
     "https://github.com/pytorch/pytorch/issues/125349",
@@ -1068,14 +1061,6 @@
       "slow",
       "mac",
       "macos"
-    ]
-  ],
-  "test_dynamic_shapes (__main__.TestCompiledAutograd)": [
-    "125055",
-    "https://github.com/pytorch/pytorch/issues/125055",
-    [
-      "linux",
-      "rocm"
     ]
   ],
   "test_dynamic_stride_nobreak_cuda (__main__.TestInductorDynamicCUDA)": [
@@ -1885,6 +1870,16 @@
       "linux",
       "mac",
       "macos",
+      "dynamo"
+    ]
+  ],
+  "test_min_cut_partitioner_output_tensor_shape_tensor (__main__.TestPartitioning)": [
+    "104326",
+    "https://github.com/pytorch/pytorch/issues/104326",
+    [
+      "linux",
+      "win",
+      "windows",
       "dynamo"
     ]
   ],
@@ -3131,6 +3126,13 @@
     "https://github.com/pytorch/pytorch/issues/125991",
     [
       "rocm"
+    ]
+  ],
+  "test_transformerdecoder (__main__.TestNN)": [
+    "126043",
+    "https://github.com/pytorch/pytorch/issues/126043",
+    [
+      "dynamo"
     ]
   ],
   "test_transpose_infer_shape (__main__.TORCH_NN_MODULE)": [
