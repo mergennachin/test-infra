@@ -44,6 +44,13 @@
       "slow"
     ]
   ],
+  "test_activations_bfloat16_half_cpu_cpu_bfloat16 (__main__.TestNNDeviceTypeCPU)": [
+    "126090",
+    "https://github.com/pytorch/pytorch/issues/126090",
+    [
+      "dynamo"
+    ]
+  ],
   "test_addcdiv_cuda_complex128 (__main__.TestTorchDeviceTypeCUDA)": [
     "119515",
     "https://github.com/pytorch/pytorch/issues/119515",
@@ -144,13 +151,6 @@
       "macos"
     ]
   ],
-  "test_aot_dispatch_incorrect_backward (__main__.TestAOTDispatch)": [
-    "124459",
-    "https://github.com/pytorch/pytorch/issues/124459",
-    [
-      "dynamo"
-    ]
-  ],
   "test_aot_export_auto_functionalize_simple_cuda_float32 (__main__.TestHOPCUDA)": [
     "122964",
     "https://github.com/pytorch/pytorch/issues/122964",
@@ -189,20 +189,6 @@
       "dynamo"
     ]
   ],
-  "test_aot_export_multiple_outputs_require_grad_banned (__main__.TestAOTExport)": [
-    "124221",
-    "https://github.com/pytorch/pytorch/issues/124221",
-    [
-      "dynamo"
-    ]
-  ],
-  "test_aot_export_simplified_basic (__main__.TestAOTExport)": [
-    "124254",
-    "https://github.com/pytorch/pytorch/issues/124254",
-    [
-      "dynamo"
-    ]
-  ],
   "test_aot_export_while_loop_simple_cuda_float32 (__main__.TestHOPCUDA)": [
     "123948",
     "https://github.com/pytorch/pytorch/issues/123948",
@@ -212,30 +198,9 @@
       "slow"
     ]
   ],
-  "test_aot_module_simplified (__main__.TestAOTModuleSimplified)": [
-    "124476",
-    "https://github.com/pytorch/pytorch/issues/124476",
-    [
-      "dynamo"
-    ]
-  ],
-  "test_aot_module_simplified_dynamic (__main__.TestAOTModuleSimplified)": [
-    "124510",
-    "https://github.com/pytorch/pytorch/issues/124510",
-    [
-      "dynamo"
-    ]
-  ],
   "test_aot_module_simplified_fake_tensor_gm_raises (__main__.TestAOTModuleSimplified)": [
     "124590",
     "https://github.com/pytorch/pytorch/issues/124590",
-    [
-      "dynamo"
-    ]
-  ],
-  "test_aot_module_simplified_preserves_stack_trace (__main__.TestAOTModuleSimplified)": [
-    "124609",
-    "https://github.com/pytorch/pytorch/issues/124609",
     [
       "dynamo"
     ]
@@ -704,13 +669,6 @@
       "linux"
     ]
   ],
-  "test_contiguous (__main__.TestPartitioning)": [
-    "124323",
-    "https://github.com/pytorch/pytorch/issues/124323",
-    [
-      "dynamo"
-    ]
-  ],
   "test_conv (quantization.jit.test_quantize_jit.TestQuantizeJit)": [
     "105125",
     "https://github.com/pytorch/pytorch/issues/105125",
@@ -723,6 +681,13 @@
     "https://github.com/pytorch/pytorch/issues/104366",
     [
       "rocm"
+    ]
+  ],
+  "test_conv_empty_input_cpu_float32 (__main__.TestNNDeviceTypeCPU)": [
+    "126091",
+    "https://github.com/pytorch/pytorch/issues/126091",
+    [
+      "dynamo"
     ]
   ],
   "test_conv_stride_constraints (__main__.CPUReproTests)": [
@@ -962,20 +927,6 @@
   "test_decoder_padding_and_src_mask_bool_cpu (__main__.TestTransformersCPU)": [
     "101787",
     "https://github.com/pytorch/pytorch/issues/101787",
-    [
-      "dynamo"
-    ]
-  ],
-  "test_default_partitioner_getitem (__main__.TestPartitioning)": [
-    "124278",
-    "https://github.com/pytorch/pytorch/issues/124278",
-    [
-      "dynamo"
-    ]
-  ],
-  "test_default_partitioner_output_tensor_shape_tensor (__main__.TestPartitioning)": [
-    "124355",
-    "https://github.com/pytorch/pytorch/issues/124355",
     [
       "dynamo"
     ]
@@ -1910,6 +1861,17 @@
       "dynamo"
     ]
   ],
+  "test_min_cut_partitioner_recomputable_ops (__main__.TestPartitioning)": [
+    "104327",
+    "https://github.com/pytorch/pytorch/issues/104327",
+    [
+      "asan",
+      "linux",
+      "win",
+      "windows",
+      "dynamo"
+    ]
+  ],
   "test_mlp_contiguous_relu_compile_cutlass (__main__.SparseSemiStructuredTensorCompileTest)": [
     "122352",
     "https://github.com/pytorch/pytorch/issues/122352",
@@ -2582,13 +2544,6 @@
       "linux"
     ]
   ],
-  "test_resnet18_backward_trace_cpu (__main__.TestPythonKeyCPU)": [
-    "124641",
-    "https://github.com/pytorch/pytorch/issues/124641",
-    [
-      "dynamo"
-    ]
-  ],
   "test_retrace_export_auto_functionalize_simple_cuda_float32 (__main__.TestHOPCUDA)": [
     "123449",
     "https://github.com/pytorch/pytorch/issues/123449",
@@ -2664,10 +2619,12 @@
     "124723",
     "https://github.com/pytorch/pytorch/issues/124723",
     [
-      "rocm",
       "asan",
       "linux",
-      "slow"
+      "rocm",
+      "slow",
+      "mac",
+      "macos"
     ]
   ],
   "test_saved_variable_packing_unpacking_did_not_save_original_with_default_hooks (__main__.TestAutogradWithCompiledAutograd)": [
