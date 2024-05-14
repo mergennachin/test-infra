@@ -64,5 +64,9 @@
     "captures": [
       "Could not assume role with user credentials: User: arn:aws:sts::308535385114:assumed-role/gh-ci-github-action-runners-runner-role"
     ]
+  },
+  {
+    "name": "linux",
+    "captures": ["no space left on device"]
   }
 ]
