@@ -2910,13 +2910,6 @@
       "linux"
     ]
   ],
-  "test_some_outputs_dont_require_grad_non_view (__main__.TestAOTAutograd)": [
-    "125568",
-    "https://github.com/pytorch/pytorch/issues/125568",
-    [
-      "dynamo"
-    ]
-  ],
   "test_some_outputs_dont_require_grad_view (__main__.TestAOTAutograd)": [
     "125593",
     "https://github.com/pytorch/pytorch/issues/125593",
