@@ -51,6 +51,13 @@
       "dynamo"
     ]
   ],
+  "test_activations_bfloat16_half_cpu_cpu_float16 (__main__.TestNNDeviceTypeCPU)": [
+    "126177",
+    "https://github.com/pytorch/pytorch/issues/126177",
+    [
+      "dynamo"
+    ]
+  ],
   "test_addcdiv_cuda_complex128 (__main__.TestTorchDeviceTypeCUDA)": [
     "119515",
     "https://github.com/pytorch/pytorch/issues/119515",
@@ -185,6 +192,13 @@
   "test_aot_export_module_joint (__main__.TestAOTExport)": [
     "124166",
     "https://github.com/pytorch/pytorch/issues/124166",
+    [
+      "dynamo"
+    ]
+  ],
+  "test_aot_export_multiple_outputs_require_grad_banned (__main__.TestAOTExport)": [
+    "124221",
+    "https://github.com/pytorch/pytorch/issues/124221",
     [
       "dynamo"
     ]
@@ -382,13 +396,6 @@
       "linux"
     ]
   ],
-  "test_binary_op_float_inf_nan__foreach_add_cuda_float16 (__main__.TestForeachCUDA)": [
-    "124125",
-    "https://github.com/pytorch/pytorch/issues/124125",
-    [
-      "linux"
-    ]
-  ],
   "test_binary_op_float_inf_nan__foreach_add_cuda_float32 (__main__.TestForeachCUDA)": [
     "124354",
     "https://github.com/pytorch/pytorch/issues/124354",
@@ -443,13 +450,6 @@
     "https://github.com/pytorch/pytorch/issues/116044",
     [
       "rocm"
-    ]
-  ],
-  "test_bmm_multithreaded (__main__.TestTorch)": [
-    "125240",
-    "https://github.com/pytorch/pytorch/issues/125240",
-    [
-      "dynamo"
     ]
   ],
   "test_broadcast_1d (__main__.DeviceMeshCollectiveTest)": [
@@ -647,14 +647,6 @@
       "inductor"
     ]
   ],
-  "test_comprehensive_special_bessel_y1_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
-    "123919",
-    "https://github.com/pytorch/pytorch/issues/123919",
-    [
-      "rocm",
-      "inductor"
-    ]
-  ],
   "test_comprehensive_special_spherical_bessel_j0_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
     "123332",
     "https://github.com/pytorch/pytorch/issues/123332",
@@ -686,6 +678,13 @@
   "test_conv_empty_input_cpu_float32 (__main__.TestNNDeviceTypeCPU)": [
     "126091",
     "https://github.com/pytorch/pytorch/issues/126091",
+    [
+      "dynamo"
+    ]
+  ],
+  "test_conv_empty_input_cpu_float64 (__main__.TestNNDeviceTypeCPU)": [
+    "126178",
+    "https://github.com/pytorch/pytorch/issues/126178",
     [
       "dynamo"
     ]
@@ -1145,13 +1144,6 @@
       "inductor"
     ]
   ],
-  "test_foreach_matches_forloop_RAdam_cpu_float64 (__main__.TestOptimRenewedCPU)": [
-    "125057",
-    "https://github.com/pytorch/pytorch/issues/125057",
-    [
-      "dynamo"
-    ]
-  ],
   "test_forward_mode_AD_linalg_det_singular_cuda_complex128 (__main__.TestFwdGradientsCUDA)": [
     "93045",
     "https://github.com/pytorch/pytorch/issues/93045",
@@ -1592,14 +1584,6 @@
       "inductor"
     ]
   ],
-  "test_inplace_grad_update (__main__.TestCompiledAutograd)": [
-    "125219",
-    "https://github.com/pytorch/pytorch/issues/125219",
-    [
-      "linux",
-      "rocm"
-    ]
-  ],
   "test_inplace_gradgrad_remainder_cuda_float64 (__main__.TestBwdGradientsCUDA)": [
     "100675",
     "https://github.com/pytorch/pytorch/issues/100675",
@@ -1994,6 +1978,15 @@
     "https://github.com/pytorch/pytorch/issues/118827",
     [
       "linux"
+    ]
+  ],
+  "test_non_contiguous_input_addmm (__main__.TestMaxAutotune)": [
+    "126176",
+    "https://github.com/pytorch/pytorch/issues/126176",
+    [
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_non_contiguous_tensors_nn_ConvTranspose1d_cuda_complex32 (__main__.TestModuleCUDA)": [
@@ -2632,7 +2625,9 @@
     "https://github.com/pytorch/pytorch/issues/124733",
     [
       "linux",
-      "rocm"
+      "rocm",
+      "mac",
+      "macos"
     ]
   ],
   "test_saved_variable_packing_unpacking_did_not_save_original_with_hooks (__main__.TestAutogradWithCompiledAutograd)": [
@@ -3138,14 +3133,6 @@
     "125405",
     "https://github.com/pytorch/pytorch/issues/125405",
     [
-      "rocm"
-    ]
-  ],
-  "test_type_conversions (__main__.TestAutogradWithCompiledAutograd)": [
-    "125206",
-    "https://github.com/pytorch/pytorch/issues/125206",
-    [
-      "linux",
       "rocm"
     ]
   ],
