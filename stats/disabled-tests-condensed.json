@@ -2603,6 +2603,13 @@
       "rocm"
     ]
   ],
+  "test_ring_attention_native_transformer_is_causal_False (__main__.RingAttentionTest)": [
+    "126330",
+    "https://github.com/pytorch/pytorch/issues/126330",
+    [
+      "rocm"
+    ]
+  ],
   "test_save_on_cpu_and_checkpoint (__main__.TestAutogradWithCompiledAutograd)": [
     "124706",
     "https://github.com/pytorch/pytorch/issues/124706",
