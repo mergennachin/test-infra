@@ -2589,6 +2589,13 @@
       "rocm"
     ]
   ],
+  "test_ring_attention_compile_attention_fn1 (__main__.RingAttentionTest)": [
+    "126252",
+    "https://github.com/pytorch/pytorch/issues/126252",
+    [
+      "rocm"
+    ]
+  ],
   "test_save_on_cpu_and_checkpoint (__main__.TestAutogradWithCompiledAutograd)": [
     "124706",
     "https://github.com/pytorch/pytorch/issues/124706",
