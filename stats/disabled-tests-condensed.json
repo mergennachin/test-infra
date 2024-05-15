@@ -2596,6 +2596,13 @@
       "rocm"
     ]
   ],
+  "test_ring_attention_custom_transformer (__main__.RingAttentionTest)": [
+    "126296",
+    "https://github.com/pytorch/pytorch/issues/126296",
+    [
+      "rocm"
+    ]
+  ],
   "test_save_on_cpu_and_checkpoint (__main__.TestAutogradWithCompiledAutograd)": [
     "124706",
     "https://github.com/pytorch/pytorch/issues/124706",
