@@ -2582,34 +2582,6 @@
       "macos"
     ]
   ],
-  "test_ring_attention_compile_attention_fn0 (__main__.RingAttentionTest)": [
-    "125504",
-    "https://github.com/pytorch/pytorch/issues/125504",
-    [
-      "rocm"
-    ]
-  ],
-  "test_ring_attention_compile_attention_fn1 (__main__.RingAttentionTest)": [
-    "126252",
-    "https://github.com/pytorch/pytorch/issues/126252",
-    [
-      "rocm"
-    ]
-  ],
-  "test_ring_attention_custom_transformer (__main__.RingAttentionTest)": [
-    "126296",
-    "https://github.com/pytorch/pytorch/issues/126296",
-    [
-      "rocm"
-    ]
-  ],
-  "test_ring_attention_native_transformer_is_causal_False (__main__.RingAttentionTest)": [
-    "126330",
-    "https://github.com/pytorch/pytorch/issues/126330",
-    [
-      "rocm"
-    ]
-  ],
   "test_ring_attention_native_transformer_is_causal_True (__main__.RingAttentionTest)": [
     "126380",
     "https://github.com/pytorch/pytorch/issues/126380",
