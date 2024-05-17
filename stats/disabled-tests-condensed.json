@@ -3135,15 +3135,6 @@
       "slow"
     ]
   ],
-  "test_variable_traverse (__main__.TestAutogradWithCompiledAutograd)": [
-    "125229",
-    "https://github.com/pytorch/pytorch/issues/125229",
-    [
-      "asan",
-      "linux",
-      "rocm"
-    ]
-  ],
   "test_variant_consistency_eager_nn_functional_conv3d_cuda_complex64 (__main__.TestCommonCUDA)": [
     "114592",
     "https://github.com/pytorch/pytorch/issues/114592",
