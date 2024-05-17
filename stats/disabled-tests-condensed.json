@@ -1706,17 +1706,6 @@
       "linux"
     ]
   ],
-  "test_mark_non_differentiable_none (__main__.TestAutogradWithCompiledAutograd)": [
-    "124475",
-    "https://github.com/pytorch/pytorch/issues/124475",
-    [
-      "asan",
-      "linux",
-      "rocm",
-      "mac",
-      "macos"
-    ]
-  ],
   "test_math_ops (__main__.TestScript)": [
     "123693",
     "https://github.com/pytorch/pytorch/issues/123693",
