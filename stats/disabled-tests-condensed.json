@@ -27,30 +27,6 @@
       "rocm"
     ]
   ],
-  "test_access_saved_tensor_twice_without_recomputation_works (__main__.TestAutogradWithCompiledAutograd)": [
-    "123331",
-    "https://github.com/pytorch/pytorch/issues/123331",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "slow"
-    ]
-  ],
-  "test_accumulate_grad_with_zero_numel_grad (__main__.TestAutogradWithCompiledAutograd)": [
-    "123373",
-    "https://github.com/pytorch/pytorch/issues/123373",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_activations_bfloat16_half_cpu_cpu_bfloat16 (__main__.TestNNDeviceTypeCPU)": [
     "126090",
     "https://github.com/pytorch/pytorch/issues/126090",
@@ -255,42 +231,6 @@
       "linux"
     ]
   ],
-  "test_autograd_python_custom_function_inplace (__main__.TestAutogradWithCompiledAutograd)": [
-    "123791",
-    "https://github.com/pytorch/pytorch/issues/123791",
-    [
-      "linux",
-      "mac",
-      "macos",
-      "asan",
-      "rocm",
-      "slow"
-    ]
-  ],
-  "test_backward (__main__.TestAutogradWithCompiledAutograd)": [
-    "123819",
-    "https://github.com/pytorch/pytorch/issues/123819",
-    [
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "asan",
-      "slow"
-    ]
-  ],
-  "test_backward_copy (__main__.TestAutogradWithCompiledAutograd)": [
-    "123831",
-    "https://github.com/pytorch/pytorch/issues/123831",
-    [
-      "linux",
-      "rocm",
-      "asan",
-      "mac",
-      "macos",
-      "slow"
-    ]
-  ],
   "test_backward_ddp_inside (__main__.TensorPipeDdpUnderDistAutogradTest)": [
     "104328",
     "https://github.com/pytorch/pytorch/issues/104328",
@@ -319,52 +259,6 @@
       "linux",
       "win",
       "windows"
-    ]
-  ],
-  "test_backward_twice_retained_graph_with_saved_values (__main__.TestAutogradWithCompiledAutograd)": [
-    "123839",
-    "https://github.com/pytorch/pytorch/issues/123839",
-    [
-      "asan",
-      "linux",
-      "rocm",
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_backward_twice_retained_graph_without_saved_values (__main__.TestAutogradWithCompiledAutograd)": [
-    "123863",
-    "https://github.com/pytorch/pytorch/issues/123863",
-    [
-      "asan",
-      "linux",
-      "rocm",
-      "slow",
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_backward_twice_with_saved_values (__main__.TestAutogradWithCompiledAutograd)": [
-    "123875",
-    "https://github.com/pytorch/pytorch/issues/123875",
-    [
-      "asan",
-      "linux",
-      "rocm",
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_backward_twice_without_saved_values (__main__.TestAutogradWithCompiledAutograd)": [
-    "123892",
-    "https://github.com/pytorch/pytorch/issues/123892",
-    [
-      "asan",
-      "linux",
-      "rocm",
-      "slow",
-      "mac",
-      "macos"
     ]
   ],
   "test_barrier_cuda (__main__.TestDistBackendWithSpawn)": [
@@ -702,18 +596,6 @@
       "rocm"
     ]
   ],
-  "test_copy_slices_graph_task_updates (__main__.TestAutogradWithCompiledAutograd)": [
-    "123917",
-    "https://github.com/pytorch/pytorch/issues/123917",
-    [
-      "asan",
-      "linux",
-      "rocm",
-      "slow",
-      "mac",
-      "macos"
-    ]
-  ],
   "test_correctness_ASGD_use_closure_False_cuda_float32 (__main__.CompiledOptimizerParityTestsCUDA)": [
     "125924",
     "https://github.com/pytorch/pytorch/issues/125924",
@@ -836,28 +718,6 @@
       "rocm"
     ]
   ],
-  "test_custom_function_saved_tensors (__main__.TestAutogradWithCompiledAutograd)": [
-    "123927",
-    "https://github.com/pytorch/pytorch/issues/123927",
-    [
-      "asan",
-      "linux",
-      "rocm",
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_custom_function_setup_context_simple (__main__.TestAutogradWithCompiledAutograd)": [
-    "124126",
-    "https://github.com/pytorch/pytorch/issues/124126",
-    [
-      "asan",
-      "linux",
-      "rocm",
-      "mac",
-      "macos"
-    ]
-  ],
   "test_custom_op_1_cuda_cuda_wrapper (__main__.TestCudaWrapper)": [
     "122811",
     "https://github.com/pytorch/pytorch/issues/122811",
@@ -901,58 +761,11 @@
       "dynamo"
     ]
   ],
-  "test_dep_nograd (__main__.TestAutogradWithCompiledAutograd)": [
-    "124153",
-    "https://github.com/pytorch/pytorch/issues/124153",
-    [
-      "asan",
-      "linux",
-      "rocm",
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_dependent_backward (__main__.TestAutogradWithCompiledAutograd)": [
-    "124162",
-    "https://github.com/pytorch/pytorch/issues/124162",
-    [
-      "asan",
-      "linux",
-      "rocm",
-      "slow",
-      "mac",
-      "macos"
-    ]
-  ],
   "test_depthwise_convolution (__main__.DistConvolutionOpsTest)": [
     "125565",
     "https://github.com/pytorch/pytorch/issues/125565",
     [
       "linux"
-    ]
-  ],
-  "test_detach (__main__.TestAutogradWithCompiledAutograd)": [
-    "124165",
-    "https://github.com/pytorch/pytorch/issues/124165",
-    [
-      "asan",
-      "linux",
-      "rocm",
-      "slow",
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_diagonal_expanded_v (__main__.TestAutogradWithCompiledAutograd)": [
-    "124183",
-    "https://github.com/pytorch/pytorch/issues/124183",
-    [
-      "asan",
-      "linux",
-      "rocm",
-      "slow",
-      "mac",
-      "macos"
     ]
   ],
   "test_distributed_checkpoint_state_dict_type0 (__main__.TestDistributedCheckpoint)": [
@@ -1004,18 +817,6 @@
     "https://github.com/pytorch/pytorch/issues/116121",
     [
       "dynamo"
-    ]
-  ],
-  "test_duplicate_backward_root (__main__.TestAutogradWithCompiledAutograd)": [
-    "124219",
-    "https://github.com/pytorch/pytorch/issues/124219",
-    [
-      "asan",
-      "linux",
-      "rocm",
-      "slow",
-      "mac",
-      "macos"
     ]
   ],
   "test_dynamic_stride_nobreak_cuda (__main__.TestInductorDynamicCUDA)": [
@@ -1129,24 +930,6 @@
       "rocm"
     ]
   ],
-  "test_free_activation_memory (__main__.TestCompiledAutograd)": [
-    "123949",
-    "https://github.com/pytorch/pytorch/issues/123949",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
-  "test_free_activation_memory_subclass (__main__.TestCompiledAutograd)": [
-    "124376",
-    "https://github.com/pytorch/pytorch/issues/124376",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_fs_preserve_sharing (__main__.TestMultiprocessing)": [
     "91467",
     "https://github.com/pytorch/pytorch/issues/91467",
@@ -1175,28 +958,6 @@
       "rocm"
     ]
   ],
-  "test_function_returns_input (__main__.TestAutogradWithCompiledAutograd)": [
-    "124243",
-    "https://github.com/pytorch/pytorch/issues/124243",
-    [
-      "asan",
-      "linux",
-      "rocm",
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_gc_in_destructor (__main__.TestAutogradWithCompiledAutograd)": [
-    "124266",
-    "https://github.com/pytorch/pytorch/issues/124266",
-    [
-      "asan",
-      "linux",
-      "rocm",
-      "mac",
-      "macos"
-    ]
-  ],
   "test_gpu_simple (__main__.TensorPipeCudaDistAutogradTest)": [
     "70753",
     "https://github.com/pytorch/pytorch/issues/70753",
@@ -1209,30 +970,6 @@
     "https://github.com/pytorch/pytorch/issues/123726",
     [
       "rocm"
-    ]
-  ],
-  "test_grad_badcalls (__main__.TestAutogradWithCompiledAutograd)": [
-    "124277",
-    "https://github.com/pytorch/pytorch/issues/124277",
-    [
-      "asan",
-      "linux",
-      "rocm",
-      "slow",
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_grad_fn_attr_bindings (__main__.TestAutogradWithCompiledAutograd)": [
-    "124294",
-    "https://github.com/pytorch/pytorch/issues/124294",
-    [
-      "asan",
-      "linux",
-      "rocm",
-      "slow",
-      "mac",
-      "macos"
     ]
   ],
   "test_grad_nn_GroupNorm_cuda_float64 (__main__.TestModuleCUDA)": [
@@ -1291,29 +1028,6 @@
       "inductor"
     ]
   ],
-  "test_grad_to_node_inplace (__main__.TestAutogradWithCompiledAutograd)": [
-    "124322",
-    "https://github.com/pytorch/pytorch/issues/124322",
-    [
-      "asan",
-      "linux",
-      "rocm",
-      "slow",
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_grad_unreachable (__main__.TestAutogradWithCompiledAutograd)": [
-    "124347",
-    "https://github.com/pytorch/pytorch/issues/124347",
-    [
-      "asan",
-      "linux",
-      "rocm",
-      "mac",
-      "macos"
-    ]
-  ],
   "test_gradgrad_nn_GroupNorm_cuda_float64 (__main__.TestModuleCUDA)": [
     "98678",
     "https://github.com/pytorch/pytorch/issues/98678",
@@ -1347,51 +1061,6 @@
     "https://github.com/pytorch/pytorch/issues/105024",
     [
       "linux"
-    ]
-  ],
-  "test_hook_closure_cycle_use_custom_function_False_use_tensor_hook_False (__main__.TestAutogradWithCompiledAutograd)": [
-    "124365",
-    "https://github.com/pytorch/pytorch/issues/124365",
-    [
-      "asan",
-      "linux",
-      "rocm",
-      "slow",
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_hook_closure_cycle_use_custom_function_False_use_tensor_hook_True (__main__.TestAutogradWithCompiledAutograd)": [
-    "124377",
-    "https://github.com/pytorch/pytorch/issues/124377",
-    [
-      "asan",
-      "linux",
-      "rocm",
-      "slow",
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_hook_with_no_name (__main__.TestAutogradWithCompiledAutograd)": [
-    "124392",
-    "https://github.com/pytorch/pytorch/issues/124392",
-    [
-      "linux",
-      "rocm",
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_hooks_cpp (__main__.TestAutogradWithCompiledAutograd)": [
-    "124406",
-    "https://github.com/pytorch/pytorch/issues/124406",
-    [
-      "asan",
-      "linux",
-      "rocm",
-      "mac",
-      "macos"
     ]
   ],
   "test_identity_float32 (__main__.TestTemplatedSDPA)": [
@@ -1449,29 +1118,6 @@
       "rocm"
     ]
   ],
-  "test_indexing (__main__.TestAutogradWithCompiledAutograd)": [
-    "124420",
-    "https://github.com/pytorch/pytorch/issues/124420",
-    [
-      "asan",
-      "linux",
-      "rocm",
-      "slow",
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_indexing_duplicates (__main__.TestAutogradWithCompiledAutograd)": [
-    "124430",
-    "https://github.com/pytorch/pytorch/issues/124430",
-    [
-      "asan",
-      "linux",
-      "rocm",
-      "mac",
-      "macos"
-    ]
-  ],
   "test_inductor_all_reduce_coalesced (__main__.C10DFunctionalNativeTest)": [
     "118403",
     "https://github.com/pytorch/pytorch/issues/118403",
@@ -1527,18 +1173,6 @@
     "https://github.com/pytorch/pytorch/issues/125666",
     [
       "linux"
-    ]
-  ],
-  "test_inplace (__main__.TestAutogradWithCompiledAutograd)": [
-    "124446",
-    "https://github.com/pytorch/pytorch/issues/124446",
-    [
-      "asan",
-      "linux",
-      "rocm",
-      "slow",
-      "mac",
-      "macos"
     ]
   ],
   "test_inplace_grad_div_floor_rounding_cuda_float64 (__main__.TestBwdGradientsCUDA)": [
@@ -1671,15 +1305,6 @@
     "117784",
     "https://github.com/pytorch/pytorch/issues/117784",
     [
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_leaf_assignment (__main__.TestAutogradWithCompiledAutograd)": [
-    "124405",
-    "https://github.com/pytorch/pytorch/issues/124405",
-    [
-      "linux",
       "mac",
       "macos"
     ]
