@@ -1569,16 +1569,6 @@
       "linux"
     ]
   ],
-  "test_inplace_on_view_weak_grad_fn (__main__.TestAutogradWithCompiledAutograd)": [
-    "124453",
-    "https://github.com/pytorch/pytorch/issues/124453",
-    [
-      "linux",
-      "rocm",
-      "mac",
-      "macos"
-    ]
-  ],
   "test_inplace_triton_kernel_v3 (__main__.InplacingTests)": [
     "118636",
     "https://github.com/pytorch/pytorch/issues/118636",
@@ -1605,18 +1595,6 @@
     "https://github.com/pytorch/pytorch/issues/123832",
     [
       "dynamo"
-    ]
-  ],
-  "test_isolated_node (__main__.TestAutogradWithCompiledAutograd)": [
-    "124460",
-    "https://github.com/pytorch/pytorch/issues/124460",
-    [
-      "asan",
-      "linux",
-      "rocm",
-      "slow",
-      "mac",
-      "macos"
     ]
   ],
   "test_item_to_inputs_kernel_nobreak_cuda (__main__.TestInductorDynamicCUDA)": [
@@ -1726,18 +1704,6 @@
     "https://github.com/pytorch/pytorch/issues/124087",
     [
       "linux"
-    ]
-  ],
-  "test_mark_non_differentiable (__main__.TestAutogradWithCompiledAutograd)": [
-    "124470",
-    "https://github.com/pytorch/pytorch/issues/124470",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "rocm",
-      "slow",
-      "macos"
     ]
   ],
   "test_mark_non_differentiable_none (__main__.TestAutogradWithCompiledAutograd)": [
@@ -1862,18 +1828,6 @@
       "linux"
     ]
   ],
-  "test_multi_backward (__main__.TestAutogradWithCompiledAutograd)": [
-    "124491",
-    "https://github.com/pytorch/pytorch/issues/124491",
-    [
-      "asan",
-      "linux",
-      "rocm",
-      "slow",
-      "mac",
-      "macos"
-    ]
-  ],
   "test_multinomial_gpu_device_constrain_cuda (__main__.TestTorchDeviceTypeCUDA)": [
     "119887",
     "https://github.com/pytorch/pytorch/issues/119887",
@@ -1914,40 +1868,6 @@
     "https://github.com/pytorch/pytorch/issues/104454",
     [
       "asan"
-    ]
-  ],
-  "test_no_requires_grad_inplace (__main__.TestAutogradWithCompiledAutograd)": [
-    "124509",
-    "https://github.com/pytorch/pytorch/issues/124509",
-    [
-      "asan",
-      "linux",
-      "rocm",
-      "slow",
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_no_unnecessary_save (__main__.TestAutogradWithCompiledAutograd)": [
-    "124527",
-    "https://github.com/pytorch/pytorch/issues/124527",
-    [
-      "linux",
-      "rocm",
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_no_unnecessary_unwrapping (__main__.TestAutogradWithCompiledAutograd)": [
-    "124589",
-    "https://github.com/pytorch/pytorch/issues/124589",
-    [
-      "asan",
-      "linux",
-      "rocm",
-      "slow",
-      "mac",
-      "macos"
     ]
   ],
   "test_non_blocking_with_eager_init (__main__.ProcessGroupNCCLGroupTest)": [
@@ -2226,30 +2146,6 @@
       "linux"
     ]
   ],
-  "test_pow_zero_tensor_gradient (__main__.TestAutogradWithCompiledAutograd)": [
-    "124608",
-    "https://github.com/pytorch/pytorch/issues/124608",
-    [
-      "asan",
-      "linux",
-      "rocm",
-      "slow",
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_power_function (__main__.TestAutogradWithCompiledAutograd)": [
-    "124622",
-    "https://github.com/pytorch/pytorch/issues/124622",
-    [
-      "linux",
-      "rocm",
-      "asan",
-      "slow",
-      "mac",
-      "macos"
-    ]
-  ],
   "test_pre_dispatch_export_auto_functionalize_simple_cuda_float32 (__main__.TestHOPCUDA)": [
     "123267",
     "https://github.com/pytorch/pytorch/issues/123267",
@@ -2496,18 +2392,6 @@
       "rocm"
     ]
   ],
-  "test_requires_grad (__main__.TestAutogradWithCompiledAutograd)": [
-    "124663",
-    "https://github.com/pytorch/pytorch/issues/124663",
-    [
-      "asan",
-      "linux",
-      "rocm",
-      "slow",
-      "mac",
-      "macos"
-    ]
-  ],
   "test_requires_grad_loop (test_jit.TestScript)": [
     "91492",
     "https://github.com/pytorch/pytorch/issues/91492",
@@ -2555,18 +2439,6 @@
       "linux"
     ]
   ],
-  "test_return_leaf_inplace (__main__.TestAutogradWithCompiledAutograd)": [
-    "124690",
-    "https://github.com/pytorch/pytorch/issues/124690",
-    [
-      "asan",
-      "linux",
-      "rocm",
-      "slow",
-      "mac",
-      "macos"
-    ]
-  ],
   "test_ring_attention_native_transformer_is_causal_True (__main__.RingAttentionTest)": [
     "126380",
     "https://github.com/pytorch/pytorch/issues/126380",
@@ -2574,65 +2446,11 @@
       "rocm"
     ]
   ],
-  "test_save_on_cpu_and_checkpoint (__main__.TestAutogradWithCompiledAutograd)": [
-    "124706",
-    "https://github.com/pytorch/pytorch/issues/124706",
-    [
-      "asan",
-      "linux",
-      "rocm",
-      "slow",
-      "mac",
-      "macos"
-    ]
-  ],
   "test_save_with_without_initializer_dont_include_initializer_no_fake_mode_no_exported_program (__main__.TestFxToOnnx)": [
     "125020",
     "https://github.com/pytorch/pytorch/issues/125020",
     [
       "linux"
-    ]
-  ],
-  "test_saved_tensor_hooks_custom_function_intermediates (__main__.TestAutogradWithCompiledAutograd)": [
-    "124723",
-    "https://github.com/pytorch/pytorch/issues/124723",
-    [
-      "asan",
-      "linux",
-      "rocm",
-      "slow",
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_saved_variable_packing_unpacking_did_not_save_original_with_default_hooks (__main__.TestAutogradWithCompiledAutograd)": [
-    "124733",
-    "https://github.com/pytorch/pytorch/issues/124733",
-    [
-      "linux",
-      "rocm",
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_saved_variable_packing_unpacking_did_not_save_original_with_hooks (__main__.TestAutogradWithCompiledAutograd)": [
-    "124757",
-    "https://github.com/pytorch/pytorch/issues/124757",
-    [
-      "linux",
-      "rocm",
-      "slow",
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_saved_variable_packing_unpacking_saved_original_with_default_hooks (__main__.TestAutogradWithCompiledAutograd)": [
-    "125023",
-    "https://github.com/pytorch/pytorch/issues/125023",
-    [
-      "asan",
-      "linux",
-      "rocm"
     ]
   ],
   "test_scatter_1d (__main__.DeviceMeshCollectiveTest)": [
@@ -2780,16 +2598,6 @@
       "dynamo"
     ]
   ],
-  "test_select_expanded_v (__main__.TestAutogradWithCompiledAutograd)": [
-    "125056",
-    "https://github.com/pytorch/pytorch/issues/125056",
-    [
-      "asan",
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_send_recv_all_to_all (__main__.ProcessGroupGlooTest)": [
     "71195",
     "https://github.com/pytorch/pytorch/issues/71195",
@@ -2819,23 +2627,6 @@
     "https://github.com/pytorch/pytorch/issues/115740",
     [
       "linux"
-    ]
-  ],
-  "test_setting_default_saved_variable_hooks_twice_should_use_inner (__main__.TestAutogradWithCompiledAutograd)": [
-    "125074",
-    "https://github.com/pytorch/pytorch/issues/125074",
-    [
-      "linux",
-      "rocm"
-    ]
-  ],
-  "test_sharded_grad (__main__.TestAutogradWithCompiledAutograd)": [
-    "125130",
-    "https://github.com/pytorch/pytorch/issues/125130",
-    [
-      "asan",
-      "linux",
-      "slow"
     ]
   ],
   "test_shufflenet_v2 (__main__.TORCH_NN_MODULE)": [
@@ -2870,16 +2661,6 @@
     "121316",
     "https://github.com/pytorch/pytorch/issues/121316",
     [
-      "rocm"
-    ]
-  ],
-  "test_slice_expanded_v (__main__.TestAutogradWithCompiledAutograd)": [
-    "125149",
-    "https://github.com/pytorch/pytorch/issues/125149",
-    [
-      "asan",
-      "linux",
-      "slow",
       "rocm"
     ]
   ],
@@ -2961,16 +2742,6 @@
     "https://github.com/pytorch/pytorch/issues/70546",
     [
       "mac"
-    ]
-  ],
-  "test_too_many_grads (__main__.TestAutogradWithCompiledAutograd)": [
-    "125195",
-    "https://github.com/pytorch/pytorch/issues/125195",
-    [
-      "asan",
-      "linux",
-      "rocm",
-      "slow"
     ]
   ],
   "test_torch_name_rule_map_updated (__main__.TraceRuleTests)": [
@@ -3095,14 +2866,6 @@
       "rocm"
     ]
   ],
-  "test_type_conversions (__main__.TestAutogradWithCompiledAutograd)": [
-    "125206",
-    "https://github.com/pytorch/pytorch/issues/125206",
-    [
-      "linux",
-      "rocm"
-    ]
-  ],
   "test_unary_ops (__main__.TestTensorExprFuser)": [
     "105119",
     "https://github.com/pytorch/pytorch/issues/105119",
@@ -3116,23 +2879,6 @@
     [
       "linux",
       "rocm"
-    ]
-  ],
-  "test_unused_output (__main__.TestAutogradWithCompiledAutograd)": [
-    "125205",
-    "https://github.com/pytorch/pytorch/issues/125205",
-    [
-      "linux"
-    ]
-  ],
-  "test_var_mean_differentiable (__main__.TestAutogradWithCompiledAutograd)": [
-    "125220",
-    "https://github.com/pytorch/pytorch/issues/125220",
-    [
-      "asan",
-      "linux",
-      "rocm",
-      "slow"
     ]
   ],
   "test_variant_consistency_eager_nn_functional_conv3d_cuda_complex64 (__main__.TestCommonCUDA)": [
