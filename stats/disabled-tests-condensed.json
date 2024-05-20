@@ -171,15 +171,6 @@
       "dynamo"
     ]
   ],
-  "test_aot_export_while_loop_simple_cuda_float32 (__main__.TestHOPCUDA)": [
-    "123948",
-    "https://github.com/pytorch/pytorch/issues/123948",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_aot_module_simplified_fake_tensor_gm_raises (__main__.TestAOTModuleSimplified)": [
     "124590",
     "https://github.com/pytorch/pytorch/issues/124590",
@@ -519,13 +510,6 @@
       "inductor"
     ]
   ],
-  "test_compute_local_shape_and_global_offset_1D (__main__.UtilTest)": [
-    "109379",
-    "https://github.com/pytorch/pytorch/issues/109379",
-    [
-      "linux"
-    ]
-  ],
   "test_conv (quantization.jit.test_quantize_jit.TestQuantizeJit)": [
     "105125",
     "https://github.com/pytorch/pytorch/issues/105125",
@@ -819,15 +803,6 @@
       "dynamo"
     ]
   ],
-  "test_dynamic_stride_nobreak_cuda (__main__.TestInductorDynamicCUDA)": [
-    "117954",
-    "https://github.com/pytorch/pytorch/issues/117954",
-    [
-      "linux",
-      "slow",
-      "rocm"
-    ]
-  ],
   "test_execution_trace_with_kineto (__main__.TestExecutionTrace)": [
     "123536",
     "https://github.com/pytorch/pytorch/issues/123536",
@@ -872,13 +847,6 @@
     [
       "linux",
       "rocm"
-    ]
-  ],
-  "test_fn_fwgrad_bwgrad_linalg_lu_factor_ex_cuda_complex128 (__main__.TestFwdGradientsCUDA)": [
-    "113908",
-    "https://github.com/pytorch/pytorch/issues/113908",
-    [
-      "linux"
     ]
   ],
   "test_fn_grad___rmod___cuda_float64 (__main__.TestBwdGradientsCUDA)": [
@@ -935,13 +903,6 @@
     "https://github.com/pytorch/pytorch/issues/91467",
     [
       "dynamo"
-    ]
-  ],
-  "test_full_symbolic_value_cuda (__main__.TestInductorDynamicCUDA)": [
-    "125506",
-    "https://github.com/pytorch/pytorch/issues/125506",
-    [
-      "rocm"
     ]
   ],
   "test_full_tensor_sync (__main__.DTensorTest)": [
@@ -1299,14 +1260,6 @@
     "https://github.com/pytorch/pytorch/issues/117808",
     [
       "linux"
-    ]
-  ],
-  "test_large_sampler_indices (__main__.TestDataLoaderPersistentWorkers)": [
-    "117784",
-    "https://github.com/pytorch/pytorch/issues/117784",
-    [
-      "mac",
-      "macos"
     ]
   ],
   "test_learnable_forward_per_channel_cpu (quantization.core.test_workflow_ops.TestFakeQuantizeOps)": [
@@ -1934,23 +1887,9 @@
       "mac"
     ]
   ],
-  "test_reduce_scatter_contiguous (__main__.DeviceMeshCollectiveTest)": [
-    "117724",
-    "https://github.com/pytorch/pytorch/issues/117724",
-    [
-      "linux"
-    ]
-  ],
   "test_reduce_scatter_contiguous_use_native_funcol_False (__main__.DeviceMeshCollectiveTest)": [
     "121372",
     "https://github.com/pytorch/pytorch/issues/121372",
-    [
-      "linux"
-    ]
-  ],
-  "test_reduce_scatter_uneven (__main__.DeviceMeshCollectiveTest)": [
-    "98024",
-    "https://github.com/pytorch/pytorch/issues/98024",
     [
       "linux"
     ]
