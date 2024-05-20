@@ -1402,13 +1402,6 @@
       "inductor"
     ]
   ],
-  "test_n_threads (__main__.TestOpenMP_ParallelFor)": [
-    "125364",
-    "https://github.com/pytorch/pytorch/issues/125364",
-    [
-      "dynamo"
-    ]
-  ],
   "test_nccl_errors_dump (__main__.NcclErrorDumpTest)": [
     "123530",
     "https://github.com/pytorch/pytorch/issues/123530",
