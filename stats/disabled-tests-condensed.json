@@ -1444,6 +1444,13 @@
       "linux"
     ]
   ],
+  "test_non_commutative_scan_op (__main__.CudaReproTests)": [
+    "126689",
+    "https://github.com/pytorch/pytorch/issues/126689",
+    [
+      "rocm"
+    ]
+  ],
   "test_non_contiguous_input_addmm (__main__.TestMaxAutotune)": [
     "126176",
     "https://github.com/pytorch/pytorch/issues/126176",
