@@ -20,6 +20,13 @@
       "rocm"
     ]
   ],
+  "test__int_mm_k_16_n_32_use_transpose_a_False_use_transpose_b_False_cuda (__main__.TestLinalgCUDA)": [
+    "126866",
+    "https://github.com/pytorch/pytorch/issues/126866",
+    [
+      "rocm"
+    ]
+  ],
   "test__int_mm_k_32_n_32_use_transpose_a_False_use_transpose_b_False_cuda (__main__.TestLinalgCUDA)": [
     "126495",
     "https://github.com/pytorch/pytorch/issues/126495",
@@ -774,6 +781,13 @@
       "linux"
     ]
   ],
+  "test_dtensor_op_db_vstack_cpu_float32 (__main__.TestDTensorOpsCPU)": [
+    "126868",
+    "https://github.com/pytorch/pytorch/issues/126868",
+    [
+      "linux"
+    ]
+  ],
   "test_dunder_round_edgecases_val_2147483647_ndigits_-1 (__main__.TestNonarrayArgs)": [
     "116121",
     "https://github.com/pytorch/pytorch/issues/116121",
@@ -1163,6 +1177,15 @@
       "dynamo"
     ]
   ],
+  "test_item_to_inputs_kernel_nobreak_cuda (__main__.TestInductorDynamicCUDA)": [
+    "119538",
+    "https://github.com/pytorch/pytorch/issues/119538",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_jvpvjp_nn_functional_conv3d_cuda_float32 (__main__.TestOperatorsCUDA)": [
     "114654",
     "https://github.com/pytorch/pytorch/issues/114654",
@@ -1425,6 +1448,14 @@
     "https://github.com/pytorch/pytorch/issues/126849",
     [
       "linux"
+    ]
+  ],
+  "test_non_contiguous_input_mm_plus_mm (__main__.TestMaxAutotune)": [
+    "126867",
+    "https://github.com/pytorch/pytorch/issues/126867",
+    [
+      "linux",
+      "slow"
     ]
   ],
   "test_non_contiguous_tensors_nn_ConvTranspose1d_cuda_complex32 (__main__.TestModuleCUDA)": [
