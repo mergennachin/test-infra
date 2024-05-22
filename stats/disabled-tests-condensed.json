@@ -538,13 +538,6 @@
       "dynamo"
     ]
   ],
-  "test_conv_empty_input_cpu_float64 (__main__.TestNNDeviceTypeCPU)": [
-    "126178",
-    "https://github.com/pytorch/pytorch/issues/126178",
-    [
-      "dynamo"
-    ]
-  ],
   "test_conv_stride_constraints (__main__.CPUReproTests)": [
     "107774",
     "https://github.com/pytorch/pytorch/issues/107774",
