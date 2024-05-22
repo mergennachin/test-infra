@@ -67,6 +67,6 @@
   },
   {
     "name": "linux",
-    "captures": ["no space left on device"]
+    "captures": ["No space left on device"]
   }
 ]
