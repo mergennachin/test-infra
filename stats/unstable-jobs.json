@@ -6,5 +6,13 @@
     "inductor",
     "cuda12.1-py3.10-gcc9-sm86",
     "test (inductor_timm)"
+  ],
+  "inductor / linux-jammy-cpu-py3.8-gcc11-inductor / test (inductor_torchbench_cpu_smoketest_perf)": [
+    "clee2000",
+    "126993",
+    "https://github.com/pytorch/pytorch/issues/126993",
+    "inductor",
+    "linux-jammy-cpu-py3.8-gcc11-inductor",
+    "test (inductor_torchbench_cpu_smoketest_perf)"
   ]
 }
