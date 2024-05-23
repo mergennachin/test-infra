@@ -297,13 +297,6 @@
       "linux"
     ]
   ],
-  "test_binary_op_list_slow_path__foreach_div_cuda_uint8 (__main__.TestForeachCUDA)": [
-    "125775",
-    "https://github.com/pytorch/pytorch/issues/125775",
-    [
-      "linux"
-    ]
-  ],
   "test_bitwise_cuda_cuda_wrapper (__main__.TestCudaWrapper)": [
     "121511",
     "https://github.com/pytorch/pytorch/issues/121511",
@@ -1322,6 +1315,20 @@
       "rocm"
     ]
   ],
+  "test_memory_format_type_cuda (__main__.TestTorchDeviceTypeCUDA)": [
+    "126954",
+    "https://github.com/pytorch/pytorch/issues/126954",
+    [
+      "inductor"
+    ]
+  ],
+  "test_memory_snapshot (__main__.TestCudaMallocAsync)": [
+    "126953",
+    "https://github.com/pytorch/pytorch/issues/126953",
+    [
+      "rocm"
+    ]
+  ],
   "test_merge_liveness (jit.test_freezing.TestMKLDNNReinplacing)": [
     "91481",
     "https://github.com/pytorch/pytorch/issues/91481",
@@ -1693,13 +1700,6 @@
     "https://github.com/pytorch/pytorch/issues/124276",
     [
       "rocm"
-    ]
-  ],
-  "test_parity__foreach_abs_fastpath_inplace_cuda_complex128 (__main__.TestForeachCUDA)": [
-    "125774",
-    "https://github.com/pytorch/pytorch/issues/125774",
-    [
-      "linux"
     ]
   ],
   "test_pickle_nn_RNN_eval_mode_cuda_float64 (__main__.TestModuleCUDA)": [
