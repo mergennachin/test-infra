@@ -14,5 +14,21 @@
     "inductor",
     "linux-jammy-cpu-py3.8-gcc11-inductor",
     "test (inductor_torchbench_cpu_smoketest_perf)"
+  ],
+  "pull / linux-focal-cuda12.4-py3.10-gcc9 / build": [
+    "atalman",
+    "127108",
+    "https://github.com/pytorch/pytorch/issues/127108",
+    "pull",
+    "linux-focal-cuda12.4-py3.10-gcc9",
+    "build"
+  ],
+  "pull / linux-focal-cuda12.4-py3.10-gcc9-sm86 / build": [
+    "atalman",
+    "127104",
+    "https://github.com/pytorch/pytorch/issues/127104",
+    "pull",
+    "linux-focal-cuda12.4-py3.10-gcc9-sm86",
+    "build"
   ]
 }
