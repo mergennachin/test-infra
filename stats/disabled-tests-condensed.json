@@ -290,13 +290,6 @@
       "mac"
     ]
   ],
-  "test_binary_op_float_inf_nan__foreach_add_cuda_bfloat16 (__main__.TestForeachCUDA)": [
-    "125427",
-    "https://github.com/pytorch/pytorch/issues/125427",
-    [
-      "linux"
-    ]
-  ],
   "test_binary_op_list_error_cases__foreach_add_cuda (__main__.TestForeachCUDA)": [
     "124075",
     "https://github.com/pytorch/pytorch/issues/124075",
@@ -511,6 +504,13 @@
   "test_comprehensive_special_bessel_y1_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
     "125151",
     "https://github.com/pytorch/pytorch/issues/125151",
+    [
+      "inductor"
+    ]
+  ],
+  "test_comprehensive_special_bessel_y1_cuda_int32 (__main__.TestInductorOpInfoCUDA)": [
+    "127080",
+    "https://github.com/pytorch/pytorch/issues/127080",
     [
       "inductor"
     ]
