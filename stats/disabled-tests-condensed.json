@@ -77,13 +77,6 @@
       "slow"
     ]
   ],
-  "test_all_gather_object (__main__.TestObjectCollectives)": [
-    "125566",
-    "https://github.com/pytorch/pytorch/issues/125566",
-    [
-      "linux"
-    ]
-  ],
   "test_all_gather_uneven (__main__.DeviceMeshCollectiveTest)": [
     "98049",
     "https://github.com/pytorch/pytorch/issues/98049",
@@ -737,13 +730,6 @@
       "dynamo"
     ]
   ],
-  "test_depthwise_convolution (__main__.DistConvolutionOpsTest)": [
-    "125565",
-    "https://github.com/pytorch/pytorch/issues/125565",
-    [
-      "linux"
-    ]
-  ],
   "test_distributed_checkpoint_state_dict_type0 (__main__.TestDistributedCheckpoint)": [
     "113937",
     "https://github.com/pytorch/pytorch/issues/113937",
@@ -763,13 +749,6 @@
   "test_doc_examples (__main__.TestTypeHints)": [
     "98259",
     "https://github.com/pytorch/pytorch/issues/98259",
-    [
-      "linux"
-    ]
-  ],
-  "test_dtensor_device_mesh_device_conversion (__main__.DTensorMeshTest)": [
-    "100126",
-    "https://github.com/pytorch/pytorch/issues/100126",
     [
       "linux"
     ]
@@ -909,13 +888,6 @@
     "https://github.com/pytorch/pytorch/issues/91467",
     [
       "dynamo"
-    ]
-  ],
-  "test_full_tensor_sync (__main__.DTensorTest)": [
-    "125366",
-    "https://github.com/pytorch/pytorch/issues/125366",
-    [
-      "linux"
     ]
   ],
   "test_fully_shard_training_overlap (__main__.TestFullyShardOverlap)": [
@@ -1248,6 +1220,13 @@
   "test_large_block_sizes_dynamic_shapes_cuda (__main__.DynamicShapesCudaTests)": [
     "117808",
     "https://github.com/pytorch/pytorch/issues/117808",
+    [
+      "linux"
+    ]
+  ],
+  "test_large_mmaped_weights_non_abi_compatible_cuda (__main__.AOTInductorTestNonABICompatibleCuda)": [
+    "127202",
+    "https://github.com/pytorch/pytorch/issues/127202",
     [
       "linux"
     ]
@@ -1691,13 +1670,6 @@
     "https://github.com/pytorch/pytorch/issues/118804",
     [
       "linux"
-    ]
-  ],
-  "test_pad_dynamic_cuda (__main__.TestInductorDynamicCUDA)": [
-    "124276",
-    "https://github.com/pytorch/pytorch/issues/124276",
-    [
-      "rocm"
     ]
   ],
   "test_pickle_nn_RNN_eval_mode_cuda_float64 (__main__.TestModuleCUDA)": [
@@ -2411,14 +2383,6 @@
     "105119",
     "https://github.com/pytorch/pytorch/issues/105119",
     [
-      "rocm"
-    ]
-  ],
-  "test_unbacked_cat_backwards_cuda (__main__.TestInductorDynamicCUDA)": [
-    "125019",
-    "https://github.com/pytorch/pytorch/issues/125019",
-    [
-      "linux",
       "rocm"
     ]
   ],
