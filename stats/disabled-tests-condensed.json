@@ -1324,16 +1324,6 @@
       "linux"
     ]
   ],
-  "test_min_cut_partitioner_output_tensor_shape_tensor (__main__.TestPartitioning)": [
-    "104326",
-    "https://github.com/pytorch/pytorch/issues/104326",
-    [
-      "linux",
-      "win",
-      "windows",
-      "dynamo"
-    ]
-  ],
   "test_min_cut_partitioner_recomputable_ops (__main__.TestPartitioning)": [
     "104327",
     "https://github.com/pytorch/pytorch/issues/104327",
