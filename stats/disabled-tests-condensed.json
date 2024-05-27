@@ -34,13 +34,6 @@
       "rocm"
     ]
   ],
-  "test_activations_bfloat16_half_cpu_cpu_bfloat16 (__main__.TestNNDeviceTypeCPU)": [
-    "126090",
-    "https://github.com/pytorch/pytorch/issues/126090",
-    [
-      "dynamo"
-    ]
-  ],
   "test_activations_bfloat16_half_cpu_cpu_float16 (__main__.TestNNDeviceTypeCPU)": [
     "126177",
     "https://github.com/pytorch/pytorch/issues/126177",
@@ -546,13 +539,6 @@
       "dynamo"
     ]
   ],
-  "test_conv_empty_input_cpu_float32 (__main__.TestNNDeviceTypeCPU)": [
-    "126091",
-    "https://github.com/pytorch/pytorch/issues/126091",
-    [
-      "dynamo"
-    ]
-  ],
   "test_conv_stride_constraints (__main__.CPUReproTests)": [
     "107774",
     "https://github.com/pytorch/pytorch/issues/107774",
@@ -605,15 +591,6 @@
       "slow"
     ]
   ],
-  "test_correctness_Adam_use_closure_False_cuda_float32 (__main__.CompiledOptimizerParityTestsCUDA)": [
-    "126076",
-    "https://github.com/pytorch/pytorch/issues/126076",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_correctness_NAdam_use_closure_False_cuda_float32 (__main__.CompiledOptimizerParityTestsCUDA)": [
     "125926",
     "https://github.com/pytorch/pytorch/issues/125926",
@@ -628,15 +605,6 @@
     "https://github.com/pytorch/pytorch/issues/124623",
     [
       "linux",
-      "slow"
-    ]
-  ],
-  "test_correctness_Rprop_use_closure_False_cuda_float32 (__main__.CompiledOptimizerParityTestsCUDA)": [
-    "126077",
-    "https://github.com/pytorch/pytorch/issues/126077",
-    [
-      "linux",
-      "rocm",
       "slow"
     ]
   ],
@@ -1924,14 +1892,6 @@
     "https://github.com/pytorch/pytorch/issues/122491",
     [
       "linux"
-    ]
-  ],
-  "test_retrace_export_cond_simple_cuda_float32 (__main__.TestHOPCUDA)": [
-    "123564",
-    "https://github.com/pytorch/pytorch/issues/123564",
-    [
-      "linux",
-      "slow"
     ]
   ],
   "test_retrace_export_while_loop_simple_cuda_float32 (__main__.TestHOPCUDA)": [
