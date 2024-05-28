@@ -172,13 +172,6 @@
       "slow"
     ]
   ],
-  "test_aot_export_multiple_outputs_require_grad_banned (__main__.TestAOTExport)": [
-    "124221",
-    "https://github.com/pytorch/pytorch/issues/124221",
-    [
-      "dynamo"
-    ]
-  ],
   "test_aot_export_while_loop_simple_cuda_float32 (__main__.TestHOPCUDA)": [
     "123948",
     "https://github.com/pytorch/pytorch/issues/123948",
@@ -199,6 +192,13 @@
     "106440",
     "https://github.com/pytorch/pytorch/issues/106440",
     []
+  ],
+  "test_arange2_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
+    "127343",
+    "https://github.com/pytorch/pytorch/issues/127343",
+    [
+      "rocm"
+    ]
   ],
   "test_arange_dynamic_cuda (__main__.TestInductorDynamicCUDA)": [
     "127067",
@@ -453,6 +453,13 @@
     "https://github.com/pytorch/pytorch/issues/102044",
     [
       "inductor"
+    ]
+  ],
+  "test_comprehensive_fft_ifft_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
+    "127344",
+    "https://github.com/pytorch/pytorch/issues/127344",
+    [
+      "rocm"
     ]
   ],
   "test_comprehensive_linalg_ldl_factor_ex_cuda (__main__.TestDecompCUDA)": [
@@ -1206,6 +1213,14 @@
       "linux"
     ]
   ],
+  "test_large_sampler_indices (__main__.TestDataLoaderPersistentWorkers)": [
+    "117784",
+    "https://github.com/pytorch/pytorch/issues/117784",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_large_weight_non_abi_compatible_cuda (__main__.AOTInductorTestNonABICompatibleCuda)": [
     "127068",
     "https://github.com/pytorch/pytorch/issues/127068",
@@ -1393,15 +1408,6 @@
     "https://github.com/pytorch/pytorch/issues/126689",
     [
       "rocm"
-    ]
-  ],
-  "test_non_contiguous_input_addmm (__main__.TestMaxAutotune)": [
-    "126176",
-    "https://github.com/pytorch/pytorch/issues/126176",
-    [
-      "linux",
-      "rocm",
-      "slow"
     ]
   ],
   "test_non_contiguous_input_bmm (__main__.TestMaxAutotune)": [
@@ -1961,16 +1967,6 @@
       "linux"
     ]
   ],
-  "test_schema_correctness_nn_functional_conv3d_cuda_complex128 (__main__.TestSchemaCheckModeOpInfoCUDA)": [
-    "114573",
-    "https://github.com/pytorch/pytorch/issues/114573",
-    [
-      "linux",
-      "slow",
-      "win",
-      "windows"
-    ]
-  ],
   "test_schema_correctness_nn_functional_conv3d_cuda_complex64 (__main__.TestSchemaCheckModeOpInfoCUDA)": [
     "114574",
     "https://github.com/pytorch/pytorch/issues/114574",
@@ -2127,20 +2123,6 @@
     "https://github.com/pytorch/pytorch/issues/121316",
     [
       "rocm"
-    ]
-  ],
-  "test_some_output_requires_grad_input_doesnt (__main__.TestAOTAutograd)": [
-    "125402",
-    "https://github.com/pytorch/pytorch/issues/125402",
-    [
-      "linux"
-    ]
-  ],
-  "test_some_outputs_dont_require_grad_view (__main__.TestAOTAutograd)": [
-    "125593",
-    "https://github.com/pytorch/pytorch/issues/125593",
-    [
-      "dynamo"
     ]
   ],
   "test_subgraphs_with_parameters_device_cuda_dynamic_True (__main__.CondTests)": [
@@ -2391,13 +2373,6 @@
       "linux",
       "rocm",
       "slow"
-    ]
-  ],
-  "test_view_and_inplace_view (__main__.TestAOTAutograd)": [
-    "125671",
-    "https://github.com/pytorch/pytorch/issues/125671",
-    [
-      "dynamo"
     ]
   ],
   "test_vit_aten_export (__main__.TestQuantizePT2EModels)": [
