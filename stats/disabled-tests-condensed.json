@@ -27,6 +27,13 @@
       "rocm"
     ]
   ],
+  "test__int_mm_k_32_n_16_use_transpose_a_True_use_transpose_b_False_cuda (__main__.TestLinalgCUDA)": [
+    "127273",
+    "https://github.com/pytorch/pytorch/issues/127273",
+    [
+      "rocm"
+    ]
+  ],
   "test__int_mm_k_32_n_32_use_transpose_a_False_use_transpose_b_False_cuda (__main__.TestLinalgCUDA)": [
     "126495",
     "https://github.com/pytorch/pytorch/issues/126495",
