@@ -2315,13 +2315,6 @@
       "rocm"
     ]
   ],
-  "test_transformerdecoder (__main__.TestNN)": [
-    "126043",
-    "https://github.com/pytorch/pytorch/issues/126043",
-    [
-      "dynamo"
-    ]
-  ],
   "test_transpose_infer_shape (__main__.TORCH_NN_MODULE)": [
     "124267",
     "https://github.com/pytorch/pytorch/issues/124267",
