@@ -41,13 +41,6 @@
       "rocm"
     ]
   ],
-  "test_activations_bfloat16_half_cpu_cpu_float16 (__main__.TestNNDeviceTypeCPU)": [
-    "126177",
-    "https://github.com/pytorch/pytorch/issues/126177",
-    [
-      "dynamo"
-    ]
-  ],
   "test_addcdiv_cuda_complex128 (__main__.TestTorchDeviceTypeCUDA)": [
     "119515",
     "https://github.com/pytorch/pytorch/issues/119515",
@@ -674,6 +667,14 @@
     "https://github.com/pytorch/pytorch/issues/92131",
     [
       "rocm"
+    ]
+  ],
+  "test_cusparse_multiple_threads_same_device (__main__.TestCuda)": [
+    "127536",
+    "https://github.com/pytorch/pytorch/issues/127536",
+    [
+      "dynamo",
+      "inductor"
     ]
   ],
   "test_custom_op_1_cuda_cuda_wrapper (__main__.TestCudaWrapper)": [
@@ -1767,34 +1768,6 @@
     "https://github.com/pytorch/pytorch/issues/73474",
     [
       "macos"
-    ]
-  ],
-  "test_quantization_doc_custom (__main__.TestQuantizationDocs)": [
-    "125668",
-    "https://github.com/pytorch/pytorch/issues/125668",
-    [
-      "linux"
-    ]
-  ],
-  "test_quantization_doc_fx (__main__.TestQuantizationDocs)": [
-    "125670",
-    "https://github.com/pytorch/pytorch/issues/125670",
-    [
-      "linux"
-    ]
-  ],
-  "test_quantization_doc_ptdq (__main__.TestQuantizationDocs)": [
-    "125667",
-    "https://github.com/pytorch/pytorch/issues/125667",
-    [
-      "linux"
-    ]
-  ],
-  "test_quantization_doc_ptsq (__main__.TestQuantizationDocs)": [
-    "125669",
-    "https://github.com/pytorch/pytorch/issues/125669",
-    [
-      "linux"
     ]
   ],
   "test_raise_comms (__main__.TestComputeCommReorderingMultiProc)": [
