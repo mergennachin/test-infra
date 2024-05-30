@@ -30,13 +30,5 @@
     "pull",
     "linux-focal-cuda12.4-py3.10-gcc9-sm86",
     "build"
-  ],
-  "trunk / macos-13-py3-arm64 / test (default)": [
-    "huydhn",
-    "127542",
-    "https://github.com/pytorch/pytorch/issues/127542",
-    "trunk",
-    "macos-13-py3-arm64",
-    "test (default)"
   ]
 }
