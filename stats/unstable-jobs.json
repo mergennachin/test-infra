@@ -23,6 +23,14 @@
     "linux-jammy-cpu-py3.8-gcc11-inductor",
     "test (inductor_torchbench_cpu_smoketest_perf)"
   ],
+  "periodic / linux-jammy-xpu-py3.8 / test (default)": [
+    "atalman",
+    "127539",
+    "https://github.com/pytorch/pytorch/issues/127539",
+    "periodic",
+    "linux-jammy-xpu-py3.8",
+    "test (default)"
+  ],
   "pull / linux-focal-cuda12.4-py3.10-gcc9-sm86 / build": [
     "atalman",
     "127104",
