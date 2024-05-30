@@ -1425,15 +1425,6 @@
       "rocm"
     ]
   ],
-  "test_non_contiguous_input_addmm (__main__.TestMaxAutotune)": [
-    "126176",
-    "https://github.com/pytorch/pytorch/issues/126176",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_non_contiguous_input_bmm (__main__.TestMaxAutotune)": [
     "126490",
     "https://github.com/pytorch/pytorch/issues/126490",
