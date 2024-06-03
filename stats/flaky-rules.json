@@ -68,5 +68,9 @@
   {
     "name": "linux",
     "captures": ["o space left on device"]
+  },
+  {
+    "name": "linux",
+    "captures": ["Failed to fetch"]
   }
 ]
