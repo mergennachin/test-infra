@@ -34,6 +34,13 @@
       "rocm"
     ]
   ],
+  "test_add_loggers_conv_bn_relu_fusion_quant (__main__.TestFXNumericSuiteNShadows)": [
+    "127814",
+    "https://github.com/pytorch/pytorch/issues/127814",
+    [
+      "dynamo"
+    ]
+  ],
   "test_addcdiv_cuda_complex128 (__main__.TestTorchDeviceTypeCUDA)": [
     "119515",
     "https://github.com/pytorch/pytorch/issues/119515",
@@ -477,7 +484,8 @@
     "127080",
     "https://github.com/pytorch/pytorch/issues/127080",
     [
-      "inductor"
+      "inductor",
+      "rocm"
     ]
   ],
   "test_comprehensive_special_bessel_y1_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
@@ -516,13 +524,6 @@
     "https://github.com/pytorch/pytorch/issues/104366",
     [
       "rocm"
-    ]
-  ],
-  "test_conv_empty_input_cpu_bfloat16 (__main__.TestNNDeviceTypeCPU)": [
-    "126494",
-    "https://github.com/pytorch/pytorch/issues/126494",
-    [
-      "dynamo"
     ]
   ],
   "test_conv_stride_constraints (__main__.CPUReproTests)": [
@@ -594,6 +595,13 @@
       "slow"
     ]
   ],
+  "test_cpp_extension_recommends_custom_ops_dynamic_shapes (__main__.DynamicShapesMiscTests)": [
+    "127813",
+    "https://github.com/pytorch/pytorch/issues/127813",
+    [
+      "linux"
+    ]
+  ],
   "test_cpp_frontend_module_has_same_output_as_python (__main__.TestCppExtensionJIT)": [
     "116105",
     "https://github.com/pytorch/pytorch/issues/116105",
@@ -606,6 +614,13 @@
     "https://github.com/pytorch/pytorch/issues/106557",
     [
       "macos"
+    ]
+  ],
+  "test_creation_with_zeros_cuda_float8_e5m2 (__main__.TestFloat8DtypeCUDA)": [
+    "124474",
+    "https://github.com/pytorch/pytorch/issues/124474",
+    [
+      "rocm"
     ]
   ],
   "test_cross_entropy_large_tensor_reduction_mean_cuda (__main__.TestNNDeviceTypeCUDA)": [
@@ -646,7 +661,8 @@
     "https://github.com/pytorch/pytorch/issues/127536",
     [
       "dynamo",
-      "inductor"
+      "inductor",
+      "linux"
     ]
   ],
   "test_custom_op_1_cuda_cuda_wrapper (__main__.TestCudaWrapper)": [
