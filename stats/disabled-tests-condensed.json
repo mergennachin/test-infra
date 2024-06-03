@@ -412,6 +412,14 @@
       "inductor"
     ]
   ],
+  "test_comprehensive___getitem___cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
+    "125614",
+    "https://github.com/pytorch/pytorch/issues/125614",
+    [
+      "rocm",
+      "inductor"
+    ]
+  ],
   "test_comprehensive_empty_strided_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
     "102033",
     "https://github.com/pytorch/pytorch/issues/102033",
@@ -1643,6 +1651,13 @@
       "linux"
     ]
   ],
+  "test_pointwise_bessel_y1_cuda (__main__.GPUTests)": [
+    "127756",
+    "https://github.com/pytorch/pytorch/issues/127756",
+    [
+      "rocm"
+    ]
+  ],
   "test_post_localSGD_optimizer_parity_with_hierarchical_sgd (__main__.TestDistBackendWithSpawn)": [
     "75052",
     "https://github.com/pytorch/pytorch/issues/75052",
@@ -2037,6 +2052,13 @@
     "https://github.com/pytorch/pytorch/issues/71195",
     [
       "mac"
+    ]
+  ],
+  "test_serialization_parametrization_swap_True (__main__.TestNNParametrization)": [
+    "127755",
+    "https://github.com/pytorch/pytorch/issues/127755",
+    [
+      "dynamo"
     ]
   ],
   "test_serialize_export_while_loop_simple_cuda_float32 (__main__.TestHOPCUDA)": [
