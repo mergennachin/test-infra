@@ -34,13 +34,6 @@
       "rocm"
     ]
   ],
-  "test__int_mm_k_32_n_32_use_transpose_a_False_use_transpose_b_False_cuda (__main__.TestLinalgCUDA)": [
-    "126495",
-    "https://github.com/pytorch/pytorch/issues/126495",
-    [
-      "rocm"
-    ]
-  ],
   "test_addcdiv_cuda_complex128 (__main__.TestTorchDeviceTypeCUDA)": [
     "119515",
     "https://github.com/pytorch/pytorch/issues/119515",
@@ -209,13 +202,6 @@
       "slow"
     ]
   ],
-  "test_artificial_zgrid (__main__.TestTritonHeuristics)": [
-    "121732",
-    "https://github.com/pytorch/pytorch/issues/121732",
-    [
-      "rocm"
-    ]
-  ],
   "test_attn_cuda (__main__.TestMin)": [
     "86710",
     "https://github.com/pytorch/pytorch/issues/86710",
@@ -302,13 +288,6 @@
     "https://github.com/pytorch/pytorch/issues/125240",
     [
       "dynamo"
-    ]
-  ],
-  "test_broadcast_1d (__main__.DeviceMeshCollectiveTest)": [
-    "98048",
-    "https://github.com/pytorch/pytorch/issues/98048",
-    [
-      "linux"
     ]
   ],
   "test_builtin_remote_message_dropped_timeout_to_self (__main__.FaultyFaultyAgentRpcTest)": [
@@ -430,14 +409,6 @@
     "108993",
     "https://github.com/pytorch/pytorch/issues/108993",
     [
-      "inductor"
-    ]
-  ],
-  "test_comprehensive___getitem___cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
-    "125614",
-    "https://github.com/pytorch/pytorch/issues/125614",
-    [
-      "rocm",
       "inductor"
     ]
   ],
@@ -1340,13 +1311,6 @@
       "dynamo"
     ]
   ],
-  "test_mixed_mm_epi_works (__main__.TestPatternMatcher)": [
-    "126489",
-    "https://github.com/pytorch/pytorch/issues/126489",
-    [
-      "linux"
-    ]
-  ],
   "test_mlp_contiguous_relu_compile_cutlass (__main__.SparseSemiStructuredTensorCompileTest)": [
     "122352",
     "https://github.com/pytorch/pytorch/issues/122352",
@@ -1423,13 +1387,6 @@
     "https://github.com/pytorch/pytorch/issues/126689",
     [
       "rocm"
-    ]
-  ],
-  "test_non_contiguous_input_bmm (__main__.TestMaxAutotune)": [
-    "126490",
-    "https://github.com/pytorch/pytorch/issues/126490",
-    [
-      "linux"
     ]
   ],
   "test_non_contiguous_input_mm (__main__.TestMaxAutotune)": [
