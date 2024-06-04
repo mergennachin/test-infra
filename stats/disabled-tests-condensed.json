@@ -595,6 +595,14 @@
       "slow"
     ]
   ],
+  "test_cpp_extension_recommends_custom_ops (__main__.MiscTests)": [
+    "127848",
+    "https://github.com/pytorch/pytorch/issues/127848",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_cpp_extension_recommends_custom_ops_dynamic_shapes (__main__.DynamicShapesMiscTests)": [
     "127813",
     "https://github.com/pytorch/pytorch/issues/127813",
@@ -1376,13 +1384,6 @@
     "https://github.com/pytorch/pytorch/issues/105120",
     [
       "rocm"
-    ]
-  ],
-  "test_nn_sequential_invocation_dynamic_shapes (torch._dynamo.testing.DynamicShapesMiscTests)": [
-    "96088",
-    "https://github.com/pytorch/pytorch/issues/96088",
-    [
-      "linux"
     ]
   ],
   "test_nnc_correctness_frac_cpu_bfloat16 (__main__.TestNNCOpInfoCPU)": [
