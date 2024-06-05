@@ -1675,6 +1675,13 @@
       "rocm"
     ]
   ],
+  "test_post_localSGD_optimizer_step_reload (__main__.TestDistBackendWithSpawn)": [
+    "84886",
+    "https://github.com/pytorch/pytorch/issues/84886",
+    [
+      "linux"
+    ]
+  ],
   "test_pre_dispatch_export_auto_functionalize_simple_cuda_float32 (__main__.TestHOPCUDA)": [
     "123267",
     "https://github.com/pytorch/pytorch/issues/123267",
@@ -1750,9 +1757,30 @@
       "macos"
     ]
   ],
+  "test_quantization_doc_custom (__main__.TestQuantizationDocs)": [
+    "125668",
+    "https://github.com/pytorch/pytorch/issues/125668",
+    [
+      "linux"
+    ]
+  ],
   "test_quantization_doc_fx (__main__.TestQuantizationDocs)": [
     "125670",
     "https://github.com/pytorch/pytorch/issues/125670",
+    [
+      "linux"
+    ]
+  ],
+  "test_quantization_doc_ptdq (__main__.TestQuantizationDocs)": [
+    "125667",
+    "https://github.com/pytorch/pytorch/issues/125667",
+    [
+      "linux"
+    ]
+  ],
+  "test_quantization_doc_ptsq (__main__.TestQuantizationDocs)": [
+    "125669",
+    "https://github.com/pytorch/pytorch/issues/125669",
     [
       "linux"
     ]
