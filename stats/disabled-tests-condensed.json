@@ -1750,6 +1750,13 @@
       "macos"
     ]
   ],
+  "test_quantization_doc_fx (__main__.TestQuantizationDocs)": [
+    "125670",
+    "https://github.com/pytorch/pytorch/issues/125670",
+    [
+      "linux"
+    ]
+  ],
   "test_raise_comms (__main__.TestComputeCommReorderingMultiProc)": [
     "120946",
     "https://github.com/pytorch/pytorch/issues/120946",
