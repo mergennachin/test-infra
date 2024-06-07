@@ -178,6 +178,13 @@
       "slow"
     ]
   ],
+  "test_attention_vs_linear (__main__.MemoryBudgetTest)": [
+    "128217",
+    "https://github.com/pytorch/pytorch/issues/128217",
+    [
+      "rocm"
+    ]
+  ],
   "test_attn_cuda (__main__.TestMin)": [
     "86710",
     "https://github.com/pytorch/pytorch/issues/86710",
