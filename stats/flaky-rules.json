@@ -72,5 +72,9 @@
   {
     "name": "linux",
     "captures": ["Failed to fetch"]
+  },
+  {
+    "name": "linux",
+    "captures": ["Error response from daemon"]
   }
 ]
