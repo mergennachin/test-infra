@@ -865,6 +865,15 @@
       "slow"
     ]
   ],
+  "test_free_activation_memory_subclass (__main__.TestCompiledAutograd)": [
+    "124376",
+    "https://github.com/pytorch/pytorch/issues/124376",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_fs_preserve_sharing (__main__.TestMultiprocessing)": [
     "91467",
     "https://github.com/pytorch/pytorch/issues/91467",
@@ -1143,6 +1152,15 @@
     "https://github.com/pytorch/pytorch/issues/123832",
     [
       "dynamo"
+    ]
+  ],
+  "test_item_to_inputs_kernel_nobreak_cuda (__main__.TestInductorDynamicCUDA)": [
+    "119538",
+    "https://github.com/pytorch/pytorch/issues/119538",
+    [
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_jvpvjp_nn_functional_conv3d_cuda_float32 (__main__.TestOperatorsCUDA)": [
