@@ -98,6 +98,13 @@
       "linux"
     ]
   ],
+  "test_allocation_id_uniqueness (__main__.TestTorchTidyProfiler)": [
+    "125021",
+    "https://github.com/pytorch/pytorch/issues/125021",
+    [
+      "dynamo"
+    ]
+  ],
   "test_always_alive_values (jit.test_freezing.TestMKLDNNReinplacing)": [
     "91486",
     "https://github.com/pytorch/pytorch/issues/91486",
