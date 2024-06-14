@@ -1,20 +1,4 @@
 {
-  "linux-binary-manywheel / manywheel-py3_8-cuda12_1-test / test": [
-    "atalman",
-    "127288",
-    "https://github.com/pytorch/pytorch/issues/127288",
-    "linux-binary-manywheel",
-    "manywheel-py3_8-cuda12_1-test",
-    "test"
-  ],
-  "linux-binary-manywheel / manywheel-py3_8-cuda12_4-test / test": [
-    "atalman",
-    "127289",
-    "https://github.com/pytorch/pytorch/issues/127289",
-    "linux-binary-manywheel",
-    "manywheel-py3_8-cuda12_4-test",
-    "test"
-  ],
   "pull / linux-focal-cuda12.4-py3.10-gcc9-sm86 / build": [
     "atalman",
     "127104",
