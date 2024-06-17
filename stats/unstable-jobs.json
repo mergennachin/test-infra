@@ -1,11 +1,35 @@
 {
-  "inductor / cuda12.1-py3.10-gcc9-sm86 / test": [
-    "huydhn",
-    "120841",
-    "https://github.com/pytorch/pytorch/issues/120841",
-    "inductor",
-    "cuda12.1-py3.10-gcc9-sm86",
-    "test"
+  "inductor-A100-perf-nightly / cuda12.1-py3.10-gcc9-sm80 / test (inductor_torchbench_perf)": [
+    "PaliC",
+    "128846",
+    "https://github.com/pytorch/pytorch/issues/128846",
+    "inductor-A100-perf-nightly",
+    "cuda12.1-py3.10-gcc9-sm80",
+    "test (inductor_torchbench_perf)"
+  ],
+  "inductor-cu124 / cuda12.4-py3.10-gcc9-sm86 / test (aot_inductor_torchbench)": [
+    "PaliC",
+    "128849",
+    "https://github.com/pytorch/pytorch/issues/128849",
+    "inductor-cu124",
+    "cuda12.4-py3.10-gcc9-sm86",
+    "test (aot_inductor_torchbench)"
+  ],
+  "inductor-cu124 / cuda12.4-py3.10-gcc9-sm86 / test (dynamic_inductor_torchbench)": [
+    "PaliC",
+    "128850",
+    "https://github.com/pytorch/pytorch/issues/128850",
+    "inductor-cu124",
+    "cuda12.4-py3.10-gcc9-sm86",
+    "test (dynamic_inductor_torchbench)"
+  ],
+  "inductor-cu124 / cuda12.4-py3.10-gcc9-sm86 / test (inductor_torchbench)": [
+    "PaliC",
+    "128851",
+    "https://github.com/pytorch/pytorch/issues/128851",
+    "inductor-cu124",
+    "cuda12.4-py3.10-gcc9-sm86",
+    "test (inductor_torchbench)"
   ],
   "pull / linux-focal-cuda12.4-py3.10-gcc9-sm86 / build": [
     "atalman",
