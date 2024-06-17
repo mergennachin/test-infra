@@ -1,4 +1,12 @@
 {
+  "inductor / rocm6.1-py3.8-inductor / test (inductor)": [
+    "huydhn",
+    "128871",
+    "https://github.com/pytorch/pytorch/issues/128871",
+    "inductor",
+    "rocm6.1-py3.8-inductor",
+    "test (inductor)"
+  ],
   "inductor-A100-perf-nightly / cuda12.1-py3.10-gcc9-sm80 / test (inductor_torchbench_perf)": [
     "PaliC",
     "128846",
