@@ -1310,6 +1310,14 @@
       "rocm"
     ]
   ],
+  "test_nn_sequential_invocation_reposition_indices_inline_inbuilt_nn_modules (__main__.InlineInbuiltNNModulesMiscTests)": [
+    "128822",
+    "https://github.com/pytorch/pytorch/issues/128822",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_nnc_correctness_frac_cpu_bfloat16 (__main__.TestNNCOpInfoCPU)": [
     "104454",
     "https://github.com/pytorch/pytorch/issues/104454",
@@ -1569,13 +1577,6 @@
     "https://github.com/pytorch/pytorch/issues/94541",
     [
       "linux"
-    ]
-  ],
-  "test_pointwise_bessel_y1_cuda (__main__.GPUTests)": [
-    "127756",
-    "https://github.com/pytorch/pytorch/issues/127756",
-    [
-      "rocm"
     ]
   ],
   "test_post_localSGD_optimizer_parity_with_hierarchical_sgd (__main__.TestDistBackendWithSpawn)": [
