@@ -31,12 +31,36 @@
     "cuda12.4-py3.10-gcc9-sm86",
     "test (inductor_torchbench)"
   ],
+  "periodic / win-vs2019-cuda11.8-py3 / build": [
+    "huydhn",
+    "128855",
+    "https://github.com/pytorch/pytorch/issues/128855",
+    "periodic",
+    "win-vs2019-cuda11.8-py3",
+    "build"
+  ],
   "pull / linux-focal-cuda12.4-py3.10-gcc9-sm86 / build": [
     "atalman",
     "127104",
     "https://github.com/pytorch/pytorch/issues/127104",
     "pull",
     "linux-focal-cuda12.4-py3.10-gcc9-sm86",
+    "build"
+  ],
+  "trunk / win-vs2019-cpu-py3 / build": [
+    "huydhn",
+    "103732",
+    "https://github.com/pytorch/pytorch/issues/103732",
+    "trunk",
+    "win-vs2019-cpu-py3",
+    "build"
+  ],
+  "trunk / win-vs2019-cuda11.8-py3 / build": [
+    "huydhn",
+    "103733",
+    "https://github.com/pytorch/pytorch/issues/103733",
+    "trunk",
+    "win-vs2019-cuda11.8-py3",
     "build"
   ]
 }
