@@ -972,13 +972,6 @@
       "dynamo"
     ]
   ],
-  "test_index (__main__.TestScript)": [
-    "123635",
-    "https://github.com/pytorch/pytorch/issues/123635",
-    [
-      "dynamo"
-    ]
-  ],
   "test_index_add_correctness (__main__.TestTorch)": [
     "91184",
     "https://github.com/pytorch/pytorch/issues/91184",
@@ -1081,13 +1074,6 @@
       "dynamo"
     ]
   ],
-  "test_isinstance (__main__.TestScript)": [
-    "123832",
-    "https://github.com/pytorch/pytorch/issues/123832",
-    [
-      "dynamo"
-    ]
-  ],
   "test_item_to_inputs_kernel_nobreak_cuda (__main__.TestInductorDynamicCUDA)": [
     "119538",
     "https://github.com/pytorch/pytorch/issues/119538",
@@ -1183,13 +1169,6 @@
     "https://github.com/pytorch/pytorch/issues/124087",
     [
       "linux"
-    ]
-  ],
-  "test_math_ops (__main__.TestScript)": [
-    "123693",
-    "https://github.com/pytorch/pytorch/issues/123693",
-    [
-      "dynamo"
     ]
   ],
   "test_mem_get_info (__main__.TestCuda)": [
@@ -1474,13 +1453,6 @@
       "macos"
     ]
   ],
-  "test_number_math (__main__.TestScript)": [
-    "123660",
-    "https://github.com/pytorch/pytorch/issues/123660",
-    [
-      "dynamo"
-    ]
-  ],
   "test_numpy_ref_mps_nn_functional_conv_transpose1d_mps_float32 (__main__.TestCommonMPS)": [
     "87542",
     "https://github.com/pytorch/pytorch/issues/87542",
@@ -1514,13 +1486,6 @@
       "dynamo",
       "mac",
       "macos"
-    ]
-  ],
-  "test_optimizer_parameters_sgd (__main__.TestTorchTidyProfiler)": [
-    "123624",
-    "https://github.com/pytorch/pytorch/issues/123624",
-    [
-      "dynamo"
     ]
   ],
   "test_optional_list (test_jit.TestScript)": [
@@ -2056,13 +2021,6 @@
     "https://github.com/pytorch/pytorch/issues/91482",
     [
       "linux"
-    ]
-  ],
-  "test_tensor_number_math (__main__.TestScript)": [
-    "123701",
-    "https://github.com/pytorch/pytorch/issues/123701",
-    [
-      "dynamo"
     ]
   ],
   "test_tensor_requires_grad (test_jit.TestScript)": [
