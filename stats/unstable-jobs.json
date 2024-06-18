@@ -63,13 +63,29 @@
     "cuda12.4-py3.10-gcc9-sm86",
     "test (inductor_torchbench)"
   ],
-  "periodic / win-vs2019-cuda11.8-py3 / build": [
+  "inductor-periodic / cuda12.1-py3.10-gcc9-sm86-periodic-dynamo-benchmarks / test (aot_eager_torchbench)": [
     "huydhn",
-    "128855",
-    "https://github.com/pytorch/pytorch/issues/128855",
-    "periodic",
-    "win-vs2019-cuda11.8-py3",
-    "build"
+    "128929",
+    "https://github.com/pytorch/pytorch/issues/128929",
+    "inductor-periodic",
+    "cuda12.1-py3.10-gcc9-sm86-periodic-dynamo-benchmarks",
+    "test (aot_eager_torchbench)"
+  ],
+  "inductor-periodic / cuda12.1-py3.10-gcc9-sm86-periodic-dynamo-benchmarks / test (dynamic_aot_eager_torchbench)": [
+    "huydhn",
+    "128931",
+    "https://github.com/pytorch/pytorch/issues/128931",
+    "inductor-periodic",
+    "cuda12.1-py3.10-gcc9-sm86-periodic-dynamo-benchmarks",
+    "test (dynamic_aot_eager_torchbench)"
+  ],
+  "inductor-periodic / cuda12.1-py3.10-gcc9-sm86-periodic-dynamo-benchmarks / test (dynamo_eager_torchbench)": [
+    "huydhn",
+    "128932",
+    "https://github.com/pytorch/pytorch/issues/128932",
+    "inductor-periodic",
+    "cuda12.1-py3.10-gcc9-sm86-periodic-dynamo-benchmarks",
+    "test (dynamo_eager_torchbench)"
   ],
   "pull / linux-focal-cuda12.4-py3.10-gcc9-sm86 / build": [
     "atalman",
@@ -77,30 +93,6 @@
     "https://github.com/pytorch/pytorch/issues/127104",
     "pull",
     "linux-focal-cuda12.4-py3.10-gcc9-sm86",
-    "build"
-  ],
-  "pull / win-vs2019-cpu-py3 / build": [
-    "huydhn",
-    "103729",
-    "https://github.com/pytorch/pytorch/issues/103729",
-    "pull",
-    "win-vs2019-cpu-py3",
-    "build"
-  ],
-  "trunk / win-vs2019-cpu-py3 / build": [
-    "huydhn",
-    "103732",
-    "https://github.com/pytorch/pytorch/issues/103732",
-    "trunk",
-    "win-vs2019-cpu-py3",
-    "build"
-  ],
-  "trunk / win-vs2019-cuda11.8-py3 / build": [
-    "huydhn",
-    "103733",
-    "https://github.com/pytorch/pytorch/issues/103733",
-    "trunk",
-    "win-vs2019-cuda11.8-py3",
     "build"
   ]
 }
