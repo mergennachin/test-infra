@@ -76,5 +76,9 @@
   {
     "name": "linux",
     "captures": ["Error response from daemon"]
+  },
+  {
+    "name": "linux",
+    "captures": ["connect ETIMEDOUT"]
   }
 ]
