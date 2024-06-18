@@ -80,5 +80,9 @@
   {
     "name": "linux",
     "captures": ["connect ETIMEDOUT"]
+  },
+  {
+    "name": "linux",
+    "captures": ["read ECONNRESET"]
   }
 ]
