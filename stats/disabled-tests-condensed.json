@@ -20,13 +20,6 @@
       "rocm"
     ]
   ],
-  "test_add_loggers_conv_bn_relu_fusion_quant (__main__.TestFXNumericSuiteNShadows)": [
-    "127814",
-    "https://github.com/pytorch/pytorch/issues/127814",
-    [
-      "dynamo"
-    ]
-  ],
   "test_addcdiv_cuda_complex128 (__main__.TestTorchDeviceTypeCUDA)": [
     "119515",
     "https://github.com/pytorch/pytorch/issues/119515",
@@ -155,6 +148,13 @@
     "106440",
     "https://github.com/pytorch/pytorch/issues/106440",
     []
+  ],
+  "test_arange_dynamic_cuda (__main__.TestInductorDynamicCUDA)": [
+    "127067",
+    "https://github.com/pytorch/pytorch/issues/127067",
+    [
+      "rocm"
+    ]
   ],
   "test_attention_vs_linear (__main__.MemoryBudgetTest)": [
     "128217",
@@ -435,14 +435,6 @@
       "inductor"
     ]
   ],
-  "test_comprehensive_special_bessel_y1_cuda_int32 (__main__.TestInductorOpInfoCUDA)": [
-    "127080",
-    "https://github.com/pytorch/pytorch/issues/127080",
-    [
-      "inductor",
-      "rocm"
-    ]
-  ],
   "test_comprehensive_special_spherical_bessel_j0_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
     "123332",
     "https://github.com/pytorch/pytorch/issues/123332",
@@ -545,13 +537,6 @@
       "macos"
     ]
   ],
-  "test_creation_with_zeros_cuda_float8_e5m2 (__main__.TestFloat8DtypeCUDA)": [
-    "124474",
-    "https://github.com/pytorch/pytorch/issues/124474",
-    [
-      "rocm"
-    ]
-  ],
   "test_cross_entropy_large_tensor_reduction_mean_cuda (__main__.TestNNDeviceTypeCUDA)": [
     "105253",
     "https://github.com/pytorch/pytorch/issues/105253",
@@ -583,15 +568,6 @@
     "https://github.com/pytorch/pytorch/issues/92131",
     [
       "rocm"
-    ]
-  ],
-  "test_cusparse_multiple_threads_same_device (__main__.TestCuda)": [
-    "127536",
-    "https://github.com/pytorch/pytorch/issues/127536",
-    [
-      "dynamo",
-      "inductor",
-      "linux"
     ]
   ],
   "test_custom_op_1_cuda_cuda_wrapper (__main__.TestCudaWrapper)": [
@@ -927,13 +903,6 @@
       "linux"
     ]
   ],
-  "test_graph_concurrent_replay (__main__.TestCuda)": [
-    "104055",
-    "https://github.com/pytorch/pytorch/issues/104055",
-    [
-      "rocm"
-    ]
-  ],
   "test_hf_bert_ddp_inductor (__main__.TestFakeDistributedSingleProc)": [
     "89763",
     "https://github.com/pytorch/pytorch/issues/89763",
@@ -963,13 +932,6 @@
       "macos",
       "linux",
       "win"
-    ]
-  ],
-  "test_index (__main__.TestPythonBuiltinOP)": [
-    "119160",
-    "https://github.com/pytorch/pytorch/issues/119160",
-    [
-      "dynamo"
     ]
   ],
   "test_index_add_correctness (__main__.TestTorch)": [
@@ -1065,13 +1027,6 @@
     "https://github.com/pytorch/pytorch/issues/115859",
     [
       "rocm"
-    ]
-  ],
-  "test_is_isnot (__main__.TestScript)": [
-    "120694",
-    "https://github.com/pytorch/pytorch/issues/120694",
-    [
-      "dynamo"
     ]
   ],
   "test_item_to_inputs_kernel_nobreak_cuda (__main__.TestInductorDynamicCUDA)": [
@@ -1221,6 +1176,16 @@
       "linux"
     ]
   ],
+  "test_metadata_parsing_with_layer_split (__main__.TestSerialize)": [
+    "129155",
+    "https://github.com/pytorch/pytorch/issues/129155",
+    [
+      "mac",
+      "macos",
+      "win",
+      "windows"
+    ]
+  ],
   "test_min_cut_partitioner_recomputable_ops (__main__.TestPartitioning)": [
     "104327",
     "https://github.com/pytorch/pytorch/issues/104327",
@@ -1286,6 +1251,14 @@
     "105120",
     "https://github.com/pytorch/pytorch/issues/105120",
     [
+      "rocm"
+    ]
+  ],
+  "test_nn_sequential_invocation (__main__.MiscTests)": [
+    "129156",
+    "https://github.com/pytorch/pytorch/issues/129156",
+    [
+      "linux",
       "rocm"
     ]
   ],
@@ -1625,41 +1598,6 @@
     "https://github.com/pytorch/pytorch/issues/73474",
     [
       "macos"
-    ]
-  ],
-  "test_quantization_doc_custom (__main__.TestQuantizationDocs)": [
-    "125668",
-    "https://github.com/pytorch/pytorch/issues/125668",
-    [
-      "linux"
-    ]
-  ],
-  "test_quantization_doc_fx (__main__.TestQuantizationDocs)": [
-    "125670",
-    "https://github.com/pytorch/pytorch/issues/125670",
-    [
-      "linux"
-    ]
-  ],
-  "test_quantization_doc_ptdq (__main__.TestQuantizationDocs)": [
-    "125667",
-    "https://github.com/pytorch/pytorch/issues/125667",
-    [
-      "linux"
-    ]
-  ],
-  "test_quantization_doc_ptsq (__main__.TestQuantizationDocs)": [
-    "125669",
-    "https://github.com/pytorch/pytorch/issues/125669",
-    [
-      "linux"
-    ]
-  ],
-  "test_quantization_doc_qat (__main__.TestQuantizationDocs)": [
-    "128118",
-    "https://github.com/pytorch/pytorch/issues/128118",
-    [
-      "linux"
     ]
   ],
   "test_raise_comms (__main__.TestComputeCommReorderingMultiProc)": [
@@ -2028,13 +1966,6 @@
     "https://github.com/pytorch/pytorch/issues/91497",
     [
       "linux"
-    ]
-  ],
-  "test_tensor_subclasses (__main__.TestScript)": [
-    "119949",
-    "https://github.com/pytorch/pytorch/issues/119949",
-    [
-      "dynamo"
     ]
   ],
   "test_tensorboard_trace_handler (__main__.TestProfiler)": [
