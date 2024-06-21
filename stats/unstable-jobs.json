@@ -87,6 +87,14 @@
     "cuda12.1-py3.10-gcc9-sm86-periodic-dynamo-benchmarks",
     "test (dynamo_eager_torchbench)"
   ],
+  "periodic / linux-focal-rocm6.1-py3.8 / test (distributed)": [
+    "huydhn",
+    "129209",
+    "https://github.com/pytorch/pytorch/issues/129209",
+    "periodic",
+    "linux-focal-rocm6.1-py3.8",
+    "test (distributed)"
+  ],
   "pull / linux-focal-cuda12.1-py3.10-gcc9-experimental-split-build / test (default)": [
     "huydhn",
     "129080",
@@ -102,5 +110,29 @@
     "pull",
     "linux-focal-cuda12.4-py3.10-gcc9-sm86",
     "build"
+  ],
+  "rocm / linux-focal-rocm6.1-py3.8 / test (default)": [
+    "huydhn",
+    "129208",
+    "https://github.com/pytorch/pytorch/issues/129208",
+    "rocm",
+    "linux-focal-rocm6.1-py3.8",
+    "test (default)"
+  ],
+  "trunk / linux-focal-rocm6.1-py3.8 / test (default)": [
+    "huydhn",
+    "129210",
+    "https://github.com/pytorch/pytorch/issues/129210",
+    "trunk",
+    "linux-focal-rocm6.1-py3.8",
+    "test (default)"
+  ],
+  "trunk / linux-focal-rocm6.1-py3.8 / test (distributed)": [
+    "huydhn",
+    "129211",
+    "https://github.com/pytorch/pytorch/issues/129211",
+    "trunk",
+    "linux-focal-rocm6.1-py3.8",
+    "test (distributed)"
   ]
 }
