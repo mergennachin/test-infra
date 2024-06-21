@@ -95,6 +95,14 @@
     "linux-focal-rocm6.1-py3.8",
     "test (distributed)"
   ],
+  "pull / linux-focal-cuda12.1-py3.10-gcc9-experimental-split-build / test (default)": [
+    "huydhn",
+    "129080",
+    "https://github.com/pytorch/pytorch/issues/129080",
+    "pull",
+    "linux-focal-cuda12.1-py3.10-gcc9-experimental-split-build",
+    "test (default)"
+  ],
   "pull / linux-focal-cuda12.4-py3.10-gcc9-sm86 / build": [
     "atalman",
     "127104",
@@ -110,6 +118,14 @@
     "pull",
     "linux-focal-py3.12-clang10-experimental-split-build",
     "test (default)"
+  ],
+  "pull / linux-focal-py3.12-clang10-experimental-split-build / test (dynamo)": [
+    "huydhn",
+    "129256",
+    "https://github.com/pytorch/pytorch/issues/129256",
+    "pull",
+    "linux-focal-py3.12-clang10-experimental-split-build",
+    "test (dynamo)"
   ],
   "rocm / linux-focal-rocm6.1-py3.8 / test (default)": [
     "huydhn",
