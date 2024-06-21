@@ -103,6 +103,14 @@
     "linux-focal-cuda12.4-py3.10-gcc9-sm86",
     "build"
   ],
+  "pull / linux-focal-py3.12-clang10-experimental-split-build / test (default)": [
+    "huydhn",
+    "129248",
+    "https://github.com/pytorch/pytorch/issues/129248",
+    "pull",
+    "linux-focal-py3.12-clang10-experimental-split-build",
+    "test (default)"
+  ],
   "rocm / linux-focal-rocm6.1-py3.8 / test (default)": [
     "huydhn",
     "129208",
