@@ -7,14 +7,6 @@
     "rocm6.1-py3.8-inductor",
     "test (inductor)"
   ],
-  "inductor-A100-perf-nightly / cuda12.1-py3.10-gcc9-sm80 / test (inductor_torchbench_perf)": [
-    "PaliC",
-    "128846",
-    "https://github.com/pytorch/pytorch/issues/128846",
-    "inductor-A100-perf-nightly",
-    "cuda12.1-py3.10-gcc9-sm80",
-    "test (inductor_torchbench_perf)"
-  ],
   "inductor-cu124 / cuda12.4-py3.10-gcc9-sm86 / test (aot_inductor_torchbench)": [
     "PaliC",
     "128849",
