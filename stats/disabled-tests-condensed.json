@@ -620,6 +620,13 @@
       "dynamo"
     ]
   ],
+  "test_depthwise_convolution (__main__.DistConvolutionOpsTest)": [
+    "125565",
+    "https://github.com/pytorch/pytorch/issues/125565",
+    [
+      "linux"
+    ]
+  ],
   "test_distributed_checkpoint_state_dict_type0 (__main__.TestDistributedCheckpoint)": [
     "113937",
     "https://github.com/pytorch/pytorch/issues/113937",
