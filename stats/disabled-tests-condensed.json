@@ -2051,6 +2051,13 @@
       "rocm"
     ]
   ],
+  "test_tracker_multi_group_eager (__main__.TestTrackerFullyShard1DTrainingCore)": [
+    "129390",
+    "https://github.com/pytorch/pytorch/issues/129390",
+    [
+      "rocm"
+    ]
+  ],
   "test_train_parity_2d_mlp (__main__.TestFullyShard2DTraining)": [
     "125555",
     "https://github.com/pytorch/pytorch/issues/125555",
