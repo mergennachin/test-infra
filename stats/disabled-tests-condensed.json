@@ -1247,6 +1247,13 @@
       "linux"
     ]
   ],
+  "test_module_to_empty_cuda_float32 (__main__.TestNNDeviceTypeCUDA)": [
+    "129491",
+    "https://github.com/pytorch/pytorch/issues/129491",
+    [
+      "rocm"
+    ]
+  ],
   "test_multinomial_gpu_device_constrain_cuda (__main__.TestTorchDeviceTypeCUDA)": [
     "119887",
     "https://github.com/pytorch/pytorch/issues/119887",
