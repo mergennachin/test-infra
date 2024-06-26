@@ -54,5 +54,13 @@
     "pull",
     "linux-focal-py3.12-clang10-experimental-split-build",
     "test (dynamo)"
+  ],
+  "trunk / linux-focal-cuda11.8-py3.10-gcc9-experimental-split-build-test / test (distributed)": [
+    "kit1980",
+    "129540",
+    "https://github.com/pytorch/pytorch/issues/129540",
+    "trunk",
+    "linux-focal-cuda11.8-py3.10-gcc9-experimental-split-build-test",
+    "test (distributed)"
   ]
 }
