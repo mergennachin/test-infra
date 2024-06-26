@@ -1247,13 +1247,6 @@
       "linux"
     ]
   ],
-  "test_multinomial_gpu_device_constrain_cuda (__main__.TestTorchDeviceTypeCUDA)": [
-    "119887",
-    "https://github.com/pytorch/pytorch/issues/119887",
-    [
-      "inductor"
-    ]
-  ],
   "test_nccl_errors_dump (__main__.NcclErrorDumpTest)": [
     "123530",
     "https://github.com/pytorch/pytorch/issues/123530",
