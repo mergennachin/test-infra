@@ -31,6 +31,14 @@
     "cuda12.4-py3.10-gcc9-sm86",
     "test (inductor_torchbench)"
   ],
+  "pull / before-test / llm-retrieval": [
+    "kit1980",
+    "129717",
+    "https://github.com/pytorch/pytorch/issues/129717",
+    "pull",
+    "before-test",
+    "llm-retrieval"
+  ],
   "pull / linux-focal-cuda12.1-py3.10-gcc9-experimental-split-build / test (default)": [
     "huydhn",
     "129080",
@@ -54,6 +62,14 @@
     "pull",
     "linux-focal-py3.12-clang10-experimental-split-build",
     "test (dynamo)"
+  ],
+  "trunk / before-test / llm-retrieval": [
+    "kit1980",
+    "129718",
+    "https://github.com/pytorch/pytorch/issues/129718",
+    "trunk",
+    "before-test",
+    "llm-retrieval"
   ],
   "trunk / linux-focal-cuda11.8-py3.10-gcc9-experimental-split-build-test / test (distributed)": [
     "kit1980",
