@@ -2044,6 +2044,13 @@
       "rocm"
     ]
   ],
+  "test_tracker_multi_group_eager (__main__.TestTrackerFullyShard1DTrainingCore)": [
+    "129390",
+    "https://github.com/pytorch/pytorch/issues/129390",
+    [
+      "rocm"
+    ]
+  ],
   "test_tracker_non_root_forward_backward (__main__.TestTrackerFullyShard1DTrainingCore)": [
     "129692",
     "https://github.com/pytorch/pytorch/issues/129692",
