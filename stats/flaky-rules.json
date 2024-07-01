@@ -92,5 +92,5 @@
   {
     "name": "win",
     "captures": ["Can't find 'action.yml', 'action.yaml' or 'Dockerfile'"]
-  },
+  }
 ]
