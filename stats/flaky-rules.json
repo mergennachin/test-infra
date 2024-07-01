@@ -88,5 +88,9 @@
   {
     "name": "llm-retrieval",
     "captures": [".*"]    
-  }
+  },
+  {
+    "name": "win",
+    "captures": ["Did you forget to run actions/checkout before running your local action"]
+  },
 ]
