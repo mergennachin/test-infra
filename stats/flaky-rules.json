@@ -91,6 +91,6 @@
   },
   {
     "name": "win",
-    "captures": ["Did you forget to run actions/checkout before running your local action"]
+    "captures": ["Can't find 'action.yml', 'action.yaml' or 'Dockerfile'"]
   },
 ]
