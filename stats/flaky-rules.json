@@ -92,5 +92,9 @@
   {
     "name": "win",
     "captures": ["Can't find 'action.yml', 'action.yaml' or 'Dockerfile'"]
+  },
+  {
+    "name": "linux-binary-libtorch",
+    "captures": ["Error downloading packages"]    
   }
 ]
