@@ -2093,6 +2093,13 @@
       "linux"
     ]
   ],
+  "test_trigger_on_error (__main__.ExcTests)": [
+    "129990",
+    "https://github.com/pytorch/pytorch/issues/129990",
+    [
+      "linux"
+    ]
+  ],
   "test_unary_ops (__main__.TestTensorExprFuser)": [
     "105119",
     "https://github.com/pytorch/pytorch/issues/105119",
