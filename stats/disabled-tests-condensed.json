@@ -2058,7 +2058,8 @@
     "129990",
     "https://github.com/pytorch/pytorch/issues/129990",
     [
-      "linux"
+      "linux",
+      "mac"
     ]
   ],
   "test_unary_ops (__main__.TestTensorExprFuser)": [
