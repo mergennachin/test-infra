@@ -171,14 +171,6 @@
       "rocm"
     ]
   ],
-  "test_autograd_function_backed_op (__main__.TestCustomOpWithCompiledAutograd)": [
-    "121342",
-    "https://github.com/pytorch/pytorch/issues/121342",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_backward_ddp_inside (__main__.TensorPipeDdpUnderDistAutogradTest)": [
     "104328",
     "https://github.com/pytorch/pytorch/issues/104328",
@@ -466,14 +458,6 @@
     "https://github.com/pytorch/pytorch/issues/105528",
     [
       "rocm"
-    ]
-  ],
-  "test_correctness_ASGD_use_closure_False_cuda_float32 (__main__.CompiledOptimizerParityTestsCUDA)": [
-    "125924",
-    "https://github.com/pytorch/pytorch/issues/125924",
-    [
-      "linux",
-      "slow"
     ]
   ],
   "test_correctness_ASGD_use_closure_True_cuda_float32 (__main__.CompiledOptimizerParityTestsCUDA)": [
@@ -1098,13 +1082,6 @@
       "linux"
     ]
   ],
-  "test_long (__main__.NCCLTraceTest)": [
-    "124087",
-    "https://github.com/pytorch/pytorch/issues/124087",
-    [
-      "linux"
-    ]
-  ],
   "test_mem_efficient_attention_attn_mask_vs_math_ref_grads_batch_size_1_seq_len_q_128_seq_len_k_128_head_dim_16_is_causal_False_dropout_p_0_0_float16_scale_l1_cuda_float16 (__main__.TestSDPACudaOnlyCUDA)": [
     "129861",
     "https://github.com/pytorch/pytorch/issues/129861",
@@ -1663,15 +1640,6 @@
       "rocm"
     ]
   ],
-  "test_reentrant_parent_error_on_cpu_cuda (__main__.TestAutogradDeviceTypeCUDA)": [
-    "86735",
-    "https://github.com/pytorch/pytorch/issues/86735",
-    [
-      "win",
-      "windows",
-      "rocm"
-    ]
-  ],
   "test_relu_cuda_dynamic_shapes_cuda_wrapper (__main__.DynamicShapesCudaWrapperCudaTests)": [
     "122364",
     "https://github.com/pytorch/pytorch/issues/122364",
@@ -1868,13 +1836,6 @@
     "https://github.com/pytorch/pytorch/issues/116746",
     [
       "dynamo"
-    ]
-  ],
-  "test_segfault (__main__.TestDataLoader)": [
-    "128551",
-    "https://github.com/pytorch/pytorch/issues/128551",
-    [
-      "linux"
     ]
   ],
   "test_send_recv_all_to_all (__main__.ProcessGroupGlooTest)": [
