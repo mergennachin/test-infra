@@ -96,5 +96,11 @@
   {
     "name": "linux-binary-libtorch",
     "captures": ["Error downloading packages"]    
-  }
+  },
+  {
+    "name": "llm-retrieval",
+    "captures": [
+      "Process completed with exit code"
+    ]
+  },
 ]
