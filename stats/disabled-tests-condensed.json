@@ -1146,16 +1146,6 @@
       "linux"
     ]
   ],
-  "test_metadata_parsing_with_layer_split (__main__.TestSerialize)": [
-    "129155",
-    "https://github.com/pytorch/pytorch/issues/129155",
-    [
-      "mac",
-      "macos",
-      "win",
-      "windows"
-    ]
-  ],
   "test_min_cut_partitioner_recomputable_ops (__main__.TestPartitioning)": [
     "104327",
     "https://github.com/pytorch/pytorch/issues/104327",
