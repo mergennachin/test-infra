@@ -33,7 +33,7 @@
         "TestDTensorCompileE2E": 16.920666666666666
       },
       "distributed/fsdp/test_fsdp_tp_integration": {
-        "TestTPFSDPIntegration": 10.226666666666667
+        "TestTPFSDPIntegration": 10.226666666666665
       },
       "distributed/tensor/parallel/test_fsdp_2d_parallel": {
         "TestNew2dParallelStateDict": 19.86266666666667,
@@ -46,7 +46,7 @@
       "distributed/test_dynamo_distributed": {
         "TestFakeDistributedSingleProc": 18.810333333333336,
         "TestMultiProc": 60.15733333333333,
-        "TestSingleProc": 13.179
+        "TestSingleProc": 13.179000000000002
       },
       "distributed/test_inductor_collectives": {
         "TestCollectivesInductor": 3.0893333333333337,
@@ -231,7 +231,7 @@
         "AOTInductorTestABICompatibleCpuWithStackAllocationAndMinimalArrayRefInterface": 205.74899999999994,
         "AOTInductorTestABICompatibleCuda": 1260.376333333333,
         "AOTInductorTestNonABICompatibleCpu": 1410.737,
-        "AOTInductorTestNonABICompatibleCuda": 2115.5479999999993
+        "AOTInductorTestNonABICompatibleCuda": 2115.548
       },
       "inductor/test_codecache": {
         "TestFxGraphCache": 120.992,
@@ -320,7 +320,7 @@
         "CpuTests": 1333.414,
         "CudaTests": 332.17833333333334,
         "GPUTests": 627.7693333333336,
-        "NanCheckerTest": 0.6336666666666667,
+        "NanCheckerTest": 0.6336666666666666,
         "RNNTest": 0.02666666666666667,
         "SweepInputsCpuTest": 112.49833333333329,
         "SweepInputsCudaTest": 12.351000000000004,
@@ -607,7 +607,7 @@
       "test_ops": {
         "TestCommonCUDA": 769.9913333332671,
         "TestCompositeComplianceCUDA": 663.6403333333305,
-        "TestFakeTensorCUDA": 677.5829999999982,
+        "TestFakeTensorCUDA": 677.582999999998,
         "TestMathBitsCUDA": 79.19066666666679,
         "TestSelfKwarg": 1.3296666666666666,
         "TestTagsCUDA": 2.1336666666666644
@@ -668,7 +668,7 @@
         "TestBasicVitalSigns": 0.4509999999999999,
         "TestDevicePrecisionCUDA": 28.12333333333333,
         "TestTorch": 201.28999999999988,
-        "TestTorchDeviceTypeCUDA": 1421.068999999998,
+        "TestTorchDeviceTypeCUDA": 1421.0689999999984,
         "TestVitalSignsCudaCUDA": 0.019
       }
     },
@@ -729,7 +729,7 @@
       },
       "distributed/test_inductor_collectives": {
         "TestCollectivesInductor": 2.953666666666667,
-        "TestCollectivesMultiProc": 86.83200000000001
+        "TestCollectivesMultiProc": 86.832
       },
       "inductor/test_aot_inductor": {
         "AOTInductorTestABICompatibleCpu": 0.008,
@@ -8342,11 +8342,11 @@
       },
       "inductor/test_aot_inductor": {
         "AOTInductorTestABICompatibleCpu": 670.8486666666664,
-        "AOTInductorTestABICompatibleCpuWithStackAllocation": 464.7999999999998,
+        "AOTInductorTestABICompatibleCpuWithStackAllocation": 464.7999999999999,
         "AOTInductorTestABICompatibleCpuWithStackAllocationAndMinimalArrayRefInterface": 204.10999999999999,
         "AOTInductorTestABICompatibleCuda": 1255.589,
         "AOTInductorTestNonABICompatibleCpu": 1406.1206666666665,
-        "AOTInductorTestNonABICompatibleCuda": 2108.910333333333
+        "AOTInductorTestNonABICompatibleCuda": 2108.9103333333333
       },
       "inductor/test_padding": {
         "PaddingTest": 7.044666666666667
@@ -10304,7 +10304,7 @@
         "TestShardingSpec": 0.056966666666666665
       },
       "distributed/_shard/test_sharder": {
-        "TestCustomSharder": 6.525125000000001
+        "TestCustomSharder": 6.525125
       },
       "distributed/_tensor/debug/test_comm_mode": {
         "TestCommMode": 5.069541666666666
@@ -10425,13 +10425,13 @@
         "TestFineTuning": 3.255125
       },
       "distributed/checkpoint/e2e/test_fsdp_ep": {
-        "TestFSDPWithEP": 3.314875
+        "TestFSDPWithEP": 3.3148750000000002
       },
       "distributed/checkpoint/e2e/test_pipeline": {
         "TestPipeline": 4.04625
       },
       "distributed/checkpoint/fsdp/test_fsdp_dsd": {
-        "TestFullyShardWithDistributedStateDict": 20.874166666666664
+        "TestFullyShardWithDistributedStateDict": 20.874166666666667
       },
       "distributed/checkpoint/test_checkpoint": {
         "TestDistributedCheckpointing": 8.609533333333333,
@@ -10705,7 +10705,7 @@
         "MicrobatchTests": 0.758
       },
       "distributed/pipelining/test_pipe": {
-        "PipeTests": 1.1803333333333335
+        "PipeTests": 1.1803333333333332
       },
       "distributed/pipelining/test_schedule": {
         "ScheduleTest": 19.462777777777774,
@@ -10776,7 +10776,7 @@
       },
       "distributed/test_c10d_common": {
         "CommTest": 3.8703333333333334,
-        "ComputeBucketAssignmentTest": 1.161,
+        "ComputeBucketAssignmentTest": 1.1609999999999998,
         "LocalRankTest": 16.284333333333333,
         "ProcessGroupWithDispatchedCollectivesTests": 7.768722222222223,
         "PythonProcessGroupExtensionTest": 31.064611111111116,
@@ -10844,7 +10844,7 @@
       },
       "distributed/test_c10d_ucc": {
         "CommTest": 30.109166666666667,
-        "CompilerTest": 47.37599999999999,
+        "CompilerTest": 47.376000000000005,
         "DistributedDataParallelTest": 144.9209166666667,
         "ProcessGroupUCCTest": 28.40116666666667,
         "RendezvousEnvTest": 0.3175,
@@ -10962,7 +10962,7 @@
         "AotAutogradFallbackTests": 17.810159090909092
       },
       "dynamo/test_aot_autograd_cache": {
-        "AOTAutogradCachePicklerTests": 0.27586363636363637,
+        "AOTAutogradCachePicklerTests": 0.2758636363636364,
         "AOTAutogradCacheTests": 22.824499999999997
       },
       "dynamo/test_autograd_function": {
@@ -11242,7 +11242,7 @@
         "TestAOTAutogradWithCache": 20.797075268817206,
         "TestAOTAutogradWithDynamo": 16.818752688172044,
         "TestAOTDispatch": 1.5175698924731185,
-        "TestAOTExport": 3.0537150537634408,
+        "TestAOTExport": 3.0537150537634403,
         "TestAOTModuleSimplified": 0.9078924731182795,
         "TestEagerFusionModuleInfoCPU": 787.0724444444445,
         "TestEagerFusionOpInfoCPU": 2016.6832222222217,
@@ -11283,7 +11283,7 @@
         "TestJvpCPU": 1.854911111111111,
         "TestJvpCUDA": 0.08031481481481484,
         "TestLinearizeCPU": 0.5315666666666666,
-        "TestLinearizeCUDA": 0.34388888888888897,
+        "TestLinearizeCUDA": 0.3438888888888889,
         "TestMakeFunctional": 0.3285376344086021,
         "TestSliceArgnums": 0.13915591397849464,
         "TestVmapJvpInplaceViewCPU": 1.3709777777777776,
@@ -11298,7 +11298,7 @@
         "NoChangeTestCase": 0.4676604938271605,
         "RandomOpTestCase": 0.15714197530864193,
         "ReduceTestCase": 0.14950617283950618,
-        "TestMemoryEfficientOpAuthoring": 3.225913580246913
+        "TestMemoryEfficientOpAuthoring": 3.2259135802469134
       },
       "functorch/test_minifier": {
         "TestMinifier": 0.7062258064516128
@@ -11327,7 +11327,7 @@
         "TestVmapDeviceTypeCPU": 0.5453222222222222,
         "TestVmapDeviceTypeCUDA": 0.031537037037037044,
         "TestVmapNestedTensorCPU": 0.7289666666666668,
-        "TestVmapNestedTensorCUDA": 0.0875740740740741,
+        "TestVmapNestedTensorCUDA": 0.08757407407407408,
         "TestVmapOperators": 135.6477096774194,
         "TestVmapOperatorsOpInfoCPU": 549.3262333333322,
         "TestVmapOperatorsOpInfoCUDA": 451.19616666666576
@@ -11378,7 +11378,7 @@
       "inductor/test_compiled_optimizers": {
         "CompiledOptimizerParityTestsCPU": 551.0065000000001,
         "CompiledOptimizerParityTestsCUDA": 301.7323333333333,
-        "CompiledOptimizerTests": 493.928878787879
+        "CompiledOptimizerTests": 493.92887878787894
       },
       "inductor/test_config": {
         "TestInductorConfig": 7.408348484848483
@@ -11415,7 +11415,7 @@
         "CudaGraphTreeTests": 105.00794444444448
       },
       "inductor/test_custom_lowering": {
-        "TestCustomLowering": 0.4573257575757575
+        "TestCustomLowering": 0.4573257575757576
       },
       "inductor/test_custom_post_grad_passes": {
         "TestPostGradCustomPrePostPass": 14.067103174603172
@@ -11446,7 +11446,7 @@
         "TestFlexAttention": 28.318916666666667
       },
       "inductor/test_foreach": {
-        "ForeachTests": 51.872651515151574
+        "ForeachTests": 51.87265151515157
       },
       "inductor/test_fp8": {
         "TestFP8Types": 0.007888888888888891
@@ -11578,12 +11578,12 @@
         "TritonCodeGenTests": 25.591694444444443
       },
       "inductor/test_torchinductor_codegen_dynamic_shapes": {
-        "DynamicShapesCodegenCpuTests": 1761.118628787878,
+        "DynamicShapesCodegenCpuTests": 1761.1186287878782,
         "DynamicShapesCodegenGPUTests": 860.6675000000001
       },
       "inductor/test_torchinductor_dynamic_shapes": {
         "DynamicShapesCpuTests": 1853.857182539682,
-        "DynamicShapesGPUTests": 1321.7338333333332,
+        "DynamicShapesGPUTests": 1321.7338333333335,
         "TestInductorDynamicCPU": 0.032500000000000015,
         "TestInductorDynamicCUDA": 27.95025
       },
@@ -11739,8 +11739,8 @@
         "TestDynamoExportDecompSkip": 2.9675
       },
       "onnx/test_fx_to_onnx_with_onnxruntime": {
-        "TORCH_EXPORT_EXPORTEDPROGRAM": 283.85850000000005,
-        "TORCH_NN_MODULE": 314.50649999999996
+        "TORCH_EXPORT_EXPORTEDPROGRAM": 283.85849999999994,
+        "TORCH_NN_MODULE": 314.5065
       },
       "onnx/test_fx_type_promotion": {
         "TestGeneratedTypePromotionRuleSet": 0.053500000000000006
@@ -11875,7 +11875,7 @@
         "TestDataFlow": 1.1810268817204297,
         "TestIdentifyGradients": 0.2804032258064516,
         "TestMemoryProfiler": 0.3244784946236559,
-        "TestMemoryProfilerE2E": 3.3403279569892472
+        "TestMemoryProfilerE2E": 3.340327956989247
       },
       "profiler/test_profiler": {
         "TestExperimentalUtils": 8.69605376344086,
@@ -12072,7 +12072,7 @@
         "DecompOneOffTestsCPU": 0.6010555555555556,
         "DecompOneOffTestsCUDA": 0.048037037037037045,
         "HasDecompTest": 0.2266774193548387,
-        "TestDecompCPU": 2585.576000000002,
+        "TestDecompCPU": 2585.5760000000023,
         "TestDecompCUDA": 11699.426425925934
       },
       "test_deploy": {
@@ -12206,7 +12206,7 @@
         "TestCustomOperators": 0.1323118279569893,
         "TestDCE": 0.02395698924731183,
         "TestDataParallel": 0.007983870967741937,
-        "TestDataclasses": 6.047284946236558,
+        "TestDataclasses": 6.04728494623656,
         "TestDeviceAnalysis": 4.313650537634408,
         "TestDict": 0.42539784946236575,
         "TestDtypeAnalysis": 0.8862258064516131,
@@ -12362,7 +12362,7 @@
         "TestPythonIr": 0.02843333333333333,
         "TestRecursiveScript": 0.8697666666666668,
         "TestRemoveMutation": 0.15530000000000002,
-        "TestSaveLoad": 8.709999999999997,
+        "TestSaveLoad": 8.709999999999999,
         "TestSaveLoadFlatbuffer": 0.5466,
         "TestSaveLoadForOpVersion": 2.7609,
         "TestScript": 50.04413333333338,
@@ -12372,7 +12372,7 @@
         "TestScriptProfile": 0.4989333333333333,
         "TestSlice": 0.1789000000000001,
         "TestSparse": 0.05233333333333333,
-        "TestStringFormatting": 0.13980000000000006,
+        "TestStringFormatting": 0.13980000000000004,
         "TestSymbolicShapeAnalysis": 1.4969999999999994,
         "TestTensorBuiltins": 0.11220000000000001,
         "TestTensorCreationOps": 0.0529,
@@ -12435,7 +12435,7 @@
         "TestMixedDtypesLinearCudaCUDA": 0.1730185185185185
       },
       "test_meta": {
-        "TestMetaCPU": 830.3173444443875,
+        "TestMetaCPU": 830.3173444443873,
         "TestMetaCUDA": 2890.086222222153,
         "TestMetaConverter": 0.8619569892473119
       },
@@ -12540,7 +12540,7 @@
         "TestFusionUtils": 0.0612741935483871,
         "TestNN": 71.35424731182799,
         "TestNNDeviceTypeCPU": 237.4754777777781,
-        "TestNNDeviceTypeCUDA": 171.83831481481482,
+        "TestNNDeviceTypeCUDA": 171.8383148148148,
         "TestUtils": 0.00659677419354839
       },
       "test_numba_integration": {
@@ -12559,13 +12559,13 @@
         "TestCompositeComplianceCPU": 589.6944777777753,
         "TestCompositeComplianceCUDA": 958.8522777777748,
         "TestFakeTensorCPU": 217.5189888888894,
-        "TestFakeTensorCUDA": 1002.4140138888873,
+        "TestFakeTensorCUDA": 1002.4140138888874,
         "TestMathBitsCPU": 38.04909999999996,
         "TestMathBitsCUDA": 118.73854166666676,
         "TestRefsOpsInfoCPU": 1.4910333333333303,
         "TestSelfKwarg": 0.20534313725490197,
         "TestTagsCPU": 9.700922222222195,
-        "TestTagsCUDA": 3.4653611111111062
+        "TestTagsCUDA": 3.4653611111111053
       },
       "test_ops_fwd_gradients": {
         "TestFwdGradientsCPU": 586.625966666668,
@@ -12584,7 +12584,7 @@
         "TestLRScheduler": 2.7079354838709664,
         "TestOptimRenewedCPU": 116.2933333333334,
         "TestOptimRenewedCUDA": 295.9319166666664,
-        "TestOptimRenewedMPS": 120.79500000000043,
+        "TestOptimRenewedMPS": 120.79500000000046,
         "TestSWAUtils": 3.503010752688172
       },
       "test_out_dtype_op": {
@@ -12678,7 +12678,7 @@
         "TestComparatorOps": 3.9754408602150533,
         "TestDeprecatedJitQuantized": 3.7853118279569897,
         "TestDistributed": 0.1296827956989247,
-        "TestDuplicateDQPass": 3.7706881720430108,
+        "TestDuplicateDQPass": 3.770688172043011,
         "TestDynamicQuantizedModule": 48.8175,
         "TestDynamicQuantizedOps": 62.161032258064516,
         "TestEqualizeEager": 0.8247580645161289,
@@ -12687,7 +12687,7 @@
         "TestFXGraphMatcherModels": 8.756279569892472,
         "TestFXNumericSuiteCoreAPIs": 37.01373655913978,
         "TestFXNumericSuiteCoreAPIsModels": 41.41212365591397,
-        "TestFXNumericSuiteNShadows": 41.16852150537634,
+        "TestFXNumericSuiteNShadows": 41.16852150537633,
         "TestFakeQuantize": 0.7559569892473117,
         "TestFakeQuantizeOps": 11.994005376344086,
         "TestFloat8DtypeCPU": 1.0527555555555554,
@@ -12700,7 +12700,7 @@
         "TestFusionPasses": 0.04108602150537634,
         "TestFxDetectInputWeightEqualization": 0.43855376344086017,
         "TestFxDetectOutliers": 1.292725806451613,
-        "TestFxModelReportClass": 1.3407526881720433,
+        "TestFxModelReportClass": 1.340752688172043,
         "TestFxModelReportDetectDynamicStatic": 0.14717741935483875,
         "TestFxModelReportDetector": 0.5335967741935482,
         "TestFxModelReportObserver": 0.6433440860215055,
@@ -12715,7 +12715,7 @@
         "TestPT2ERepresentation": 30.34320430107527,
         "TestPadding": 20.556112903225806,
         "TestQNNPackOps": 5.089397849462366,
-        "TestQuantizationDocs": 0.2642956989247312,
+        "TestQuantizationDocs": 0.2642956989247311,
         "TestQuantizeDynamicJitOps": 2.4417258064516134,
         "TestQuantizeDynamicJitPasses": 5.561037634408603,
         "TestQuantizeEagerOps": 2.7574999999999994,
@@ -12728,7 +12728,7 @@
         "TestQuantizeFxOps": 246.25955376344086,
         "TestQuantizeJit": 22.97959677419355,
         "TestQuantizeJitOps": 266.47437634408595,
-        "TestQuantizeJitPasses": 8.744456989247315,
+        "TestQuantizeJitPasses": 8.744456989247313,
         "TestQuantizePT2E": 63.725225806451604,
         "TestQuantizePT2EQATModels": 0.005118279569892474,
         "TestQuantizePT2EQAT_ConvBn1d": 450.8974784946236,
@@ -12895,7 +12895,7 @@
         "TestDevicePrecisionCUDA": 7.6295416666666656,
         "TestTorch": 26.65156372549018,
         "TestTorchDeviceTypeCPU": 61.53247777777776,
-        "TestTorchDeviceTypeCUDA": 559.6087777777776,
+        "TestTorchDeviceTypeCUDA": 559.6087777777777,
         "TestVitalSignsCudaCPU": 0.0037666666666666677,
         "TestVitalSignsCudaCUDA": 0.05934722222222222
       },
@@ -13020,7 +13020,7 @@
         "TestChoose": 0.04241358024691358,
         "TestClip": 0.016024691358024697,
         "TestCompress": 0.015061728395061733,
-        "TestConversion": 0.044086419753086414,
+        "TestConversion": 0.04408641975308641,
         "TestCreation": 0.003882716049382718,
         "TestDelMisc": 0.0025925925925925934,
         "TestDot": 0.1359320987654321,
@@ -13158,7 +13158,7 @@
       },
       "torch_np/numpy_tests/lib/test_arraysetops": {
         "TestSetOps": 0.005430107526881722,
-        "TestUnique": 0.9648118279569893
+        "TestUnique": 0.9648118279569892
       },
       "torch_np/numpy_tests/lib/test_function_base": {
         "TestAll": 0.012333333333333339,
@@ -13238,7 +13238,7 @@
         "TestVsplit": 0.018634408602150532
       },
       "torch_np/numpy_tests/lib/test_twodim_base": {
-        "TestDiag": 0.11979032258064518,
+        "TestDiag": 0.11979032258064519,
         "TestEye": 0.4876075268817205,
         "TestFliplr": 0.007666666666666671,
         "TestFlipud": 0.011370967741935484,
@@ -13280,7 +13280,7 @@
         "TestEigvalshCases": 0.00010215053763440861,
         "TestInv": 0.10995161290322583,
         "TestLstsq": 0.6632311827956989,
-        "TestMatrixRank": 0.4375483870967741,
+        "TestMatrixRank": 0.43754838709677424,
         "TestMisc": 0.05138172043010751,
         "TestMisc2": 0.009645161290322581,
         "TestMultiDot": 0.1290215053763441,
@@ -13321,7 +13321,7 @@
         "TestBinaryUfuncBasic": 0.6681666666666667
       },
       "torch_np/test_dtype": {
-        "TestConvertDType": 0.5258709677419355
+        "TestConvertDType": 0.5258709677419354
       },
       "torch_np/test_function_base": {
         "TestAppend": 0.373505376344086
@@ -13515,10 +13515,10 @@
         "TestShardParameter": 5.153722222222223,
         "TestShardTensor": 7.733499999999999,
         "TestShardedTensorChunked": 56.82366666666667,
-        "TestShardedTensorCustomOps": 7.728833333333334,
+        "TestShardedTensorCustomOps": 7.728833333333333,
         "TestShardedTensorEnumerable": 36.24411111111112,
         "TestShardedTensorFromLocalShards": 27.709333333333333,
-        "TestShardedTensorFromLocalTensor": 5.191666666666667,
+        "TestShardedTensorFromLocalTensor": 5.191666666666666,
         "TestShardedTensorMetadata": 0.3324444444444445,
         "TestShardedTensorSubGroupInit": 0.021500000000000002
       },
@@ -13533,7 +13533,7 @@
         "TestShardingSpec": 0.060083333333333336
       },
       "distributed/_shard/test_sharder": {
-        "TestCustomSharder": 6.525125000000001
+        "TestCustomSharder": 6.525125
       },
       "distributed/_tensor/debug/test_comm_mode": {
         "TestCommMode": 5.069541666666666
@@ -13654,13 +13654,13 @@
         "TestFineTuning": 3.255125
       },
       "distributed/checkpoint/e2e/test_fsdp_ep": {
-        "TestFSDPWithEP": 3.314875
+        "TestFSDPWithEP": 3.3148750000000002
       },
       "distributed/checkpoint/e2e/test_pipeline": {
         "TestPipeline": 4.04625
       },
       "distributed/checkpoint/fsdp/test_fsdp_dsd": {
-        "TestFullyShardWithDistributedStateDict": 20.874166666666664
+        "TestFullyShardWithDistributedStateDict": 20.874166666666667
       },
       "distributed/checkpoint/test_checkpoint": {
         "TestDistributedCheckpointing": 7.814666666666666,
@@ -13931,7 +13931,7 @@
         "MicrobatchTests": 0.758
       },
       "distributed/pipelining/test_pipe": {
-        "PipeTests": 1.1803333333333335
+        "PipeTests": 1.1803333333333332
       },
       "distributed/pipelining/test_schedule": {
         "ScheduleTest": 19.462777777777774,
@@ -14002,7 +14002,7 @@
       },
       "distributed/test_c10d_common": {
         "CommTest": 3.7693,
-        "ComputeBucketAssignmentTest": 1.0973000000000002,
+        "ComputeBucketAssignmentTest": 1.0973,
         "LocalRankTest": 15.6709,
         "ProcessGroupWithDispatchedCollectivesTests": 7.503966666666668,
         "PythonProcessGroupExtensionTest": 29.505333333333333,
@@ -14070,7 +14070,7 @@
       },
       "distributed/test_c10d_ucc": {
         "CommTest": 30.109166666666667,
-        "CompilerTest": 47.37599999999999,
+        "CompilerTest": 47.376000000000005,
         "DistributedDataParallelTest": 144.9209166666667,
         "ProcessGroupUCCTest": 28.40116666666667,
         "RendezvousEnvTest": 0.3175,
@@ -16878,7 +16878,7 @@
         "TestFullyShardFrozen": 27.536888888888893
       },
       "distributed/_composable/fsdp/test_fully_shard_mixed_precision": {
-        "TestFullyShardMixedPrecisionTraining": 18.52644444444444
+        "TestFullyShardMixedPrecisionTraining": 18.526444444444447
       },
       "distributed/_composable/fsdp/test_fully_shard_training": {
         "TestFullyShard1DTrainingCompose": 2.325888888888889,
@@ -16912,7 +16912,7 @@
         "TestCollectivesMultiProc": 93.66977777777778
       },
       "inductor/test_aot_inductor": {
-        "AOTInductorTestABICompatibleCpu": 664.1774444444441,
+        "AOTInductorTestABICompatibleCpu": 664.1774444444442,
         "AOTInductorTestABICompatibleCpuWithStackAllocation": 462.29622222222207,
         "AOTInductorTestABICompatibleCpuWithStackAllocationAndMinimalArrayRefInterface": 205.51722222222222,
         "AOTInductorTestABICompatibleCuda": 1344.4945555555553,
@@ -16950,7 +16950,7 @@
         "TestBasicVitalSigns": 0.4076666666666666,
         "TestDevicePrecisionCUDA": 30.227666666666664,
         "TestTorch": 198.8561111111111,
-        "TestTorchDeviceTypeCUDA": 1666.2672222222216,
+        "TestTorchDeviceTypeCUDA": 1666.2672222222218,
         "TestVitalSignsCudaCUDA": 0.2313333333333333
       }
     },
@@ -17017,7 +17017,7 @@
       },
       "distributed/test_inductor_collectives": {
         "TestCollectivesInductor": 2.953666666666667,
-        "TestCollectivesMultiProc": 86.83200000000001
+        "TestCollectivesMultiProc": 86.832
       },
       "inductor/test_aot_inductor": {
         "AOTInductorTestABICompatibleCpu": 0.008,
@@ -17049,7 +17049,7 @@
         "TestBuiltins": 0.06979166666666667,
         "TestCUDA": 0.8685555555555555,
         "TestClassType": 2.523041666666667,
-        "TestComplex": 1.0010833333333333,
+        "TestComplex": 1.0010833333333335,
         "TestCustomOperators": 0.05029166666666669,
         "TestDCE": 0.022583333333333334,
         "TestDataParallel": 0.0055,
@@ -17100,7 +17100,7 @@
         "TestPythonIr": 0.02654166666666667,
         "TestRecursiveScript": 0.8084583333333335,
         "TestRemoveMutation": 0.146875,
-        "TestSaveLoad": 10.652249999999997,
+        "TestSaveLoad": 10.652249999999999,
         "TestSaveLoadFlatbuffer": 0.54775,
         "TestSaveLoadForOpVersion": 2.7196249999999997,
         "TestScript": 45.6941666666667,
@@ -17110,7 +17110,7 @@
         "TestScriptProfile": 0.4647916666666666,
         "TestSlice": 0.16812500000000008,
         "TestSparse": 0.05479166666666667,
-        "TestStringFormatting": 0.13125000000000006,
+        "TestStringFormatting": 0.13125000000000003,
         "TestSymbolicShapeAnalysis": 1.3642499999999997,
         "TestTensorBuiltins": 0.10812500000000001,
         "TestTensorCreationOps": 0.050125,
@@ -17791,7 +17791,7 @@
         "TestPartitioning": 1.2675555555555555
       },
       "functorch/test_control_flow": {
-        "TestControlFlow": 0.8580000000000002,
+        "TestControlFlow": 0.8580000000000001,
         "TestControlFlowTraced": 136.75683333333328
       },
       "functorch/test_dims": {
@@ -17840,7 +17840,7 @@
         "FreezingCpuTests": 46.55733333333333
       },
       "inductor/test_codecache": {
-        "TestFxGraphCache": 50.78788888888889,
+        "TestFxGraphCache": 50.78788888888888,
         "TestFxGraphCacheHashing": 0.9172777777777777,
         "TestUtils": 4.441722222222222,
         "test_codecache": 0.0003333333333333333
@@ -18526,7 +18526,7 @@
         "TestComparatorOps": 1.2455,
         "TestDeprecatedJitQuantized": 4.79,
         "TestDistributed": 0.028000000000000008,
-        "TestDuplicateDQPass": 3.2916666666666665,
+        "TestDuplicateDQPass": 3.2916666666666674,
         "TestDynamicQuantizedModule": 42.577555555555556,
         "TestDynamicQuantizedOps": 24.460111111111114,
         "TestEqualizeEager": 0.111,
@@ -18577,7 +18577,7 @@
         "TestQuantizePT2E": 54.31583333333333,
         "TestQuantizePT2EQATModels": 0.0026666666666666666,
         "TestQuantizePT2EQAT_ConvBn1d": 349.2487222222223,
-        "TestQuantizePT2EQAT_ConvBn2d": 351.6086111111111,
+        "TestQuantizePT2EQAT_ConvBn2d": 351.60861111111103,
         "TestQuantizePT2EX86Inductor": 92.96877777777776,
         "TestQuantizedConv": 51.54649999999999,
         "TestQuantizedEmbeddingOps": 0.9564444444444445,
@@ -18673,7 +18673,7 @@
         "TestTorch": 6.8957777777777665
       },
       "test_transformers": {
-        "TestSDPAPrivateUse1Only": 2.262666666666666
+        "TestSDPAPrivateUse1Only": 2.2626666666666666
       },
       "test_type_hints": {
         "TestTypeHints": 0.2922777777777778
@@ -18764,7 +18764,7 @@
         "TestBinop": 0.020444444444444446,
         "TestBool": 26.020388888888892,
         "TestCequenceMethods": 0.0027777777777777783,
-        "TestChoose": 0.01977777777777778,
+        "TestChoose": 0.019777777777777783,
         "TestClip": 0.0067777777777777775,
         "TestCompress": 0.005555555555555556,
         "TestConversion": 0.036555555555555556,
@@ -18919,7 +18919,7 @@
         "TestCopy": 0.009166666666666668,
         "TestCorrCoef": 0.056333333333333346,
         "TestCov": 0.07100000000000002,
-        "TestCumprod": 0.03394444444444445,
+        "TestCumprod": 0.033944444444444444,
         "TestCumsum": 0.044277777777777784,
         "TestDelete": 0.020444444444444442,
         "TestDiff": 0.08172222222222222,
@@ -18929,7 +18929,7 @@
         "TestFlip": 0.03572222222222223,
         "TestGradient": 0.157,
         "TestInsert": 0.012555555555555556,
-        "TestInterp": 0.05572222222222226,
+        "TestInterp": 0.055722222222222256,
         "TestKaiser": 0.011000000000000001,
         "TestMedian": 0.1156666666666667,
         "TestMeshgrid": 0.06094444444444445,
@@ -19138,7 +19138,7 @@
         "TestKL": 3.9909444444444433,
         "TestLazyLogitsInitialization": 0.01638888888888889,
         "TestNumericalStability": 0.09455555555555556,
-        "TestRsample": 0.8907222222222222,
+        "TestRsample": 0.8907222222222223,
         "TestValidation": 0.45761111111111114
       },
       "dynamo/test_activation_checkpointing": {
@@ -19280,7 +19280,7 @@
         "OptimizedModuleTest": 23.99972222222222
       },
       "dynamo/test_nops": {
-        "NopTests": 0.44688888888888884
+        "NopTests": 0.44688888888888895
       },
       "dynamo/test_optimizers": {
         "End2EndTests": 0.786888888888889
@@ -19433,7 +19433,7 @@
       },
       "functorch/test_dims": {
         "TestMin": 20.977833333333333,
-        "TestMinFunctorchOnly": 20.01922222222222
+        "TestMinFunctorchOnly": 20.019222222222222
       },
       "functorch/test_eager_transforms": {
         "TestMakeFunctional": 0.11883333333333335,
@@ -19627,7 +19627,7 @@
         "TestNNInit": 5.092555555555555
       },
       "nn/test_lazy_modules": {
-        "TestLazyModules": 0.48872222222222234
+        "TestLazyModules": 0.4887222222222225
       },
       "nn/test_load_state_dict": {
         "TestLoadStateDict": 0.832388888888889,
@@ -19646,7 +19646,7 @@
         "PackedSequenceTest": 0.5102222222222222
       },
       "nn/test_parametrization": {
-        "TestNNParametrization": 1.0528333333333335
+        "TestNNParametrization": 1.0528333333333337
       },
       "nn/test_pooling": {
         "TestAvgPool": 0.30844444444444447,
@@ -19919,7 +19919,7 @@
         "TestFunctionalToInplaceActivation": 2.7925555555555555,
         "TestGenerator": 0.07555555555555556,
         "TestGetDefaultAttr": 0.01738888888888889,
-        "TestGraphRewritePasses": 0.045444444444444454,
+        "TestGraphRewritePasses": 0.04544444444444445,
         "TestHash": 0.09427777777777778,
         "TestHooks": 0.810777777777778,
         "TestIgnorableArgs": 0.012222222222222223,
@@ -19970,7 +19970,7 @@
         "TestTensorCreationOps": 0.05044444444444444,
         "TestTensorMethods": 0.012333333333333335,
         "TestTorchbind": 0.14638888888888893,
-        "TestTracer": 2.90144444444444,
+        "TestTracer": 2.9014444444444405,
         "TestTypeSharing": 0.5011111111111113,
         "TestTypesAndAnnotation": 0.2567222222222223,
         "TestTyping": 0.41283333333333355,
@@ -20159,7 +20159,7 @@
         "TestAOMigrationQuantization": 0.024277777777777784,
         "TestAOMigrationQuantizationFx": 0.029222222222222222,
         "TestBackendConfig": 0.05533333333333335,
-        "TestBiasCorrectionEager": 1.3503888888888886,
+        "TestBiasCorrectionEager": 1.350388888888889,
         "TestComparatorOps": 1.2842222222222224,
         "TestDeprecatedJitQuantized": 4.542722222222221,
         "TestDistributed": 0.02638888888888889,
@@ -20210,10 +20210,10 @@
         "TestQuantizeFxOps": 160.84116666666668,
         "TestQuantizeJit": 23.227499999999996,
         "TestQuantizeJitOps": 260.93622222222217,
-        "TestQuantizeJitPasses": 6.550555555555557,
+        "TestQuantizeJitPasses": 6.5505555555555555,
         "TestQuantizePT2E": 56.34872222222222,
         "TestQuantizePT2EQATModels": 0.0026666666666666666,
-        "TestQuantizePT2EQAT_ConvBn1d": 360.33083333333326,
+        "TestQuantizePT2EQAT_ConvBn1d": 360.3308333333334,
         "TestQuantizePT2EQAT_ConvBn2d": 362.5843888888889,
         "TestQuantizePT2EX86Inductor": 96.35183333333335,
         "TestQuantizedConv": 49.58544444444444,
@@ -20226,7 +20226,7 @@
         "TestReferenceQuantizedModule": 0.050555555555555555,
         "TestSerialization": 1.783388888888889,
         "TestStaticQuantizedModule": 109.118,
-        "TestSubgraphRewriter": 1.1831111111111112,
+        "TestSubgraphRewriter": 1.1831111111111114,
         "TestUtils": 0.022222222222222227,
         "TestXNNPACKQuantizer": 46.50922222222223,
         "TestXNNPACKQuantizerModels": 3.9154999999999998
@@ -20394,7 +20394,7 @@
         "TestArgmaxArgminCommon": 0.06933333333333336,
         "TestArgmin": 1.2262777777777785,
         "TestArrayAttributeDeletion": 0.008833333333333334,
-        "TestArrayConstruction": 0.0473888888888889,
+        "TestArrayConstruction": 0.047388888888888904,
         "TestArrayCreationCopyArgument": 0.0003333333333333333,
         "TestAssignment": 0.011833333333333335,
         "TestAttributes": 0.028500000000000008,
@@ -20422,7 +20422,7 @@
         "TestMatmulOperator": 0.3177222222222223,
         "TestMethods": 1.5294444444444448,
         "TestMinMax": 0.006666666666666667,
-        "TestMinScalarType": 0.007,
+        "TestMinScalarType": 0.006999999999999999,
         "TestNewaxis": 0.004111111111111111,
         "TestPEP3118Dtype": 0.0,
         "TestPutmask": 0.013444444444444445,
@@ -20662,7 +20662,7 @@
         "TestEigvals": 0.09855555555555558,
         "TestEigvalsh": 0.028222222222222232,
         "TestEigvalshCases": 0.0,
-        "TestInv": 0.05711111111111112,
+        "TestInv": 0.05711111111111113,
         "TestLstsq": 0.2286111111111111,
         "TestMatrixRank": 0.4240555555555556,
         "TestMisc": 0.025277777777777774,
@@ -22027,7 +22027,7 @@
         "TestMinifier": 0.8025
       },
       "functorch/test_ops": {
-        "TestOperatorsCUDA": 7446.009999999995
+        "TestOperatorsCUDA": 7446.009999999997
       },
       "functorch/test_parsing": {
         "TestAnonymousAxis": 0.4245,
@@ -22182,7 +22182,7 @@
       },
       "inductor/test_torchinductor": {
         "CpuTests": 2912.259,
-        "SweepInputsCpuTest": 248.311,
+        "SweepInputsCpuTest": 248.31099999999998,
         "TestFull": 21.109
       },
       "inductor/test_torchinductor_codegen_dynamic_shapes": {
@@ -22922,20 +22922,20 @@
         "TestEqualizeFx": 6.227,
         "TestFXGraphMatcher": 2.3265,
         "TestFXGraphMatcherModels": 17.056,
-        "TestFXNumericSuiteCoreAPIs": 47.71549999999999,
-        "TestFXNumericSuiteCoreAPIsModels": 67.3405,
+        "TestFXNumericSuiteCoreAPIs": 47.715500000000006,
+        "TestFXNumericSuiteCoreAPIsModels": 67.34049999999999,
         "TestFXNumericSuiteNShadows": 58.287000000000006,
         "TestFakeQuantize": 0.4645,
         "TestFakeQuantizeOps": 38.539500000000004,
         "TestFloat8DtypeCUDA": 0.6980000000000001,
-        "TestFuseEager": 4.3145,
+        "TestFuseEager": 4.314500000000001,
         "TestFuseFx": 3.2874999999999996,
-        "TestFusedObsFakeQuant": 0.443,
+        "TestFusedObsFakeQuant": 0.44299999999999995,
         "TestFusedObsFakeQuantModule": 0.5075000000000001,
         "TestFusionPasses": 0.033,
-        "TestFxDetectInputWeightEqualization": 0.304,
+        "TestFxDetectInputWeightEqualization": 0.30400000000000005,
         "TestFxDetectOutliers": 0.41550000000000004,
-        "TestFxModelReportClass": 0.8170000000000001,
+        "TestFxModelReportClass": 0.817,
         "TestFxModelReportDetectDynamicStatic": 0.10400000000000001,
         "TestFxModelReportDetector": 0.32549999999999996,
         "TestFxModelReportObserver": 0.35950000000000004,
@@ -22947,18 +22947,18 @@
         "TestModelNumericsEager": 0.8925000000000001,
         "TestNumericSuiteEager": 11.51,
         "TestObserver": 6.208499999999999,
-        "TestPT2ERepresentation": 49.777499999999996,
+        "TestPT2ERepresentation": 49.7775,
         "TestPadding": 16.212,
         "TestQNNPackOps": 4.1080000000000005,
         "TestQuantizationDocs": 0.28350000000000003,
         "TestQuantizeDynamicJitOps": 3.0755,
-        "TestQuantizeDynamicJitPasses": 7.446499999999999,
+        "TestQuantizeDynamicJitPasses": 7.4465,
         "TestQuantizeEagerOps": 2.7285,
         "TestQuantizeEagerPTQDynamic": 12.000499999999999,
         "TestQuantizeEagerPTQStatic": 37.32599999999999,
         "TestQuantizeEagerQAT": 11.9235,
         "TestQuantizeEagerQATNumerics": 3.2065,
-        "TestQuantizeFx": 46.097,
+        "TestQuantizeFx": 46.096999999999994,
         "TestQuantizeFxModels": 17.13,
         "TestQuantizeFxOps": 173.444,
         "TestQuantizeJit": 34.4195,
@@ -22970,8 +22970,8 @@
         "TestQuantizePT2EQAT_ConvBn1d": 1318.701,
         "TestQuantizePT2EQAT_ConvBn2d": 1323.6335,
         "TestQuantizePT2EX86Inductor": 276.954,
-        "TestQuantizedConv": 50.63549999999999,
-        "TestQuantizedEmbeddingOps": 1.1375000000000002,
+        "TestQuantizedConv": 50.6355,
+        "TestQuantizedEmbeddingOps": 1.1375,
         "TestQuantizedFunctionalOps": 1.841,
         "TestQuantizedLinear": 21.759,
         "TestQuantizedOps": 136.9125,
@@ -23688,7 +23688,7 @@
       },
       "distributed/_composable/test_replicate_with_compiler": {
         "DDP_TP_Test": 0.001,
-        "ReplicateTest": 76.34166666666667
+        "ReplicateTest": 76.34166666666665
       },
       "distributed/_shard/sharded_optim/test_sharded_optim": {
         "TestShardedOptimizer": 7.961333333333333
@@ -23720,10 +23720,10 @@
         "TestShardParameter": 7.729666666666667,
         "TestShardTensor": 11.607999999999999,
         "TestShardedTensorChunked": 85.306,
-        "TestShardedTensorCustomOps": 11.542000000000002,
+        "TestShardedTensorCustomOps": 11.542,
         "TestShardedTensorEnumerable": 54.42933333333334,
         "TestShardedTensorFromLocalShards": 38.775,
-        "TestShardedTensorFromLocalTensor": 7.795000000000001,
+        "TestShardedTensorFromLocalTensor": 7.794999999999999,
         "TestShardedTensorMetadata": 0.35333333333333333,
         "TestShardedTensorSubGroupInit": 0.024000000000000004
       },
@@ -23738,7 +23738,7 @@
         "TestShardingSpec": 0.044333333333333336
       },
       "distributed/_shard/test_sharder": {
-        "TestCustomSharder": 8.027000000000001
+        "TestCustomSharder": 8.027
       },
       "distributed/_tensor/debug/test_comm_mode": {
         "TestCommMode": 0.4336666666666667
@@ -23770,7 +23770,7 @@
       "distributed/_tensor/test_dtensor": {
         "DTensorMeshTest": 41.482,
         "DTensorTest": 86.77533333333334,
-        "TestDTensorPlacementTypes": 4.117666666666667
+        "TestDTensorPlacementTypes": 4.1176666666666675
       },
       "distributed/_tensor/test_dtensor_compile": {
         "TestDTensorCompile": 2.605333333333333,
@@ -23784,13 +23784,13 @@
       },
       "distributed/_tensor/test_init": {
         "DTensorConstructorTest": 23.317666666666668,
-        "DTensorInitOpsTest": 4.832666666666667
+        "DTensorInitOpsTest": 4.832666666666666
       },
       "distributed/_tensor/test_math_ops": {
         "DistMathOpsTest": 51.28466666666667
       },
       "distributed/_tensor/test_matrix_ops": {
-        "DistMatrixOpsTest": 41.44566666666667
+        "DistMatrixOpsTest": 41.44566666666666
       },
       "distributed/_tensor/test_op_strategy": {
         "TestCostModel": 0.105,
@@ -23815,7 +23815,7 @@
         "DistTensorOpsTest": 109.45300000000005
       },
       "distributed/_tensor/test_utils": {
-        "Test2DStridedLocalShard": 7.894333333333333,
+        "Test2DStridedLocalShard": 7.894333333333335,
         "UtilTest": 14.999
       },
       "distributed/_tensor/test_view_ops": {
@@ -23856,13 +23856,13 @@
         "TestFineTuning": 3.9250000000000003
       },
       "distributed/checkpoint/e2e/test_fsdp_ep": {
-        "TestFSDPWithEP": 3.9249999999999994
+        "TestFSDPWithEP": 3.9250000000000003
       },
       "distributed/checkpoint/e2e/test_pipeline": {
         "TestPipeline": 4.817
       },
       "distributed/checkpoint/fsdp/test_fsdp_dsd": {
-        "TestFullyShardWithDistributedStateDict": 15.609666666666664
+        "TestFullyShardWithDistributedStateDict": 15.609666666666667
       },
       "distributed/checkpoint/test_checkpoint": {
         "TestDistributedCheckpointing": 9.390666666666666,
@@ -24006,7 +24006,7 @@
         "TestParityWithDDP": 857.8933333333334
       },
       "distributed/fsdp/test_fsdp_dtensor_state_dict": {
-        "TestFSDPWithDeviceMeshAndDTensor": 71.77466666666668
+        "TestFSDPWithDeviceMeshAndDTensor": 71.77466666666666
       },
       "distributed/fsdp/test_fsdp_exec_order": {
         "TestFSDPExecOrder": 37.50866666666667
@@ -24024,10 +24024,10 @@
         "TestSymbolicTracing": 0.3263333333333333
       },
       "distributed/fsdp/test_fsdp_grad_acc": {
-        "TestGradAcc": 43.17366666666666
+        "TestGradAcc": 43.17366666666667
       },
       "distributed/fsdp/test_fsdp_hybrid_shard": {
-        "TestFSDPHybridShard": 47.852000000000004
+        "TestFSDPHybridShard": 47.852
       },
       "distributed/fsdp/test_fsdp_ignored_modules": {
         "TestFSDPIgnoredModules": 62.471666666666664
@@ -24098,11 +24098,11 @@
         "TestFSDPUseOrigParamsNoSync": 9.825000000000001,
         "TestFSDPUseOrigParamsParamAccess": 5.013,
         "TestFSDPUseOrigParamsUnshardReshard": 25.858999999999998,
-        "TestFSDPUseOrigParamsWriteback": 24.49566666666667,
+        "TestFSDPUseOrigParamsWriteback": 24.495666666666665,
         "TestMultiTensorApply": 0.09566666666666668
       },
       "distributed/fsdp/test_hsdp_dtensor_state_dict": {
-        "TestHSDPWithDeviceMeshAndDTensor": 29.269000000000002
+        "TestHSDPWithDeviceMeshAndDTensor": 29.268999999999995
       },
       "distributed/fsdp/test_shard_utils": {
         "TestShardUtilsDistributed": 4.927666666666667,
@@ -24133,7 +24133,7 @@
         "MicrobatchTests": 0.7760000000000001
       },
       "distributed/pipelining/test_pipe": {
-        "PipeTests": 1.3103333333333333
+        "PipeTests": 1.3103333333333331
       },
       "distributed/pipelining/test_schedule": {
         "ScheduleTest": 6.7573333333333325,
@@ -24157,7 +24157,7 @@
         "TensorPipeTensorPipeCudaDistAutogradTest": 13.901333333333332
       },
       "distributed/rpc/test_share_memory": {
-        "TestRPCPickler": 4.353
+        "TestRPCPickler": 4.353000000000001
       },
       "distributed/tensor/parallel/test_ddp_2d_parallel": {
         "Test2dParallelIntegration": 3.7453333333333334
@@ -24184,7 +24184,7 @@
       },
       "distributed/test_c10d_common": {
         "CommTest": 3.882333333333333,
-        "ComputeBucketAssignmentTest": 1.2006666666666668,
+        "ComputeBucketAssignmentTest": 1.2006666666666665,
         "LocalRankTest": 16.057,
         "ProcessGroupWithDispatchedCollectivesTests": 7.8276666666666666,
         "PythonProcessGroupExtensionTest": 29.72333333333333,
@@ -24207,7 +24207,7 @@
         "TimeoutTest": 3.3563333333333336
       },
       "distributed/test_c10d_logger": {
-        "C10dErrorLoggerTest": 17.950666666666667
+        "C10dErrorLoggerTest": 17.950666666666663
       },
       "distributed/test_c10d_nccl": {
         "CommTest": 96.07100000000001,
@@ -24249,7 +24249,7 @@
       },
       "distributed/test_c10d_ucc": {
         "CommTest": 30.14833333333333,
-        "CompilerTest": 47.44899999999999,
+        "CompilerTest": 47.449000000000005,
         "DistributedDataParallelTest": 146.74933333333337,
         "ProcessGroupUCCTest": 28.42833333333333,
         "RendezvousEnvTest": 0.324,
@@ -24271,7 +24271,7 @@
       },
       "distributed/test_device_mesh": {
         "DeviceMeshCollectiveTest": 25.478000000000005,
-        "DeviceMeshTest": 47.273666666666664,
+        "DeviceMeshTest": 47.27366666666668,
         "DeviceMeshTestNDim": 21.724666666666668,
         "InitDeviceMeshTest": 12.789000000000001,
         "TestDeviceMeshGetItem": 25.610666666666674,
@@ -24316,7 +24316,7 @@
       },
       "distributed/test_pg_wrapper": {
         "ProcessGroupGlooWrapperTest": 39.94733333333333,
-        "ProcessGroupNCCLWrapperTest": 41.899
+        "ProcessGroupNCCLWrapperTest": 41.898999999999994
       },
       "distributed/test_store": {
         "FileStoreTest": 3.475,
@@ -27266,7 +27266,7 @@
         "TestMinifier": 0.558
       },
       "functorch/test_ops": {
-        "TestOperatorsCUDA": 5260.227000000015
+        "TestOperatorsCUDA": 5260.227000000014
       },
       "functorch/test_parsing": {
         "TestAnonymousAxis": 0.2925,
@@ -28048,12 +28048,12 @@
         "TestOpenMP_ParallelFor": 4.8155
       },
       "test_ops": {
-        "TestCommonCUDA": 3800.311499999962,
+        "TestCommonCUDA": 3800.3114999999625,
         "TestCompositeComplianceCUDA": 1017.818499999998,
-        "TestFakeTensorCUDA": 1123.1924999999997,
+        "TestFakeTensorCUDA": 1123.1924999999999,
         "TestMathBitsCUDA": 152.80000000000004,
         "TestSelfKwarg": 0.0245,
-        "TestTagsCUDA": 3.1045000000000025
+        "TestTagsCUDA": 3.104500000000002
       },
       "test_ops_fwd_gradients": {
         "TestFwdGradientsCUDA": 1239.032999999993
@@ -28148,7 +28148,7 @@
       "test_quantization": {
         "TestAOMigrationNNIntrinsic": 0.022,
         "TestAOMigrationNNQuantized": 0.0585,
-        "TestAOMigrationQuantization": 0.027500000000000004,
+        "TestAOMigrationQuantization": 0.0275,
         "TestAOMigrationQuantizationFx": 0.033,
         "TestBackendConfig": 0.0455,
         "TestBiasCorrectionEager": 0.8925000000000001,
@@ -28156,7 +28156,7 @@
         "TestBitsCUDA": 0.049499999999999995,
         "TestComparatorOps": 1.3485,
         "TestDeprecatedJitQuantized": 2.542,
-        "TestDistributed": 0.026,
+        "TestDistributed": 0.026000000000000002,
         "TestDuplicateDQPass": 3.984,
         "TestDynamicQuantizedModule": 25.7845,
         "TestDynamicQuantizedOps": 11.3735,
@@ -28165,13 +28165,13 @@
         "TestFXGraphMatcher": 2.395,
         "TestFXGraphMatcherModels": 10.2665,
         "TestFXNumericSuiteCoreAPIs": 33.057,
-        "TestFXNumericSuiteCoreAPIsModels": 44.5345,
+        "TestFXNumericSuiteCoreAPIsModels": 44.534499999999994,
         "TestFXNumericSuiteNShadows": 40.70400000000001,
         "TestFakeQuantize": 0.3435,
-        "TestFakeQuantizeOps": 30.352500000000006,
+        "TestFakeQuantizeOps": 30.352500000000003,
         "TestFloat8DtypeCUDA": 0.404,
         "TestFuseEager": 2.734,
-        "TestFuseFx": 2.4354999999999998,
+        "TestFuseFx": 2.4354999999999993,
         "TestFusedObsFakeQuant": 0.3015,
         "TestFusedObsFakeQuantModule": 0.29300000000000004,
         "TestFusionPasses": 0.0235,
@@ -28184,10 +28184,10 @@
         "TestFxModelReportVisualizer": 0.2455,
         "TestGenerateNumericDebugHandle": 0.822,
         "TestGraphUtils": 1.646,
-        "TestHistogramObserver": 40.67399999999999,
+        "TestHistogramObserver": 40.674,
         "TestMetaDataPorting": 8.742,
         "TestModelNumericsEager": 0.6965000000000001,
-        "TestNumericSuiteEager": 7.968999999999999,
+        "TestNumericSuiteEager": 7.969,
         "TestObserver": 4.288,
         "TestPT2ERepresentation": 35.108000000000004,
         "TestPadding": 11.1165,
@@ -28198,10 +28198,10 @@
         "TestQuantizeEagerOps": 1.7854999999999999,
         "TestQuantizeEagerPTQDynamic": 8.4285,
         "TestQuantizeEagerPTQStatic": 30.8035,
-        "TestQuantizeEagerQAT": 7.871500000000001,
+        "TestQuantizeEagerQAT": 7.8715,
         "TestQuantizeEagerQATNumerics": 2.1285,
         "TestQuantizeFx": 30.847999999999995,
-        "TestQuantizeFxModels": 12.085999999999999,
+        "TestQuantizeFxModels": 12.086,
         "TestQuantizeFxOps": 298.9,
         "TestQuantizeJit": 22.9625,
         "TestQuantizeJitOps": 255.61999999999998,
@@ -28212,16 +28212,16 @@
         "TestQuantizePT2EQAT_ConvBn1d": 903.085,
         "TestQuantizePT2EQAT_ConvBn2d": 897.6655000000001,
         "TestQuantizePT2EX86Inductor": 185.48450000000003,
-        "TestQuantizedConv": 34.3415,
+        "TestQuantizedConv": 34.341499999999996,
         "TestQuantizedEmbeddingOps": 0.8125,
         "TestQuantizedFunctionalOps": 1.2145,
         "TestQuantizedLinear": 14.7625,
-        "TestQuantizedOps": 93.5405,
+        "TestQuantizedOps": 93.54050000000001,
         "TestQuantizedTensor": 3.1985,
         "TestRecordHistogramObserver": 0.033,
         "TestReferenceQuantizedModule": 0.048,
         "TestSerialization": 1.4675,
-        "TestStaticQuantizedModule": 107.28649999999999,
+        "TestStaticQuantizedModule": 107.2865,
         "TestSubgraphRewriter": 0.959,
         "TestUtils": 0.0195,
         "TestXNNPACKQuantizer": 55.7585,
@@ -32840,7 +32840,7 @@
         "DynamicShapesCodegenCpuTests": 1875.999499999999
       },
       "inductor/test_torchinductor_dynamic_shapes": {
-        "DynamicShapesCpuTests": 1994.5814999999998,
+        "DynamicShapesCpuTests": 1994.5814999999996,
         "TestInductorDynamicCUDA": 0.07450000000000002
       },
       "inductor/test_torchinductor_opinfo": {
@@ -33445,9 +33445,9 @@
       },
       "test_ops": {
         "TestCommonCUDA": 3731.5674999999665,
-        "TestCompositeComplianceCUDA": 1029.725999999998,
+        "TestCompositeComplianceCUDA": 1029.7259999999983,
         "TestFakeTensorCUDA": 1126.5304999999994,
-        "TestMathBitsCUDA": 118.76550000000003,
+        "TestMathBitsCUDA": 118.76550000000005,
         "TestSelfKwarg": 0.0225,
         "TestTagsCUDA": 3.1190000000000024
       },
@@ -33547,25 +33547,25 @@
         "TestAOMigrationQuantizationFx": 0.0245,
         "TestBackendConfig": 0.0465,
         "TestBiasCorrectionEager": 0.8175000000000001,
-        "TestBitsCUDA": 0.042,
+        "TestBitsCUDA": 0.041999999999999996,
         "TestComparatorOps": 1.225,
-        "TestDeprecatedJitQuantized": 2.5949999999999998,
-        "TestDistributed": 0.025,
+        "TestDeprecatedJitQuantized": 2.595,
+        "TestDistributed": 0.024999999999999998,
         "TestDuplicateDQPass": 3.848,
-        "TestDynamicQuantizedModule": 23.7935,
+        "TestDynamicQuantizedModule": 23.793499999999998,
         "TestDynamicQuantizedOps": 11.3985,
         "TestEqualizeEager": 0.10200000000000001,
         "TestEqualizeFx": 4.1114999999999995,
         "TestFXGraphMatcher": 2.3145,
         "TestFXGraphMatcherModels": 10.5705,
         "TestFXNumericSuiteCoreAPIs": 33.841499999999996,
-        "TestFXNumericSuiteCoreAPIsModels": 43.584500000000006,
-        "TestFXNumericSuiteNShadows": 39.961,
+        "TestFXNumericSuiteCoreAPIsModels": 43.5845,
+        "TestFXNumericSuiteNShadows": 39.96099999999999,
         "TestFakeQuantize": 0.3155,
         "TestFakeQuantizeOps": 30.2815,
         "TestFloat8DtypeCUDA": 0.39,
         "TestFuseEager": 2.5505000000000004,
-        "TestFuseFx": 2.3264999999999993,
+        "TestFuseFx": 2.3265000000000002,
         "TestFusedObsFakeQuant": 0.29200000000000004,
         "TestFusedObsFakeQuantModule": 0.3035,
         "TestFusionPasses": 0.024,
@@ -33580,7 +33580,7 @@
         "TestGraphUtils": 1.63,
         "TestHistogramObserver": 42.42,
         "TestMetaDataPorting": 8.525,
-        "TestModelNumericsEager": 0.6545,
+        "TestModelNumericsEager": 0.6545000000000001,
         "TestNumericSuiteEager": 7.458500000000001,
         "TestObserver": 4.331499999999999,
         "TestPT2ERepresentation": 33.0035,
@@ -33589,14 +33589,14 @@
         "TestQuantizationDocs": 0.154,
         "TestQuantizeDynamicJitOps": 1.9455,
         "TestQuantizeDynamicJitPasses": 4.9435,
-        "TestQuantizeEagerOps": 1.7424999999999997,
+        "TestQuantizeEagerOps": 1.7425,
         "TestQuantizeEagerPTQDynamic": 7.8515,
-        "TestQuantizeEagerPTQStatic": 29.866999999999997,
+        "TestQuantizeEagerPTQStatic": 29.867000000000004,
         "TestQuantizeEagerQAT": 7.422500000000001,
         "TestQuantizeEagerQATNumerics": 2.1225,
         "TestQuantizeFx": 29.980999999999998,
         "TestQuantizeFxModels": 11.850999999999999,
-        "TestQuantizeFxOps": 287.58500000000004,
+        "TestQuantizeFxOps": 287.5849999999999,
         "TestQuantizeJit": 22.4865,
         "TestQuantizeJitOps": 257.991,
         "TestQuantizeJitPasses": 5.721,
@@ -33605,7 +33605,7 @@
         "TestQuantizePT2EQAT_ConvBn1d": 871.845,
         "TestQuantizePT2EQAT_ConvBn2d": 900.2005,
         "TestQuantizePT2EX86Inductor": 186.6935,
-        "TestQuantizedConv": 34.0545,
+        "TestQuantizedConv": 34.054500000000004,
         "TestQuantizedEmbeddingOps": 0.8150000000000001,
         "TestQuantizedFunctionalOps": 1.1309999999999998,
         "TestQuantizedLinear": 14.698,
@@ -38001,7 +38001,7 @@
         "TestWithEffects": 6.3245
       },
       "inductor/test_aot_inductor": {
-        "AOTInductorTestABICompatibleCpu": 669.6579999999997,
+        "AOTInductorTestABICompatibleCpu": 669.6579999999998,
         "AOTInductorTestABICompatibleCpuWithStackAllocation": 465.9454999999999,
         "AOTInductorTestABICompatibleCpuWithStackAllocationAndMinimalArrayRefInterface": 206.08800000000002,
         "AOTInductorTestABICompatibleCuda": 1264.145,
@@ -38257,7 +38257,7 @@
         "DynamicShapesCodegenGPUTests": 660.0735
       },
       "inductor/test_torchinductor_dynamic_shapes": {
-        "DynamicShapesCpuTests": 1452.3324999999995,
+        "DynamicShapesCpuTests": 1452.3324999999998,
         "DynamicShapesCudaTests": 625.7516666666667,
         "DynamicShapesGPUTests": 989.0654999999999,
         "TestInductorDynamicCUDA": 62.236000000000004
@@ -38560,7 +38560,7 @@
       "test_decomp": {
         "DecompOneOffTestsCUDA": 0.034,
         "HasDecompTest": 0.1345,
-        "TestDecompCUDA": 8050.234499999993
+        "TestDecompCUDA": 8050.234499999994
       },
       "test_deploy": {
         "TestFreezer": 0.2235
@@ -38891,7 +38891,7 @@
       "test_ops": {
         "TestCommonCUDA": 2541.3064999999774,
         "TestCompositeComplianceCUDA": 713.5939999999985,
-        "TestFakeTensorCUDA": 654.7264999999998,
+        "TestFakeTensorCUDA": 654.7264999999996,
         "TestMathBitsCUDA": 70.98450000000004,
         "TestSelfKwarg": 0.020999999999999998,
         "TestTagsCUDA": 2.0590000000000015
@@ -39018,7 +39018,7 @@
         "TestFusionPasses": 0.0215,
         "TestFxDetectInputWeightEqualization": 0.14800000000000002,
         "TestFxDetectOutliers": 0.1775,
-        "TestFxModelReportClass": 0.8275000000000001,
+        "TestFxModelReportClass": 0.8275,
         "TestFxModelReportDetectDynamicStatic": 0.044,
         "TestFxModelReportDetector": 0.15149999999999997,
         "TestFxModelReportObserver": 0.1485,
@@ -39035,7 +39035,7 @@
         "TestQNNPackOps": 4.665,
         "TestQuantizationDocs": 0.1775,
         "TestQuantizeDynamicJitOps": 1.689,
-        "TestQuantizeDynamicJitPasses": 4.1514999999999995,
+        "TestQuantizeDynamicJitPasses": 4.1515,
         "TestQuantizeEagerOps": 1.2469999999999999,
         "TestQuantizeEagerPTQDynamic": 5.787,
         "TestQuantizeEagerPTQStatic": 24.3575,
@@ -39045,23 +39045,23 @@
         "TestQuantizeFxModels": 11.927,
         "TestQuantizeFxOps": 204.8755,
         "TestQuantizeJit": 17.6785,
-        "TestQuantizeJitOps": 205.5055,
+        "TestQuantizeJitOps": 205.50550000000004,
         "TestQuantizeJitPasses": 4.2905,
         "TestQuantizePT2E": 68.29599999999999,
         "TestQuantizePT2EQAT": 62.19166666666666,
         "TestQuantizePT2EQATModels": 0.002,
         "TestQuantizePT2EQAT_ConvBn1d": 595.326,
         "TestQuantizePT2EQAT_ConvBn2d": 598.4645,
-        "TestQuantizePT2EX86Inductor": 124.2305,
+        "TestQuantizePT2EX86Inductor": 124.23049999999999,
         "TestQuantizedConv": 242.8225,
         "TestQuantizedEmbeddingOps": 0.4945,
         "TestQuantizedFunctionalOps": 1.9245,
         "TestQuantizedLinear": 16.408,
-        "TestQuantizedOps": 80.556,
+        "TestQuantizedOps": 80.55599999999998,
         "TestQuantizedTensor": 1.799,
         "TestRecordHistogramObserver": 0.025500000000000002,
         "TestReferenceQuantizedModule": 0.04,
-        "TestSerialization": 1.4945,
+        "TestSerialization": 1.4945000000000002,
         "TestStaticQuantizedModule": 125.42149999999998,
         "TestSubgraphRewriter": 0.5970000000000001,
         "TestUtils": 0.0155,
@@ -39199,7 +39199,7 @@
         "TestSDPACudaOnlyCUDA": 2210.538499999966,
         "TestSDPAFailureModesCUDA": 0.21750000000000003,
         "TestSDPAPrivateUse1Only": 3.9165,
-        "TestTransformersCUDA": 5.530499999999999
+        "TestTransformersCUDA": 5.530499999999998
       },
       "test_type_hints": {
         "TestTypeHints": 0.1985
@@ -42231,7 +42231,7 @@
       },
       "inductor/test_torchinductor": {
         "CpuTests": 2912.7584999999995,
-        "SweepInputsCpuTest": 248.313,
+        "SweepInputsCpuTest": 248.31300000000002,
         "TestFull": 21.0245
       },
       "inductor/test_torchinductor_codegen_dynamic_shapes": {
@@ -42765,7 +42765,7 @@
         "TestMixedDtypesLinearCudaCUDA": 0.0005
       },
       "test_meta": {
-        "TestMetaCUDA": 4030.238499999843,
+        "TestMetaCUDA": 4030.238499999844,
         "TestMetaConverter": 0.30000000000000004
       },
       "test_mkl_verbose": {
@@ -42844,16 +42844,16 @@
       "test_ops": {
         "TestCommonCUDA": 5426.83399999995,
         "TestCompositeComplianceCUDA": 1511.9094999999957,
-        "TestFakeTensorCUDA": 1672.074999999998,
+        "TestFakeTensorCUDA": 1672.0749999999985,
         "TestMathBitsCUDA": 168.0475,
         "TestSelfKwarg": 0.036000000000000004,
-        "TestTagsCUDA": 4.618500000000003
+        "TestTagsCUDA": 4.618500000000004
       },
       "test_ops_fwd_gradients": {
         "TestFwdGradientsCUDA": 1849.843999999988
       },
       "test_ops_gradients": {
-        "TestBwdGradientsCUDA": 2529.124499999985
+        "TestBwdGradientsCUDA": 2529.1244999999853
       },
       "test_ops_jit": {
         "TestJitCUDA": 1812.934999999999
@@ -42950,7 +42950,7 @@
         "TestDeprecatedJitQuantized": 5.5615000000000006,
         "TestDistributed": 0.0415,
         "TestDuplicateDQPass": 5.687,
-        "TestDynamicQuantizedModule": 37.65599999999999,
+        "TestDynamicQuantizedModule": 37.656,
         "TestDynamicQuantizedOps": 17.137500000000003,
         "TestEqualizeEager": 0.1645,
         "TestEqualizeFx": 6.323,
@@ -42960,12 +42960,12 @@
         "TestFXNumericSuiteCoreAPIsModels": 68.68599999999999,
         "TestFXNumericSuiteNShadows": 59.340999999999994,
         "TestFakeQuantize": 0.46699999999999997,
-        "TestFakeQuantizeOps": 41.3115,
+        "TestFakeQuantizeOps": 41.311499999999995,
         "TestFloat8DtypeCUDA": 0.812,
-        "TestFuseEager": 4.308999999999999,
+        "TestFuseEager": 4.309,
         "TestFuseFx": 3.161,
         "TestFusedObsFakeQuant": 0.5245000000000001,
-        "TestFusedObsFakeQuantModule": 0.4945,
+        "TestFusedObsFakeQuantModule": 0.49450000000000005,
         "TestFusionPasses": 0.033,
         "TestFxDetectInputWeightEqualization": 0.3135,
         "TestFxDetectOutliers": 0.4155,
@@ -42979,31 +42979,31 @@
         "TestHistogramObserver": 67.239,
         "TestMetaDataPorting": 13.004999999999999,
         "TestModelNumericsEager": 0.98,
-        "TestNumericSuiteEager": 12.184,
+        "TestNumericSuiteEager": 12.184000000000001,
         "TestObserver": 5.925000000000001,
         "TestPT2ERepresentation": 50.230999999999995,
         "TestPadding": 16.2425,
-        "TestQNNPackOps": 4.124,
+        "TestQNNPackOps": 4.1240000000000006,
         "TestQuantizationDocs": 0.27949999999999997,
         "TestQuantizeDynamicJitOps": 3.0780000000000003,
         "TestQuantizeDynamicJitPasses": 7.393,
         "TestQuantizeEagerOps": 2.872,
-        "TestQuantizeEagerPTQDynamic": 12.165000000000001,
+        "TestQuantizeEagerPTQDynamic": 12.165,
         "TestQuantizeEagerPTQStatic": 37.5155,
         "TestQuantizeEagerQAT": 11.8215,
         "TestQuantizeEagerQATNumerics": 3.0865,
         "TestQuantizeFx": 46.352,
-        "TestQuantizeFxModels": 17.8435,
+        "TestQuantizeFxModels": 17.843500000000002,
         "TestQuantizeFxOps": 173.5885,
         "TestQuantizeJit": 34.802,
         "TestQuantizeJitOps": 398.717,
         "TestQuantizeJitPasses": 9.336,
-        "TestQuantizePT2E": 156.37349999999998,
+        "TestQuantizePT2E": 156.3735,
         "TestQuantizePT2EQATModels": 0.003,
         "TestQuantizePT2EQAT_ConvBn1d": 1316.1705000000002,
         "TestQuantizePT2EQAT_ConvBn2d": 1328.3175,
         "TestQuantizePT2EX86Inductor": 272.2525,
-        "TestQuantizedConv": 51.083,
+        "TestQuantizedConv": 51.083000000000006,
         "TestQuantizedEmbeddingOps": 1.0875,
         "TestQuantizedFunctionalOps": 1.7885,
         "TestQuantizedLinear": 21.899500000000003,
@@ -43014,8 +43014,8 @@
         "TestSerialization": 2.062,
         "TestStaticQuantizedModule": 99.73450000000001,
         "TestSubgraphRewriter": 1.12,
-        "TestUtils": 0.0295,
-        "TestXNNPACKQuantizer": 80.69000000000001,
+        "TestUtils": 0.029500000000000002,
+        "TestXNNPACKQuantizer": 80.69,
         "TestXNNPACKQuantizerModels": 5.913
       },
       "test_reductions": {
@@ -47028,7 +47028,7 @@
         "TestOptimizations": 2.235333333333333
       },
       "dynamo/test_backward_higher_order_ops": {
-        "BackwardHigherOrderOpTests": 14.710666666666667
+        "BackwardHigherOrderOpTests": 14.710666666666663
       },
       "dynamo/test_base_output": {
         "TestBaseOutput": 0.006000000000000001
@@ -47068,7 +47068,7 @@
         "DynamicShapesCtxManagerTests": 8.155333333333331,
         "DynamicShapesExportTests": 35.922,
         "DynamicShapesFuncTorchHigherOrderOpTests": 103.76666666666667,
-        "DynamicShapesFunctionTests": 75.68599999999998,
+        "DynamicShapesFunctionTests": 75.68599999999999,
         "DynamicShapesHigherOrderOpTests": 21.917,
         "DynamicShapesMiscTests": 131.9173333333334,
         "DynamicShapesNNModuleTests": 8.291333333333336,
@@ -47106,8 +47106,8 @@
       },
       "dynamo/test_higher_order_ops": {
         "ActivationCheckpointingTests": 0.09933333333333334,
-        "FuncTorchHigherOrderOpTests": 14.559,
-        "HigherOrderOpTests": 9.996,
+        "FuncTorchHigherOrderOpTests": 14.559000000000003,
+        "HigherOrderOpTests": 9.995999999999999,
         "HigherOrderOpVmapGuardTests": 5.064
       },
       "dynamo/test_hooks": {
@@ -47118,14 +47118,14 @@
         "InlineInbuiltNNModulesFuncTorchHigherOrderOpTests": 14.36,
         "InlineInbuiltNNModulesFunctionTests": 40.31333333333337,
         "InlineInbuiltNNModulesHigherOrderOpTests": 9.487666666666668,
-        "InlineInbuiltNNModulesMiscTests": 68.94066666666676,
+        "InlineInbuiltNNModulesMiscTests": 68.94066666666677,
         "InlineInbuiltNNModulesNNModuleTests": 4.166999999999999
       },
       "dynamo/test_input_attr_tracking": {
         "TestInputAttrTracking": 8.619333333333332
       },
       "dynamo/test_interop": {
-        "InteropTests": 0.6376666666666667
+        "InteropTests": 0.6376666666666666
       },
       "dynamo/test_logging": {
         "LoggingTests": 22.52266666666667
@@ -47228,7 +47228,7 @@
       },
       "export/test_export_training_ir_to_run_decomp": {
         "TrainingIRToRunDecompExportTestDynamismExpression": 0.6546666666666666,
-        "TrainingIRToRunDecompExportTestExport": 34.91133333333333
+        "TrainingIRToRunDecompExportTestExport": 34.911333333333324
       },
       "export/test_functionalized_assertions": {
         "TestFuntionalAssertions": 0.3056666666666667
@@ -47248,14 +47248,14 @@
         "TestPasses": 17.174333333333333
       },
       "export/test_retraceability": {
-        "RetraceExportTestDynamismExpression": 1.1003333333333334,
+        "RetraceExportTestDynamismExpression": 1.1003333333333332,
         "RetraceExportTestExport": 54.67066666666667
       },
       "export/test_schema": {
         "TestSchema": 0.3256666666666666
       },
       "export/test_serdes": {
-        "SerDesExportTestDynamismExpression": 0.6970000000000001,
+        "SerDesExportTestDynamismExpression": 0.697,
         "SerDesExportTestExport": 37.45500000000001
       },
       "export/test_serialize": {
@@ -47304,7 +47304,7 @@
       },
       "functorch/test_eager_transforms": {
         "TestAutogradFunctionCUDA": 0.11866666666666674,
-        "TestAutogradFunctionVmapAPICUDA": 0.02566666666666667,
+        "TestAutogradFunctionVmapAPICUDA": 0.025666666666666667,
         "TestCompileTransformsCUDA": 4.915333333333333,
         "TestComposabilityCUDA": 0.2246666666666667,
         "TestExamplesCorrectnessCUDA": 4.720666666666666,
@@ -47349,7 +47349,7 @@
         "TestRandomnessCUDA": 1.1733333333333327,
         "TestTransformFailureCUDA": 0.31233333333333335,
         "TestVmapAPI": 0.4193333333333335,
-        "TestVmapBatchedGradientCUDA": 0.2810000000000001,
+        "TestVmapBatchedGradientCUDA": 0.28100000000000014,
         "TestVmapDeviceTypeCUDA": 0.028666666666666663,
         "TestVmapNestedTensorCUDA": 0.05366666666666669,
         "TestVmapOperators": 3.892999999999995,
@@ -47386,7 +47386,7 @@
       },
       "inductor/test_compiled_optimizers": {
         "CompiledOptimizerParityTestsCUDA": 0.12300000000000005,
-        "CompiledOptimizerTests": 333.5700000000007
+        "CompiledOptimizerTests": 333.57000000000073
       },
       "inductor/test_config": {
         "TestInductorConfig": 8.243666666666664
@@ -47482,7 +47482,7 @@
         "TestInductorDynamicCUDA": 0.0796666666666667
       },
       "inductor/test_torchinductor_opinfo": {
-        "TestInductorOpInfoCUDA": 19.799333333333177
+        "TestInductorOpInfoCUDA": 19.799333333333173
       },
       "inductor/test_triton_extension_backend": {
         "TritonExtensionBackendTests": 2.315
@@ -47748,16 +47748,16 @@
         "TestFunctionalMapDataPipe": 0.041,
         "TestGraph": 0.015333333333333332,
         "TestIterDataPipeCountSampleYielded": 0.011000000000000001,
-        "TestIterDataPipeGraphFastForward": 0.05299999999999999,
+        "TestIterDataPipeGraphFastForward": 0.053,
         "TestIterDataPipeSingletonConstraint": 0.02466666666666667,
         "TestIterableDataPipeBasic": 0.03266666666666667,
         "TestSerialization": 7.585333333333334,
         "TestSharding": 0.17300000000000004,
-        "TestStreamWrapper": 0.3113333333333333,
+        "TestStreamWrapper": 0.3113333333333334,
         "TestTyping": 0.010000000000000002
       },
       "test_decomp": {
-        "DecompOneOffTestsCUDA": 0.03900000000000001,
+        "DecompOneOffTestsCUDA": 0.039,
         "HasDecompTest": 0.19999999999999998,
         "TestDecompCUDA": 10975.297333333365
       },
@@ -47799,7 +47799,7 @@
         "PropagateRealTensorsFakeTensorTest": 18.658000000000012
       },
       "test_flop_counter": {
-        "TestFlopCounter": 0.5073333333333334
+        "TestFlopCounter": 0.5073333333333333
       },
       "test_foreach": {
         "TestForeachCUDA": 204.39466666667795
@@ -47818,7 +47818,7 @@
         "TestFunctionalization": 2.980999999999998
       },
       "test_functionalization_of_rng_ops": {
-        "TestFunctionalizationRngOpsCUDA": 3.0773333333333337
+        "TestFunctionalizationRngOpsCUDA": 3.0773333333333333
       },
       "test_futures": {
         "TestFuture": 0.9296666666666668
@@ -47847,7 +47847,7 @@
         "TestTranslationValidation": 0.146
       },
       "test_fx_passes": {
-        "TestFXGraphPasses": 0.7240000000000003,
+        "TestFXGraphPasses": 0.7240000000000002,
         "TestFXMatcherUtils": 0.1486666666666667
       },
       "test_fx_reinplace_pass": {
@@ -47880,7 +47880,7 @@
         "TestCustomOperators": 0.041333333333333354,
         "TestDCE": 0.019666666666666666,
         "TestDataParallel": 0.005,
-        "TestDataclasses": 4.658333333333332,
+        "TestDataclasses": 4.658333333333334,
         "TestDeviceAnalysis": 4.249333333333333,
         "TestDict": 0.4186666666666669,
         "TestDtypeAnalysis": 0.16533333333333336,
@@ -47927,7 +47927,7 @@
         "TestRecursiveScript": 0.7006666666666669,
         "TestRemoveMutation": 0.12433333333333337,
         "TestSaveLoad": 41.12833333333334,
-        "TestSaveLoadFlatbuffer": 0.35066666666666674,
+        "TestSaveLoadFlatbuffer": 0.3506666666666667,
         "TestSaveLoadForOpVersion": 2.417,
         "TestScript": 41.9306666666667,
         "TestScriptDict": 0.02566666666666667,
@@ -48037,7 +48037,7 @@
         "TestMonitorTensorboard": 0.15033333333333332
       },
       "test_multiprocessing": {
-        "TestMultiprocessing": 115.16466666666666
+        "TestMultiprocessing": 115.16466666666663
       },
       "test_multiprocessing_spawn": {
         "ErrorTest": 0.0030000000000000005,
@@ -48058,8 +48058,8 @@
       },
       "test_nestedtensor": {
         "TestNestedTensor": 0.16933333333333342,
-        "TestNestedTensorAutogradCUDA": 1.4103333333333332,
-        "TestNestedTensorDeviceTypeCUDA": 1.6216666666666633,
+        "TestNestedTensorAutogradCUDA": 1.410333333333333,
+        "TestNestedTensorDeviceTypeCUDA": 1.6216666666666628,
         "TestNestedTensorSubclassCUDA": 1.8459999999999974
       },
       "test_nn": {
@@ -48079,7 +48079,7 @@
         "TestNumPyInteropCUDA": 0.20700000000000007
       },
       "test_openmp": {
-        "TestOpenMP_ParallelFor": 4.791
+        "TestOpenMP_ParallelFor": 4.7909999999999995
       },
       "test_ops": {
         "TestCommonCUDA": 3517.3623333333417,
@@ -48164,10 +48164,10 @@
         "PruningOpTest": 0.49666666666666665
       },
       "test_public_bindings": {
-        "TestPublicBindings": 6.567666666666667
+        "TestPublicBindings": 6.567666666666665
       },
       "test_python_dispatch": {
-        "TestDispatcherPythonBindings": 0.024333333333333332,
+        "TestDispatcherPythonBindings": 0.024333333333333335,
         "TestPythonDispatch": 0.25333333333333347,
         "TestPythonDispatcher": 0.007,
         "TestPythonRegistration": 1.3786666666666665,
@@ -48180,16 +48180,16 @@
       },
       "test_quantization": {
         "TestAOMigrationNNIntrinsic": 0.022000000000000002,
-        "TestAOMigrationNNQuantized": 0.04933333333333333,
-        "TestAOMigrationQuantization": 0.024333333333333332,
+        "TestAOMigrationNNQuantized": 0.04933333333333334,
+        "TestAOMigrationQuantization": 0.024333333333333335,
         "TestAOMigrationQuantizationFx": 0.04,
         "TestBackendConfig": 0.04533333333333334,
-        "TestBiasCorrectionEager": 0.8270000000000001,
+        "TestBiasCorrectionEager": 0.827,
         "TestBitsCUDA": 0.03,
-        "TestComparatorOps": 1.6876666666666666,
+        "TestComparatorOps": 1.6876666666666669,
         "TestDeprecatedJitQuantized": 2.818,
         "TestDistributed": 0.025333333333333336,
-        "TestDuplicateDQPass": 3.9339999999999997,
+        "TestDuplicateDQPass": 3.9340000000000006,
         "TestDynamicQuantizedModule": 24.306666666666672,
         "TestDynamicQuantizedOps": 11.536666666666667,
         "TestEqualizeEager": 0.09566666666666668,
@@ -48208,17 +48208,17 @@
         "TestFusedObsFakeQuantModule": 0.33866666666666667,
         "TestFusionPasses": 0.023999999999999997,
         "TestFxDetectInputWeightEqualization": 0.22133333333333335,
-        "TestFxDetectOutliers": 0.2843333333333333,
+        "TestFxDetectOutliers": 0.2843333333333334,
         "TestFxModelReportClass": 0.5523333333333333,
         "TestFxModelReportDetectDynamicStatic": 0.065,
-        "TestFxModelReportDetector": 0.2186666666666667,
+        "TestFxModelReportDetector": 0.21866666666666668,
         "TestFxModelReportObserver": 0.2373333333333333,
         "TestFxModelReportVisualizer": 0.24933333333333332,
         "TestGenerateNumericDebugHandle": 0.8093333333333333,
         "TestGraphUtils": 1.6396666666666668,
-        "TestHistogramObserver": 41.32166666666667,
-        "TestMetaDataPorting": 8.650333333333334,
-        "TestModelNumericsEager": 0.6613333333333333,
+        "TestHistogramObserver": 41.321666666666665,
+        "TestMetaDataPorting": 8.650333333333332,
+        "TestModelNumericsEager": 0.6613333333333332,
         "TestNumericSuiteEager": 7.641666666666666,
         "TestObserver": 4.043,
         "TestPT2ERepresentation": 33.53133333333333,
@@ -48236,21 +48236,21 @@
         "TestQuantizeFxModels": 11.985666666666667,
         "TestQuantizeFxOps": 292.231,
         "TestQuantizeJit": 22.612,
-        "TestQuantizeJitOps": 257.969,
+        "TestQuantizeJitOps": 257.96900000000005,
         "TestQuantizeJitPasses": 6.511666666666667,
         "TestQuantizePT2E": 101.07266666666668,
         "TestQuantizePT2EQATModels": 0.0023333333333333335,
         "TestQuantizePT2EQAT_ConvBn1d": 873.5803333333333,
         "TestQuantizePT2EQAT_ConvBn2d": 883.73,
         "TestQuantizePT2EX86Inductor": 182.573,
-        "TestQuantizedConv": 33.620666666666665,
+        "TestQuantizedConv": 33.62066666666667,
         "TestQuantizedEmbeddingOps": 0.7893333333333333,
         "TestQuantizedFunctionalOps": 1.2036666666666667,
         "TestQuantizedLinear": 14.764000000000001,
         "TestQuantizedOps": 90.40033333333334,
         "TestQuantizedTensor": 3.057333333333333,
         "TestRecordHistogramObserver": 0.03233333333333333,
-        "TestReferenceQuantizedModule": 0.04666666666666667,
+        "TestReferenceQuantizedModule": 0.04666666666666666,
         "TestSerialization": 1.3860000000000001,
         "TestStaticQuantizedModule": 81.98933333333333,
         "TestSubgraphRewriter": 0.8506666666666667,
@@ -48372,7 +48372,7 @@
         "TestOpInfos": 0.004,
         "TestTestParametrization": 0.03900000000000002,
         "TestTestParametrizationDeviceTypeCUDA": 4.218666666666664,
-        "TestTestingCUDA": 0.5190000000000001
+        "TestTestingCUDA": 0.519
       },
       "test_torch": {
         "TestBasicVitalSigns": 0.026333333333333337,
@@ -48383,8 +48383,8 @@
       },
       "test_transformers": {
         "TestAttnBiasCUDA": 2.001333333333333,
-        "TestSDPACUDA": 0.6510000000000004,
-        "TestSDPACudaOnlyCUDA": 153.5420000000634,
+        "TestSDPACUDA": 0.6510000000000006,
+        "TestSDPACudaOnlyCUDA": 153.54200000006338,
         "TestSDPAFailureModesCUDA": 0.0726666666666667,
         "TestSDPAPrivateUse1Only": 2.5773333333333333,
         "TestTransformersCUDA": 5.9853333333333305
@@ -48492,10 +48492,10 @@
         "TestChoose": 0.028000000000000008,
         "TestClip": 0.008,
         "TestCompress": 0.006000000000000001,
-        "TestConversion": 0.05000000000000001,
+        "TestConversion": 0.049999999999999996,
         "TestCreation": 0.004333333333333334,
         "TestDelMisc": 0.002,
-        "TestDot": 0.08666666666666671,
+        "TestDot": 0.08666666666666668,
         "TestDtypedescr": 0.002,
         "TestFancyIndexing": 0.037,
         "TestFlag": 0.015333333333333338,
@@ -48605,7 +48605,7 @@
         "TestTypes": 19.698333333333334
       },
       "torch_np/numpy_tests/core/test_shape_base": {
-        "TestAtleast1d": 0.3053333333333334,
+        "TestAtleast1d": 0.3053333333333333,
         "TestAtleast2d": 0.018000000000000002,
         "TestAtleast3d": 0.017,
         "TestBlock": 0.03800000000000002,
@@ -48694,11 +48694,11 @@
       "torch_np/numpy_tests/lib/test_shape_base_": {
         "TestApplyAlongAxis": 0.019000000000000003,
         "TestApplyOverAxes": 0.002,
-        "TestArraySplit": 0.223,
+        "TestArraySplit": 0.22300000000000006,
         "TestColumnStack": 0.012000000000000002,
         "TestDsplit": 0.014,
         "TestDstack": 0.020000000000000004,
-        "TestExpandDims": 0.009666666666666669,
+        "TestExpandDims": 0.009666666666666667,
         "TestHsplit": 0.016,
         "TestKron": 0.02133333333333334,
         "TestMayShareMemory": 0.002,
@@ -48752,7 +48752,7 @@
         "TestEigvalshCases": 0.0003333333333333333,
         "TestInv": 0.06433333333333334,
         "TestLstsq": 0.271,
-        "TestMatrixRank": 0.49466666666666664,
+        "TestMatrixRank": 0.49466666666666675,
         "TestMisc": 0.022000000000000002,
         "TestMisc2": 0.004333333333333334,
         "TestMultiDot": 0.06233333333333333,
@@ -48863,7 +48863,7 @@
         "TestBuiltins": 0.059666666666666666,
         "TestCUDA": 0.7096666666666667,
         "TestClassType": 2.4666666666666663,
-        "TestComplex": 0.8493333333333334,
+        "TestComplex": 0.8493333333333335,
         "TestCustomOperators": 0.041666666666666685,
         "TestDCE": 0.01933333333333333,
         "TestDataParallel": 0.005,
@@ -48913,7 +48913,7 @@
         "TestPythonIr": 0.02266666666666667,
         "TestRecursiveScript": 0.7123333333333335,
         "TestRemoveMutation": 0.126,
-        "TestSaveLoad": 40.92499999999999,
+        "TestSaveLoad": 40.925,
         "TestSaveLoadFlatbuffer": 0.53,
         "TestSaveLoadForOpVersion": 2.2869999999999995,
         "TestScript": 42.265666666666704,
@@ -48923,7 +48923,7 @@
         "TestScriptProfile": 0.40666666666666657,
         "TestSlice": 0.14400000000000007,
         "TestSparse": 0.04766666666666666,
-        "TestStringFormatting": 0.11300000000000004,
+        "TestStringFormatting": 0.11300000000000003,
         "TestSymbolicShapeAnalysis": 1.1129999999999998,
         "TestTensorBuiltins": 0.09599999999999999,
         "TestTensorCreationOps": 0.044000000000000004,
@@ -48945,7 +48945,7 @@
         "TestTorchrun": 1.8499999999999996
       },
       "benchmark_utils/test_benchmark_utils": {
-        "TestBenchmarkUtils": 0.516
+        "TestBenchmarkUtils": 0.5159999999999999
       },
       "distributions/test_distributions": {
         "TestAgainstScipy": 1.106,
@@ -48970,7 +48970,7 @@
         "AotAutogradFallbackTests": 10.258
       },
       "dynamo/test_aot_autograd_cache": {
-        "AOTAutogradCachePicklerTests": 0.22899999999999995,
+        "AOTAutogradCachePicklerTests": 0.22899999999999998,
         "AOTAutogradCacheTests": 19.35233333333333
       },
       "dynamo/test_autograd_function": {
@@ -49081,7 +49081,7 @@
         "InteropTests": 0.49300000000000005
       },
       "dynamo/test_logging": {
-        "LoggingTests": 18.85766666666667
+        "LoggingTests": 18.857666666666667
       },
       "dynamo/test_minifier": {
         "MinifierTests": 1.2650000000000001
@@ -49111,7 +49111,7 @@
         "DynamoProfilerTests": 1.176
       },
       "dynamo/test_python_autograd": {
-        "TestPythonAutograd": 0.596
+        "TestPythonAutograd": 0.5960000000000001
       },
       "dynamo/test_recompile_ux": {
         "RecompileUxTests": 0.7543333333333334
@@ -49167,7 +49167,7 @@
         "ExampleTests": 2.8576666666666672
       },
       "export/test_experimental": {
-        "TestExperiment": 1.265666666666667
+        "TestExperiment": 1.2656666666666667
       },
       "export/test_export": {
         "TestDynamismExpression": 0.43966666666666665,
@@ -49240,15 +49240,15 @@
       "functorch/test_aotdispatch": {
         "TestAOTAutograd": 12.725999999999994,
         "TestAOTAutogradWithCache": 14.883333333333333,
-        "TestAOTAutogradWithDynamo": 14.178333333333333,
+        "TestAOTAutogradWithDynamo": 14.17833333333333,
         "TestAOTDispatch": 0.4623333333333333,
         "TestAOTExport": 2.2933333333333334,
         "TestAOTModuleSimplified": 0.596,
         "TestPartitioning": 0.9106666666666667
       },
       "functorch/test_control_flow": {
-        "TestControlFlow": 0.6330000000000001,
-        "TestControlFlowTraced": 104.51499999999994
+        "TestControlFlow": 0.633,
+        "TestControlFlowTraced": 104.51499999999997
       },
       "functorch/test_dims": {
         "TestMin": 14.791666666666666,
@@ -49284,7 +49284,7 @@
         "TestVmapOperators": 2.567333333333328
       },
       "functorch/test_vmap_registrations": {
-        "TestFunctorchDispatcher": 2.141999999999897
+        "TestFunctorchDispatcher": 2.1419999999998964
       },
       "higher_order_ops/test_with_effects": {
         "TestWithEffects": 8.347999999999999
@@ -49296,7 +49296,7 @@
         "FreezingCpuTests": 35.703
       },
       "inductor/test_codecache": {
-        "TestFxGraphCache": 38.49266666666667,
+        "TestFxGraphCache": 38.492666666666665,
         "TestFxGraphCacheHashing": 0.7273333333333335,
         "TestUtils": 3.3236666666666665,
         "test_codecache": 0.0
@@ -49332,7 +49332,7 @@
         "TestCustomLowering": 0.004333333333333334
       },
       "inductor/test_custom_post_grad_passes": {
-        "TestPostGradCustomPrePostPass": 10.803333333333335
+        "TestPostGradCustomPrePostPass": 10.803333333333333
       },
       "inductor/test_debug_trace": {
         "TestDebugTrace": 3.2706666666666666
@@ -49366,7 +49366,7 @@
         "TestGraphTransformObserver": 0.013333333333333334
       },
       "inductor/test_group_batch_fusion": {
-        "TestFindIndependentSubsetGreedy": 0.28533333333333327,
+        "TestFindIndependentSubsetGreedy": 0.2853333333333333,
         "TestGroupBatchFusion": 0.001,
         "TestPostGradBatchLinearFusion": 0.0003333333333333333
       },
@@ -49412,7 +49412,7 @@
         "MutationTests": 0.004
       },
       "inductor/test_utils": {
-        "TestUtils": 0.23299999999999998
+        "TestUtils": 0.233
       },
       "lazy/test_debug_util": {
         "DebugUtilTest": 0.2856666666666667
@@ -49431,7 +49431,7 @@
       },
       "lazy/test_ts_opinfo": {
         "TestLazyDynamicOps": 0.19099999999999998,
-        "TestLazyTensor": 0.05466666666666667
+        "TestLazyTensor": 0.05466666666666666
       },
       "nn/test_convolution": {
         "TestConvolutionNN": 13.900333333333334
@@ -49443,7 +49443,7 @@
         "TestEmbeddingNN": 0.06133333333333337
       },
       "nn/test_init": {
-        "TestNNInit": 4.024333333333332
+        "TestNNInit": 4.024333333333333
       },
       "nn/test_lazy_modules": {
         "TestLazyModules": 0.34866666666666674
@@ -49513,7 +49513,7 @@
         "TestFakeSparsity": 0.06333333333333334,
         "TestFxComposability": 1.1899999999999997,
         "TestNearlyDiagonalSparsifier": 0.5966666666666667,
-        "TestNormDataSparsifiers": 0.6836666666666668,
+        "TestNormDataSparsifiers": 0.6836666666666665,
         "TestQuantizationUtils": 0.016,
         "TestQuantizedSparseKernels": 0.242,
         "TestQuantizedSparseLayers": 0.307,
@@ -49537,7 +49537,7 @@
         "TestAutogradInferenceMode": 0.034000000000000016,
         "TestAutogradLogging": 0.013333333333333334,
         "TestMultithreadAutograd": 0.2526666666666667,
-        "TestNestedCheckpoint": 0.3923333333333334,
+        "TestNestedCheckpoint": 0.39233333333333337,
         "TestSelectiveActivationCheckpoint": 0.037333333333333336
       },
       "test_autograd_fallback": {
@@ -49585,7 +49585,7 @@
         "TestCustomBackend": 0.074
       },
       "test_custom_ops": {
-        "MiniOpTest": 0.5623333333333335,
+        "MiniOpTest": 0.5623333333333336,
         "MiniOpTestOther": 0.05866666666666668,
         "TestCustomOp": 2.17933333333333,
         "TestCustomOpAPI": 0.1486666666666667,
@@ -49654,7 +49654,7 @@
         "PropagateRealTensorsFakeTensorConstHandling": 0.08400000000000002,
         "PropagateRealTensorsFakeTensorConverterTest": 0.022000000000000002,
         "PropagateRealTensorsFakeTensorOperatorInvariants": 0.1546666666666667,
-        "PropagateRealTensorsFakeTensorPropTest": 0.04599999999999999,
+        "PropagateRealTensorsFakeTensorPropTest": 0.046000000000000006,
         "PropagateRealTensorsFakeTensorTest": 0.21300000000000005
       },
       "test_flop_counter": {
@@ -49731,7 +49731,7 @@
         "TestDict": 0.3090000000000001,
         "TestDtypeAnalysis": 0.12266666666666666,
         "TestEnum": 0.1556666666666667,
-        "TestFreezing": 1.7970000000000006,
+        "TestFreezing": 1.7970000000000004,
         "TestFrontend": 0.359,
         "TestFrozenOptimizations": 8.029666666666666,
         "TestFunctionalBlocks": 0.005,
@@ -49745,7 +49745,7 @@
         "TestIgnoreContextManager": 0.03266666666666667,
         "TestInplaceToFunctionalActivation": 1.8633333333333333,
         "TestIsinstance": 0.15433333333333338,
-        "TestJit": 4.405333333333328,
+        "TestJit": 4.405333333333327,
         "TestJitGeneratedModule": 8.548666666666646,
         "TestJitProfiler": 0.001,
         "TestJitUtils": 0.012333333333333335,
@@ -49765,7 +49765,7 @@
         "TestOptimizeForMobilePreserveDebugInfo": 0.12333333333333334,
         "TestPDT": 0.21133333333333337,
         "TestParametrization": 0.068,
-        "TestPeephole": 0.3200000000000001,
+        "TestPeephole": 0.3200000000000002,
         "TestProducerVersion": 0.001,
         "TestProfiler": 0.44533333333333336,
         "TestPythonBindings": 0.023000000000000003,
@@ -49801,7 +49801,7 @@
       },
       "test_jit_autocast": {
         "TestAutocast": 0.12666666666666668,
-        "TestJitTraceAutocast": 14.378
+        "TestJitTraceAutocast": 14.377999999999998
       },
       "test_jit_disabled": {
         "TestJitDisabled": 0.3253333333333334
@@ -49827,7 +49827,7 @@
         "LoggingTest": 2.6053333333333337
       },
       "test_maskedtensor": {
-        "TestBinary": 0.30700000000000016,
+        "TestBinary": 0.3070000000000002,
         "TestReductions": 0.0676666666666667,
         "TestUnary": 0.25333333333333347
       },
@@ -49899,7 +49899,7 @@
       },
       "test_optim": {
         "TestDifferentiableOptimizer": 0.16933333333333336,
-        "TestLRScheduler": 0.8786666666666672,
+        "TestLRScheduler": 0.878666666666667,
         "TestSWAUtils": 0.19766666666666668
       },
       "test_out_dtype_op": {
@@ -49977,17 +49977,17 @@
         "TestAOMigrationNNQuantized": 0.05466666666666669,
         "TestAOMigrationQuantization": 0.019333333333333338,
         "TestAOMigrationQuantizationFx": 0.02066666666666667,
-        "TestBackendConfig": 0.04466666666666669,
+        "TestBackendConfig": 0.04466666666666668,
         "TestBiasCorrectionEager": 1.1500000000000001,
         "TestComparatorOps": 1.044,
         "TestDeprecatedJitQuantized": 3.593,
         "TestDistributed": 0.021000000000000005,
-        "TestDuplicateDQPass": 2.391,
+        "TestDuplicateDQPass": 2.3910000000000005,
         "TestDynamicQuantizedModule": 38.620666666666665,
         "TestDynamicQuantizedOps": 24.334333333333337,
         "TestEqualizeEager": 0.068,
         "TestEqualizeFx": 4.09,
-        "TestFXGraphMatcher": 1.4069999999999998,
+        "TestFXGraphMatcher": 1.407,
         "TestFXGraphMatcherModels": 7.771333333333334,
         "TestFXNumericSuiteCoreAPIs": 25.336333333333332,
         "TestFXNumericSuiteCoreAPIsModels": 33.846333333333334,
@@ -49999,7 +49999,7 @@
         "TestFusedObsFakeQuant": 0.06133333333333333,
         "TestFusedObsFakeQuantModule": 0.18600000000000003,
         "TestFusionPasses": 0.016666666666666666,
-        "TestFxDetectInputWeightEqualization": 0.15333333333333335,
+        "TestFxDetectInputWeightEqualization": 0.15333333333333332,
         "TestFxDetectOutliers": 0.23833333333333337,
         "TestFxModelReportClass": 0.38566666666666666,
         "TestFxModelReportDetectDynamicStatic": 0.047999999999999994,
@@ -50010,7 +50010,7 @@
         "TestGraphUtils": 1.5670000000000002,
         "TestHistogramObserver": 27.763666666666666,
         "TestMetaDataPorting": 5.5566666666666675,
-        "TestModelNumericsEager": 1.0890000000000002,
+        "TestModelNumericsEager": 1.089,
         "TestNumericSuiteEager": 8.248666666666665,
         "TestObserver": 2.919333333333333,
         "TestPT2ERepresentation": 23.913,
@@ -50033,7 +50033,7 @@
         "TestQuantizePT2E": 42.42599999999999,
         "TestQuantizePT2EQATModels": 0.002,
         "TestQuantizePT2EQAT_ConvBn1d": 266.8426666666666,
-        "TestQuantizePT2EQAT_ConvBn2d": 267.67033333333336,
+        "TestQuantizePT2EQAT_ConvBn2d": 267.6703333333333,
         "TestQuantizePT2EX86Inductor": 72.10233333333333,
         "TestQuantizedConv": 44.78799999999999,
         "TestQuantizedEmbeddingOps": 0.6463333333333333,
@@ -50119,8 +50119,8 @@
         "TestAssertCloseSparseCOO": 0.02,
         "TestAssertCloseSparseCSC": 0.017666666666666667,
         "TestAssertCloseSparseCSR": 0.019,
-        "TestFrameworkUtils": 12.443666666666665,
-        "TestImports": 11.615333333333334,
+        "TestFrameworkUtils": 12.443666666666667,
+        "TestImports": 11.615333333333332,
         "TestOpInfos": 0.004666666666666667,
         "TestTestParametrization": 0.028666666666666677
       },
@@ -50129,7 +50129,7 @@
         "TestTorch": 5.4013333333333255
       },
       "test_transformers": {
-        "TestSDPAPrivateUse1Only": 2.262666666666666
+        "TestSDPAPrivateUse1Only": 2.2626666666666666
       },
       "test_type_hints": {
         "TestTypeHints": 0.2253333333333333
@@ -50138,7 +50138,7 @@
         "TestDTypeInfo": 0.28833333333333333
       },
       "test_typing": {
-        "TestTyping": 76.03700000000003
+        "TestTyping": 76.03700000000002
       },
       "test_utils": {
         "TestAssert": 0.054,
@@ -50220,7 +50220,7 @@
         "TestBinop": 0.01933333333333333,
         "TestBool": 20.139666666666667,
         "TestCequenceMethods": 0.0023333333333333335,
-        "TestChoose": 0.015333333333333332,
+        "TestChoose": 0.015333333333333336,
         "TestClip": 0.005333333333333333,
         "TestCompress": 0.005666666666666667,
         "TestConversion": 0.02766666666666667,
@@ -50361,7 +50361,7 @@
       },
       "torch_np/numpy_tests/lib/test_arraysetops": {
         "TestSetOps": 0.004333333333333334,
-        "TestUnique": 0.4213333333333334
+        "TestUnique": 0.42133333333333334
       },
       "torch_np/numpy_tests/lib/test_function_base": {
         "TestAll": 0.006000000000000001,
@@ -50375,7 +50375,7 @@
         "TestCopy": 0.007,
         "TestCorrCoef": 0.044000000000000004,
         "TestCov": 0.055000000000000014,
-        "TestCumprod": 0.025333333333333336,
+        "TestCumprod": 0.025333333333333333,
         "TestCumsum": 0.03333333333333333,
         "TestDelete": 0.016333333333333335,
         "TestDiff": 0.06166666666666667,
@@ -50385,7 +50385,7 @@
         "TestFlip": 0.027666666666666673,
         "TestGradient": 0.11800000000000001,
         "TestInsert": 0.007666666666666666,
-        "TestInterp": 0.04166666666666669,
+        "TestInterp": 0.041666666666666685,
         "TestKaiser": 0.009000000000000001,
         "TestMedian": 0.08800000000000002,
         "TestMeshgrid": 0.04633333333333334,
@@ -50454,7 +50454,7 @@
       },
       "torch_np/numpy_tests/lib/test_type_check": {
         "TestArrayConversion": 0.0013333333333333333,
-        "TestCommonType": 0.229,
+        "TestCommonType": 0.22899999999999998,
         "TestImag": 0.01,
         "TestIscomplex": 0.005,
         "TestIscomplexobj": 0.0036666666666666666,
@@ -50488,7 +50488,7 @@
         "TestMisc2": 0.0023333333333333335,
         "TestMultiDot": 0.04233333333333334,
         "TestNormDouble": 0.6503333333333333,
-        "TestNormInt64": 0.6483333333333333,
+        "TestNormInt64": 0.6483333333333334,
         "TestNormSingle": 0.6536666666666667,
         "TestNorm_NonSystematic": 0.0030000000000000005,
         "TestPinv": 0.09366666666666668,
@@ -50538,7 +50538,7 @@
         "TestContains": 0.002,
         "TestIndexing": 0.26033333333333336,
         "TestIter": 0.004333333333333334,
-        "TestNoExtraMethods": 0.006999999999999999,
+        "TestNoExtraMethods": 0.007,
         "TestNonzero": 0.11833333333333333,
         "TestRavel": 0.006000000000000001,
         "TestReshape": 0.004333333333333334,
@@ -50549,7 +50549,7 @@
         "TestNEP50Table": 0.001
       },
       "torch_np/test_random": {
-        "TestChoice": 0.011333333333333332,
+        "TestChoice": 0.011333333333333334,
         "TestNumpyGlobal": 0.0036666666666666666,
         "TestScalarReturn": 0.26366666666666666,
         "TestShuffle": 0.011333333333333334
@@ -50579,7 +50579,7 @@
     },
     "nogpu_NO_AVX2": {
       "backends/xeon/test_launch": {
-        "TestTorchrun": 1.9266666666666665
+        "TestTorchrun": 1.9266666666666667
       },
       "benchmark_utils/test_benchmark_utils": {
         "TestBenchmarkUtils": 0.5286666666666666
@@ -50594,7 +50594,7 @@
         "TestKL": 2.965333333333333,
         "TestLazyLogitsInitialization": 0.012666666666666666,
         "TestNumericalStability": 0.07366666666666667,
-        "TestRsample": 0.6706666666666666,
+        "TestRsample": 0.6706666666666669,
         "TestValidation": 0.3503333333333334
       },
       "dynamo/test_activation_checkpointing": {
@@ -50618,7 +50618,7 @@
         "NormalizeIRTests": 0.03666666666666667,
         "TestCustomBackendAPI": 1.676,
         "TestExplainWithBackend": 10.576666666666666,
-        "TestOptimizations": 1.8219999999999998
+        "TestOptimizations": 1.8219999999999994
       },
       "dynamo/test_backward_higher_order_ops": {
         "BackwardHigherOrderOpTests": 12.9
@@ -50658,7 +50658,7 @@
         "DynamicShapesCtxManagerTests": 4.383333333333333,
         "DynamicShapesExportTests": 27.37866666666668,
         "DynamicShapesFuncTorchHigherOrderOpTests": 95.56999999999998,
-        "DynamicShapesFunctionTests": 57.59699999999997,
+        "DynamicShapesFunctionTests": 57.59699999999998,
         "DynamicShapesHigherOrderOpTests": 16.635666666666665,
         "DynamicShapesMiscTests": 102.40333333333344,
         "DynamicShapesNNModuleTests": 6.169333333333332,
@@ -50683,7 +50683,7 @@
       },
       "dynamo/test_functions": {
         "DefaultsTests": 0.7543333333333334,
-        "FunctionTests": 9.982666666666642
+        "FunctionTests": 9.982666666666644
       },
       "dynamo/test_fx_passes_pre_grad": {
         "FxPassesPreGradTests": 1.3023333333333333
@@ -50736,7 +50736,7 @@
         "OptimizedModuleTest": 18.318666666666665
       },
       "dynamo/test_nops": {
-        "NopTests": 0.3376666666666666
+        "NopTests": 0.3376666666666667
       },
       "dynamo/test_optimizers": {
         "End2EndTests": 0.5786666666666668
@@ -50848,7 +50848,7 @@
         "SerDesExportTestExport": 30.193
       },
       "export/test_serialize": {
-        "TestDeserialize": 8.126666666666665,
+        "TestDeserialize": 8.126666666666667,
         "TestSaveLoad": 0.31633333333333336,
         "TestSchemaVersioning": 0.03333333333333333,
         "TestSerialize": 1.0713333333333332,
@@ -50889,7 +50889,7 @@
       },
       "functorch/test_dims": {
         "TestMin": 16.229,
-        "TestMinFunctorchOnly": 15.01366666666666
+        "TestMinFunctorchOnly": 15.013666666666664
       },
       "functorch/test_eager_transforms": {
         "TestMakeFunctional": 0.10800000000000003,
@@ -51009,7 +51009,7 @@
       },
       "inductor/test_indexing": {
         "ExprPrinterTests": 0.04833333333333334,
-        "TestIndexingSimplification": 0.49400000000000005
+        "TestIndexingSimplification": 0.494
       },
       "inductor/test_inductor_freezing": {
         "FreezingCpuTests": 51.278333333333336
@@ -51018,10 +51018,10 @@
         "MinifierTests": 25.43366666666667
       },
       "inductor/test_minifier_isolate": {
-        "MinifierIsolateTests": 48.84833333333333
+        "MinifierIsolateTests": 48.848333333333336
       },
       "inductor/test_mkldnn_pattern_matcher": {
-        "TestDynamicPatternMatcher": 159.84266666666667,
+        "TestDynamicPatternMatcher": 159.84266666666664,
         "TestPatternMatcher": 541.0373333333332
       },
       "inductor/test_standalone_compile": {
@@ -51083,7 +51083,7 @@
         "TestNNInit": 3.875666666666666
       },
       "nn/test_lazy_modules": {
-        "TestLazyModules": 0.36266666666666675
+        "TestLazyModules": 0.36266666666666686
       },
       "nn/test_load_state_dict": {
         "TestLoadStateDict": 0.5826666666666668,
@@ -51102,7 +51102,7 @@
         "PackedSequenceTest": 0.3926666666666667
       },
       "nn/test_parametrization": {
-        "TestNNParametrization": 0.7880000000000001
+        "TestNNParametrization": 0.7880000000000003
       },
       "nn/test_pooling": {
         "TestAvgPool": 0.23933333333333331,
@@ -51168,7 +51168,7 @@
         "TestAllowMutationOnSaved": 0.028,
         "TestAutograd": 17.579000000000047,
         "TestAutogradComplex": 0.005,
-        "TestAutogradForwardMode": 0.07433333333333338,
+        "TestAutogradForwardMode": 0.07433333333333336,
         "TestAutogradForwardModeBatchedGrad": 0.017333333333333336,
         "TestAutogradFunctional": 8.83833333333333,
         "TestAutogradInferenceMode": 0.03466666666666668,
@@ -51374,14 +51374,14 @@
         "TestFunctionalBlocks": 0.005,
         "TestFunctionalToInplaceActivation": 2.0976666666666666,
         "TestGenerator": 0.06466666666666666,
-        "TestGetDefaultAttr": 0.013666666666666667,
-        "TestGraphRewritePasses": 0.037333333333333336,
+        "TestGetDefaultAttr": 0.013666666666666669,
+        "TestGraphRewritePasses": 0.03733333333333333,
         "TestHash": 0.06633333333333334,
         "TestHooks": 0.7083333333333335,
         "TestIgnorableArgs": 0.008666666666666668,
         "TestIgnoreContextManager": 0.034333333333333334,
         "TestInplaceToFunctionalActivation": 2.0446666666666666,
-        "TestIsinstance": 0.16966666666666672,
+        "TestIsinstance": 0.16966666666666674,
         "TestJit": 4.741333333333329,
         "TestJitGeneratedModule": 9.060666666666643,
         "TestJitProfiler": 0.001,
@@ -51426,13 +51426,13 @@
         "TestTensorCreationOps": 0.03733333333333333,
         "TestTensorMethods": 0.01,
         "TestTorchbind": 0.09566666666666669,
-        "TestTracer": 2.2123333333333304,
+        "TestTracer": 2.212333333333331,
         "TestTypeSharing": 0.38333333333333347,
         "TestTypesAndAnnotation": 0.09866666666666668,
         "TestTyping": 0.30600000000000016,
         "TestUnion": 0.36433333333333345,
         "TestUnsupportedOps": 0.021666666666666667,
-        "TestUpgraders": 0.05933333333333335,
+        "TestUpgraders": 0.05933333333333334,
         "TestWarn": 0.042,
         "TestWith": 0.257
       },
@@ -51484,7 +51484,7 @@
         "TestOptimizer": 2.457333333333333
       },
       "test_model_dump": {
-        "TestModelDump": 0.863
+        "TestModelDump": 0.8630000000000001
       },
       "test_model_exports_to_core_aten": {
         "TestQuantizePT2EModels": 0.15
@@ -51587,7 +51587,7 @@
       "test_proxy_tensor": {
         "TestFakeProxyTensor": 0.09366666666666668,
         "TestGenericProxyTensorFake": 1.8746666666666665,
-        "TestGenericProxyTensorReal": 2.1623333333333328,
+        "TestGenericProxyTensorReal": 2.162333333333333,
         "TestGenericProxyTensorSymbolic": 6.485333333333332,
         "TestRealProxyTensor": 0.015666666666666666,
         "TestSymbolicTracing": 3.556666666666666
@@ -51596,7 +51596,7 @@
         "PruningOpTest": 0.41
       },
       "test_public_bindings": {
-        "TestPublicBindings": 5.164999999999999
+        "TestPublicBindings": 5.165
       },
       "test_python_dispatch": {
         "TestDispatcherPythonBindings": 0.004,
@@ -51615,7 +51615,7 @@
         "TestAOMigrationQuantization": 0.019333333333333338,
         "TestAOMigrationQuantizationFx": 0.02066666666666667,
         "TestBackendConfig": 0.04300000000000002,
-        "TestBiasCorrectionEager": 0.9886666666666666,
+        "TestBiasCorrectionEager": 0.9886666666666667,
         "TestComparatorOps": 1.0786666666666667,
         "TestDeprecatedJitQuantized": 3.5926666666666667,
         "TestDistributed": 0.020666666666666667,
@@ -51635,7 +51635,7 @@
         "TestFuseFx": 2.008666666666666,
         "TestFusedObsFakeQuant": 0.06766666666666667,
         "TestFusedObsFakeQuantModule": 0.16366666666666665,
-        "TestFusionPasses": 0.018,
+        "TestFusionPasses": 0.018000000000000002,
         "TestFxDetectInputWeightEqualization": 0.15033333333333335,
         "TestFxDetectOutliers": 0.32466666666666666,
         "TestFxModelReportClass": 0.40433333333333327,
@@ -51647,7 +51647,7 @@
         "TestGraphUtils": 1.6286666666666667,
         "TestHistogramObserver": 28.304666666666662,
         "TestMetaDataPorting": 5.476333333333334,
-        "TestModelNumericsEager": 0.896,
+        "TestModelNumericsEager": 0.8959999999999999,
         "TestNumericSuiteEager": 6.770666666666666,
         "TestObserver": 2.914333333333333,
         "TestPT2ERepresentation": 24.53266666666667,
@@ -51661,15 +51661,15 @@
         "TestQuantizeEagerPTQStatic": 22.418333333333333,
         "TestQuantizeEagerQAT": 8.050666666666666,
         "TestQuantizeEagerQATNumerics": 1.5646666666666664,
-        "TestQuantizeFx": 36.45666666666668,
+        "TestQuantizeFx": 36.456666666666685,
         "TestQuantizeFxModels": 5.771333333333334,
         "TestQuantizeFxOps": 211.67500000000004,
         "TestQuantizeJit": 17.146,
         "TestQuantizeJitOps": 194.83366666666666,
-        "TestQuantizeJitPasses": 4.816666666666667,
+        "TestQuantizeJitPasses": 4.816666666666666,
         "TestQuantizePT2E": 43.17066666666667,
         "TestQuantizePT2EQATModels": 0.002,
-        "TestQuantizePT2EQAT_ConvBn1d": 278.351,
+        "TestQuantizePT2EQAT_ConvBn1d": 278.35100000000006,
         "TestQuantizePT2EQAT_ConvBn2d": 278.09666666666664,
         "TestQuantizePT2EX86Inductor": 73.05600000000001,
         "TestQuantizedConv": 36.79333333333334,
@@ -51682,7 +51682,7 @@
         "TestReferenceQuantizedModule": 0.04066666666666666,
         "TestSerialization": 1.4916666666666665,
         "TestStaticQuantizedModule": 125.444,
-        "TestSubgraphRewriter": 1.1803333333333332,
+        "TestSubgraphRewriter": 1.1803333333333335,
         "TestUtils": 0.018666666666666668,
         "TestXNNPACKQuantizer": 36.050666666666665,
         "TestXNNPACKQuantizerModels": 2.8729999999999998
@@ -51740,7 +51740,7 @@
         "TestTensorProtoSummary": 0.011333333333333334
       },
       "test_tensorexpr": {
-        "TestTensorExprFuser": 46.69733333333332
+        "TestTensorExprFuser": 46.697333333333326
       },
       "test_tensorexpr_pybind": {
         "TestExprHandlePyBind": 0.008,
@@ -51850,7 +51850,7 @@
         "TestArgmaxArgminCommon": 0.053000000000000026,
         "TestArgmin": 0.9453333333333339,
         "TestArrayAttributeDeletion": 0.007,
-        "TestArrayConstruction": 0.04566666666666667,
+        "TestArrayConstruction": 0.04566666666666668,
         "TestArrayCreationCopyArgument": 0.0,
         "TestAssignment": 0.011000000000000001,
         "TestAttributes": 0.026000000000000006,
@@ -51878,7 +51878,7 @@
         "TestMatmulOperator": 0.2406666666666667,
         "TestMethods": 1.1873333333333336,
         "TestMinMax": 0.005,
-        "TestMinScalarType": 0.006000000000000001,
+        "TestMinScalarType": 0.005999999999999999,
         "TestNewaxis": 0.0033333333333333335,
         "TestPEP3118Dtype": 0.0,
         "TestPutmask": 0.010333333333333333,
@@ -51957,7 +51957,7 @@
       },
       "torch_np/numpy_tests/core/test_scalarmath": {
         "TestAbs": 0.08699999999999998,
-        "TestBaseMath": 7.520666666666667,
+        "TestBaseMath": 7.520666666666666,
         "TestBitShifts": 0.07833333333333332,
         "TestComplexDivision": 0.06166666666666667,
         "TestConversion": 0.04700000000000001,
@@ -52078,7 +52078,7 @@
         "TestVsplit": 0.008
       },
       "torch_np/numpy_tests/lib/test_twodim_base": {
-        "TestDiag": 0.026333333333333334,
+        "TestDiag": 0.026333333333333337,
         "TestEye": 0.2826666666666667,
         "TestFliplr": 0.005,
         "TestFlipud": 0.004666666666666667,
@@ -52118,7 +52118,7 @@
         "TestEigvals": 0.06966666666666667,
         "TestEigvalsh": 0.022666666666666672,
         "TestEigvalshCases": 0.0,
-        "TestInv": 0.044333333333333336,
+        "TestInv": 0.04433333333333334,
         "TestLstsq": 0.1743333333333333,
         "TestMatrixRank": 0.32666666666666666,
         "TestMisc": 0.01933333333333333,
@@ -52221,16 +52221,16 @@
         "TestTorchrun": 1.782
       },
       "benchmark_utils/test_benchmark_utils": {
-        "TestBenchmarkUtils": 1.5286666666666664
+        "TestBenchmarkUtils": 1.5286666666666668
       },
       "distributions/test_distributions": {
-        "TestAgainstScipy": 1.0483333333333331,
+        "TestAgainstScipy": 1.0483333333333333,
         "TestConstraints": 0.12433333333333334,
         "TestDistributionShapes": 0.11166666666666673,
         "TestDistributions": 43.217333333333336,
         "TestFunctors": 0.008,
         "TestJit": 19.396000000000004,
-        "TestKL": 2.5369999999999995,
+        "TestKL": 2.537,
         "TestLazyLogitsInitialization": 0.011000000000000001,
         "TestNumericalStability": 0.05966666666666668,
         "TestRsample": 0.6083333333333333,
@@ -52277,7 +52277,7 @@
         "PublicTorchCompilerTests": 0.002
       },
       "dynamo/test_comptime": {
-        "ComptimeTests": 0.48400000000000015
+        "ComptimeTests": 0.48400000000000004
       },
       "dynamo/test_config": {
         "ConfigTests": 0.4606666666666667
@@ -52302,7 +52302,7 @@
         "DynamicShapesAotAutogradFallbackTests": 31.096666666666664,
         "DynamicShapesCtxManagerTests": 9.615666666666668,
         "DynamicShapesExportTests": 30.936000000000003,
-        "DynamicShapesFuncTorchHigherOrderOpTests": 97.54533333333336,
+        "DynamicShapesFuncTorchHigherOrderOpTests": 97.54533333333335,
         "DynamicShapesFunctionTests": 80.9163333333333,
         "DynamicShapesHigherOrderOpTests": 17.904333333333337,
         "DynamicShapesMiscTests": 120.84433333333334,
@@ -52358,7 +52358,7 @@
         "InlineInbuiltNNModulesNNModuleTests": 2.907333333333332
       },
       "dynamo/test_input_attr_tracking": {
-        "TestInputAttrTracking": 6.452999999999999
+        "TestInputAttrTracking": 6.453
       },
       "dynamo/test_interop": {
         "InteropTests": 0.4583333333333333
@@ -52454,9 +52454,9 @@
       },
       "export/test_export": {
         "TestDynamismExpression": 0.421,
-        "TestExport": 24.01466666666666,
+        "TestExport": 24.014666666666656,
         "TestExportCustomClass": 0.06066666666666667,
-        "TestOneOffModelExportResult": 1.0446666666666664
+        "TestOneOffModelExportResult": 1.0446666666666666
       },
       "export/test_export_nonstrict": {
         "NonStrictExportTestDynamismExpression": 0.36999999999999994,
@@ -52534,7 +52534,7 @@
         "TestPartitioning": 2.876333333333333
       },
       "functorch/test_control_flow": {
-        "TestControlFlow": 0.6970000000000001,
+        "TestControlFlow": 0.6970000000000002,
         "TestControlFlowTraced": 95.09800000000007
       },
       "functorch/test_dims": {
@@ -52602,7 +52602,7 @@
       },
       "inductor/test_aot_inductor": {
         "AOTInductorTestABICompatibleCpu": 671.1499999999997,
-        "AOTInductorTestABICompatibleCpuWithStackAllocation": 466.5386666666666,
+        "AOTInductorTestABICompatibleCpuWithStackAllocation": 466.53866666666664,
         "AOTInductorTestABICompatibleCpuWithStackAllocationAndMinimalArrayRefInterface": 204.91733333333332,
         "AOTInductorTestABICompatibleCuda": 1257.1036666666666,
         "AOTInductorTestNonABICompatibleCpu": 1409.0556666666664,
@@ -52631,7 +52631,7 @@
         "TestCodegenTriton": 0.19566666666666666
       },
       "inductor/test_compile_worker": {
-        "TestCompileWorker": 8.786999999999999
+        "TestCompileWorker": 8.787
       },
       "inductor/test_compiled_autograd": {
         "TestAutogradWithCompiledAutograd": 293.70000000000033,
@@ -52643,7 +52643,7 @@
         "CompiledOptimizerTests": 1541.1016666666667
       },
       "inductor/test_config": {
-        "TestInductorConfig": 5.183333333333334
+        "TestInductorConfig": 5.1833333333333345
       },
       "inductor/test_control_flow": {
         "CondTests": 76.88866666666668,
@@ -52666,16 +52666,16 @@
         "CudaReproTests": 81.16233333333332
       },
       "inductor/test_cudagraph_trees": {
-        "CudaGraphTreeTests": 68.96933333333332
+        "CudaGraphTreeTests": 68.96933333333334
       },
       "inductor/test_custom_lowering": {
-        "TestCustomLowering": 3.0226666666666664
+        "TestCustomLowering": 3.0226666666666673
       },
       "inductor/test_custom_post_grad_passes": {
         "TestPostGradCustomPrePostPass": 10.030999999999999
       },
       "inductor/test_cutlass_backend": {
-        "TestCutlassBackend": 56.37566666666667
+        "TestCutlassBackend": 56.37566666666666
       },
       "inductor/test_debug_trace": {
         "TestDebugTrace": 11.969
@@ -52929,7 +52929,7 @@
         "TestPruningNN": 0.08200000000000005
       },
       "profiler/test_cpp_thread": {
-        "CppThreadTest": 0.5289999999999999
+        "CppThreadTest": 0.529
       },
       "profiler/test_execution_trace": {
         "TestExecutionTrace": 2.144
@@ -52943,7 +52943,7 @@
       "profiler/test_profiler": {
         "TestExperimentalUtils": 6.739,
         "TestProfiler": 19.652333333333335,
-        "TestProfilerCUDA": 5.645666666666667,
+        "TestProfilerCUDA": 5.645666666666666,
         "TestProfilerITT": 0.002
       },
       "profiler/test_profiler_tree": {
@@ -52972,7 +52972,7 @@
         "TestQuantizedSparseKernels": 0.25733333333333336,
         "TestQuantizedSparseLayers": 0.3236666666666667,
         "TestSaliencyPruner": 0.021333333333333333,
-        "TestScheduler": 0.012333333333333333,
+        "TestScheduler": 0.012333333333333335,
         "TestSparsityUtilFunctions": 0.03,
         "TestWeightNormSparsifier": 0.35633333333333334
       },
@@ -52987,7 +52987,7 @@
         "TestAutogradComplex": 0.004666666666666667,
         "TestAutogradDeviceTypeCUDA": 1.1543333333333334,
         "TestAutogradForwardMode": 0.05133333333333336,
-        "TestAutogradForwardModeBatchedGrad": 0.012666666666666666,
+        "TestAutogradForwardModeBatchedGrad": 0.012666666666666668,
         "TestAutogradFunctional": 8.518666666666666,
         "TestAutogradInferenceMode": 0.024333333333333342,
         "TestAutogradLogging": 0.012666666666666666,
@@ -53053,7 +53053,7 @@
         "TestCudaOptimsCUDA": 2.8409999999999997
       },
       "test_cuda_expandable_segments": {
-        "TestBlockStateAbsorption": 5.467333333333333,
+        "TestBlockStateAbsorption": 5.4673333333333325,
         "TestCuda": 89.18366666666668,
         "TestCudaMallocAsync": 13.221666666666666,
         "TestCudaOptimsCUDA": 2.7726666666666664
@@ -53120,14 +53120,14 @@
         "TestIterDataPipeSingletonConstraint": 0.018666666666666668,
         "TestIterableDataPipeBasic": 0.021666666666666667,
         "TestSerialization": 6.368666666666667,
-        "TestSharding": 0.19833333333333333,
+        "TestSharding": 0.19833333333333336,
         "TestStreamWrapper": 0.209,
         "TestTyping": 0.002
       },
       "test_decomp": {
         "DecompOneOffTestsCUDA": 0.03366666666666667,
         "HasDecompTest": 0.1366666666666667,
-        "TestDecompCUDA": 7899.344666666661
+        "TestDecompCUDA": 7899.3446666666605
       },
       "test_deploy": {
         "TestFreezer": 0.20933333333333334
@@ -53140,7 +53140,7 @@
         "TestTorchDlPackCUDA": 0.2690000000000002
       },
       "test_dynamic_shapes": {
-        "TestDimConstraints": 1.8149999999999997,
+        "TestDimConstraints": 1.8150000000000002,
         "TestFloorDiv": 0.012000000000000002,
         "TestGuardsExpressions": 0.03333333333333333,
         "TestPySymInt": 1.068,
@@ -53253,7 +53253,7 @@
         "TestDict": 0.3103333333333334,
         "TestDtypeAnalysis": 0.11066666666666668,
         "TestEnum": 0.14633333333333334,
-        "TestFreezing": 1.636666666666667,
+        "TestFreezing": 1.6366666666666667,
         "TestFrontend": 0.32499999999999996,
         "TestFrozenOptimizations": 8.172666666666666,
         "TestFunctionalBlocks": 0.005,
@@ -53268,11 +53268,11 @@
         "TestInplaceToFunctionalActivation": 1.4953333333333336,
         "TestIsinstance": 0.1443333333333334,
         "TestJit": 4.069666666666662,
-        "TestJitGeneratedModule": 8.231333333333321,
+        "TestJitGeneratedModule": 8.231333333333323,
         "TestJitProfiler": 0.001,
         "TestJitUtils": 0.011333333333333336,
         "TestList": 0.9286666666666671,
-        "TestLogging": 0.036,
+        "TestLogging": 0.036000000000000004,
         "TestMKLDNNReinplacing": 0.004,
         "TestMisc": 0.2803333333333334,
         "TestMixTracingScripting": 0.8223333333333334,
@@ -53296,7 +53296,7 @@
         "TestRemoveMutation": 0.08766666666666667,
         "TestSaveLoad": 0.326,
         "TestSaveLoadFlatbuffer": 0.25133333333333335,
-        "TestSaveLoadForOpVersion": 1.9016666666666664,
+        "TestSaveLoadForOpVersion": 1.9016666666666666,
         "TestScript": 30.941333333333347,
         "TestScriptDict": 0.01966666666666667,
         "TestScriptList": 0.5526666666666668,
@@ -53331,7 +53331,7 @@
         "TestFuserCommon": 0.12033333333333333,
         "TestNNCOpInfoCUDA": 12.74033333333424,
         "TestTEFuserDynamic": 212.85600000000008,
-        "TestTEFuserStatic": 179.73933333333332
+        "TestTEFuserStatic": 179.7393333333333
       },
       "test_jit_llga_fuser": {
         "TestDynamoAOT": 0.0,
@@ -53358,10 +53358,10 @@
         "LoggingTest": 2.4099999999999997
       },
       "test_masked": {
-        "TestMaskedCUDA": 31.67033333333335
+        "TestMaskedCUDA": 31.670333333333346
       },
       "test_maskedtensor": {
-        "TestBasicsCUDA": 0.19533333333333333,
+        "TestBasicsCUDA": 0.19533333333333336,
         "TestBinary": 0.25733333333333347,
         "TestOperatorsCUDA": 5.584999999999909,
         "TestReductions": 0.05800000000000002,
@@ -53389,7 +53389,7 @@
         "TestOptimizer": 2.546
       },
       "test_model_dump": {
-        "TestModelDump": 0.819
+        "TestModelDump": 0.8190000000000001
       },
       "test_model_exports_to_core_aten": {
         "TestQuantizePT2EModels": 0.11933333333333333
@@ -53405,15 +53405,15 @@
         "TestMonitorTensorboard": 0.15633333333333332
       },
       "test_multiprocessing": {
-        "TestMultiprocessing": 98.80299999999998
+        "TestMultiprocessing": 98.803
       },
       "test_multiprocessing_spawn": {
         "ErrorTest": 0.002,
-        "ForkTest": 0.5966666666666666,
+        "ForkTest": 0.5966666666666667,
         "SpawnTest": 25.249666666666666
       },
       "test_namedtensor": {
-        "TestNamedTensor": 0.586
+        "TestNamedTensor": 0.5860000000000001
       },
       "test_namedtuple_return_api": {
         "TestNamedTupleAPI": 1.5946666666666667
@@ -53426,9 +53426,9 @@
       },
       "test_nestedtensor": {
         "TestNestedTensor": 0.11566666666666674,
-        "TestNestedTensorAutogradCUDA": 0.901666666666667,
+        "TestNestedTensorAutogradCUDA": 0.9016666666666668,
         "TestNestedTensorDeviceTypeCUDA": 1.204333333333332,
-        "TestNestedTensorSubclassCUDA": 9.081666666666658
+        "TestNestedTensorSubclassCUDA": 9.081666666666656
       },
       "test_nn": {
         "TestAddRelu": 0.002,
@@ -53451,7 +53451,7 @@
       },
       "test_ops": {
         "TestCommonCUDA": 2445.7466666666496,
-        "TestCompositeComplianceCUDA": 714.3223333333325,
+        "TestCompositeComplianceCUDA": 714.3223333333326,
         "TestFakeTensorCUDA": 662.0883333333328,
         "TestMathBitsCUDA": 72.36033333333336,
         "TestSelfKwarg": 0.021666666666666667,
@@ -53538,7 +53538,7 @@
         "TestDispatcherPythonBindings": 0.021666666666666667,
         "TestPythonDispatch": 0.2003333333333334,
         "TestPythonDispatcher": 0.004333333333333334,
-        "TestPythonRegistration": 0.9663333333333335,
+        "TestPythonRegistration": 0.9663333333333334,
         "TestWrapperSubclassAliasingCUDA": 0.10333333333333337
       },
       "test_pytree": {
@@ -53559,7 +53559,7 @@
         "TestDistributed": 0.017666666666666667,
         "TestDuplicateDQPass": 2.673,
         "TestDynamicQuantizedModule": 41.788666666666664,
-        "TestDynamicQuantizedOps": 33.49466666666667,
+        "TestDynamicQuantizedOps": 33.494666666666674,
         "TestEqualizeEager": 0.17633333333333337,
         "TestEqualizeFx": 3.031,
         "TestFXGraphMatcher": 1.485,
@@ -53604,7 +53604,7 @@
         "TestQuantizeFxModels": 10.947666666666668,
         "TestQuantizeFxOps": 205.533,
         "TestQuantizeJit": 17.683666666666667,
-        "TestQuantizeJitOps": 198.79066666666668,
+        "TestQuantizeJitOps": 198.79066666666665,
         "TestQuantizeJitPasses": 4.307000000000001,
         "TestQuantizePT2E": 67.30666666666667,
         "TestQuantizePT2EQATModels": 0.002,
@@ -53621,16 +53621,16 @@
         "TestReferenceQuantizedModule": 0.034333333333333334,
         "TestSerialization": 1.4633333333333336,
         "TestStaticQuantizedModule": 101.73633333333332,
-        "TestSubgraphRewriter": 0.48333333333333334,
+        "TestSubgraphRewriter": 0.4833333333333334,
         "TestUtils": 0.014333333333333335,
         "TestXNNPACKQuantizer": 34.02133333333334,
-        "TestXNNPACKQuantizerModels": 2.3053333333333335
+        "TestXNNPACKQuantizerModels": 2.305333333333333
       },
       "test_reductions": {
         "TestReductionsCUDA": 129.55866666666734
       },
       "test_scatter_gather_ops": {
-        "TestScatterGatherCUDA": 57.93833333333334
+        "TestScatterGatherCUDA": 57.93833333333333
       },
       "test_schema_check": {
         "TestSchemaCheck": 0.09733333333333338,
@@ -53660,7 +53660,7 @@
       "test_sparse": {
         "TestSparseAnyCUDA": 412.4423333333328,
         "TestSparseCUDA": 48.06199999999999,
-        "TestSparseLegacyAndDeprecation": 0.034666666666666665,
+        "TestSparseLegacyAndDeprecation": 0.03466666666666667,
         "TestSparseMaskedReductionsCUDA": 2.5623333333333336,
         "TestSparseMeta": 2.983333333333333,
         "TestSparseOneOff": 0.022333333333333334,
@@ -53746,7 +53746,7 @@
         "TestBasicVitalSigns": 0.023000000000000003,
         "TestDevicePrecisionCUDA": 0.057000000000000016,
         "TestTorch": 4.798999999999991,
-        "TestTorchDeviceTypeCUDA": 83.74533333333332,
+        "TestTorchDeviceTypeCUDA": 83.7453333333333,
         "TestVitalSignsCudaCUDA": 0.001
       },
       "test_transformers": {
@@ -53777,7 +53777,7 @@
         "TestBottleneck": 10.155333333333333,
         "TestCheckpoint": 0.15000000000000002,
         "TestCollectEnv": 0.9823333333333334,
-        "TestCppExtensionUtils": 0.025000000000000005,
+        "TestCppExtensionUtils": 0.024999999999999998,
         "TestDataLoaderUtils": 0.2733333333333334,
         "TestDeviceUtilsCUDA": 11.813000000000605,
         "TestExtensionUtils": 0.0036666666666666666,
@@ -53802,7 +53802,7 @@
       },
       "test_xnnpack_integration": {
         "TestXNNPACKConv1dTransformPass": 0.002,
-        "TestXNNPACKOps": 2.8320000000000003,
+        "TestXNNPACKOps": 2.8319999999999994,
         "TestXNNPACKRewritePass": 1.359,
         "TestXNNPACKSerDes": 3.993
       },
@@ -53810,7 +53810,7 @@
         "TestDLPack": 0.0023333333333333335
       },
       "torch_np/numpy_tests/core/test_dtype": {
-        "TestBuiltin": 0.21533333333333335,
+        "TestBuiltin": 0.21533333333333338,
         "TestClassGetItem": 0.0,
         "TestDtypeAttributeDeletion": 0.0003333333333333333,
         "TestFromDTypeAttribute": 0.001,
@@ -53906,7 +53906,7 @@
         "TestBoolScalar": 0.007,
         "TestBroadcast": 0.004,
         "TestClip": 0.15333333333333343,
-        "TestConvolve": 0.013333333333333336,
+        "TestConvolve": 0.013333333333333334,
         "TestCorrelate": 0.02366666666666667,
         "TestCreationFuncs": 0.9136666666666667,
         "TestCross": 0.04033333333333333,
@@ -53962,7 +53962,7 @@
         "TestComplexDivision": 0.05133333333333334,
         "TestConversion": 0.044000000000000004,
         "TestHash": 0.0,
-        "TestModulus": 0.8540000000000001,
+        "TestModulus": 0.854,
         "TestMultiply": 0.001,
         "TestNegative": 0.015666666666666666,
         "TestPower": 0.10633333333333335,
@@ -53974,7 +53974,7 @@
       },
       "torch_np/numpy_tests/core/test_shape_base": {
         "TestAtleast1d": 0.23933333333333331,
-        "TestAtleast2d": 0.013333333333333334,
+        "TestAtleast2d": 0.013333333333333336,
         "TestAtleast3d": 0.013000000000000003,
         "TestBlock": 0.020333333333333346,
         "TestConcatenate": 0.12266666666666674,
@@ -54116,11 +54116,11 @@
         "TestEigh": 0.024000000000000004,
         "TestEighCases": 0.0,
         "TestEigvals": 0.04833333333333334,
-        "TestEigvalsh": 0.02033333333333334,
+        "TestEigvalsh": 0.020333333333333335,
         "TestEigvalshCases": 0.0,
         "TestInv": 0.04700000000000001,
         "TestLstsq": 0.19266666666666665,
-        "TestMatrixRank": 0.29700000000000004,
+        "TestMatrixRank": 0.297,
         "TestMisc": 0.021666666666666667,
         "TestMisc2": 0.0030000000000000005,
         "TestMultiDot": 0.044000000000000004,
@@ -54130,7 +54130,7 @@
         "TestNorm_NonSystematic": 0.0036666666666666666,
         "TestPinv": 0.08933333333333333,
         "TestPinvHermitian": 0.029666666666666664,
-        "TestQR": 0.5376666666666667,
+        "TestQR": 0.5376666666666666,
         "TestSVD": 0.037333333333333336,
         "TestSVDHermitian": 0.085,
         "TestSolve": 0.263,
@@ -56074,7 +56074,7 @@
         "TestVerifier": 0.7180000000000001
       },
       "functorch/test_aotdispatch": {
-        "TestAOTAutograd": 14.872499999999999,
+        "TestAOTAutograd": 14.8725,
         "TestAOTAutogradWithCache": 28.555,
         "TestAOTAutogradWithDynamo": 18.138499999999997,
         "TestAOTDispatch": 0.44199999999999995,
@@ -56195,7 +56195,7 @@
         "TestCppWrapperHipify": 0.43
       },
       "inductor/test_cpu_cpp_wrapper": {
-        "DynamicShapesCppWrapperCpuTests": 1738.1270000000002,
+        "DynamicShapesCppWrapperCpuTests": 1738.127,
         "TestCppWrapper": 1382.1245
       },
       "inductor/test_cpu_repro": {
@@ -56296,7 +56296,7 @@
       },
       "inductor/test_torchinductor_dynamic_shapes": {
         "DynamicShapesCpuTests": 1455.4775,
-        "TestInductorDynamicCPU": 0.026500000000000003
+        "TestInductorDynamicCPU": 0.026500000000000006
       },
       "inductor/test_torchinductor_opinfo": {
         "TestInductorOpInfoCPU": 26221.55599999999
@@ -56796,8 +56796,8 @@
         "TestUnary": 0.32450000000000023
       },
       "test_meta": {
-        "TestMetaCPU": 1417.3759999998772,
-        "TestMetaConverter": 0.10450000000000001
+        "TestMetaCPU": 1417.375999999877,
+        "TestMetaConverter": 0.10450000000000002
       },
       "test_mkl_verbose": {
         "TestMKLVerbose": 3.6255
@@ -56979,8 +56979,8 @@
         "TestPythonPytree": 0.06450000000000003
       },
       "test_quantization": {
-        "TestAOMigrationNNIntrinsic": 0.012499999999999999,
-        "TestAOMigrationNNQuantized": 0.038,
+        "TestAOMigrationNNIntrinsic": 0.0125,
+        "TestAOMigrationNNQuantized": 0.038000000000000006,
         "TestAOMigrationQuantization": 0.0225,
         "TestAOMigrationQuantizationFx": 0.016,
         "TestBackendConfig": 0.037000000000000005,
@@ -56988,21 +56988,21 @@
         "TestBits": 0.004666666666666667,
         "TestBitsCPU": 0.0495,
         "TestComparatorOps": 1.058,
-        "TestDeprecatedJitQuantized": 3.6765000000000003,
+        "TestDeprecatedJitQuantized": 3.6765,
         "TestDistributed": 0.019500000000000003,
         "TestDuplicateDQPass": 2.6255,
         "TestDynamicQuantizedModule": 42.402499999999996,
-        "TestDynamicQuantizedOps": 25.3235,
+        "TestDynamicQuantizedOps": 25.323500000000003,
         "TestEqualizeEager": 0.09,
         "TestEqualizeFx": 5.439500000000001,
         "TestFXGraphMatcher": 1.7070000000000003,
         "TestFXGraphMatcherModels": 8.805499999999999,
-        "TestFXNumericSuiteCoreAPIs": 25.343999999999998,
+        "TestFXNumericSuiteCoreAPIs": 25.344,
         "TestFXNumericSuiteCoreAPIsModels": 33.307,
         "TestFXNumericSuiteNShadows": 36.705999999999996,
         "TestFakeQuantize": 0.22899999999999998,
         "TestFakeQuantizeOps": 1.6265,
-        "TestFloat8DtypeCPU": 0.08550000000000002,
+        "TestFloat8DtypeCPU": 0.0855,
         "TestFloat8DtypeCPUOnlyCPU": 0.8565,
         "TestFuseEager": 2.325,
         "TestFuseFx": 2.3475,
@@ -57027,11 +57027,11 @@
         "TestPadding": 18.5415,
         "TestQNNPackOps": 4.9015,
         "TestQuantizationDocs": 0.1125,
-        "TestQuantizeDynamicJitOps": 1.6535,
-        "TestQuantizeDynamicJitPasses": 4.762499999999999,
+        "TestQuantizeDynamicJitOps": 1.6535000000000002,
+        "TestQuantizeDynamicJitPasses": 4.7625,
         "TestQuantizeEagerOps": 1.2650000000000001,
         "TestQuantizeEagerPTQDynamic": 7.3934999999999995,
-        "TestQuantizeEagerPTQStatic": 25.301000000000002,
+        "TestQuantizeEagerPTQStatic": 25.301,
         "TestQuantizeEagerQAT": 10.0195,
         "TestQuantizeEagerQATNumerics": 1.6965,
         "TestQuantizeFx": 35.443000000000005,
@@ -57045,17 +57045,17 @@
         "TestQuantizePT2EQATModels": 0.002,
         "TestQuantizePT2EQAT_ConvBn1d": 314.461,
         "TestQuantizePT2EQAT_ConvBn2d": 306.616,
-        "TestQuantizePT2EX86Inductor": 90.133,
-        "TestQuantizedConv": 43.40700000000001,
+        "TestQuantizePT2EX86Inductor": 90.13300000000001,
+        "TestQuantizedConv": 43.407000000000004,
         "TestQuantizedEmbeddingOps": 0.6535,
         "TestQuantizedFunctionalOps": 2.107,
-        "TestQuantizedLinear": 15.945,
-        "TestQuantizedOps": 86.541,
+        "TestQuantizedLinear": 15.945000000000002,
+        "TestQuantizedOps": 86.54100000000001,
         "TestQuantizedTensor": 1.5135,
         "TestRecordHistogramObserver": 0.028499999999999998,
         "TestReferenceQuantizedModule": 0.0455,
-        "TestSerialization": 1.6155000000000002,
-        "TestStaticQuantizedModule": 165.01250000000002,
+        "TestSerialization": 1.6155,
+        "TestStaticQuantizedModule": 165.0125,
         "TestSubgraphRewriter": 1.2225000000000001,
         "TestUtils": 0.0175,
         "TestXNNPACKQuantizer": 32.516999999999996,
@@ -59692,7 +59692,7 @@
         "TestAOTDispatch": 0.435,
         "TestAOTExport": 3.0195,
         "TestAOTModuleSimplified": 0.5575,
-        "TestEagerFusionModuleInfoCPU": 1015.1614999999999,
+        "TestEagerFusionModuleInfoCPU": 1015.1615,
         "TestEagerFusionOpInfoCPU": 2696.118500000001,
         "TestPartitioning": 1.1600000000000001,
         "TestPythonKeyCPU": 1.461
@@ -60132,7 +60132,7 @@
       "test_decomp": {
         "DecompOneOffTestsCPU": 0.8320000000000001,
         "HasDecompTest": 0.1515,
-        "TestDecompCPU": 4755.553500000009
+        "TestDecompCPU": 4755.55350000001
       },
       "test_deploy": {
         "TestFreezer": 0.017
@@ -60454,7 +60454,7 @@
       "test_ops": {
         "TestCommonCPU": 1146.7699999999636,
         "TestCompositeComplianceCPU": 665.9039999999985,
-        "TestFakeTensorCPU": 254.22499999999982,
+        "TestFakeTensorCPU": 254.22499999999985,
         "TestMathBitsCPU": 41.12799999999994,
         "TestRefsOpsInfoCPU": 1.193500000000001,
         "TestSelfKwarg": 0.024,
@@ -60555,7 +60555,7 @@
         "TestAOMigrationNNIntrinsic": 0.0145,
         "TestAOMigrationNNQuantized": 0.0475,
         "TestAOMigrationQuantization": 0.024,
-        "TestAOMigrationQuantizationFx": 0.020000000000000004,
+        "TestAOMigrationQuantizationFx": 0.02,
         "TestBackendConfig": 0.04150000000000001,
         "TestBiasCorrectionEager": 1.1345,
         "TestBitsCPU": 0.0955,
@@ -60569,17 +60569,17 @@
         "TestEqualizeFx": 4.8405000000000005,
         "TestFXGraphMatcher": 1.9595,
         "TestFXGraphMatcherModels": 7.6525,
-        "TestFXNumericSuiteCoreAPIs": 25.005,
+        "TestFXNumericSuiteCoreAPIs": 25.005000000000003,
         "TestFXNumericSuiteCoreAPIsModels": 29.6,
         "TestFXNumericSuiteNShadows": 36.968500000000006,
         "TestFakeQuantize": 0.22350000000000003,
-        "TestFakeQuantizeOps": 1.9049999999999998,
+        "TestFakeQuantizeOps": 1.9050000000000002,
         "TestFloat8DtypeCPU": 0.10450000000000001,
         "TestFloat8DtypeCPUOnlyCPU": 0.421,
         "TestFuseEager": 2.0324999999999998,
         "TestFuseFx": 2.0085,
         "TestFusedObsFakeQuant": 0.066,
-        "TestFusedObsFakeQuantModule": 0.16249999999999998,
+        "TestFusedObsFakeQuantModule": 0.1625,
         "TestFusionPasses": 0.025500000000000002,
         "TestFxDetectInputWeightEqualization": 0.1755,
         "TestFxDetectOutliers": 0.20750000000000002,
@@ -60600,14 +60600,14 @@
         "TestQNNPackOps": 5.5855,
         "TestQuantizationDocs": 0.125,
         "TestQuantizeDynamicJitOps": 1.8375,
-        "TestQuantizeDynamicJitPasses": 5.534,
+        "TestQuantizeDynamicJitPasses": 5.534000000000001,
         "TestQuantizeEagerOps": 1.4805,
         "TestQuantizeEagerPTQDynamic": 7.599499999999999,
-        "TestQuantizeEagerPTQStatic": 26.006500000000003,
+        "TestQuantizeEagerPTQStatic": 26.0065,
         "TestQuantizeEagerQAT": 10.374,
         "TestQuantizeEagerQATNumerics": 1.4505,
         "TestQuantizeFx": 36.283500000000004,
-        "TestQuantizeFxModels": 6.0065,
+        "TestQuantizeFxModels": 6.006499999999999,
         "TestQuantizeFxOps": 204.548,
         "TestQuantizeJit": 18.0195,
         "TestQuantizeJitOps": 196.6375,
@@ -60626,8 +60626,8 @@
         "TestRecordHistogramObserver": 0.033499999999999995,
         "TestReferenceQuantizedModule": 0.0475,
         "TestSerialization": 1.5525000000000002,
-        "TestStaticQuantizedModule": 170.2975,
-        "TestSubgraphRewriter": 1.2655,
+        "TestStaticQuantizedModule": 170.29749999999999,
+        "TestSubgraphRewriter": 1.2655000000000003,
         "TestUtils": 0.018500000000000003,
         "TestXNNPACKQuantizer": 35.533,
         "TestXNNPACKQuantizerModels": 3.223
@@ -62820,16 +62820,16 @@
         "TestVerifier": 0.736
       },
       "functorch/test_aotdispatch": {
-        "TestAOTAutograd": 15.398,
+        "TestAOTAutograd": 15.398000000000001,
         "TestAOTAutogradWithCache": 16.847,
         "TestAOTAutogradWithDynamo": 17.389499999999998,
         "TestAOTDispatch": 0.5185,
         "TestAOTExport": 3.0060000000000002,
         "TestAOTModuleSimplified": 0.7305,
         "TestEagerFusionModuleInfoCPU": 988.2194999999999,
-        "TestEagerFusionOpInfoCPU": 2672.8900000000003,
+        "TestEagerFusionOpInfoCPU": 2672.89,
         "TestPartitioning": 1.2890000000000001,
-        "TestPythonKeyCPU": 1.5700000000000003
+        "TestPythonKeyCPU": 1.57
       },
       "functorch/test_control_flow": {
         "TestControlFlow": 0.4915,
@@ -63250,7 +63250,7 @@
         "TestTyping": 0.002
       },
       "test_decomp": {
-        "DecompOneOffTestsCPU": 0.763,
+        "DecompOneOffTestsCPU": 0.7630000000000001,
         "HasDecompTest": 0.1255,
         "TestDecompCPU": 4734.551000000023
       },
@@ -63572,8 +63572,8 @@
         "TestOpenMP_ParallelFor": 5.723
       },
       "test_ops": {
-        "TestCommonCPU": 1169.7109999999552,
-        "TestCompositeComplianceCPU": 673.0539999999964,
+        "TestCommonCPU": 1169.710999999955,
+        "TestCompositeComplianceCPU": 673.0539999999966,
         "TestFakeTensorCPU": 263.92999999999984,
         "TestMathBitsCPU": 43.31599999999995,
         "TestRefsOpsInfoCPU": 1.265500000000001,
@@ -63675,7 +63675,7 @@
         "TestAOMigrationNNQuantized": 0.046000000000000006,
         "TestAOMigrationQuantization": 0.024,
         "TestAOMigrationQuantizationFx": 0.0175,
-        "TestBackendConfig": 0.04900000000000001,
+        "TestBackendConfig": 0.049,
         "TestBiasCorrectionEager": 0.8485,
         "TestBitsCPU": 0.064,
         "TestComparatorOps": 1.127,
@@ -63688,7 +63688,7 @@
         "TestEqualizeFx": 5.077,
         "TestFXGraphMatcher": 2.011,
         "TestFXGraphMatcherModels": 8.1435,
-        "TestFXNumericSuiteCoreAPIs": 26.269000000000002,
+        "TestFXNumericSuiteCoreAPIs": 26.269000000000005,
         "TestFXNumericSuiteCoreAPIsModels": 29.632,
         "TestFXNumericSuiteNShadows": 35.494,
         "TestFakeQuantize": 0.29200000000000004,
@@ -63725,9 +63725,9 @@
         "TestQuantizeEagerPTQStatic": 27.325499999999998,
         "TestQuantizeEagerQAT": 12.134,
         "TestQuantizeEagerQATNumerics": 1.9575,
-        "TestQuantizeFx": 38.54899999999999,
+        "TestQuantizeFx": 38.549,
         "TestQuantizeFxModels": 7.414500000000001,
-        "TestQuantizeFxOps": 247.70000000000002,
+        "TestQuantizeFxOps": 247.70000000000005,
         "TestQuantizeJit": 19.61,
         "TestQuantizeJitOps": 219.921,
         "TestQuantizeJitPasses": 5.575,
@@ -63740,7 +63740,7 @@
         "TestQuantizedEmbeddingOps": 0.6745,
         "TestQuantizedFunctionalOps": 2.7675,
         "TestQuantizedLinear": 14.391499999999999,
-        "TestQuantizedOps": 96.73849999999999,
+        "TestQuantizedOps": 96.73849999999997,
         "TestQuantizedTensor": 1.5255,
         "TestRecordHistogramObserver": 0.0315,
         "TestReferenceQuantizedModule": 0.0545,
@@ -63748,7 +63748,7 @@
         "TestStaticQuantizedModule": 172.344,
         "TestSubgraphRewriter": 1.4205,
         "TestUtils": 0.020500000000000004,
-        "TestXNNPACKQuantizer": 42.572500000000005,
+        "TestXNNPACKQuantizer": 42.5725,
         "TestXNNPACKQuantizerModels": 3.07
       },
       "test_reductions": {
@@ -67492,10 +67492,10 @@
       "functorch/test_aotdispatch": {
         "TestAOTAutograd": 17.536,
         "TestAOTAutogradWithCache": 28.5165,
-        "TestAOTAutogradWithDynamo": 17.147999999999996,
+        "TestAOTAutogradWithDynamo": 17.148,
         "TestAOTDispatch": 0.579,
         "TestAOTExport": 2.423,
-        "TestAOTModuleSimplified": 0.6585000000000001,
+        "TestAOTModuleSimplified": 0.6585,
         "TestEagerFusionModuleInfoCPU": 1010.4319999999999,
         "TestEagerFusionOpInfoCPU": 2693.7324999999964,
         "TestPartitioning": 1.225,
@@ -67619,7 +67619,7 @@
       },
       "inductor/test_cpu_select_algorithm": {
         "TestSelectAlgorithmCPU": 2168.321,
-        "TestSelectAlgorithmDynamicShapesCPU": 2135.6949999999997
+        "TestSelectAlgorithmDynamicShapesCPU": 2135.695
       },
       "inductor/test_custom_lowering": {
         "TestCustomLowering": 0.0055
@@ -67718,7 +67718,7 @@
         "TestInductorDynamicCPU": 0.03650000000000002
       },
       "inductor/test_torchinductor_opinfo": {
-        "TestInductorOpInfoCPU": 26908.659
+        "TestInductorOpInfoCPU": 26908.659000000003
       },
       "inductor/test_triton_extension_backend": {
         "TritonExtensionBackendTests": 1.863
@@ -67972,7 +67972,7 @@
       "test_decomp": {
         "DecompOneOffTestsCPU": 0.6895,
         "HasDecompTest": 0.1575,
-        "TestDecompCPU": 4887.4249999999965
+        "TestDecompCPU": 4887.424999999997
       },
       "test_deploy": {
         "TestFreezer": 0.29100000000000004
@@ -68299,7 +68299,7 @@
       },
       "test_ops": {
         "TestCommonCPU": 1241.7529999999635,
-        "TestCompositeComplianceCPU": 756.9899999999947,
+        "TestCompositeComplianceCPU": 756.9899999999948,
         "TestFakeTensorCPU": 285.9660000000007,
         "TestMathBitsCPU": 43.7945,
         "TestRefsOpsInfoCPU": 1.493500000000001,
@@ -68449,7 +68449,7 @@
         "TestQuantizeDynamicJitOps": 2.455,
         "TestQuantizeDynamicJitPasses": 5.108499999999999,
         "TestQuantizeEagerOps": 1.5445,
-        "TestQuantizeEagerPTQDynamic": 8.584500000000002,
+        "TestQuantizeEagerPTQDynamic": 8.5845,
         "TestQuantizeEagerPTQStatic": 29.058,
         "TestQuantizeEagerQAT": 11.563500000000001,
         "TestQuantizeEagerQATNumerics": 2.0894999999999997,
@@ -68469,7 +68469,7 @@
         "TestQuantizedEmbeddingOps": 1.046,
         "TestQuantizedFunctionalOps": 2.4080000000000004,
         "TestQuantizedLinear": 17.862500000000004,
-        "TestQuantizedOps": 97.25999999999999,
+        "TestQuantizedOps": 97.26,
         "TestQuantizedTensor": 2.1959999999999997,
         "TestRecordHistogramObserver": 0.0335,
         "TestReferenceQuantizedModule": 0.0655,
@@ -72760,8 +72760,8 @@
         "TestDynamoExportDecompSkip": 2.9675
       },
       "onnx/test_fx_to_onnx_with_onnxruntime": {
-        "TORCH_EXPORT_EXPORTEDPROGRAM": 283.85850000000005,
-        "TORCH_NN_MODULE": 314.50649999999996,
+        "TORCH_EXPORT_EXPORTEDPROGRAM": 283.85849999999994,
+        "TORCH_NN_MODULE": 314.5065,
         "TestFxToOnnxFakeTensorWithOnnxRuntime_op_level_debug_False_dynamic_shapes_False_load_checkpoint_during_init_False_export_within_fake_mode_False": 14.609,
         "TestFxToOnnxFakeTensorWithOnnxRuntime_op_level_debug_False_dynamic_shapes_False_load_checkpoint_during_init_False_export_within_fake_mode_True": 14.421,
         "TestFxToOnnxFakeTensorWithOnnxRuntime_op_level_debug_False_dynamic_shapes_False_load_checkpoint_during_init_True_export_within_fake_mode_False": 14.123333333333333,
@@ -84306,7 +84306,7 @@
         "DecoratorTests": 7.217000000000001
       },
       "dynamo/test_deviceguard": {
-        "TestCUDADeviceGuard": 0.0036666666666666666,
+        "TestCUDADeviceGuard": 0.003666666666666667,
         "TestDeviceGuard": 0.017333333333333336
       },
       "dynamo/test_dynamic_shapes": {
@@ -84365,7 +84365,7 @@
         "InlineInbuiltNNModulesFuncTorchHigherOrderOpTests": 11.07433333333333,
         "InlineInbuiltNNModulesFunctionTests": 27.654333333333312,
         "InlineInbuiltNNModulesHigherOrderOpTests": 6.766333333333332,
-        "InlineInbuiltNNModulesMiscTests": 102.43066666666685,
+        "InlineInbuiltNNModulesMiscTests": 102.43066666666687,
         "InlineInbuiltNNModulesNNModuleTests": 23.226333333333326
       },
       "dynamo/test_input_attr_tracking": {
@@ -84506,7 +84506,7 @@
         "TestSafeguard": 0.8213333333333335
       },
       "export/test_schema": {
-        "TestSchema": 0.49699999999999994
+        "TestSchema": 0.49700000000000005
       },
       "export/test_serdes": {
         "SerDesExportPreDispatchTestDynamismExpression": 0.19133333333333333,
@@ -84550,7 +84550,7 @@
       },
       "functorch/test_aotdispatch": {
         "TestAOTAutograd": 32.29699999999999,
-        "TestAOTAutogradWithCache": 15.357333333333331,
+        "TestAOTAutogradWithCache": 15.35733333333333,
         "TestAOTAutogradWithDynamo": 15.255333333333335,
         "TestAOTDispatch": 0.47433333333333333,
         "TestAOTExport": 2.0966666666666667,
@@ -84578,11 +84578,11 @@
         "TestHigherOrderOperatorInteractionCUDA": 0.026666666666666672,
         "TestJacCUDA": 0.653666666666667,
         "TestJvpCUDA": 0.054666666666666676,
-        "TestLinearizeCUDA": 0.229,
+        "TestLinearizeCUDA": 0.22899999999999998,
         "TestMakeFunctional": 0.9416666666666668,
         "TestSliceArgnums": 0.014333333333333337,
         "TestVmapJvpInplaceViewCUDA": 0.018000000000000002,
-        "TestVmapOfGradCUDA": 0.4833333333333334
+        "TestVmapOfGradCUDA": 0.48333333333333334
       },
       "functorch/test_logging": {
         "TestAOTLogging": 0.24266666666666667
@@ -84591,7 +84591,7 @@
         "NoChangeTestCase": 0.3066666666666667,
         "RandomOpTestCase": 0.2793333333333334,
         "ReduceTestCase": 0.07933333333333333,
-        "TestMemoryEfficientOpAuthoring": 12.680333333333332
+        "TestMemoryEfficientOpAuthoring": 12.680333333333335
       },
       "functorch/test_minifier": {
         "TestMinifier": 0.35633333333333345
@@ -84614,7 +84614,7 @@
         "TestVmapAPI": 19.339666666666663,
         "TestVmapBatchedGradientCUDA": 0.22966666666666677,
         "TestVmapDeviceTypeCUDA": 0.023333333333333334,
-        "TestVmapNestedTensorCUDA": 0.27433333333333343,
+        "TestVmapNestedTensorCUDA": 0.2743333333333334,
         "TestVmapOperators": 24.07033333333335,
         "TestVmapOperatorsOpInfoCUDA": 357.72099999999836
       },
@@ -84630,7 +84630,7 @@
         "AOTInductorTestABICompatibleCpuWithStackAllocationAndMinimalArrayRefInterface": 279.84966666666674,
         "AOTInductorTestABICompatibleCuda": 2013.4303333333337,
         "AOTInductorTestNonABICompatibleCpu": 1770.8533333333332,
-        "AOTInductorTestNonABICompatibleCuda": 2940.0419999999995
+        "AOTInductorTestNonABICompatibleCuda": 2940.042
       },
       "inductor/test_benchmark_fusion": {
         "BenchmarkFusionCpuTest": 8.116,
@@ -84646,7 +84646,7 @@
         "TestCKBackend": 0.007333333333333333
       },
       "inductor/test_codecache": {
-        "TestFxGraphCache": 264.3213333333333,
+        "TestFxGraphCache": 264.32133333333326,
         "TestFxGraphCacheHashing": 1.593333333333333,
         "TestUtils": 5.532333333333334,
         "test_codecache": 27.061333333333334
@@ -84664,7 +84664,7 @@
       },
       "inductor/test_compiled_optimizers": {
         "CompiledOptimizerParityTestsCUDA": 933.1176666666667,
-        "CompiledOptimizerTests": 2398.100333333333
+        "CompiledOptimizerTests": 2398.1003333333324
       },
       "inductor/test_config": {
         "TestInductorConfig": 5.964666666666666
@@ -84722,7 +84722,7 @@
         "TestTemplatedSDPA": 0.004333333333333333
       },
       "inductor/test_foreach": {
-        "ForeachTests": 373.7136666666667
+        "ForeachTests": 373.7136666666666
       },
       "inductor/test_fp8": {
         "TestFP8Types": 0.0030000000000000005
@@ -84741,7 +84741,7 @@
       },
       "inductor/test_group_batch_fusion": {
         "TestFindIndependentSubsetGreedy": 0.03833333333333334,
-        "TestGroupBatchFusion": 379.67366666666675,
+        "TestGroupBatchFusion": 379.67366666666663,
         "TestPostGradBatchLinearFusion": 4.538666666666667
       },
       "inductor/test_indexing": {
@@ -84782,7 +84782,7 @@
       },
       "inductor/test_mkldnn_pattern_matcher": {
         "TestDynamicPatternMatcher": 36.77733333333333,
-        "TestPatternMatcher": 352.316
+        "TestPatternMatcher": 352.31600000000003
       },
       "inductor/test_mmdecomp": {
         "TestDecompCUDA": 30.15000000000001
@@ -84841,22 +84841,22 @@
         "TestTorchbind": 7.8933333333333335
       },
       "inductor/test_torchinductor": {
-        "CpuTests": 1430.8838333333335,
+        "CpuTests": 1430.8838333333333,
         "GPUTests": 1094.7704999999999,
         "NanCheckerTest": 1.2268333333333332,
         "RNNTest": 6.360666666666667,
         "SweepInputsCpuTest": 112.79366666666668,
-        "SweepInputsGPUTest": 45.19049999999999,
+        "SweepInputsGPUTest": 45.19050000000001,
         "TestFull": 12.518,
-        "TritonCodeGenTests": 36.092833333333324
+        "TritonCodeGenTests": 36.09283333333334
       },
       "inductor/test_torchinductor_codegen_dynamic_shapes": {
-        "DynamicShapesCodegenCpuTests": 1520.455333333333,
+        "DynamicShapesCodegenCpuTests": 1520.4553333333333,
         "DynamicShapesCodegenGPUTests": 1257.7136666666672
       },
       "inductor/test_torchinductor_dynamic_shapes": {
-        "DynamicShapesCpuTests": 1707.5763333333337,
-        "DynamicShapesGPUTests": 1945.7166666666665,
+        "DynamicShapesCpuTests": 1707.5763333333334,
+        "DynamicShapesGPUTests": 1945.716666666667,
         "TestInductorDynamicCUDA": 96.11599999999999
       },
       "inductor/test_torchinductor_opinfo": {
@@ -84882,7 +84882,7 @@
         "TestUnbackedSymintsCUDA": 66.01366666666667
       },
       "inductor/test_utils": {
-        "TestUtils": 0.343
+        "TestUtils": 0.34299999999999997
       },
       "lazy/test_debug_util": {
         "DebugUtilTest": 0.5866666666666667
@@ -84909,10 +84909,10 @@
       },
       "nn/test_dropout": {
         "TestDropoutNN": 1.1603333333333332,
-        "TestDropoutNNDeviceTypeCUDA": 0.7423333333333333
+        "TestDropoutNNDeviceTypeCUDA": 0.7423333333333334
       },
       "nn/test_embedding": {
-        "TestEmbeddingNN": 1.5563333333333336,
+        "TestEmbeddingNN": 1.5563333333333331,
         "TestEmbeddingNNDeviceTypeCUDA": 19.60800000000001
       },
       "nn/test_init": {
@@ -84933,7 +84933,7 @@
       },
       "nn/test_multihead_attention": {
         "TestMultiheadAttentionNN": 674.2056666666666,
-        "TestMultiheadAttentionNNDeviceTypeCUDA": 35.40966666666667
+        "TestMultiheadAttentionNNDeviceTypeCUDA": 35.409666666666666
       },
       "nn/test_packed_sequence": {
         "PackedSequenceTest": 8.975999999999999
@@ -84959,11 +84959,11 @@
       "profiler/test_memory_profiler": {
         "TestDataFlow": 1.0383333333333333,
         "TestIdentifyGradients": 0.20833333333333334,
-        "TestMemoryProfiler": 0.4306666666666666,
-        "TestMemoryProfilerE2E": 3.1566666666666667
+        "TestMemoryProfiler": 0.4306666666666667,
+        "TestMemoryProfilerE2E": 3.1566666666666676
       },
       "profiler/test_profiler": {
-        "TestExperimentalUtils": 21.25633333333333,
+        "TestExperimentalUtils": 21.256333333333327,
         "TestProfiler": 57.518333333333345,
         "TestProfilerCUDA": 4.087666666666666,
         "TestProfilerITT": 0.003666666666666667
@@ -85009,13 +85009,13 @@
         "TestAutogradComplex": 0.0034999999999999996,
         "TestAutogradDeviceTypeCUDA": 5.411833333333334,
         "TestAutogradForwardMode": 0.0991666666666667,
-        "TestAutogradForwardModeBatchedGrad": 0.012499999999999999,
-        "TestAutogradFunctional": 10.059499999999996,
+        "TestAutogradForwardModeBatchedGrad": 0.012500000000000002,
+        "TestAutogradFunctional": 10.059499999999995,
         "TestAutogradInferenceMode": 0.025000000000000012,
-        "TestAutogradLogging": 0.011666666666666665,
+        "TestAutogradLogging": 0.011666666666666667,
         "TestAutogradMultipleDispatchCUDA": 0.015333333333333332,
         "TestMultithreadAutograd": 0.19050000000000003,
-        "TestNestedCheckpoint": 0.3368333333333333,
+        "TestNestedCheckpoint": 0.3368333333333334,
         "TestSelectiveActivationCheckpoint": 0.10333333333333335
       },
       "test_autograd_fallback": {
@@ -85071,7 +85071,7 @@
       "test_cuda": {
         "TestBlockStateAbsorption": 0.0,
         "TestCuda": 92.5201666666667,
-        "TestCudaMallocAsync": 30.200500000000016,
+        "TestCudaMallocAsync": 30.20050000000001,
         "TestCudaOptimsCUDA": 2.3201666666666667
       },
       "test_cuda_expandable_segments": {
@@ -85093,10 +85093,10 @@
         "TestMessages": 0.004
       },
       "test_cuda_trace": {
-        "TestCudaTrace": 2.4266666666666667
+        "TestCudaTrace": 2.426666666666667
       },
       "test_custom_ops": {
-        "MiniOpTest": 0.5660000000000003,
+        "MiniOpTest": 0.5660000000000002,
         "MiniOpTestOther": 0.05800000000000002,
         "TestCustomOp": 26.319666666666663,
         "TestCustomOpAPI": 0.15066666666666673,
@@ -85109,9 +85109,9 @@
         "TestConcatDataset": 0.009333333333333334,
         "TestConvAfterFork": 0.4363333333333333,
         "TestCustomPinFn": 0.514,
-        "TestDataLoader": 113.46499999999999,
+        "TestDataLoader": 113.46499999999997,
         "TestDataLoaderDeviceTypeCUDA": 0.13733333333333334,
-        "TestDataLoaderPersistentWorkers": 133.23100000000002,
+        "TestDataLoaderPersistentWorkers": 133.231,
         "TestDatasetRandomSplit": 0.041666666666666664,
         "TestDictDataLoader": 0.12866666666666668,
         "TestIndividualWorkerQueue": 0.002,
@@ -85139,9 +85139,9 @@
         "TestTyping": 0.0023333333333333335
       },
       "test_decomp": {
-        "DecompOneOffTestsCUDA": 0.038666666666666676,
+        "DecompOneOffTestsCUDA": 0.03866666666666667,
         "HasDecompTest": 0.14366666666666666,
-        "TestDecompCUDA": 9161.143333333312
+        "TestDecompCUDA": 9161.143333333313
       },
       "test_deploy": {
         "TestFreezer": 0.21633333333333335
@@ -85173,11 +85173,11 @@
         "FakeTensorOperatorInvariants": 0.2816666666666667,
         "FakeTensorPropTest": 0.06466666666666666,
         "FakeTensorSerialization": 0.004,
-        "FakeTensorTest": 0.9710000000000004,
+        "FakeTensorTest": 0.9710000000000002,
         "PropagateRealTensorsFakeTensorConstHandling": 0.10000000000000002,
         "PropagateRealTensorsFakeTensorConverterTest": 0.021333333333333333,
         "PropagateRealTensorsFakeTensorOperatorInvariants": 0.17500000000000004,
-        "PropagateRealTensorsFakeTensorPropTest": 0.043666666666666666,
+        "PropagateRealTensorsFakeTensorPropTest": 0.04366666666666666,
         "PropagateRealTensorsFakeTensorTest": 22.046333333333322
       },
       "test_flop_counter": {
@@ -85216,11 +85216,11 @@
         "TestFXAPIBackwardCompatibility": 0.023000000000000003,
         "TestFunctionalTracing": 0.28733333333333355,
         "TestMatcher": 0.2846666666666667,
-        "TestOperatorSignaturesCUDA": 0.914333333333334,
+        "TestOperatorSignaturesCUDA": 0.9143333333333339,
         "TestPassManager": 0.020000000000000004,
         "TestSourceMatcher": 1.36,
         "TestSubgraphRewriter": 0.25733333333333347,
-        "TestVisionTracing": 231.31399999999996,
+        "TestVisionTracing": 231.314,
         "TypeCheckerTest": 1.969999999999999
       },
       "test_fx_experimental": {
@@ -85240,7 +85240,7 @@
       },
       "test_indexing": {
         "NumpyTestsCUDA": 0.032333333333333346,
-        "TestIndexingCUDA": 1.5749999999999968
+        "TestIndexingCUDA": 1.5749999999999966
       },
       "test_itt": {
         "TestItt": 0.22033333333333335
@@ -85319,7 +85319,7 @@
         "TestSlice": 0.0816666666666667,
         "TestSparse": 0.13133333333333333,
         "TestStringFormatting": 0.0716666666666667,
-        "TestSymbolicShapeAnalysis": 4.611999999999999,
+        "TestSymbolicShapeAnalysis": 4.611999999999998,
         "TestTensorBuiltins": 0.05466666666666666,
         "TestTensorCreationOps": 0.024000000000000004,
         "TestTensorMethods": 0.006666666666666667,
@@ -85343,7 +85343,7 @@
       },
       "test_jit_fuser_te": {
         "TestFuserCommon": 0.23466666666666666,
-        "TestNNCOpInfoCUDA": 15.308333333332257,
+        "TestNNCOpInfoCUDA": 15.308333333332255,
         "TestTEFuserDynamic": 467.9013333333334,
         "TestTEFuserStatic": 559.8353333333333
       },
@@ -85388,7 +85388,7 @@
       },
       "test_meta": {
         "TestMetaCUDA": 2363.5553333332778,
-        "TestMetaConverter": 0.12733333333333333
+        "TestMetaConverter": 0.12733333333333335
       },
       "test_mkl_verbose": {
         "TestMKLVerbose": 4.851
@@ -85400,7 +85400,7 @@
         "TestMKLDNNVerbose": 4.352333333333333
       },
       "test_mobile_optimizer": {
-        "TestOptimizer": 4.118333333333333
+        "TestOptimizer": 4.118333333333332
       },
       "test_model_dump": {
         "TestModelDump": 1.6636666666666666
@@ -85451,7 +85451,7 @@
         "TestFusionEval": 0.2785,
         "TestFusionUtils": 0.0034999999999999996,
         "TestNN": 180.8216666666668,
-        "TestNNDeviceTypeCUDA": 290.02550000000497,
+        "TestNNDeviceTypeCUDA": 290.0255000000049,
         "TestUtils": 0.0026666666666666666
       },
       "test_numba_integration": {
@@ -85466,10 +85466,10 @@
       "test_ops": {
         "TestCommonCUDA": 3466.5203333332934,
         "TestCompositeComplianceCUDA": 663.8804999999978,
-        "TestFakeTensorCUDA": 685.4896666666656,
+        "TestFakeTensorCUDA": 685.4896666666655,
         "TestMathBitsCUDA": 85.40233333333337,
         "TestSelfKwarg": 0.026166666666666668,
-        "TestTagsCUDA": 2.321000000000002
+        "TestTagsCUDA": 2.3210000000000015
       },
       "test_ops_fwd_gradients": {
         "TestFwdGradientsCUDA": 1002.9629999999812
@@ -85503,8 +85503,8 @@
         "TestRNN": 0.07033333333333333,
         "TestResolveName": 0.09899999999999999,
         "TestTorchFunctionMode": 0.033333333333333354,
-        "TestTorchFunctionOverride": 2.361999999999894,
-        "TestTorchFunctionWarning": 0.014333333333333332,
+        "TestTorchFunctionOverride": 2.3619999999998935,
+        "TestTorchFunctionWarning": 0.014333333333333335,
         "TestWrapTorchFunction": 0.0013333333333333333
       },
       "test_package": {
@@ -85519,7 +85519,7 @@
         "TestLoadBCPackages": 0.05266666666666666,
         "TestMangling": 0.015333333333333332,
         "TestMisc": 0.031666666666666676,
-        "TestPackageFX": 0.06033333333333333,
+        "TestPackageFX": 0.06033333333333332,
         "TestPackageScript": 1.6243333333333332,
         "TestRepackage": 0.006666666666666667,
         "TestResources": 0.011333333333333334,
@@ -85539,7 +85539,7 @@
         "TestGenericProxyTensorFake": 20.907666666666668,
         "TestGenericProxyTensorReal": 30.71533333333333,
         "TestGenericProxyTensorSymbolic": 25.627,
-        "TestRealProxyTensor": 0.014333333333333332,
+        "TestRealProxyTensor": 0.014333333333333335,
         "TestSymbolicTracing": 3.758999999999999
       },
       "test_pruning_op": {
@@ -85561,17 +85561,17 @@
         "TestPythonPytree": 0.06000000000000003
       },
       "test_quantization": {
-        "TestAOMigrationNNIntrinsic": 0.014666666666666668,
+        "TestAOMigrationNNIntrinsic": 0.014666666666666666,
         "TestAOMigrationNNQuantized": 0.03133333333333333,
         "TestAOMigrationQuantization": 0.028,
-        "TestAOMigrationQuantizationFx": 0.018333333333333333,
+        "TestAOMigrationQuantizationFx": 0.018333333333333337,
         "TestBackendConfig": 0.04933333333333333,
-        "TestBiasCorrectionEager": 100.512,
+        "TestBiasCorrectionEager": 100.51200000000001,
         "TestBitsCUDA": 0.034,
         "TestComparatorOps": 78.92666666666666,
-        "TestDeprecatedJitQuantized": 1.7793333333333337,
-        "TestDistributed": 0.425,
-        "TestDuplicateDQPass": 3.8509999999999995,
+        "TestDeprecatedJitQuantized": 1.7793333333333334,
+        "TestDistributed": 0.42500000000000004,
+        "TestDuplicateDQPass": 3.8510000000000004,
         "TestDynamicQuantizedModule": 354.35133333333334,
         "TestDynamicQuantizedOps": 1288.7206666666668,
         "TestEqualizeEager": 16.336333333333332,
@@ -85587,23 +85587,23 @@
         "TestFuseEager": 30.357333333333333,
         "TestFuseFx": 4.392666666666666,
         "TestFusedObsFakeQuant": 1.02,
-        "TestFusedObsFakeQuantModule": 1.0999999999999999,
+        "TestFusedObsFakeQuantModule": 1.1,
         "TestFusionPasses": 0.39799999999999996,
         "TestFxDetectInputWeightEqualization": 0.6046666666666668,
         "TestFxDetectOutliers": 23.533,
         "TestFxModelReportClass": 5.771333333333334,
-        "TestFxModelReportDetectDynamicStatic": 1.278,
+        "TestFxModelReportDetectDynamicStatic": 1.2779999999999998,
         "TestFxModelReportDetector": 2.1486666666666667,
         "TestFxModelReportObserver": 5.134666666666667,
         "TestFxModelReportVisualizer": 1.9799999999999998,
         "TestGenerateNumericDebugHandle": 0.995,
-        "TestGraphUtils": 1.589333333333333,
+        "TestGraphUtils": 1.5893333333333333,
         "TestHistogramObserver": 44.10633333333333,
         "TestMetaDataPorting": 7.223000000000002,
         "TestModelNumericsEager": 12.064666666666668,
         "TestNumericSuiteEager": 170.53166666666667,
         "TestObserver": 6.967666666666666,
-        "TestPT2ERepresentation": 23.339000000000002,
+        "TestPT2ERepresentation": 23.339,
         "TestPadding": 54.899,
         "TestQNNPackOps": 31.789,
         "TestQuantizationDocs": 0.8883333333333333,
@@ -85612,26 +85612,26 @@
         "TestQuantizeEagerOps": 12.434333333333333,
         "TestQuantizeEagerPTQDynamic": 85.53066666666666,
         "TestQuantizeEagerPTQStatic": 124.30533333333334,
-        "TestQuantizeEagerQAT": 169.24833333333333,
+        "TestQuantizeEagerQAT": 169.2483333333333,
         "TestQuantizeEagerQATNumerics": 255.85233333333335,
         "TestQuantizeFx": 87.68599999999999,
         "TestQuantizeFxModels": 122.26833333333333,
-        "TestQuantizeFxOps": 308.93199999999996,
+        "TestQuantizeFxOps": 308.932,
         "TestQuantizeJit": 12.474333333333334,
-        "TestQuantizeJitOps": 459.50933333333336,
-        "TestQuantizeJitPasses": 50.56200000000001,
+        "TestQuantizeJitOps": 459.5093333333334,
+        "TestQuantizeJitPasses": 50.56199999999999,
         "TestQuantizePT2E": 76.66066666666666,
         "TestQuantizePT2EQATModels": 0.0023333333333333335,
         "TestQuantizePT2EQAT_ConvBn1d": 564.5203333333333,
         "TestQuantizePT2EQAT_ConvBn2d": 647.801,
-        "TestQuantizePT2EX86Inductor": 150.43399999999997,
+        "TestQuantizePT2EX86Inductor": 150.434,
         "TestQuantizedConv": 377.21599999999995,
         "TestQuantizedEmbeddingOps": 20.756333333333334,
         "TestQuantizedFunctionalOps": 23.12166666666667,
         "TestQuantizedLinear": 428.79433333333327,
         "TestQuantizedOps": 2296.481,
         "TestQuantizedTensor": 12.613333333333332,
-        "TestRecordHistogramObserver": 0.04866666666666667,
+        "TestRecordHistogramObserver": 0.048666666666666664,
         "TestReferenceQuantizedModule": 1.4066666666666665,
         "TestSerialization": 8.313,
         "TestStaticQuantizedModule": 1658.185666666667,
@@ -85651,13 +85651,13 @@
         "TestSchemaCheckModeOpInfoCUDA": 418.00533333332197
       },
       "test_segment_reductions": {
-        "TestSegmentReductionsCUDA": 1.9863333333333335
+        "TestSegmentReductionsCUDA": 1.9863333333333337
       },
       "test_serialization": {
         "TestBothSerializationCUDA": 0.121,
         "TestOldSerialization": 22.729666666666663,
         "TestSerialization": 8.823333333333327,
-        "TestSubclassSerialization": 0.030666666666666672
+        "TestSubclassSerialization": 0.030666666666666675
       },
       "test_set_default_mobile_cpu_allocator": {
         "TestSetDefaultMobileCPUAllocator": 0.4143333333333334
@@ -85709,7 +85709,7 @@
         "TestSingletonInt": 0.005333333333333333,
         "TestSympyInterp": 8.434666666666667,
         "TestSympySolve": 0.16966666666666672,
-        "TestValueRanges": 5.968666666666663
+        "TestValueRanges": 5.968666666666664
       },
       "test_tensor_creation_ops": {
         "TestAsArrayCUDA": 0.5110000000000005,
@@ -85757,7 +85757,7 @@
         "TestTestingCUDA": 0.5143333333333334
       },
       "test_torch": {
-        "TestBasicVitalSigns": 0.02283333333333333,
+        "TestBasicVitalSigns": 0.022833333333333334,
         "TestDevicePrecisionCUDA": 0.07033333333333336,
         "TestTorch": 6.85166666666666,
         "TestTorchDeviceTypeCUDA": 271.1963333333345,
@@ -85787,7 +85787,7 @@
         "TestUnaryUfuncsCUDA": 506.5613333333162
       },
       "test_utils": {
-        "TestAssert": 0.05933333333333333,
+        "TestAssert": 0.05933333333333334,
         "TestBottleneck": 32.65866666666667,
         "TestCheckpoint": 0.6446666666666667,
         "TestCollectEnv": 1.276,
@@ -85854,14 +85854,14 @@
         "TestFancyIndexingCast": 0.004333333333333334,
         "TestFloatNonIntegerArgument": 0.006999999999999999,
         "TestIndexing": 0.7600000000000001,
-        "TestMultiIndexingAutomated": 0.007,
+        "TestMultiIndexingAutomated": 0.006999999999999999,
         "TestMultipleEllipsisError": 0.0013333333333333333,
         "TestNonIntegerArrayLike": 0.0003333333333333333
       },
       "torch_np/numpy_tests/core/test_multiarray": {
         "TestArange": 0.017333333333333336,
-        "TestArgmax": 1.0093333333333339,
-        "TestArgmaxArgminCommon": 0.03533333333333335,
+        "TestArgmax": 1.009333333333334,
+        "TestArgmaxArgminCommon": 0.03533333333333334,
         "TestArgmin": 1.0060000000000007,
         "TestArrayAttributeDeletion": 0.005333333333333333,
         "TestArrayConstruction": 0.04300000000000001,
@@ -85915,7 +85915,7 @@
         "TestArrayComparisons": 0.009000000000000001,
         "TestBaseRepr": 0.004,
         "TestBinaryRepr": 0.006000000000000001,
-        "TestBoolArray": 1.8579999999999997,
+        "TestBoolArray": 1.8579999999999999,
         "TestBoolCmp": 0.11133333333333333,
         "TestBoolScalar": 0.007666666666666666,
         "TestBroadcast": 0.004,
@@ -86036,7 +86036,7 @@
         "TestFlip": 0.01966666666666667,
         "TestGradient": 0.09300000000000001,
         "TestInsert": 0.007,
-        "TestInterp": 0.0756666666666667,
+        "TestInterp": 0.07566666666666669,
         "TestKaiser": 0.007,
         "TestMedian": 0.06933333333333334,
         "TestMeshgrid": 0.036000000000000004,
@@ -86082,7 +86082,7 @@
         "TestDstack": 0.012666666666666668,
         "TestExpandDims": 0.004666666666666667,
         "TestHsplit": 0.009333333333333334,
-        "TestKron": 0.008666666666666666,
+        "TestKron": 0.008666666666666668,
         "TestMayShareMemory": 0.001,
         "TestPutAlongAxis": 0.007333333333333333,
         "TestSplit": 0.004333333333333334,
@@ -86137,7 +86137,7 @@
         "TestMatrixRank": 0.232,
         "TestMisc": 0.02033333333333333,
         "TestMisc2": 0.017,
-        "TestMultiDot": 0.07266666666666668,
+        "TestMultiDot": 0.07266666666666667,
         "TestNormDouble": 0.5133333333333333,
         "TestNormInt64": 0.514,
         "TestNormSingle": 0.522,
@@ -86178,16 +86178,16 @@
         "TestConvertDType": 0.24233333333333337
       },
       "torch_np/test_function_base": {
-        "TestAppend": 0.32833333333333337
+        "TestAppend": 0.3283333333333333
       },
       "torch_np/test_ndarray_methods": {
         "TestAmax": 0.005333333333333333,
         "TestAmin": 0.005333333333333333,
         "TestArgmax": 0.645666666666667,
-        "TestArgmaxArgminCommon": 0.03333333333333333,
+        "TestArgmaxArgminCommon": 0.03333333333333334,
         "TestArgmin": 0.7246666666666671,
         "TestContains": 0.0013333333333333333,
-        "TestIndexing": 0.20866666666666667,
+        "TestIndexing": 0.2086666666666667,
         "TestIter": 0.0033333333333333335,
         "TestNoExtraMethods": 0.006000000000000001,
         "TestNonzero": 0.10166666666666667,
@@ -86202,7 +86202,7 @@
       "torch_np/test_random": {
         "TestChoice": 0.008,
         "TestNumpyGlobal": 0.0030000000000000005,
-        "TestScalarReturn": 0.24733333333333332,
+        "TestScalarReturn": 0.24733333333333338,
         "TestShuffle": 0.010000000000000002
       },
       "torch_np/test_reductions": {
@@ -86211,7 +86211,7 @@
         "TestFlatnonzero": 0.1366666666666667,
         "TestGenericCumSumProd": 0.013000000000000003,
         "TestGenericReductions": 1.5063333333333115,
-        "TestMean": 0.057999999999999996,
+        "TestMean": 0.058,
         "TestSum": 0.14233333333333334
       },
       "torch_np/test_scalars_0D_arrays": {
@@ -89382,16 +89382,16 @@
         "TestVerifier": 1.3155000000000001
       },
       "functorch/test_aotdispatch": {
-        "TestAOTAutograd": 29.827500000000004,
-        "TestAOTAutogradWithCache": 33.369499999999995,
+        "TestAOTAutograd": 29.8275,
+        "TestAOTAutogradWithCache": 33.3695,
         "TestAOTAutogradWithDynamo": 35.829499999999996,
-        "TestAOTDispatch": 1.3914999999999997,
-        "TestAOTExport": 4.636000000000001,
+        "TestAOTDispatch": 1.3915,
+        "TestAOTExport": 4.635999999999999,
         "TestAOTModuleSimplified": 1.1895,
         "TestEagerFusionModuleInfoCPU": 1974.2664999999997,
         "TestEagerFusionOpInfoCPU": 4500.824499999999,
         "TestPartitioning": 2.077,
-        "TestPythonKeyCPU": 4.0615000000000006
+        "TestPythonKeyCPU": 4.0615
       },
       "functorch/test_control_flow": {
         "TestControlFlow": 1.0269999999999997,
@@ -89451,7 +89451,7 @@
         "TestVmapBatchedGradientCPU": 0.467,
         "TestVmapDeviceTypeCPU": 0.051000000000000004,
         "TestVmapNestedTensorCPU": 0.1005,
-        "TestVmapOperators": 9.178999999999997,
+        "TestVmapOperators": 9.178999999999998,
         "TestVmapOperatorsOpInfoCPU": 2151.187499999999
       },
       "functorch/test_vmap_registrations": {
@@ -89597,7 +89597,7 @@
         "TestFull": 19.396
       },
       "inductor/test_torchinductor_codegen_dynamic_shapes": {
-        "DynamicShapesCodegenCpuTests": 2242.059499999999
+        "DynamicShapesCodegenCpuTests": 2242.0594999999994
       },
       "inductor/test_torchinductor_opinfo": {
         "TestInductorOpInfoCPU": 1.452499999999936
@@ -90058,9 +90058,9 @@
       "test_jit_fuser_te": {
         "TestFuserCommon": 0.4395,
         "TestLoopnestRandomizationCPU": 0.001,
-        "TestNNCOpInfoCPU": 17.823999999999756,
+        "TestNNCOpInfoCPU": 17.823999999999753,
         "TestTEFuserDynamic": 715.9789999999998,
-        "TestTEFuserStatic": 783.1094999999998
+        "TestTEFuserStatic": 783.1094999999997
       },
       "test_jit_llga_fuser": {
         "TestDynamoAOT": 0.001,
@@ -90180,7 +90180,7 @@
         "TestOpenMP_ParallelFor": 0.001
       },
       "test_ops": {
-        "TestCommonCPU": 3285.1479999999533,
+        "TestCommonCPU": 3285.1479999999538,
         "TestCompositeComplianceCPU": 1811.4479999999967,
         "TestFakeTensorCPU": 502.1110000000007,
         "TestMathBitsCPU": 109.86100000000008,
@@ -90192,10 +90192,10 @@
         "TestFwdGradientsCPU": 2426.740500000012
       },
       "test_ops_gradients": {
-        "TestBwdGradientsCPU": 3193.2149999999638
+        "TestBwdGradientsCPU": 3193.214999999964
       },
       "test_ops_jit": {
-        "TestJitCPU": 5895.336
+        "TestJitCPU": 5895.335999999999
       },
       "test_optim": {
         "TestDifferentiableOptimizer": 0.5965,
@@ -90282,9 +90282,9 @@
       "test_quantization": {
         "TestAOMigrationNNIntrinsic": 0.0225,
         "TestAOMigrationNNQuantized": 0.0415,
-        "TestAOMigrationQuantization": 0.027500000000000004,
+        "TestAOMigrationQuantization": 0.0275,
         "TestAOMigrationQuantizationFx": 0.031,
-        "TestBackendConfig": 0.081,
+        "TestBackendConfig": 0.08100000000000002,
         "TestBiasCorrectionEager": 3.867,
         "TestBits": 0.007666666666666666,
         "TestBitsCPU": 0.2465,
@@ -90295,11 +90295,11 @@
         "TestDynamicQuantizedModule": 55.873000000000005,
         "TestDynamicQuantizedOps": 12.0315,
         "TestEqualizeEager": 0.202,
-        "TestEqualizeFx": 10.936000000000002,
+        "TestEqualizeFx": 10.936,
         "TestFXGraphMatcher": 2.76,
         "TestFXGraphMatcherModels": 13.684999999999999,
         "TestFXNumericSuiteCoreAPIs": 76.2705,
-        "TestFXNumericSuiteCoreAPIsModels": 95.24549999999999,
+        "TestFXNumericSuiteCoreAPIsModels": 95.2455,
         "TestFXNumericSuiteNShadows": 97.72550000000001,
         "TestFakeQuantize": 0.6315000000000001,
         "TestFakeQuantizeOps": 3.7424999999999997,
@@ -90312,21 +90312,21 @@
         "TestFusionPasses": 0.081,
         "TestFxDetectInputWeightEqualization": 0.35050000000000003,
         "TestFxDetectOutliers": 0.696,
-        "TestFxModelReportClass": 1.2850000000000001,
+        "TestFxModelReportClass": 1.285,
         "TestFxModelReportDetectDynamicStatic": 0.14,
-        "TestFxModelReportDetector": 0.36750000000000005,
+        "TestFxModelReportDetector": 0.3675,
         "TestFxModelReportObserver": 0.7745,
         "TestFxModelReportVisualizer": 0.403,
         "TestGenerateNumericDebugHandle": 2.5345,
         "TestGraphUtils": 1.786,
         "TestHistogramObserver": 154.758,
-        "TestMetaDataPorting": 23.303,
+        "TestMetaDataPorting": 23.302999999999997,
         "TestModelNumericsEager": 2.2555,
         "TestNumericSuiteEager": 22.989000000000004,
         "TestObserver": 16.4465,
         "TestPT2ERepresentation": 64.078,
         "TestPadding": 77.181,
-        "TestQNNPackOps": 0.01,
+        "TestQNNPackOps": 0.010000000000000002,
         "TestQuantizationDocs": 0.485,
         "TestQuantizeDynamicJitOps": 7.275,
         "TestQuantizeDynamicJitPasses": 13.768999999999998,
@@ -90341,16 +90341,16 @@
         "TestQuantizeJit": 61.087999999999994,
         "TestQuantizeJitOps": 801.0675000000001,
         "TestQuantizeJitPasses": 21.917,
-        "TestQuantizePT2E": 93.5115,
+        "TestQuantizePT2E": 93.51149999999998,
         "TestQuantizePT2EQAT": 78.517,
         "TestQuantizePT2EQATModels": 0.002,
-        "TestQuantizePT2EQAT_ConvBn1d": 497.58149999999995,
+        "TestQuantizePT2EQAT_ConvBn1d": 497.5815,
         "TestQuantizePT2EQAT_ConvBn2d": 514.2105,
-        "TestQuantizePT2EX86Inductor": 160.244,
+        "TestQuantizePT2EX86Inductor": 160.24399999999997,
         "TestQuantizedConv": 68.9175,
         "TestQuantizedEmbeddingOps": 1.548,
         "TestQuantizedFunctionalOps": 0.8644999999999999,
-        "TestQuantizedLinear": 37.887499999999996,
+        "TestQuantizedLinear": 37.8875,
         "TestQuantizedOps": 352.8925,
         "TestQuantizedTensor": 7.836499999999999,
         "TestRecordHistogramObserver": 0.10400000000000001,
@@ -93211,7 +93211,7 @@
         "TestAOTDispatch": 0.5315000000000001,
         "TestAOTExport": 2.2615,
         "TestAOTModuleSimplified": 0.6984999999999999,
-        "TestEagerFusionModuleInfoCPU": 943.3310000000004,
+        "TestEagerFusionModuleInfoCPU": 943.3310000000002,
         "TestEagerFusionOpInfoCPU": 2463.1899999999996,
         "TestPartitioning": 1.173,
         "TestPythonKeyCPU": 1.182
@@ -93327,7 +93327,7 @@
       },
       "inductor/test_cpu_cpp_wrapper": {
         "DynamicShapesCppWrapperCpuTests": 1626.3215,
-        "TestCppWrapper": 1255.6209999999999
+        "TestCppWrapper": 1255.621
       },
       "inductor/test_cpu_repro": {
         "CPUReproTests": 677.031
@@ -94115,7 +94115,7 @@
       "test_quantization": {
         "TestAOMigrationNNIntrinsic": 0.014,
         "TestAOMigrationNNQuantized": 0.05900000000000001,
-        "TestAOMigrationQuantization": 0.020500000000000004,
+        "TestAOMigrationQuantization": 0.0205,
         "TestAOMigrationQuantizationFx": 0.0215,
         "TestBackendConfig": 0.044,
         "TestBiasCorrectionEager": 0.7164999999999999,
@@ -94183,7 +94183,7 @@
         "TestQuantizedConv": 54.662499999999994,
         "TestQuantizedEmbeddingOps": 0.9480000000000002,
         "TestQuantizedFunctionalOps": 3.253,
-        "TestQuantizedLinear": 15.569999999999999,
+        "TestQuantizedLinear": 15.57,
         "TestQuantizedOps": 90.3745,
         "TestQuantizedTensor": 1.608,
         "TestRecordHistogramObserver": 0.0315,
@@ -101068,7 +101068,7 @@
         "test_constraints": 0.01066666666666667
       },
       "distributions/test_distributions": {
-        "TestAgainstScipy": 0.44,
+        "TestAgainstScipy": 0.4400000000000001,
         "TestConstraints": 0.043333333333333335,
         "TestDistributionShapes": 0.05733333333333337,
         "TestDistributions": 19.19266666666667,
@@ -101087,7 +101087,7 @@
         "TestAfterAot": 4.338333333333333
       },
       "dynamo/test_aot_autograd": {
-        "AotAutogradFallbackTests": 6.825333333333333
+        "AotAutogradFallbackTests": 6.825333333333332
       },
       "dynamo/test_aot_autograd_cache": {
         "AOTAutogradCachePicklerTests": 0.19166666666666665,
@@ -101134,7 +101134,7 @@
       },
       "dynamo/test_deviceguard": {
         "TestCUDADeviceGuard": 0.0003333333333333333,
-        "TestDeviceGuard": 0.07100000000000001
+        "TestDeviceGuard": 0.071
       },
       "dynamo/test_dynamic_shapes": {
         "DynamicShapesAotAutogradFallbackTests": 15.006333333333332,
@@ -101202,7 +101202,7 @@
         "InteropTests": 0.39066666666666666
       },
       "dynamo/test_logging": {
-        "LoggingTests": 9.533666666666669
+        "LoggingTests": 9.533666666666667
       },
       "dynamo/test_minifier": {
         "MinifierTests": 0.8446666666666666
@@ -101238,7 +101238,7 @@
         "RecompileUxTests": 0.503
       },
       "dynamo/test_recompiles": {
-        "RecompileTests": 0.5876666666666668
+        "RecompileTests": 0.5876666666666667
       },
       "dynamo/test_reorder_logs": {
         "ReorderLogsTests": 0.37433333333333335
@@ -101334,7 +101334,7 @@
       },
       "export/test_serialize": {
         "TestDeserialize": 0.05400000000000004,
-        "TestSaveLoad": 0.19133333333333333,
+        "TestSaveLoad": 0.19133333333333336,
         "TestSchemaVersioning": 0.016666666666666666,
         "TestSerialize": 0.6056666666666668,
         "TestSerializeCustomClass": 0.002
@@ -101362,7 +101362,7 @@
       "functorch/test_aotdispatch": {
         "TestAOTAutograd": 6.696666666666665,
         "TestAOTAutogradWithCache": 6.813333333333333,
-        "TestAOTAutogradWithDynamo": 7.664666666666666,
+        "TestAOTAutogradWithDynamo": 7.664666666666665,
         "TestAOTDispatch": 0.21233333333333335,
         "TestAOTExport": 0.9926666666666669,
         "TestAOTModuleSimplified": 0.306,
@@ -101429,7 +101429,7 @@
         "TestVmapBatchedGradientCPU": 0.05833333333333337,
         "TestVmapDeviceTypeCPU": 0.008666666666666668,
         "TestVmapNestedTensorCPU": 0.022333333333333344,
-        "TestVmapOperators": 1.0823333333333331,
+        "TestVmapOperators": 1.0823333333333334,
         "TestVmapOperatorsOpInfoCPU": 338.6763333333322
       },
       "functorch/test_vmap_registrations": {
@@ -101522,7 +101522,7 @@
         "DynamicShapesCodegenCpuTests": 636.9670000000002
       },
       "inductor/test_torchinductor_dynamic_shapes": {
-        "DynamicShapesCpuTests": 662.5693333333332,
+        "DynamicShapesCpuTests": 662.5693333333334,
         "TestInductorDynamicCPU": 0.004
       },
       "inductor/test_torchinductor_opinfo": {
@@ -101585,7 +101585,7 @@
       },
       "nn/test_multihead_attention": {
         "TestMultiheadAttentionNN": 10.034999999999998,
-        "TestMultiheadAttentionNNDeviceTypeCPU": 0.01966666666666667
+        "TestMultiheadAttentionNNDeviceTypeCPU": 0.019666666666666673
       },
       "nn/test_packed_sequence": {
         "PackedSequenceTest": 0.20400000000000004
@@ -101634,7 +101634,7 @@
         "TestBaseDataScheduler": 0.011000000000000001,
         "TestBaseDataSparsifier": 0.028999999999999998,
         "TestBaseSparsifier": 0.013333333333333334,
-        "TestBaseStructuredSparsifier": 0.6970000000000001,
+        "TestBaseStructuredSparsifier": 0.6970000000000002,
         "TestCubicScheduler": 0.0026666666666666666,
         "TestFPGMPruner": 0.011666666666666667,
         "TestFakeSparsity": 0.05966666666666667,
@@ -101649,7 +101649,7 @@
         "TestWeightNormSparsifier": 0.08933333333333333
       },
       "test_autocast": {
-        "TestAutocastCPU": 0.49666666666666676,
+        "TestAutocastCPU": 0.49666666666666665,
         "TestAutocastGPU": 0.0,
         "TestTorchAutocast": 0.0030000000000000005
       },
@@ -101704,7 +101704,7 @@
         "TestTorchLibrary": 0.0
       },
       "test_cpp_extensions_jit": {
-        "TestCppExtensionJIT": 89.84733333333334
+        "TestCppExtensionJIT": 89.84733333333332
       },
       "test_cpp_extensions_mtia_backend": {
         "TestCppExtensionMTIABackend": 0.0
@@ -101721,7 +101721,7 @@
       "test_custom_ops": {
         "MiniOpTest": 0.45666666666666683,
         "MiniOpTestOther": 0.03266666666666668,
-        "TestCustomOp": 6.45300000000001,
+        "TestCustomOp": 6.453000000000011,
         "TestCustomOpAPI": 0.0786666666666667,
         "TestCustomOpTestingCPU": 0.8350000000000001,
         "TestCustomOperators": 0.17266666666666666,
@@ -101778,7 +101778,7 @@
         "TestTorchDlPackCPU": 0.12966666666666674
       },
       "test_dynamic_shapes": {
-        "TestDimConstraints": 1.053,
+        "TestDimConstraints": 1.0530000000000002,
         "TestFloorDiv": 0.007333333333333333,
         "TestGuardsExpressions": 0.029333333333333333,
         "TestPySymInt": 0.7383333333333336,
@@ -101837,14 +101837,14 @@
         "TestConstFold": 0.06833333333333336,
         "TestConstParamShapeInControlFlow": 0.018,
         "TestDCE": 0.014,
-        "TestFX": 3.646333333333317,
+        "TestFX": 3.646333333333318,
         "TestFXAPIBackwardCompatibility": 0.012000000000000002,
         "TestFunctionalTracing": 0.19400000000000014,
-        "TestMatcher": 0.49333333333333346,
+        "TestMatcher": 0.4933333333333334,
         "TestOperatorSignaturesCPU": 1.0416666666666652,
         "TestPassManager": 0.011000000000000003,
         "TestSourceMatcher": 0.5566666666666666,
-        "TestSubgraphRewriter": 0.12033333333333339,
+        "TestSubgraphRewriter": 0.12033333333333336,
         "TypeCheckerTest": 0.10233333333333335
       },
       "test_fx_experimental": {
@@ -101901,10 +101901,10 @@
         "TestGraphRewritePasses": 0.017333333333333336,
         "TestHash": 0.029333333333333333,
         "TestHooks": 0.2960000000000001,
-        "TestIgnorableArgs": 0.006333333333333334,
+        "TestIgnorableArgs": 0.006333333333333333,
         "TestIgnoreContextManager": 0.0,
         "TestInplaceToFunctionalActivation": 0.019,
-        "TestIsinstance": 0.1036666666666667,
+        "TestIsinstance": 0.10366666666666668,
         "TestJit": 3.198999999999995,
         "TestJitGeneratedModule": 5.176666666666688,
         "TestJitProfiler": 0.001,
@@ -102029,7 +102029,7 @@
         "TestQuantizePT2EModels": 0.0
       },
       "test_module_tracker": {
-        "TestModuleTracker": 0.15266666666666664
+        "TestModuleTracker": 0.15266666666666667
       },
       "test_modules": {
         "TestModuleCPU": 175.40366666667208,
@@ -102071,7 +102071,7 @@
         "TestFunctionalPickle": 0.001,
         "TestFusionEval": 0.21,
         "TestFusionUtils": 0.002,
-        "TestNN": 16.962999999999962,
+        "TestNN": 16.962999999999955,
         "TestNNDeviceTypeCPU": 59.35833333333298,
         "TestUtils": 0.002
       },
@@ -102106,7 +102106,7 @@
         "TestDifferentiableOptimizer": 0.07866666666666666,
         "TestLRScheduler": 0.6190000000000003,
         "TestOptimRenewedCPU": 10.66366666666665,
-        "TestOptimRenewedMPS": 120.79500000000043,
+        "TestOptimRenewedMPS": 120.79500000000046,
         "TestSWAUtils": 0.06466666666666666
       },
       "test_out_dtype_op": {
@@ -102155,7 +102155,7 @@
         "TestDecompCPU": 0.07800000000000001,
         "TestPrimsBasic": 0.008,
         "TestPrimsCPU": 0.035,
-        "TestRefsCPU": 0.006000000000000001
+        "TestRefsCPU": 0.005999999999999999
       },
       "test_proxy_tensor": {
         "TestFakeProxyTensor": 0.04366666666666668,
@@ -102200,7 +102200,7 @@
         "TestDynamicQuantizedOps": 0.05233333333333334,
         "TestEqualizeEager": 0.034,
         "TestEqualizeFx": 0.3753333333333333,
-        "TestFXGraphMatcher": 0.06566666666666668,
+        "TestFXGraphMatcher": 0.06566666666666666,
         "TestFXGraphMatcherModels": 0.0,
         "TestFXNumericSuiteCoreAPIs": 1.0289999999999997,
         "TestFXNumericSuiteCoreAPIsModels": 0.011000000000000003,
@@ -102250,7 +102250,7 @@
         "TestQuantizePT2EQAT_ConvBn1d": 144.194,
         "TestQuantizePT2EQAT_ConvBn2d": 148.70899999999997,
         "TestQuantizePT2EX86Inductor": 0.03866666666666669,
-        "TestQuantizedConv": 1.1083333333333334,
+        "TestQuantizedConv": 1.1083333333333332,
         "TestQuantizedEmbeddingOps": 0.0,
         "TestQuantizedFunctionalOps": 0.24233333333333332,
         "TestQuantizedLinear": 0.15100000000000002,
@@ -102299,7 +102299,7 @@
       "test_sparse": {
         "TestSparseAnyCPU": 141.45933333333207,
         "TestSparseCPU": 7.995666666666654,
-        "TestSparseLegacyAndDeprecation": 0.012999999999999998,
+        "TestSparseLegacyAndDeprecation": 0.013,
         "TestSparseMaskedReductionsCPU": 0.3163333333333335,
         "TestSparseMeta": 1.4273333333333331,
         "TestSparseOneOff": 0.0,
@@ -102388,7 +102388,7 @@
         "TestAttnBiasCPU": 3.6596666666666664,
         "TestSDPACPU": 22.36000000000001,
         "TestSDPAFailureModesCPU": 0.010000000000000002,
-        "TestSDPAPrivateUse1Only": 7.102333333333334,
+        "TestSDPAPrivateUse1Only": 7.102333333333333,
         "TestTransformersCPU": 3.775666666666666
       },
       "test_type_hints": {
@@ -102439,7 +102439,7 @@
         "TestXNNPACKConv1dTransformPass": 0.0003333333333333333,
         "TestXNNPACKOps": 1.1833333333333333,
         "TestXNNPACKRewritePass": 0.282,
-        "TestXNNPACKSerDes": 2.524666666666666
+        "TestXNNPACKSerDes": 2.5246666666666666
       },
       "torch_np/numpy_tests/core/test_dlpack": {
         "TestDLPack": 0.0006666666666666666
@@ -102520,7 +102520,7 @@
         "TestRepeat": 0.005333333333333333,
         "TestResize": 0.018666666666666668,
         "TestRichcompareScalar": 0.0,
-        "TestScalarIndexing": 0.006333333333333334,
+        "TestScalarIndexing": 0.006333333333333333,
         "TestSortFloatMisc": 0.08000000000000002,
         "TestStats": 0.08933333333333333,
         "TestSubscripting": 0.001,
@@ -102532,11 +102532,11 @@
       },
       "torch_np/numpy_tests/core/test_numeric": {
         "TestAllclose": 0.009666666666666667,
-        "TestArgwhere": 0.011999999999999999,
+        "TestArgwhere": 0.012000000000000002,
         "TestArrayComparisons": 0.005666666666666667,
         "TestBaseRepr": 0.004,
         "TestBinaryRepr": 0.006000000000000001,
-        "TestBoolArray": 1.0816666666666666,
+        "TestBoolArray": 1.0816666666666668,
         "TestBoolCmp": 0.07566666666666667,
         "TestBoolScalar": 0.007,
         "TestBroadcast": 0.004,
@@ -102655,7 +102655,7 @@
         "TestExtins": 0.005333333333333333,
         "TestFilterwindows": 0.2756666666666669,
         "TestFlip": 0.015,
-        "TestGradient": 0.05766666666666667,
+        "TestGradient": 0.05766666666666668,
         "TestInsert": 0.006333333333333333,
         "TestInterp": 0.031000000000000017,
         "TestKaiser": 0.005,
@@ -102674,7 +102674,7 @@
         "TestTrapz": 0.0030000000000000005,
         "TestTrimZeros": 0.014,
         "TestUnique": 0.002,
-        "Test_I0": 0.006333333333333333
+        "Test_I0": 0.006333333333333334
       },
       "torch_np/numpy_tests/lib/test_histograms": {
         "TestHistogram": 0.19666666666666668,
@@ -102713,8 +102713,8 @@
         "TestVsplit": 0.005333333333333333
       },
       "torch_np/numpy_tests/lib/test_twodim_base": {
-        "TestDiag": 0.012666666666666666,
-        "TestEye": 0.16100000000000003,
+        "TestDiag": 0.012666666666666668,
+        "TestEye": 0.161,
         "TestFliplr": 0.002,
         "TestFlipud": 0.002,
         "TestHistogram2d": 0.014,
@@ -103955,7 +103955,7 @@
         "TestUnary": 0.4360000000000003
       },
       "test_meta": {
-        "TestMetaCPU": 1974.324999999842,
+        "TestMetaCPU": 1974.3249999998425,
         "TestMetaConverter": 0.1915
       },
       "test_mkl_verbose": {
@@ -104141,7 +104141,7 @@
         "TestAOMigrationNNIntrinsic": 0.0165,
         "TestAOMigrationNNQuantized": 0.08150000000000002,
         "TestAOMigrationQuantization": 0.0245,
-        "TestAOMigrationQuantizationFx": 0.028,
+        "TestAOMigrationQuantizationFx": 0.028000000000000004,
         "TestBackendConfig": 0.062,
         "TestBiasCorrectionEager": 1.4065,
         "TestBits": 0.004,
@@ -104190,13 +104190,13 @@
         "TestQuantizeDynamicJitPasses": 5.8469999999999995,
         "TestQuantizeEagerOps": 1.836,
         "TestQuantizeEagerPTQDynamic": 8.924,
-        "TestQuantizeEagerPTQStatic": 27.924,
+        "TestQuantizeEagerPTQStatic": 27.923999999999996,
         "TestQuantizeEagerQAT": 10.724499999999999,
         "TestQuantizeEagerQATNumerics": 2.4945,
-        "TestQuantizeFx": 54.882000000000005,
+        "TestQuantizeFx": 54.88200000000001,
         "TestQuantizeFxModels": 7.560499999999999,
         "TestQuantizeFxOps": 128.15800000000002,
-        "TestQuantizeJit": 24.678500000000003,
+        "TestQuantizeJit": 24.6785,
         "TestQuantizeJitOps": 286.1855,
         "TestQuantizeJitPasses": 6.275499999999999,
         "TestQuantizePT2E": 65.34,
@@ -104208,7 +104208,7 @@
         "TestQuantizedConv": 50.836,
         "TestQuantizedEmbeddingOps": 0.9280000000000002,
         "TestQuantizedFunctionalOps": 2.496,
-        "TestQuantizedLinear": 18.9545,
+        "TestQuantizedLinear": 18.954500000000003,
         "TestQuantizedOps": 107.20400000000001,
         "TestQuantizedTensor": 2.1635,
         "TestRecordHistogramObserver": 0.036000000000000004,
@@ -104924,7 +104924,7 @@
         "TestFullyShardFrozen": 62.392
       },
       "distributed/_composable/fsdp/test_fully_shard_mixed_precision": {
-        "TestFullyShardMixedPrecisionTraining": 41.757999999999996
+        "TestFullyShardMixedPrecisionTraining": 41.758
       },
       "distributed/_composable/fsdp/test_fully_shard_training": {
         "TestFullyShard1DTrainingCompose": 0.008333333333333333,
@@ -104977,7 +104977,7 @@
         "TestMemoryEfficientOpAuthoring": 9.550000000000002
       },
       "inductor/test_aot_inductor": {
-        "AOTInductorTestABICompatibleCpu": 648.3423333333332,
+        "AOTInductorTestABICompatibleCpu": 648.3423333333333,
         "AOTInductorTestABICompatibleCpuWithStackAllocation": 455.20433333333335,
         "AOTInductorTestABICompatibleCpuWithStackAllocationAndMinimalArrayRefInterface": 206.69266666666672,
         "AOTInductorTestABICompatibleCuda": 1517.5183333333334,
@@ -105006,8 +105006,8 @@
         "RNNTest": 4.609,
         "SweepInputsCpuTest": 100.00666666666667,
         "SweepInputsGPUTest": 45.23933333333335,
-        "TestFull": 10.535666666666666,
-        "TritonCodeGenTests": 39.95433333333333
+        "TestFull": 10.535666666666668,
+        "TritonCodeGenTests": 39.95433333333334
       },
       "inductor/test_torchinductor_opinfo": {
         "TestInductorOpInfoCUDA": 15664.29666666669
@@ -105024,7 +105024,7 @@
         "TestTagsCUDA": 2.036999999999997
       },
       "test_ops_gradients": {
-        "TestBwdGradientsCUDA": 1194.0139999999844
+        "TestBwdGradientsCUDA": 1194.0139999999847
       },
       "test_torch": {
         "TestBasicVitalSigns": 0.3513333333333333,
@@ -105067,7 +105067,7 @@
       },
       "export/test_export": {
         "TestDynamismExpression": 0.6353333333333332,
-        "TestExport": 0.06666666666666672,
+        "TestExport": 0.06666666666666671,
         "TestExportCustomClass": 0.12733333333333333,
         "TestOneOffModelExportResult": 1.4363333333333335
       },
@@ -105142,7 +105142,7 @@
         "TestPythonKeyCPU": 0.5323333333333334
       },
       "functorch/test_control_flow": {
-        "TestControlFlow": 0.004666666666666666,
+        "TestControlFlow": 0.004666666666666667,
         "TestControlFlowTraced": 0.04033333333333336
       },
       "functorch/test_dims": {
@@ -105153,7 +105153,7 @@
         "TestAutogradFunctionCPU": 0.14800000000000005,
         "TestAutogradFunctionVmapAPICPU": 0.034666666666666665,
         "TestCompileTransformsCPU": 3.082666666666667,
-        "TestComposabilityCPU": 2.6030000000000006,
+        "TestComposabilityCPU": 2.603000000000001,
         "TestExamplesCorrectnessCPU": 17.210666666666665,
         "TestFunctionalizeCPU": 0.19700000000000006,
         "TestGradTransformCPU": 0.8703333333333335,
@@ -105184,7 +105184,7 @@
         "TestOperatorsCPU": 3952.1096666666713
       },
       "functorch/test_parsing": {
-        "TestAnonymousAxis": 0.351,
+        "TestAnonymousAxis": 0.35100000000000003,
         "TestParsedExpression": 0.008333333333333333,
         "TestParsingUtils": 0.008,
         "TestValidateRearrangeExpressions": 0.008333333333333333
@@ -105236,7 +105236,7 @@
         "TestConvolutionNNDeviceTypeCPU": 9.424333333333282
       },
       "nn/test_dropout": {
-        "TestDropoutNN": 0.09500000000000001,
+        "TestDropoutNN": 0.09499999999999999,
         "TestDropoutNNDeviceTypeCPU": 0.3913333333333333
       },
       "nn/test_embedding": {
@@ -105288,7 +105288,7 @@
         "TestDataFlow": 1.1976666666666667,
         "TestIdentifyGradients": 0.205,
         "TestMemoryProfiler": 0.35933333333333334,
-        "TestMemoryProfilerE2E": 4.434000000000001
+        "TestMemoryProfilerE2E": 4.434
       },
       "profiler/test_profiler": {
         "TestExecutionTrace": 0.09066666666666667,
@@ -105314,7 +105314,7 @@
         "TestBaseDataSparsifier": 0.10166666666666667,
         "TestBaseSparsifier": 0.04533333333333333,
         "TestBaseStructuredSparsifier": 1.9966666666666664,
-        "TestComposability": 2.3463333333333334,
+        "TestComposability": 2.3463333333333325,
         "TestCubicScheduler": 0.006333333333333333,
         "TestFPGMPruner": 0.03166666666666667,
         "TestFakeSparsity": 0.113,
@@ -105330,7 +105330,7 @@
         "TestWeightNormSparsifier": 0.38766666666666666
       },
       "test_autocast": {
-        "TestAutocastCPU": 1.4473333333333331,
+        "TestAutocastCPU": 1.4473333333333336,
         "TestAutocastGPU": 0.0016666666666666668,
         "TestTorchAutocast": 0.01
       },
@@ -105343,7 +105343,7 @@
         "TestAutogradForwardModeBatchedGrad": 0.02666666666666667,
         "TestAutogradFunctional": 11.083333333333329,
         "TestAutogradInferenceMode": 0.06500000000000002,
-        "TestAutogradLogging": 0.033666666666666664,
+        "TestAutogradLogging": 0.03366666666666667,
         "TestAutogradMultipleDispatchCPU": 0.03266666666666667,
         "TestMultithreadAutograd": 0.2396666666666667,
         "TestNestedCheckpoint": 0.5150000000000001,
@@ -105365,7 +105365,7 @@
         "TestCompileBenchmarkUtil": 0.001
       },
       "test_complex": {
-        "TestComplexTensorCPU": 0.08299999999999999
+        "TestComplexTensorCPU": 0.083
       },
       "test_content_store": {
         "TestContentStoreCPU": 0.002
@@ -105468,7 +105468,7 @@
         "TestFloorDiv": 0.019666666666666666,
         "TestGuardsExpressions": 0.04733333333333334,
         "TestPySymInt": 1.6959999999999986,
-        "TestSymNumberMagicMethods": 2.098999999999998
+        "TestSymNumberMagicMethods": 2.0989999999999984
       },
       "test_expanded_weights": {
         "TestExpandedWeightFunctionalCPU": 3.0233333333333303,
@@ -105543,7 +105543,7 @@
         "TestReinplacePass": 0.6146666666666668
       },
       "test_import_stats": {
-        "TestImportTime": 4.748333333333333
+        "TestImportTime": 4.748333333333334
       },
       "test_indexing": {
         "NumpyTestsCPU": 0.07166666666666667,
@@ -105566,7 +105566,7 @@
         "TestClassType": 2.6876666666666664,
         "TestComplex": 1.121333333333333,
         "TestCustomOperators": 0.06200000000000002,
-        "TestDCE": 0.023000000000000003,
+        "TestDCE": 0.022999999999999996,
         "TestDataParallel": 0.005,
         "TestDataclasses": 5.907999999999999,
         "TestDeviceAnalysis": 0.18133333333333335,
@@ -105599,7 +105599,7 @@
         "TestMixTracingScripting": 1.3833333333333335,
         "TestModels": 1.7716666666666656,
         "TestModuleAPIs": 0.16966666666666663,
-        "TestModuleContainers": 1.5250000000000004,
+        "TestModuleContainers": 1.5250000000000001,
         "TestModuleInterface": 0.6606666666666667,
         "TestModules": 0.018666666666666665,
         "TestNamedTuple": 0.07800000000000001,
@@ -105643,7 +105643,7 @@
       },
       "test_jit_autocast": {
         "TestAutocast": 0.17366666666666672,
-        "TestJitTraceAutocast": 11.316
+        "TestJitTraceAutocast": 11.315999999999997
       },
       "test_jit_disabled": {
         "TestJitDisabled": 0.58
@@ -105691,7 +105691,7 @@
       },
       "test_meta": {
         "TestMetaCPU": 1932.5926666665066,
-        "TestMetaConverter": 0.09766666666666667
+        "TestMetaConverter": 0.09766666666666668
       },
       "test_mkl_verbose": {
         "TestMKLVerbose": 4.703333333333333
@@ -105770,16 +105770,16 @@
         "TestNumPyInteropCPU": 0.2856666666666668
       },
       "test_openmp": {
-        "TestOpenMP_ParallelFor": 7.543333333333332
+        "TestOpenMP_ParallelFor": 7.543333333333333
       },
       "test_ops": {
         "TestCommonCPU": 1425.165666666595,
         "TestCompositeComplianceCPU": 881.2226666666643,
         "TestFakeTensorCPU": 368.52766666666565,
-        "TestMathBitsCPU": 60.725,
+        "TestMathBitsCPU": 60.725000000000016,
         "TestRefsOpsInfoCPU": 2.422333333333332,
         "TestSelfKwarg": 0.006666666666666667,
-        "TestTagsCPU": 18.11099999999997
+        "TestTagsCPU": 18.110999999999972
       },
       "test_ops_fwd_gradients": {
         "TestFwdGradientsCPU": 780.5803333333118
@@ -105861,7 +105861,7 @@
         "TestPublicBindings": 0.36966666666666664
       },
       "test_python_dispatch": {
-        "TestDispatcherPythonBindings": 0.006333333333333333,
+        "TestDispatcherPythonBindings": 0.006333333333333334,
         "TestPythonDispatch": 5.129666666666666,
         "TestPythonDispatcher": 0.009333333333333334,
         "TestPythonRegistration": 0.22366666666666668,
@@ -105908,7 +105908,7 @@
         "TestFxModelReportClass": 0.5403333333333333,
         "TestFxModelReportDetectDynamicStatic": 0.05433333333333334,
         "TestFxModelReportDetector": 0.08299999999999999,
-        "TestFxModelReportObserver": 0.2363333333333333,
+        "TestFxModelReportObserver": 0.23633333333333337,
         "TestFxModelReportVisualizer": 0.26133333333333336,
         "TestGenerateNumericDebugHandle": 0.002,
         "TestGraphUtils": 0.0030000000000000005,
@@ -105920,15 +105920,15 @@
         "TestPT2ERepresentation": 0.008,
         "TestPadding": 12.119,
         "TestQNNPackOps": 0.012000000000000002,
-        "TestQuantizationDocs": 0.2903333333333334,
+        "TestQuantizationDocs": 0.29033333333333333,
         "TestQuantizeDynamicJitOps": 2.198,
         "TestQuantizeDynamicJitPasses": 4.249,
         "TestQuantizeEagerOps": 1.7076666666666667,
         "TestQuantizeEagerPTQDynamic": 9.345333333333334,
         "TestQuantizeEagerPTQStatic": 21.452333333333332,
         "TestQuantizeEagerQAT": 5.053333333333333,
-        "TestQuantizeEagerQATNumerics": 1.9686666666666663,
-        "TestQuantizeFx": 32.967666666666666,
+        "TestQuantizeEagerQATNumerics": 1.9686666666666666,
+        "TestQuantizeFx": 32.96766666666667,
         "TestQuantizeFxModels": 2.783,
         "TestQuantizeFxOps": 274.333,
         "TestQuantizeJit": 14.326,
@@ -105975,7 +105975,7 @@
         "TestSubclassSerialization": 0.03466666666666667
       },
       "test_set_default_mobile_cpu_allocator": {
-        "TestSetDefaultMobileCPUAllocator": 0.3853333333333333
+        "TestSetDefaultMobileCPUAllocator": 0.38533333333333336
       },
       "test_shape_ops": {
         "TestShapeOpsCPU": 1.2379999999999993
@@ -106006,7 +106006,7 @@
       },
       "test_spectral_ops": {
         "TestFFTCPU": 14.54399999999999,
-        "TestFFTDocExamplesCPU": 0.11500000000000003
+        "TestFFTDocExamplesCPU": 0.11500000000000005
       },
       "test_stateless": {
         "TestPythonOptimizeMode": 7.3676666666666675,
@@ -106047,7 +106047,7 @@
       },
       "test_tensorexpr_pybind": {
         "TestExprHandlePyBind": 0.012666666666666666,
-        "TestTensorExprPyBind": 0.4126666666666667
+        "TestTensorExprPyBind": 0.41266666666666674
       },
       "test_testing": {
         "TestAssertClose": 0.20866666666666678,
@@ -106060,7 +106060,7 @@
         "TestAssertCloseSparseCSC": 0.02666666666666667,
         "TestAssertCloseSparseCSR": 0.028666666666666663,
         "TestFrameworkUtils": 0.001,
-        "TestImports": 6.380666666666667,
+        "TestImports": 6.3806666666666665,
         "TestMakeTensorCPU": 2.108666666666649,
         "TestOpInfoSampleFunctionsCPU": 11.54933333333342,
         "TestOpInfos": 0.006000000000000001,
@@ -106095,7 +106095,7 @@
         "TestTyping": 0.0030000000000000005
       },
       "test_unary_ufuncs": {
-        "TestUnaryUfuncsCPU": 542.1106666665094
+        "TestUnaryUfuncsCPU": 542.1106666665095
       },
       "test_utils": {
         "TestAssert": 0.07400000000000001,
@@ -106179,7 +106179,7 @@
         "TestArrayConstruction": 0.055333333333333345,
         "TestArrayCreationCopyArgument": 0.015666666666666676,
         "TestArrayInterface": 0.03,
-        "TestAssignment": 0.017000000000000005,
+        "TestAssignment": 0.017,
         "TestAttributes": 0.02133333333333334,
         "TestBinop": 0.017,
         "TestBool": 25.759666666666664,
@@ -106193,7 +106193,7 @@
         "TestDot": 0.08200000000000002,
         "TestDtypedescr": 0.0033333333333333335,
         "TestFancyIndexing": 0.032,
-        "TestFlag": 0.01466666666666667,
+        "TestFlag": 0.014666666666666668,
         "TestFormat": 0.008333333333333333,
         "TestFromBuffer": 0.022333333333333334,
         "TestHash": 0.27,
@@ -106243,7 +106243,7 @@
         "TestFloatExceptions": 0.016,
         "TestFromiter": 0.004666666666666667,
         "TestIndex": 0.009333333333333334,
-        "TestIndices": 0.05933333333333333,
+        "TestIndices": 0.05933333333333332,
         "TestIsclose": 0.10166666666666668,
         "TestIsscalar": 0.0033333333333333335,
         "TestLikeFuncs": 0.005333333333333335,
@@ -106279,7 +106279,7 @@
         "TestBitCount": 0.0030000000000000005,
         "TestClassGetItem": 0.005666666666666667,
         "TestClassGetitemMisc": 0.0030000000000000005,
-        "TestIsInteger": 0.0033333333333333335
+        "TestIsInteger": 0.003333333333333334
       },
       "torch_np/numpy_tests/core/test_scalarinherit": {
         "TestInherit": 0.0016666666666666668
@@ -106341,7 +106341,7 @@
         "TestCopy": 0.013,
         "TestCorrCoef": 0.052333333333333336,
         "TestCov": 0.09533333333333334,
-        "TestCumprod": 0.04633333333333334,
+        "TestCumprod": 0.04633333333333333,
         "TestCumsum": 0.06733333333333334,
         "TestDelete": 0.024000000000000004,
         "TestDiff": 0.10233333333333333,
@@ -106358,7 +106358,7 @@
         "TestMsort": 0.001,
         "TestPercentile": 0.2180000000000001,
         "TestPiecewise": 0.024333333333333332,
-        "TestProd": 0.047999999999999994,
+        "TestProd": 0.04800000000000001,
         "TestPtp": 0.013666666666666667,
         "TestQuantile": 0.09600000000000003,
         "TestRot90": 0.46900000000000003,
@@ -106386,7 +106386,7 @@
         "TestIx_": 0.012666666666666668,
         "TestNdIndex": 0.002,
         "TestNdenumerate": 0.0030000000000000005,
-        "TestRavelUnravelIndex": 0.37833333333333335
+        "TestRavelUnravelIndex": 0.3783333333333334
       },
       "torch_np/numpy_tests/lib/test_shape_base_": {
         "TestApplyAlongAxis": 0.023000000000000003,
@@ -106444,7 +106444,7 @@
         "TestEig": 0.04400000000000001,
         "TestEigh": 0.030333333333333334,
         "TestEighCases": 0.0,
-        "TestEigvals": 0.062333333333333345,
+        "TestEigvals": 0.06233333333333333,
         "TestEigvalsh": 0.029333333333333326,
         "TestEigvalshCases": 0.0003333333333333333,
         "TestInv": 0.05666666666666668,
@@ -106452,7 +106452,7 @@
         "TestMatrixRank": 0.38833333333333336,
         "TestMisc": 0.014333333333333332,
         "TestMisc2": 0.005666666666666667,
-        "TestMultiDot": 0.08600000000000001,
+        "TestMultiDot": 0.08600000000000002,
         "TestNormDouble": 0.765,
         "TestNormInt64": 0.8606666666666666,
         "TestNormSingle": 0.8640000000000002,
@@ -106490,10 +106490,10 @@
         "TestBinaryUfuncBasic": 0.5340000000000001
       },
       "torch_np/test_dtype": {
-        "TestConvertDType": 0.43833333333333346
+        "TestConvertDType": 0.4383333333333334
       },
       "torch_np/test_function_base": {
-        "TestAppend": 0.3476666666666666
+        "TestAppend": 0.34766666666666673
       },
       "torch_np/test_ndarray_methods": {
         "TestAmax": 0.008,
@@ -107322,7 +107322,7 @@
       },
       "test_meta": {
         "TestMetaCUDA": 4408.355999999684,
-        "TestMetaConverter": 14.016000000000002
+        "TestMetaConverter": 14.016
       },
       "test_mkl_verbose": {
         "TestMKLVerbose": 9.1725
@@ -107415,7 +107415,7 @@
         "TestBwdGradientsCUDA": 2490.2404999999344
       },
       "test_ops_jit": {
-        "TestJitCUDA": 2109.123999999997
+        "TestJitCUDA": 2109.1239999999975
       },
       "test_optim": {
         "TestDifferentiableOptimizer": 0.305,
