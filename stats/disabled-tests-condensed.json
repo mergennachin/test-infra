@@ -455,6 +455,13 @@
       "linux"
     ]
   ],
+  "test_cpp_extension_recommends_custom_ops_inline_inbuilt_nn_modules (__main__.InlineInbuiltNNModulesMiscTests)": [
+    "130761",
+    "https://github.com/pytorch/pytorch/issues/130761",
+    [
+      "linux"
+    ]
+  ],
   "test_cpp_frontend_module_has_same_output_as_python (__main__.TestCppExtensionJIT)": [
     "116105",
     "https://github.com/pytorch/pytorch/issues/116105",
