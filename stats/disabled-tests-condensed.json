@@ -6,13 +6,6 @@
       "linux"
     ]
   ],
-  "test_LinearAndSoftmax_codegen (__main__.PaddingTest)": [
-    "128488",
-    "https://github.com/pytorch/pytorch/issues/128488",
-    [
-      "linux"
-    ]
-  ],
   "test_RNN_dropout_state (__main__.TestNN)": [
     "107183",
     "https://github.com/pytorch/pytorch/issues/107183",
@@ -201,13 +194,6 @@
       "windows"
     ]
   ],
-  "test_barrier_cuda (__main__.TestDistBackendWithSpawn)": [
-    "118051",
-    "https://github.com/pytorch/pytorch/issues/118051",
-    [
-      "linux"
-    ]
-  ],
   "test_barrier_timeout_group (__main__.TestDistBackendWithSpawn)": [
     "70755",
     "https://github.com/pytorch/pytorch/issues/70755",
@@ -305,13 +291,6 @@
   "test_checkpoint_wrapper_parity (__main__.CheckpointWrapperTest)": [
     "79510",
     "https://github.com/pytorch/pytorch/issues/79510",
-    [
-      "linux"
-    ]
-  ],
-  "test_checkpointing_resets_persistent_refs (__main__.CudaGraphTreeTests)": [
-    "100074",
-    "https://github.com/pytorch/pytorch/issues/100074",
     [
       "linux"
     ]
@@ -573,13 +552,6 @@
       "dynamo"
     ]
   ],
-  "test_depthwise_convolution (__main__.DistConvolutionOpsTest)": [
-    "125565",
-    "https://github.com/pytorch/pytorch/issues/125565",
-    [
-      "linux"
-    ]
-  ],
   "test_distributed_checkpoint_state_dict_type0 (__main__.TestDistributedCheckpoint)": [
     "113937",
     "https://github.com/pytorch/pytorch/issues/113937",
@@ -768,15 +740,6 @@
       "rocm"
     ]
   ],
-  "test_free_activation_memory (__main__.TestCompiledAutograd)": [
-    "123949",
-    "https://github.com/pytorch/pytorch/issues/123949",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_fs_preserve_sharing (__main__.TestMultiprocessing)": [
     "91467",
     "https://github.com/pytorch/pytorch/issues/91467",
@@ -803,13 +766,6 @@
     "https://github.com/pytorch/pytorch/issues/123726",
     [
       "rocm"
-    ]
-  ],
-  "test_grad_nn_GroupNorm_cuda_float64 (__main__.TestModuleCUDA)": [
-    "98677",
-    "https://github.com/pytorch/pytorch/issues/98677",
-    [
-      "linux"
     ]
   ],
   "test_grad_nn_functional_conv3d_cuda_float32 (__main__.TestOperatorsCUDA)": [
@@ -1006,13 +962,6 @@
     "https://github.com/pytorch/pytorch/issues/115859",
     [
       "rocm"
-    ]
-  ],
-  "test_is_isnot (__main__.TestScript)": [
-    "120694",
-    "https://github.com/pytorch/pytorch/issues/120694",
-    [
-      "dynamo"
     ]
   ],
   "test_jvpvjp_nn_functional_conv3d_cuda_float32 (__main__.TestOperatorsCUDA)": [
@@ -1219,22 +1168,6 @@
     "https://github.com/pytorch/pytorch/issues/105120",
     [
       "rocm"
-    ]
-  ],
-  "test_nn_sequential_invocation (__main__.MiscTests)": [
-    "129156",
-    "https://github.com/pytorch/pytorch/issues/129156",
-    [
-      "linux",
-      "rocm"
-    ]
-  ],
-  "test_nn_sequential_invocation_reposition_indices_inline_inbuilt_nn_modules (__main__.InlineInbuiltNNModulesMiscTests)": [
-    "128822",
-    "https://github.com/pytorch/pytorch/issues/128822",
-    [
-      "linux",
-      "slow"
     ]
   ],
   "test_nnc_correctness_frac_cpu_bfloat16 (__main__.TestNNCOpInfoCPU)": [
@@ -1558,13 +1491,6 @@
     "https://github.com/pytorch/pytorch/issues/73474",
     [
       "macos"
-    ]
-  ],
-  "test_quantization_doc_custom (__main__.TestQuantizationDocs)": [
-    "125668",
-    "https://github.com/pytorch/pytorch/issues/125668",
-    [
-      "linux"
     ]
   ],
   "test_quantization_doc_fx (__main__.TestQuantizationDocs)": [
