@@ -676,6 +676,13 @@
       "linux"
     ]
   ],
+  "test_fallback_to_eager_if_recompiling_too_many_times (__main__.CudaGraphTreeTests)": [
+    "130749",
+    "https://github.com/pytorch/pytorch/issues/130749",
+    [
+      "rocm"
+    ]
+  ],
   "test_find_or_create_pg (__main__.TestPgTag)": [
     "107278",
     "https://github.com/pytorch/pytorch/issues/107278",
