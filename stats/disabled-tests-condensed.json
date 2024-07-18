@@ -369,6 +369,13 @@
       "windows"
     ]
   ],
+  "test_comprehensive_nn_functional_pad_reflect_cuda_bfloat16 (__main__.TestDecompCUDA)": [
+    "131050",
+    "https://github.com/pytorch/pytorch/issues/131050",
+    [
+      "rocm"
+    ]
+  ],
   "test_comprehensive_ones_cuda_int32 (__main__.TestInductorOpInfoCUDA)": [
     "124202",
     "https://github.com/pytorch/pytorch/issues/124202",
