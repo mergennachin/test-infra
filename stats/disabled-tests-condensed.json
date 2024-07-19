@@ -2584,7 +2584,8 @@
     "131083",
     "https://github.com/pytorch/pytorch/issues/131083",
     [
-      "linux"
+      "linux",
+      "mac"
     ]
   ],
   "test_slice_with_floordiv_serdes (__main__.SerDesExportTestExport)": [
