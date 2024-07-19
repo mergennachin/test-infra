@@ -353,6 +353,13 @@
       "rocm"
     ]
   ],
+  "test_comprehensive_argsort_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
+    "131158",
+    "https://github.com/pytorch/pytorch/issues/131158",
+    [
+      "rocm"
+    ]
+  ],
   "test_comprehensive_argsort_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
     "131135",
     "https://github.com/pytorch/pytorch/issues/131135",
@@ -811,6 +818,14 @@
       "rocm"
     ]
   ],
+  "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_1024_seq_len_k_1024_head_dim_160_is_causal_False_dropout_p_0_0_bfloat16_scale_l1_cuda_bfloat16 (__main__.TestSDPACudaOnlyCUDA)": [
+    "131159",
+    "https://github.com/pytorch/pytorch/issues/131159",
+    [
+      "linux",
+      "rocm"
+    ]
+  ],
   "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_1024_seq_len_k_1024_head_dim_160_is_causal_False_dropout_p_0_0_float16_scale0_cuda_float16 (__main__.TestSDPACudaOnlyCUDA)": [
     "131121",
     "https://github.com/pytorch/pytorch/issues/131121",
@@ -840,6 +855,13 @@
       "linux"
     ]
   ],
+  "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_1024_seq_len_k_1024_head_dim_160_is_causal_False_dropout_p_0_22_float16_scale0_cuda_float16 (__main__.TestSDPACudaOnlyCUDA)": [
+    "131163",
+    "https://github.com/pytorch/pytorch/issues/131163",
+    [
+      "rocm"
+    ]
+  ],
   "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_1024_seq_len_k_1024_head_dim_160_is_causal_False_dropout_p_0_22_float16_scale_l1_cuda_float16 (__main__.TestSDPACudaOnlyCUDA)": [
     "131098",
     "https://github.com/pytorch/pytorch/issues/131098",
@@ -847,9 +869,23 @@
       "linux"
     ]
   ],
+  "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_1024_seq_len_k_1024_head_dim_160_is_causal_False_dropout_p_0_48_bfloat16_scale_l1_cuda_bfloat16 (__main__.TestSDPACudaOnlyCUDA)": [
+    "131164",
+    "https://github.com/pytorch/pytorch/issues/131164",
+    [
+      "rocm"
+    ]
+  ],
   "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_1024_seq_len_k_1024_head_dim_160_is_causal_False_dropout_p_0_48_float16_scale_l1_cuda_float16 (__main__.TestSDPACudaOnlyCUDA)": [
     "131124",
     "https://github.com/pytorch/pytorch/issues/131124",
+    [
+      "rocm"
+    ]
+  ],
+  "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_1024_seq_len_k_1024_head_dim_160_is_causal_True_dropout_p_0_0_bfloat16_scale0_cuda_bfloat16 (__main__.TestSDPACudaOnlyCUDA)": [
+    "131160",
+    "https://github.com/pytorch/pytorch/issues/131160",
     [
       "rocm"
     ]
@@ -868,11 +904,26 @@
       "linux"
     ]
   ],
+  "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_1024_seq_len_k_1024_head_dim_160_is_causal_True_dropout_p_0_0_float16_scale_l1_cuda_float16 (__main__.TestSDPACudaOnlyCUDA)": [
+    "131161",
+    "https://github.com/pytorch/pytorch/issues/131161",
+    [
+      "rocm"
+    ]
+  ],
   "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_1024_seq_len_k_1024_head_dim_160_is_causal_True_dropout_p_0_22_bfloat16_scale_l1_cuda_bfloat16 (__main__.TestSDPACudaOnlyCUDA)": [
     "131102",
     "https://github.com/pytorch/pytorch/issues/131102",
     [
       "linux"
+    ]
+  ],
+  "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_1024_seq_len_k_1024_head_dim_160_is_causal_True_dropout_p_0_22_float16_scale_l1_cuda_float16 (__main__.TestSDPACudaOnlyCUDA)": [
+    "131162",
+    "https://github.com/pytorch/pytorch/issues/131162",
+    [
+      "linux",
+      "slow"
     ]
   ],
   "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_1024_seq_len_k_1024_head_dim_160_is_causal_True_dropout_p_0_48_bfloat16_scale0_cuda_bfloat16 (__main__.TestSDPACudaOnlyCUDA)": [
@@ -882,9 +933,23 @@
       "rocm"
     ]
   ],
+  "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_1024_seq_len_k_1024_head_dim_160_is_causal_True_dropout_p_0_48_bfloat16_scale_l1_cuda_bfloat16 (__main__.TestSDPACudaOnlyCUDA)": [
+    "131165",
+    "https://github.com/pytorch/pytorch/issues/131165",
+    [
+      "linux"
+    ]
+  ],
   "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_1024_seq_len_k_1024_head_dim_160_is_causal_True_dropout_p_0_48_float16_scale0_cuda_float16 (__main__.TestSDPACudaOnlyCUDA)": [
     "131142",
     "https://github.com/pytorch/pytorch/issues/131142",
+    [
+      "linux"
+    ]
+  ],
+  "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_1024_seq_len_k_1024_head_dim_160_is_causal_True_dropout_p_0_48_float16_scale_l1_cuda_float16 (__main__.TestSDPACudaOnlyCUDA)": [
+    "131156",
+    "https://github.com/pytorch/pytorch/issues/131156",
     [
       "linux"
     ]
@@ -900,14 +965,16 @@
     "131144",
     "https://github.com/pytorch/pytorch/issues/131144",
     [
-      "linux"
+      "linux",
+      "slow"
     ]
   ],
   "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_1024_seq_len_k_1024_head_dim_192_is_causal_False_dropout_p_0_22_float16_scale0_cuda_float16 (__main__.TestSDPACudaOnlyCUDA)": [
     "131138",
     "https://github.com/pytorch/pytorch/issues/131138",
     [
-      "linux"
+      "linux",
+      "slow"
     ]
   ],
   "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_1024_seq_len_k_1024_head_dim_192_is_causal_False_dropout_p_0_22_float16_scale_l1_cuda_float16 (__main__.TestSDPACudaOnlyCUDA)": [
@@ -924,9 +991,24 @@
       "linux"
     ]
   ],
+  "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_1024_seq_len_k_1024_head_dim_192_is_causal_False_dropout_p_0_48_float16_scale0_cuda_float16 (__main__.TestSDPACudaOnlyCUDA)": [
+    "131166",
+    "https://github.com/pytorch/pytorch/issues/131166",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_1024_seq_len_k_1024_head_dim_192_is_causal_False_dropout_p_0_48_float16_scale_l1_cuda_float16 (__main__.TestSDPACudaOnlyCUDA)": [
     "131106",
     "https://github.com/pytorch/pytorch/issues/131106",
+    [
+      "linux"
+    ]
+  ],
+  "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_1024_seq_len_k_1024_head_dim_192_is_causal_True_dropout_p_0_0_bfloat16_scale_l1_cuda_bfloat16 (__main__.TestSDPACudaOnlyCUDA)": [
+    "131167",
+    "https://github.com/pytorch/pytorch/issues/131167",
     [
       "linux"
     ]
@@ -1271,6 +1353,15 @@
       "dynamo"
     ]
   ],
+  "test_item_to_inputs_kernel_nobreak_cuda (__main__.TestInductorDynamicCUDA)": [
+    "119538",
+    "https://github.com/pytorch/pytorch/issues/119538",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_jvpvjp_nn_functional_conv3d_cuda_float32 (__main__.TestOperatorsCUDA)": [
     "114654",
     "https://github.com/pytorch/pytorch/issues/114654",
@@ -1369,6 +1460,13 @@
   "test_mem_efficient_attention_attn_mask_vs_math_ref_grads_batch_size_1_seq_len_q_128_seq_len_k_128_head_dim_16_is_causal_False_dropout_p_0_22_float16_scale0_cuda_float16 (__main__.TestSDPACudaOnlyCUDA)": [
     "131126",
     "https://github.com/pytorch/pytorch/issues/131126",
+    [
+      "linux"
+    ]
+  ],
+  "test_mem_efficient_attention_attn_mask_vs_math_ref_grads_batch_size_1_seq_len_q_128_seq_len_k_128_head_dim_16_is_causal_False_dropout_p_0_22_float16_scale_l1_cuda_float16 (__main__.TestSDPACudaOnlyCUDA)": [
+    "131168",
+    "https://github.com/pytorch/pytorch/issues/131168",
     [
       "linux"
     ]
@@ -2267,7 +2365,8 @@
     "131101",
     "https://github.com/pytorch/pytorch/issues/131101",
     [
-      "linux"
+      "linux",
+      "slow"
     ]
   ],
   "test_slice_with_floordiv_non_strict (__main__.NonStrictExportTestExport)": [
@@ -2288,7 +2387,8 @@
     "131119",
     "https://github.com/pytorch/pytorch/issues/131119",
     [
-      "linux"
+      "linux",
+      "asan"
     ]
   ],
   "test_slice_with_floordiv_training_ir_to_decomp (__main__.TrainingIRToRunDecompExportTestExport)": [
@@ -2304,7 +2404,8 @@
     "131136",
     "https://github.com/pytorch/pytorch/issues/131136",
     [
-      "linux"
+      "linux",
+      "asan"
     ]
   ],
   "test_subgraphs_with_parameters_device_cuda_dynamic_True (__main__.CondTests)": [
