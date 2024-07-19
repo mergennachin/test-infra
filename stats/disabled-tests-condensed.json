@@ -2296,7 +2296,8 @@
     "https://github.com/pytorch/pytorch/issues/131082",
     [
       "linux",
-      "asan"
+      "asan",
+      "mac"
     ]
   ],
   "test_slice_with_floordiv_training_ir_to_decomp_non_strict (__main__.TrainingIRToRunDecompExportNonStrictTestExport)": [
