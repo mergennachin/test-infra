@@ -1463,6 +1463,13 @@
       "linux"
     ]
   ],
+  "test_mem_efficient_attention_attn_mask_vs_math_ref_grads_batch_size_1_seq_len_q_128_seq_len_k_128_head_dim_16_is_causal_False_dropout_p_0_22_float16_scale_l1_cuda_float16 (__main__.TestSDPACudaOnlyCUDA)": [
+    "131168",
+    "https://github.com/pytorch/pytorch/issues/131168",
+    [
+      "linux"
+    ]
+  ],
   "test_mem_efficient_attention_attn_mask_vs_math_ref_grads_batch_size_1_seq_len_q_128_seq_len_k_128_head_dim_16_is_causal_False_dropout_p_0_22_float32_scale0_cuda_float32 (__main__.TestSDPACudaOnlyCUDA)": [
     "131222",
     "https://github.com/pytorch/pytorch/issues/131222",
@@ -2209,6 +2216,13 @@
       "slow",
       "win",
       "windows"
+    ]
+  ],
+  "test_sdp_math_gradcheck_contiguous_inputs_True_cuda (__main__.TestSDPACUDA)": [
+    "131255",
+    "https://github.com/pytorch/pytorch/issues/131255",
+    [
+      "linux"
     ]
   ],
   "test_sdpa_backwards_cuda_bfloat16 (__main__.TestNestedTensorSubclassCUDA)": [
