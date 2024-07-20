@@ -1345,13 +1345,6 @@
       "linux"
     ]
   ],
-  "test_invalid_port (__main__.TCPStoreTest)": [
-    "131084",
-    "https://github.com/pytorch/pytorch/issues/131084",
-    [
-      "linux"
-    ]
-  ],
   "test_is_isnot (__main__.TestScript)": [
     "120694",
     "https://github.com/pytorch/pytorch/issues/120694",
