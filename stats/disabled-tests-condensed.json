@@ -785,6 +785,20 @@
       "rocm"
     ]
   ],
+  "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_1024_seq_len_k_1024_head_dim_160_is_causal_False_dropout_p_0_22_bfloat16_scale_l1_cuda_bfloat16 (__main__.TestSDPACudaOnlyCUDA)": [
+    "131096",
+    "https://github.com/pytorch/pytorch/issues/131096",
+    [
+      "linux"
+    ]
+  ],
+  "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_1024_seq_len_k_1024_head_dim_160_is_causal_False_dropout_p_0_22_float16_scale_l1_cuda_float16 (__main__.TestSDPACudaOnlyCUDA)": [
+    "131098",
+    "https://github.com/pytorch/pytorch/issues/131098",
+    [
+      "linux"
+    ]
+  ],
   "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_1024_seq_len_k_1024_head_dim_160_is_causal_False_dropout_p_0_48_bfloat16_scale0_cuda_bfloat16 (__main__.TestSDPACudaOnlyCUDA)": [
     "131202",
     "https://github.com/pytorch/pytorch/issues/131202",
@@ -804,6 +818,13 @@
     "https://github.com/pytorch/pytorch/issues/131124",
     [
       "rocm",
+      "linux"
+    ]
+  ],
+  "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_1024_seq_len_k_1024_head_dim_160_is_causal_True_dropout_p_0_48_bfloat16_scale_l1_cuda_bfloat16 (__main__.TestSDPACudaOnlyCUDA)": [
+    "131165",
+    "https://github.com/pytorch/pytorch/issues/131165",
+    [
       "linux"
     ]
   ],
@@ -1452,6 +1473,13 @@
   "test_mem_efficient_attention_attn_mask_vs_math_ref_grads_batch_size_1_seq_len_q_128_seq_len_k_128_head_dim_16_is_causal_False_dropout_p_0_0_float16_scale_l1_cuda_float16 (__main__.TestSDPACudaOnlyCUDA)": [
     "129861",
     "https://github.com/pytorch/pytorch/issues/129861",
+    [
+      "linux"
+    ]
+  ],
+  "test_mem_efficient_attention_attn_mask_vs_math_ref_grads_batch_size_1_seq_len_q_128_seq_len_k_128_head_dim_16_is_causal_False_dropout_p_0_0_float32_scale_l1_cuda_float32 (__main__.TestSDPACudaOnlyCUDA)": [
+    "131105",
+    "https://github.com/pytorch/pytorch/issues/131105",
     [
       "linux"
     ]
@@ -2176,6 +2204,13 @@
   "test_scaled_dot_product_attention_4D_input_dim_no_attn_mask_dropout_p_0_2_cuda (__main__.TestTransformersCUDA)": [
     "131107",
     "https://github.com/pytorch/pytorch/issues/131107",
+    [
+      "linux"
+    ]
+  ],
+  "test_scaled_dot_product_attention_4D_input_dim_no_attn_mask_dropout_p_0_5_cuda (__main__.TestTransformersCUDA)": [
+    "131179",
+    "https://github.com/pytorch/pytorch/issues/131179",
     [
       "linux"
     ]
