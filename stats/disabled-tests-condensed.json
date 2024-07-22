@@ -2159,9 +2159,23 @@
       "linux"
     ]
   ],
+  "test_scaled_dot_product_attention_3D_input_dim_no_attn_mask_dropout_p_0_5_cuda (__main__.TestTransformersCUDA)": [
+    "131123",
+    "https://github.com/pytorch/pytorch/issues/131123",
+    [
+      "linux"
+    ]
+  ],
   "test_scaled_dot_product_attention_4D_input_dim_no_attn_mask_dropout_p_0_0_cuda (__main__.TestTransformersCUDA)": [
     "129853",
     "https://github.com/pytorch/pytorch/issues/129853",
+    [
+      "linux"
+    ]
+  ],
+  "test_scaled_dot_product_attention_4D_input_dim_no_attn_mask_dropout_p_0_2_cuda (__main__.TestTransformersCUDA)": [
+    "131107",
+    "https://github.com/pytorch/pytorch/issues/131107",
     [
       "linux"
     ]
@@ -2420,6 +2434,14 @@
       "mac"
     ]
   ],
+  "test_slice_with_floordiv_training_ir_to_decomp_non_strict (__main__.TrainingIRToRunDecompExportNonStrictTestExport)": [
+    "131136",
+    "https://github.com/pytorch/pytorch/issues/131136",
+    [
+      "linux",
+      "asan"
+    ]
+  ],
   "test_subgraphs_with_parameters_device_cuda_dynamic_True (__main__.CondTests)": [
     "120955",
     "https://github.com/pytorch/pytorch/issues/120955",
@@ -2592,6 +2614,17 @@
     "https://github.com/pytorch/pytorch/issues/124267",
     [
       "linux"
+    ]
+  ],
+  "test_trigger_bisect_on_error (__main__.ExcTests)": [
+    "131303",
+    "https://github.com/pytorch/pytorch/issues/131303",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm"
     ]
   ],
   "test_trigger_on_error (__main__.ExcTests)": [
