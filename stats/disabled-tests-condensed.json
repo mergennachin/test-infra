@@ -1497,13 +1497,6 @@
       "rocm"
     ]
   ],
-  "test_invalid_port (__main__.LibUvTCPStoreTest)": [
-    "131085",
-    "https://github.com/pytorch/pytorch/issues/131085",
-    [
-      "linux"
-    ]
-  ],
   "test_is_isnot (__main__.TestScript)": [
     "120694",
     "https://github.com/pytorch/pytorch/issues/120694",
