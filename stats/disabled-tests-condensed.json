@@ -827,6 +827,13 @@
       "linux"
     ]
   ],
+  "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_1024_seq_len_k_1024_head_dim_160_is_causal_False_dropout_p_0_0_bfloat16_scale0_cuda_bfloat16 (__main__.TestSDPACudaOnlyCUDA)": [
+    "131125",
+    "https://github.com/pytorch/pytorch/issues/131125",
+    [
+      "rocm"
+    ]
+  ],
   "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_1024_seq_len_k_1024_head_dim_160_is_causal_False_dropout_p_0_0_bfloat16_scale_l1_cuda_bfloat16 (__main__.TestSDPACudaOnlyCUDA)": [
     "131159",
     "https://github.com/pytorch/pytorch/issues/131159",
@@ -1144,6 +1151,13 @@
   "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_1024_seq_len_k_1024_head_dim_32_is_causal_False_dropout_p_0_22_bfloat16_scale_l1_cuda_bfloat16 (__main__.TestSDPACudaOnlyCUDA)": [
     "131384",
     "https://github.com/pytorch/pytorch/issues/131384",
+    [
+      "linux"
+    ]
+  ],
+  "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_1024_seq_len_k_1024_head_dim_32_is_causal_False_dropout_p_0_22_float16_scale0_cuda_float16 (__main__.TestSDPACudaOnlyCUDA)": [
+    "131436",
+    "https://github.com/pytorch/pytorch/issues/131436",
     [
       "linux"
     ]
@@ -1703,6 +1717,20 @@
   "test_mem_efficient_attention_attn_mask_vs_math_ref_grads_batch_size_1_seq_len_q_128_seq_len_k_128_head_dim_32_is_causal_False_dropout_p_0_0_float16_scale0_cuda_float16 (__main__.TestSDPACudaOnlyCUDA)": [
     "131218",
     "https://github.com/pytorch/pytorch/issues/131218",
+    [
+      "linux"
+    ]
+  ],
+  "test_mem_efficient_attention_attn_mask_vs_math_ref_grads_batch_size_1_seq_len_q_128_seq_len_k_128_head_dim_32_is_causal_False_dropout_p_0_0_float16_scale_l1_cuda_float16 (__main__.TestSDPACudaOnlyCUDA)": [
+    "131435",
+    "https://github.com/pytorch/pytorch/issues/131435",
+    [
+      "linux"
+    ]
+  ],
+  "test_mem_efficient_attention_attn_mask_vs_math_ref_grads_batch_size_1_seq_len_q_128_seq_len_k_128_head_dim_32_is_causal_False_dropout_p_0_0_float32_scale0_cuda_float32 (__main__.TestSDPACudaOnlyCUDA)": [
+    "131090",
+    "https://github.com/pytorch/pytorch/issues/131090",
     [
       "linux"
     ]
