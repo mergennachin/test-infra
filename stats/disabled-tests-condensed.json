@@ -234,13 +234,6 @@
       "mac"
     ]
   ],
-  "test_binary_op_list_error_cases__foreach_add_cuda (__main__.TestForeachCUDA)": [
-    "124075",
-    "https://github.com/pytorch/pytorch/issues/124075",
-    [
-      "linux"
-    ]
-  ],
   "test_bitwise_cuda_cuda_wrapper (__main__.TestCudaWrapper)": [
     "121511",
     "https://github.com/pytorch/pytorch/issues/121511",
