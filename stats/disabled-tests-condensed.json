@@ -1380,6 +1380,13 @@
       "linux"
     ]
   ],
+  "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_1024_seq_len_k_1024_head_dim_64_is_causal_False_dropout_p_0_48_bfloat16_scale_l1_cuda_bfloat16 (__main__.TestSDPACudaOnlyCUDA)": [
+    "131623",
+    "https://github.com/pytorch/pytorch/issues/131623",
+    [
+      "linux"
+    ]
+  ],
   "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_1024_seq_len_k_1024_head_dim_64_is_causal_False_dropout_p_0_48_float16_scale_l1_cuda_float16 (__main__.TestSDPACudaOnlyCUDA)": [
     "131239",
     "https://github.com/pytorch/pytorch/issues/131239",
@@ -1504,6 +1511,14 @@
       "linux"
     ]
   ],
+  "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_1024_seq_len_k_2048_head_dim_160_is_causal_False_dropout_p_0_48_float16_scale0_cuda_float16 (__main__.TestSDPACudaOnlyCUDA)": [
+    "131626",
+    "https://github.com/pytorch/pytorch/issues/131626",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_1024_seq_len_k_2048_head_dim_16_is_causal_False_dropout_p_0_22_bfloat16_scale_l1_cuda_bfloat16 (__main__.TestSDPACudaOnlyCUDA)": [
     "131544",
     "https://github.com/pytorch/pytorch/issues/131544",
@@ -1551,6 +1566,13 @@
     "https://github.com/pytorch/pytorch/issues/93044",
     [
       "rocm"
+    ]
+  ],
+  "test_fn_grad_linalg_lu_factor_cuda_complex128 (__main__.TestBwdGradientsCUDA)": [
+    "88485",
+    "https://github.com/pytorch/pytorch/issues/88485",
+    [
+      "linux"
     ]
   ],
   "test_fn_grad_remainder_cuda_float64 (__main__.TestBwdGradientsCUDA)": [
@@ -2007,6 +2029,13 @@
   "test_mem_efficient_attention_attn_mask_vs_math_ref_grads_batch_size_1_seq_len_q_128_seq_len_k_128_head_dim_32_is_causal_False_dropout_p_0_22_float16_scale_l1_cuda_float16 (__main__.TestSDPACudaOnlyCUDA)": [
     "131609",
     "https://github.com/pytorch/pytorch/issues/131609",
+    [
+      "linux"
+    ]
+  ],
+  "test_mem_efficient_attention_attn_mask_vs_math_ref_grads_batch_size_1_seq_len_q_128_seq_len_k_128_head_dim_32_is_causal_False_dropout_p_0_22_float32_scale0_cuda_float32 (__main__.TestSDPACudaOnlyCUDA)": [
+    "131624",
+    "https://github.com/pytorch/pytorch/issues/131624",
     [
       "linux"
     ]
@@ -2802,6 +2831,13 @@
       "linux"
     ]
   ],
+  "test_scatter_fallback_abi_compatible_cuda (__main__.AOTInductorTestABICompatibleCuda)": [
+    "131627",
+    "https://github.com/pytorch/pytorch/issues/131627",
+    [
+      "inductor"
+    ]
+  ],
   "test_scatter_uneven (__main__.DeviceMeshCollectiveTest)": [
     "96282",
     "https://github.com/pytorch/pytorch/issues/96282",
@@ -2831,6 +2867,13 @@
       "slow",
       "win",
       "windows"
+    ]
+  ],
+  "test_sdp_math_gradcheck_contiguous_inputs_False_cuda (__main__.TestSDPACUDA)": [
+    "131625",
+    "https://github.com/pytorch/pytorch/issues/131625",
+    [
+      "linux"
     ]
   ],
   "test_sdp_math_gradcheck_contiguous_inputs_True_cuda (__main__.TestSDPACUDA)": [
