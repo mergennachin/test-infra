@@ -950,6 +950,13 @@
       "linux"
     ]
   ],
+  "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_1024_seq_len_k_1024_head_dim_160_is_causal_True_dropout_p_0_0_bfloat16_scale_l1_cuda_bfloat16 (__main__.TestSDPACudaOnlyCUDA)": [
+    "131129",
+    "https://github.com/pytorch/pytorch/issues/131129",
+    [
+      "rocm"
+    ]
+  ],
   "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_1024_seq_len_k_1024_head_dim_160_is_causal_True_dropout_p_0_0_float16_scale0_cuda_float16 (__main__.TestSDPACudaOnlyCUDA)": [
     "131094",
     "https://github.com/pytorch/pytorch/issues/131094",
@@ -1244,6 +1251,13 @@
   "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_1024_seq_len_k_1024_head_dim_21_is_causal_False_dropout_p_0_22_float16_scale_l1_cuda_float16 (__main__.TestSDPACudaOnlyCUDA)": [
     "131533",
     "https://github.com/pytorch/pytorch/issues/131533",
+    [
+      "linux"
+    ]
+  ],
+  "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_1024_seq_len_k_1024_head_dim_21_is_causal_False_dropout_p_0_48_bfloat16_scale0_cuda_bfloat16 (__main__.TestSDPACudaOnlyCUDA)": [
+    "131634",
+    "https://github.com/pytorch/pytorch/issues/131634",
     [
       "linux"
     ]
@@ -1551,7 +1565,8 @@
     "131079",
     "https://github.com/pytorch/pytorch/issues/131079",
     [
-      "inductor"
+      "inductor",
+      "rocm"
     ]
   ],
   "test_fn_grad_index_put_cuda_complex128 (__main__.TestBwdGradientsCUDA)": [
@@ -2078,6 +2093,13 @@
   "test_mem_efficient_attention_attn_mask_vs_math_ref_grads_batch_size_1_seq_len_q_128_seq_len_k_128_head_dim_64_is_causal_False_dropout_p_0_22_float16_scale0_cuda_float16 (__main__.TestSDPACudaOnlyCUDA)": [
     "131602",
     "https://github.com/pytorch/pytorch/issues/131602",
+    [
+      "linux"
+    ]
+  ],
+  "test_mem_efficient_attention_attn_mask_vs_math_ref_grads_batch_size_1_seq_len_q_128_seq_len_k_128_head_dim_64_is_causal_False_dropout_p_0_22_float16_scale_l1_cuda_float16 (__main__.TestSDPACudaOnlyCUDA)": [
+    "131633",
+    "https://github.com/pytorch/pytorch/issues/131633",
     [
       "linux"
     ]
