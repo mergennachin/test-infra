@@ -596,6 +596,13 @@
       "rocm"
     ]
   ],
+  "test_cudagraphs_cpu_scalar_used_in_cpp_custom_op (__main__.TestCompiledAutograd)": [
+    "131663",
+    "https://github.com/pytorch/pytorch/issues/131663",
+    [
+      "rocm"
+    ]
+  ],
   "test_custom_op_1_cuda_cuda_wrapper (__main__.TestCudaWrapper)": [
     "122811",
     "https://github.com/pytorch/pytorch/issues/122811",
