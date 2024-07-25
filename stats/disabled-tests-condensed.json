@@ -356,6 +356,14 @@
       "inductor"
     ]
   ],
+  "test_comprehensive__unsafe_masked_index_cuda_bool (__main__.TestInductorOpInfoCUDA)": [
+    "131748",
+    "https://github.com/pytorch/pytorch/issues/131748",
+    [
+      "rocm",
+      "inductor"
+    ]
+  ],
   "test_comprehensive__unsafe_masked_index_cuda_int32 (__main__.TestInductorOpInfoCUDA)": [
     "131118",
     "https://github.com/pytorch/pytorch/issues/131118",
@@ -2303,6 +2311,14 @@
     "https://github.com/pytorch/pytorch/issues/104454",
     [
       "asan"
+    ]
+  ],
+  "test_non_blocking_init (__main__.ProcessGroupNCCLGroupTest)": [
+    "131203",
+    "https://github.com/pytorch/pytorch/issues/131203",
+    [
+      "linux",
+      "rocm"
     ]
   ],
   "test_non_blocking_with_eager_init (__main__.ProcessGroupNCCLGroupTest)": [
