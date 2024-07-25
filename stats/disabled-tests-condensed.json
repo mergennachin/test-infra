@@ -2904,6 +2904,13 @@
       "inductor"
     ]
   ],
+  "test_scatter_fallback_non_abi_compatible_cuda (__main__.AOTInductorTestNonABICompatibleCuda)": [
+    "131727",
+    "https://github.com/pytorch/pytorch/issues/131727",
+    [
+      "inductor"
+    ]
+  ],
   "test_scatter_uneven (__main__.DeviceMeshCollectiveTest)": [
     "96282",
     "https://github.com/pytorch/pytorch/issues/96282",
