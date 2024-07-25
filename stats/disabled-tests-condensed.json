@@ -2820,6 +2820,13 @@
       "slow"
     ]
   ],
+  "test_retrace_export_while_loop_simple_cpu_float32 (__main__.TestHOPCPU)": [
+    "131768",
+    "https://github.com/pytorch/pytorch/issues/131768",
+    [
+      "linux"
+    ]
+  ],
   "test_retrace_export_while_loop_simple_cuda_float32 (__main__.TestHOPCUDA)": [
     "123944",
     "https://github.com/pytorch/pytorch/issues/123944",
