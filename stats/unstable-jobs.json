@@ -14,5 +14,13 @@
     "periodic",
     "linux-focal-rocm6.1-py3.8",
     "test (distributed)"
+  ],
+  "trunk / linux-focal-cuda11.8-py3.10-gcc9-experimental-split-build-test / test (distributed)": [
+    "kit1980",
+    "129539",
+    "https://github.com/pytorch/pytorch/issues/129539",
+    "trunk",
+    "linux-focal-cuda11.8-py3.10-gcc9-experimental-split-build-test",
+    "test (distributed)"
   ]
 }
