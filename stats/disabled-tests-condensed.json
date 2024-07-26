@@ -3245,6 +3245,13 @@
       "mac"
     ]
   ],
+  "test_timeout_dumps_on_stuck_ranks (__main__.NCCLTraceTestTimeoutDumpOnStuckRanks)": [
+    "120034",
+    "https://github.com/pytorch/pytorch/issues/120034",
+    [
+      "rocm"
+    ]
+  ],
   "test_torch_name_rule_map_updated (__main__.TraceRuleTests)": [
     "114831",
     "https://github.com/pytorch/pytorch/issues/114831",
