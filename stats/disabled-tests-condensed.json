@@ -1585,13 +1585,6 @@
       "linux"
     ]
   ],
-  "test_flash_attention_vs_math_ref_grads_batch_size_8_seq_len_q_2048_seq_len_k_2048_head_dim_64_is_causal_True_dropout_p_0_22_bfloat16_scale_l1_cuda_bfloat16 (__main__.TestSDPACudaOnlyCUDA)": [
-    "128119",
-    "https://github.com/pytorch/pytorch/issues/128119",
-    [
-      "linux"
-    ]
-  ],
   "test_fn_grad___rmod___cuda_float64 (__main__.TestBwdGradientsCUDA)": [
     "101770",
     "https://github.com/pytorch/pytorch/issues/101770",
@@ -2005,13 +1998,6 @@
   "test_lobpcg (__main__.TestAutograd)": [
     "80338",
     "https://github.com/pytorch/pytorch/issues/80338",
-    [
-      "linux"
-    ]
-  ],
-  "test_mem_efficient_attention_attn_mask_vs_math_ref_grads_batch_size_1_seq_len_q_128_seq_len_k_128_head_dim_16_is_causal_False_dropout_p_0_0_float16_scale_l1_cuda_float16 (__main__.TestSDPACudaOnlyCUDA)": [
-    "129861",
-    "https://github.com/pytorch/pytorch/issues/129861",
     [
       "linux"
     ]
