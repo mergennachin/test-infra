@@ -3172,7 +3172,8 @@
     "https://github.com/pytorch/pytorch/issues/131101",
     [
       "linux",
-      "slow"
+      "slow",
+      "mac"
     ]
   ],
   "test_slice_with_floordiv_non_strict (__main__.NonStrictExportTestExport)": [
