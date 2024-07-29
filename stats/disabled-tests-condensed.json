@@ -13,13 +13,6 @@
       "rocm"
     ]
   ],
-  "test_addcdiv_cuda_complex128 (__main__.TestTorchDeviceTypeCUDA)": [
-    "119515",
-    "https://github.com/pytorch/pytorch/issues/119515",
-    [
-      "inductor"
-    ]
-  ],
   "test_alibi_bias_float32 (__main__.TestTemplatedSDPA)": [
     "124526",
     "https://github.com/pytorch/pytorch/issues/124526",
@@ -345,13 +338,6 @@
   "test_complex_half_reference_testing_fft_hfft2_cuda_complex32 (__main__.TestCommonCUDA)": [
     "108743",
     "https://github.com/pytorch/pytorch/issues/108743",
-    [
-      "inductor"
-    ]
-  ],
-  "test_complex_half_reference_testing_pow_cuda_complex32 (__main__.TestCommonCUDA)": [
-    "108993",
-    "https://github.com/pytorch/pytorch/issues/108993",
     [
       "inductor"
     ]
@@ -1592,26 +1578,12 @@
       "inductor"
     ]
   ],
-  "test_fn_grad_div_trunc_rounding_cuda_float64 (__main__.TestBwdGradientsCUDA)": [
-    "102112",
-    "https://github.com/pytorch/pytorch/issues/102112",
-    [
-      "inductor"
-    ]
-  ],
   "test_fn_grad_grid_sampler_2d_cuda_float64 (__main__.TestBwdGradientsCUDA)": [
     "131079",
     "https://github.com/pytorch/pytorch/issues/131079",
     [
       "inductor",
       "rocm"
-    ]
-  ],
-  "test_fn_grad_index_put_cuda_complex128 (__main__.TestBwdGradientsCUDA)": [
-    "101755",
-    "https://github.com/pytorch/pytorch/issues/101755",
-    [
-      "inductor"
     ]
   ],
   "test_fn_grad_linalg_det_singular_cuda_complex128 (__main__.TestBwdGradientsCUDA)": [
@@ -1631,13 +1603,6 @@
   "test_fn_grad_remainder_cuda_float64 (__main__.TestBwdGradientsCUDA)": [
     "101771",
     "https://github.com/pytorch/pytorch/issues/101771",
-    [
-      "inductor"
-    ]
-  ],
-  "test_fn_gradgrad_remainder_cuda_float64 (__main__.TestBwdGradientsCUDA)": [
-    "101757",
-    "https://github.com/pytorch/pytorch/issues/101757",
     [
       "inductor"
     ]
@@ -1719,34 +1684,6 @@
   "test_grad_scaling_autocast_foreach_cuda (__main__.TestTorchDeviceTypeCUDA)": [
     "119184",
     "https://github.com/pytorch/pytorch/issues/119184",
-    [
-      "inductor"
-    ]
-  ],
-  "test_grad_scaling_clipping_cuda (__main__.TestTorchDeviceTypeCUDA)": [
-    "119185",
-    "https://github.com/pytorch/pytorch/issues/119185",
-    [
-      "inductor"
-    ]
-  ],
-  "test_grad_scaling_clipping_separate_unscale_cuda (__main__.TestTorchDeviceTypeCUDA)": [
-    "119193",
-    "https://github.com/pytorch/pytorch/issues/119193",
-    [
-      "inductor"
-    ]
-  ],
-  "test_grad_scaling_multiple_cuda (__main__.TestTorchDeviceTypeCUDA)": [
-    "119254",
-    "https://github.com/pytorch/pytorch/issues/119254",
-    [
-      "inductor"
-    ]
-  ],
-  "test_grad_scaling_penalty_cuda (__main__.TestTorchDeviceTypeCUDA)": [
-    "119260",
-    "https://github.com/pytorch/pytorch/issues/119260",
     [
       "inductor"
     ]
@@ -1866,13 +1803,6 @@
   "test_inplace_grad_div_floor_rounding_cuda_float64 (__main__.TestBwdGradientsCUDA)": [
     "100520",
     "https://github.com/pytorch/pytorch/issues/100520",
-    [
-      "inductor"
-    ]
-  ],
-  "test_inplace_grad_div_trunc_rounding_cuda_float64 (__main__.TestBwdGradientsCUDA)": [
-    "102113",
-    "https://github.com/pytorch/pytorch/issues/102113",
     [
       "inductor"
     ]
@@ -2185,13 +2115,6 @@
       "rocm"
     ]
   ],
-  "test_memory_format_type_cuda (__main__.TestTorchDeviceTypeCUDA)": [
-    "126954",
-    "https://github.com/pytorch/pytorch/issues/126954",
-    [
-      "inductor"
-    ]
-  ],
   "test_memory_stats_multigpu (__main__.TestCudaMultiGPU)": [
     "129860",
     "https://github.com/pytorch/pytorch/issues/129860",
@@ -2343,13 +2266,6 @@
       "linux"
     ]
   ],
-  "test_noncontiguous_samples__native_batch_norm_legit_cuda_float32 (__main__.TestCommonCUDA)": [
-    "110210",
-    "https://github.com/pytorch/pytorch/issues/110210",
-    [
-      "inductor"
-    ]
-  ],
   "test_noncontiguous_samples_matmul_cuda_float32 (__main__.TestCommonCUDA)": [
     "101525",
     "https://github.com/pytorch/pytorch/issues/101525",
@@ -2364,76 +2280,6 @@
       "linux"
     ]
   ],
-  "test_nondeterministic_alert_MaxUnpool1d_cuda_float16 (__main__.TestTorchDeviceTypeCUDA)": [
-    "108857",
-    "https://github.com/pytorch/pytorch/issues/108857",
-    [
-      "inductor"
-    ]
-  ],
-  "test_nondeterministic_alert_MaxUnpool1d_cuda_float32 (__main__.TestTorchDeviceTypeCUDA)": [
-    "108909",
-    "https://github.com/pytorch/pytorch/issues/108909",
-    [
-      "inductor"
-    ]
-  ],
-  "test_nondeterministic_alert_MaxUnpool1d_cuda_float64 (__main__.TestTorchDeviceTypeCUDA)": [
-    "109130",
-    "https://github.com/pytorch/pytorch/issues/109130",
-    [
-      "inductor"
-    ]
-  ],
-  "test_nondeterministic_alert_MaxUnpool2d_cuda_float16 (__main__.TestTorchDeviceTypeCUDA)": [
-    "109162",
-    "https://github.com/pytorch/pytorch/issues/109162",
-    [
-      "inductor"
-    ]
-  ],
-  "test_nondeterministic_alert_MaxUnpool2d_cuda_float32 (__main__.TestTorchDeviceTypeCUDA)": [
-    "109181",
-    "https://github.com/pytorch/pytorch/issues/109181",
-    [
-      "inductor"
-    ]
-  ],
-  "test_nondeterministic_alert_MaxUnpool2d_cuda_float64 (__main__.TestTorchDeviceTypeCUDA)": [
-    "109195",
-    "https://github.com/pytorch/pytorch/issues/109195",
-    [
-      "inductor"
-    ]
-  ],
-  "test_nondeterministic_alert_MaxUnpool3d_cuda_float16 (__main__.TestTorchDeviceTypeCUDA)": [
-    "109224",
-    "https://github.com/pytorch/pytorch/issues/109224",
-    [
-      "inductor"
-    ]
-  ],
-  "test_nondeterministic_alert_MaxUnpool3d_cuda_float32 (__main__.TestTorchDeviceTypeCUDA)": [
-    "109268",
-    "https://github.com/pytorch/pytorch/issues/109268",
-    [
-      "inductor"
-    ]
-  ],
-  "test_nondeterministic_alert_MaxUnpool3d_cuda_float64 (__main__.TestTorchDeviceTypeCUDA)": [
-    "109276",
-    "https://github.com/pytorch/pytorch/issues/109276",
-    [
-      "inductor"
-    ]
-  ],
-  "test_nondeterministic_alert_bincount_cuda (__main__.TestTorchDeviceTypeCUDA)": [
-    "109290",
-    "https://github.com/pytorch/pytorch/issues/109290",
-    [
-      "inductor"
-    ]
-  ],
   "test_nondeterministic_alert_histc_cuda (__main__.TestTorchDeviceTypeCUDA)": [
     "109310",
     "https://github.com/pytorch/pytorch/issues/109310",
@@ -2444,13 +2290,6 @@
   "test_nondeterministic_alert_kthvalue_cuda_float64 (__main__.TestTorchDeviceTypeCUDA)": [
     "109341",
     "https://github.com/pytorch/pytorch/issues/109341",
-    [
-      "inductor"
-    ]
-  ],
-  "test_nondeterministic_alert_median_cuda_float64 (__main__.TestTorchDeviceTypeCUDA)": [
-    "109362",
-    "https://github.com/pytorch/pytorch/issues/109362",
     [
       "inductor"
     ]
