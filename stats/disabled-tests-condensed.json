@@ -587,7 +587,8 @@
     "131663",
     "https://github.com/pytorch/pytorch/issues/131663",
     [
-      "rocm"
+      "rocm",
+      "linux"
     ]
   ],
   "test_custom_op_1_cuda_cuda_wrapper (__main__.TestCudaWrapper)": [
@@ -1569,13 +1570,6 @@
     "https://github.com/pytorch/pytorch/issues/131647",
     [
       "linux"
-    ]
-  ],
-  "test_fn_grad___rmod___cuda_float64 (__main__.TestBwdGradientsCUDA)": [
-    "101770",
-    "https://github.com/pytorch/pytorch/issues/101770",
-    [
-      "inductor"
     ]
   ],
   "test_fn_grad_grid_sampler_2d_cuda_float64 (__main__.TestBwdGradientsCUDA)": [
