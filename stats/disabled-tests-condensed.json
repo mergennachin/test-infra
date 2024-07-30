@@ -182,6 +182,14 @@
       "macos"
     ]
   ],
+  "test_autograd_function_backed_op (__main__.TestCustomOp)": [
+    "132115",
+    "https://github.com/pytorch/pytorch/issues/132115",
+    [
+      "asan",
+      "linux"
+    ]
+  ],
   "test_autograd_function_backed_op (__main__.TestCustomOpWithCompiledAutograd)": [
     "121342",
     "https://github.com/pytorch/pytorch/issues/121342",
@@ -595,7 +603,8 @@
     "132108",
     "https://github.com/pytorch/pytorch/issues/132108",
     [
-      "linux"
+      "linux",
+      "rocm"
     ]
   ],
   "test_custom_op_1_cuda_cuda_wrapper (__main__.TestCudaWrapper)": [
