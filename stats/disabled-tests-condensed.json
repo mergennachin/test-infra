@@ -604,7 +604,8 @@
     "https://github.com/pytorch/pytorch/issues/132108",
     [
       "linux",
-      "rocm"
+      "rocm",
+      "slow"
     ]
   ],
   "test_custom_op_1_cuda_cuda_wrapper (__main__.TestCudaWrapper)": [
