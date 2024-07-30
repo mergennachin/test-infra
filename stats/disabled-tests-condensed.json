@@ -529,13 +529,6 @@
       "linux"
     ]
   ],
-  "test_cpp_extension_recommends_custom_ops_inline_inbuilt_nn_modules (__main__.InlineInbuiltNNModulesMiscTests)": [
-    "130761",
-    "https://github.com/pytorch/pytorch/issues/130761",
-    [
-      "linux"
-    ]
-  ],
   "test_cpp_frontend_module_has_same_output_as_python (__main__.TestCppExtensionJIT)": [
     "116105",
     "https://github.com/pytorch/pytorch/issues/116105",
@@ -1604,13 +1597,6 @@
       "linux"
     ]
   ],
-  "test_fn_grad_remainder_cuda_float64 (__main__.TestBwdGradientsCUDA)": [
-    "101771",
-    "https://github.com/pytorch/pytorch/issues/101771",
-    [
-      "inductor"
-    ]
-  ],
   "test_forward_mode_AD_linalg_det_singular_cuda_complex128 (__main__.TestFwdGradientsCUDA)": [
     "93045",
     "https://github.com/pytorch/pytorch/issues/93045",
@@ -1641,6 +1627,13 @@
     "https://github.com/pytorch/pytorch/issues/91467",
     [
       "dynamo"
+    ]
+  ],
+  "test_fully_shard_post_optim_event_overlap (__main__.TestFullyShardOverlap)": [
+    "131081",
+    "https://github.com/pytorch/pytorch/issues/131081",
+    [
+      "linux"
     ]
   ],
   "test_fully_shard_training_overlap (__main__.TestFullyShardOverlap)": [
