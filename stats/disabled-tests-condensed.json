@@ -2281,14 +2281,6 @@
       "inductor"
     ]
   ],
-  "test_nonzero_no_warning (__main__.TestAdvancedIndexing)": [
-    "126492",
-    "https://github.com/pytorch/pytorch/issues/126492",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_numpy_ref_mps_nn_functional_conv_transpose1d_mps_float32 (__main__.TestCommonMPS)": [
     "87542",
     "https://github.com/pytorch/pytorch/issues/87542",
