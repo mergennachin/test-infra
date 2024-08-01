@@ -975,6 +975,13 @@
       "linux"
     ]
   ],
+  "test_dtensor_op_db_full_like_cpu_float32 (__main__.TestDTensorOpsCPU)": [
+    "132447",
+    "https://github.com/pytorch/pytorch/issues/132447",
+    [
+      "linux"
+    ]
+  ],
   "test_dtensor_op_db_inner_cpu_float32 (__main__.TestDTensorOpsCPU)": [
     "126852",
     "https://github.com/pytorch/pytorch/issues/126852",
@@ -3652,13 +3659,6 @@
     "https://github.com/pytorch/pytorch/issues/107425",
     [
       "linux"
-    ]
-  ],
-  "test_workspace_allocation_error (__main__.CudaGraphTreeTests)": [
-    "127657",
-    "https://github.com/pytorch/pytorch/issues/127657",
-    [
-      "cuda"
     ]
   ],
   "test_zero_model_parallel_parameters_as_bucket_view_True (__main__.TestZeroRedundancyOptimizerDistributed)": [
