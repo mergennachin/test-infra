@@ -709,7 +709,8 @@
     [
       "rocm",
       "win",
-      "windows"
+      "windows",
+      "linux"
     ]
   ],
   "test_comprehensive_nn_functional_nll_loss_cuda_float64 (__main__.TestDecompCUDA)": [
