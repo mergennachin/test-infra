@@ -219,15 +219,6 @@
       "linux"
     ]
   ],
-  "test_backward_nn_functional_conv3d_cuda_float32 (__main__.TestCompositeComplianceCUDA)": [
-    "114670",
-    "https://github.com/pytorch/pytorch/issues/114670",
-    [
-      "linux",
-      "win",
-      "windows"
-    ]
-  ],
   "test_barrier_timeout_group (__main__.TestDistBackendWithSpawn)": [
     "70755",
     "https://github.com/pytorch/pytorch/issues/70755",
