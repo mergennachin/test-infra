@@ -636,13 +636,6 @@
       "inductor"
     ]
   ],
-  "test_comprehensive_argsort_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
-    "131158",
-    "https://github.com/pytorch/pytorch/issues/131158",
-    [
-      "rocm"
-    ]
-  ],
   "test_comprehensive_empty_strided_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
     "102033",
     "https://github.com/pytorch/pytorch/issues/102033",
@@ -2052,13 +2045,11 @@
       "rocm"
     ]
   ],
-  "test_item_to_inputs_kernel_nobreak_cuda (__main__.TestInductorDynamicCUDA)": [
-    "119538",
-    "https://github.com/pytorch/pytorch/issues/119538",
+  "test_is_isnot (__main__.TestScript)": [
+    "120694",
+    "https://github.com/pytorch/pytorch/issues/120694",
     [
-      "linux",
-      "rocm",
-      "slow"
+      "dynamo"
     ]
   ],
   "test_jvpvjp_nn_functional_conv3d_cuda_float32 (__main__.TestOperatorsCUDA)": [
@@ -2712,16 +2703,16 @@
       "linux"
     ]
   ],
-  "test_quantization_doc_fx (__main__.TestQuantizationDocs)": [
-    "125670",
-    "https://github.com/pytorch/pytorch/issues/125670",
+  "test_quantization_doc_ptdq (__main__.TestQuantizationDocs)": [
+    "125667",
+    "https://github.com/pytorch/pytorch/issues/125667",
     [
       "linux"
     ]
   ],
-  "test_quantization_doc_ptsq (__main__.TestQuantizationDocs)": [
-    "125669",
-    "https://github.com/pytorch/pytorch/issues/125669",
+  "test_quantization_doc_qat (__main__.TestQuantizationDocs)": [
+    "128118",
+    "https://github.com/pytorch/pytorch/issues/128118",
     [
       "linux"
     ]
@@ -2918,13 +2909,6 @@
   "test_scaled_dot_product_attention_3D_input_dim_no_attn_mask_dropout_p_0_5_cuda (__main__.TestTransformersCUDA)": [
     "131123",
     "https://github.com/pytorch/pytorch/issues/131123",
-    [
-      "linux"
-    ]
-  ],
-  "test_scaled_dot_product_attention_4D_input_dim_no_attn_mask_dropout_p_0_0_cuda (__main__.TestTransformersCUDA)": [
-    "129853",
-    "https://github.com/pytorch/pytorch/issues/129853",
     [
       "linux"
     ]
