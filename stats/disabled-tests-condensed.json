@@ -636,13 +636,6 @@
       "inductor"
     ]
   ],
-  "test_comprehensive__unsafe_masked_index_cuda_int32 (__main__.TestInductorOpInfoCUDA)": [
-    "131118",
-    "https://github.com/pytorch/pytorch/issues/131118",
-    [
-      "rocm"
-    ]
-  ],
   "test_comprehensive_argsort_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
     "131158",
     "https://github.com/pytorch/pytorch/issues/131158",
@@ -2710,6 +2703,13 @@
     "https://github.com/pytorch/pytorch/issues/73474",
     [
       "macos"
+    ]
+  ],
+  "test_quantization_doc_custom (__main__.TestQuantizationDocs)": [
+    "125668",
+    "https://github.com/pytorch/pytorch/issues/125668",
+    [
+      "linux"
     ]
   ],
   "test_quantization_doc_fx (__main__.TestQuantizationDocs)": [
