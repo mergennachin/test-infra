@@ -150,14 +150,6 @@
       "rocm"
     ]
   ],
-  "test_autograd_cpp_node_saved (__main__.TestCompiledAutograd)": [
-    "131103",
-    "https://github.com/pytorch/pytorch/issues/131103",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_autograd_function_backed_op (__main__.TestCustomOp)": [
     "132115",
     "https://github.com/pytorch/pytorch/issues/132115",
@@ -1083,6 +1075,18 @@
       "windows"
     ]
   ],
+  "test_device_mode_ops_sparse_mm_reduce_cpu_float64 (__main__.TestDeviceUtilsCPU)": [
+    "132619",
+    "https://github.com/pytorch/pytorch/issues/132619",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "win",
+      "windows"
+    ]
+  ],
   "test_distributed_checkpoint_state_dict_type0 (__main__.TestDistributedCheckpoint)": [
     "113937",
     "https://github.com/pytorch/pytorch/issues/113937",
@@ -1968,13 +1972,6 @@
     "https://github.com/pytorch/pytorch/issues/123726",
     [
       "rocm"
-    ]
-  ],
-  "test_grad_nn_GroupNorm_cuda_float64 (__main__.TestModuleCUDA)": [
-    "98677",
-    "https://github.com/pytorch/pytorch/issues/98677",
-    [
-      "linux"
     ]
   ],
   "test_grad_scaling_autocast_cuda (__main__.TestTorchDeviceTypeCUDA)": [
