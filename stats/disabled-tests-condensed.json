@@ -167,12 +167,28 @@
       "rocm"
     ]
   ],
+  "test_autograd_cpp_node_saved (__main__.TestCompiledAutograd)": [
+    "131103",
+    "https://github.com/pytorch/pytorch/issues/131103",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_autograd_function_backed_op (__main__.TestCustomOp)": [
     "132115",
     "https://github.com/pytorch/pytorch/issues/132115",
     [
       "asan",
       "linux"
+    ]
+  ],
+  "test_autograd_function_backed_op (__main__.TestCustomOpWithCompiledAutograd)": [
+    "121342",
+    "https://github.com/pytorch/pytorch/issues/121342",
+    [
+      "mac",
+      "macos"
     ]
   ],
   "test_backward_ddp_inside (__main__.TensorPipeDdpUnderDistAutogradTest)": [
@@ -1275,6 +1291,14 @@
   "test_device_mode_ops_sparse_sampled_addmm_cpu_complex128 (__main__.TestDeviceUtilsCPU)": [
     "132643",
     "https://github.com/pytorch/pytorch/issues/132643",
+    [
+      "asan",
+      "linux"
+    ]
+  ],
+  "test_device_mode_ops_sparse_sampled_addmm_cpu_complex64 (__main__.TestDeviceUtilsCPU)": [
+    "132686",
+    "https://github.com/pytorch/pytorch/issues/132686",
     [
       "asan",
       "linux"
@@ -2834,15 +2858,6 @@
       "rocm"
     ]
   ],
-  "test_pre_dispatch_export_auto_functionalize_simple_cuda_float32 (__main__.TestHOPCUDA)": [
-    "123267",
-    "https://github.com/pytorch/pytorch/issues/123267",
-    [
-      "linux",
-      "slow",
-      "rocm"
-    ]
-  ],
   "test_pre_dispatch_export_cond_simple_cuda_float32 (__main__.TestHOPCUDA)": [
     "123352",
     "https://github.com/pytorch/pytorch/issues/123352",
@@ -3084,15 +3099,6 @@
     "https://github.com/pytorch/pytorch/issues/122491",
     [
       "linux"
-    ]
-  ],
-  "test_retrace_export_auto_functionalize_simple_cuda_float32 (__main__.TestHOPCUDA)": [
-    "123449",
-    "https://github.com/pytorch/pytorch/issues/123449",
-    [
-      "linux",
-      "rocm",
-      "slow"
     ]
   ],
   "test_retrace_export_cond_simple_cuda_float32 (__main__.TestHOPCUDA)": [
@@ -3364,14 +3370,6 @@
     "https://github.com/pytorch/pytorch/issues/127755",
     [
       "dynamo"
-    ]
-  ],
-  "test_serialize_export_auto_functionalize_simple_cuda_float32 (__main__.TestHOPCUDA)": [
-    "123563",
-    "https://github.com/pytorch/pytorch/issues/123563",
-    [
-      "linux",
-      "slow"
     ]
   ],
   "test_serialize_export_cond_simple_cuda_float32 (__main__.TestHOPCUDA)": [
