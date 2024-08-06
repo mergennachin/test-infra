@@ -1312,6 +1312,14 @@
       "linux"
     ]
   ],
+  "test_device_mode_ops_sparse_sampled_addmm_cpu_float64 (__main__.TestDeviceUtilsCPU)": [
+    "132737",
+    "https://github.com/pytorch/pytorch/issues/132737",
+    [
+      "asan",
+      "linux"
+    ]
+  ],
   "test_distributed_checkpoint_state_dict_type0 (__main__.TestDistributedCheckpoint)": [
     "113937",
     "https://github.com/pytorch/pytorch/issues/113937",
@@ -2864,6 +2872,13 @@
     "https://github.com/pytorch/pytorch/issues/75139",
     [
       "rocm"
+    ]
+  ],
+  "test_post_localSGD_optimizer_step_reload (__main__.TestDistBackendWithSpawn)": [
+    "84886",
+    "https://github.com/pytorch/pytorch/issues/84886",
+    [
+      "linux"
     ]
   ],
   "test_pre_dispatch_export_cond_simple_cuda_float32 (__main__.TestHOPCUDA)": [
