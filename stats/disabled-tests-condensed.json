@@ -1304,6 +1304,14 @@
       "linux"
     ]
   ],
+  "test_device_mode_ops_sparse_sampled_addmm_cpu_float32 (__main__.TestDeviceUtilsCPU)": [
+    "132720",
+    "https://github.com/pytorch/pytorch/issues/132720",
+    [
+      "asan",
+      "linux"
+    ]
+  ],
   "test_distributed_checkpoint_state_dict_type0 (__main__.TestDistributedCheckpoint)": [
     "113937",
     "https://github.com/pytorch/pytorch/issues/113937",
@@ -3153,6 +3161,13 @@
       "linux"
     ]
   ],
+  "test_scaled_dot_product_attention_3D_input_dim_no_attn_mask_dropout_p_0_0_cuda (__main__.TestTransformersCUDA)": [
+    "131086",
+    "https://github.com/pytorch/pytorch/issues/131086",
+    [
+      "linux"
+    ]
+  ],
   "test_scaled_dot_product_attention_3D_input_dim_no_attn_mask_dropout_p_0_2_cuda (__main__.TestTransformersCUDA)": [
     "131146",
     "https://github.com/pytorch/pytorch/issues/131146",
@@ -3836,6 +3851,18 @@
     "https://github.com/pytorch/pytorch/issues/107425",
     [
       "linux"
+    ]
+  ],
+  "test_warn_on_invalid_torch_function_tensor_subclass (__main__.TestTorchFunctionWarning)": [
+    "132719",
+    "https://github.com/pytorch/pytorch/issues/132719",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "win",
+      "windows"
     ]
   ],
   "test_zero_model_parallel_parameters_as_bucket_view_True (__main__.TestZeroRedundancyOptimizerDistributed)": [
