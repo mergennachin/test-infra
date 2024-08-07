@@ -2395,6 +2395,13 @@
       "dynamo"
     ]
   ],
+  "test_fully_shard_training_overlap (__main__.TestFullyShardOverlap)": [
+    "120961",
+    "https://github.com/pytorch/pytorch/issues/120961",
+    [
+      "rocm"
+    ]
+  ],
   "test_fused_sdp_choice_privateuseone (__main__.TestSDPAPrivateUse1Only)": [
     "132862",
     "https://github.com/pytorch/pytorch/issues/132862",
