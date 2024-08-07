@@ -1461,13 +1461,6 @@
       "linux"
     ]
   ],
-  "test_ddp_device_mesh_initialization (__main__.TestDistBackendWithSpawn)": [
-    "132833",
-    "https://github.com/pytorch/pytorch/issues/132833",
-    [
-      "linux"
-    ]
-  ],
   "test_ddp_has_finalized (__main__.TestDistBackendWithSpawn)": [
     "102751",
     "https://github.com/pytorch/pytorch/issues/102751",
@@ -2400,13 +2393,6 @@
     "https://github.com/pytorch/pytorch/issues/91467",
     [
       "dynamo"
-    ]
-  ],
-  "test_fully_shard_training_overlap (__main__.TestFullyShardOverlap)": [
-    "120961",
-    "https://github.com/pytorch/pytorch/issues/120961",
-    [
-      "rocm"
     ]
   ],
   "test_fused_sdp_choice_privateuseone (__main__.TestSDPAPrivateUse1Only)": [
