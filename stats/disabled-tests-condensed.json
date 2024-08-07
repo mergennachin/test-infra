@@ -2384,13 +2384,6 @@
       "rocm"
     ]
   ],
-  "test_homogeneous_attributes (__main__.TestFSDPMiscMultiThread)": [
-    "105024",
-    "https://github.com/pytorch/pytorch/issues/105024",
-    [
-      "linux"
-    ]
-  ],
   "test_identity_float32 (__main__.TestTemplatedSDPA)": [
     "124659",
     "https://github.com/pytorch/pytorch/issues/124659",
