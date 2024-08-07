@@ -1366,6 +1366,13 @@
       "linux"
     ]
   ],
+  "test_ddp_device_mesh_initialization (__main__.TestDistBackendWithSpawn)": [
+    "132833",
+    "https://github.com/pytorch/pytorch/issues/132833",
+    [
+      "linux"
+    ]
+  ],
   "test_ddp_has_finalized (__main__.TestDistBackendWithSpawn)": [
     "102751",
     "https://github.com/pytorch/pytorch/issues/102751",
@@ -2019,13 +2026,6 @@
       "slow"
     ]
   ],
-  "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_1024_seq_len_k_1024_head_dim_192_is_causal_True_dropout_p_0_48_float16_scale_l1_cuda_float16 (__main__.TestSDPACudaOnlyCUDA)": [
-    "131227",
-    "https://github.com/pytorch/pytorch/issues/131227",
-    [
-      "linux"
-    ]
-  ],
   "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_1024_seq_len_k_1024_head_dim_21_is_causal_False_dropout_p_0_22_float16_scale0_cuda_float16 (__main__.TestSDPACudaOnlyCUDA)": [
     "131456",
     "https://github.com/pytorch/pytorch/issues/131456",
@@ -2064,13 +2064,6 @@
   "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_1024_seq_len_k_1024_head_dim_21_is_causal_True_dropout_p_0_22_bfloat16_scale0_cuda_bfloat16 (__main__.TestSDPACudaOnlyCUDA)": [
     "131444",
     "https://github.com/pytorch/pytorch/issues/131444",
-    [
-      "linux"
-    ]
-  ],
-  "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_1024_seq_len_k_1024_head_dim_21_is_causal_True_dropout_p_0_22_float16_scale0_cuda_float16 (__main__.TestSDPACudaOnlyCUDA)": [
-    "131221",
-    "https://github.com/pytorch/pytorch/issues/131221",
     [
       "linux"
     ]
