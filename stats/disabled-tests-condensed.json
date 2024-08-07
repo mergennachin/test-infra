@@ -3265,13 +3265,6 @@
       "asan"
     ]
   ],
-  "test_record_stream_cuda (__main__.TestRecordStream)": [
-    "121234",
-    "https://github.com/pytorch/pytorch/issues/121234",
-    [
-      "rocm"
-    ]
-  ],
   "test_record_stream_on_shifted_view (__main__.TestCuda)": [
     "120318",
     "https://github.com/pytorch/pytorch/issues/120318",
