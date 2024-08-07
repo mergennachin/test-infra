@@ -2527,14 +2527,6 @@
       "linux"
     ]
   ],
-  "test_init_rpc_twice (__main__.TensorPipeRpcTest)": [
-    "74180",
-    "https://github.com/pytorch/pytorch/issues/74180",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_inplace_gradgrad_remainder_cuda_float64 (__main__.TestBwdGradientsCUDA)": [
     "100675",
     "https://github.com/pytorch/pytorch/issues/100675",
@@ -4027,20 +4019,6 @@
   "test_vmapvjpvjp_linalg_lu_factor_ex_cuda_float32 (__main__.TestOperatorsCUDA)": [
     "104737",
     "https://github.com/pytorch/pytorch/issues/104737",
-    [
-      "linux"
-    ]
-  ],
-  "test_wait_i_5 (__main__.TestMultiThreadedWait)": [
-    "107424",
-    "https://github.com/pytorch/pytorch/issues/107424",
-    [
-      "linux"
-    ]
-  ],
-  "test_wait_i_6 (__main__.TestMultiThreadedWait)": [
-    "107425",
-    "https://github.com/pytorch/pytorch/issues/107425",
     [
       "linux"
     ]
