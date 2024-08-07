@@ -2321,6 +2321,13 @@
       "rocm"
     ]
   ],
+  "test_fused_sdp_choice_privateuseone (__main__.TestSDPAPrivateUse1Only)": [
+    "132862",
+    "https://github.com/pytorch/pytorch/issues/132862",
+    [
+      "linux"
+    ]
+  ],
   "test_gpu_simple (__main__.TensorPipeCudaDistAutogradTest)": [
     "70753",
     "https://github.com/pytorch/pytorch/issues/70753",
