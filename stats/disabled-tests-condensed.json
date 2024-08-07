@@ -1588,6 +1588,13 @@
       "linux"
     ]
   ],
+  "test_dtensor_op_db_dstack_cpu_float32 (__main__.TestDTensorOpsCPU)": [
+    "126493",
+    "https://github.com/pytorch/pytorch/issues/126493",
+    [
+      "linux"
+    ]
+  ],
   "test_dtensor_op_db_full_like_cpu_float32 (__main__.TestDTensorOpsCPU)": [
     "132447",
     "https://github.com/pytorch/pytorch/issues/132447",
@@ -2233,6 +2240,13 @@
     [
       "linux",
       "slow"
+    ]
+  ],
+  "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_1024_seq_len_k_1024_head_dim_72_is_causal_False_dropout_p_0_48_float16_scale_l1_cuda_float16 (__main__.TestSDPACudaOnlyCUDA)": [
+    "131534",
+    "https://github.com/pytorch/pytorch/issues/131534",
+    [
+      "linux"
     ]
   ],
   "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_1024_seq_len_k_1024_head_dim_72_is_causal_True_dropout_p_0_22_bfloat16_scale0_cuda_bfloat16 (__main__.TestSDPACudaOnlyCUDA)": [
@@ -4013,20 +4027,6 @@
   "test_vmapvjpvjp_linalg_lu_factor_ex_cuda_float32 (__main__.TestOperatorsCUDA)": [
     "104737",
     "https://github.com/pytorch/pytorch/issues/104737",
-    [
-      "linux"
-    ]
-  ],
-  "test_wait_i_3 (__main__.TestMultiThreadedWait)": [
-    "100459",
-    "https://github.com/pytorch/pytorch/issues/100459",
-    [
-      "linux"
-    ]
-  ],
-  "test_wait_i_4 (__main__.TestMultiThreadedWait)": [
-    "100448",
-    "https://github.com/pytorch/pytorch/issues/100448",
     [
       "linux"
     ]
