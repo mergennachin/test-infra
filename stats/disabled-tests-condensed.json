@@ -1589,6 +1589,13 @@
       "linux"
     ]
   ],
+  "test_dropout_deterministic_cuda (__main__.GPUTests)": [
+    "133025",
+    "https://github.com/pytorch/pytorch/issues/133025",
+    [
+      "linux"
+    ]
+  ],
   "test_dropout_deterministic_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
     "132957",
     "https://github.com/pytorch/pytorch/issues/132957",
