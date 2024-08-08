@@ -313,6 +313,14 @@
       "rocm"
     ]
   ],
+  "test_closure_recompiles_inline_inbuilt_nn_modules (__main__.InlineInbuiltNNModulesMiscTests)": [
+    "132985",
+    "https://github.com/pytorch/pytorch/issues/132985",
+    [
+      "linux",
+      "rocm"
+    ]
+  ],
   "test_compare_cpu__refs_empty_strided_cuda_float32 (__main__.TestCommonCUDA)": [
     "101625",
     "https://github.com/pytorch/pytorch/issues/101625",
@@ -1556,6 +1564,14 @@
     [
       "asan",
       "linux"
+    ]
+  ],
+  "test_distributed_checkpoint_state_dict_type1 (__main__.TestDistributedCheckpoint)": [
+    "113936",
+    "https://github.com/pytorch/pytorch/issues/113936",
+    [
+      "linux",
+      "rocm"
     ]
   ],
   "test_doc_examples (__main__.TestTypeHints)": [
