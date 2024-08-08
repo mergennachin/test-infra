@@ -3237,13 +3237,6 @@
       "rocm"
     ]
   ],
-  "test_raises_mesh_dim_less_than_2 (__main__.TestDeviceMeshGetItem)": [
-    "110026",
-    "https://github.com/pytorch/pytorch/issues/110026",
-    [
-      "linux"
-    ]
-  ],
   "test_rand (test_jit.TestScript)": [
     "91495",
     "https://github.com/pytorch/pytorch/issues/91495",
