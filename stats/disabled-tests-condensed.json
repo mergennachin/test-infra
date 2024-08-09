@@ -233,6 +233,13 @@
       "rocm"
     ]
   ],
+  "test_broadcast_1d (__main__.DeviceMeshCollectiveTest)": [
+    "98048",
+    "https://github.com/pytorch/pytorch/issues/98048",
+    [
+      "linux"
+    ]
+  ],
   "test_builtin_remote_message_dropped_timeout_to_self (__main__.FaultyFaultyAgentRpcTest)": [
     "69179",
     "https://github.com/pytorch/pytorch/issues/69179",
