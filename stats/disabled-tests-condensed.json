@@ -171,6 +171,13 @@
       "macos"
     ]
   ],
+  "test_b2b_gemm_left_assoc_good_shape (__main__.B2BGEMMTest)": [
+    "133233",
+    "https://github.com/pytorch/pytorch/issues/133233",
+    [
+      "rocm"
+    ]
+  ],
   "test_backward_ddp_inside (__main__.TensorPipeDdpUnderDistAutogradTest)": [
     "104328",
     "https://github.com/pytorch/pytorch/issues/104328",
