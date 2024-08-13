@@ -186,6 +186,13 @@
       "rocm"
     ]
   ],
+  "test_b2b_gemm_right_assoc_good_shape (__main__.B2BGEMMTest)": [
+    "133311",
+    "https://github.com/pytorch/pytorch/issues/133311",
+    [
+      "rocm"
+    ]
+  ],
   "test_backward_ddp_inside (__main__.TensorPipeDdpUnderDistAutogradTest)": [
     "104328",
     "https://github.com/pytorch/pytorch/issues/104328",
