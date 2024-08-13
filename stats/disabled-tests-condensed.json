@@ -3262,6 +3262,15 @@
       "rocm"
     ]
   ],
+  "test_reentrant_parent_error_on_cpu_cuda (__main__.TestAutogradDeviceTypeCUDA)": [
+    "86735",
+    "https://github.com/pytorch/pytorch/issues/86735",
+    [
+      "win",
+      "windows",
+      "rocm"
+    ]
+  ],
   "test_relu_cuda_dynamic_shapes_cuda_wrapper (__main__.DynamicShapesCudaWrapperCudaTests)": [
     "122364",
     "https://github.com/pytorch/pytorch/issues/122364",
