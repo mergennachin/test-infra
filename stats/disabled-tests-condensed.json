@@ -1433,15 +1433,6 @@
       "rocm"
     ]
   ],
-  "test_cudagraphs_sdpa (__main__.TestCompiledAutograd)": [
-    "132108",
-    "https://github.com/pytorch/pytorch/issues/132108",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_custom_op_1_cuda_cuda_wrapper (__main__.TestCudaWrapper)": [
     "122811",
     "https://github.com/pytorch/pytorch/issues/122811",
