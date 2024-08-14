@@ -398,14 +398,6 @@
       "slow"
     ]
   ],
-  "test_compile_backward_cosh_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)": [
-    "132513",
-    "https://github.com/pytorch/pytorch/issues/132513",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_compile_backward_deg2rad_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)": [
     "132660",
     "https://github.com/pytorch/pytorch/issues/132660",
@@ -449,14 +441,6 @@
   "test_compile_backward_floor_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)": [
     "132255",
     "https://github.com/pytorch/pytorch/issues/132255",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
-  "test_compile_backward_fmax_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)": [
-    "132515",
-    "https://github.com/pytorch/pytorch/issues/132515",
     [
       "linux",
       "slow"
@@ -566,14 +550,6 @@
       "slow"
     ]
   ],
-  "test_compile_backward_mvlgamma_mvlgamma_p_1_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)": [
-    "132497",
-    "https://github.com/pytorch/pytorch/issues/132497",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_compile_backward_mvlgamma_mvlgamma_p_3_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)": [
     "132671",
     "https://github.com/pytorch/pytorch/issues/132671",
@@ -649,14 +625,6 @@
   "test_compile_backward_sigmoid_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)": [
     "132256",
     "https://github.com/pytorch/pytorch/issues/132256",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
-  "test_compile_backward_sign_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)": [
-    "132517",
-    "https://github.com/pytorch/pytorch/issues/132517",
     [
       "linux",
       "slow"
@@ -758,14 +726,6 @@
       "slow"
     ]
   ],
-  "test_compile_backward_tanh_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)": [
-    "132516",
-    "https://github.com/pytorch/pytorch/issues/132516",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_compile_backward_true_divide_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)": [
     "132662",
     "https://github.com/pytorch/pytorch/issues/132662",
@@ -785,14 +745,6 @@
   "test_compile_forward_abs_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)": [
     "132247",
     "https://github.com/pytorch/pytorch/issues/132247",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
-  "test_compile_forward_acos_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)": [
-    "132495",
-    "https://github.com/pytorch/pytorch/issues/132495",
     [
       "linux",
       "slow"
@@ -886,14 +838,6 @@
       "slow"
     ]
   ],
-  "test_compile_forward_digamma_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)": [
-    "132496",
-    "https://github.com/pytorch/pytorch/issues/132496",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_compile_forward_div_floor_rounding_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)": [
     "132667",
     "https://github.com/pytorch/pytorch/issues/132667",
@@ -950,14 +894,6 @@
       "slow"
     ]
   ],
-  "test_compile_forward_fmin_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)": [
-    "132514",
-    "https://github.com/pytorch/pytorch/issues/132514",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_compile_forward_fmod_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)": [
     "132661",
     "https://github.com/pytorch/pytorch/issues/132661",
@@ -1001,14 +937,6 @@
   "test_compile_forward_hypot_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)": [
     "132879",
     "https://github.com/pytorch/pytorch/issues/132879",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
-  "test_compile_forward_ldexp_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)": [
-    "132512",
-    "https://github.com/pytorch/pytorch/issues/132512",
     [
       "linux",
       "slow"
@@ -1089,14 +1017,6 @@
   "test_compile_forward_minimum_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)": [
     "132499",
     "https://github.com/pytorch/pytorch/issues/132499",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
-  "test_compile_forward_nn_functional_relu_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)": [
-    "132270",
-    "https://github.com/pytorch/pytorch/issues/132270",
     [
       "linux",
       "slow"
@@ -1480,18 +1400,6 @@
     "https://github.com/pytorch/pytorch/issues/127738",
     [
       "dynamo"
-    ]
-  ],
-  "test_device_mode_ops_sparse_mm_reduce_cpu_bfloat16 (__main__.TestDeviceUtilsCPU)": [
-    "132494",
-    "https://github.com/pytorch/pytorch/issues/132494",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "win",
-      "windows"
     ]
   ],
   "test_device_mode_ops_sparse_mm_reduce_cpu_float32 (__main__.TestDeviceUtilsCPU)": [
