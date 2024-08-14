@@ -1236,14 +1236,6 @@
       "inductor"
     ]
   ],
-  "test_comprehensive__unsafe_masked_index_cuda_bool (__main__.TestInductorOpInfoCUDA)": [
-    "131748",
-    "https://github.com/pytorch/pytorch/issues/131748",
-    [
-      "rocm",
-      "inductor"
-    ]
-  ],
   "test_comprehensive_empty_strided_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
     "102033",
     "https://github.com/pytorch/pytorch/issues/102033",
@@ -3335,13 +3327,6 @@
     "https://github.com/pytorch/pytorch/issues/126380",
     [
       "rocm"
-    ]
-  ],
-  "test_save_with_without_initializer_dont_include_initializer_no_fake_mode_no_exported_program (__main__.TestFxToOnnx)": [
-    "125020",
-    "https://github.com/pytorch/pytorch/issues/125020",
-    [
-      "linux"
     ]
   ],
   "test_save_with_without_initializer_include_initializer_no_fake_mode_no_exported_program (__main__.TestFxToOnnx)": [
