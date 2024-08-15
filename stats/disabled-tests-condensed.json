@@ -193,6 +193,13 @@
       "rocm"
     ]
   ],
+  "test_b2b_gemm_trivial_left_assoc_good_shape (__main__.B2BGEMMTest)": [
+    "133403",
+    "https://github.com/pytorch/pytorch/issues/133403",
+    [
+      "rocm"
+    ]
+  ],
   "test_backward_ddp_inside (__main__.TensorPipeDdpUnderDistAutogradTest)": [
     "104328",
     "https://github.com/pytorch/pytorch/issues/104328",
@@ -3009,6 +3016,13 @@
     "https://github.com/pytorch/pytorch/issues/131179",
     [
       "linux"
+    ]
+  ],
+  "test_scaled_dot_product_attention_cuda (__main__.TestOneOffModelExportResult)": [
+    "133540",
+    "https://github.com/pytorch/pytorch/issues/133540",
+    [
+      "rocm"
     ]
   ],
   "test_scatter_fallback_abi_compatible_cuda (__main__.AOTInductorTestABICompatibleCuda)": [
