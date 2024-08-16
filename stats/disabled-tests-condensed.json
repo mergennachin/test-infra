@@ -2201,13 +2201,6 @@
       "rocm"
     ]
   ],
-  "test_is_isnot (__main__.TestScript)": [
-    "120694",
-    "https://github.com/pytorch/pytorch/issues/120694",
-    [
-      "dynamo"
-    ]
-  ],
   "test_item_to_inputs_kernel_nobreak_cuda (__main__.TestInductorDynamicCUDA)": [
     "119538",
     "https://github.com/pytorch/pytorch/issues/119538",
@@ -2817,6 +2810,13 @@
       "macos"
     ]
   ],
+  "test_quantization_doc_custom (__main__.TestQuantizationDocs)": [
+    "125668",
+    "https://github.com/pytorch/pytorch/issues/125668",
+    [
+      "linux"
+    ]
+  ],
   "test_quantization_doc_fx (__main__.TestQuantizationDocs)": [
     "125670",
     "https://github.com/pytorch/pytorch/issues/125670",
@@ -2824,23 +2824,9 @@
       "linux"
     ]
   ],
-  "test_quantization_doc_ptdq (__main__.TestQuantizationDocs)": [
-    "125667",
-    "https://github.com/pytorch/pytorch/issues/125667",
-    [
-      "linux"
-    ]
-  ],
   "test_quantization_doc_ptsq (__main__.TestQuantizationDocs)": [
     "125669",
     "https://github.com/pytorch/pytorch/issues/125669",
-    [
-      "linux"
-    ]
-  ],
-  "test_quantization_doc_qat (__main__.TestQuantizationDocs)": [
-    "128118",
-    "https://github.com/pytorch/pytorch/issues/128118",
     [
       "linux"
     ]
