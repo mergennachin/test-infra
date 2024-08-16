@@ -2062,13 +2062,6 @@
       "mac"
     ]
   ],
-  "test_grad_acc_cpu_offload_use_orig_params_True (__main__.TestGradAcc)": [
-    "123726",
-    "https://github.com/pytorch/pytorch/issues/123726",
-    [
-      "rocm"
-    ]
-  ],
   "test_grad_nn_GroupNorm_cuda_float64 (__main__.TestModuleCUDA)": [
     "98677",
     "https://github.com/pytorch/pytorch/issues/98677",
