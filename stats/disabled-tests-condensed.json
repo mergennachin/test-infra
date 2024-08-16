@@ -2025,6 +2025,15 @@
       "slow"
     ]
   ],
+  "test_free_activation_memory_subclass (__main__.TestCompiledAutograd)": [
+    "124376",
+    "https://github.com/pytorch/pytorch/issues/124376",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_fs_preserve_sharing (__main__.TestMultiprocessing)": [
     "91467",
     "https://github.com/pytorch/pytorch/issues/91467",
