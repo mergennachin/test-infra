@@ -2082,6 +2082,13 @@
       "rocm"
     ]
   ],
+  "test_is_isnot (__main__.TestScript)": [
+    "120694",
+    "https://github.com/pytorch/pytorch/issues/120694",
+    [
+      "dynamo"
+    ]
+  ],
   "test_item_to_inputs_kernel_nobreak_cuda (__main__.TestInductorDynamicCUDA)": [
     "119538",
     "https://github.com/pytorch/pytorch/issues/119538",
@@ -2705,9 +2712,23 @@
       "linux"
     ]
   ],
+  "test_quantization_doc_ptdq (__main__.TestQuantizationDocs)": [
+    "125667",
+    "https://github.com/pytorch/pytorch/issues/125667",
+    [
+      "linux"
+    ]
+  ],
   "test_quantization_doc_ptsq (__main__.TestQuantizationDocs)": [
     "125669",
     "https://github.com/pytorch/pytorch/issues/125669",
+    [
+      "linux"
+    ]
+  ],
+  "test_quantization_doc_qat (__main__.TestQuantizationDocs)": [
+    "128118",
+    "https://github.com/pytorch/pytorch/issues/128118",
     [
       "linux"
     ]
@@ -2912,6 +2933,13 @@
     "https://github.com/pytorch/pytorch/issues/131727",
     [
       "inductor"
+    ]
+  ],
+  "test_scatter_uneven (__main__.DeviceMeshCollectiveTest)": [
+    "96282",
+    "https://github.com/pytorch/pytorch/issues/96282",
+    [
+      "linux"
     ]
   ],
   "test_schema_correctness_nn_functional_conv3d_cuda_complex64 (__main__.TestSchemaCheckModeOpInfoCUDA)": [
