@@ -2809,13 +2809,6 @@
       "macos"
     ]
   ],
-  "test_quantization_doc_custom (__main__.TestQuantizationDocs)": [
-    "125668",
-    "https://github.com/pytorch/pytorch/issues/125668",
-    [
-      "linux"
-    ]
-  ],
   "test_quantization_doc_fx (__main__.TestQuantizationDocs)": [
     "125670",
     "https://github.com/pytorch/pytorch/issues/125670",
