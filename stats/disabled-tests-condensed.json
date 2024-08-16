@@ -1283,6 +1283,13 @@
       "dynamo"
     ]
   ],
+  "test_duplicate_graph_break_log (__main__.MiscTests)": [
+    "109223",
+    "https://github.com/pytorch/pytorch/issues/109223",
+    [
+      "linux"
+    ]
+  ],
   "test_execution_trace_with_kineto (__main__.TestExecutionTrace)": [
     "123536",
     "https://github.com/pytorch/pytorch/issues/123536",
@@ -2435,7 +2442,8 @@
     "110995",
     "https://github.com/pytorch/pytorch/issues/110995",
     [
-      "rocm"
+      "rocm",
+      "linux"
     ]
   ],
   "test_memory_format_nn_ConvTranspose1d_cuda_complex32 (__main__.TestModuleCUDA)": [
