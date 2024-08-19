@@ -946,6 +946,13 @@
     "https://github.com/pytorch/pytorch/issues/106308",
     []
   ],
+  "test_cuda_event_created_outside_of_graph (__main__.CtxManagerTests)": [
+    "133828",
+    "https://github.com/pytorch/pytorch/issues/133828",
+    [
+      "linux"
+    ]
+  ],
   "test_cuda_memory_leak_detection (__main__.TestCudaMultiGPU)": [
     "104695",
     "https://github.com/pytorch/pytorch/issues/104695",
@@ -1013,6 +1020,18 @@
   "test_device_mode_ops_sparse_mm_reduce_cpu_bfloat16 (__main__.TestDeviceUtilsCPU)": [
     "132494",
     "https://github.com/pytorch/pytorch/issues/132494",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "win",
+      "windows"
+    ]
+  ],
+  "test_device_mode_ops_sparse_mm_reduce_cpu_float16 (__main__.TestDeviceUtilsCPU)": [
+    "133827",
+    "https://github.com/pytorch/pytorch/issues/133827",
     [
       "asan",
       "linux",
@@ -2106,13 +2125,6 @@
       "rocm"
     ]
   ],
-  "test_large_block_sizes_cpu (__main__.CpuTests)": [
-    "113139",
-    "https://github.com/pytorch/pytorch/issues/113139",
-    [
-      "linux"
-    ]
-  ],
   "test_large_block_sizes_cuda (__main__.CudaTests)": [
     "117810",
     "https://github.com/pytorch/pytorch/issues/117810",
@@ -2696,23 +2708,9 @@
       "linux"
     ]
   ],
-  "test_quantization_doc_fx (__main__.TestQuantizationDocs)": [
-    "125670",
-    "https://github.com/pytorch/pytorch/issues/125670",
-    [
-      "linux"
-    ]
-  ],
   "test_quantization_doc_ptdq (__main__.TestQuantizationDocs)": [
     "125667",
     "https://github.com/pytorch/pytorch/issues/125667",
-    [
-      "linux"
-    ]
-  ],
-  "test_quantization_doc_ptsq (__main__.TestQuantizationDocs)": [
-    "125669",
-    "https://github.com/pytorch/pytorch/issues/125669",
     [
       "linux"
     ]
@@ -3182,13 +3180,6 @@
       "linux"
     ]
   ],
-  "test_tensor_subclasses (__main__.TestScript)": [
-    "119949",
-    "https://github.com/pytorch/pytorch/issues/119949",
-    [
-      "dynamo"
-    ]
-  ],
   "test_tensorboard_trace_handler (__main__.TestProfiler)": [
     "82915",
     "https://github.com/pytorch/pytorch/issues/82915",
@@ -3289,13 +3280,6 @@
   "test_train_parity_hsdp (__main__.TestFullyShardHSDPTraining)": [
     "125645",
     "https://github.com/pytorch/pytorch/issues/125645",
-    [
-      "rocm"
-    ]
-  ],
-  "test_train_parity_with_activation_checkpointing (__main__.TestFullyShard1DTrainingCompose)": [
-    "121144",
-    "https://github.com/pytorch/pytorch/issues/121144",
     [
       "rocm"
     ]
