@@ -1968,13 +1968,6 @@
       "mac"
     ]
   ],
-  "test_grad_nn_GroupNorm_cuda_float64 (__main__.TestModuleCUDA)": [
-    "98677",
-    "https://github.com/pytorch/pytorch/issues/98677",
-    [
-      "linux"
-    ]
-  ],
   "test_grad_scaling_autocast_cuda (__main__.TestTorchDeviceTypeCUDA)": [
     "119154",
     "https://github.com/pytorch/pytorch/issues/119154",
