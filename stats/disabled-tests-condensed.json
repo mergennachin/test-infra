@@ -2140,20 +2140,6 @@
       "linux"
     ]
   ],
-  "test_large_block_sizes_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
-    "113135",
-    "https://github.com/pytorch/pytorch/issues/113135",
-    [
-      "linux"
-    ]
-  ],
-  "test_large_block_sizes_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "113133",
-    "https://github.com/pytorch/pytorch/issues/113133",
-    [
-      "linux"
-    ]
-  ],
   "test_large_block_sizes_dynamic_shapes_cuda (__main__.DynamicShapesCodegenCudaTests)": [
     "117809",
     "https://github.com/pytorch/pytorch/issues/117809",
@@ -3186,6 +3172,13 @@
     "https://github.com/pytorch/pytorch/issues/91497",
     [
       "linux"
+    ]
+  ],
+  "test_tensor_subclasses (__main__.TestScript)": [
+    "119949",
+    "https://github.com/pytorch/pytorch/issues/119949",
+    [
+      "dynamo"
     ]
   ],
   "test_tensorboard_trace_handler (__main__.TestProfiler)": [
