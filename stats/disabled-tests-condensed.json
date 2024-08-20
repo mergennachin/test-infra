@@ -79,11 +79,28 @@
       "slow"
     ]
   ],
+  "test_aot_export_cond_simple_cuda_float32 (__main__.TestHOPCUDA)": [
+    "123096",
+    "https://github.com/pytorch/pytorch/issues/123096",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_aot_export_cond_simple_cuda_int32 (__main__.TestHOPCUDA)": [
     "123194",
     "https://github.com/pytorch/pytorch/issues/123194",
     [
       "linux",
+      "slow"
+    ]
+  ],
+  "test_aot_export_while_loop_simple_cuda_float32 (__main__.TestHOPCUDA)": [
+    "123948",
+    "https://github.com/pytorch/pytorch/issues/123948",
+    [
+      "linux",
+      "rocm",
       "slow"
     ]
   ],
@@ -271,7 +288,8 @@
     "https://github.com/pytorch/pytorch/issues/133992",
     [
       "linux",
-      "rocm"
+      "rocm",
+      "slow"
     ]
   ],
   "test_cache_load_function_device_cuda_bfloat16_dynamic_False (__main__.TestFxGraphCache)": [
@@ -318,7 +336,8 @@
     "https://github.com/pytorch/pytorch/issues/133991",
     [
       "linux",
-      "rocm"
+      "rocm",
+      "slow"
     ]
   ],
   "test_cache_load_model_device_cuda_float32_dynamic_False (__main__.TestFxGraphCache)": [
@@ -357,7 +376,8 @@
     "https://github.com/pytorch/pytorch/issues/133993",
     [
       "linux",
-      "rocm"
+      "rocm",
+      "slow"
     ]
   ],
   "test_cache_with_nt (__main__.TestFxGraphCache)": [
@@ -1932,7 +1952,8 @@
       "macos",
       "rocm",
       "win",
-      "windows"
+      "windows",
+      "slow"
     ]
   ],
   "test_gpu_simple (__main__.TensorPipeCudaDistAutogradTest)": [
@@ -2594,6 +2615,15 @@
       "rocm"
     ]
   ],
+  "test_pre_dispatch_export_while_loop_simple_cuda_float32 (__main__.TestHOPCUDA)": [
+    "123943",
+    "https://github.com/pytorch/pytorch/issues/123943",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_precompilations (__main__.TestMaxAutotune)": [
     "124265",
     "https://github.com/pytorch/pytorch/issues/124265",
@@ -2614,13 +2644,6 @@
     "https://github.com/pytorch/pytorch/issues/123893",
     [
       "inductor"
-    ]
-  ],
-  "test_profile_memory (__main__.CppThreadTest)": [
-    "132331",
-    "https://github.com/pytorch/pytorch/issues/132331",
-    [
-      "linux"
     ]
   ],
   "test_profiler (__main__.TestJit)": [
@@ -2747,7 +2770,8 @@
     "https://github.com/pytorch/pytorch/issues/133990",
     [
       "linux",
-      "rocm"
+      "rocm",
+      "slow"
     ]
   ],
   "test_remote_cache_load_function_device_cpu_float32_dynamic_True (__main__.TestFxGraphCache)": [
@@ -2817,6 +2841,15 @@
     "https://github.com/pytorch/pytorch/issues/131768",
     [
       "linux"
+    ]
+  ],
+  "test_retrace_export_while_loop_simple_cuda_float32 (__main__.TestHOPCUDA)": [
+    "123944",
+    "https://github.com/pytorch/pytorch/issues/123944",
+    [
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_retracibility_dynamic_shapes (__main__.DynamicShapesExportTests)": [
@@ -3011,6 +3044,15 @@
     "https://github.com/pytorch/pytorch/issues/123563",
     [
       "linux",
+      "slow"
+    ]
+  ],
+  "test_serialize_export_while_loop_simple_cuda_float32 (__main__.TestHOPCUDA)": [
+    "123946",
+    "https://github.com/pytorch/pytorch/issues/123946",
+    [
+      "linux",
+      "rocm",
       "slow"
     ]
   ],
@@ -3359,15 +3401,6 @@
     "https://github.com/pytorch/pytorch/issues/86887",
     [
       "linux"
-    ]
-  ],
-  "test_vertical_pointwise_reduction_fusion_cuda (__main__.TestUnbackedSymintsCUDA)": [
-    "126853",
-    "https://github.com/pytorch/pytorch/issues/126853",
-    [
-      "linux",
-      "rocm",
-      "slow"
     ]
   ],
   "test_vit_aten_export (__main__.TestQuantizePT2EModels)": [
