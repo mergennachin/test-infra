@@ -273,6 +273,14 @@
       "linux"
     ]
   ],
+  "test_cache_load_function_device_cpu_float32_dynamic_False (__main__.TestFxGraphCache)": [
+    "133992",
+    "https://github.com/pytorch/pytorch/issues/133992",
+    [
+      "linux",
+      "rocm"
+    ]
+  ],
   "test_cache_load_function_device_cpu_float32_dynamic_True (__main__.TestFxGraphCache)": [
     "133903",
     "https://github.com/pytorch/pytorch/issues/133903",
@@ -317,6 +325,14 @@
     "https://github.com/pytorch/pytorch/issues/133900",
     [
       "linux"
+    ]
+  ],
+  "test_cache_load_model_device_cpu_float64_dynamic_False (__main__.TestFxGraphCache)": [
+    "133991",
+    "https://github.com/pytorch/pytorch/issues/133991",
+    [
+      "linux",
+      "rocm"
     ]
   ],
   "test_cache_load_model_device_cpu_float64_dynamic_True (__main__.TestFxGraphCache)": [
@@ -371,6 +387,14 @@
       "macos"
     ]
   ],
+  "test_cache_load_with_guards_static_bounds_device_cuda_bfloat16 (__main__.TestFxGraphCache)": [
+    "133993",
+    "https://github.com/pytorch/pytorch/issues/133993",
+    [
+      "linux",
+      "rocm"
+    ]
+  ],
   "test_cache_load_with_guards_static_bounds_device_cuda_float32 (__main__.TestFxGraphCache)": [
     "133913",
     "https://github.com/pytorch/pytorch/issues/133913",
@@ -385,7 +409,9 @@
       "asan",
       "linux",
       "rocm",
-      "slow"
+      "slow",
+      "mac",
+      "macos"
     ]
   ],
   "test_cache_with_symint_non_arg_guard (__main__.TestFxGraphCache)": [
@@ -1030,6 +1056,18 @@
       "windows"
     ]
   ],
+  "test_device_mode_ops_sparse_mm_reduce_cpu_float32 (__main__.TestDeviceUtilsCPU)": [
+    "132552",
+    "https://github.com/pytorch/pytorch/issues/132552",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "win",
+      "windows"
+    ]
+  ],
   "test_device_mode_ops_sparse_mm_reduce_cpu_float64 (__main__.TestDeviceUtilsCPU)": [
     "132619",
     "https://github.com/pytorch/pytorch/issues/132619",
@@ -1042,17 +1080,17 @@
       "windows"
     ]
   ],
-  "test_device_mode_ops_sparse_sampled_addmm_cpu_float32 (__main__.TestDeviceUtilsCPU)": [
-    "132720",
-    "https://github.com/pytorch/pytorch/issues/132720",
+  "test_device_mode_ops_sparse_sampled_addmm_cpu_complex128 (__main__.TestDeviceUtilsCPU)": [
+    "132643",
+    "https://github.com/pytorch/pytorch/issues/132643",
     [
       "asan",
       "linux"
     ]
   ],
-  "test_device_mode_ops_sparse_sampled_addmm_cpu_float64 (__main__.TestDeviceUtilsCPU)": [
-    "132737",
-    "https://github.com/pytorch/pytorch/issues/132737",
+  "test_device_mode_ops_sparse_sampled_addmm_cpu_float32 (__main__.TestDeviceUtilsCPU)": [
+    "132720",
+    "https://github.com/pytorch/pytorch/issues/132720",
     [
       "asan",
       "linux"
@@ -1926,6 +1964,19 @@
       "slow"
     ]
   ],
+  "test_get_mode_stack (__main__.TestTorchFunctionMode)": [
+    "133994",
+    "https://github.com/pytorch/pytorch/issues/133994",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "win",
+      "windows"
+    ]
+  ],
   "test_gpu_simple (__main__.TensorPipeCudaDistAutogradTest)": [
     "70753",
     "https://github.com/pytorch/pytorch/issues/70753",
@@ -2583,13 +2634,6 @@
       "rocm"
     ]
   ],
-  "test_post_localSGD_optimizer_step_reload (__main__.TestDistBackendWithSpawn)": [
-    "84886",
-    "https://github.com/pytorch/pytorch/issues/84886",
-    [
-      "linux"
-    ]
-  ],
   "test_pre_dispatch_export_auto_functionalize_simple_cuda_float32 (__main__.TestHOPCUDA)": [
     "123267",
     "https://github.com/pytorch/pytorch/issues/123267",
@@ -2752,6 +2796,14 @@
     "https://github.com/pytorch/pytorch/issues/133917",
     [
       "linux"
+    ]
+  ],
+  "test_remote_cache_load_function_device_cpu_bfloat16_dynamic_True (__main__.TestFxGraphCache)": [
+    "133990",
+    "https://github.com/pytorch/pytorch/issues/133990",
+    [
+      "linux",
+      "rocm"
     ]
   ],
   "test_remote_cache_load_function_device_cpu_float32_dynamic_False (__main__.TestFxGraphCache)": [
