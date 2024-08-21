@@ -270,6 +270,13 @@
       "linux"
     ]
   ],
+  "test_builtin_score_mods_float16_score_mod7 (__main__.TestFlexAttention)": [
+    "134115",
+    "https://github.com/pytorch/pytorch/issues/134115",
+    [
+      "linux"
+    ]
+  ],
   "test_byte_mask_accumulate (__main__.TestAdvancedIndexing)": [
     "125927",
     "https://github.com/pytorch/pytorch/issues/125927",
@@ -940,14 +947,6 @@
   "test_device_mode_ops_sparse_sampled_addmm_cpu_complex64 (__main__.TestDeviceUtilsCPU)": [
     "132686",
     "https://github.com/pytorch/pytorch/issues/132686",
-    [
-      "asan",
-      "linux"
-    ]
-  ],
-  "test_device_mode_ops_sparse_sampled_addmm_cpu_float32 (__main__.TestDeviceUtilsCPU)": [
-    "132720",
-    "https://github.com/pytorch/pytorch/issues/132720",
     [
       "asan",
       "linux"
@@ -1836,6 +1835,20 @@
       "slow"
     ]
   ],
+  "test_get_mode_stack (__main__.TestTorchFunctionMode)": [
+    "133994",
+    "https://github.com/pytorch/pytorch/issues/133994",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "win",
+      "windows",
+      "slow"
+    ]
+  ],
   "test_gpu_simple (__main__.TensorPipeCudaDistAutogradTest)": [
     "70753",
     "https://github.com/pytorch/pytorch/issues/70753",
@@ -2710,13 +2723,6 @@
     "https://github.com/pytorch/pytorch/issues/126380",
     [
       "rocm"
-    ]
-  ],
-  "test_save_with_without_initializer_include_initializer_no_fake_mode_no_exported_program (__main__.TestFxToOnnx)": [
-    "131423",
-    "https://github.com/pytorch/pytorch/issues/131423",
-    [
-      "linux"
     ]
   ],
   "test_scaled_dot_product_attention_3D_input_dim_no_attn_mask_dropout_p_0_0_cuda (__main__.TestTransformersCUDA)": [
