@@ -1836,20 +1836,6 @@
       "slow"
     ]
   ],
-  "test_get_mode_stack (__main__.TestTorchFunctionMode)": [
-    "133994",
-    "https://github.com/pytorch/pytorch/issues/133994",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "win",
-      "windows",
-      "slow"
-    ]
-  ],
   "test_gpu_simple (__main__.TensorPipeCudaDistAutogradTest)": [
     "70753",
     "https://github.com/pytorch/pytorch/issues/70753",
