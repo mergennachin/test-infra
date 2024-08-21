@@ -263,6 +263,13 @@
       "linux"
     ]
   ],
+  "test_builtin_score_mods_different_seqlen_float16_score_mod7 (__main__.TestFlexAttention)": [
+    "134100",
+    "https://github.com/pytorch/pytorch/issues/134100",
+    [
+      "linux"
+    ]
+  ],
   "test_byte_mask_accumulate (__main__.TestAdvancedIndexing)": [
     "125927",
     "https://github.com/pytorch/pytorch/issues/125927",
