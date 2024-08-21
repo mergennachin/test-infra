@@ -1803,6 +1803,13 @@
       "dynamo"
     ]
   ],
+  "test_fully_masked_out_rows_0_check_gqa (__main__.TestFlexDecoding)": [
+    "134091",
+    "https://github.com/pytorch/pytorch/issues/134091",
+    [
+      "linux"
+    ]
+  ],
   "test_fused_sdp_choice_privateuseone (__main__.TestSDPAPrivateUse1Only)": [
     "132862",
     "https://github.com/pytorch/pytorch/issues/132862",
