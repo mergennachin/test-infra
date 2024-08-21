@@ -207,6 +207,13 @@
       "rocm"
     ]
   ],
+  "test_b2b_gemm_trivial_right_assoc_good_shape (__main__.B2BGEMMTest)": [
+    "134143",
+    "https://github.com/pytorch/pytorch/issues/134143",
+    [
+      "rocm"
+    ]
+  ],
   "test_backward_ddp_inside (__main__.TensorPipeDdpUnderDistAutogradTest)": [
     "104328",
     "https://github.com/pytorch/pytorch/issues/104328",
@@ -1735,6 +1742,27 @@
       "linux"
     ]
   ],
+  "test_fully_shard_training_overlap (__main__.TestFullyShardOverlap)": [
+    "134139",
+    "https://github.com/pytorch/pytorch/issues/134139",
+    [
+      "rocm"
+    ]
+  ],
+  "test_fuse_all_gather_scaled_matmul_A_dims_2_gather_dim_1 (__main__.MicroPipelineTPTest)": [
+    "134141",
+    "https://github.com/pytorch/pytorch/issues/134141",
+    [
+      "rocm"
+    ]
+  ],
+  "test_fuse_all_gather_scaled_matmul_A_dims_3_gather_dim_2 (__main__.MicroPipelineTPTest)": [
+    "134142",
+    "https://github.com/pytorch/pytorch/issues/134142",
+    [
+      "rocm"
+    ]
+  ],
   "test_fused_sdp_choice_privateuseone (__main__.TestSDPAPrivateUse1Only)": [
     "132862",
     "https://github.com/pytorch/pytorch/issues/132862",
@@ -1998,6 +2026,13 @@
     "https://github.com/pytorch/pytorch/issues/131930",
     [
       "linux"
+    ]
+  ],
+  "test_load_from_bias_head_seq_batch_float16 (__main__.TestFlexDecoding)": [
+    "134144",
+    "https://github.com/pytorch/pytorch/issues/134144",
+    [
+      "rocm"
     ]
   ],
   "test_lobpcg (__main__.TestAutograd)": [
