@@ -2352,6 +2352,13 @@
       "linux"
     ]
   ],
+  "test_non_equal_head_dims_score_mod7_float32_head_dims0 (__main__.TestFlexAttention)": [
+    "134217",
+    "https://github.com/pytorch/pytorch/issues/134217",
+    [
+      "linux"
+    ]
+  ],
   "test_noncontiguous_samples_nn_functional_conv3d_cuda_complex64 (__main__.TestCommonCUDA)": [
     "115254",
     "https://github.com/pytorch/pytorch/issues/115254",
