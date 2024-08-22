@@ -509,14 +509,6 @@
       "rocm"
     ]
   ],
-  "test_closure_recompiles_inline_inbuilt_nn_modules (__main__.InlineInbuiltNNModulesMiscTests)": [
-    "132985",
-    "https://github.com/pytorch/pytorch/issues/132985",
-    [
-      "linux",
-      "rocm"
-    ]
-  ],
   "test_compare_cpu__refs_empty_strided_cuda_float32 (__main__.TestCommonCUDA)": [
     "101625",
     "https://github.com/pytorch/pytorch/issues/101625",
@@ -1795,13 +1787,6 @@
       "rocm"
     ]
   ],
-  "test_fused_sdp_choice_privateuseone (__main__.TestSDPAPrivateUse1Only)": [
-    "132862",
-    "https://github.com/pytorch/pytorch/issues/132862",
-    [
-      "linux"
-    ]
-  ],
   "test_generated_kernel_count (__main__.TestFxGraphCache)": [
     "133954",
     "https://github.com/pytorch/pytorch/issues/133954",
@@ -2348,6 +2333,13 @@
   "test_non_contiguous_tensors_nn_ConvTranspose1d_cuda_complex32 (__main__.TestModuleCUDA)": [
     "81732",
     "https://github.com/pytorch/pytorch/issues/81732",
+    [
+      "linux"
+    ]
+  ],
+  "test_non_equal_head_dims_score_mod7_bfloat16_head_dims0 (__main__.TestFlexAttention)": [
+    "134228",
+    "https://github.com/pytorch/pytorch/issues/134228",
     [
       "linux"
     ]
