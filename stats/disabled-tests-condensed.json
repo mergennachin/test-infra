@@ -170,14 +170,6 @@
       "macos"
     ]
   ],
-  "test_autograd_function_backed_op (__main__.TestCustomOpWithCompiledAutograd)": [
-    "121342",
-    "https://github.com/pytorch/pytorch/issues/121342",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_b2b_gemm_left_assoc_good_shape (__main__.B2BGEMMTest)": [
     "133233",
     "https://github.com/pytorch/pytorch/issues/133233",
@@ -2456,6 +2448,20 @@
       "linux"
     ]
   ],
+  "test_pattern_matcher_multi_user_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
+    "134432",
+    "https://github.com/pytorch/pytorch/issues/134432",
+    [
+      "linux"
+    ]
+  ],
+  "test_pattern_matcher_multi_user_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "134433",
+    "https://github.com/pytorch/pytorch/issues/134433",
+    [
+      "linux"
+    ]
+  ],
   "test_pickle_nn_RNN_eval_mode_cuda_float64 (__main__.TestModuleCUDA)": [
     "94541",
     "https://github.com/pytorch/pytorch/issues/94541",
@@ -2735,6 +2741,13 @@
     "https://github.com/pytorch/pytorch/issues/126380",
     [
       "rocm"
+    ]
+  ],
+  "test_save_with_without_initializer_include_initializer_no_fake_mode_no_exported_program (__main__.TestFxToOnnx)": [
+    "131423",
+    "https://github.com/pytorch/pytorch/issues/131423",
+    [
+      "linux"
     ]
   ],
   "test_scaled_dot_product_attention_3D_input_dim_no_attn_mask_dropout_p_0_0_cuda (__main__.TestTransformersCUDA)": [
