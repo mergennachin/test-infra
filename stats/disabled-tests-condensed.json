@@ -994,6 +994,14 @@
       "linux"
     ]
   ],
+  "test_dynamic_toggle (__main__.TestProfiler)": [
+    "134479",
+    "https://github.com/pytorch/pytorch/issues/134479",
+    [
+      "windows",
+      "rocm"
+    ]
+  ],
   "test_execution_trace_with_kineto (__main__.TestExecutionTrace)": [
     "123536",
     "https://github.com/pytorch/pytorch/issues/123536",
