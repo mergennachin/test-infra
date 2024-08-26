@@ -2272,6 +2272,13 @@
       "macos"
     ]
   ],
+  "test_mutable_custom_op_fixed_layout2_cpu (__main__.CpuTests)": [
+    "134481",
+    "https://github.com/pytorch/pytorch/issues/134481",
+    [
+      "rocm"
+    ]
+  ],
   "test_nccl_errors_dump (__main__.NcclErrorDumpTest)": [
     "123530",
     "https://github.com/pytorch/pytorch/issues/123530",
