@@ -71,13 +71,6 @@
       "macos"
     ]
   ],
-  "test_aot_export_auto_functionalize_simple_cuda_float32 (__main__.TestHOPCUDA)": [
-    "122964",
-    "https://github.com/pytorch/pytorch/issues/122964",
-    [
-      "linux"
-    ]
-  ],
   "test_aot_export_auto_functionalize_simple_cuda_int32 (__main__.TestHOPCUDA)": [
     "123095",
     "https://github.com/pytorch/pytorch/issues/123095",
@@ -238,13 +231,6 @@
     "https://github.com/pytorch/pytorch/issues/116044",
     [
       "rocm"
-    ]
-  ],
-  "test_broadcast_1d (__main__.DeviceMeshCollectiveTest)": [
-    "98048",
-    "https://github.com/pytorch/pytorch/issues/98048",
-    [
-      "linux"
     ]
   ],
   "test_builtin_remote_message_dropped_timeout_to_self (__main__.FaultyFaultyAgentRpcTest)": [
@@ -913,13 +899,6 @@
   "test_doc_examples (__main__.TestTypeHints)": [
     "98259",
     "https://github.com/pytorch/pytorch/issues/98259",
-    [
-      "linux"
-    ]
-  ],
-  "test_dropout_deterministic_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
-    "132957",
-    "https://github.com/pytorch/pytorch/issues/132957",
     [
       "linux"
     ]
@@ -2050,13 +2029,6 @@
     "https://github.com/pytorch/pytorch/issues/134144",
     [
       "rocm"
-    ]
-  ],
-  "test_lobpcg (__main__.TestAutograd)": [
-    "80338",
-    "https://github.com/pytorch/pytorch/issues/80338",
-    [
-      "linux"
     ]
   ],
   "test_mem_efficient_attention_attn_mask_vs_math_ref_grads_batch_size_1_seq_len_q_128_seq_len_k_128_head_dim_16_is_causal_False_dropout_p_0_0_float32_scale_l1_cuda_float32 (__main__.TestSDPACudaOnlyCUDA)": [
