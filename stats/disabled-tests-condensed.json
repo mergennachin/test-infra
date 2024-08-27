@@ -1765,6 +1765,13 @@
       "rocm"
     ]
   ],
+  "test_fused_sdp_choice_privateuseone (__main__.TestSDPAPrivateUse1Only)": [
+    "134600",
+    "https://github.com/pytorch/pytorch/issues/134600",
+    [
+      "rocm"
+    ]
+  ],
   "test_generated_kernel_count (__main__.TestFxGraphCache)": [
     "133954",
     "https://github.com/pytorch/pytorch/issues/133954",
@@ -2803,6 +2810,20 @@
   "test_scaled_dot_product_attention_cuda (__main__.TestOneOffModelExportResult)": [
     "133540",
     "https://github.com/pytorch/pytorch/issues/133540",
+    [
+      "rocm"
+    ]
+  ],
+  "test_scaled_dot_product_fused_attention_overrideable (__main__.TestSDPAPrivateUse1Only)": [
+    "134601",
+    "https://github.com/pytorch/pytorch/issues/134601",
+    [
+      "rocm"
+    ]
+  ],
+  "test_scaled_dot_product_fused_attention_overrideable_backward (__main__.TestSDPAPrivateUse1Only)": [
+    "134602",
+    "https://github.com/pytorch/pytorch/issues/134602",
     [
       "rocm"
     ]
