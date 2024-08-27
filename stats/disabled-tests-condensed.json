@@ -952,6 +952,13 @@
       "linux"
     ]
   ],
+  "test_dtensor_op_db_nn_functional_gaussian_nll_loss_cpu_float32 (__main__.TestDTensorOpsCPU)": [
+    "134558",
+    "https://github.com/pytorch/pytorch/issues/134558",
+    [
+      "linux"
+    ]
+  ],
   "test_dtensor_op_db_nn_functional_multi_head_attention_forward_cpu_float32 (__main__.TestDTensorOpsCPU)": [
     "123294",
     "https://github.com/pytorch/pytorch/issues/123294",
