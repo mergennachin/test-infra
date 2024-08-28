@@ -3238,6 +3238,13 @@
       "rocm"
     ]
   ],
+  "test_transformerencoderlayer_cuda_float32 (__main__.TestNNDeviceTypeCUDA)": [
+    "134687",
+    "https://github.com/pytorch/pytorch/issues/134687",
+    [
+      "rocm"
+    ]
+  ],
   "test_transpose_infer_shape (__main__.TORCH_NN_MODULE)": [
     "124267",
     "https://github.com/pytorch/pytorch/issues/124267",
