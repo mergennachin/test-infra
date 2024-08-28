@@ -2825,7 +2825,8 @@
     "134602",
     "https://github.com/pytorch/pytorch/issues/134602",
     [
-      "rocm"
+      "rocm",
+      "dynamo"
     ]
   ],
   "test_scatter_fallback_abi_compatible_cuda (__main__.AOTInductorTestABICompatibleCuda)": [
