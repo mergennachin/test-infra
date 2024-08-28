@@ -793,18 +793,6 @@
       "dynamo"
     ]
   ],
-  "test_device_mode_ops_sparse_mm_reduce_cpu_bfloat16 (__main__.TestDeviceUtilsCPU)": [
-    "132494",
-    "https://github.com/pytorch/pytorch/issues/132494",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "win",
-      "windows"
-    ]
-  ],
   "test_device_mode_ops_sparse_mm_reduce_cpu_float16 (__main__.TestDeviceUtilsCPU)": [
     "133827",
     "https://github.com/pytorch/pytorch/issues/133827",
@@ -2501,6 +2489,13 @@
     "https://github.com/pytorch/pytorch/issues/123893",
     [
       "inductor"
+    ]
+  ],
+  "test_prod_large (__main__.TestCuda)": [
+    "134723",
+    "https://github.com/pytorch/pytorch/issues/134723",
+    [
+      "linux"
     ]
   ],
   "test_profile_memory (__main__.CppThreadTest)": [
