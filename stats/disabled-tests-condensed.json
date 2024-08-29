@@ -1734,7 +1734,8 @@
     "134600",
     "https://github.com/pytorch/pytorch/issues/134600",
     [
-      "rocm"
+      "rocm",
+      "dynamo"
     ]
   ],
   "test_generated_kernel_count (__main__.TestFxGraphCache)": [
