@@ -163,6 +163,16 @@
       "macos"
     ]
   ],
+  "test_autograd_function_backed_op (__main__.TestCustomOp)": [
+    "132115",
+    "https://github.com/pytorch/pytorch/issues/132115",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos"
+    ]
+  ],
   "test_b2b_gemm_left_assoc_good_shape (__main__.B2BGEMMTest)": [
     "133233",
     "https://github.com/pytorch/pytorch/issues/133233",
@@ -757,6 +767,13 @@
       "rocm"
     ]
   ],
+  "test_custom_op_all_inputs_abi_compatible_cpu_with_stack_allocation (__main__.AOTInductorTestABICompatibleCpuWithStackAllocation)": [
+    "134793",
+    "https://github.com/pytorch/pytorch/issues/134793",
+    [
+      "linux"
+    ]
+  ],
   "test_ddp_apply_optim_in_backward_ignored_params (__main__.TestDistBackendWithSpawn)": [
     "106361",
     "https://github.com/pytorch/pytorch/issues/106361",
@@ -906,6 +923,13 @@
   "test_dtensor_op_db_bmm_cpu_float32 (__main__.TestDTensorOpsCPU)": [
     "127373",
     "https://github.com/pytorch/pytorch/issues/127373",
+    [
+      "linux"
+    ]
+  ],
+  "test_dtensor_op_db_dstack_cpu_float32 (__main__.TestDTensorOpsCPU)": [
+    "126493",
+    "https://github.com/pytorch/pytorch/issues/126493",
     [
       "linux"
     ]
@@ -1734,8 +1758,9 @@
     "134600",
     "https://github.com/pytorch/pytorch/issues/134600",
     [
+      "dynamo",
       "rocm",
-      "dynamo"
+      "linux"
     ]
   ],
   "test_generated_kernel_count (__main__.TestFxGraphCache)": [
