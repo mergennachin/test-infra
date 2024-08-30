@@ -1740,6 +1740,13 @@
       "linux"
     ]
   ],
+  "test_fully_shard_post_optim_event_overlap (__main__.TestFullyShardOverlap)": [
+    "131081",
+    "https://github.com/pytorch/pytorch/issues/131081",
+    [
+      "linux"
+    ]
+  ],
   "test_fully_shard_training_overlap (__main__.TestFullyShardOverlap)": [
     "134139",
     "https://github.com/pytorch/pytorch/issues/134139",
