@@ -116,6 +116,13 @@
     "https://github.com/pytorch/pytorch/issues/106440",
     []
   ],
+  "test_assigning_back_deleter_fns_to_tensor (__main__.TestBlockStateAbsorption)": [
+    "134810",
+    "https://github.com/pytorch/pytorch/issues/134810",
+    [
+      "linux"
+    ]
+  ],
   "test_attention_vs_linear (__main__.MemoryBudgetTest)": [
     "128217",
     "https://github.com/pytorch/pytorch/issues/128217",
@@ -1760,6 +1767,13 @@
     [
       "dynamo",
       "rocm",
+      "linux"
+    ]
+  ],
+  "test_garbage_collect_expandable (__main__.TestCudaMallocAsync)": [
+    "134811",
+    "https://github.com/pytorch/pytorch/issues/134811",
+    [
       "linux"
     ]
   ],
