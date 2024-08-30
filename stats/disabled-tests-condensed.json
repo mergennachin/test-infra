@@ -3244,6 +3244,13 @@
       "rocm"
     ]
   ],
+  "test_transformer_runtime (__main__.TestRuntimeEstimator)": [
+    "134824",
+    "https://github.com/pytorch/pytorch/issues/134824",
+    [
+      "rocm"
+    ]
+  ],
   "test_transformer_training_is_seq_parallel_False (__main__.DistTensorParallelExampleTest)": [
     "125918",
     "https://github.com/pytorch/pytorch/issues/125918",
