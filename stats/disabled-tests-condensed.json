@@ -71,6 +71,14 @@
       "macos"
     ]
   ],
+  "test_aot_export_auto_functionalize_simple_cuda_float32 (__main__.TestHOPCUDA)": [
+    "122964",
+    "https://github.com/pytorch/pytorch/issues/122964",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_aot_export_auto_functionalize_simple_cuda_int32 (__main__.TestHOPCUDA)": [
     "123095",
     "https://github.com/pytorch/pytorch/issues/123095",
@@ -2588,13 +2596,6 @@
     "https://github.com/pytorch/pytorch/issues/73474",
     [
       "macos"
-    ]
-  ],
-  "test_quantization_doc_custom (__main__.TestQuantizationDocs)": [
-    "125668",
-    "https://github.com/pytorch/pytorch/issues/125668",
-    [
-      "linux"
     ]
   ],
   "test_quantization_doc_ptdq (__main__.TestQuantizationDocs)": [
