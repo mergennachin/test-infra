@@ -1717,15 +1717,6 @@
       "rocm"
     ]
   ],
-  "test_free_activation_memory_subclass (__main__.TestCompiledAutograd)": [
-    "124376",
-    "https://github.com/pytorch/pytorch/issues/124376",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_fs_preserve_sharing (__main__.TestMultiprocessing)": [
     "91467",
     "https://github.com/pytorch/pytorch/issues/91467",
@@ -2048,6 +2039,14 @@
     "https://github.com/pytorch/pytorch/issues/134144",
     [
       "rocm"
+    ]
+  ],
+  "test_max_split_expandable (__main__.TestCudaMallocAsync)": [
+    "134837",
+    "https://github.com/pytorch/pytorch/issues/134837",
+    [
+      "linux",
+      "slow"
     ]
   ],
   "test_mem_efficient_attention_attn_mask_vs_math_ref_grads_batch_size_1_seq_len_q_128_seq_len_k_128_head_dim_16_is_causal_False_dropout_p_0_0_float32_scale_l1_cuda_float32 (__main__.TestSDPACudaOnlyCUDA)": [
