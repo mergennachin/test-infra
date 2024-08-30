@@ -934,13 +934,6 @@
       "linux"
     ]
   ],
-  "test_dtensor_op_db_dstack_cpu_float32 (__main__.TestDTensorOpsCPU)": [
-    "126493",
-    "https://github.com/pytorch/pytorch/issues/126493",
-    [
-      "linux"
-    ]
-  ],
   "test_dtensor_op_db_full_like_cpu_float32 (__main__.TestDTensorOpsCPU)": [
     "132447",
     "https://github.com/pytorch/pytorch/issues/132447",
