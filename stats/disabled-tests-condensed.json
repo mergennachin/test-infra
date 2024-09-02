@@ -1809,13 +1809,6 @@
       "mac"
     ]
   ],
-  "test_grad_nn_GroupNorm_cuda_float64 (__main__.TestModuleCUDA)": [
-    "98677",
-    "https://github.com/pytorch/pytorch/issues/98677",
-    [
-      "linux"
-    ]
-  ],
   "test_grad_scaling_autocast_cuda (__main__.TestTorchDeviceTypeCUDA)": [
     "119154",
     "https://github.com/pytorch/pytorch/issues/119154",
@@ -2635,6 +2628,13 @@
       "linux"
     ]
   ],
+  "test_random_no_reused_random_states_float64 (__main__.TestCuda)": [
+    "134958",
+    "https://github.com/pytorch/pytorch/issues/134958",
+    [
+      "linux"
+    ]
+  ],
   "test_random_seed (__main__.TestDataLoaderUtils)": [
     "84937",
     "https://github.com/pytorch/pytorch/issues/84937",
@@ -3133,13 +3133,6 @@
     "https://github.com/pytorch/pytorch/issues/91497",
     [
       "linux"
-    ]
-  ],
-  "test_tensor_subclasses (__main__.TestScript)": [
-    "119949",
-    "https://github.com/pytorch/pytorch/issues/119949",
-    [
-      "dynamo"
     ]
   ],
   "test_tensorboard_trace_handler (__main__.TestProfiler)": [
