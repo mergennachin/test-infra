@@ -2961,6 +2961,13 @@
       "mac"
     ]
   ],
+  "test_serialization_array_with_empty (__main__.TestCuda)": [
+    "134966",
+    "https://github.com/pytorch/pytorch/issues/134966",
+    [
+      "linux"
+    ]
+  ],
   "test_serialization_parametrization_swap_True (__main__.TestNNParametrization)": [
     "127755",
     "https://github.com/pytorch/pytorch/issues/127755",
