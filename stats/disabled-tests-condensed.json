@@ -1944,13 +1944,6 @@
       "rocm"
     ]
   ],
-  "test_is_isnot (__main__.TestScript)": [
-    "120694",
-    "https://github.com/pytorch/pytorch/issues/120694",
-    [
-      "dynamo"
-    ]
-  ],
   "test_item_to_inputs_kernel_nobreak_cuda (__main__.TestInductorDynamicCUDA)": [
     "119538",
     "https://github.com/pytorch/pytorch/issues/119538",
@@ -2227,7 +2220,9 @@
     "122441",
     "https://github.com/pytorch/pytorch/issues/122441",
     [
-      "inductor"
+      "inductor",
+      "linux",
+      "slow"
     ]
   ],
   "test_mm_triton_kernel_benchmark (__main__.TestKernelBenchmark)": [
@@ -2598,20 +2593,6 @@
       "macos"
     ]
   ],
-  "test_quantization_doc_ptdq (__main__.TestQuantizationDocs)": [
-    "125667",
-    "https://github.com/pytorch/pytorch/issues/125667",
-    [
-      "linux"
-    ]
-  ],
-  "test_quantization_doc_qat (__main__.TestQuantizationDocs)": [
-    "128118",
-    "https://github.com/pytorch/pytorch/issues/128118",
-    [
-      "linux"
-    ]
-  ],
   "test_raise_comms (__main__.TestComputeCommReorderingMultiProc)": [
     "120946",
     "https://github.com/pytorch/pytorch/issues/120946",
@@ -2622,6 +2603,20 @@
   "test_rand (test_jit.TestScript)": [
     "91495",
     "https://github.com/pytorch/pytorch/issues/91495",
+    [
+      "linux"
+    ]
+  ],
+  "test_randint_cuda_dynamic_shapes_cuda_wrapper (__main__.DynamicShapesCudaWrapperCudaTests)": [
+    "134933",
+    "https://github.com/pytorch/pytorch/issues/134933",
+    [
+      "linux"
+    ]
+  ],
+  "test_randint_randomness_for_large_range (__main__.TestCuda)": [
+    "134932",
+    "https://github.com/pytorch/pytorch/issues/134932",
     [
       "linux"
     ]
@@ -2827,6 +2822,13 @@
       "rocm"
     ]
   ],
+  "test_scaled_dot_product_attention_cuda_dynamic_shapes_cuda_wrapper (__main__.DynamicShapesCudaWrapperCudaTests)": [
+    "134931",
+    "https://github.com/pytorch/pytorch/issues/134931",
+    [
+      "linux"
+    ]
+  ],
   "test_scaled_dot_product_fused_attention_overrideable (__main__.TestSDPAPrivateUse1Only)": [
     "134601",
     "https://github.com/pytorch/pytorch/issues/134601",
@@ -2936,13 +2938,6 @@
     "https://github.com/pytorch/pytorch/issues/116746",
     [
       "dynamo"
-    ]
-  ],
-  "test_segfault (__main__.TestDataLoader)": [
-    "128551",
-    "https://github.com/pytorch/pytorch/issues/128551",
-    [
-      "linux"
     ]
   ],
   "test_send_recv_all_to_all (__main__.ProcessGroupGlooTest)": [
