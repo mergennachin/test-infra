@@ -2621,6 +2621,13 @@
       "linux"
     ]
   ],
+  "test_random_no_reused_random_states_float32 (__main__.TestCuda)": [
+    "134944",
+    "https://github.com/pytorch/pytorch/issues/134944",
+    [
+      "linux"
+    ]
+  ],
   "test_random_seed (__main__.TestDataLoaderUtils)": [
     "84937",
     "https://github.com/pytorch/pytorch/issues/84937",
