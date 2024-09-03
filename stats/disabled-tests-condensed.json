@@ -865,6 +865,13 @@
       "dynamo"
     ]
   ],
+  "test_export_predispatch_custom_ops_warnings_non_strict (__main__.NonStrictExportTestExport)": [
+    "135063",
+    "https://github.com/pytorch/pytorch/issues/135063",
+    [
+      "linux"
+    ]
+  ],
   "test_extract_gradients_from_optimizer_set_to_none (__main__.TestIdentifyGradients)": [
     "88721",
     "https://github.com/pytorch/pytorch/issues/88721",
@@ -2623,6 +2630,13 @@
       "rocm"
     ]
   ],
+  "test_save_with_without_initializer_dont_include_initializer_no_fake_mode_no_exported_program (__main__.TestFxToOnnx)": [
+    "125020",
+    "https://github.com/pytorch/pytorch/issues/125020",
+    [
+      "linux"
+    ]
+  ],
   "test_save_with_without_initializer_include_initializer_no_fake_mode_no_exported_program (__main__.TestFxToOnnx)": [
     "131423",
     "https://github.com/pytorch/pytorch/issues/131423",
@@ -2948,6 +2962,13 @@
       "linux"
     ]
   ],
+  "test_streaming_backwards_multiple_streams (__main__.TestCuda)": [
+    "135065",
+    "https://github.com/pytorch/pytorch/issues/135065",
+    [
+      "linux"
+    ]
+  ],
   "test_strided_inputs_float16_q_s0_k_s0_v_s0_do_s0 (__main__.TestFlexAttention)": [
     "134197",
     "https://github.com/pytorch/pytorch/issues/134197",
@@ -2995,6 +3016,13 @@
     "https://github.com/pytorch/pytorch/issues/91497",
     [
       "linux"
+    ]
+  ],
+  "test_tensor_subclasses (__main__.TestScript)": [
+    "119949",
+    "https://github.com/pytorch/pytorch/issues/119949",
+    [
+      "dynamo"
     ]
   ],
   "test_tensorboard_trace_handler (__main__.TestProfiler)": [
