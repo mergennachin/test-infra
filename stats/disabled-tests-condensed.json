@@ -256,13 +256,6 @@
       "mac"
     ]
   ],
-  "test_builtin_score_mods_different_seqlen_float16_score_mod7 (__main__.TestFlexAttention)": [
-    "134100",
-    "https://github.com/pytorch/pytorch/issues/134100",
-    [
-      "linux"
-    ]
-  ],
   "test_builtin_score_mods_float16_score_mod7 (__main__.TestFlexAttention)": [
     "134115",
     "https://github.com/pytorch/pytorch/issues/134115",
@@ -2704,6 +2697,14 @@
       "rocm"
     ]
   ],
+  "test_scaled_dot_product_attention_cuda_cuda_wrapper (__main__.TestCudaWrapper)": [
+    "115896",
+    "https://github.com/pytorch/pytorch/issues/115896",
+    [
+      "rocm",
+      "linux"
+    ]
+  ],
   "test_scaled_dot_product_attention_cuda_dynamic_shapes_cuda_wrapper (__main__.DynamicShapesCudaWrapperCudaTests)": [
     "134931",
     "https://github.com/pytorch/pytorch/issues/134931",
@@ -2722,8 +2723,9 @@
     "134602",
     "https://github.com/pytorch/pytorch/issues/134602",
     [
+      "dynamo",
       "rocm",
-      "dynamo"
+      "linux"
     ]
   ],
   "test_scatter_fallback_abi_compatible_cuda (__main__.AOTInductorTestABICompatibleCuda)": [
@@ -2988,6 +2990,14 @@
       "linux"
     ]
   ],
+  "test_streaming_backwards_sync_graph_root (__main__.TestCuda)": [
+    "94880",
+    "https://github.com/pytorch/pytorch/issues/94880",
+    [
+      "rocm",
+      "linux"
+    ]
+  ],
   "test_strided_inputs_float16_q_s0_k_s0_v_s0_do_s0 (__main__.TestFlexAttention)": [
     "134197",
     "https://github.com/pytorch/pytorch/issues/134197",
@@ -3059,6 +3069,17 @@
     "https://github.com/pytorch/pytorch/issues/70546",
     [
       "mac"
+    ]
+  ],
+  "test_torch_function_mode_guards_ignored_types_py (__main__.TorchFunctionModeTests)": [
+    "135102",
+    "https://github.com/pytorch/pytorch/issues/135102",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm"
     ]
   ],
   "test_torch_name_rule_map_updated (__main__.TraceRuleTests)": [
