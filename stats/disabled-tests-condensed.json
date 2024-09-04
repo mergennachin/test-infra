@@ -2301,13 +2301,6 @@
       "linux"
     ]
   ],
-  "test_output_match_nn_functional_poisson_nll_loss_cpu_int64 (__main__.TORCH_NN_MODULECPU)": [
-    "118804",
-    "https://github.com/pytorch/pytorch/issues/118804",
-    [
-      "linux"
-    ]
-  ],
   "test_pattern_matcher_multi_user_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
     "134432",
     "https://github.com/pytorch/pytorch/issues/134432",
