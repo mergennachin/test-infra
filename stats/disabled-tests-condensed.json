@@ -2294,20 +2294,6 @@
       "linux"
     ]
   ],
-  "test_output_match___rmatmul___cpu_float32 (__main__.TORCH_EXPORT_EXPORTEDPROGRAMCPU)": [
-    "127740",
-    "https://github.com/pytorch/pytorch/issues/127740",
-    [
-      "linux"
-    ]
-  ],
-  "test_output_match___rmatmul___cpu_float32 (__main__.TORCH_NN_MODULECPU)": [
-    "127739",
-    "https://github.com/pytorch/pytorch/issues/127739",
-    [
-      "linux"
-    ]
-  ],
   "test_output_match_nn_functional_poisson_nll_loss_cpu_int32 (__main__.TORCH_EXPORT_EXPORTEDPROGRAMCPU)": [
     "123851",
     "https://github.com/pytorch/pytorch/issues/123851",
