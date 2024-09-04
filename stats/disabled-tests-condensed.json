@@ -2608,13 +2608,6 @@
       "linux"
     ]
   ],
-  "test_scaled_dot_product_attention_cuda (__main__.TestOneOffModelExportResult)": [
-    "133540",
-    "https://github.com/pytorch/pytorch/issues/133540",
-    [
-      "rocm"
-    ]
-  ],
   "test_scaled_dot_product_attention_cuda_cuda_wrapper (__main__.TestCudaWrapper)": [
     "115896",
     "https://github.com/pytorch/pytorch/issues/115896",
