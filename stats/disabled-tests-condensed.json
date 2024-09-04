@@ -256,13 +256,6 @@
       "mac"
     ]
   ],
-  "test_builtin_score_mods_bfloat16_score_mod7 (__main__.TestFlexAttention)": [
-    "134082",
-    "https://github.com/pytorch/pytorch/issues/134082",
-    [
-      "linux"
-    ]
-  ],
   "test_builtin_score_mods_different_seqlen_float16_score_mod7 (__main__.TestFlexAttention)": [
     "134100",
     "https://github.com/pytorch/pytorch/issues/134100",
@@ -510,6 +503,15 @@
     "https://github.com/pytorch/pytorch/issues/133909",
     [
       "linux"
+    ]
+  ],
+  "test_constant_insertion (__main__.TestJit)": [
+    "96894",
+    "https://github.com/pytorch/pytorch/issues/96894",
+    [
+      "win",
+      "windows",
+      "dynamo"
     ]
   ],
   "test_conv (quantization.jit.test_quantize_jit.TestQuantizeJit)": [
@@ -1805,6 +1807,13 @@
       "rocm"
     ]
   ],
+  "test_is_isnot (__main__.TestScript)": [
+    "120694",
+    "https://github.com/pytorch/pytorch/issues/120694",
+    [
+      "dynamo"
+    ]
+  ],
   "test_item_to_inputs_kernel_nobreak_cuda (__main__.TestInductorDynamicCUDA)": [
     "119538",
     "https://github.com/pytorch/pytorch/issues/119538",
@@ -2966,6 +2975,14 @@
     "135065",
     "https://github.com/pytorch/pytorch/issues/135065",
     [
+      "linux"
+    ]
+  ],
+  "test_streaming_backwards_sync (__main__.TestCuda)": [
+    "103494",
+    "https://github.com/pytorch/pytorch/issues/103494",
+    [
+      "rocm",
       "linux"
     ]
   ],
