@@ -788,6 +788,14 @@
       "linux"
     ]
   ],
+  "test_device_mode_ops_sparse_sampled_addmm_cpu_float64 (__main__.TestDeviceUtilsCPU)": [
+    "132737",
+    "https://github.com/pytorch/pytorch/issues/132737",
+    [
+      "asan",
+      "linux"
+    ]
+  ],
   "test_disable_compiling_hooks (__main__.TestFullyShardCompileCompute)": [
     "134138",
     "https://github.com/pytorch/pytorch/issues/134138",
@@ -3079,7 +3087,8 @@
       "linux",
       "mac",
       "macos",
-      "rocm"
+      "rocm",
+      "slow"
     ]
   ],
   "test_torch_name_rule_map_updated (__main__.TraceRuleTests)": [
