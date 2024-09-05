@@ -56,6 +56,13 @@
       "dynamo"
     ]
   ],
+  "test_allocator_fuzz (__main__.TestCudaMallocAsync)": [
+    "135249",
+    "https://github.com/pytorch/pytorch/issues/135249",
+    [
+      "linux"
+    ]
+  ],
   "test_always_alive_values (jit.test_freezing.TestMKLDNNReinplacing)": [
     "91486",
     "https://github.com/pytorch/pytorch/issues/91486",
@@ -134,6 +141,27 @@
   "test_aoti_eager_cache_hit_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
     "135220",
     "https://github.com/pytorch/pytorch/issues/135220",
+    [
+      "linux"
+    ]
+  ],
+  "test_aoti_eager_dtype_device_layout_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
+    "135247",
+    "https://github.com/pytorch/pytorch/issues/135247",
+    [
+      "linux"
+    ]
+  ],
+  "test_aoti_eager_dtype_device_layout_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "135251",
+    "https://github.com/pytorch/pytorch/issues/135251",
+    [
+      "linux"
+    ]
+  ],
+  "test_aoti_eager_support_out_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "135252",
+    "https://github.com/pytorch/pytorch/issues/135252",
     [
       "linux"
     ]
@@ -834,6 +862,20 @@
   "test_embedding_bag_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
     "135215",
     "https://github.com/pytorch/pytorch/issues/135215",
+    [
+      "linux"
+    ]
+  ],
+  "test_embedding_cpu (__main__.CpuTests)": [
+    "135253",
+    "https://github.com/pytorch/pytorch/issues/135253",
+    [
+      "linux"
+    ]
+  ],
+  "test_embedding_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "135250",
+    "https://github.com/pytorch/pytorch/issues/135250",
     [
       "linux"
     ]
@@ -2040,17 +2082,6 @@
     "https://github.com/pytorch/pytorch/issues/123254",
     [
       "linux"
-    ]
-  ],
-  "test_module_and_optimizer_ids (__main__.TestTorchTidyProfiler)": [
-    "87581",
-    "https://github.com/pytorch/pytorch/issues/87581",
-    [
-      "linux",
-      "win",
-      "windows",
-      "mac",
-      "macos"
     ]
   ],
   "test_mutable_custom_op_fixed_layout2_cpu (__main__.CpuTests)": [
