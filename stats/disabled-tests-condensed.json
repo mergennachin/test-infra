@@ -586,15 +586,6 @@
       "rocm"
     ]
   ],
-  "test_cudagraphs_sdpa (__main__.TestCompiledAutograd)": [
-    "132108",
-    "https://github.com/pytorch/pytorch/issues/132108",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_custom_op_1_cuda_cuda_wrapper (__main__.TestCudaWrapper)": [
     "122811",
     "https://github.com/pytorch/pytorch/issues/122811",
@@ -655,6 +646,18 @@
   "test_device_mode_ops_sparse_mm_reduce_cpu_bfloat16 (__main__.TestDeviceUtilsCPU)": [
     "132494",
     "https://github.com/pytorch/pytorch/issues/132494",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "win",
+      "windows"
+    ]
+  ],
+  "test_device_mode_ops_sparse_mm_reduce_cpu_float16 (__main__.TestDeviceUtilsCPU)": [
+    "133827",
+    "https://github.com/pytorch/pytorch/issues/133827",
     [
       "asan",
       "linux",
@@ -2882,13 +2885,6 @@
       "linux"
     ]
   ],
-  "test_strided_inputs_float16_q_s0_k_s0_v_s0_do_s0 (__main__.TestFlexAttention)": [
-    "134197",
-    "https://github.com/pytorch/pytorch/issues/134197",
-    [
-      "linux"
-    ]
-  ],
   "test_strided_inputs_float16_q_s0_k_s1_v_s1_do_s0 (__main__.TestFlexAttention)": [
     "134237",
     "https://github.com/pytorch/pytorch/issues/134237",
@@ -2961,6 +2957,14 @@
     "https://github.com/pytorch/pytorch/issues/70546",
     [
       "mac"
+    ]
+  ],
+  "test_tiny_half_norm_ (__main__.TestCuda)": [
+    "94897",
+    "https://github.com/pytorch/pytorch/issues/94897",
+    [
+      "rocm",
+      "linux"
     ]
   ],
   "test_torch_function_mode_guards_ignored_types_py (__main__.TorchFunctionModeTests)": [
