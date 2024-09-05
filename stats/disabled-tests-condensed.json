@@ -1551,8 +1551,9 @@
     "https://github.com/pytorch/pytorch/issues/134600",
     [
       "dynamo",
+      "linux",
       "rocm",
-      "linux"
+      "asan"
     ]
   ],
   "test_garbage_collect_expandable (__main__.TestCudaMallocAsync)": [
