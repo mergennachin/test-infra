@@ -1992,6 +1992,13 @@
       "rocm"
     ]
   ],
+  "test_lobpcg (__main__.TestAutograd)": [
+    "80338",
+    "https://github.com/pytorch/pytorch/issues/80338",
+    [
+      "linux"
+    ]
+  ],
   "test_max_split_expandable (__main__.TestCudaMallocAsync)": [
     "134837",
     "https://github.com/pytorch/pytorch/issues/134837",
