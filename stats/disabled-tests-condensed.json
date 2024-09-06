@@ -371,6 +371,13 @@
       "linux"
     ]
   ],
+  "test_cat_slice_cat_cuda_dynamic_shapes_cuda_wrapper (__main__.DynamicShapesCudaWrapperCudaTests)": [
+    "135347",
+    "https://github.com/pytorch/pytorch/issues/135347",
+    [
+      "linux"
+    ]
+  ],
   "test_causal_mask_float32 (__main__.TestTemplatedSDPA)": [
     "124607",
     "https://github.com/pytorch/pytorch/issues/124607",
