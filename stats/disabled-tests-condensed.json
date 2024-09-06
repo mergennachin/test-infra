@@ -202,6 +202,13 @@
       "linux"
     ]
   ],
+  "test_autocast_methods_fp32 (__main__.TestCudaAutocast)": [
+    "135381",
+    "https://github.com/pytorch/pytorch/issues/135381",
+    [
+      "linux"
+    ]
+  ],
   "test_autocast_rnn (__main__.TestCuda)": [
     "121806",
     "https://github.com/pytorch/pytorch/issues/121806",
@@ -1886,6 +1893,14 @@
     "https://github.com/pytorch/pytorch/issues/135309",
     [
       "linux"
+    ]
+  ],
+  "test_inplace_custom_op_two_mutated_inputs (__main__.InplacingTests)": [
+    "135380",
+    "https://github.com/pytorch/pytorch/issues/135380",
+    [
+      "linux",
+      "rocm"
     ]
   ],
   "test_inplace_gradgrad_remainder_cuda_float64 (__main__.TestBwdGradientsCUDA)": [
