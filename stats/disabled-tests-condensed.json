@@ -203,6 +203,13 @@
       "linux"
     ]
   ],
+  "test_autocast_methods_fp16 (__main__.TestCudaAutocast)": [
+    "135351",
+    "https://github.com/pytorch/pytorch/issues/135351",
+    [
+      "linux"
+    ]
+  ],
   "test_autocast_rnn (__main__.TestCuda)": [
     "121806",
     "https://github.com/pytorch/pytorch/issues/121806",
@@ -422,6 +429,13 @@
       "macos"
     ]
   ],
+  "test_check_stack_no_cycles_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
+    "135348",
+    "https://github.com/pytorch/pytorch/issues/135348",
+    [
+      "linux"
+    ]
+  ],
   "test_checkpoint_trigger (__main__.TestCheckpoint)": [
     "97402",
     "https://github.com/pytorch/pytorch/issues/97402",
@@ -577,6 +591,13 @@
       "linux"
     ]
   ],
+  "test_conv3d_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "135349",
+    "https://github.com/pytorch/pytorch/issues/135349",
+    [
+      "linux"
+    ]
+  ],
   "test_conv_stride_constraints (__main__.CPUReproTests)": [
     "107774",
     "https://github.com/pytorch/pytorch/issues/107774",
@@ -603,6 +624,13 @@
     "https://github.com/pytorch/pytorch/issues/107893",
     [
       "rocm"
+    ]
+  ],
+  "test_conv_with_as_strided_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "135350",
+    "https://github.com/pytorch/pytorch/issues/135350",
+    [
+      "linux"
     ]
   ],
   "test_conv_with_as_strided_dynamic_shapes_cuda (__main__.DynamicShapesCudaTests)": [
