@@ -196,6 +196,13 @@
       "linux"
     ]
   ],
+  "test_autocast_methods_expect_builtin_promote (__main__.TestCudaAutocast)": [
+    "135325",
+    "https://github.com/pytorch/pytorch/issues/135325",
+    [
+      "linux"
+    ]
+  ],
   "test_autocast_rnn (__main__.TestCuda)": [
     "121806",
     "https://github.com/pytorch/pytorch/issues/121806",
@@ -321,6 +328,13 @@
       "rocm"
     ]
   ],
+  "test_buffer_copied_in_graph_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
+    "135326",
+    "https://github.com/pytorch/pytorch/issues/135326",
+    [
+      "linux"
+    ]
+  ],
   "test_buffer_use_after_remove_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
     "135293",
     "https://github.com/pytorch/pytorch/issues/135293",
@@ -341,6 +355,13 @@
     [
       "mac",
       "macos"
+    ]
+  ],
+  "test_cat_of_loops_and_extern_kernel_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "135323",
+    "https://github.com/pytorch/pytorch/issues/135323",
+    [
+      "linux"
     ]
   ],
   "test_cat_slice_cat_cuda_cuda_wrapper (__main__.TestCudaWrapper)": [
@@ -540,6 +561,13 @@
     "https://github.com/pytorch/pytorch/issues/104366",
     [
       "rocm"
+    ]
+  ],
+  "test_conv3d_channels_last_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "135324",
+    "https://github.com/pytorch/pytorch/issues/135324",
+    [
+      "linux"
     ]
   ],
   "test_conv_stride_constraints (__main__.CPUReproTests)": [
@@ -1818,6 +1846,14 @@
       "linux"
     ]
   ],
+  "test_inplace_custom_op (__main__.InplacingTests)": [
+    "135327",
+    "https://github.com/pytorch/pytorch/issues/135327",
+    [
+      "linux",
+      "rocm"
+    ]
+  ],
   "test_inplace_custom_op_intermediate (__main__.InplacingTests)": [
     "135309",
     "https://github.com/pytorch/pytorch/issues/135309",
@@ -1851,6 +1887,15 @@
     "https://github.com/pytorch/pytorch/issues/120694",
     [
       "dynamo"
+    ]
+  ],
+  "test_item_to_inputs_kernel_nobreak_cuda (__main__.TestInductorDynamicCUDA)": [
+    "119538",
+    "https://github.com/pytorch/pytorch/issues/119538",
+    [
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_jvpvjp_nn_functional_conv3d_cuda_float32 (__main__.TestOperatorsCUDA)": [
@@ -2136,6 +2181,13 @@
   "test_mnist (__main__.TORCH_NN_MODULE)": [
     "123254",
     "https://github.com/pytorch/pytorch/issues/123254",
+    [
+      "linux"
+    ]
+  ],
+  "test_mnist_exported_with_no_warnings_optional_inputs (__main__.TestFxToOnnx)": [
+    "131137",
+    "https://github.com/pytorch/pytorch/issues/131137",
     [
       "linux"
     ]
@@ -3324,6 +3376,13 @@
   "test_variant_consistency_jit_linalg_lu_factor_ex_cuda_complex64 (__main__.TestJitCUDA)": [
     "86887",
     "https://github.com/pytorch/pytorch/issues/86887",
+    [
+      "linux"
+    ]
+  ],
+  "test_vdd_clamp_cpu (__main__.CpuTests)": [
+    "135328",
+    "https://github.com/pytorch/pytorch/issues/135328",
     [
       "linux"
     ]
