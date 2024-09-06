@@ -189,6 +189,13 @@
       "windows"
     ]
   ],
+  "test_autocast_linalg_fp16 (__main__.TestCudaAutocast)": [
+    "135290",
+    "https://github.com/pytorch/pytorch/issues/135290",
+    [
+      "linux"
+    ]
+  ],
   "test_autocast_rnn (__main__.TestCuda)": [
     "121806",
     "https://github.com/pytorch/pytorch/issues/121806",
@@ -286,6 +293,20 @@
       "mac"
     ]
   ],
+  "test_batch_norm_2d_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
+    "135289",
+    "https://github.com/pytorch/pytorch/issues/135289",
+    [
+      "linux"
+    ]
+  ],
+  "test_batch_norm_2d_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "135291",
+    "https://github.com/pytorch/pytorch/issues/135291",
+    [
+      "linux"
+    ]
+  ],
   "test_bitwise_cuda_cuda_wrapper (__main__.TestCudaWrapper)": [
     "121511",
     "https://github.com/pytorch/pytorch/issues/121511",
@@ -298,6 +319,13 @@
     "https://github.com/pytorch/pytorch/issues/116044",
     [
       "rocm"
+    ]
+  ],
+  "test_buffer_use_after_remove_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "135293",
+    "https://github.com/pytorch/pytorch/issues/135293",
+    [
+      "linux"
     ]
   ],
   "test_builtin_remote_message_dropped_timeout_to_self (__main__.FaultyFaultyAgentRpcTest)": [
@@ -498,6 +526,13 @@
     "https://github.com/pytorch/pytorch/issues/105125",
     [
       "rocm"
+    ]
+  ],
+  "test_conv2d_backward_channels_last_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "135292",
+    "https://github.com/pytorch/pytorch/issues/135292",
+    [
+      "linux"
     ]
   ],
   "test_conv3d_64bit_indexing_cuda (__main__.TestConvolutionNNDeviceTypeCUDA)": [
@@ -1783,6 +1818,13 @@
       "linux"
     ]
   ],
+  "test_input_mutation2_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "135295",
+    "https://github.com/pytorch/pytorch/issues/135295",
+    [
+      "linux"
+    ]
+  ],
   "test_intra_node_comm_all_reduce (__main__.CommTest)": [
     "115859",
     "https://github.com/pytorch/pytorch/issues/115859",
@@ -2248,6 +2290,13 @@
       "linux"
     ]
   ],
+  "test_pattern_matcher_multi_user_cpu (__main__.CpuTests)": [
+    "135296",
+    "https://github.com/pytorch/pytorch/issues/135296",
+    [
+      "linux"
+    ]
+  ],
   "test_pattern_matcher_multi_user_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
     "134432",
     "https://github.com/pytorch/pytorch/issues/134432",
@@ -2366,6 +2415,13 @@
   "test_profiler_mark_wrapper_call_cpu (__main__.CpuTests)": [
     "135217",
     "https://github.com/pytorch/pytorch/issues/135217",
+    [
+      "linux"
+    ]
+  ],
+  "test_profiler_mark_wrapper_call_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "135294",
+    "https://github.com/pytorch/pytorch/issues/135294",
     [
       "linux"
     ]
