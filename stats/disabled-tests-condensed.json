@@ -216,6 +216,13 @@
       "linux"
     ]
   ],
+  "test_autocast_nn_fp16 (__main__.TestCudaAutocast)": [
+    "135478",
+    "https://github.com/pytorch/pytorch/issues/135478",
+    [
+      "linux"
+    ]
+  ],
   "test_autocast_rnn (__main__.TestCuda)": [
     "121806",
     "https://github.com/pytorch/pytorch/issues/121806",
@@ -561,6 +568,14 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_special_chebyshev_polynomial_u_cpu_int32 (__main__.TestInductorOpInfoCPU)": [
+    "135477",
+    "https://github.com/pytorch/pytorch/issues/135477",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_comprehensive_special_polygamma_special_polygamma_n_0_cpu_float32 (__main__.TestInductorOpInfoCPU)": [
     "135452",
     "https://github.com/pytorch/pytorch/issues/135452",
@@ -584,9 +599,33 @@
       "macos"
     ]
   ],
+  "test_comprehensive_std_mean_cpu_float16 (__main__.TestInductorOpInfoCPU)": [
+    "135474",
+    "https://github.com/pytorch/pytorch/issues/135474",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_comprehensive_tile_cpu_bool (__main__.TestInductorOpInfoCPU)": [
     "135451",
     "https://github.com/pytorch/pytorch/issues/135451",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
+  "test_comprehensive_tril_cpu_int32 (__main__.TestInductorOpInfoCPU)": [
+    "135479",
+    "https://github.com/pytorch/pytorch/issues/135479",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
+  "test_comprehensive_true_divide_cpu_float64 (__main__.TestInductorOpInfoCPU)": [
+    "135475",
+    "https://github.com/pytorch/pytorch/issues/135475",
     [
       "mac",
       "macos"
@@ -2463,6 +2502,20 @@
       "linux"
     ]
   ],
+  "test_pattern_matcher_multi_user_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
+    "134432",
+    "https://github.com/pytorch/pytorch/issues/134432",
+    [
+      "linux"
+    ]
+  ],
+  "test_pattern_matcher_multi_user_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "134433",
+    "https://github.com/pytorch/pytorch/issues/134433",
+    [
+      "linux"
+    ]
+  ],
   "test_pickle_nn_RNN_eval_mode_cuda_float64 (__main__.TestModuleCUDA)": [
     "94541",
     "https://github.com/pytorch/pytorch/issues/94541",
@@ -3000,6 +3053,13 @@
       "linux",
       "rocm",
       "slow"
+    ]
+  ],
+  "test_serialized_patterns_up_to_date (__main__.TestPatternMatcher)": [
+    "135476",
+    "https://github.com/pytorch/pytorch/issues/135476",
+    [
+      "linux"
     ]
   ],
   "test_set_gloo_pg_timeout (__main__.ProcessGroupGlooTest)": [
