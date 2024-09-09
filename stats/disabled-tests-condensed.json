@@ -231,6 +231,13 @@
       "linux"
     ]
   ],
+  "test_autocast_nn_fp32 (__main__.TestCudaAutocast)": [
+    "135516",
+    "https://github.com/pytorch/pytorch/issues/135516",
+    [
+      "linux"
+    ]
+  ],
   "test_autocast_rnn (__main__.TestCuda)": [
     "121806",
     "https://github.com/pytorch/pytorch/issues/121806",
@@ -3535,6 +3542,13 @@
   "test_vdd_clamp_cpu (__main__.CpuTests)": [
     "135328",
     "https://github.com/pytorch/pytorch/issues/135328",
+    [
+      "linux"
+    ]
+  ],
+  "test_vdd_clamp_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "134445",
+    "https://github.com/pytorch/pytorch/issues/134445",
     [
       "linux"
     ]
