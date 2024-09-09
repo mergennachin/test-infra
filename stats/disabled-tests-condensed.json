@@ -3463,20 +3463,6 @@
       "linux"
     ]
   ],
-  "test_vdd_clamp_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
-    "134446",
-    "https://github.com/pytorch/pytorch/issues/134446",
-    [
-      "linux"
-    ]
-  ],
-  "test_vdd_clamp_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "134445",
-    "https://github.com/pytorch/pytorch/issues/134445",
-    [
-      "linux"
-    ]
-  ],
   "test_vit_aten_export (__main__.TestQuantizePT2EModels)": [
     "113506",
     "https://github.com/pytorch/pytorch/issues/113506",
