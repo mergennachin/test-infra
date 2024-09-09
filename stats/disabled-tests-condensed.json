@@ -591,6 +591,14 @@
       "macos"
     ]
   ],
+  "test_comprehensive_special_hermite_polynomial_he_cpu_int64 (__main__.TestInductorOpInfoCPU)": [
+    "135537",
+    "https://github.com/pytorch/pytorch/issues/135537",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_comprehensive_special_polygamma_special_polygamma_n_0_cpu_float32 (__main__.TestInductorOpInfoCPU)": [
     "135452",
     "https://github.com/pytorch/pytorch/issues/135452",
@@ -622,6 +630,14 @@
       "macos"
     ]
   ],
+  "test_comprehensive_sub_cpu_float64 (__main__.TestInductorOpInfoCPU)": [
+    "135538",
+    "https://github.com/pytorch/pytorch/issues/135538",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_comprehensive_tile_cpu_bool (__main__.TestInductorOpInfoCPU)": [
     "135451",
     "https://github.com/pytorch/pytorch/issues/135451",
@@ -641,6 +657,14 @@
   "test_comprehensive_true_divide_cpu_float64 (__main__.TestInductorOpInfoCPU)": [
     "135475",
     "https://github.com/pytorch/pytorch/issues/135475",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
+  "test_comprehensive_unfold_copy_cpu_bool (__main__.TestInductorOpInfoCPU)": [
+    "135539",
+    "https://github.com/pytorch/pytorch/issues/135539",
     [
       "mac",
       "macos"
@@ -2344,13 +2368,6 @@
     "https://github.com/pytorch/pytorch/issues/131137",
     [
       "linux"
-    ]
-  ],
-  "test_mutable_custom_op_fixed_layout2_cpu (__main__.CpuTests)": [
-    "134481",
-    "https://github.com/pytorch/pytorch/issues/134481",
-    [
-      "rocm"
     ]
   ],
   "test_mutable_custom_op_fixed_layout2_cuda (__main__.GPUTests)": [
