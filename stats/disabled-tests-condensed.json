@@ -266,6 +266,13 @@
       "linux"
     ]
   ],
+  "test_autocast_torch_fp16 (__main__.TestCudaAutocast)": [
+    "135599",
+    "https://github.com/pytorch/pytorch/issues/135599",
+    [
+      "linux"
+    ]
+  ],
   "test_autograd_cpp_node_saved (__main__.TestCompiledAutograd)": [
     "131103",
     "https://github.com/pytorch/pytorch/issues/131103",
