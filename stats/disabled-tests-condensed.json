@@ -245,6 +245,13 @@
       "rocm"
     ]
   ],
+  "test_autocast_rnn (__main__.TestCudaAutocast)": [
+    "135555",
+    "https://github.com/pytorch/pytorch/issues/135555",
+    [
+      "linux"
+    ]
+  ],
   "test_autograd_cpp_node_saved (__main__.TestCompiledAutograd)": [
     "131103",
     "https://github.com/pytorch/pytorch/issues/131103",
@@ -483,6 +490,13 @@
     "https://github.com/pytorch/pytorch/issues/110040",
     [
       "rocm"
+    ]
+  ],
+  "test_closure_out_of_scope_cell_with_mutation (__main__.MiscTests)": [
+    "135556",
+    "https://github.com/pytorch/pytorch/issues/135556",
+    [
+      "linux"
     ]
   ],
   "test_compare_cpu__refs_empty_strided_cuda_float32 (__main__.TestCommonCUDA)": [
