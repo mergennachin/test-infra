@@ -723,6 +723,14 @@
       "macos"
     ]
   ],
+  "test_comprehensive_zero__cpu_int64 (__main__.TestInductorOpInfoCPU)": [
+    "135577",
+    "https://github.com/pytorch/pytorch/issues/135577",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_constant_insertion (__main__.TestJit)": [
     "96894",
     "https://github.com/pytorch/pytorch/issues/96894",
@@ -3604,6 +3612,13 @@
   "test_vdd_clamp_cpu (__main__.CpuTests)": [
     "135328",
     "https://github.com/pytorch/pytorch/issues/135328",
+    [
+      "linux"
+    ]
+  ],
+  "test_vdd_clamp_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
+    "134446",
+    "https://github.com/pytorch/pytorch/issues/134446",
     [
       "linux"
     ]
