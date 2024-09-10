@@ -2430,13 +2430,6 @@
       "linux"
     ]
   ],
-  "test_mutable_custom_op_fixed_layout2_cuda (__main__.GPUTests)": [
-    "134519",
-    "https://github.com/pytorch/pytorch/issues/134519",
-    [
-      "rocm"
-    ]
-  ],
   "test_nccl_errors_dump (__main__.NcclErrorDumpTest)": [
     "123530",
     "https://github.com/pytorch/pytorch/issues/123530",
