@@ -273,6 +273,13 @@
       "linux"
     ]
   ],
+  "test_autocast_torch_fp32 (__main__.TestCudaAutocast)": [
+    "135643",
+    "https://github.com/pytorch/pytorch/issues/135643",
+    [
+      "linux"
+    ]
+  ],
   "test_autograd_cpp_node_saved (__main__.TestCompiledAutograd)": [
     "131103",
     "https://github.com/pytorch/pytorch/issues/131103",
@@ -740,6 +747,14 @@
   "test_comprehensive_zero__cpu_int64 (__main__.TestInductorOpInfoCPU)": [
     "135577",
     "https://github.com/pytorch/pytorch/issues/135577",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
+  "test_comprehensive_zeros_cpu_float16 (__main__.TestInductorOpInfoCPU)": [
+    "135642",
+    "https://github.com/pytorch/pytorch/issues/135642",
     [
       "mac",
       "macos"
@@ -2995,8 +3010,9 @@
     "https://github.com/pytorch/pytorch/issues/134602",
     [
       "dynamo",
+      "linux",
       "rocm",
-      "linux"
+      "asan"
     ]
   ],
   "test_scatter_fallback_abi_compatible_cuda (__main__.AOTInductorTestABICompatibleCuda)": [
