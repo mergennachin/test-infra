@@ -2713,13 +2713,6 @@
       "macos"
     ]
   ],
-  "test_noncontiguous_samples_nn_functional_conv3d_cuda_complex64 (__main__.TestCommonCUDA)": [
-    "115254",
-    "https://github.com/pytorch/pytorch/issues/115254",
-    [
-      "linux"
-    ]
-  ],
   "test_nondeterministic_alert_histc_cuda (__main__.TestTorchDeviceTypeCUDA)": [
     "109310",
     "https://github.com/pytorch/pytorch/issues/109310",
