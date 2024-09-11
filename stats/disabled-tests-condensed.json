@@ -280,12 +280,20 @@
       "linux"
     ]
   ],
+  "test_autocast_torch_need_autocast_promote (__main__.TestCudaAutocast)": [
+    "135655",
+    "https://github.com/pytorch/pytorch/issues/135655",
+    [
+      "linux"
+    ]
+  ],
   "test_autograd_cpp_node_saved (__main__.TestCompiledAutograd)": [
     "131103",
     "https://github.com/pytorch/pytorch/issues/131103",
     [
       "mac",
-      "macos"
+      "macos",
+      "linux"
     ]
   ],
   "test_autograd_cpp_node_saved_float (__main__.TestCompiledAutograd)": [
