@@ -535,13 +535,6 @@
       "linux"
     ]
   ],
-  "test_circular_dependencies (__main__.TestImports)": [
-    "110040",
-    "https://github.com/pytorch/pytorch/issues/110040",
-    [
-      "rocm"
-    ]
-  ],
   "test_closure_out_of_scope_cell_with_mutation (__main__.MiscTests)": [
     "135556",
     "https://github.com/pytorch/pytorch/issues/135556",
@@ -2172,6 +2165,13 @@
   "test_grad_scaler_with_preset_grad_scale_in_place_unscale_False_AdamW_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
     "135692",
     "https://github.com/pytorch/pytorch/issues/135692",
+    [
+      "linux"
+    ]
+  ],
+  "test_grad_scaler_with_preset_grad_scale_in_place_unscale_False_Adam_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
+    "135721",
+    "https://github.com/pytorch/pytorch/issues/135721",
     [
       "linux"
     ]
