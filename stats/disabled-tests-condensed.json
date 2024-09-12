@@ -1473,18 +1473,6 @@
       "dynamo"
     ]
   ],
-  "test_device_mode_ops_sparse_mm_reduce_cpu_bfloat16 (__main__.TestDeviceUtilsCPU)": [
-    "132494",
-    "https://github.com/pytorch/pytorch/issues/132494",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "win",
-      "windows"
-    ]
-  ],
   "test_device_mode_ops_sparse_mm_reduce_cpu_float16 (__main__.TestDeviceUtilsCPU)": [
     "133827",
     "https://github.com/pytorch/pytorch/issues/133827",
@@ -2502,6 +2490,13 @@
       "linux"
     ]
   ],
+  "test_grad_scaler_with_preset_grad_scale_in_place_unscale_True_AdamW_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
+    "135829",
+    "https://github.com/pytorch/pytorch/issues/135829",
+    [
+      "linux"
+    ]
+  ],
   "test_grad_scaling_autocast_cuda (__main__.TestTorchDeviceTypeCUDA)": [
     "119154",
     "https://github.com/pytorch/pytorch/issues/119154",
@@ -3337,13 +3332,6 @@
       "asan"
     ]
   ],
-  "test_record_stream (__main__.TestCuda)": [
-    "134746",
-    "https://github.com/pytorch/pytorch/issues/134746",
-    [
-      "linux"
-    ]
-  ],
   "test_record_stream_on_shifted_view (__main__.TestCuda)": [
     "120318",
     "https://github.com/pytorch/pytorch/issues/120318",
@@ -3523,7 +3511,8 @@
     "134601",
     "https://github.com/pytorch/pytorch/issues/134601",
     [
-      "rocm"
+      "rocm",
+      "dynamo"
     ]
   ],
   "test_scaled_dot_product_fused_attention_overrideable_backward (__main__.TestSDPAPrivateUse1Only)": [
