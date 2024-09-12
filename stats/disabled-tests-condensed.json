@@ -998,6 +998,14 @@
       "macos"
     ]
   ],
+  "test_comprehensive_transpose_copy_cpu_bool (__main__.TestInductorOpInfoCPU)": [
+    "135782",
+    "https://github.com/pytorch/pytorch/issues/135782",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_comprehensive_trapezoid_cpu_int64 (__main__.TestInductorOpInfoCPU)": [
     "135670",
     "https://github.com/pytorch/pytorch/issues/135670",
@@ -1057,6 +1065,14 @@
   "test_comprehensive_vdot_cpu_int64 (__main__.TestInductorOpInfoCPU)": [
     "135748",
     "https://github.com/pytorch/pytorch/issues/135748",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
+  "test_comprehensive_where_cpu_int32 (__main__.TestInductorOpInfoCPU)": [
+    "135784",
+    "https://github.com/pytorch/pytorch/issues/135784",
     [
       "mac",
       "macos"
@@ -2324,6 +2340,13 @@
   "test_grad_scaler_with_preset_grad_scale_in_place_unscale_False_Adam_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
     "135721",
     "https://github.com/pytorch/pytorch/issues/135721",
+    [
+      "linux"
+    ]
+  ],
+  "test_grad_scaler_with_preset_grad_scale_in_place_unscale_False_SGD_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
+    "135783",
+    "https://github.com/pytorch/pytorch/issues/135783",
     [
       "linux"
     ]
