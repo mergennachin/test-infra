@@ -2661,6 +2661,13 @@
       "linux"
     ]
   ],
+  "test_grad_scaler_with_preset_grad_scale_in_place_unscale_True_Adam_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
+    "135881",
+    "https://github.com/pytorch/pytorch/issues/135881",
+    [
+      "linux"
+    ]
+  ],
   "test_grad_scaling_autocast_cuda (__main__.TestTorchDeviceTypeCUDA)": [
     "119154",
     "https://github.com/pytorch/pytorch/issues/119154",
