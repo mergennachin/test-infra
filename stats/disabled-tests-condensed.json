@@ -645,6 +645,14 @@
       "macos"
     ]
   ],
+  "test_comprehensive_nn_functional_conv3d_cpu_float32 (__main__.TestInductorOpInfoCPU)": [
+    "135896",
+    "https://github.com/pytorch/pytorch/issues/135896",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_comprehensive_nn_functional_kl_div_cpu_float64 (__main__.TestInductorOpInfoCPU)": [
     "135668",
     "https://github.com/pytorch/pytorch/issues/135668",
@@ -824,9 +832,25 @@
       "macos"
     ]
   ],
+  "test_comprehensive_norm_inf_cpu_float64 (__main__.TestInductorOpInfoCPU)": [
+    "135908",
+    "https://github.com/pytorch/pytorch/issues/135908",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_comprehensive_ones_cpu_bool (__main__.TestInductorOpInfoCPU)": [
     "135740",
     "https://github.com/pytorch/pytorch/issues/135740",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
+  "test_comprehensive_ones_cpu_float32 (__main__.TestInductorOpInfoCPU)": [
+    "135902",
+    "https://github.com/pytorch/pytorch/issues/135902",
     [
       "mac",
       "macos"
@@ -837,6 +861,14 @@
     "https://github.com/pytorch/pytorch/issues/124202",
     [
       "inductor"
+    ]
+  ],
+  "test_comprehensive_ones_like_cpu_float16 (__main__.TestInductorOpInfoCPU)": [
+    "135905",
+    "https://github.com/pytorch/pytorch/issues/135905",
+    [
+      "mac",
+      "macos"
     ]
   ],
   "test_comprehensive_pca_lowrank_cpu_float64 (__main__.TestInductorOpInfoCPU)": [
@@ -895,6 +927,14 @@
       "macos"
     ]
   ],
+  "test_comprehensive_polygamma_polygamma_n_2_cpu_int64 (__main__.TestInductorOpInfoCPU)": [
+    "135904",
+    "https://github.com/pytorch/pytorch/issues/135904",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_comprehensive_polygamma_polygamma_n_3_cpu_float32 (__main__.TestInductorOpInfoCPU)": [
     "135841",
     "https://github.com/pytorch/pytorch/issues/135841",
@@ -938,6 +978,14 @@
   "test_comprehensive_polygamma_polygamma_n_4_cpu_float32 (__main__.TestInductorOpInfoCPU)": [
     "135744",
     "https://github.com/pytorch/pytorch/issues/135744",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
+  "test_comprehensive_polygamma_polygamma_n_4_cpu_int32 (__main__.TestInductorOpInfoCPU)": [
+    "135900",
+    "https://github.com/pytorch/pytorch/issues/135900",
     [
       "mac",
       "macos"
@@ -991,6 +1039,14 @@
       "macos"
     ]
   ],
+  "test_comprehensive_rand_like_cpu_float32 (__main__.TestInductorOpInfoCPU)": [
+    "135897",
+    "https://github.com/pytorch/pytorch/issues/135897",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_comprehensive_randint_cpu_float16 (__main__.TestInductorOpInfoCPU)": [
     "135838",
     "https://github.com/pytorch/pytorch/issues/135838",
@@ -1015,9 +1071,41 @@
       "macos"
     ]
   ],
+  "test_comprehensive_reciprocal_cpu_int32 (__main__.TestInductorOpInfoCPU)": [
+    "135909",
+    "https://github.com/pytorch/pytorch/issues/135909",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_comprehensive_remainder_cpu_float32 (__main__.TestInductorOpInfoCPU)": [
     "135855",
     "https://github.com/pytorch/pytorch/issues/135855",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
+  "test_comprehensive_remainder_cpu_int32 (__main__.TestInductorOpInfoCPU)": [
+    "135907",
+    "https://github.com/pytorch/pytorch/issues/135907",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
+  "test_comprehensive_repeat_cpu_int64 (__main__.TestInductorOpInfoCPU)": [
+    "135910",
+    "https://github.com/pytorch/pytorch/issues/135910",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
+  "test_comprehensive_roll_cpu_float16 (__main__.TestInductorOpInfoCPU)": [
+    "135898",
+    "https://github.com/pytorch/pytorch/issues/135898",
     [
       "mac",
       "macos"
@@ -1034,6 +1122,14 @@
   "test_comprehensive_rsub_cpu_float64 (__main__.TestInductorOpInfoCPU)": [
     "135848",
     "https://github.com/pytorch/pytorch/issues/135848",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
+  "test_comprehensive_scatter_add_cpu_float16 (__main__.TestInductorOpInfoCPU)": [
+    "135899",
+    "https://github.com/pytorch/pytorch/issues/135899",
     [
       "mac",
       "macos"
@@ -1082,6 +1178,14 @@
   "test_comprehensive_signal_windows_nuttall_cpu_float32 (__main__.TestInductorOpInfoCPU)": [
     "135675",
     "https://github.com/pytorch/pytorch/issues/135675",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
+  "test_comprehensive_signbit_cpu_bool (__main__.TestInductorOpInfoCPU)": [
+    "135906",
+    "https://github.com/pytorch/pytorch/issues/135906",
     [
       "mac",
       "macos"
@@ -1182,6 +1286,14 @@
       "macos"
     ]
   ],
+  "test_comprehensive_special_modified_bessel_k1_cpu_int64 (__main__.TestInductorOpInfoCPU)": [
+    "135903",
+    "https://github.com/pytorch/pytorch/issues/135903",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_comprehensive_special_ndtr_cpu_float64 (__main__.TestInductorOpInfoCPU)": [
     "135754",
     "https://github.com/pytorch/pytorch/issues/135754",
@@ -1201,6 +1313,14 @@
   "test_comprehensive_special_scaled_modified_bessel_k0_cpu_float64 (__main__.TestInductorOpInfoCPU)": [
     "135801",
     "https://github.com/pytorch/pytorch/issues/135801",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
+  "test_comprehensive_special_scaled_modified_bessel_k0_cpu_int32 (__main__.TestInductorOpInfoCPU)": [
+    "135901",
+    "https://github.com/pytorch/pytorch/issues/135901",
     [
       "mac",
       "macos"
@@ -1227,6 +1347,14 @@
     "https://github.com/pytorch/pytorch/issues/123332",
     [
       "inductor"
+    ]
+  ],
+  "test_comprehensive_special_xlog1py_cpu_float32 (__main__.TestInductorOpInfoCPU)": [
+    "135895",
+    "https://github.com/pytorch/pytorch/issues/135895",
+    [
+      "mac",
+      "macos"
     ]
   ],
   "test_comprehensive_special_zeta_cpu_float32 (__main__.TestInductorOpInfoCPU)": [
