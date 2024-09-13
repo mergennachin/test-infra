@@ -326,6 +326,14 @@
       "macos"
     ]
   ],
+  "test_autograd_function_backed_op (__main__.TestCustomOpWithCompiledAutograd)": [
+    "121342",
+    "https://github.com/pytorch/pytorch/issues/121342",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_b2b_gemm_left_assoc_good_shape (__main__.B2BGEMMTest)": [
     "133233",
     "https://github.com/pytorch/pytorch/issues/133233",
@@ -2933,6 +2941,13 @@
     "https://github.com/pytorch/pytorch/issues/119184",
     [
       "inductor"
+    ]
+  ],
+  "test_grad_scaling_autocast_fused_optimizers_AdamW_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
+    "135963",
+    "https://github.com/pytorch/pytorch/issues/135963",
+    [
+      "linux"
     ]
   ],
   "test_gradgrad_nn_Transformer_cuda_float64 (__main__.TestModuleCUDA)": [
