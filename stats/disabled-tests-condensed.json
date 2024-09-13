@@ -990,13 +990,6 @@
       "macos"
     ]
   ],
-  "test_comprehensive_ones_cuda_int32 (__main__.TestInductorOpInfoCUDA)": [
-    "124202",
-    "https://github.com/pytorch/pytorch/issues/124202",
-    [
-      "inductor"
-    ]
-  ],
   "test_comprehensive_ones_like_cpu_float16 (__main__.TestInductorOpInfoCPU)": [
     "135905",
     "https://github.com/pytorch/pytorch/issues/135905",
