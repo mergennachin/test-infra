@@ -1596,13 +1596,6 @@
       "macos"
     ]
   ],
-  "test_comprehensive_special_spherical_bessel_j0_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
-    "123332",
-    "https://github.com/pytorch/pytorch/issues/123332",
-    [
-      "inductor"
-    ]
-  ],
   "test_comprehensive_special_xlog1py_cpu_float32 (__main__.TestInductorOpInfoCPU)": [
     "135895",
     "https://github.com/pytorch/pytorch/issues/135895",
