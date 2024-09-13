@@ -326,16 +326,6 @@
       "macos"
     ]
   ],
-  "test_autograd_function_backed_op (__main__.TestCustomOp)": [
-    "132115",
-    "https://github.com/pytorch/pytorch/issues/132115",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos"
-    ]
-  ],
   "test_b2b_gemm_left_assoc_good_shape (__main__.B2BGEMMTest)": [
     "133233",
     "https://github.com/pytorch/pytorch/issues/133233",
@@ -2792,6 +2782,13 @@
   "test_grad_scaler_with_preset_grad_scale_in_place_unscale_True_Adam_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
     "135881",
     "https://github.com/pytorch/pytorch/issues/135881",
+    [
+      "linux"
+    ]
+  ],
+  "test_grad_scaler_with_preset_grad_scale_in_place_unscale_True_SGD_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
+    "135925",
+    "https://github.com/pytorch/pytorch/issues/135925",
     [
       "linux"
     ]
