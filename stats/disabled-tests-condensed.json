@@ -3086,6 +3086,13 @@
       "linux"
     ]
   ],
+  "test_grad_scaling_autocast_fused_optimizers_Adam_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
+    "135993",
+    "https://github.com/pytorch/pytorch/issues/135993",
+    [
+      "linux"
+    ]
+  ],
   "test_gradgrad_nn_Transformer_cuda_float64 (__main__.TestModuleCUDA)": [
     "117140",
     "https://github.com/pytorch/pytorch/issues/117140",
