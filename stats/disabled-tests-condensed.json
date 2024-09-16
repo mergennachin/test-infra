@@ -70,6 +70,13 @@
       "linux"
     ]
   ],
+  "test_angle_cpu (__main__.CpuTritonTests)": [
+    "136124",
+    "https://github.com/pytorch/pytorch/issues/136124",
+    [
+      "inductor"
+    ]
+  ],
   "test_aot_autograd_exhaustive_as_strided_scatter_cpu_float32 (__main__.TestEagerFusionOpInfoCPU)": [
     "85879",
     "https://github.com/pytorch/pytorch/issues/85879",
@@ -3243,6 +3250,13 @@
       "rocm"
     ]
   ],
+  "test_graph_grad_scaling_foreach_False_fused_False_AdamW_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
+    "136126",
+    "https://github.com/pytorch/pytorch/issues/136126",
+    [
+      "linux"
+    ]
+  ],
   "test_homogeneous_attributes (__main__.TestFSDPMiscMultiThread)": [
     "105024",
     "https://github.com/pytorch/pytorch/issues/105024",
@@ -3808,6 +3822,14 @@
       "macos"
     ]
   ],
+  "test_open_device_registration (__main__.TritonExtensionBackendTests)": [
+    "136125",
+    "https://github.com/pytorch/pytorch/issues/136125",
+    [
+      "asan",
+      "linux"
+    ]
+  ],
   "test_optional_list (test_jit.TestScript)": [
     "91484",
     "https://github.com/pytorch/pytorch/issues/91484",
@@ -3883,15 +3905,6 @@
     "https://github.com/pytorch/pytorch/issues/84886",
     [
       "linux"
-    ]
-  ],
-  "test_pre_dispatch_export_auto_functionalize_simple_cuda_float32 (__main__.TestHOPCUDA)": [
-    "123267",
-    "https://github.com/pytorch/pytorch/issues/123267",
-    [
-      "linux",
-      "slow",
-      "rocm"
     ]
   ],
   "test_pre_dispatch_export_while_loop_simple_cuda_float32 (__main__.TestHOPCUDA)": [
