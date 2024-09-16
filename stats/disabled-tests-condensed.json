@@ -706,14 +706,6 @@
       "macos"
     ]
   ],
-  "test_comprehensive_nn_functional_interpolate_nearest_cpu_float16 (__main__.TestInductorOpInfoCPU)": [
-    "136028",
-    "https://github.com/pytorch/pytorch/issues/136028",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_comprehensive_nn_functional_kl_div_cpu_float64 (__main__.TestInductorOpInfoCPU)": [
     "135668",
     "https://github.com/pytorch/pytorch/issues/135668",
@@ -800,22 +792,6 @@
   "test_comprehensive_nn_functional_pairwise_distance_cpu_int64 (__main__.TestInductorOpInfoCPU)": [
     "136027",
     "https://github.com/pytorch/pytorch/issues/136027",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_comprehensive_nn_functional_pixel_unshuffle_cpu_bool (__main__.TestInductorOpInfoCPU)": [
-    "136030",
-    "https://github.com/pytorch/pytorch/issues/136030",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_comprehensive_nn_functional_pixel_unshuffle_cpu_float64 (__main__.TestInductorOpInfoCPU)": [
-    "136029",
-    "https://github.com/pytorch/pytorch/issues/136029",
     [
       "mac",
       "macos"
