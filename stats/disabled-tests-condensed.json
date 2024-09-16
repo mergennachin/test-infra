@@ -3855,6 +3855,13 @@
       "linux"
     ]
   ],
+  "test_pcontext_wait_on_a_child_thread (__main__.StartProcessesAsFuncTest)": [
+    "136164",
+    "https://github.com/pytorch/pytorch/issues/136164",
+    [
+      "rocm"
+    ]
+  ],
   "test_perfect_match_on_sequence_and_bool_attributes (__main__.TestFxToOnnx)": [
     "125218",
     "https://github.com/pytorch/pytorch/issues/125218",
