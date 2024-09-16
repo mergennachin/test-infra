@@ -4042,13 +4042,6 @@
       "linux"
     ]
   ],
-  "test_randint_randomness_for_large_range (__main__.TestCuda)": [
-    "134932",
-    "https://github.com/pytorch/pytorch/issues/134932",
-    [
-      "linux"
-    ]
-  ],
   "test_random_no_reused_random_states_float32 (__main__.TestCuda)": [
     "134944",
     "https://github.com/pytorch/pytorch/issues/134944",
