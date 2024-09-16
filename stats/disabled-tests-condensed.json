@@ -3890,6 +3890,15 @@
       "linux"
     ]
   ],
+  "test_pre_dispatch_export_auto_functionalize_simple_cuda_float32 (__main__.TestHOPCUDA)": [
+    "123267",
+    "https://github.com/pytorch/pytorch/issues/123267",
+    [
+      "linux",
+      "slow",
+      "rocm"
+    ]
+  ],
   "test_pre_dispatch_export_while_loop_simple_cuda_float32 (__main__.TestHOPCUDA)": [
     "123943",
     "https://github.com/pytorch/pytorch/issues/123943",
@@ -4021,6 +4030,13 @@
   "test_randint_cuda_dynamic_shapes_cuda_wrapper (__main__.DynamicShapesCudaWrapperCudaTests)": [
     "134933",
     "https://github.com/pytorch/pytorch/issues/134933",
+    [
+      "linux"
+    ]
+  ],
+  "test_randint_randomness_for_large_range (__main__.TestCuda)": [
+    "134932",
+    "https://github.com/pytorch/pytorch/issues/134932",
     [
       "linux"
     ]
