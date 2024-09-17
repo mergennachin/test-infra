@@ -3235,6 +3235,13 @@
       "linux"
     ]
   ],
+  "test_graph_grad_scaling_foreach_False_fused_True_AdamW_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
+    "136230",
+    "https://github.com/pytorch/pytorch/issues/136230",
+    [
+      "linux"
+    ]
+  ],
   "test_homogeneous_attributes (__main__.TestFSDPMiscMultiThread)": [
     "105024",
     "https://github.com/pytorch/pytorch/issues/105024",
@@ -3585,6 +3592,13 @@
     [
       "rocm",
       "linux"
+    ]
+  ],
+  "test_mem_leak_from_save_for_bw (__main__.TestAOTAutogradWithDynamo)": [
+    "136229",
+    "https://github.com/pytorch/pytorch/issues/136229",
+    [
+      "rocm"
     ]
   ],
   "test_memory_format_nn_ConvTranspose1d_cuda_complex32 (__main__.TestModuleCUDA)": [
@@ -4360,13 +4374,6 @@
       "dynamo"
     ]
   ],
-  "test_segfault (__main__.TestDataLoader)": [
-    "128551",
-    "https://github.com/pytorch/pytorch/issues/128551",
-    [
-      "linux"
-    ]
-  ],
   "test_send_recv_all_to_all (__main__.ProcessGroupGlooTest)": [
     "71195",
     "https://github.com/pytorch/pytorch/issues/71195",
@@ -4598,13 +4605,6 @@
     "https://github.com/pytorch/pytorch/issues/91497",
     [
       "linux"
-    ]
-  ],
-  "test_tensor_subclasses (__main__.TestScript)": [
-    "119949",
-    "https://github.com/pytorch/pytorch/issues/119949",
-    [
-      "dynamo"
     ]
   ],
   "test_tensorboard_trace_handler (__main__.TestProfiler)": [
