@@ -2144,9 +2144,9 @@
       "windows"
     ]
   ],
-  "test_device_mode_ops_sparse_mm_reduce_cpu_float32 (__main__.TestDeviceUtilsCPU)": [
-    "132552",
-    "https://github.com/pytorch/pytorch/issues/132552",
+  "test_device_mode_ops_sparse_mm_reduce_cpu_float64 (__main__.TestDeviceUtilsCPU)": [
+    "132619",
+    "https://github.com/pytorch/pytorch/issues/132619",
     [
       "asan",
       "linux",
@@ -4525,13 +4525,6 @@
     "https://github.com/pytorch/pytorch/issues/133228",
     [
       "rocm"
-    ]
-  ],
-  "test_streaming_backwards_callback (__main__.TestCuda)": [
-    "135024",
-    "https://github.com/pytorch/pytorch/issues/135024",
-    [
-      "linux"
     ]
   ],
   "test_streaming_backwards_multiple_streams (__main__.TestCuda)": [
