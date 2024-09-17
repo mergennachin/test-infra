@@ -4055,6 +4055,13 @@
       "linux"
     ]
   ],
+  "test_random_no_reused_random_states_float32 (__main__.TestCuda)": [
+    "134944",
+    "https://github.com/pytorch/pytorch/issues/134944",
+    [
+      "linux"
+    ]
+  ],
   "test_random_no_reused_random_states_float64 (__main__.TestCuda)": [
     "134958",
     "https://github.com/pytorch/pytorch/issues/134958",
