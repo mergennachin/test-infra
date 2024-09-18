@@ -1900,15 +1900,6 @@
       "macos"
     ]
   ],
-  "test_constant_insertion (__main__.TestJit)": [
-    "96894",
-    "https://github.com/pytorch/pytorch/issues/96894",
-    [
-      "win",
-      "windows",
-      "dynamo"
-    ]
-  ],
   "test_conv (quantization.jit.test_quantize_jit.TestQuantizeJit)": [
     "105125",
     "https://github.com/pytorch/pytorch/issues/105125",
@@ -2166,14 +2157,6 @@
       "macos",
       "win",
       "windows"
-    ]
-  ],
-  "test_device_mode_ops_sparse_sampled_addmm_cpu_complex64 (__main__.TestDeviceUtilsCPU)": [
-    "132686",
-    "https://github.com/pytorch/pytorch/issues/132686",
-    [
-      "asan",
-      "linux"
     ]
   ],
   "test_device_mode_ops_sparse_sampled_addmm_cpu_float32 (__main__.TestDeviceUtilsCPU)": [
@@ -3359,13 +3342,6 @@
       "rocm"
     ]
   ],
-  "test_is_isnot (__main__.TestScript)": [
-    "120694",
-    "https://github.com/pytorch/pytorch/issues/120694",
-    [
-      "dynamo"
-    ]
-  ],
   "test_item_to_inputs_kernel_nobreak_cuda (__main__.TestInductorDynamicCUDA)": [
     "119538",
     "https://github.com/pytorch/pytorch/issues/119538",
@@ -4392,6 +4368,13 @@
       "linux"
     ]
   ],
+  "test_serialization_array_with_storage (__main__.TestCuda)": [
+    "134991",
+    "https://github.com/pytorch/pytorch/issues/134991",
+    [
+      "linux"
+    ]
+  ],
   "test_serialization_parametrization_swap_True (__main__.TestNNParametrization)": [
     "127755",
     "https://github.com/pytorch/pytorch/issues/127755",
@@ -4535,14 +4518,6 @@
     "135024",
     "https://github.com/pytorch/pytorch/issues/135024",
     [
-      "linux"
-    ]
-  ],
-  "test_streaming_backwards_sync (__main__.TestCuda)": [
-    "103494",
-    "https://github.com/pytorch/pytorch/issues/103494",
-    [
-      "rocm",
       "linux"
     ]
   ],
