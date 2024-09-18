@@ -2144,6 +2144,18 @@
       "windows"
     ]
   ],
+  "test_device_mode_ops_sparse_mm_reduce_cpu_float32 (__main__.TestDeviceUtilsCPU)": [
+    "132552",
+    "https://github.com/pytorch/pytorch/issues/132552",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "win",
+      "windows"
+    ]
+  ],
   "test_device_mode_ops_sparse_mm_reduce_cpu_float64 (__main__.TestDeviceUtilsCPU)": [
     "132619",
     "https://github.com/pytorch/pytorch/issues/132619",
@@ -2322,13 +2334,6 @@
     "https://github.com/pytorch/pytorch/issues/123536",
     [
       "dynamo"
-    ]
-  ],
-  "test_export_predispatch_custom_ops_warnings_non_strict (__main__.NonStrictExportTestExport)": [
-    "135063",
-    "https://github.com/pytorch/pytorch/issues/135063",
-    [
-      "linux"
     ]
   ],
   "test_extract_gradients_from_optimizer_set_to_none (__main__.TestIdentifyGradients)": [
@@ -4388,13 +4393,6 @@
       "linux"
     ]
   ],
-  "test_serialization_array_with_storage (__main__.TestCuda)": [
-    "134991",
-    "https://github.com/pytorch/pytorch/issues/134991",
-    [
-      "linux"
-    ]
-  ],
   "test_serialization_parametrization_swap_True (__main__.TestNNParametrization)": [
     "127755",
     "https://github.com/pytorch/pytorch/issues/127755",
@@ -4534,9 +4532,9 @@
       "rocm"
     ]
   ],
-  "test_streaming_backwards_multiple_streams (__main__.TestCuda)": [
-    "135065",
-    "https://github.com/pytorch/pytorch/issues/135065",
+  "test_streaming_backwards_callback (__main__.TestCuda)": [
+    "135024",
+    "https://github.com/pytorch/pytorch/issues/135024",
     [
       "linux"
     ]
