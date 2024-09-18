@@ -2174,6 +2174,14 @@
       "linux"
     ]
   ],
+  "test_device_mode_ops_sparse_sampled_addmm_cpu_float64 (__main__.TestDeviceUtilsCPU)": [
+    "132737",
+    "https://github.com/pytorch/pytorch/issues/132737",
+    [
+      "asan",
+      "linux"
+    ]
+  ],
   "test_disable_compiling_hooks (__main__.TestFullyShardCompileCompute)": [
     "134138",
     "https://github.com/pytorch/pytorch/issues/134138",
@@ -4385,13 +4393,6 @@
       "linux"
     ]
   ],
-  "test_set_per_process_memory_fraction (__main__.TestCuda)": [
-    "135115",
-    "https://github.com/pytorch/pytorch/issues/135115",
-    [
-      "linux"
-    ]
-  ],
   "test_shufflenet_v2 (__main__.TORCH_NN_MODULE)": [
     "123295",
     "https://github.com/pytorch/pytorch/issues/123295",
@@ -4500,10 +4501,11 @@
       "linux"
     ]
   ],
-  "test_streams (__main__.TestCuda)": [
-    "135114",
-    "https://github.com/pytorch/pytorch/issues/135114",
+  "test_streaming_backwards_sync (__main__.TestCuda)": [
+    "103494",
+    "https://github.com/pytorch/pytorch/issues/103494",
     [
+      "rocm",
       "linux"
     ]
   ],
