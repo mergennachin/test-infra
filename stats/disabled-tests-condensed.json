@@ -4336,13 +4336,6 @@
       "dynamo"
     ]
   ],
-  "test_segfault (__main__.TestDataLoader)": [
-    "128551",
-    "https://github.com/pytorch/pytorch/issues/128551",
-    [
-      "linux"
-    ]
-  ],
   "test_send_recv_all_to_all (__main__.ProcessGroupGlooTest)": [
     "71195",
     "https://github.com/pytorch/pytorch/issues/71195",
