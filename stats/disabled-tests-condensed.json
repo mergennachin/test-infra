@@ -145,27 +145,6 @@
       "linux"
     ]
   ],
-  "test_aoti_eager_dtype_device_layout_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
-    "135247",
-    "https://github.com/pytorch/pytorch/issues/135247",
-    [
-      "linux"
-    ]
-  ],
-  "test_aoti_eager_dtype_device_layout_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "135251",
-    "https://github.com/pytorch/pytorch/issues/135251",
-    [
-      "linux"
-    ]
-  ],
-  "test_aoti_eager_support_out_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "135252",
-    "https://github.com/pytorch/pytorch/issues/135252",
-    [
-      "linux"
-    ]
-  ],
   "test_assigning_back_deleter_fns_to_tensor (__main__.TestBlockStateAbsorption)": [
     "134810",
     "https://github.com/pytorch/pytorch/issues/134810",
@@ -2168,6 +2147,14 @@
       "linux"
     ]
   ],
+  "test_device_mode_ops_sparse_sampled_addmm_cpu_float32 (__main__.TestDeviceUtilsCPU)": [
+    "132720",
+    "https://github.com/pytorch/pytorch/issues/132720",
+    [
+      "asan",
+      "linux"
+    ]
+  ],
   "test_device_mode_ops_sparse_sampled_addmm_cpu_float64 (__main__.TestDeviceUtilsCPU)": [
     "132737",
     "https://github.com/pytorch/pytorch/issues/132737",
@@ -2277,23 +2264,9 @@
       "linux"
     ]
   ],
-  "test_embedding_cpu (__main__.CpuTests)": [
-    "135253",
-    "https://github.com/pytorch/pytorch/issues/135253",
-    [
-      "linux"
-    ]
-  ],
   "test_embedding_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
     "135456",
     "https://github.com/pytorch/pytorch/issues/135456",
-    [
-      "linux"
-    ]
-  ],
-  "test_embedding_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "135250",
-    "https://github.com/pytorch/pytorch/issues/135250",
     [
       "linux"
     ]
@@ -3334,6 +3307,13 @@
     "https://github.com/pytorch/pytorch/issues/115859",
     [
       "rocm"
+    ]
+  ],
+  "test_is_isnot (__main__.TestScript)": [
+    "120694",
+    "https://github.com/pytorch/pytorch/issues/120694",
+    [
+      "dynamo"
     ]
   ],
   "test_item_to_inputs_kernel_nobreak_cuda (__main__.TestInductorDynamicCUDA)": [
@@ -4552,6 +4532,14 @@
       "linux"
     ]
   ],
+  "test_sum_fp16 (__main__.TestCuda)": [
+    "99953",
+    "https://github.com/pytorch/pytorch/issues/99953",
+    [
+      "rocm",
+      "linux"
+    ]
+  ],
   "test_switch_inputs_to_inplace (jit.test_freezing.TestMKLDNNReinplacing)": [
     "91488",
     "https://github.com/pytorch/pytorch/issues/91488",
@@ -4595,6 +4583,13 @@
     "https://github.com/pytorch/pytorch/issues/94897",
     [
       "rocm",
+      "linux"
+    ]
+  ],
+  "test_tmp_not_defined_issue2_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
+    "135212",
+    "https://github.com/pytorch/pytorch/issues/135212",
+    [
       "linux"
     ]
   ],
