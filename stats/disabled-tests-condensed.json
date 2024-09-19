@@ -117,6 +117,15 @@
       "slow"
     ]
   ],
+  "test_aot_export_while_loop_simple_cuda_float32 (__main__.TestHOPCUDA)": [
+    "123948",
+    "https://github.com/pytorch/pytorch/issues/123948",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_aot_module_simplified_fake_tensor_gm_raises (__main__.TestAOTModuleSimplified)": [
     "124590",
     "https://github.com/pytorch/pytorch/issues/124590",
@@ -128,13 +137,6 @@
     "106440",
     "https://github.com/pytorch/pytorch/issues/106440",
     []
-  ],
-  "test_aoti_eager_cache_hit_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
-    "135211",
-    "https://github.com/pytorch/pytorch/issues/135211",
-    [
-      "linux"
-    ]
   ],
   "test_aoti_eager_cache_hit_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
     "135220",
@@ -2114,6 +2116,18 @@
       "windows"
     ]
   ],
+  "test_device_mode_ops_sparse_mm_reduce_cpu_float16 (__main__.TestDeviceUtilsCPU)": [
+    "133827",
+    "https://github.com/pytorch/pytorch/issues/133827",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "win",
+      "windows"
+    ]
+  ],
   "test_device_mode_ops_sparse_mm_reduce_cpu_float32 (__main__.TestDeviceUtilsCPU)": [
     "132552",
     "https://github.com/pytorch/pytorch/issues/132552",
@@ -2149,14 +2163,6 @@
   "test_device_mode_ops_sparse_sampled_addmm_cpu_complex64 (__main__.TestDeviceUtilsCPU)": [
     "132686",
     "https://github.com/pytorch/pytorch/issues/132686",
-    [
-      "asan",
-      "linux"
-    ]
-  ],
-  "test_device_mode_ops_sparse_sampled_addmm_cpu_float32 (__main__.TestDeviceUtilsCPU)": [
-    "132720",
-    "https://github.com/pytorch/pytorch/issues/132720",
     [
       "asan",
       "linux"
@@ -2238,13 +2244,6 @@
   "test_dtensor_op_db_nn_functional_multi_head_attention_forward_cpu_float32 (__main__.TestDTensorOpsCPU)": [
     "123294",
     "https://github.com/pytorch/pytorch/issues/123294",
-    [
-      "linux"
-    ]
-  ],
-  "test_dtype_sympy_expr_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
-    "135213",
-    "https://github.com/pytorch/pytorch/issues/135213",
     [
       "linux"
     ]
@@ -3883,6 +3882,15 @@
       "rocm"
     ]
   ],
+  "test_pre_dispatch_export_while_loop_simple_cuda_float32 (__main__.TestHOPCUDA)": [
+    "123943",
+    "https://github.com/pytorch/pytorch/issues/123943",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_precompilations (__main__.TestMaxAutotune)": [
     "124265",
     "https://github.com/pytorch/pytorch/issues/124265",
@@ -4125,6 +4133,15 @@
       "slow"
     ]
   ],
+  "test_retrace_export_while_loop_simple_cuda_float32 (__main__.TestHOPCUDA)": [
+    "123944",
+    "https://github.com/pytorch/pytorch/issues/123944",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_retracibility_dynamic_shapes (__main__.DynamicShapesExportTests)": [
     "117914",
     "https://github.com/pytorch/pytorch/issues/117914",
@@ -4360,6 +4377,15 @@
       "slow"
     ]
   ],
+  "test_serialize_export_while_loop_simple_cuda_float32 (__main__.TestHOPCUDA)": [
+    "123946",
+    "https://github.com/pytorch/pytorch/issues/123946",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_serialized_patterns_up_to_date (__main__.TestPatternMatcher)": [
     "135476",
     "https://github.com/pytorch/pytorch/issues/135476",
@@ -4370,6 +4396,13 @@
   "test_set_gloo_pg_timeout (__main__.ProcessGroupGlooTest)": [
     "115740",
     "https://github.com/pytorch/pytorch/issues/115740",
+    [
+      "linux"
+    ]
+  ],
+  "test_set_per_process_memory_fraction (__main__.TestCuda)": [
+    "135115",
+    "https://github.com/pytorch/pytorch/issues/135115",
     [
       "linux"
     ]
@@ -4519,14 +4552,6 @@
       "linux"
     ]
   ],
-  "test_sum_fp16 (__main__.TestCuda)": [
-    "99953",
-    "https://github.com/pytorch/pytorch/issues/99953",
-    [
-      "rocm",
-      "linux"
-    ]
-  ],
   "test_switch_inputs_to_inplace (jit.test_freezing.TestMKLDNNReinplacing)": [
     "91488",
     "https://github.com/pytorch/pytorch/issues/91488",
@@ -4563,13 +4588,6 @@
     "https://github.com/pytorch/pytorch/issues/70546",
     [
       "mac"
-    ]
-  ],
-  "test_tmp_not_defined_issue2_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
-    "135212",
-    "https://github.com/pytorch/pytorch/issues/135212",
-    [
-      "linux"
     ]
   ],
   "test_tmp_not_defined_issue2_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
