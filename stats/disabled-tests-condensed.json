@@ -4590,6 +4590,14 @@
       "mac"
     ]
   ],
+  "test_tiny_half_norm_ (__main__.TestCuda)": [
+    "94897",
+    "https://github.com/pytorch/pytorch/issues/94897",
+    [
+      "rocm",
+      "linux"
+    ]
+  ],
   "test_tmp_not_defined_issue2_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
     "135219",
     "https://github.com/pytorch/pytorch/issues/135219",
