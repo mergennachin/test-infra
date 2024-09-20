@@ -456,13 +456,6 @@
       "macos"
     ]
   ],
-  "test_check_stack_no_cycles_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
-    "135348",
-    "https://github.com/pytorch/pytorch/issues/135348",
-    [
-      "linux"
-    ]
-  ],
   "test_checkpoint_trigger (__main__.TestCheckpoint)": [
     "97402",
     "https://github.com/pytorch/pytorch/issues/97402",
@@ -1851,13 +1844,6 @@
       "rocm"
     ]
   ],
-  "test_conv3d_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "135349",
-    "https://github.com/pytorch/pytorch/issues/135349",
-    [
-      "linux"
-    ]
-  ],
   "test_conv_stride_constraints (__main__.CPUReproTests)": [
     "107774",
     "https://github.com/pytorch/pytorch/issues/107774",
@@ -1884,13 +1870,6 @@
     "https://github.com/pytorch/pytorch/issues/107893",
     [
       "rocm"
-    ]
-  ],
-  "test_conv_with_as_strided_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "135350",
-    "https://github.com/pytorch/pytorch/issues/135350",
-    [
-      "linux"
     ]
   ],
   "test_conv_with_as_strided_dynamic_shapes_cuda (__main__.DynamicShapesCudaTests)": [
@@ -4025,15 +4004,6 @@
       "linux"
     ]
   ],
-  "test_retrace_export_auto_functionalize_simple_cuda_float32 (__main__.TestHOPCUDA)": [
-    "123449",
-    "https://github.com/pytorch/pytorch/issues/123449",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_retrace_export_while_loop_simple_cuda_float32 (__main__.TestHOPCUDA)": [
     "123944",
     "https://github.com/pytorch/pytorch/issues/123944",
@@ -4268,14 +4238,6 @@
     "https://github.com/pytorch/pytorch/issues/127755",
     [
       "dynamo"
-    ]
-  ],
-  "test_serialize_export_auto_functionalize_simple_cuda_float32 (__main__.TestHOPCUDA)": [
-    "123563",
-    "https://github.com/pytorch/pytorch/issues/123563",
-    [
-      "linux",
-      "slow"
     ]
   ],
   "test_serialize_export_while_loop_simple_cuda_float32 (__main__.TestHOPCUDA)": [
