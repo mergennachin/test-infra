@@ -3119,6 +3119,13 @@
       "linux"
     ]
   ],
+  "test_graph_grad_scaling_foreach_False_fused_True_SGD_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
+    "136372",
+    "https://github.com/pytorch/pytorch/issues/136372",
+    [
+      "linux"
+    ]
+  ],
   "test_homogeneous_attributes (__main__.TestFSDPMiscMultiThread)": [
     "105024",
     "https://github.com/pytorch/pytorch/issues/105024",
