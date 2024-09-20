@@ -3879,13 +3879,6 @@
       "linux"
     ]
   ],
-  "test_profile_memory (__main__.CppThreadTest)": [
-    "132331",
-    "https://github.com/pytorch/pytorch/issues/132331",
-    [
-      "linux"
-    ]
-  ],
   "test_profiler (__main__.TestJit)": [
     "65521",
     "https://github.com/pytorch/pytorch/issues/65521",
