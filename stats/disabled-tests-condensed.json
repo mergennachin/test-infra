@@ -376,13 +376,6 @@
       "linux"
     ]
   ],
-  "test_batch_norm_2d_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "135291",
-    "https://github.com/pytorch/pytorch/issues/135291",
-    [
-      "linux"
-    ]
-  ],
   "test_bitwise_cuda_cuda_wrapper (__main__.TestCudaWrapper)": [
     "121511",
     "https://github.com/pytorch/pytorch/issues/121511",
@@ -400,13 +393,6 @@
   "test_buffer_copied_in_graph_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
     "135326",
     "https://github.com/pytorch/pytorch/issues/135326",
-    [
-      "linux"
-    ]
-  ],
-  "test_buffer_use_after_remove_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "135293",
-    "https://github.com/pytorch/pytorch/issues/135293",
     [
       "linux"
     ]
@@ -2203,13 +2189,6 @@
   "test_dropout2_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
     "135221",
     "https://github.com/pytorch/pytorch/issues/135221",
-    [
-      "linux"
-    ]
-  ],
-  "test_dropout3_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "135270",
-    "https://github.com/pytorch/pytorch/issues/135270",
     [
       "linux"
     ]
