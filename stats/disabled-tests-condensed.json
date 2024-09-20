@@ -2130,13 +2130,6 @@
       "linux"
     ]
   ],
-  "test_dropout2_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "135221",
-    "https://github.com/pytorch/pytorch/issues/135221",
-    [
-      "linux"
-    ]
-  ],
   "test_dtensor_op_db_bmm_cpu_float32 (__main__.TestDTensorOpsCPU)": [
     "127373",
     "https://github.com/pytorch/pytorch/issues/127373",
