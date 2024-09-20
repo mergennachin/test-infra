@@ -2236,6 +2236,13 @@
       "linux"
     ]
   ],
+  "test_embedding_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "135250",
+    "https://github.com/pytorch/pytorch/issues/135250",
+    [
+      "linux"
+    ]
+  ],
   "test_execution_trace_with_kineto (__main__.TestExecutionTrace)": [
     "123536",
     "https://github.com/pytorch/pytorch/issues/123536",
@@ -2947,13 +2954,6 @@
       "rocm"
     ]
   ],
-  "test_flip_cat_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "135310",
-    "https://github.com/pytorch/pytorch/issues/135310",
-    [
-      "linux"
-    ]
-  ],
   "test_fn_grad_grid_sampler_2d_cuda_float64 (__main__.TestBwdGradientsCUDA)": [
     "131079",
     "https://github.com/pytorch/pytorch/issues/131079",
@@ -3150,6 +3150,13 @@
   "test_graph_grad_scaling_foreach_False_fused_True_AdamW_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
     "136230",
     "https://github.com/pytorch/pytorch/issues/136230",
+    [
+      "linux"
+    ]
+  ],
+  "test_graph_grad_scaling_foreach_False_fused_True_Adam_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
+    "136352",
+    "https://github.com/pytorch/pytorch/issues/136352",
     [
       "linux"
     ]
