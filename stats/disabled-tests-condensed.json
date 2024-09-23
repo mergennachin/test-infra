@@ -1663,14 +1663,6 @@
       "macos"
     ]
   ],
-  "test_comprehensive_tile_cpu_bool (__main__.TestInductorOpInfoCPU)": [
-    "135451",
-    "https://github.com/pytorch/pytorch/issues/135451",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_comprehensive_transpose_copy_cpu_bool (__main__.TestInductorOpInfoCPU)": [
     "135782",
     "https://github.com/pytorch/pytorch/issues/135782",
@@ -2120,9 +2112,9 @@
       "rocm"
     ]
   ],
-  "test_embedding_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
-    "135456",
-    "https://github.com/pytorch/pytorch/issues/135456",
+  "test_embedding_bag_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "135215",
+    "https://github.com/pytorch/pytorch/issues/135215",
     [
       "linux"
     ]
@@ -3062,6 +3054,13 @@
   "test_graph_grad_scaling_foreach_True_fused_False_AdamW_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
     "136411",
     "https://github.com/pytorch/pytorch/issues/136411",
+    [
+      "linux"
+    ]
+  ],
+  "test_graph_grad_scaling_foreach_True_fused_False_Adam_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
+    "136417",
+    "https://github.com/pytorch/pytorch/issues/136417",
     [
       "linux"
     ]
