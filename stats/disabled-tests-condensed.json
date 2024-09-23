@@ -1471,14 +1471,6 @@
       "inductor"
     ]
   ],
-  "test_comprehensive_special_chebyshev_polynomial_u_cpu_int32 (__main__.TestInductorOpInfoCPU)": [
-    "135477",
-    "https://github.com/pytorch/pytorch/issues/135477",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_comprehensive_special_hermite_polynomial_h_cpu_int32 (__main__.TestInductorOpInfoCPU)": [
     "135677",
     "https://github.com/pytorch/pytorch/issues/135677",
@@ -1631,14 +1623,6 @@
       "macos"
     ]
   ],
-  "test_comprehensive_std_mean_cpu_float16 (__main__.TestInductorOpInfoCPU)": [
-    "135474",
-    "https://github.com/pytorch/pytorch/issues/135474",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_comprehensive_sub_cpu_float64 (__main__.TestInductorOpInfoCPU)": [
     "135538",
     "https://github.com/pytorch/pytorch/issues/135538",
@@ -1679,25 +1663,9 @@
       "macos"
     ]
   ],
-  "test_comprehensive_tril_cpu_int32 (__main__.TestInductorOpInfoCPU)": [
-    "135479",
-    "https://github.com/pytorch/pytorch/issues/135479",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_comprehensive_triu_cpu_float16 (__main__.TestInductorOpInfoCPU)": [
     "135737",
     "https://github.com/pytorch/pytorch/issues/135737",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_comprehensive_true_divide_cpu_float64 (__main__.TestInductorOpInfoCPU)": [
-    "135475",
-    "https://github.com/pytorch/pytorch/issues/135475",
     [
       "mac",
       "macos"
@@ -2129,6 +2097,13 @@
   "test_embedding_bag_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
     "135215",
     "https://github.com/pytorch/pytorch/issues/135215",
+    [
+      "linux"
+    ]
+  ],
+  "test_embedding_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
+    "135456",
+    "https://github.com/pytorch/pytorch/issues/135456",
     [
       "linux"
     ]
@@ -3646,20 +3621,6 @@
   "test_output_match_nn_functional_poisson_nll_loss_cpu_int32 (__main__.TORCH_NN_MODULECPU)": [
     "122389",
     "https://github.com/pytorch/pytorch/issues/122389",
-    [
-      "linux"
-    ]
-  ],
-  "test_pattern_matcher_multi_user_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
-    "134432",
-    "https://github.com/pytorch/pytorch/issues/134432",
-    [
-      "linux"
-    ]
-  ],
-  "test_pattern_matcher_multi_user_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "134433",
-    "https://github.com/pytorch/pytorch/issues/134433",
     [
       "linux"
     ]
