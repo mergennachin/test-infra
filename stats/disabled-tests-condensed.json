@@ -1743,6 +1743,14 @@
       "macos"
     ]
   ],
+  "test_consecutive_compiles_abi_compatible_cpu_with_stack_allocation_and_minimal_arrayref_interface (__main__.AOTInductorTestABICompatibleCpuWithStackAllocationAndMinimalArrayRefInterface)": [
+    "136469",
+    "https://github.com/pytorch/pytorch/issues/136469",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_conv (quantization.jit.test_quantize_jit.TestQuantizeJit)": [
     "105125",
     "https://github.com/pytorch/pytorch/issues/105125",
@@ -2046,6 +2054,13 @@
   "test_dropout2_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
     "135221",
     "https://github.com/pytorch/pytorch/issues/135221",
+    [
+      "linux"
+    ]
+  ],
+  "test_dropout3_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "135270",
+    "https://github.com/pytorch/pytorch/issues/135270",
     [
       "linux"
     ]
@@ -3056,6 +3071,13 @@
   "test_graph_grad_scaling_foreach_True_fused_False_SGD_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
     "136437",
     "https://github.com/pytorch/pytorch/issues/136437",
+    [
+      "linux"
+    ]
+  ],
+  "test_graph_optims_ASGD_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
+    "136468",
+    "https://github.com/pytorch/pytorch/issues/136468",
     [
       "linux"
     ]
