@@ -138,13 +138,6 @@
     "https://github.com/pytorch/pytorch/issues/106440",
     []
   ],
-  "test_aoti_eager_cache_hit_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "135220",
-    "https://github.com/pytorch/pytorch/issues/135220",
-    [
-      "linux"
-    ]
-  ],
   "test_assigning_back_deleter_fns_to_tensor (__main__.TestBlockStateAbsorption)": [
     "134810",
     "https://github.com/pytorch/pytorch/issues/134810",
@@ -1391,14 +1384,6 @@
       "macos"
     ]
   ],
-  "test_comprehensive_signal_windows_hamming_cpu_float64 (__main__.TestInductorOpInfoCPU)": [
-    "135450",
-    "https://github.com/pytorch/pytorch/issues/135450",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_comprehensive_signal_windows_nuttall_cpu_float32 (__main__.TestInductorOpInfoCPU)": [
     "135675",
     "https://github.com/pytorch/pytorch/issues/135675",
@@ -1574,14 +1559,6 @@
       "macos"
     ]
   ],
-  "test_comprehensive_special_polygamma_special_polygamma_n_0_cpu_float32 (__main__.TestInductorOpInfoCPU)": [
-    "135452",
-    "https://github.com/pytorch/pytorch/issues/135452",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_comprehensive_special_scaled_modified_bessel_k0_cpu_float64 (__main__.TestInductorOpInfoCPU)": [
     "135801",
     "https://github.com/pytorch/pytorch/issues/135801",
@@ -1633,14 +1610,6 @@
   "test_comprehensive_special_xlog1py_cpu_float32 (__main__.TestInductorOpInfoCPU)": [
     "135895",
     "https://github.com/pytorch/pytorch/issues/135895",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_comprehensive_special_zeta_cpu_float32 (__main__.TestInductorOpInfoCPU)": [
-    "135453",
-    "https://github.com/pytorch/pytorch/issues/135453",
     [
       "mac",
       "macos"
@@ -1753,14 +1722,6 @@
   "test_comprehensive_unfold_copy_cpu_float32 (__main__.TestInductorOpInfoCPU)": [
     "135565",
     "https://github.com/pytorch/pytorch/issues/135565",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_comprehensive_unfold_copy_cpu_int64 (__main__.TestInductorOpInfoCPU)": [
-    "135454",
-    "https://github.com/pytorch/pytorch/issues/135454",
     [
       "mac",
       "macos"
@@ -2123,13 +2084,6 @@
       "linux"
     ]
   ],
-  "test_dropout2_cpu (__main__.CpuTests)": [
-    "135216",
-    "https://github.com/pytorch/pytorch/issues/135216",
-    [
-      "linux"
-    ]
-  ],
   "test_dtensor_op_db_bmm_cpu_float32 (__main__.TestDTensorOpsCPU)": [
     "127373",
     "https://github.com/pytorch/pytorch/issues/127373",
@@ -2164,13 +2118,6 @@
     [
       "windows",
       "rocm"
-    ]
-  ],
-  "test_embedding_bag_cpu (__main__.CpuTests)": [
-    "135457",
-    "https://github.com/pytorch/pytorch/issues/135457",
-    [
-      "linux"
     ]
   ],
   "test_embedding_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
@@ -3810,13 +3757,6 @@
     "https://github.com/pytorch/pytorch/issues/106027",
     [
       "rocm"
-    ]
-  ],
-  "test_profiler_mark_wrapper_call_cpu (__main__.CpuTests)": [
-    "135217",
-    "https://github.com/pytorch/pytorch/issues/135217",
-    [
-      "linux"
     ]
   ],
   "test_profiler_mark_wrapper_call_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
