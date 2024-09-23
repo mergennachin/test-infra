@@ -3054,6 +3054,13 @@
       "linux"
     ]
   ],
+  "test_graph_grad_scaling_foreach_True_fused_False_SGD_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
+    "136437",
+    "https://github.com/pytorch/pytorch/issues/136437",
+    [
+      "linux"
+    ]
+  ],
   "test_homogeneous_attributes (__main__.TestFSDPMiscMultiThread)": [
     "105024",
     "https://github.com/pytorch/pytorch/issues/105024",
@@ -3733,6 +3740,13 @@
       "rocm"
     ]
   ],
+  "test_profiler_mark_wrapper_call_cpu (__main__.CpuTests)": [
+    "135217",
+    "https://github.com/pytorch/pytorch/issues/135217",
+    [
+      "linux"
+    ]
+  ],
   "test_profiler_mark_wrapper_call_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
     "135294",
     "https://github.com/pytorch/pytorch/issues/135294",
@@ -3902,6 +3916,15 @@
     "https://github.com/pytorch/pytorch/issues/122491",
     [
       "linux"
+    ]
+  ],
+  "test_retrace_export_auto_functionalize_simple_cuda_float32 (__main__.TestHOPCUDA)": [
+    "123449",
+    "https://github.com/pytorch/pytorch/issues/123449",
+    [
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_retrace_export_while_loop_simple_cuda_float32 (__main__.TestHOPCUDA)": [
@@ -4139,6 +4162,15 @@
     "https://github.com/pytorch/pytorch/issues/127755",
     [
       "dynamo"
+    ]
+  ],
+  "test_serialize_export_auto_functionalize_simple_cuda_float32 (__main__.TestHOPCUDA)": [
+    "123563",
+    "https://github.com/pytorch/pytorch/issues/123563",
+    [
+      "linux",
+      "slow",
+      "rocm"
     ]
   ],
   "test_serialize_export_while_loop_simple_cuda_float32 (__main__.TestHOPCUDA)": [
