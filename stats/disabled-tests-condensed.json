@@ -2173,13 +2173,6 @@
       "linux"
     ]
   ],
-  "test_embedding_bag_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "135215",
-    "https://github.com/pytorch/pytorch/issues/135215",
-    [
-      "linux"
-    ]
-  ],
   "test_embedding_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
     "135456",
     "https://github.com/pytorch/pytorch/issues/135456",
@@ -3119,6 +3112,13 @@
       "linux"
     ]
   ],
+  "test_graph_grad_scaling_foreach_True_fused_False_AdamW_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
+    "136411",
+    "https://github.com/pytorch/pytorch/issues/136411",
+    [
+      "linux"
+    ]
+  ],
   "test_homogeneous_attributes (__main__.TestFSDPMiscMultiThread)": [
     "105024",
     "https://github.com/pytorch/pytorch/issues/105024",
@@ -3297,13 +3297,6 @@
     [
       "macos",
       "mac"
-    ]
-  ],
-  "test_linalg_lu_family_cuda_float64 (__main__.TestLinalgCUDA)": [
-    "131930",
-    "https://github.com/pytorch/pytorch/issues/131930",
-    [
-      "linux"
     ]
   ],
   "test_load_from_bias_head_seq_batch_float16 (__main__.TestFlexDecoding)": [
@@ -3535,13 +3528,6 @@
   "test_mnist (__main__.TORCH_NN_MODULE)": [
     "123254",
     "https://github.com/pytorch/pytorch/issues/123254",
-    [
-      "linux"
-    ]
-  ],
-  "test_mnist_exported_with_no_warnings_optional_inputs (__main__.TestFxToOnnx)": [
-    "131137",
-    "https://github.com/pytorch/pytorch/issues/131137",
     [
       "linux"
     ]
@@ -4034,13 +4020,6 @@
       "linux"
     ]
   ],
-  "test_save_with_without_initializer_include_initializer_no_fake_mode_no_exported_program (__main__.TestFxToOnnx)": [
-    "131423",
-    "https://github.com/pytorch/pytorch/issues/131423",
-    [
-      "linux"
-    ]
-  ],
   "test_scaled_dot_product_attention_3D_input_dim_no_attn_mask_dropout_p_0_0_cuda (__main__.TestTransformersCUDA)": [
     "131086",
     "https://github.com/pytorch/pytorch/issues/131086",
@@ -4472,13 +4451,6 @@
   "test_tmp_not_defined_issue2_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
     "135212",
     "https://github.com/pytorch/pytorch/issues/135212",
-    [
-      "linux"
-    ]
-  ],
-  "test_tmp_not_defined_issue2_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "135219",
-    "https://github.com/pytorch/pytorch/issues/135219",
     [
       "linux"
     ]
