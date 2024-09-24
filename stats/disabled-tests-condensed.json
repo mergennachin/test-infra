@@ -1607,14 +1607,6 @@
       "macos"
     ]
   ],
-  "test_comprehensive_sum_to_size_cpu_float16 (__main__.TestInductorOpInfoCPU)": [
-    "135564",
-    "https://github.com/pytorch/pytorch/issues/135564",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_comprehensive_t_copy_cpu_bool (__main__.TestInductorOpInfoCPU)": [
     "135665",
     "https://github.com/pytorch/pytorch/issues/135665",
@@ -1642,14 +1634,6 @@
   "test_comprehensive_triu_cpu_float16 (__main__.TestInductorOpInfoCPU)": [
     "135737",
     "https://github.com/pytorch/pytorch/issues/135737",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_comprehensive_unfold_copy_cpu_float32 (__main__.TestInductorOpInfoCPU)": [
-    "135565",
-    "https://github.com/pytorch/pytorch/issues/135565",
     [
       "mac",
       "macos"
@@ -3054,6 +3038,13 @@
   "test_graph_optims_ASGD_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
     "136468",
     "https://github.com/pytorch/pytorch/issues/136468",
+    [
+      "linux"
+    ]
+  ],
+  "test_graph_optims_Adadelta_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
+    "136506",
+    "https://github.com/pytorch/pytorch/issues/136506",
     [
       "linux"
     ]
