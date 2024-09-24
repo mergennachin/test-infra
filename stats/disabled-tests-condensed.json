@@ -3061,6 +3061,13 @@
       "linux"
     ]
   ],
+  "test_graph_optims_Adam_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
+    "136537",
+    "https://github.com/pytorch/pytorch/issues/136537",
+    [
+      "linux"
+    ]
+  ],
   "test_homogeneous_attributes (__main__.TestFSDPMiscMultiThread)": [
     "105024",
     "https://github.com/pytorch/pytorch/issues/105024",
@@ -3644,6 +3651,13 @@
   "test_output_match_nn_functional_poisson_nll_loss_cpu_int32 (__main__.TORCH_NN_MODULECPU)": [
     "122389",
     "https://github.com/pytorch/pytorch/issues/122389",
+    [
+      "linux"
+    ]
+  ],
+  "test_pattern_matcher_multi_user_cpu (__main__.CpuTests)": [
+    "135296",
+    "https://github.com/pytorch/pytorch/issues/135296",
     [
       "linux"
     ]
