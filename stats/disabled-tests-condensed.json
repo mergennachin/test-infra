@@ -1551,6 +1551,13 @@
       "macos"
     ]
   ],
+  "test_comprehensive_special_scaled_modified_bessel_k0_cuda_int32 (__main__.TestInductorOpInfoCUDA)": [
+    "136520",
+    "https://github.com/pytorch/pytorch/issues/136520",
+    [
+      "rocm"
+    ]
+  ],
   "test_comprehensive_special_scaled_modified_bessel_k1_cpu_bool (__main__.TestInductorOpInfoCPU)": [
     "135941",
     "https://github.com/pytorch/pytorch/issues/135941",
@@ -1666,14 +1673,6 @@
   "test_comprehensive_xlogy_cpu_bool (__main__.TestInductorOpInfoCPU)": [
     "135674",
     "https://github.com/pytorch/pytorch/issues/135674",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_comprehensive_zero__cpu_int64 (__main__.TestInductorOpInfoCPU)": [
-    "135577",
-    "https://github.com/pytorch/pytorch/issues/135577",
     [
       "mac",
       "macos"
@@ -2070,6 +2069,13 @@
   "test_embedding_bag_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
     "135215",
     "https://github.com/pytorch/pytorch/issues/135215",
+    [
+      "linux"
+    ]
+  ],
+  "test_embedding_cpu (__main__.CpuTests)": [
+    "135253",
+    "https://github.com/pytorch/pytorch/issues/135253",
     [
       "linux"
     ]
@@ -3048,6 +3054,13 @@
       "linux"
     ]
   ],
+  "test_graph_optims_AdamW_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
+    "136521",
+    "https://github.com/pytorch/pytorch/issues/136521",
+    [
+      "linux"
+    ]
+  ],
   "test_homogeneous_attributes (__main__.TestFSDPMiscMultiThread)": [
     "105024",
     "https://github.com/pytorch/pytorch/issues/105024",
@@ -3173,6 +3186,15 @@
     "https://github.com/pytorch/pytorch/issues/120694",
     [
       "dynamo"
+    ]
+  ],
+  "test_item_to_inputs_kernel_nobreak_cuda (__main__.TestInductorDynamicCUDA)": [
+    "119538",
+    "https://github.com/pytorch/pytorch/issues/119538",
+    [
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_jvpvjp_nn_functional_conv3d_cuda_float32 (__main__.TestOperatorsCUDA)": [
@@ -4647,13 +4669,6 @@
   "test_variant_consistency_jit_linalg_lu_factor_ex_cuda_complex64 (__main__.TestJitCUDA)": [
     "86887",
     "https://github.com/pytorch/pytorch/issues/86887",
-    [
-      "linux"
-    ]
-  ],
-  "test_vdd_clamp_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
-    "134446",
-    "https://github.com/pytorch/pytorch/issues/134446",
     [
       "linux"
     ]
