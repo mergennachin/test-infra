@@ -1567,14 +1567,6 @@
       "macos"
     ]
   ],
-  "test_comprehensive_special_scaled_modified_bessel_k1_cpu_int32 (__main__.TestInductorOpInfoCPU)": [
-    "135566",
-    "https://github.com/pytorch/pytorch/issues/135566",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_comprehensive_special_spherical_bessel_j0_cpu_int64 (__main__.TestInductorOpInfoCPU)": [
     "135982",
     "https://github.com/pytorch/pytorch/issues/135982",
@@ -2042,6 +2034,13 @@
   "test_dtensor_op_db_nn_functional_multi_head_attention_forward_cpu_float32 (__main__.TestDTensorOpsCPU)": [
     "123294",
     "https://github.com/pytorch/pytorch/issues/123294",
+    [
+      "linux"
+    ]
+  ],
+  "test_dtype_sympy_expr_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "136515",
+    "https://github.com/pytorch/pytorch/issues/136515",
     [
       "linux"
     ]
@@ -3404,6 +3403,13 @@
     "https://github.com/pytorch/pytorch/issues/95172",
     [
       "rocm"
+    ]
+  ],
+  "test_memory_stats_multigpu (__main__.TestCudaMultiGPU)": [
+    "129860",
+    "https://github.com/pytorch/pytorch/issues/129860",
+    [
+      "linux"
     ]
   ],
   "test_merge_liveness (jit.test_freezing.TestMKLDNNReinplacing)": [
