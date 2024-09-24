@@ -1487,14 +1487,6 @@
       "macos"
     ]
   ],
-  "test_comprehensive_special_hermite_polynomial_he_cpu_int64 (__main__.TestInductorOpInfoCPU)": [
-    "135537",
-    "https://github.com/pytorch/pytorch/issues/135537",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_comprehensive_special_modified_bessel_i0_cpu_float64 (__main__.TestInductorOpInfoCPU)": [
     "135743",
     "https://github.com/pytorch/pytorch/issues/135743",
@@ -1615,14 +1607,6 @@
       "macos"
     ]
   ],
-  "test_comprehensive_sub_cpu_float64 (__main__.TestInductorOpInfoCPU)": [
-    "135538",
-    "https://github.com/pytorch/pytorch/issues/135538",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_comprehensive_sum_to_size_cpu_float16 (__main__.TestInductorOpInfoCPU)": [
     "135564",
     "https://github.com/pytorch/pytorch/issues/135564",
@@ -1658,14 +1642,6 @@
   "test_comprehensive_triu_cpu_float16 (__main__.TestInductorOpInfoCPU)": [
     "135737",
     "https://github.com/pytorch/pytorch/issues/135737",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_comprehensive_unfold_copy_cpu_bool (__main__.TestInductorOpInfoCPU)": [
-    "135539",
-    "https://github.com/pytorch/pytorch/issues/135539",
     [
       "mac",
       "macos"
@@ -4681,6 +4657,13 @@
   "test_vdd_clamp_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
     "134446",
     "https://github.com/pytorch/pytorch/issues/134446",
+    [
+      "linux"
+    ]
+  ],
+  "test_vdd_clamp_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "134445",
+    "https://github.com/pytorch/pytorch/issues/134445",
     [
       "linux"
     ]
