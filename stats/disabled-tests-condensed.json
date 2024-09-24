@@ -3061,6 +3061,13 @@
       "linux"
     ]
   ],
+  "test_graph_optims_Adamax_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
+    "136576",
+    "https://github.com/pytorch/pytorch/issues/136576",
+    [
+      "linux"
+    ]
+  ],
   "test_homogeneous_attributes (__main__.TestFSDPMiscMultiThread)": [
     "105024",
     "https://github.com/pytorch/pytorch/issues/105024",
@@ -4669,6 +4676,13 @@
   "test_variant_consistency_jit_linalg_lu_factor_ex_cuda_complex64 (__main__.TestJitCUDA)": [
     "86887",
     "https://github.com/pytorch/pytorch/issues/86887",
+    [
+      "linux"
+    ]
+  ],
+  "test_vdd_clamp_cpu (__main__.CpuTests)": [
+    "135328",
+    "https://github.com/pytorch/pytorch/issues/135328",
     [
       "linux"
     ]
