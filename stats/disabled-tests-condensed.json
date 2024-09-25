@@ -3523,6 +3523,13 @@
       "linux"
     ]
   ],
+  "test_pinned_memory_empty_cache (__main__.TestCuda)": [
+    "136687",
+    "https://github.com/pytorch/pytorch/issues/136687",
+    [
+      "rocm"
+    ]
+  ],
   "test_post_localSGD_optimizer_parity_with_hierarchical_sgd (__main__.TestDistBackendWithSpawn)": [
     "75052",
     "https://github.com/pytorch/pytorch/issues/75052",
