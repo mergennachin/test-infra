@@ -896,14 +896,6 @@
       "macos"
     ]
   ],
-  "test_comprehensive_pca_lowrank_cpu_float64 (__main__.TestInductorOpInfoCPU)": [
-    "135811",
-    "https://github.com/pytorch/pytorch/issues/135811",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_comprehensive_polygamma_polygamma_n_0_cpu_float16 (__main__.TestInductorOpInfoCPU)": [
     "135985",
     "https://github.com/pytorch/pytorch/issues/135985",
