@@ -1638,14 +1638,6 @@
       "macos"
     ]
   ],
-  "test_comprehensive_unravel_index_cpu_int32 (__main__.TestInductorOpInfoCPU)": [
-    "135808",
-    "https://github.com/pytorch/pytorch/issues/135808",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_comprehensive_vdot_cpu_int64 (__main__.TestInductorOpInfoCPU)": [
     "135748",
     "https://github.com/pytorch/pytorch/issues/135748",
@@ -2872,6 +2864,13 @@
       "linux"
     ]
   ],
+  "test_gelu_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "135222",
+    "https://github.com/pytorch/pytorch/issues/135222",
+    [
+      "linux"
+    ]
+  ],
   "test_gpu_simple (__main__.TensorPipeCudaDistAutogradTest)": [
     "70753",
     "https://github.com/pytorch/pytorch/issues/70753",
@@ -3170,6 +3169,13 @@
   "test_inplace_gradgrad_remainder_cuda_float64 (__main__.TestBwdGradientsCUDA)": [
     "100675",
     "https://github.com/pytorch/pytorch/issues/100675",
+    [
+      "linux"
+    ]
+  ],
+  "test_input_mutation2_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "135295",
+    "https://github.com/pytorch/pytorch/issues/135295",
     [
       "linux"
     ]
