@@ -896,6 +896,14 @@
       "macos"
     ]
   ],
+  "test_comprehensive_pca_lowrank_cpu_float64 (__main__.TestInductorOpInfoCPU)": [
+    "135811",
+    "https://github.com/pytorch/pytorch/issues/135811",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_comprehensive_polygamma_polygamma_n_0_cpu_float16 (__main__.TestInductorOpInfoCPU)": [
     "135985",
     "https://github.com/pytorch/pytorch/issues/135985",
@@ -1665,14 +1673,6 @@
   "test_comprehensive_xlogy_cpu_bool (__main__.TestInductorOpInfoCPU)": [
     "135674",
     "https://github.com/pytorch/pytorch/issues/135674",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_comprehensive_zeros_cpu_float16 (__main__.TestInductorOpInfoCPU)": [
-    "135642",
-    "https://github.com/pytorch/pytorch/issues/135642",
     [
       "mac",
       "macos"
@@ -3067,6 +3067,13 @@
       "linux"
     ]
   ],
+  "test_graph_optims_NAdam_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
+    "136602",
+    "https://github.com/pytorch/pytorch/issues/136602",
+    [
+      "linux"
+    ]
+  ],
   "test_homogeneous_attributes (__main__.TestFSDPMiscMultiThread)": [
     "105024",
     "https://github.com/pytorch/pytorch/issues/105024",
@@ -3443,6 +3450,13 @@
   "test_merge_liveness (jit.test_freezing.TestMKLDNNReinplacing)": [
     "91481",
     "https://github.com/pytorch/pytorch/issues/91481",
+    [
+      "linux"
+    ]
+  ],
+  "test_metadata_consistency_check (__main__.DTensorMeshTest)": [
+    "131598",
+    "https://github.com/pytorch/pytorch/issues/131598",
     [
       "linux"
     ]
