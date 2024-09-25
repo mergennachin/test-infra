@@ -284,34 +284,6 @@
       "macos"
     ]
   ],
-  "test_b2b_gemm_left_assoc_good_shape (__main__.B2BGEMMTest)": [
-    "133233",
-    "https://github.com/pytorch/pytorch/issues/133233",
-    [
-      "rocm"
-    ]
-  ],
-  "test_b2b_gemm_right_assoc_good_shape (__main__.B2BGEMMTest)": [
-    "133311",
-    "https://github.com/pytorch/pytorch/issues/133311",
-    [
-      "rocm"
-    ]
-  ],
-  "test_b2b_gemm_trivial_left_assoc_good_shape (__main__.B2BGEMMTest)": [
-    "133403",
-    "https://github.com/pytorch/pytorch/issues/133403",
-    [
-      "rocm"
-    ]
-  ],
-  "test_b2b_gemm_trivial_right_assoc_good_shape (__main__.B2BGEMMTest)": [
-    "134143",
-    "https://github.com/pytorch/pytorch/issues/134143",
-    [
-      "rocm"
-    ]
-  ],
   "test_backward_ddp_inside (__main__.TensorPipeDdpUnderDistAutogradTest)": [
     "104328",
     "https://github.com/pytorch/pytorch/issues/104328",
@@ -2705,13 +2677,6 @@
       "mac"
     ]
   ],
-  "test_grad_scaler_with_preset_grad_scale_in_place_unscale_False_AdamW_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
-    "135692",
-    "https://github.com/pytorch/pytorch/issues/135692",
-    [
-      "linux"
-    ]
-  ],
   "test_grad_scaler_with_preset_grad_scale_in_place_unscale_False_Adam_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
     "135721",
     "https://github.com/pytorch/pytorch/issues/135721",
@@ -2904,6 +2869,13 @@
   "test_graph_optims_RAdam_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
     "136620",
     "https://github.com/pytorch/pytorch/issues/136620",
+    [
+      "linux"
+    ]
+  ],
+  "test_graph_optims_RMSprop_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
+    "136638",
+    "https://github.com/pytorch/pytorch/issues/136638",
     [
       "linux"
     ]
@@ -3847,13 +3819,6 @@
     [
       "linux",
       "rocm"
-    ]
-  ],
-  "test_save_with_without_initializer_dont_include_initializer_no_fake_mode_no_exported_program (__main__.TestFxToOnnx)": [
-    "125020",
-    "https://github.com/pytorch/pytorch/issues/125020",
-    [
-      "linux"
     ]
   ],
   "test_scaled_dot_product_attention_3D_input_dim_no_attn_mask_dropout_p_0_0_cuda (__main__.TestTransformersCUDA)": [
