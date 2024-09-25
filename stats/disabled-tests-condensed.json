@@ -896,14 +896,6 @@
       "macos"
     ]
   ],
-  "test_comprehensive_pca_lowrank_cpu_float64 (__main__.TestInductorOpInfoCPU)": [
-    "135811",
-    "https://github.com/pytorch/pytorch/issues/135811",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_comprehensive_polygamma_polygamma_n_0_cpu_float16 (__main__.TestInductorOpInfoCPU)": [
     "135985",
     "https://github.com/pytorch/pytorch/issues/135985",
@@ -2765,6 +2757,13 @@
   "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_1024_seq_len_k_2048_head_dim_160_is_causal_False_dropout_p_0_0_bfloat16_scale_l1_cuda_bfloat16 (__main__.TestSDPACudaOnlyCUDA)": [
     "131538",
     "https://github.com/pytorch/pytorch/issues/131538",
+    [
+      "linux"
+    ]
+  ],
+  "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_1024_seq_len_k_2048_head_dim_160_is_causal_False_dropout_p_0_0_float16_scale_l1_cuda_float16 (__main__.TestSDPACudaOnlyCUDA)": [
+    "131532",
+    "https://github.com/pytorch/pytorch/issues/131532",
     [
       "linux"
     ]
