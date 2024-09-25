@@ -1638,6 +1638,14 @@
       "macos"
     ]
   ],
+  "test_comprehensive_unravel_index_cpu_int32 (__main__.TestInductorOpInfoCPU)": [
+    "135808",
+    "https://github.com/pytorch/pytorch/issues/135808",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_comprehensive_vdot_cpu_int64 (__main__.TestInductorOpInfoCPU)": [
     "135748",
     "https://github.com/pytorch/pytorch/issues/135748",
