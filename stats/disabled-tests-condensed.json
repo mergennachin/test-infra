@@ -896,6 +896,14 @@
       "macos"
     ]
   ],
+  "test_comprehensive_pca_lowrank_cpu_float64 (__main__.TestInductorOpInfoCPU)": [
+    "135811",
+    "https://github.com/pytorch/pytorch/issues/135811",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_comprehensive_polygamma_polygamma_n_0_cpu_float16 (__main__.TestInductorOpInfoCPU)": [
     "135985",
     "https://github.com/pytorch/pytorch/issues/135985",
@@ -3062,6 +3070,13 @@
   "test_graph_optims_NAdam_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
     "136602",
     "https://github.com/pytorch/pytorch/issues/136602",
+    [
+      "linux"
+    ]
+  ],
+  "test_graph_optims_RAdam_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
+    "136620",
+    "https://github.com/pytorch/pytorch/issues/136620",
     [
       "linux"
     ]
