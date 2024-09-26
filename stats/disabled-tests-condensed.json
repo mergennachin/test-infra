@@ -491,14 +491,6 @@
       "linux"
     ]
   ],
-  "test_comprehensive_nn_functional_avg_pool3d_cpu_float32 (__main__.TestInductorOpInfoCPU)": [
-    "135747",
-    "https://github.com/pytorch/pytorch/issues/135747",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_comprehensive_nn_functional_binary_cross_entropy_cpu_float64 (__main__.TestInductorOpInfoCPU)": [
     "135806",
     "https://github.com/pytorch/pytorch/issues/135806",
@@ -718,14 +710,6 @@
       "macos"
     ]
   ],
-  "test_comprehensive_nn_functional_triplet_margin_with_distance_loss_cpu_float64 (__main__.TestInductorOpInfoCPU)": [
-    "135741",
-    "https://github.com/pytorch/pytorch/issues/135741",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_comprehensive_nn_functional_triplet_margin_with_distance_loss_cpu_int32 (__main__.TestInductorOpInfoCPU)": [
     "135843",
     "https://github.com/pytorch/pytorch/issues/135843",
@@ -777,14 +761,6 @@
   "test_comprehensive_ones_like_cpu_float16 (__main__.TestInductorOpInfoCPU)": [
     "135905",
     "https://github.com/pytorch/pytorch/issues/135905",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_comprehensive_pca_lowrank_cpu_float64 (__main__.TestInductorOpInfoCPU)": [
-    "135811",
-    "https://github.com/pytorch/pytorch/issues/135811",
     [
       "mac",
       "macos"
@@ -865,14 +841,6 @@
   "test_comprehensive_polygamma_polygamma_n_3_cpu_float64 (__main__.TestInductorOpInfoCPU)": [
     "135738",
     "https://github.com/pytorch/pytorch/issues/135738",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_comprehensive_polygamma_polygamma_n_3_cpu_int64 (__main__.TestInductorOpInfoCPU)": [
-    "135745",
-    "https://github.com/pytorch/pytorch/issues/135745",
     [
       "mac",
       "macos"
@@ -1174,14 +1142,6 @@
       "macos"
     ]
   ],
-  "test_comprehensive_scatter_reduce_prod_cpu_int32 (__main__.TestInductorOpInfoCPU)": [
-    "135797",
-    "https://github.com/pytorch/pytorch/issues/135797",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_comprehensive_scatter_reduce_sum_cpu_bool (__main__.TestInductorOpInfoCPU)": [
     "135947",
     "https://github.com/pytorch/pytorch/issues/135947",
@@ -1201,14 +1161,6 @@
   "test_comprehensive_short_cpu_float64 (__main__.TestInductorOpInfoCPU)": [
     "135987",
     "https://github.com/pytorch/pytorch/issues/135987",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_comprehensive_short_cpu_int64 (__main__.TestInductorOpInfoCPU)": [
-    "135803",
-    "https://github.com/pytorch/pytorch/issues/135803",
     [
       "mac",
       "macos"
@@ -1447,14 +1399,6 @@
   "test_comprehensive_triu_cpu_float16 (__main__.TestInductorOpInfoCPU)": [
     "135737",
     "https://github.com/pytorch/pytorch/issues/135737",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_comprehensive_unravel_index_cpu_int32 (__main__.TestInductorOpInfoCPU)": [
-    "135808",
-    "https://github.com/pytorch/pytorch/issues/135808",
     [
       "mac",
       "macos"
@@ -3650,13 +3594,6 @@
     "https://github.com/pytorch/pytorch/issues/73474",
     [
       "macos"
-    ]
-  ],
-  "test_python_ref_executor__refs_stft_executor_aten_cuda_complex128 (__main__.TestCommonCUDA)": [
-    "135756",
-    "https://github.com/pytorch/pytorch/issues/135756",
-    [
-      "rocm"
     ]
   ],
   "test_raise_comms (__main__.TestComputeCommReorderingMultiProc)": [
