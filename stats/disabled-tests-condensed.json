@@ -101,6 +101,14 @@
       "slow"
     ]
   ],
+  "test_aot_export_cond_simple_cuda_float32 (__main__.TestHOPCUDA)": [
+    "123096",
+    "https://github.com/pytorch/pytorch/issues/123096",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_aot_export_cond_simple_cuda_int32 (__main__.TestHOPCUDA)": [
     "123194",
     "https://github.com/pytorch/pytorch/issues/123194",
@@ -2181,16 +2189,6 @@
       "rocm"
     ]
   ],
-  "test_fused_sdp_choice_privateuseone (__main__.TestSDPAPrivateUse1Only)": [
-    "134600",
-    "https://github.com/pytorch/pytorch/issues/134600",
-    [
-      "dynamo",
-      "linux",
-      "rocm",
-      "asan"
-    ]
-  ],
   "test_garbage_collect_expandable (__main__.TestCudaMallocAsync)": [
     "134811",
     "https://github.com/pytorch/pytorch/issues/134811",
@@ -3787,18 +3785,6 @@
     "https://github.com/pytorch/pytorch/issues/135219",
     [
       "linux"
-    ]
-  ],
-  "test_torch_function_mode_guards_ignored_types_py (__main__.TorchFunctionModeTests)": [
-    "135102",
-    "https://github.com/pytorch/pytorch/issues/135102",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "slow"
     ]
   ],
   "test_torch_manual_seed_seeds_cuda_devices (__main__.TestCuda)": [
