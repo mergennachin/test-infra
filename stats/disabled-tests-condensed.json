@@ -276,6 +276,16 @@
       "macos"
     ]
   ],
+  "test_autograd_function_backed_op (__main__.TestCustomOp)": [
+    "132115",
+    "https://github.com/pytorch/pytorch/issues/132115",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos"
+    ]
+  ],
   "test_autograd_function_backed_op (__main__.TestCustomOpWithCompiledAutograd)": [
     "121342",
     "https://github.com/pytorch/pytorch/issues/121342",
@@ -624,25 +634,9 @@
       "macos"
     ]
   ],
-  "test_comprehensive_nn_functional_smooth_l1_loss_cpu_float64 (__main__.TestInductorOpInfoCPU)": [
-    "135746",
-    "https://github.com/pytorch/pytorch/issues/135746",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_comprehensive_nn_functional_threshold_cpu_float32 (__main__.TestInductorOpInfoCPU)": [
     "135844",
     "https://github.com/pytorch/pytorch/issues/135844",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_comprehensive_nn_functional_triplet_margin_loss_cpu_float32 (__main__.TestInductorOpInfoCPU)": [
-    "135798",
-    "https://github.com/pytorch/pytorch/issues/135798",
     [
       "mac",
       "macos"
@@ -704,14 +698,6 @@
       "macos"
     ]
   ],
-  "test_comprehensive_polygamma_polygamma_n_0_cpu_float64 (__main__.TestInductorOpInfoCPU)": [
-    "135753",
-    "https://github.com/pytorch/pytorch/issues/135753",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_comprehensive_polygamma_polygamma_n_0_cpu_int64 (__main__.TestInductorOpInfoCPU)": [
     "135856",
     "https://github.com/pytorch/pytorch/issues/135856",
@@ -760,22 +746,6 @@
       "macos"
     ]
   ],
-  "test_comprehensive_polygamma_polygamma_n_3_cpu_float64 (__main__.TestInductorOpInfoCPU)": [
-    "135738",
-    "https://github.com/pytorch/pytorch/issues/135738",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_comprehensive_polygamma_polygamma_n_4_cpu_float32 (__main__.TestInductorOpInfoCPU)": [
-    "135744",
-    "https://github.com/pytorch/pytorch/issues/135744",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_comprehensive_polygamma_polygamma_n_4_cpu_int32 (__main__.TestInductorOpInfoCPU)": [
     "135900",
     "https://github.com/pytorch/pytorch/issues/135900",
@@ -787,14 +757,6 @@
   "test_comprehensive_pow_cpu_float32 (__main__.TestInductorOpInfoCPU)": [
     "136015",
     "https://github.com/pytorch/pytorch/issues/136015",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_comprehensive_prod_cpu_float32 (__main__.TestInductorOpInfoCPU)": [
-    "135810",
-    "https://github.com/pytorch/pytorch/issues/135810",
     [
       "mac",
       "macos"
@@ -2428,13 +2390,6 @@
       "linux"
     ]
   ],
-  "test_grad_scaler_with_preset_grad_scale_in_place_unscale_True_AdamW_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
-    "135829",
-    "https://github.com/pytorch/pytorch/issues/135829",
-    [
-      "linux"
-    ]
-  ],
   "test_grad_scaler_with_preset_grad_scale_in_place_unscale_True_Adam_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
     "135881",
     "https://github.com/pytorch/pytorch/issues/135881",
@@ -3606,14 +3561,6 @@
     "https://github.com/pytorch/pytorch/issues/134931",
     [
       "linux"
-    ]
-  ],
-  "test_scaled_dot_product_fused_attention_overrideable (__main__.TestSDPAPrivateUse1Only)": [
-    "134601",
-    "https://github.com/pytorch/pytorch/issues/134601",
-    [
-      "rocm",
-      "dynamo"
     ]
   ],
   "test_scaled_dot_product_fused_attention_overrideable_backward (__main__.TestSDPAPrivateUse1Only)": [
