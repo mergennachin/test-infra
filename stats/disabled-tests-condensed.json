@@ -138,6 +138,13 @@
     "https://github.com/pytorch/pytorch/issues/106440",
     []
   ],
+  "test_arange2_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
+    "127343",
+    "https://github.com/pytorch/pytorch/issues/127343",
+    [
+      "rocm"
+    ]
+  ],
   "test_assigning_back_deleter_fns_to_tensor (__main__.TestBlockStateAbsorption)": [
     "134810",
     "https://github.com/pytorch/pytorch/issues/134810",
@@ -511,14 +518,6 @@
       "macos"
     ]
   ],
-  "test_comprehensive_nn_functional_dropout_cpu_float16 (__main__.TestInductorOpInfoCPU)": [
-    "136022",
-    "https://github.com/pytorch/pytorch/issues/136022",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_comprehensive_nn_functional_nll_loss_cuda_float32 (__main__.TestDecompCUDA)": [
     "117732",
     "https://github.com/pytorch/pytorch/issues/117732",
@@ -546,52 +545,12 @@
       "macos"
     ]
   ],
-  "test_comprehensive_nn_functional_pad_reflect_cpu_int32 (__main__.TestInductorOpInfoCPU)": [
-    "136024",
-    "https://github.com/pytorch/pytorch/issues/136024",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_comprehensive_nn_functional_pad_reflect_cuda_bfloat16 (__main__.TestDecompCUDA)": [
     "131050",
     "https://github.com/pytorch/pytorch/issues/131050",
     [
       "rocm",
       "linux"
-    ]
-  ],
-  "test_comprehensive_nn_functional_pairwise_distance_cpu_int64 (__main__.TestInductorOpInfoCPU)": [
-    "136027",
-    "https://github.com/pytorch/pytorch/issues/136027",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_comprehensive_reciprocal_cpu_float32 (__main__.TestInductorOpInfoCPU)": [
-    "136026",
-    "https://github.com/pytorch/pytorch/issues/136026",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_comprehensive_rot90_cpu_float64 (__main__.TestInductorOpInfoCPU)": [
-    "136025",
-    "https://github.com/pytorch/pytorch/issues/136025",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_comprehensive_sgn_cpu_float64 (__main__.TestInductorOpInfoCPU)": [
-    "136017",
-    "https://github.com/pytorch/pytorch/issues/136017",
-    [
-      "mac",
-      "macos"
     ]
   ],
   "test_comprehensive_special_bessel_y1_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
@@ -606,14 +565,6 @@
     "https://github.com/pytorch/pytorch/issues/136520",
     [
       "rocm"
-    ]
-  ],
-  "test_comprehensive_split_with_sizes_copy_cpu_bool (__main__.TestInductorOpInfoCPU)": [
-    "136023",
-    "https://github.com/pytorch/pytorch/issues/136023",
-    [
-      "mac",
-      "macos"
     ]
   ],
   "test_consecutive_compiles_abi_compatible_cpu_with_stack_allocation_and_minimal_arrayref_interface (__main__.AOTInductorTestABICompatibleCpuWithStackAllocationAndMinimalArrayRefInterface)": [
