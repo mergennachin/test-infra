@@ -259,6 +259,14 @@
       "linux"
     ]
   ],
+  "test_autograd_cpp_node_data_dependent (__main__.TestCompiledAutograd)": [
+    "125579",
+    "https://github.com/pytorch/pytorch/issues/125579",
+    [
+      "linux",
+      "rocm"
+    ]
+  ],
   "test_autograd_cpp_node_saved (__main__.TestCompiledAutograd)": [
     "131103",
     "https://github.com/pytorch/pytorch/issues/131103",
@@ -698,14 +706,6 @@
       "macos"
     ]
   ],
-  "test_comprehensive_remainder_cpu_int64 (__main__.TestInductorOpInfoCPU)": [
-    "135937",
-    "https://github.com/pytorch/pytorch/issues/135937",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_comprehensive_repeat_cpu_int32 (__main__.TestInductorOpInfoCPU)": [
     "135984",
     "https://github.com/pytorch/pytorch/issues/135984",
@@ -1101,6 +1101,18 @@
     "https://github.com/pytorch/pytorch/issues/127738",
     [
       "dynamo"
+    ]
+  ],
+  "test_device_mode_ops_sparse_mm_reduce_cpu_bfloat16 (__main__.TestDeviceUtilsCPU)": [
+    "132494",
+    "https://github.com/pytorch/pytorch/issues/132494",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "win",
+      "windows"
     ]
   ],
   "test_device_mode_ops_sparse_mm_reduce_cpu_float16 (__main__.TestDeviceUtilsCPU)": [
@@ -2061,6 +2073,16 @@
       "rocm"
     ]
   ],
+  "test_fused_sdp_choice_privateuseone (__main__.TestSDPAPrivateUse1Only)": [
+    "134600",
+    "https://github.com/pytorch/pytorch/issues/134600",
+    [
+      "dynamo",
+      "linux",
+      "rocm",
+      "asan"
+    ]
+  ],
   "test_garbage_collect_expandable (__main__.TestCudaMallocAsync)": [
     "134811",
     "https://github.com/pytorch/pytorch/issues/134811",
@@ -2103,9 +2125,9 @@
       "linux"
     ]
   ],
-  "test_grad_scaler_with_preset_grad_scale_in_place_unscale_True_SGD_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
-    "135925",
-    "https://github.com/pytorch/pytorch/issues/135925",
+  "test_grad_scaler_with_preset_grad_scale_in_place_unscale_True_AdamW_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
+    "135829",
+    "https://github.com/pytorch/pytorch/issues/135829",
     [
       "linux"
     ]
@@ -2914,6 +2936,13 @@
       "rocm"
     ]
   ],
+  "test_pointwise_bessel_y1_cuda (__main__.GPUTests)": [
+    "127756",
+    "https://github.com/pytorch/pytorch/issues/127756",
+    [
+      "rocm"
+    ]
+  ],
   "test_post_localSGD_optimizer_parity_with_hierarchical_sgd (__main__.TestDistBackendWithSpawn)": [
     "75052",
     "https://github.com/pytorch/pytorch/issues/75052",
@@ -3267,6 +3296,16 @@
     "https://github.com/pytorch/pytorch/issues/134931",
     [
       "linux"
+    ]
+  ],
+  "test_scaled_dot_product_fused_attention_overrideable_backward (__main__.TestSDPAPrivateUse1Only)": [
+    "134602",
+    "https://github.com/pytorch/pytorch/issues/134602",
+    [
+      "dynamo",
+      "linux",
+      "rocm",
+      "asan"
     ]
   ],
   "test_scatter_fallback_abi_compatible_cuda (__main__.AOTInductorTestABICompatibleCuda)": [
