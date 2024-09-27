@@ -519,14 +519,6 @@
       "macos"
     ]
   ],
-  "test_comprehensive_nn_functional_layer_norm_cpu_float32 (__main__.TestInductorOpInfoCPU)": [
-    "136020",
-    "https://github.com/pytorch/pytorch/issues/136020",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_comprehensive_nn_functional_nll_loss_cuda_float32 (__main__.TestDecompCUDA)": [
     "117732",
     "https://github.com/pytorch/pytorch/issues/117732",
@@ -578,14 +570,6 @@
       "macos"
     ]
   ],
-  "test_comprehensive_pow_cpu_float32 (__main__.TestInductorOpInfoCPU)": [
-    "136015",
-    "https://github.com/pytorch/pytorch/issues/136015",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_comprehensive_reciprocal_cpu_float32 (__main__.TestInductorOpInfoCPU)": [
     "136026",
     "https://github.com/pytorch/pytorch/issues/136026",
@@ -602,41 +586,9 @@
       "macos"
     ]
   ],
-  "test_comprehensive_scatter_cpu_float64 (__main__.TestInductorOpInfoCPU)": [
-    "136019",
-    "https://github.com/pytorch/pytorch/issues/136019",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_comprehensive_scatter_reduce_amin_cpu_float64 (__main__.TestInductorOpInfoCPU)": [
-    "136018",
-    "https://github.com/pytorch/pytorch/issues/136018",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_comprehensive_sgn_cpu_float64 (__main__.TestInductorOpInfoCPU)": [
     "136017",
     "https://github.com/pytorch/pytorch/issues/136017",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_comprehensive_signal_windows_gaussian_cpu_float32 (__main__.TestInductorOpInfoCPU)": [
-    "136021",
-    "https://github.com/pytorch/pytorch/issues/136021",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_comprehensive_special_bessel_j0_cpu_int64 (__main__.TestInductorOpInfoCPU)": [
-    "136014",
-    "https://github.com/pytorch/pytorch/issues/136014",
     [
       "mac",
       "macos"
@@ -647,14 +599,6 @@
     "https://github.com/pytorch/pytorch/issues/125151",
     [
       "inductor"
-    ]
-  ],
-  "test_comprehensive_special_hermite_polynomial_he_cpu_float32 (__main__.TestInductorOpInfoCPU)": [
-    "136016",
-    "https://github.com/pytorch/pytorch/issues/136016",
-    [
-      "mac",
-      "macos"
     ]
   ],
   "test_comprehensive_special_scaled_modified_bessel_k0_cuda_int32 (__main__.TestInductorOpInfoCUDA)": [
