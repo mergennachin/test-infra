@@ -374,6 +374,14 @@
       "macos"
     ]
   ],
+  "test_byte_tensor_assignment (__main__.TestAdvancedIndexing)": [
+    "137028",
+    "https://github.com/pytorch/pytorch/issues/137028",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_cat_slice_cat_cuda_cuda_wrapper (__main__.TestCudaWrapper)": [
     "135164",
     "https://github.com/pytorch/pytorch/issues/135164",
@@ -1729,7 +1737,9 @@
       "linux",
       "rocm",
       "win",
-      "windows"
+      "windows",
+      "mac",
+      "macos"
     ]
   ],
   "test_garbage_collect_expandable (__main__.TestCudaMallocAsync)": [
@@ -1847,6 +1857,13 @@
   "test_graph_grad_scaling_foreach_False_fused_False_AdamW_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
     "136126",
     "https://github.com/pytorch/pytorch/issues/136126",
+    [
+      "linux"
+    ]
+  ],
+  "test_graph_grad_scaling_foreach_False_fused_False_Adam_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
+    "136137",
+    "https://github.com/pytorch/pytorch/issues/136137",
     [
       "linux"
     ]
@@ -2506,6 +2523,13 @@
     "https://github.com/pytorch/pytorch/issues/105123",
     [
       "rocm"
+    ]
+  ],
+  "test_open_device_registration (__main__.ExtensionBackendTests)": [
+    "137027",
+    "https://github.com/pytorch/pytorch/issues/137027",
+    [
+      "linux"
     ]
   ],
   "test_open_device_registration (__main__.TestCppExtensionOpenRgistration)": [
