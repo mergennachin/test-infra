@@ -1724,10 +1724,12 @@
     "134600",
     "https://github.com/pytorch/pytorch/issues/134600",
     [
+      "asan",
       "dynamo",
       "linux",
       "rocm",
-      "asan"
+      "win",
+      "windows"
     ]
   ],
   "test_garbage_collect_expandable (__main__.TestCudaMallocAsync)": [
@@ -2625,15 +2627,6 @@
       "linux"
     ]
   ],
-  "test_pre_dispatch_export_auto_functionalize_simple_cuda_float32 (__main__.TestHOPCUDA)": [
-    "123267",
-    "https://github.com/pytorch/pytorch/issues/123267",
-    [
-      "linux",
-      "slow",
-      "rocm"
-    ]
-  ],
   "test_pre_dispatch_export_while_loop_simple_cuda_float32 (__main__.TestHOPCUDA)": [
     "123943",
     "https://github.com/pytorch/pytorch/issues/123943",
@@ -3436,13 +3429,6 @@
   "test_train_parity_2d_transformer_checkpoint_resume (__main__.TestFullyShard2DTraining)": [
     "125644",
     "https://github.com/pytorch/pytorch/issues/125644",
-    [
-      "rocm"
-    ]
-  ],
-  "test_train_parity_hsdp (__main__.TestFullyShardHSDPTraining)": [
-    "125645",
-    "https://github.com/pytorch/pytorch/issues/125645",
     [
       "rocm"
     ]
