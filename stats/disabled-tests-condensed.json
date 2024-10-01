@@ -2665,6 +2665,15 @@
       "linux"
     ]
   ],
+  "test_pre_dispatch_export_auto_functionalize_simple_cuda_float32 (__main__.TestHOPCUDA)": [
+    "123267",
+    "https://github.com/pytorch/pytorch/issues/123267",
+    [
+      "linux",
+      "slow",
+      "rocm"
+    ]
+  ],
   "test_pre_dispatch_export_while_loop_simple_cuda_float32 (__main__.TestHOPCUDA)": [
     "123943",
     "https://github.com/pytorch/pytorch/issues/123943",
@@ -2687,13 +2696,6 @@
     "https://github.com/pytorch/pytorch/issues/91493",
     [
       "linux"
-    ]
-  ],
-  "test_print (__main__.TestTorch)": [
-    "123893",
-    "https://github.com/pytorch/pytorch/issues/123893",
-    [
-      "inductor"
     ]
   ],
   "test_prod_large (__main__.TestCuda)": [
