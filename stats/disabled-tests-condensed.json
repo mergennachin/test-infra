@@ -70,13 +70,6 @@
       "linux"
     ]
   ],
-  "test_angle_cpu (__main__.CpuTritonTests)": [
-    "136124",
-    "https://github.com/pytorch/pytorch/issues/136124",
-    [
-      "inductor"
-    ]
-  ],
   "test_aot_autograd_exhaustive_as_strided_scatter_cpu_float32 (__main__.TestEagerFusionOpInfoCPU)": [
     "85879",
     "https://github.com/pytorch/pytorch/issues/85879",
