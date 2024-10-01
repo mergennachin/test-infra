@@ -1,12 +1,4 @@
 {
-  "Lint / Test `run_test.py` is usable without boto3/rockset": [
-    "amjames",
-    "137101",
-    "https://github.com/pytorch/pytorch/issues/137101",
-    "Lint",
-    "Test `run_test.py` is usable without boto3",
-    "rockset"
-  ],
   "inductor-rocm / rocm6.1-py3.8-inductor / test (inductor)": [
     "atalman",
     "131823",
