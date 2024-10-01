@@ -787,18 +787,6 @@
       "windows"
     ]
   ],
-  "test_device_mode_ops_sparse_mm_reduce_cpu_float64 (__main__.TestDeviceUtilsCPU)": [
-    "132619",
-    "https://github.com/pytorch/pytorch/issues/132619",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "win",
-      "windows"
-    ]
-  ],
   "test_device_mode_ops_sparse_sampled_addmm_cpu_complex128 (__main__.TestDeviceUtilsCPU)": [
     "132643",
     "https://github.com/pytorch/pytorch/issues/132643",
@@ -1990,6 +1978,13 @@
   "test_graph_scaling_fused_optimizers_Adam_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
     "137083",
     "https://github.com/pytorch/pytorch/issues/137083",
+    [
+      "linux"
+    ]
+  ],
+  "test_graph_scaling_fused_optimizers_SGD_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
+    "137113",
+    "https://github.com/pytorch/pytorch/issues/137113",
     [
       "linux"
     ]
@@ -3383,6 +3378,14 @@
     "135219",
     "https://github.com/pytorch/pytorch/issues/135219",
     [
+      "linux"
+    ]
+  ],
+  "test_to_non_blocking (__main__.TestCuda)": [
+    "94967",
+    "https://github.com/pytorch/pytorch/issues/94967",
+    [
+      "rocm",
       "linux"
     ]
   ],
