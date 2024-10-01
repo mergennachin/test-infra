@@ -3403,6 +3403,13 @@
       "dynamo"
     ]
   ],
+  "test_torchvision_transforms_functional_tensor_resize_non_abi_compatible_cuda (__main__.AOTInductorTestNonABICompatibleCuda)": [
+    "137071",
+    "https://github.com/pytorch/pytorch/issues/137071",
+    [
+      "linux"
+    ]
+  ],
   "test_tp_transform_with_uncovered_op (__main__.TensorParallelTest)": [
     "115784",
     "https://github.com/pytorch/pytorch/issues/115784",
