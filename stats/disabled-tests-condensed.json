@@ -898,6 +898,13 @@
       "linux"
     ]
   ],
+  "test_dunder_new_function_inlining1 (__main__.MiscTests)": [
+    "137166",
+    "https://github.com/pytorch/pytorch/issues/137166",
+    [
+      "linux"
+    ]
+  ],
   "test_dunder_round_edgecases_val_2147483647_ndigits_-1 (__main__.TestNonarrayArgs)": [
     "116121",
     "https://github.com/pytorch/pytorch/issues/116121",
@@ -1270,13 +1277,6 @@
       "linux",
       "rocm",
       "slow"
-    ]
-  ],
-  "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_1024_seq_len_k_1024_head_dim_16_is_causal_False_dropout_p_0_48_float16_scale_l1_cuda_float16 (__main__.TestSDPACudaOnlyCUDA)": [
-    "131092",
-    "https://github.com/pytorch/pytorch/issues/131092",
-    [
-      "linux"
     ]
   ],
   "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_1024_seq_len_k_1024_head_dim_16_is_causal_True_dropout_p_0_0_bfloat16_scale0_cuda_bfloat16 (__main__.TestSDPACudaOnlyCUDA)": [
@@ -1859,6 +1859,13 @@
   "test_graph_grad_scaling_foreach_False_fused_False_SGD_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
     "136176",
     "https://github.com/pytorch/pytorch/issues/136176",
+    [
+      "linux"
+    ]
+  ],
+  "test_graph_grad_scaling_foreach_False_fused_True_AdamW_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
+    "136230",
+    "https://github.com/pytorch/pytorch/issues/136230",
     [
       "linux"
     ]
