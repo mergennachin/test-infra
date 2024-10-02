@@ -13,6 +13,13 @@
       "rocm"
     ]
   ],
+  "test_abs_cuda (__main__.TestInductorDynamicCUDA)": [
+    "137224",
+    "https://github.com/pytorch/pytorch/issues/137224",
+    [
+      "rocm"
+    ]
+  ],
   "test_alibi_bias_float32 (__main__.TestTemplatedSDPA)": [
     "124526",
     "https://github.com/pytorch/pytorch/issues/124526",
@@ -719,14 +726,6 @@
   "test_device_mode_ops_sparse_sampled_addmm_cpu_float32 (__main__.TestDeviceUtilsCPU)": [
     "132720",
     "https://github.com/pytorch/pytorch/issues/132720",
-    [
-      "asan",
-      "linux"
-    ]
-  ],
-  "test_device_mode_ops_sparse_sampled_addmm_cpu_float64 (__main__.TestDeviceUtilsCPU)": [
-    "132737",
-    "https://github.com/pytorch/pytorch/issues/132737",
     [
       "asan",
       "linux"
@@ -2275,6 +2274,14 @@
       "rocm"
     ]
   ],
+  "test_memory_plots_free_segment_stack (__main__.TestCudaMallocAsync)": [
+    "137223",
+    "https://github.com/pytorch/pytorch/issues/137223",
+    [
+      "linux",
+      "rocm"
+    ]
+  ],
   "test_memory_stats_multigpu (__main__.TestCudaMultiGPU)": [
     "129860",
     "https://github.com/pytorch/pytorch/issues/129860",
@@ -2929,7 +2936,8 @@
     "131727",
     "https://github.com/pytorch/pytorch/issues/131727",
     [
-      "inductor"
+      "inductor",
+      "rocm"
     ]
   ],
   "test_scatter_uneven (__main__.DeviceMeshCollectiveTest)": [
