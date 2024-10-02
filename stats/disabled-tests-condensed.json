@@ -775,6 +775,18 @@
       "windows"
     ]
   ],
+  "test_device_mode_ops_sparse_mm_reduce_cpu_float32 (__main__.TestDeviceUtilsCPU)": [
+    "132552",
+    "https://github.com/pytorch/pytorch/issues/132552",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "win",
+      "windows"
+    ]
+  ],
   "test_device_mode_ops_sparse_mm_reduce_cpu_float64 (__main__.TestDeviceUtilsCPU)": [
     "132619",
     "https://github.com/pytorch/pytorch/issues/132619",
@@ -785,14 +797,6 @@
       "macos",
       "win",
       "windows"
-    ]
-  ],
-  "test_device_mode_ops_sparse_sampled_addmm_cpu_complex128 (__main__.TestDeviceUtilsCPU)": [
-    "132643",
-    "https://github.com/pytorch/pytorch/issues/132643",
-    [
-      "asan",
-      "linux"
     ]
   ],
   "test_device_mode_ops_sparse_sampled_addmm_cpu_complex64 (__main__.TestDeviceUtilsCPU)": [
@@ -887,6 +891,13 @@
   "test_dtensor_op_db_nn_functional_multi_head_attention_forward_cpu_float32 (__main__.TestDTensorOpsCPU)": [
     "123294",
     "https://github.com/pytorch/pytorch/issues/123294",
+    [
+      "linux"
+    ]
+  ],
+  "test_dtype_sympy_expr_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
+    "135213",
+    "https://github.com/pytorch/pytorch/issues/135213",
     [
       "linux"
     ]
@@ -1277,6 +1288,13 @@
       "linux",
       "rocm",
       "slow"
+    ]
+  ],
+  "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_1024_seq_len_k_1024_head_dim_16_is_causal_False_dropout_p_0_48_float16_scale_l1_cuda_float16 (__main__.TestSDPACudaOnlyCUDA)": [
+    "131092",
+    "https://github.com/pytorch/pytorch/issues/131092",
+    [
+      "linux"
     ]
   ],
   "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_1024_seq_len_k_1024_head_dim_16_is_causal_True_dropout_p_0_0_bfloat16_scale0_cuda_bfloat16 (__main__.TestSDPACudaOnlyCUDA)": [
@@ -3594,6 +3612,13 @@
   "test_vdd_clamp_cpu (__main__.CpuTests)": [
     "135328",
     "https://github.com/pytorch/pytorch/issues/135328",
+    [
+      "linux"
+    ]
+  ],
+  "test_vdd_clamp_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
+    "134446",
+    "https://github.com/pytorch/pytorch/issues/134446",
     [
       "linux"
     ]
