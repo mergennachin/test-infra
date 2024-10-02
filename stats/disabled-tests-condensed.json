@@ -161,102 +161,11 @@
       "windows"
     ]
   ],
-  "test_autocast_linalg_fp16 (__main__.TestCudaAutocast)": [
-    "135290",
-    "https://github.com/pytorch/pytorch/issues/135290",
-    [
-      "linux"
-    ]
-  ],
-  "test_autocast_methods_expect_builtin_promote (__main__.TestCudaAutocast)": [
-    "135325",
-    "https://github.com/pytorch/pytorch/issues/135325",
-    [
-      "linux"
-    ]
-  ],
-  "test_autocast_methods_fp16 (__main__.TestCudaAutocast)": [
-    "135351",
-    "https://github.com/pytorch/pytorch/issues/135351",
-    [
-      "linux"
-    ]
-  ],
-  "test_autocast_methods_fp32 (__main__.TestCudaAutocast)": [
-    "135381",
-    "https://github.com/pytorch/pytorch/issues/135381",
-    [
-      "linux"
-    ]
-  ],
-  "test_autocast_nn_bf16 (__main__.TestCudaAutocast)": [
-    "135455",
-    "https://github.com/pytorch/pytorch/issues/135455",
-    [
-      "linux"
-    ]
-  ],
-  "test_autocast_nn_fp16 (__main__.TestCudaAutocast)": [
-    "135478",
-    "https://github.com/pytorch/pytorch/issues/135478",
-    [
-      "linux"
-    ]
-  ],
-  "test_autocast_nn_fp32 (__main__.TestCudaAutocast)": [
-    "135516",
-    "https://github.com/pytorch/pytorch/issues/135516",
-    [
-      "linux"
-    ]
-  ],
   "test_autocast_rnn (__main__.TestCuda)": [
     "121806",
     "https://github.com/pytorch/pytorch/issues/121806",
     [
       "rocm"
-    ]
-  ],
-  "test_autocast_rnn (__main__.TestCudaAutocast)": [
-    "135555",
-    "https://github.com/pytorch/pytorch/issues/135555",
-    [
-      "linux"
-    ]
-  ],
-  "test_autocast_torch_bf16 (__main__.TestCudaAutocast)": [
-    "135571",
-    "https://github.com/pytorch/pytorch/issues/135571",
-    [
-      "linux"
-    ]
-  ],
-  "test_autocast_torch_expect_builtin_promote (__main__.TestCudaAutocast)": [
-    "135578",
-    "https://github.com/pytorch/pytorch/issues/135578",
-    [
-      "linux"
-    ]
-  ],
-  "test_autocast_torch_fp16 (__main__.TestCudaAutocast)": [
-    "135599",
-    "https://github.com/pytorch/pytorch/issues/135599",
-    [
-      "linux"
-    ]
-  ],
-  "test_autocast_torch_fp32 (__main__.TestCudaAutocast)": [
-    "135643",
-    "https://github.com/pytorch/pytorch/issues/135643",
-    [
-      "linux"
-    ]
-  ],
-  "test_autocast_torch_need_autocast_promote (__main__.TestCudaAutocast)": [
-    "135655",
-    "https://github.com/pytorch/pytorch/issues/135655",
-    [
-      "linux"
     ]
   ],
   "test_autograd_cpp_node_data_dependent (__main__.TestCompiledAutograd)": [
@@ -799,9 +708,9 @@
       "windows"
     ]
   ],
-  "test_device_mode_ops_sparse_sampled_addmm_cpu_complex64 (__main__.TestDeviceUtilsCPU)": [
-    "132686",
-    "https://github.com/pytorch/pytorch/issues/132686",
+  "test_device_mode_ops_sparse_sampled_addmm_cpu_complex128 (__main__.TestDeviceUtilsCPU)": [
+    "132643",
+    "https://github.com/pytorch/pytorch/issues/132643",
     [
       "asan",
       "linux"
