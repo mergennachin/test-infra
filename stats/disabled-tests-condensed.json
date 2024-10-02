@@ -787,6 +787,18 @@
       "windows"
     ]
   ],
+  "test_device_mode_ops_sparse_mm_reduce_cpu_float64 (__main__.TestDeviceUtilsCPU)": [
+    "132619",
+    "https://github.com/pytorch/pytorch/issues/132619",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "win",
+      "windows"
+    ]
+  ],
   "test_device_mode_ops_sparse_sampled_addmm_cpu_complex128 (__main__.TestDeviceUtilsCPU)": [
     "132643",
     "https://github.com/pytorch/pytorch/issues/132643",
@@ -1863,13 +1875,6 @@
       "linux"
     ]
   ],
-  "test_graph_grad_scaling_foreach_False_fused_True_AdamW_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
-    "136230",
-    "https://github.com/pytorch/pytorch/issues/136230",
-    [
-      "linux"
-    ]
-  ],
   "test_graph_grad_scaling_foreach_False_fused_True_Adam_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
     "136352",
     "https://github.com/pytorch/pytorch/issues/136352",
@@ -2332,13 +2337,6 @@
     [
       "rocm",
       "linux"
-    ]
-  ],
-  "test_mem_leak_from_save_for_bw (__main__.TestAOTAutogradWithDynamo)": [
-    "136229",
-    "https://github.com/pytorch/pytorch/issues/136229",
-    [
-      "rocm"
     ]
   ],
   "test_memory_format_nn_ConvTranspose1d_cuda_complex32 (__main__.TestModuleCUDA)": [
@@ -3413,6 +3411,13 @@
     "https://github.com/pytorch/pytorch/issues/121876",
     [
       "dynamo"
+    ]
+  ],
+  "test_torchvision_transforms_functional_tensor_resize_abi_compatible_cuda (__main__.AOTInductorTestABICompatibleCuda)": [
+    "137152",
+    "https://github.com/pytorch/pytorch/issues/137152",
+    [
+      "linux"
     ]
   ],
   "test_torchvision_transforms_functional_tensor_resize_non_abi_compatible_cuda (__main__.AOTInductorTestNonABICompatibleCuda)": [
