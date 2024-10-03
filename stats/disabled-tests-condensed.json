@@ -739,6 +739,14 @@
       "linux"
     ]
   ],
+  "test_device_mode_ops_sparse_sampled_addmm_cpu_float64 (__main__.TestDeviceUtilsCPU)": [
+    "132737",
+    "https://github.com/pytorch/pytorch/issues/132737",
+    [
+      "asan",
+      "linux"
+    ]
+  ],
   "test_disable_compiling_hooks (__main__.TestFullyShardCompileCompute)": [
     "134138",
     "https://github.com/pytorch/pytorch/issues/134138",
@@ -2119,6 +2127,14 @@
       "rocm"
     ]
   ],
+  "test_load_from_view_buffer (__main__.TestFlexAttention)": [
+    "137258",
+    "https://github.com/pytorch/pytorch/issues/137258",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_lobpcg (__main__.TestAutograd)": [
     "80338",
     "https://github.com/pytorch/pytorch/issues/80338",
@@ -2298,7 +2314,8 @@
       "linux",
       "rocm",
       "win",
-      "windows"
+      "windows",
+      "slow"
     ]
   ],
   "test_memory_snapshot_with_cpp (__main__.TestCudaMallocAsync)": [
