@@ -723,6 +723,14 @@
       "linux"
     ]
   ],
+  "test_device_mode_ops_sparse_sampled_addmm_cpu_complex64 (__main__.TestDeviceUtilsCPU)": [
+    "132686",
+    "https://github.com/pytorch/pytorch/issues/132686",
+    [
+      "asan",
+      "linux"
+    ]
+  ],
   "test_device_mode_ops_sparse_sampled_addmm_cpu_float32 (__main__.TestDeviceUtilsCPU)": [
     "132720",
     "https://github.com/pytorch/pytorch/issues/132720",
@@ -3575,13 +3583,6 @@
     "https://github.com/pytorch/pytorch/issues/86893",
     [
       "linux"
-    ]
-  ],
-  "test_vmapvjpvjp_linalg_householder_product_cuda_float32 (__main__.TestOperatorsCUDA)": [
-    "107659",
-    "https://github.com/pytorch/pytorch/issues/107659",
-    [
-      "rocm"
     ]
   ],
   "test_vmapvjpvjp_linalg_lu_cuda_float32 (__main__.TestOperatorsCUDA)": [
