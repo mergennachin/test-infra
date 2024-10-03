@@ -2287,7 +2287,26 @@
     "https://github.com/pytorch/pytorch/issues/137223",
     [
       "linux",
-      "rocm"
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_memory_snapshot_script (__main__.TestCudaMallocAsync)": [
+    "137250",
+    "https://github.com/pytorch/pytorch/issues/137250",
+    [
+      "linux",
+      "rocm",
+      "win",
+      "windows"
+    ]
+  ],
+  "test_memory_snapshot_with_cpp (__main__.TestCudaMallocAsync)": [
+    "137249",
+    "https://github.com/pytorch/pytorch/issues/137249",
+    [
+      "linux",
+      "slow"
     ]
   ],
   "test_memory_stats_multigpu (__main__.TestCudaMultiGPU)": [
@@ -3208,14 +3227,6 @@
   "test_streaming_backwards_sync (__main__.TestCuda)": [
     "103494",
     "https://github.com/pytorch/pytorch/issues/103494",
-    [
-      "rocm",
-      "linux"
-    ]
-  ],
-  "test_streaming_backwards_sync_graph_root (__main__.TestCuda)": [
-    "94880",
-    "https://github.com/pytorch/pytorch/issues/94880",
     [
       "rocm",
       "linux"
