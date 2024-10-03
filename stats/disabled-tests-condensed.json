@@ -3277,6 +3277,14 @@
       "linux"
     ]
   ],
+  "test_streaming_backwards_sync_graph_root (__main__.TestCuda)": [
+    "94880",
+    "https://github.com/pytorch/pytorch/issues/94880",
+    [
+      "rocm",
+      "linux"
+    ]
+  ],
   "test_streams (__main__.TestCuda)": [
     "135114",
     "https://github.com/pytorch/pytorch/issues/135114",
