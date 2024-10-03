@@ -670,6 +670,11 @@
       "linux"
     ]
   ],
+  "test_ddp_unused_params_rebuild_buckets_exception (__main__.TestDistBackendWithSpawn)": [
+    "137307",
+    "https://github.com/pytorch/pytorch/issues/137307",
+    []
+  ],
   "test_decoder_padding_and_src_mask_bool_cpu (__main__.TestTransformersCPU)": [
     "101787",
     "https://github.com/pytorch/pytorch/issues/101787",
