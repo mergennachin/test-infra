@@ -653,6 +653,11 @@
       "linux"
     ]
   ],
+  "test_ddp_multiple_nested_unused_params_err_ignore_params (__main__.TestDistBackendWithSpawn)": [
+    "137272",
+    "https://github.com/pytorch/pytorch/issues/137272",
+    []
+  ],
   "test_ddp_multiple_nested_unused_params_error (__main__.TestDistBackendWithSpawn)": [
     "86476",
     "https://github.com/pytorch/pytorch/issues/86476",
