@@ -166,6 +166,13 @@
       "linux"
     ]
   ],
+  "test_autocast_methods_expect_builtin_promote (__main__.TestCudaAutocast)": [
+    "135325",
+    "https://github.com/pytorch/pytorch/issues/135325",
+    [
+      "linux"
+    ]
+  ],
   "test_autocast_rnn (__main__.TestCuda)": [
     "121806",
     "https://github.com/pytorch/pytorch/issues/121806",
@@ -893,13 +900,6 @@
   "test_embedding_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
     "135456",
     "https://github.com/pytorch/pytorch/issues/135456",
-    [
-      "linux"
-    ]
-  ],
-  "test_embedding_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "135250",
-    "https://github.com/pytorch/pytorch/issues/135250",
     [
       "linux"
     ]
