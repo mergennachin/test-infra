@@ -1857,13 +1857,6 @@
       "linux"
     ]
   ],
-  "test_graph_grad_scaling_foreach_False_fused_True_Adam_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
-    "136352",
-    "https://github.com/pytorch/pytorch/issues/136352",
-    [
-      "linux"
-    ]
-  ],
   "test_graph_grad_scaling_foreach_False_fused_True_SGD_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
     "136372",
     "https://github.com/pytorch/pytorch/issues/136372",
@@ -2745,6 +2738,13 @@
   "test_profiler_mark_wrapper_call_cpu (__main__.CpuTests)": [
     "135217",
     "https://github.com/pytorch/pytorch/issues/135217",
+    [
+      "linux"
+    ]
+  ],
+  "test_profiler_mark_wrapper_call_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "135294",
+    "https://github.com/pytorch/pytorch/issues/135294",
     [
       "linux"
     ]
