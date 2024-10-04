@@ -760,6 +760,14 @@
       "linux"
     ]
   ],
+  "test_device_mode_ops_sparse_sampled_addmm_cpu_float32 (__main__.TestDeviceUtilsCPU)": [
+    "132720",
+    "https://github.com/pytorch/pytorch/issues/132720",
+    [
+      "asan",
+      "linux"
+    ]
+  ],
   "test_device_mode_ops_sparse_sampled_addmm_cpu_float64 (__main__.TestDeviceUtilsCPU)": [
     "132737",
     "https://github.com/pytorch/pytorch/issues/132737",
@@ -3335,6 +3343,13 @@
     "https://github.com/pytorch/pytorch/issues/94897",
     [
       "rocm",
+      "linux"
+    ]
+  ],
+  "test_tmp_not_defined_issue2_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
+    "135212",
+    "https://github.com/pytorch/pytorch/issues/135212",
+    [
       "linux"
     ]
   ],
