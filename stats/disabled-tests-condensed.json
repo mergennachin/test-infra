@@ -2818,6 +2818,11 @@
       "mac"
     ]
   ],
+  "test_reduce_scatter_v_cuda (__main__.TestDistBackendWithSpawn)": [
+    "137325",
+    "https://github.com/pytorch/pytorch/issues/137325",
+    []
+  ],
   "test_redundant_clone_for_layout_convert_cuda (__main__.FreezingCudaTests)": [
     "107950",
     "https://github.com/pytorch/pytorch/issues/107950",
