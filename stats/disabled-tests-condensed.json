@@ -2686,13 +2686,6 @@
       "rocm"
     ]
   ],
-  "test_profiler_mark_wrapper_call_cpu (__main__.CpuTests)": [
-    "135217",
-    "https://github.com/pytorch/pytorch/issues/135217",
-    [
-      "linux"
-    ]
-  ],
   "test_profiler_mark_wrapper_call_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
     "135294",
     "https://github.com/pytorch/pytorch/issues/135294",
