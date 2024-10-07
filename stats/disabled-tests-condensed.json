@@ -426,14 +426,6 @@
       "inductor"
     ]
   ],
-  "test_comprehensive_fft_fft_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
-    "122715",
-    "https://github.com/pytorch/pytorch/issues/122715",
-    [
-      "inductor",
-      "rocm"
-    ]
-  ],
   "test_comprehensive_linalg_ldl_factor_ex_cuda (__main__.TestDecompCUDA)": [
     "76962",
     "https://github.com/pytorch/pytorch/issues/76962",
@@ -465,14 +457,6 @@
       "rocm",
       "win",
       "windows"
-    ]
-  ],
-  "test_comprehensive_nn_functional_pad_constant_cpu_int64 (__main__.TestInductorOpInfoCPU)": [
-    "135973",
-    "https://github.com/pytorch/pytorch/issues/135973",
-    [
-      "mac",
-      "macos"
     ]
   ],
   "test_comprehensive_nn_functional_pad_reflect_cuda_bfloat16 (__main__.TestDecompCUDA)": [
@@ -1853,13 +1837,6 @@
   "test_graph_grad_scaling_foreach_False_fused_True_AdamW_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
     "136230",
     "https://github.com/pytorch/pytorch/issues/136230",
-    [
-      "linux"
-    ]
-  ],
-  "test_graph_grad_scaling_foreach_False_fused_True_SGD_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
-    "136372",
-    "https://github.com/pytorch/pytorch/issues/136372",
     [
       "linux"
     ]
