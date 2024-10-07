@@ -806,20 +806,6 @@
       "linux"
     ]
   ],
-  "test_dropout2_cpu (__main__.CpuTests)": [
-    "135216",
-    "https://github.com/pytorch/pytorch/issues/135216",
-    [
-      "linux"
-    ]
-  ],
-  "test_dropout2_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "135221",
-    "https://github.com/pytorch/pytorch/issues/135221",
-    [
-      "linux"
-    ]
-  ],
   "test_dropout3_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
     "135270",
     "https://github.com/pytorch/pytorch/issues/135270",
@@ -894,13 +880,6 @@
   "test_embedding_cpu (__main__.CpuTests)": [
     "135253",
     "https://github.com/pytorch/pytorch/issues/135253",
-    [
-      "linux"
-    ]
-  ],
-  "test_embedding_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
-    "135456",
-    "https://github.com/pytorch/pytorch/issues/135456",
     [
       "linux"
     ]
@@ -3313,13 +3292,6 @@
       "linux"
     ]
   ],
-  "test_tensor_subclasses (__main__.TestScript)": [
-    "119949",
-    "https://github.com/pytorch/pytorch/issues/119949",
-    [
-      "dynamo"
-    ]
-  ],
   "test_tensorboard_trace_handler (__main__.TestProfiler)": [
     "82915",
     "https://github.com/pytorch/pytorch/issues/82915",
@@ -3348,13 +3320,6 @@
   "test_tmp_not_defined_issue2_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
     "135212",
     "https://github.com/pytorch/pytorch/issues/135212",
-    [
-      "linux"
-    ]
-  ],
-  "test_tmp_not_defined_issue2_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "135219",
-    "https://github.com/pytorch/pytorch/issues/135219",
     [
       "linux"
     ]
