@@ -891,13 +891,6 @@
       "linux"
     ]
   ],
-  "test_embedding_bag_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "135215",
-    "https://github.com/pytorch/pytorch/issues/135215",
-    [
-      "linux"
-    ]
-  ],
   "test_embedding_cpu (__main__.CpuTests)": [
     "135253",
     "https://github.com/pytorch/pytorch/issues/135253",
