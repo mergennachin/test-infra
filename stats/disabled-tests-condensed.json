@@ -1834,13 +1834,6 @@
       "linux"
     ]
   ],
-  "test_graph_grad_scaling_foreach_True_fused_False_Adam_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
-    "136417",
-    "https://github.com/pytorch/pytorch/issues/136417",
-    [
-      "linux"
-    ]
-  ],
   "test_graph_grad_scaling_foreach_True_fused_False_SGD_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
     "136437",
     "https://github.com/pytorch/pytorch/issues/136437",
