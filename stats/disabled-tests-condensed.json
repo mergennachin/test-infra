@@ -481,14 +481,6 @@
       "rocm"
     ]
   ],
-  "test_consecutive_compiles_abi_compatible_cpu_with_stack_allocation_and_minimal_arrayref_interface (__main__.AOTInductorTestABICompatibleCpuWithStackAllocationAndMinimalArrayRefInterface)": [
-    "136469",
-    "https://github.com/pytorch/pytorch/issues/136469",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_conv (quantization.jit.test_quantize_jit.TestQuantizeJit)": [
     "105125",
     "https://github.com/pytorch/pytorch/issues/105125",
@@ -813,13 +805,6 @@
       "linux"
     ]
   ],
-  "test_dropout3_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "135270",
-    "https://github.com/pytorch/pytorch/issues/135270",
-    [
-      "linux"
-    ]
-  ],
   "test_dtensor_op_db_bmm_cpu_float32 (__main__.TestDTensorOpsCPU)": [
     "127373",
     "https://github.com/pytorch/pytorch/issues/127373",
@@ -875,6 +860,13 @@
     [
       "windows",
       "rocm"
+    ]
+  ],
+  "test_embedding_bag_cpu (__main__.CpuTests)": [
+    "135457",
+    "https://github.com/pytorch/pytorch/issues/135457",
+    [
+      "linux"
     ]
   ],
   "test_embedding_bag_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
@@ -1827,13 +1819,6 @@
       "linux"
     ]
   ],
-  "test_graph_optims_ASGD_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
-    "136468",
-    "https://github.com/pytorch/pytorch/issues/136468",
-    [
-      "linux"
-    ]
-  ],
   "test_graph_optims_Adadelta_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
     "136506",
     "https://github.com/pytorch/pytorch/issues/136506",
@@ -2113,6 +2098,17 @@
     "https://github.com/pytorch/pytorch/issues/80338",
     [
       "linux"
+    ]
+  ],
+  "test_log_traced_frames (__main__.LoggingTests)": [
+    "137461",
+    "https://github.com/pytorch/pytorch/issues/137461",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm"
     ]
   ],
   "test_max_split_expandable (__main__.TestCudaMallocAsync)": [
