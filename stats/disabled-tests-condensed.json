@@ -426,6 +426,14 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_fft_fft_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
+    "122715",
+    "https://github.com/pytorch/pytorch/issues/122715",
+    [
+      "inductor",
+      "rocm"
+    ]
+  ],
   "test_comprehensive_linalg_ldl_factor_ex_cuda (__main__.TestDecompCUDA)": [
     "76962",
     "https://github.com/pytorch/pytorch/issues/76962",
@@ -1805,13 +1813,6 @@
       "linux"
     ]
   ],
-  "test_graph_optims_Adam_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
-    "136537",
-    "https://github.com/pytorch/pytorch/issues/136537",
-    [
-      "linux"
-    ]
-  ],
   "test_graph_optims_Adamax_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
     "136576",
     "https://github.com/pytorch/pytorch/issues/136576",
@@ -2494,13 +2495,6 @@
       "linux"
     ]
   ],
-  "test_pattern_matcher_multi_user_cpu (__main__.CpuTests)": [
-    "135296",
-    "https://github.com/pytorch/pytorch/issues/135296",
-    [
-      "linux"
-    ]
-  ],
   "test_pattern_matcher_multi_user_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
     "134432",
     "https://github.com/pytorch/pytorch/issues/134432",
@@ -2846,14 +2840,6 @@
     "126380",
     "https://github.com/pytorch/pytorch/issues/126380",
     [
-      "rocm"
-    ]
-  ],
-  "test_roi_align_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "103156",
-    "https://github.com/pytorch/pytorch/issues/103156",
-    [
-      "linux",
       "rocm"
     ]
   ],
