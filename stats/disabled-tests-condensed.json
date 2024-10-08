@@ -1819,13 +1819,6 @@
       "linux"
     ]
   ],
-  "test_graph_optims_Adadelta_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
-    "136506",
-    "https://github.com/pytorch/pytorch/issues/136506",
-    [
-      "linux"
-    ]
-  ],
   "test_graph_optims_AdamW_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
     "136521",
     "https://github.com/pytorch/pytorch/issues/136521",
@@ -2108,7 +2101,8 @@
       "linux",
       "mac",
       "macos",
-      "rocm"
+      "rocm",
+      "slow"
     ]
   ],
   "test_max_split_expandable (__main__.TestCudaMallocAsync)": [
@@ -2540,6 +2534,20 @@
   "test_pattern_matcher_multi_user_cpu (__main__.CpuTests)": [
     "135296",
     "https://github.com/pytorch/pytorch/issues/135296",
+    [
+      "linux"
+    ]
+  ],
+  "test_pattern_matcher_multi_user_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
+    "134432",
+    "https://github.com/pytorch/pytorch/issues/134432",
+    [
+      "linux"
+    ]
+  ],
+  "test_pattern_matcher_multi_user_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "134433",
+    "https://github.com/pytorch/pytorch/issues/134433",
     [
       "linux"
     ]
@@ -3528,13 +3536,6 @@
   "test_vdd_clamp_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
     "134446",
     "https://github.com/pytorch/pytorch/issues/134446",
-    [
-      "linux"
-    ]
-  ],
-  "test_vdd_clamp_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "134445",
-    "https://github.com/pytorch/pytorch/issues/134445",
     [
       "linux"
     ]
