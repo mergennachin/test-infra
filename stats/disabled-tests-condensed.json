@@ -833,13 +833,6 @@
       "linux"
     ]
   ],
-  "test_dtype_sympy_expr_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "136515",
-    "https://github.com/pytorch/pytorch/issues/136515",
-    [
-      "linux"
-    ]
-  ],
   "test_dunder_new_function_inlining1 (__main__.MiscTests)": [
     "137166",
     "https://github.com/pytorch/pytorch/issues/137166",
@@ -2289,13 +2282,6 @@
       "slow"
     ]
   ],
-  "test_memory_stats_multigpu (__main__.TestCudaMultiGPU)": [
-    "129860",
-    "https://github.com/pytorch/pytorch/issues/129860",
-    [
-      "linux"
-    ]
-  ],
   "test_merge_liveness (jit.test_freezing.TestMKLDNNReinplacing)": [
     "91481",
     "https://github.com/pytorch/pytorch/issues/91481",
@@ -3543,6 +3529,13 @@
   "test_vdd_clamp_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
     "134446",
     "https://github.com/pytorch/pytorch/issues/134446",
+    [
+      "linux"
+    ]
+  ],
+  "test_vdd_clamp_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "134445",
+    "https://github.com/pytorch/pytorch/issues/134445",
     [
       "linux"
     ]
