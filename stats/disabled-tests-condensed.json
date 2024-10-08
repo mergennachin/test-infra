@@ -869,13 +869,6 @@
       "linux"
     ]
   ],
-  "test_embedding_cpu (__main__.CpuTests)": [
-    "135253",
-    "https://github.com/pytorch/pytorch/issues/135253",
-    [
-      "linux"
-    ]
-  ],
   "test_embedding_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
     "135456",
     "https://github.com/pytorch/pytorch/issues/135456",
@@ -1812,13 +1805,6 @@
       "linux"
     ]
   ],
-  "test_graph_optims_AdamW_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
-    "136521",
-    "https://github.com/pytorch/pytorch/issues/136521",
-    [
-      "linux"
-    ]
-  ],
   "test_graph_optims_Adam_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
     "136537",
     "https://github.com/pytorch/pytorch/issues/136537",
@@ -2000,15 +1986,6 @@
     "https://github.com/pytorch/pytorch/issues/115859",
     [
       "rocm"
-    ]
-  ],
-  "test_item_to_inputs_kernel_nobreak_cuda (__main__.TestInductorDynamicCUDA)": [
-    "119538",
-    "https://github.com/pytorch/pytorch/issues/119538",
-    [
-      "linux",
-      "rocm",
-      "slow"
     ]
   ],
   "test_jvpvjp_nn_functional_conv3d_cuda_float32 (__main__.TestOperatorsCUDA)": [
