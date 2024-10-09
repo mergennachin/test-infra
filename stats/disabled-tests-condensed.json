@@ -1829,13 +1829,6 @@
       "linux"
     ]
   ],
-  "test_graph_optims_NAdam_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
-    "136602",
-    "https://github.com/pytorch/pytorch/issues/136602",
-    [
-      "linux"
-    ]
-  ],
   "test_graph_optims_RAdam_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
     "136620",
     "https://github.com/pytorch/pytorch/issues/136620",
