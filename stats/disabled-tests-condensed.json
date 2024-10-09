@@ -211,15 +211,6 @@
       "rocm"
     ]
   ],
-  "test_autograd_cpp_node_saved (__main__.TestCompiledAutograd)": [
-    "131103",
-    "https://github.com/pytorch/pytorch/issues/131103",
-    [
-      "mac",
-      "macos",
-      "linux"
-    ]
-  ],
   "test_autograd_cpp_node_saved_float (__main__.TestCompiledAutograd)": [
     "133197",
     "https://github.com/pytorch/pytorch/issues/133197",
@@ -1626,13 +1617,6 @@
       "linux"
     ]
   ],
-  "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_143_seq_len_k_2048_head_dim_203_is_causal_False_dropout_p_0_0_bfloat16_scale0_enable_gqa_False_n_heads1_cuda_bfloat16 (__main__.TestSDPACudaOnlyCUDA)": [
-    "136095",
-    "https://github.com/pytorch/pytorch/issues/136095",
-    [
-      "rocm"
-    ]
-  ],
   "test_fn_grad_grid_sampler_2d_cuda_float64 (__main__.TestBwdGradientsCUDA)": [
     "131079",
     "https://github.com/pytorch/pytorch/issues/131079",
@@ -2888,13 +2872,6 @@
       "linux"
     ]
   ],
-  "test_scaled_dot_product_attention_4D_input_dim_no_attn_mask_dropout_p_0_5_cuda (__main__.TestTransformersCUDA)": [
-    "131179",
-    "https://github.com/pytorch/pytorch/issues/131179",
-    [
-      "linux"
-    ]
-  ],
   "test_scaled_dot_product_attention_cuda_cuda_wrapper (__main__.TestCudaWrapper)": [
     "115896",
     "https://github.com/pytorch/pytorch/issues/115896",
@@ -2951,13 +2928,6 @@
       "slow",
       "win",
       "windows"
-    ]
-  ],
-  "test_sdp_math_gradcheck_contiguous_inputs_True_cuda (__main__.TestSDPACUDA)": [
-    "131255",
-    "https://github.com/pytorch/pytorch/issues/131255",
-    [
-      "linux"
     ]
   ],
   "test_sdpa_compile_cuda_bfloat16 (__main__.TestNestedTensorSubclassCUDA)": [
