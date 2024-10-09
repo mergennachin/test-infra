@@ -1828,13 +1828,6 @@
       "linux"
     ]
   ],
-  "test_graph_optims_RMSprop_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
-    "136638",
-    "https://github.com/pytorch/pytorch/issues/136638",
-    [
-      "linux"
-    ]
-  ],
   "test_graph_optims_Rprop_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
     "136977",
     "https://github.com/pytorch/pytorch/issues/136977",
@@ -2844,20 +2837,6 @@
       "rocm"
     ]
   ],
-  "test_scaled_dot_product_attention_3D_input_dim_no_attn_mask_dropout_p_0_0_cuda (__main__.TestTransformersCUDA)": [
-    "131086",
-    "https://github.com/pytorch/pytorch/issues/131086",
-    [
-      "linux"
-    ]
-  ],
-  "test_scaled_dot_product_attention_3D_input_dim_no_attn_mask_dropout_p_0_2_cuda (__main__.TestTransformersCUDA)": [
-    "131146",
-    "https://github.com/pytorch/pytorch/issues/131146",
-    [
-      "linux"
-    ]
-  ],
   "test_scaled_dot_product_attention_3D_input_dim_no_attn_mask_dropout_p_0_5_cuda (__main__.TestTransformersCUDA)": [
     "131123",
     "https://github.com/pytorch/pytorch/issues/131123",
@@ -3039,13 +3018,6 @@
   "test_serialized_patterns_up_to_date (__main__.TestPatternMatcher)": [
     "135476",
     "https://github.com/pytorch/pytorch/issues/135476",
-    [
-      "linux"
-    ]
-  ],
-  "test_set_gloo_pg_timeout (__main__.ProcessGroupGlooTest)": [
-    "115740",
-    "https://github.com/pytorch/pytorch/issues/115740",
     [
       "linux"
     ]
