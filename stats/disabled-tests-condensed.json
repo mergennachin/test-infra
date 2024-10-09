@@ -77,6 +77,13 @@
       "linux"
     ]
   ],
+  "test_angle_cpu (__main__.CpuTritonTests)": [
+    "136124",
+    "https://github.com/pytorch/pytorch/issues/136124",
+    [
+      "inductor"
+    ]
+  ],
   "test_aot_autograd_exhaustive_as_strided_scatter_cpu_float32 (__main__.TestEagerFusionOpInfoCPU)": [
     "85879",
     "https://github.com/pytorch/pytorch/issues/85879",
@@ -431,6 +438,13 @@
     "https://github.com/pytorch/pytorch/issues/122715",
     [
       "inductor",
+      "rocm"
+    ]
+  ],
+  "test_comprehensive_fft_ifft_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
+    "127344",
+    "https://github.com/pytorch/pytorch/issues/127344",
+    [
       "rocm"
     ]
   ],
@@ -1813,13 +1827,6 @@
       "linux"
     ]
   ],
-  "test_graph_optims_Adamax_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
-    "136576",
-    "https://github.com/pytorch/pytorch/issues/136576",
-    [
-      "linux"
-    ]
-  ],
   "test_graph_optims_NAdam_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
     "136602",
     "https://github.com/pytorch/pytorch/issues/136602",
@@ -1987,6 +1994,13 @@
     "https://github.com/pytorch/pytorch/issues/115859",
     [
       "rocm"
+    ]
+  ],
+  "test_is_isnot (__main__.TestScript)": [
+    "120694",
+    "https://github.com/pytorch/pytorch/issues/120694",
+    [
+      "dynamo"
     ]
   ],
   "test_jvpvjp_nn_functional_conv3d_cuda_float32 (__main__.TestOperatorsCUDA)": [
@@ -3496,13 +3510,6 @@
   "test_variant_consistency_jit_linalg_lu_factor_ex_cuda_complex64 (__main__.TestJitCUDA)": [
     "86887",
     "https://github.com/pytorch/pytorch/issues/86887",
-    [
-      "linux"
-    ]
-  ],
-  "test_vdd_clamp_cpu (__main__.CpuTests)": [
-    "135328",
-    "https://github.com/pytorch/pytorch/issues/135328",
     [
       "linux"
     ]
