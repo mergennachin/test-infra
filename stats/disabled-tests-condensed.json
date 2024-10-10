@@ -1702,13 +1702,6 @@
       "mac"
     ]
   ],
-  "test_grad_scaler_with_preset_grad_scale_in_place_unscale_False_AdamW_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
-    "135692",
-    "https://github.com/pytorch/pytorch/issues/135692",
-    [
-      "linux"
-    ]
-  ],
   "test_grad_scaler_with_preset_grad_scale_in_place_unscale_False_Adam_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
     "135721",
     "https://github.com/pytorch/pytorch/issues/135721",
@@ -2828,6 +2821,13 @@
     "https://github.com/pytorch/pytorch/issues/126380",
     [
       "rocm"
+    ]
+  ],
+  "test_save_with_without_initializer_include_initializer_no_fake_mode_no_exported_program (__main__.TestFxToOnnx)": [
+    "131423",
+    "https://github.com/pytorch/pytorch/issues/131423",
+    [
+      "linux"
     ]
   ],
   "test_scaled_dot_product_attention_3D_input_dim_no_attn_mask_dropout_p_0_5_cuda (__main__.TestTransformersCUDA)": [
