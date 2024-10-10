@@ -1709,13 +1709,6 @@
       "mac"
     ]
   ],
-  "test_grad_scaler_with_preset_grad_scale_in_place_unscale_False_Adam_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
-    "135721",
-    "https://github.com/pytorch/pytorch/issues/135721",
-    [
-      "linux"
-    ]
-  ],
   "test_grad_scaler_with_preset_grad_scale_in_place_unscale_False_SGD_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
     "135783",
     "https://github.com/pytorch/pytorch/issues/135783",
