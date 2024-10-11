@@ -738,6 +738,18 @@
       "dynamo"
     ]
   ],
+  "test_device_mode_ops_sparse_mm_reduce_cpu_bfloat16 (__main__.TestDeviceUtilsCPU)": [
+    "132494",
+    "https://github.com/pytorch/pytorch/issues/132494",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "win",
+      "windows"
+    ]
+  ],
   "test_device_mode_ops_sparse_mm_reduce_cpu_float16 (__main__.TestDeviceUtilsCPU)": [
     "133827",
     "https://github.com/pytorch/pytorch/issues/133827",
@@ -1462,13 +1474,6 @@
       "linux"
     ]
   ],
-  "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_1024_seq_len_k_1024_head_dim_32_is_causal_True_dropout_p_0_22_bfloat16_scale0_cuda_bfloat16 (__main__.TestSDPACudaOnlyCUDA)": [
-    "131540",
-    "https://github.com/pytorch/pytorch/issues/131540",
-    [
-      "linux"
-    ]
-  ],
   "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_1024_seq_len_k_1024_head_dim_32_is_causal_True_dropout_p_0_48_bfloat16_scale0_cuda_bfloat16 (__main__.TestSDPACudaOnlyCUDA)": [
     "131530",
     "https://github.com/pytorch/pytorch/issues/131530",
@@ -1715,13 +1720,6 @@
     "https://github.com/pytorch/pytorch/issues/70753",
     [
       "mac"
-    ]
-  ],
-  "test_grad_scaler_with_preset_grad_scale_in_place_unscale_True_Adam_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
-    "135881",
-    "https://github.com/pytorch/pytorch/issues/135881",
-    [
-      "linux"
     ]
   ],
   "test_grad_scaler_with_preset_grad_scale_in_place_unscale_True_SGD_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
@@ -2859,14 +2857,6 @@
       "linux",
       "rocm",
       "asan"
-    ]
-  ],
-  "test_scatter_fallback_abi_compatible_cuda (__main__.AOTInductorTestABICompatibleCuda)": [
-    "131627",
-    "https://github.com/pytorch/pytorch/issues/131627",
-    [
-      "inductor",
-      "rocm"
     ]
   ],
   "test_scatter_fallback_non_abi_compatible_cuda (__main__.AOTInductorTestNonABICompatibleCuda)": [
