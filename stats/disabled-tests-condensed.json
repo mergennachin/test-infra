@@ -669,6 +669,11 @@
     "https://github.com/pytorch/pytorch/issues/137761",
     []
   ],
+  "test_ddp_apply_optim_in_backward_grad_as_bucket_view_false (__main__.TestDistBackendWithSpawn)": [
+    "137766",
+    "https://github.com/pytorch/pytorch/issues/137766",
+    []
+  ],
   "test_ddp_apply_optim_in_backward_ignored_params (__main__.TestDistBackendWithSpawn)": [
     "106361",
     "https://github.com/pytorch/pytorch/issues/106361",
@@ -679,6 +684,13 @@
   "test_ddp_build_debug_param_to_name_mapping_requires_grad (__main__.TestDistBackendWithSpawn)": [
     "86588",
     "https://github.com/pytorch/pytorch/issues/86588",
+    [
+      "linux"
+    ]
+  ],
+  "test_ddp_control_flow_different_across_ranks (__main__.TestDistBackendWithSpawn)": [
+    "77992",
+    "https://github.com/pytorch/pytorch/issues/77992",
     [
       "linux"
     ]
@@ -709,6 +721,11 @@
     [
       "linux"
     ]
+  ],
+  "test_ddp_profiling_execution_trace (__main__.TestDistBackendWithSpawn)": [
+    "137765",
+    "https://github.com/pytorch/pytorch/issues/137765",
+    []
   ],
   "test_ddp_unused_params_rebuild_buckets_exception (__main__.TestDistBackendWithSpawn)": [
     "137307",
