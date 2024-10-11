@@ -49,13 +49,6 @@
       "linux"
     ]
   ],
-  "test_all_gather_uneven (__main__.DeviceMeshCollectiveTest)": [
-    "98049",
-    "https://github.com/pytorch/pytorch/issues/98049",
-    [
-      "linux"
-    ]
-  ],
   "test_all_reduce_coalesced_group_min (__main__.TestDistBackendWithSpawn)": [
     "70754",
     "https://github.com/pytorch/pytorch/issues/70754",
@@ -1735,13 +1728,6 @@
     "https://github.com/pytorch/pytorch/issues/70753",
     [
       "mac"
-    ]
-  ],
-  "test_grad_scaler_with_preset_grad_scale_in_place_unscale_True_SGD_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
-    "135925",
-    "https://github.com/pytorch/pytorch/issues/135925",
-    [
-      "linux"
     ]
   ],
   "test_grad_scaling_autocast_cuda (__main__.TestTorchDeviceTypeCUDA)": [
