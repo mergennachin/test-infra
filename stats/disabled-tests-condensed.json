@@ -202,14 +202,6 @@
       "rocm"
     ]
   ],
-  "test_autograd_cpp_node_data_dependent (__main__.TestCompiledAutograd)": [
-    "125579",
-    "https://github.com/pytorch/pytorch/issues/125579",
-    [
-      "linux",
-      "rocm"
-    ]
-  ],
   "test_autograd_cpp_node_saved_float (__main__.TestCompiledAutograd)": [
     "133197",
     "https://github.com/pytorch/pytorch/issues/133197",
@@ -744,18 +736,6 @@
     "https://github.com/pytorch/pytorch/issues/127738",
     [
       "dynamo"
-    ]
-  ],
-  "test_device_mode_ops_sparse_mm_reduce_cpu_bfloat16 (__main__.TestDeviceUtilsCPU)": [
-    "132494",
-    "https://github.com/pytorch/pytorch/issues/132494",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "win",
-      "windows"
     ]
   ],
   "test_device_mode_ops_sparse_mm_reduce_cpu_float16 (__main__.TestDeviceUtilsCPU)": [
@@ -1737,13 +1717,6 @@
       "mac"
     ]
   ],
-  "test_grad_scaler_with_preset_grad_scale_in_place_unscale_True_AdamW_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
-    "135829",
-    "https://github.com/pytorch/pytorch/issues/135829",
-    [
-      "linux"
-    ]
-  ],
   "test_grad_scaler_with_preset_grad_scale_in_place_unscale_True_Adam_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
     "135881",
     "https://github.com/pytorch/pytorch/issues/135881",
@@ -2534,13 +2507,6 @@
   "test_pinned_memory_empty_cache (__main__.TestCuda)": [
     "136687",
     "https://github.com/pytorch/pytorch/issues/136687",
-    [
-      "rocm"
-    ]
-  ],
-  "test_pointwise_bessel_y1_cuda (__main__.GPUTests)": [
-    "127756",
-    "https://github.com/pytorch/pytorch/issues/127756",
     [
       "rocm"
     ]
