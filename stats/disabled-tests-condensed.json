@@ -42,6 +42,13 @@
       "slow"
     ]
   ],
+  "test_all_gather_object_subgroup (__main__.TestDistBackendWithSpawn)": [
+    "98508",
+    "https://github.com/pytorch/pytorch/issues/98508",
+    [
+      "linux"
+    ]
+  ],
   "test_all_gather_uneven (__main__.DeviceMeshCollectiveTest)": [
     "98049",
     "https://github.com/pytorch/pytorch/issues/98049",
@@ -254,6 +261,13 @@
   "test_backward_ddp_outside_uneven_inputs (__main__.TensorPipeDdpUnderDistAutogradTest)": [
     "104011",
     "https://github.com/pytorch/pytorch/issues/104011",
+    [
+      "linux"
+    ]
+  ],
+  "test_barrier_group_cuda (__main__.TestDistBackendWithSpawn)": [
+    "137751",
+    "https://github.com/pytorch/pytorch/issues/137751",
     [
       "linux"
     ]
