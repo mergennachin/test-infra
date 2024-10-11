@@ -664,6 +664,11 @@
       "linux"
     ]
   ],
+  "test_ddp_apply_optim_in_backward (__main__.TestDistBackendWithSpawn)": [
+    "137761",
+    "https://github.com/pytorch/pytorch/issues/137761",
+    []
+  ],
   "test_ddp_apply_optim_in_backward_ignored_params (__main__.TestDistBackendWithSpawn)": [
     "106361",
     "https://github.com/pytorch/pytorch/issues/106361",
