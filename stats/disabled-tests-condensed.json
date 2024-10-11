@@ -145,13 +145,6 @@
     "https://github.com/pytorch/pytorch/issues/106440",
     []
   ],
-  "test_arange2_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
-    "127343",
-    "https://github.com/pytorch/pytorch/issues/127343",
-    [
-      "rocm"
-    ]
-  ],
   "test_assigning_back_deleter_fns_to_tensor (__main__.TestBlockStateAbsorption)": [
     "134810",
     "https://github.com/pytorch/pytorch/issues/134810",
