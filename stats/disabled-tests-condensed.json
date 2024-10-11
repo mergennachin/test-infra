@@ -115,6 +115,14 @@
       "slow"
     ]
   ],
+  "test_aot_export_cond_simple_cuda_float32 (__main__.TestHOPCUDA)": [
+    "123096",
+    "https://github.com/pytorch/pytorch/issues/123096",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_aot_export_cond_simple_cuda_int32 (__main__.TestHOPCUDA)": [
     "123194",
     "https://github.com/pytorch/pytorch/issues/123194",
