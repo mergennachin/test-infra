@@ -479,13 +479,6 @@
       "inductor"
     ]
   ],
-  "test_comprehensive_special_scaled_modified_bessel_k0_cuda_int32 (__main__.TestInductorOpInfoCUDA)": [
-    "136520",
-    "https://github.com/pytorch/pytorch/issues/136520",
-    [
-      "rocm"
-    ]
-  ],
   "test_constant_abi_compatible_cuda (__main__.AOTInductorTestABICompatibleCuda)": [
     "137579",
     "https://github.com/pytorch/pytorch/issues/137579",
