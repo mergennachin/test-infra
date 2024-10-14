@@ -1800,13 +1800,6 @@
       "linux"
     ]
   ],
-  "test_graph_optims_Rprop_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
-    "136977",
-    "https://github.com/pytorch/pytorch/issues/136977",
-    [
-      "linux"
-    ]
-  ],
   "test_graph_scaling_fused_optimizers_AdamW_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
     "137066",
     "https://github.com/pytorch/pytorch/issues/137066",
