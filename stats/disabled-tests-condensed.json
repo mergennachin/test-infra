@@ -400,6 +400,14 @@
       "inductor"
     ]
   ],
+  "test_comprehensive__unsafe_masked_index_cuda_bool (__main__.TestInductorOpInfoCUDA)": [
+    "131748",
+    "https://github.com/pytorch/pytorch/issues/131748",
+    [
+      "rocm",
+      "inductor"
+    ]
+  ],
   "test_comprehensive_empty_strided_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
     "102033",
     "https://github.com/pytorch/pytorch/issues/102033",
@@ -1919,6 +1927,14 @@
       "windows"
     ]
   ],
+  "test_kineto_profiler_with_environment_variable (__main__.TestProfiler)": [
+    "107383",
+    "https://github.com/pytorch/pytorch/issues/107383",
+    [
+      "rocm",
+      "dynamo"
+    ]
+  ],
   "test_large_block_sizes_cuda (__main__.CudaTests)": [
     "117810",
     "https://github.com/pytorch/pytorch/issues/117810",
@@ -2363,6 +2379,15 @@
       "rocm"
     ]
   ],
+  "test_open_device_registration (__main__.ExtensionBackendTests)": [
+    "137027",
+    "https://github.com/pytorch/pytorch/issues/137027",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_open_device_registration (__main__.TestCppExtensionOpenRgistration)": [
     "100152",
     "https://github.com/pytorch/pytorch/issues/100152",
@@ -2374,6 +2399,16 @@
       "dynamo",
       "mac",
       "macos"
+    ]
+  ],
+  "test_open_device_registration (__main__.TritonExtensionBackendTests)": [
+    "136125",
+    "https://github.com/pytorch/pytorch/issues/136125",
+    [
+      "asan",
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_optional_list (test_jit.TestScript)": [
@@ -3156,14 +3191,6 @@
     "135212",
     "https://github.com/pytorch/pytorch/issues/135212",
     [
-      "linux"
-    ]
-  ],
-  "test_to_non_blocking (__main__.TestCuda)": [
-    "94967",
-    "https://github.com/pytorch/pytorch/issues/94967",
-    [
-      "rocm",
       "linux"
     ]
   ],
