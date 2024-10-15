@@ -1785,13 +1785,6 @@
       "rocm"
     ]
   ],
-  "test_graph_grad_scaling_foreach_False_fused_False_SGD_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
-    "136176",
-    "https://github.com/pytorch/pytorch/issues/136176",
-    [
-      "linux"
-    ]
-  ],
   "test_graph_grad_scaling_foreach_False_fused_True_AdamW_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
     "136230",
     "https://github.com/pytorch/pytorch/issues/136230",
