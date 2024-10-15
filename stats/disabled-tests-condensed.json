@@ -145,6 +145,13 @@
     "https://github.com/pytorch/pytorch/issues/106440",
     []
   ],
+  "test_arange2_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
+    "127343",
+    "https://github.com/pytorch/pytorch/issues/127343",
+    [
+      "rocm"
+    ]
+  ],
   "test_assigning_back_deleter_fns_to_tensor (__main__.TestBlockStateAbsorption)": [
     "134810",
     "https://github.com/pytorch/pytorch/issues/134810",
@@ -1658,6 +1665,13 @@
     "https://github.com/pytorch/pytorch/issues/91467",
     [
       "dynamo"
+    ]
+  ],
+  "test_fsdp_unsupported_module_cls (__main__.TestFSDPMiscMultiThread)": [
+    "137948",
+    "https://github.com/pytorch/pytorch/issues/137948",
+    [
+      "linux"
     ]
   ],
   "test_fully_shard_post_optim_event_overlap (__main__.TestFullyShardOverlap)": [
