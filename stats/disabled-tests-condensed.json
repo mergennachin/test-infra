@@ -227,16 +227,6 @@
       "macos"
     ]
   ],
-  "test_autograd_function_backed_op (__main__.TestCustomOp)": [
-    "132115",
-    "https://github.com/pytorch/pytorch/issues/132115",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos"
-    ]
-  ],
   "test_autograd_function_backed_op (__main__.TestCustomOpWithCompiledAutograd)": [
     "121342",
     "https://github.com/pytorch/pytorch/issues/121342",
@@ -1792,13 +1782,6 @@
       "linux"
     ]
   ],
-  "test_graph_scaling_fused_optimizers_Adam_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
-    "137083",
-    "https://github.com/pytorch/pytorch/issues/137083",
-    [
-      "linux"
-    ]
-  ],
   "test_graph_scaling_fused_optimizers_SGD_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
     "137113",
     "https://github.com/pytorch/pytorch/issues/137113",
@@ -2522,15 +2505,6 @@
     "https://github.com/pytorch/pytorch/issues/84886",
     [
       "linux"
-    ]
-  ],
-  "test_pre_dispatch_export_auto_functionalize_simple_cuda_float32 (__main__.TestHOPCUDA)": [
-    "123267",
-    "https://github.com/pytorch/pytorch/issues/123267",
-    [
-      "linux",
-      "slow",
-      "rocm"
     ]
   ],
   "test_pre_dispatch_export_cond_simple_cuda_float32 (__main__.TestHOPCUDA)": [
