@@ -726,6 +726,11 @@
     "https://github.com/pytorch/pytorch/issues/137307",
     []
   ],
+  "test_ddp_update_process_group_new_group (__main__.TestDistBackendWithSpawn)": [
+    "137971",
+    "https://github.com/pytorch/pytorch/issues/137971",
+    []
+  ],
   "test_decoder_padding_and_src_mask_bool_cpu (__main__.TestTransformersCPU)": [
     "101787",
     "https://github.com/pytorch/pytorch/issues/101787",
