@@ -792,14 +792,6 @@
       "windows"
     ]
   ],
-  "test_device_mode_ops_sparse_sampled_addmm_cpu_complex128 (__main__.TestDeviceUtilsCPU)": [
-    "132643",
-    "https://github.com/pytorch/pytorch/issues/132643",
-    [
-      "asan",
-      "linux"
-    ]
-  ],
   "test_device_mode_ops_sparse_sampled_addmm_cpu_complex64 (__main__.TestDeviceUtilsCPU)": [
     "132686",
     "https://github.com/pytorch/pytorch/issues/132686",
@@ -2837,6 +2829,14 @@
       "linux",
       "rocm",
       "asan"
+    ]
+  ],
+  "test_scatter_fallback_abi_compatible_cuda (__main__.AOTInductorTestABICompatibleCuda)": [
+    "131627",
+    "https://github.com/pytorch/pytorch/issues/131627",
+    [
+      "inductor",
+      "rocm"
     ]
   ],
   "test_scatter_fallback_non_abi_compatible_cuda (__main__.AOTInductorTestNonABICompatibleCuda)": [
