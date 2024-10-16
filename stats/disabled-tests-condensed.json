@@ -780,18 +780,6 @@
       "windows"
     ]
   ],
-  "test_device_mode_ops_sparse_mm_reduce_cpu_float64 (__main__.TestDeviceUtilsCPU)": [
-    "132619",
-    "https://github.com/pytorch/pytorch/issues/132619",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "win",
-      "windows"
-    ]
-  ],
   "test_device_mode_ops_sparse_sampled_addmm_cpu_complex128 (__main__.TestDeviceUtilsCPU)": [
     "132643",
     "https://github.com/pytorch/pytorch/issues/132643",
@@ -889,13 +877,6 @@
       "linux"
     ]
   ],
-  "test_dunder_new_function_inlining1 (__main__.MiscTests)": [
-    "137166",
-    "https://github.com/pytorch/pytorch/issues/137166",
-    [
-      "linux"
-    ]
-  ],
   "test_dunder_round_edgecases_val_2147483647_ndigits_-1 (__main__.TestNonarrayArgs)": [
     "116121",
     "https://github.com/pytorch/pytorch/issues/116121",
@@ -909,6 +890,13 @@
     [
       "windows",
       "rocm"
+    ]
+  ],
+  "test_dynamo_export_retains_readable_parameter_and_buffer_names (__main__.TestFxToOnnx)": [
+    "138064",
+    "https://github.com/pytorch/pytorch/issues/138064",
+    [
+      "linux"
     ]
   ],
   "test_embedding_bag_cpu (__main__.CpuTests)": [
@@ -1782,13 +1770,6 @@
     "https://github.com/pytorch/pytorch/issues/104055",
     [
       "rocm"
-    ]
-  ],
-  "test_graph_grad_scaling_foreach_False_fused_True_AdamW_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
-    "136230",
-    "https://github.com/pytorch/pytorch/issues/136230",
-    [
-      "linux"
     ]
   ],
   "test_graph_scaling_fused_optimizers_SGD_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
