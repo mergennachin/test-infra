@@ -706,11 +706,6 @@
     "https://github.com/pytorch/pytorch/issues/137765",
     []
   ],
-  "test_ddp_tp (__main__.DDP_TP_Test)": [
-    "138144",
-    "https://github.com/pytorch/pytorch/issues/138144",
-    []
-  ],
   "test_ddp_unused_params_rebuild_buckets_exception (__main__.TestDistBackendWithSpawn)": [
     "137307",
     "https://github.com/pytorch/pytorch/issues/137307",
