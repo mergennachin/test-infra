@@ -387,16 +387,6 @@
       "rocm"
     ]
   ],
-  "test_compile_backward_only (__main__.ReplicateTest)": [
-    "138146",
-    "https://github.com/pytorch/pytorch/issues/138146",
-    []
-  ],
-  "test_compile_bf16 (__main__.ReplicateTest)": [
-    "138145",
-    "https://github.com/pytorch/pytorch/issues/138145",
-    []
-  ],
   "test_complex_half_reference_testing_as_strided_scatter_cuda_complex32 (__main__.TestCommonCUDA)": [
     "78205",
     "https://github.com/pytorch/pytorch/issues/78205",
@@ -728,11 +718,6 @@
   "test_ddp_profiling_execution_trace (__main__.TestDistBackendWithSpawn)": [
     "137765",
     "https://github.com/pytorch/pytorch/issues/137765",
-    []
-  ],
-  "test_ddp_tp (__main__.DDP_TP_Test)": [
-    "138144",
-    "https://github.com/pytorch/pytorch/issues/138144",
     []
   ],
   "test_ddp_unused_params_rebuild_buckets_exception (__main__.TestDistBackendWithSpawn)": [
@@ -2277,26 +2262,6 @@
       "rocm"
     ]
   ],
-  "test_nested_fully_shard_backend_aot_eager (__main__.TestFullyShardCompile)": [
-    "138158",
-    "https://github.com/pytorch/pytorch/issues/138158",
-    []
-  ],
-  "test_nested_fully_shard_backend_aot_eager_decomp_partition (__main__.TestFullyShardCompile)": [
-    "138159",
-    "https://github.com/pytorch/pytorch/issues/138159",
-    []
-  ],
-  "test_nested_fully_shard_backend_inductor_fullgraph_False (__main__.TestFullyShardCompile)": [
-    "138160",
-    "https://github.com/pytorch/pytorch/issues/138160",
-    []
-  ],
-  "test_nested_fully_shard_backend_inductor_fullgraph_True (__main__.TestFullyShardCompile)": [
-    "138161",
-    "https://github.com/pytorch/pytorch/issues/138161",
-    []
-  ],
   "test_new_spectral_norm_forward_swap_True (__main__.TestNNParametrization)": [
     "131089",
     "https://github.com/pytorch/pytorch/issues/131089",
@@ -3010,11 +2975,6 @@
       "rocm"
     ]
   ],
-  "test_simple_mlp_fullgraph_backend_aot_eager (__main__.TestFullyShardCompile)": [
-    "138162",
-    "https://github.com/pytorch/pytorch/issues/138162",
-    []
-  ],
   "test_single_linear (quantization.jit.test_quantize_jit.TestQuantizeJit)": [
     "105121",
     "https://github.com/pytorch/pytorch/issues/105121",
@@ -3315,11 +3275,6 @@
     [
       "rocm"
     ]
-  ],
-  "test_transformer_backend_inductor_fullgraph_True (__main__.TestFullyShardCompile)": [
-    "138147",
-    "https://github.com/pytorch/pytorch/issues/138147",
-    []
   ],
   "test_transformer_runtime (__main__.TestRuntimeEstimator)": [
     "134824",
