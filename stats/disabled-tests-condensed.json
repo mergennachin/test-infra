@@ -2292,6 +2292,26 @@
       "rocm"
     ]
   ],
+  "test_nested_fully_shard_backend_aot_eager (__main__.TestFullyShardCompile)": [
+    "138158",
+    "https://github.com/pytorch/pytorch/issues/138158",
+    []
+  ],
+  "test_nested_fully_shard_backend_aot_eager_decomp_partition (__main__.TestFullyShardCompile)": [
+    "138159",
+    "https://github.com/pytorch/pytorch/issues/138159",
+    []
+  ],
+  "test_nested_fully_shard_backend_inductor_fullgraph_False (__main__.TestFullyShardCompile)": [
+    "138160",
+    "https://github.com/pytorch/pytorch/issues/138160",
+    []
+  ],
+  "test_nested_fully_shard_backend_inductor_fullgraph_True (__main__.TestFullyShardCompile)": [
+    "138161",
+    "https://github.com/pytorch/pytorch/issues/138161",
+    []
+  ],
   "test_new_spectral_norm_forward_swap_True (__main__.TestNNParametrization)": [
     "131089",
     "https://github.com/pytorch/pytorch/issues/131089",
@@ -3004,6 +3024,11 @@
     [
       "rocm"
     ]
+  ],
+  "test_simple_mlp_fullgraph_backend_aot_eager (__main__.TestFullyShardCompile)": [
+    "138162",
+    "https://github.com/pytorch/pytorch/issues/138162",
+    []
   ],
   "test_single_linear (quantization.jit.test_quantize_jit.TestQuantizeJit)": [
     "105121",
