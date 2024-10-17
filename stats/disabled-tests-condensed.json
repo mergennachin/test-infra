@@ -674,13 +674,6 @@
       "linux"
     ]
   ],
-  "test_ddp_build_debug_param_to_name_mapping_requires_grad (__main__.TestDistBackendWithSpawn)": [
-    "86588",
-    "https://github.com/pytorch/pytorch/issues/86588",
-    [
-      "linux"
-    ]
-  ],
   "test_ddp_control_flow_different_across_ranks (__main__.TestDistBackendWithSpawn)": [
     "77992",
     "https://github.com/pytorch/pytorch/issues/77992",
@@ -700,13 +693,6 @@
     "137272",
     "https://github.com/pytorch/pytorch/issues/137272",
     []
-  ],
-  "test_ddp_multiple_nested_unused_params_error (__main__.TestDistBackendWithSpawn)": [
-    "86476",
-    "https://github.com/pytorch/pytorch/issues/86476",
-    [
-      "linux"
-    ]
   ],
   "test_ddp_profiling_autograd_profiler (__main__.TestDistBackendWithSpawn)": [
     "77342",
@@ -795,14 +781,6 @@
   "test_device_mode_ops_sparse_sampled_addmm_cpu_float32 (__main__.TestDeviceUtilsCPU)": [
     "132720",
     "https://github.com/pytorch/pytorch/issues/132720",
-    [
-      "asan",
-      "linux"
-    ]
-  ],
-  "test_device_mode_ops_sparse_sampled_addmm_cpu_float64 (__main__.TestDeviceUtilsCPU)": [
-    "132737",
-    "https://github.com/pytorch/pytorch/issues/132737",
     [
       "asan",
       "linux"
@@ -1963,14 +1941,6 @@
       "rocm"
     ]
   ],
-  "test_load_from_view_buffer (__main__.TestFlexAttention)": [
-    "137258",
-    "https://github.com/pytorch/pytorch/issues/137258",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_lobpcg (__main__.TestAutograd)": [
     "80338",
     "https://github.com/pytorch/pytorch/issues/80338",
@@ -2163,17 +2133,6 @@
     [
       "linux",
       "rocm",
-      "slow"
-    ]
-  ],
-  "test_memory_snapshot_script (__main__.TestCudaMallocAsync)": [
-    "137250",
-    "https://github.com/pytorch/pytorch/issues/137250",
-    [
-      "linux",
-      "rocm",
-      "win",
-      "windows",
       "slow"
     ]
   ],
@@ -2398,20 +2357,6 @@
   "test_output_match_nn_functional_poisson_nll_loss_cpu_int32 (__main__.TORCH_NN_MODULECPU)": [
     "122389",
     "https://github.com/pytorch/pytorch/issues/122389",
-    [
-      "linux"
-    ]
-  ],
-  "test_output_unused_in_loss_dict_module (__main__.TestDistBackendWithSpawn)": [
-    "78112",
-    "https://github.com/pytorch/pytorch/issues/78112",
-    [
-      "linux"
-    ]
-  ],
-  "test_output_unused_in_loss_tuple_module (__main__.TestDistBackendWithSpawn)": [
-    "78768",
-    "https://github.com/pytorch/pytorch/issues/78768",
     [
       "linux"
     ]
