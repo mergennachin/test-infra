@@ -175,13 +175,6 @@
       "windows"
     ]
   ],
-  "test_autocast_linalg_fp16 (__main__.TestCudaAutocast)": [
-    "135290",
-    "https://github.com/pytorch/pytorch/issues/135290",
-    [
-      "linux"
-    ]
-  ],
   "test_autocast_methods_expect_builtin_promote (__main__.TestCudaAutocast)": [
     "135325",
     "https://github.com/pytorch/pytorch/issues/135325",
@@ -3140,13 +3133,6 @@
     "https://github.com/pytorch/pytorch/issues/121876",
     [
       "dynamo"
-    ]
-  ],
-  "test_torchvision_transforms_functional_tensor_resize_abi_compatible_cuda (__main__.AOTInductorTestABICompatibleCuda)": [
-    "137152",
-    "https://github.com/pytorch/pytorch/issues/137152",
-    [
-      "linux"
     ]
   ],
   "test_torchvision_transforms_functional_tensor_resize_non_abi_compatible_cuda (__main__.AOTInductorTestNonABICompatibleCuda)": [
