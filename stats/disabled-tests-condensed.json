@@ -2177,14 +2177,6 @@
       "slow"
     ]
   ],
-  "test_memory_snapshot_with_cpp (__main__.TestCudaMallocAsync)": [
-    "137249",
-    "https://github.com/pytorch/pytorch/issues/137249",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_merge_liveness (jit.test_freezing.TestMKLDNNReinplacing)": [
     "91481",
     "https://github.com/pytorch/pytorch/issues/91481",
