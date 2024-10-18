@@ -204,6 +204,13 @@
       "rocm"
     ]
   ],
+  "test_autograd_cpp_node_id (__main__.TestCompiledAutograd)": [
+    "138294",
+    "https://github.com/pytorch/pytorch/issues/138294",
+    [
+      "linux"
+    ]
+  ],
   "test_autograd_cpp_node_saved_float (__main__.TestCompiledAutograd)": [
     "133197",
     "https://github.com/pytorch/pytorch/issues/133197",
@@ -226,7 +233,8 @@
     "https://github.com/pytorch/pytorch/issues/121342",
     [
       "mac",
-      "macos"
+      "macos",
+      "linux"
     ]
   ],
   "test_backward_ddp_inside (__main__.TensorPipeDdpUnderDistAutogradTest)": [
