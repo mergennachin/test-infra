@@ -211,6 +211,15 @@
       "linux"
     ]
   ],
+  "test_autograd_cpp_node_saved (__main__.TestCompiledAutograd)": [
+    "131103",
+    "https://github.com/pytorch/pytorch/issues/131103",
+    [
+      "mac",
+      "macos",
+      "linux"
+    ]
+  ],
   "test_autograd_cpp_node_saved_float (__main__.TestCompiledAutograd)": [
     "133197",
     "https://github.com/pytorch/pytorch/issues/133197",
@@ -741,18 +750,6 @@
   "test_device_mode_ops_sparse_mm_reduce_cpu_bfloat16 (__main__.TestDeviceUtilsCPU)": [
     "132494",
     "https://github.com/pytorch/pytorch/issues/132494",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "win",
-      "windows"
-    ]
-  ],
-  "test_device_mode_ops_sparse_mm_reduce_cpu_float16 (__main__.TestDeviceUtilsCPU)": [
-    "133827",
-    "https://github.com/pytorch/pytorch/issues/133827",
     [
       "asan",
       "linux",
@@ -3114,14 +3111,6 @@
     "https://github.com/pytorch/pytorch/issues/70546",
     [
       "mac"
-    ]
-  ],
-  "test_tiny_half_norm_ (__main__.TestCuda)": [
-    "94897",
-    "https://github.com/pytorch/pytorch/issues/94897",
-    [
-      "rocm",
-      "linux"
     ]
   ],
   "test_tmp_not_defined_issue2_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
