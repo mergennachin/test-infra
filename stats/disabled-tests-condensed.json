@@ -175,13 +175,6 @@
       "windows"
     ]
   ],
-  "test_autocast_methods_expect_builtin_promote (__main__.TestCudaAutocast)": [
-    "135325",
-    "https://github.com/pytorch/pytorch/issues/135325",
-    [
-      "linux"
-    ]
-  ],
   "test_autocast_methods_fp16 (__main__.TestCudaAutocast)": [
     "135351",
     "https://github.com/pytorch/pytorch/issues/135351",
@@ -2180,6 +2173,13 @@
       "rocm"
     ]
   ],
+  "test_memory_stats_multigpu (__main__.TestCudaMultiGPU)": [
+    "129860",
+    "https://github.com/pytorch/pytorch/issues/129860",
+    [
+      "linux"
+    ]
+  ],
   "test_merge_liveness (jit.test_freezing.TestMKLDNNReinplacing)": [
     "91481",
     "https://github.com/pytorch/pytorch/issues/91481",
@@ -3137,13 +3137,6 @@
     "https://github.com/pytorch/pytorch/issues/70546",
     [
       "mac"
-    ]
-  ],
-  "test_tmp_not_defined_issue2_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
-    "135212",
-    "https://github.com/pytorch/pytorch/issues/135212",
-    [
-      "linux"
     ]
   ],
   "test_torch_manual_seed_seeds_cuda_devices (__main__.TestCuda)": [
