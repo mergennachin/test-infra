@@ -2224,6 +2224,13 @@
       "linux"
     ]
   ],
+  "test_multi_grad_all_hooks (__main__.TestAutograd)": [
+    "138316",
+    "https://github.com/pytorch/pytorch/issues/138316",
+    [
+      "linux"
+    ]
+  ],
   "test_nccl_errors_dump (__main__.NcclErrorDumpTest)": [
     "123530",
     "https://github.com/pytorch/pytorch/issues/123530",
