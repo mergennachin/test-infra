@@ -159,6 +159,13 @@
       "linux"
     ]
   ],
+  "test_async_compile (__main__.TestCUDACodeCache)": [
+    "138342",
+    "https://github.com/pytorch/pytorch/issues/138342",
+    [
+      "linux"
+    ]
+  ],
   "test_attention_vs_linear (__main__.MemoryBudgetTest)": [
     "128217",
     "https://github.com/pytorch/pytorch/issues/128217",
@@ -630,6 +637,13 @@
     [
       "linux",
       "slow"
+    ]
+  ],
+  "test_cuda_load (__main__.TestCUDACodeCache)": [
+    "138343",
+    "https://github.com/pytorch/pytorch/issues/138343",
+    [
+      "linux"
     ]
   ],
   "test_cuda_memory_leak_detection (__main__.TestCudaMultiGPU)": [
