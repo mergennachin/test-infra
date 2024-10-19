@@ -1666,6 +1666,11 @@
       "linux"
     ]
   ],
+  "test_get_future_result (__main__.NcclErrorHandlingTest)": [
+    "138397",
+    "https://github.com/pytorch/pytorch/issues/138397",
+    []
+  ],
   "test_gpu_simple (__main__.TensorPipeCudaDistAutogradTest)": [
     "70753",
     "https://github.com/pytorch/pytorch/issues/70753",
