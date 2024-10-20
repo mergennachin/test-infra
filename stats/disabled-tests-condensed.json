@@ -849,6 +849,13 @@
       "linux"
     ]
   ],
+  "test_dynamo_trace_use_training_state (__main__.TestFullyShardCompile)": [
+    "138409",
+    "https://github.com/pytorch/pytorch/issues/138409",
+    [
+      "rocm"
+    ]
+  ],
   "test_embedding_bag_cpu (__main__.CpuTests)": [
     "135457",
     "https://github.com/pytorch/pytorch/issues/135457",
