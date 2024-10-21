@@ -124,6 +124,15 @@
       "slow"
     ]
   ],
+  "test_aot_export_while_loop_simple_cuda_float32 (__main__.TestHOPCUDA)": [
+    "123948",
+    "https://github.com/pytorch/pytorch/issues/123948",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_aot_module_simplified_fake_tensor_gm_raises (__main__.TestAOTModuleSimplified)": [
     "124590",
     "https://github.com/pytorch/pytorch/issues/124590",
@@ -859,13 +868,6 @@
   "test_embedding_bag_cpu (__main__.CpuTests)": [
     "135457",
     "https://github.com/pytorch/pytorch/issues/135457",
-    [
-      "linux"
-    ]
-  ],
-  "test_embedding_bag_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "135215",
-    "https://github.com/pytorch/pytorch/issues/135215",
     [
       "linux"
     ]
@@ -2478,13 +2480,13 @@
       "rocm"
     ]
   ],
-  "test_pre_dispatch_export_cond_simple_cuda_float32 (__main__.TestHOPCUDA)": [
-    "123352",
-    "https://github.com/pytorch/pytorch/issues/123352",
+  "test_pre_dispatch_export_while_loop_simple_cuda_float32 (__main__.TestHOPCUDA)": [
+    "123943",
+    "https://github.com/pytorch/pytorch/issues/123943",
     [
       "linux",
-      "slow",
-      "rocm"
+      "rocm",
+      "slow"
     ]
   ],
   "test_precompilations (__main__.TestMaxAutotune)": [
@@ -2706,13 +2708,13 @@
       "slow"
     ]
   ],
-  "test_retrace_export_cond_simple_cuda_float32 (__main__.TestHOPCUDA)": [
-    "123564",
-    "https://github.com/pytorch/pytorch/issues/123564",
+  "test_retrace_export_while_loop_simple_cuda_float32 (__main__.TestHOPCUDA)": [
+    "123944",
+    "https://github.com/pytorch/pytorch/issues/123944",
     [
       "linux",
-      "slow",
-      "rocm"
+      "rocm",
+      "slow"
     ]
   ],
   "test_retracibility_dynamic_shapes (__main__.DynamicShapesExportTests)": [
@@ -2893,13 +2895,13 @@
       "rocm"
     ]
   ],
-  "test_serialize_export_cond_simple_cuda_float32 (__main__.TestHOPCUDA)": [
-    "123727",
-    "https://github.com/pytorch/pytorch/issues/123727",
+  "test_serialize_export_while_loop_simple_cuda_float32 (__main__.TestHOPCUDA)": [
+    "123946",
+    "https://github.com/pytorch/pytorch/issues/123946",
     [
       "linux",
-      "slow",
-      "rocm"
+      "rocm",
+      "slow"
     ]
   ],
   "test_serialized_patterns_up_to_date (__main__.TestPatternMatcher)": [
