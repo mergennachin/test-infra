@@ -877,6 +877,13 @@
       "linux"
     ]
   ],
+  "test_embedding_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "135250",
+    "https://github.com/pytorch/pytorch/issues/135250",
+    [
+      "linux"
+    ]
+  ],
   "test_execution_trace_with_kineto (__main__.TestExecutionTrace)": [
     "123536",
     "https://github.com/pytorch/pytorch/issues/123536",
@@ -1672,11 +1679,6 @@
     [
       "linux"
     ]
-  ],
-  "test_get_future_result (__main__.NcclErrorHandlingTest)": [
-    "138397",
-    "https://github.com/pytorch/pytorch/issues/138397",
-    []
   ],
   "test_gpu_simple (__main__.TensorPipeCudaDistAutogradTest)": [
     "70753",
@@ -3128,14 +3130,6 @@
     "https://github.com/pytorch/pytorch/issues/121876",
     [
       "dynamo"
-    ]
-  ],
-  "test_torchvision_transforms_functional_tensor_resize_non_abi_compatible_cuda (__main__.AOTInductorTestNonABICompatibleCuda)": [
-    "137071",
-    "https://github.com/pytorch/pytorch/issues/137071",
-    [
-      "linux",
-      "slow"
     ]
   ],
   "test_tp_transform_with_uncovered_op (__main__.TensorParallelTest)": [
