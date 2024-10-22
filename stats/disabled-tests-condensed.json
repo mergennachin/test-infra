@@ -1626,6 +1626,14 @@
       "linux"
     ]
   ],
+  "test_full_dtype (__main__.TestFull)": [
+    "138574",
+    "https://github.com/pytorch/pytorch/issues/138574",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_fully_shard_post_optim_event_overlap (__main__.TestFullyShardOverlap)": [
     "131081",
     "https://github.com/pytorch/pytorch/issues/131081",
@@ -3113,13 +3121,6 @@
     "https://github.com/pytorch/pytorch/issues/91497",
     [
       "linux"
-    ]
-  ],
-  "test_tensor_subclasses (__main__.TestScript)": [
-    "119949",
-    "https://github.com/pytorch/pytorch/issues/119949",
-    [
-      "dynamo"
     ]
   ],
   "test_tensorboard_trace_handler (__main__.TestProfiler)": [
