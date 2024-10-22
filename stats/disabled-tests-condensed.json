@@ -2984,6 +2984,58 @@
       "macos"
     ]
   ],
+  "test_source_multithreaded_close_in_scope_work_in_main_thread_False (__main__.TestProfiler)": [
+    "119364",
+    "https://github.com/pytorch/pytorch/issues/119364",
+    [
+      "asan",
+      "dynamo",
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_source_multithreaded_complex_work_in_main_thread_False (__main__.TestProfiler)": [
+    "119490",
+    "https://github.com/pytorch/pytorch/issues/119490",
+    [
+      "dynamo",
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_source_multithreaded_multiple_preexisting_work_in_main_thread_False (__main__.TestProfiler)": [
+    "119526",
+    "https://github.com/pytorch/pytorch/issues/119526",
+    [
+      "dynamo",
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "slow",
+      "asan"
+    ]
+  ],
+  "test_source_multithreaded_open_in_scope_work_in_main_thread_False (__main__.TestProfiler)": [
+    "119537",
+    "https://github.com/pytorch/pytorch/issues/119537",
+    [
+      "dynamo",
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "slow",
+      "asan"
+    ]
+  ],
   "test_split_scan (__main__.TestKernelBenchmark)": [
     "133228",
     "https://github.com/pytorch/pytorch/issues/133228",
