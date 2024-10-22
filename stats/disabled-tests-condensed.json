@@ -2402,6 +2402,20 @@
       "linux"
     ]
   ],
+  "test_pattern_matcher_multi_user_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
+    "134432",
+    "https://github.com/pytorch/pytorch/issues/134432",
+    [
+      "linux"
+    ]
+  ],
+  "test_pattern_matcher_multi_user_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "134433",
+    "https://github.com/pytorch/pytorch/issues/134433",
+    [
+      "linux"
+    ]
+  ],
   "test_pcontext_wait_on_a_child_thread (__main__.StartProcessesAsFuncTest)": [
     "136164",
     "https://github.com/pytorch/pytorch/issues/136164",
@@ -3288,6 +3302,61 @@
       "mac"
     ]
   ],
+  "test_unbacked_bindings_for_divisible_u_symint (__main__.TestExport)": [
+    "138586",
+    "https://github.com/pytorch/pytorch/issues/138586",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm"
+    ]
+  ],
+  "test_unbacked_bindings_for_divisible_u_symint_non_strict (__main__.NonStrictExportTestExport)": [
+    "138585",
+    "https://github.com/pytorch/pytorch/issues/138585",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm"
+    ]
+  ],
+  "test_unbacked_bindings_for_divisible_u_symint_retraceability (__main__.RetraceExportTestExport)": [
+    "138584",
+    "https://github.com/pytorch/pytorch/issues/138584",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm"
+    ]
+  ],
+  "test_unbacked_bindings_for_divisible_u_symint_training_ir_to_decomp (__main__.TrainingIRToRunDecompExportTestExport)": [
+    "138583",
+    "https://github.com/pytorch/pytorch/issues/138583",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm"
+    ]
+  ],
+  "test_unbacked_bindings_for_divisible_u_symint_training_ir_to_decomp_non_strict (__main__.TrainingIRToRunDecompExportNonStrictTestExport)": [
+    "138582",
+    "https://github.com/pytorch/pytorch/issues/138582",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm"
+    ]
+  ],
   "test_variant_consistency_eager_nn_functional_conv3d_cuda_complex64 (__main__.TestCommonCUDA)": [
     "114592",
     "https://github.com/pytorch/pytorch/issues/114592",
@@ -3337,13 +3406,6 @@
   "test_variant_consistency_jit_linalg_lu_factor_ex_cuda_complex64 (__main__.TestJitCUDA)": [
     "86887",
     "https://github.com/pytorch/pytorch/issues/86887",
-    [
-      "linux"
-    ]
-  ],
-  "test_vdd_clamp_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "134445",
-    "https://github.com/pytorch/pytorch/issues/134445",
     [
       "linux"
     ]
