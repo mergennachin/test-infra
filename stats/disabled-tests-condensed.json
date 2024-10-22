@@ -808,13 +808,6 @@
       "linux"
     ]
   ],
-  "test_dropout2_cpu (__main__.CpuTests)": [
-    "135216",
-    "https://github.com/pytorch/pytorch/issues/135216",
-    [
-      "linux"
-    ]
-  ],
   "test_dtensor_op_db_bmm_cpu_float32 (__main__.TestDTensorOpsCPU)": [
     "127373",
     "https://github.com/pytorch/pytorch/issues/127373",
@@ -865,9 +858,9 @@
       "linux"
     ]
   ],
-  "test_embedding_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
-    "135456",
-    "https://github.com/pytorch/pytorch/issues/135456",
+  "test_embedding_bag_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "135215",
+    "https://github.com/pytorch/pytorch/issues/135215",
     [
       "linux"
     ]
