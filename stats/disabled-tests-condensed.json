@@ -778,13 +778,6 @@
       "windows"
     ]
   ],
-  "test_disable_compiling_hooks (__main__.TestFullyShardCompileCompute)": [
-    "134138",
-    "https://github.com/pytorch/pytorch/issues/134138",
-    [
-      "rocm"
-    ]
-  ],
   "test_distributed_checkpoint_state_dict_type0 (__main__.TestDistributedCheckpoint)": [
     "113937",
     "https://github.com/pytorch/pytorch/issues/113937",
@@ -3146,6 +3139,13 @@
       "linux"
     ]
   ],
+  "test_tensor_subclasses (__main__.TestScript)": [
+    "119949",
+    "https://github.com/pytorch/pytorch/issues/119949",
+    [
+      "dynamo"
+    ]
+  ],
   "test_tensorboard_trace_handler (__main__.TestProfiler)": [
     "82915",
     "https://github.com/pytorch/pytorch/issues/82915",
@@ -3420,6 +3420,13 @@
   "test_variant_consistency_jit_linalg_lu_factor_ex_cuda_complex64 (__main__.TestJitCUDA)": [
     "86887",
     "https://github.com/pytorch/pytorch/issues/86887",
+    [
+      "linux"
+    ]
+  ],
+  "test_vdd_clamp_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "134445",
+    "https://github.com/pytorch/pytorch/issues/134445",
     [
       "linux"
     ]
