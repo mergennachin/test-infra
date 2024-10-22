@@ -2474,6 +2474,15 @@
       "rocm"
     ]
   ],
+  "test_pre_dispatch_export_cond_simple_cuda_float32 (__main__.TestHOPCUDA)": [
+    "123352",
+    "https://github.com/pytorch/pytorch/issues/123352",
+    [
+      "linux",
+      "slow",
+      "rocm"
+    ]
+  ],
   "test_pre_dispatch_export_while_loop_simple_cuda_float32 (__main__.TestHOPCUDA)": [
     "123943",
     "https://github.com/pytorch/pytorch/issues/123943",
@@ -2700,13 +2709,13 @@
       "linux"
     ]
   ],
-  "test_retrace_export_auto_functionalize_simple_cuda_float32 (__main__.TestHOPCUDA)": [
-    "123449",
-    "https://github.com/pytorch/pytorch/issues/123449",
+  "test_retrace_export_cond_simple_cuda_float32 (__main__.TestHOPCUDA)": [
+    "123564",
+    "https://github.com/pytorch/pytorch/issues/123564",
     [
       "linux",
-      "rocm",
-      "slow"
+      "slow",
+      "rocm"
     ]
   ],
   "test_retrace_export_while_loop_simple_cuda_float32 (__main__.TestHOPCUDA)": [
@@ -2887,9 +2896,9 @@
       "dynamo"
     ]
   ],
-  "test_serialize_export_auto_functionalize_simple_cuda_float32 (__main__.TestHOPCUDA)": [
-    "123563",
-    "https://github.com/pytorch/pytorch/issues/123563",
+  "test_serialize_export_cond_simple_cuda_float32 (__main__.TestHOPCUDA)": [
+    "123727",
+    "https://github.com/pytorch/pytorch/issues/123727",
     [
       "linux",
       "slow",
@@ -3310,7 +3319,8 @@
       "linux",
       "mac",
       "macos",
-      "rocm"
+      "rocm",
+      "slow"
     ]
   ],
   "test_unbacked_bindings_for_divisible_u_symint_non_strict (__main__.NonStrictExportTestExport)": [
@@ -3321,7 +3331,8 @@
       "linux",
       "mac",
       "macos",
-      "rocm"
+      "rocm",
+      "slow"
     ]
   ],
   "test_unbacked_bindings_for_divisible_u_symint_retraceability (__main__.RetraceExportTestExport)": [
@@ -3332,7 +3343,8 @@
       "linux",
       "mac",
       "macos",
-      "rocm"
+      "rocm",
+      "slow"
     ]
   ],
   "test_unbacked_bindings_for_divisible_u_symint_training_ir_to_decomp (__main__.TrainingIRToRunDecompExportTestExport)": [
@@ -3343,7 +3355,8 @@
       "linux",
       "mac",
       "macos",
-      "rocm"
+      "rocm",
+      "slow"
     ]
   ],
   "test_unbacked_bindings_for_divisible_u_symint_training_ir_to_decomp_non_strict (__main__.TrainingIRToRunDecompExportNonStrictTestExport)": [
@@ -3354,7 +3367,8 @@
       "linux",
       "mac",
       "macos",
-      "rocm"
+      "rocm",
+      "slow"
     ]
   ],
   "test_variant_consistency_eager_nn_functional_conv3d_cuda_complex64 (__main__.TestCommonCUDA)": [
