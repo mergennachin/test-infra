@@ -858,6 +858,13 @@
       "linux"
     ]
   ],
+  "test_embedding_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
+    "135456",
+    "https://github.com/pytorch/pytorch/issues/135456",
+    [
+      "linux"
+    ]
+  ],
   "test_embedding_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
     "135250",
     "https://github.com/pytorch/pytorch/issues/135250",
@@ -2387,20 +2394,6 @@
       "linux"
     ]
   ],
-  "test_pattern_matcher_multi_user_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
-    "134432",
-    "https://github.com/pytorch/pytorch/issues/134432",
-    [
-      "linux"
-    ]
-  ],
-  "test_pattern_matcher_multi_user_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "134433",
-    "https://github.com/pytorch/pytorch/issues/134433",
-    [
-      "linux"
-    ]
-  ],
   "test_pcontext_wait_on_a_child_thread (__main__.StartProcessesAsFuncTest)": [
     "136164",
     "https://github.com/pytorch/pytorch/issues/136164",
@@ -2597,6 +2590,13 @@
   "test_record_stream (__main__.TestCuda)": [
     "134746",
     "https://github.com/pytorch/pytorch/issues/134746",
+    [
+      "linux"
+    ]
+  ],
+  "test_record_stream_cuda_float32 (__main__.TestNestedTensorSubclassCUDA)": [
+    "138557",
+    "https://github.com/pytorch/pytorch/issues/138557",
     [
       "linux"
     ]
