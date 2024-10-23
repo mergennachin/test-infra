@@ -1866,13 +1866,6 @@
       "rocm"
     ]
   ],
-  "test_is_isnot (__main__.TestScript)": [
-    "120694",
-    "https://github.com/pytorch/pytorch/issues/120694",
-    [
-      "dynamo"
-    ]
-  ],
   "test_jvpvjp_nn_functional_conv3d_cuda_float32 (__main__.TestOperatorsCUDA)": [
     "114654",
     "https://github.com/pytorch/pytorch/issues/114654",
@@ -2981,6 +2974,13 @@
       "mac"
     ]
   ],
+  "test_slice_with_floordiv_retraceability_non_strict (__main__.RetraceExportNonStrictTestExport)": [
+    "138675",
+    "https://github.com/pytorch/pytorch/issues/138675",
+    [
+      "linux"
+    ]
+  ],
   "test_slice_with_floordiv_serdes (__main__.SerDesExportTestExport)": [
     "131119",
     "https://github.com/pytorch/pytorch/issues/131119",
@@ -3345,6 +3345,17 @@
       "macos",
       "rocm",
       "slow"
+    ]
+  ],
+  "test_unbacked_bindings_for_divisible_u_symint_retraceability_non_strict (__main__.RetraceExportNonStrictTestExport)": [
+    "138676",
+    "https://github.com/pytorch/pytorch/issues/138676",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm"
     ]
   ],
   "test_unbacked_bindings_for_divisible_u_symint_training_ir_to_decomp (__main__.TrainingIRToRunDecompExportTestExport)": [
