@@ -164,7 +164,9 @@
     "134810",
     "https://github.com/pytorch/pytorch/issues/134810",
     [
-      "linux"
+      "linux",
+      "win",
+      "windows"
     ]
   ],
   "test_async_compile (__main__.TestCUDACodeCache)": [
@@ -2568,13 +2570,6 @@
       "macos"
     ]
   ],
-  "test_raise_comms (__main__.TestComputeCommReorderingMultiProc)": [
-    "120946",
-    "https://github.com/pytorch/pytorch/issues/120946",
-    [
-      "rocm"
-    ]
-  ],
   "test_rand (test_jit.TestScript)": [
     "91495",
     "https://github.com/pytorch/pytorch/issues/91495",
@@ -2974,20 +2969,6 @@
   "test_single_linear (quantization.jit.test_quantize_jit.TestQuantizeJit)": [
     "105121",
     "https://github.com/pytorch/pytorch/issues/105121",
-    [
-      "rocm"
-    ]
-  ],
-  "test_sink_waits (__main__.TestComputeCommReorderingMultiProc)": [
-    "121236",
-    "https://github.com/pytorch/pytorch/issues/121236",
-    [
-      "rocm"
-    ]
-  ],
-  "test_sink_waits_raise_comms (__main__.TestComputeCommReorderingMultiProc)": [
-    "121316",
-    "https://github.com/pytorch/pytorch/issues/121316",
     [
       "rocm"
     ]
