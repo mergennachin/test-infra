@@ -800,6 +800,13 @@
       "linux"
     ]
   ],
+  "test_dropout_deterministic_cuda (__main__.GPUTests)": [
+    "133025",
+    "https://github.com/pytorch/pytorch/issues/133025",
+    [
+      "linux"
+    ]
+  ],
   "test_dtensor_op_db_bmm_cpu_float32 (__main__.TestDTensorOpsCPU)": [
     "127373",
     "https://github.com/pytorch/pytorch/issues/127373",
@@ -2748,13 +2755,6 @@
     "137771",
     "https://github.com/pytorch/pytorch/issues/137771",
     []
-  ],
-  "test_save_with_without_initializer_include_initializer_no_fake_mode_no_exported_program (__main__.TestFxToOnnx)": [
-    "131423",
-    "https://github.com/pytorch/pytorch/issues/131423",
-    [
-      "linux"
-    ]
   ],
   "test_scaled_dot_product_attention_3D_input_dim_no_attn_mask_dropout_p_0_5_cuda (__main__.TestTransformersCUDA)": [
     "131123",
