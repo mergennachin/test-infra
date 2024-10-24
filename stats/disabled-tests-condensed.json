@@ -1553,13 +1553,6 @@
       "linux"
     ]
   ],
-  "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_1024_seq_len_k_2048_head_dim_128_is_causal_False_dropout_p_0_22_float16_scale0_cuda_float16 (__main__.TestSDPACudaOnlyCUDA)": [
-    "131454",
-    "https://github.com/pytorch/pytorch/issues/131454",
-    [
-      "linux"
-    ]
-  ],
   "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_1024_seq_len_k_2048_head_dim_160_is_causal_False_dropout_p_0_0_bfloat16_scale_l1_cuda_bfloat16 (__main__.TestSDPACudaOnlyCUDA)": [
     "131538",
     "https://github.com/pytorch/pytorch/issues/131538",
@@ -2711,6 +2704,15 @@
       "linux"
     ]
   ],
+  "test_retrace_export_auto_functionalize_simple_cuda_float32 (__main__.TestHOPCUDA)": [
+    "123449",
+    "https://github.com/pytorch/pytorch/issues/123449",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_retrace_export_cond_simple_cuda_float32 (__main__.TestHOPCUDA)": [
     "123564",
     "https://github.com/pytorch/pytorch/issues/123564",
@@ -2897,6 +2899,15 @@
     "https://github.com/pytorch/pytorch/issues/127755",
     [
       "dynamo"
+    ]
+  ],
+  "test_serialize_export_auto_functionalize_simple_cuda_float32 (__main__.TestHOPCUDA)": [
+    "123563",
+    "https://github.com/pytorch/pytorch/issues/123563",
+    [
+      "linux",
+      "slow",
+      "rocm"
     ]
   ],
   "test_serialize_export_cond_simple_cuda_float32 (__main__.TestHOPCUDA)": [
