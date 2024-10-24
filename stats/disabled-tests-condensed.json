@@ -3338,6 +3338,18 @@
       "mac"
     ]
   ],
+  "test_unbacked_bindings_for_divisible_u_symint (__main__.TestExport)": [
+    "138586",
+    "https://github.com/pytorch/pytorch/issues/138586",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_unbacked_bindings_for_divisible_u_symint_non_strict (__main__.NonStrictExportTestExport)": [
     "138585",
     "https://github.com/pytorch/pytorch/issues/138585",
