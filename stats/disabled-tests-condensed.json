@@ -291,6 +291,14 @@
       "mac"
     ]
   ],
+  "test_byte_mask (__main__.TestAdvancedIndexing)": [
+    "138911",
+    "https://github.com/pytorch/pytorch/issues/138911",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_byte_mask_accumulate (__main__.TestAdvancedIndexing)": [
     "125927",
     "https://github.com/pytorch/pytorch/issues/125927",
@@ -701,18 +709,6 @@
     "https://github.com/pytorch/pytorch/issues/127738",
     [
       "dynamo"
-    ]
-  ],
-  "test_device_mode_ops_sparse_mm_reduce_cpu_bfloat16 (__main__.TestDeviceUtilsCPU)": [
-    "132494",
-    "https://github.com/pytorch/pytorch/issues/132494",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "win",
-      "windows"
     ]
   ],
   "test_device_mode_ops_sparse_mm_reduce_cpu_float16 (__main__.TestDeviceUtilsCPU)": [
