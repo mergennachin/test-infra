@@ -693,6 +693,18 @@
       "dynamo"
     ]
   ],
+  "test_device_mode_ops_sparse_mm_reduce_cpu_bfloat16 (__main__.TestDeviceUtilsCPU)": [
+    "132494",
+    "https://github.com/pytorch/pytorch/issues/132494",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "win",
+      "windows"
+    ]
+  ],
   "test_device_mode_ops_sparse_mm_reduce_cpu_float16 (__main__.TestDeviceUtilsCPU)": [
     "133827",
     "https://github.com/pytorch/pytorch/issues/133827",
@@ -1836,6 +1848,13 @@
     "https://github.com/pytorch/pytorch/issues/115859",
     [
       "rocm"
+    ]
+  ],
+  "test_is_isnot (__main__.TestScript)": [
+    "120694",
+    "https://github.com/pytorch/pytorch/issues/120694",
+    [
+      "dynamo"
     ]
   ],
   "test_jvpvjp_nn_functional_conv3d_cuda_float32 (__main__.TestOperatorsCUDA)": [
