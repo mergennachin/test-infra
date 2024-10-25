@@ -792,6 +792,22 @@
       "linux"
     ]
   ],
+  "test_dtype_aware_codegen_load_upcast_to_fp32_False_bfloat16 (__main__.TritonCodeGenTests)": [
+    "138944",
+    "https://github.com/pytorch/pytorch/issues/138944",
+    [
+      "rocm",
+      "inductor"
+    ]
+  ],
+  "test_dtype_aware_codegen_load_upcast_to_fp32_False_float16 (__main__.TritonCodeGenTests)": [
+    "138943",
+    "https://github.com/pytorch/pytorch/issues/138943",
+    [
+      "rocm",
+      "inductor"
+    ]
+  ],
   "test_dunder_new_function_inlining1 (__main__.MiscTests)": [
     "137166",
     "https://github.com/pytorch/pytorch/issues/137166",
