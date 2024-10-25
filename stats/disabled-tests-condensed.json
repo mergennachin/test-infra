@@ -430,13 +430,6 @@
       "rocm"
     ]
   ],
-  "test_comprehensive_fft_ifft_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
-    "127344",
-    "https://github.com/pytorch/pytorch/issues/127344",
-    [
-      "rocm"
-    ]
-  ],
   "test_comprehensive_linalg_ldl_factor_ex_cuda (__main__.TestDecompCUDA)": [
     "76962",
     "https://github.com/pytorch/pytorch/issues/76962",
@@ -2164,13 +2157,6 @@
       "linux"
     ]
   ],
-  "test_metadata_consistency_check (__main__.DTensorMeshTest)": [
-    "131598",
-    "https://github.com/pytorch/pytorch/issues/131598",
-    [
-      "linux"
-    ]
-  ],
   "test_method_overloading (__main__.TestScript)": [
     "131104",
     "https://github.com/pytorch/pytorch/issues/131104",
@@ -2253,14 +2239,6 @@
     "https://github.com/pytorch/pytorch/issues/104454",
     [
       "asan"
-    ]
-  ],
-  "test_non_blocking_init (__main__.ProcessGroupNCCLGroupTest)": [
-    "131203",
-    "https://github.com/pytorch/pytorch/issues/131203",
-    [
-      "linux",
-      "rocm"
     ]
   ],
   "test_non_blocking_with_eager_init (__main__.ProcessGroupNCCLGroupTest)": [
@@ -2793,13 +2771,6 @@
       "rocm"
     ]
   ],
-  "test_scatter_uneven (__main__.DeviceMeshCollectiveTest)": [
-    "96282",
-    "https://github.com/pytorch/pytorch/issues/96282",
-    [
-      "linux"
-    ]
-  ],
   "test_schema_correctness_nn_functional_conv3d_cuda_complex64 (__main__.TestSchemaCheckModeOpInfoCUDA)": [
     "114574",
     "https://github.com/pytorch/pytorch/issues/114574",
@@ -2817,6 +2788,14 @@
       "rocm",
       "linux",
       "slow"
+    ]
+  ],
+  "test_sdpa_mask_fp16_L6_S17_NH23_HS121 (__main__.TestSDPA)": [
+    "138905",
+    "https://github.com/pytorch/pytorch/issues/138905",
+    [
+      "mac",
+      "macos"
     ]
   ],
   "test_sdpa_rewriter_3_cuda (__main__.SDPAPatternRewriterCudaDynamicTests)": [
