@@ -101,14 +101,6 @@
       "slow"
     ]
   ],
-  "test_aot_export_cond_simple_cuda_float32 (__main__.TestHOPCUDA)": [
-    "123096",
-    "https://github.com/pytorch/pytorch/issues/123096",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_aot_export_cond_simple_cuda_int32 (__main__.TestHOPCUDA)": [
     "123194",
     "https://github.com/pytorch/pytorch/issues/123194",
@@ -654,16 +646,6 @@
     [
       "linux"
     ]
-  ],
-  "test_ddp_apply_optim_in_backward (__main__.TestDistBackendWithSpawn)": [
-    "137761",
-    "https://github.com/pytorch/pytorch/issues/137761",
-    []
-  ],
-  "test_ddp_apply_optim_in_backward_grad_as_bucket_view_false (__main__.TestDistBackendWithSpawn)": [
-    "137766",
-    "https://github.com/pytorch/pytorch/issues/137766",
-    []
   ],
   "test_ddp_apply_optim_in_backward_ignored_params (__main__.TestDistBackendWithSpawn)": [
     "106361",
@@ -2714,11 +2696,6 @@
     [
       "rocm"
     ]
-  ],
-  "test_save_load_checkpoint (__main__.DistributedDataParallelTest)": [
-    "137771",
-    "https://github.com/pytorch/pytorch/issues/137771",
-    []
   ],
   "test_scaled_dot_product_attention_3D_input_dim_no_attn_mask_dropout_p_0_5_cuda (__main__.TestTransformersCUDA)": [
     "131123",
