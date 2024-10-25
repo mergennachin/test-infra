@@ -647,6 +647,13 @@
       "linux"
     ]
   ],
+  "test_custom_op_all_inputs_cpu_with_stack_allocation (__main__.AOTInductorTestABICompatibleCpuWithStackAllocation)": [
+    "138955",
+    "https://github.com/pytorch/pytorch/issues/138955",
+    [
+      "linux"
+    ]
+  ],
   "test_ddp_apply_optim_in_backward_ignored_params (__main__.TestDistBackendWithSpawn)": [
     "106361",
     "https://github.com/pytorch/pytorch/issues/106361",
