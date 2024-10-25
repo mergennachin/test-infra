@@ -42,13 +42,6 @@
       "slow"
     ]
   ],
-  "test_all_gather_object_subgroup (__main__.TestDistBackendWithSpawn)": [
-    "98508",
-    "https://github.com/pytorch/pytorch/issues/98508",
-    [
-      "linux"
-    ]
-  ],
   "test_all_reduce_coalesced_group_min (__main__.TestDistBackendWithSpawn)": [
     "70754",
     "https://github.com/pytorch/pytorch/issues/70754",
@@ -266,13 +259,6 @@
   "test_backward_ddp_outside_uneven_inputs (__main__.TensorPipeDdpUnderDistAutogradTest)": [
     "104011",
     "https://github.com/pytorch/pytorch/issues/104011",
-    [
-      "linux"
-    ]
-  ],
-  "test_barrier_group_cuda (__main__.TestDistBackendWithSpawn)": [
-    "137751",
-    "https://github.com/pytorch/pytorch/issues/137751",
     [
       "linux"
     ]
@@ -942,6 +928,13 @@
   "test_fake_tensor_mode_huggingface_openai_whisper (__main__.TestFxToOnnxFakeTensorWithOnnxRuntime_op_level_debug_False_dynamic_shapes_False_load_checkpoint_during_init_True_export_within_fake_mode_True_model_type_TorchModelType.TORCH_NN_MODULE)": [
     "130575",
     "https://github.com/pytorch/pytorch/issues/130575",
+    [
+      "linux"
+    ]
+  ],
+  "test_file_reader_no_memory_leak (__main__.TestScript)": [
+    "138885",
+    "https://github.com/pytorch/pytorch/issues/138885",
     [
       "linux"
     ]
@@ -3008,6 +3001,13 @@
       "linux",
       "asan",
       "macos"
+    ]
+  ],
+  "test_slice_with_floordiv_serdes_non_strict (__main__.SerDesExportNonStrictTestExport)": [
+    "138884",
+    "https://github.com/pytorch/pytorch/issues/138884",
+    [
+      "linux"
     ]
   ],
   "test_slice_with_floordiv_training_ir_to_decomp (__main__.TrainingIRToRunDecompExportTestExport)": [
