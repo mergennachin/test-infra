@@ -671,13 +671,6 @@
       "linux"
     ]
   ],
-  "test_ddp_control_flow_different_across_ranks (__main__.TestDistBackendWithSpawn)": [
-    "77992",
-    "https://github.com/pytorch/pytorch/issues/77992",
-    [
-      "linux"
-    ]
-  ],
   "test_ddp_has_finalized (__main__.TestDistBackendWithSpawn)": [
     "102751",
     "https://github.com/pytorch/pytorch/issues/102751",
@@ -1404,6 +1397,14 @@
     "https://github.com/pytorch/pytorch/issues/131644",
     [
       "linux"
+    ]
+  ],
+  "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_1024_seq_len_k_1024_head_dim_32_is_causal_False_dropout_p_0_0_bfloat16_scale0_cuda_bfloat16 (__main__.TestSDPACudaOnlyCUDA)": [
+    "131441",
+    "https://github.com/pytorch/pytorch/issues/131441",
+    [
+      "linux",
+      "slow"
     ]
   ],
   "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_1024_seq_len_k_1024_head_dim_32_is_causal_False_dropout_p_0_22_bfloat16_scale_l1_cuda_bfloat16 (__main__.TestSDPACudaOnlyCUDA)": [
@@ -3006,7 +3007,9 @@
     "138884",
     "https://github.com/pytorch/pytorch/issues/138884",
     [
-      "linux"
+      "linux",
+      "asan",
+      "rocm"
     ]
   ],
   "test_slice_with_floordiv_training_ir_to_decomp (__main__.TrainingIRToRunDecompExportTestExport)": [
