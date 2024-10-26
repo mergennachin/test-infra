@@ -2739,6 +2739,11 @@
       "rocm"
     ]
   ],
+  "test_save_load_checkpoint (__main__.DistributedDataParallelTest)": [
+    "137771",
+    "https://github.com/pytorch/pytorch/issues/137771",
+    []
+  ],
   "test_scaled_dot_product_attention_3D_input_dim_no_attn_mask_dropout_p_0_5_cuda (__main__.TestTransformersCUDA)": [
     "131123",
     "https://github.com/pytorch/pytorch/issues/131123",
