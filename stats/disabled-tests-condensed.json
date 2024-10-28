@@ -2257,13 +2257,6 @@
       "asan"
     ]
   ],
-  "test_non_blocking_with_eager_init (__main__.ProcessGroupNCCLGroupTest)": [
-    "118827",
-    "https://github.com/pytorch/pytorch/issues/118827",
-    [
-      "linux"
-    ]
-  ],
   "test_non_commutative_scan_op (__main__.CudaReproTests)": [
     "126689",
     "https://github.com/pytorch/pytorch/issues/126689",
@@ -2725,6 +2718,13 @@
     "137771",
     "https://github.com/pytorch/pytorch/issues/137771",
     []
+  ],
+  "test_save_with_without_initializer_dont_include_initializer_no_fake_mode_no_exported_program (__main__.TestFxToOnnx)": [
+    "125020",
+    "https://github.com/pytorch/pytorch/issues/125020",
+    [
+      "linux"
+    ]
   ],
   "test_scaled_dot_product_attention_3D_input_dim_no_attn_mask_dropout_p_0_5_cuda (__main__.TestTransformersCUDA)": [
     "131123",
@@ -3515,6 +3515,21 @@
       "windows",
       "rocm",
       "slow"
+    ]
+  ],
+  "test_where_broadcast_cpu (__main__.CpuTests)": [
+    "139057",
+    "https://github.com/pytorch/pytorch/issues/139057",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
+  "test_wrapper_subclass_aliasing_conv2d_cpu (__main__.TestWrapperSubclassAliasingCPU)": [
+    "139056",
+    "https://github.com/pytorch/pytorch/issues/139056",
+    [
+      "dynamo"
     ]
   ],
   "test_zero_model_parallel_parameters_as_bucket_view_True (__main__.TestZeroRedundancyOptimizerDistributed)": [
