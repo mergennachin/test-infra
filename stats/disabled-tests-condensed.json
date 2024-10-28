@@ -646,13 +646,6 @@
       "linux"
     ]
   ],
-  "test_ddp_apply_optim_in_backward_ignored_params (__main__.TestDistBackendWithSpawn)": [
-    "106361",
-    "https://github.com/pytorch/pytorch/issues/106361",
-    [
-      "linux"
-    ]
-  ],
   "test_ddp_has_finalized (__main__.TestDistBackendWithSpawn)": [
     "102751",
     "https://github.com/pytorch/pytorch/issues/102751",
@@ -795,16 +788,20 @@
     "138944",
     "https://github.com/pytorch/pytorch/issues/138944",
     [
+      "inductor",
       "rocm",
-      "inductor"
+      "linux",
+      "slow"
     ]
   ],
   "test_dtype_aware_codegen_load_upcast_to_fp32_False_float16 (__main__.TritonCodeGenTests)": [
     "138943",
     "https://github.com/pytorch/pytorch/issues/138943",
     [
+      "inductor",
       "rocm",
-      "inductor"
+      "linux",
+      "slow"
     ]
   ],
   "test_dunder_new_function_inlining1 (__main__.MiscTests)": [
@@ -2659,20 +2656,6 @@
     "https://github.com/pytorch/pytorch/issues/69178",
     [
       "mac"
-    ]
-  ],
-  "test_reorder_compute_for_overlap (__main__.TestComputeCommReorderingMultiProc)": [
-    "113249",
-    "https://github.com/pytorch/pytorch/issues/113249",
-    [
-      "rocm"
-    ]
-  ],
-  "test_reorder_compute_for_overlap_custom_runtime_estimation (__main__.TestComputeCommReorderingMultiProc)": [
-    "121195",
-    "https://github.com/pytorch/pytorch/issues/121195",
-    [
-      "rocm"
     ]
   ],
   "test_requires_grad_loop (test_jit.TestScript)": [
