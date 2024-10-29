@@ -501,6 +501,15 @@
       "inductor"
     ]
   ],
+  "test_constant_insertion (__main__.TestJit)": [
+    "96894",
+    "https://github.com/pytorch/pytorch/issues/96894",
+    [
+      "win",
+      "windows",
+      "dynamo"
+    ]
+  ],
   "test_conv (quantization.jit.test_quantize_jit.TestQuantizeJit)": [
     "105125",
     "https://github.com/pytorch/pytorch/issues/105125",
@@ -1970,6 +1979,13 @@
       "macos",
       "rocm",
       "slow"
+    ]
+  ],
+  "test_manual_with_data_parallel_dp_type_DDP_ScheduleClass0_use_new_runtime_False (__main__.ComposabilityTest)": [
+    "139139",
+    "https://github.com/pytorch/pytorch/issues/139139",
+    [
+      "linux"
     ]
   ],
   "test_matmul_offline_tunableop_cuda_float16 (__main__.TestLinalgCUDA)": [
