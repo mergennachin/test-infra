@@ -1633,13 +1633,6 @@
       "dynamo"
     ]
   ],
-  "test_fsdp_unsupported_module_cls (__main__.TestFSDPMiscMultiThread)": [
-    "137948",
-    "https://github.com/pytorch/pytorch/issues/137948",
-    [
-      "linux"
-    ]
-  ],
   "test_full_dtype (__main__.TestFull)": [
     "138574",
     "https://github.com/pytorch/pytorch/issues/138574",
