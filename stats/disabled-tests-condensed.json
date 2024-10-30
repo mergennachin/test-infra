@@ -931,13 +931,6 @@
       "linux"
     ]
   ],
-  "test_fake_tensor_mode_huggingface_openai_whisper (__main__.TestFxToOnnxFakeTensorWithOnnxRuntime_op_level_debug_False_dynamic_shapes_False_load_checkpoint_during_init_False_export_within_fake_mode_True_model_type_TorchModelType.TORCH_EXPORT_EXPORTEDPROGRAM)": [
-    "130574",
-    "https://github.com/pytorch/pytorch/issues/130574",
-    [
-      "linux"
-    ]
-  ],
   "test_fake_tensor_mode_huggingface_openai_whisper (__main__.TestFxToOnnxFakeTensorWithOnnxRuntime_op_level_debug_False_dynamic_shapes_False_load_checkpoint_during_init_True_export_within_fake_mode_True_model_type_TorchModelType.TORCH_NN_MODULE)": [
     "130575",
     "https://github.com/pytorch/pytorch/issues/130575",
