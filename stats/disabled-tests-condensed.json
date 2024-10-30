@@ -423,6 +423,13 @@
       "rocm"
     ]
   ],
+  "test_comprehensive_fft_ifft_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
+    "127344",
+    "https://github.com/pytorch/pytorch/issues/127344",
+    [
+      "rocm"
+    ]
+  ],
   "test_comprehensive_linalg_ldl_factor_ex_cuda (__main__.TestDecompCUDA)": [
     "76962",
     "https://github.com/pytorch/pytorch/issues/76962",
@@ -833,6 +840,17 @@
     "https://github.com/pytorch/pytorch/issues/134479",
     [
       "windows",
+      "rocm"
+    ]
+  ],
+  "test_dynamo_error (__main__.LoggingTests)": [
+    "139254",
+    "https://github.com/pytorch/pytorch/issues/139254",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
       "rocm"
     ]
   ],
@@ -1404,14 +1422,6 @@
       "linux"
     ]
   ],
-  "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_1024_seq_len_k_1024_head_dim_32_is_causal_False_dropout_p_0_0_bfloat16_scale0_cuda_bfloat16 (__main__.TestSDPACudaOnlyCUDA)": [
-    "131441",
-    "https://github.com/pytorch/pytorch/issues/131441",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_1024_seq_len_k_1024_head_dim_32_is_causal_False_dropout_p_0_22_bfloat16_scale_l1_cuda_bfloat16 (__main__.TestSDPACudaOnlyCUDA)": [
     "131384",
     "https://github.com/pytorch/pytorch/issues/131384",
@@ -1800,6 +1810,17 @@
       "rocm"
     ]
   ],
+  "test_inductor_error (__main__.LoggingTests)": [
+    "139253",
+    "https://github.com/pytorch/pytorch/issues/139253",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm"
+    ]
+  ],
   "test_inductor_inplace_op_on_view (__main__.C10DFunctionalNativeTest)": [
     "118510",
     "https://github.com/pytorch/pytorch/issues/118510",
@@ -1847,13 +1868,6 @@
   "test_inplace_gradgrad_remainder_cuda_float64 (__main__.TestBwdGradientsCUDA)": [
     "100675",
     "https://github.com/pytorch/pytorch/issues/100675",
-    [
-      "linux"
-    ]
-  ],
-  "test_input_mutation2_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "135295",
-    "https://github.com/pytorch/pytorch/issues/135295",
     [
       "linux"
     ]
@@ -2309,6 +2323,17 @@
     "https://github.com/pytorch/pytorch/issues/109341",
     [
       "inductor"
+    ]
+  ],
+  "test_not_implemented_error (__main__.ExcTests)": [
+    "139255",
+    "https://github.com/pytorch/pytorch/issues/139255",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm"
     ]
   ],
   "test_numpy_ref_mps_nn_functional_conv_transpose1d_mps_float32 (__main__.TestCommonMPS)": [
