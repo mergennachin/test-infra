@@ -1906,14 +1906,6 @@
       "windows"
     ]
   ],
-  "test_kineto_profiler_with_environment_variable (__main__.TestProfiler)": [
-    "107383",
-    "https://github.com/pytorch/pytorch/issues/107383",
-    [
-      "rocm",
-      "dynamo"
-    ]
-  ],
   "test_large_block_sizes_cuda (__main__.CudaTests)": [
     "117810",
     "https://github.com/pytorch/pytorch/issues/117810",
