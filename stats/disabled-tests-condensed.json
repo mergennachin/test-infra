@@ -401,14 +401,6 @@
       "inductor"
     ]
   ],
-  "test_comprehensive__unsafe_masked_index_cuda_bool (__main__.TestInductorOpInfoCUDA)": [
-    "131748",
-    "https://github.com/pytorch/pytorch/issues/131748",
-    [
-      "rocm",
-      "inductor"
-    ]
-  ],
   "test_comprehensive_empty_strided_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
     "102033",
     "https://github.com/pytorch/pytorch/issues/102033",
