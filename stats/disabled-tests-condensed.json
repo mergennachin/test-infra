@@ -2767,13 +2767,6 @@
       "slow"
     ]
   ],
-  "test_retracibility_dynamic_shapes (__main__.DynamicShapesExportTests)": [
-    "117914",
-    "https://github.com/pytorch/pytorch/issues/117914",
-    [
-      "linux"
-    ]
-  ],
   "test_ring_attention_native_transformer_is_causal_True (__main__.RingAttentionTest)": [
     "126380",
     "https://github.com/pytorch/pytorch/issues/126380",
