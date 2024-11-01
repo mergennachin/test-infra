@@ -2263,13 +2263,6 @@
       "linux"
     ]
   ],
-  "test_multi_grad_all_hooks (__main__.TestAutograd)": [
-    "138316",
-    "https://github.com/pytorch/pytorch/issues/138316",
-    [
-      "linux"
-    ]
-  ],
   "test_mutable_custom_op_fixed_layout2_dynamic_shapes_cuda (__main__.DynamicShapesCodegenGPUTests)": [
     "139416",
     "https://github.com/pytorch/pytorch/issues/139416",
