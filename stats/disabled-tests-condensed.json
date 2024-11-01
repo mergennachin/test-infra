@@ -722,6 +722,18 @@
       "windows"
     ]
   ],
+  "test_device_mode_ops_sparse_mm_reduce_cpu_float16 (__main__.TestDeviceUtilsCPU)": [
+    "133827",
+    "https://github.com/pytorch/pytorch/issues/133827",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "win",
+      "windows"
+    ]
+  ],
   "test_device_mode_ops_sparse_mm_reduce_cpu_float32 (__main__.TestDeviceUtilsCPU)": [
     "132552",
     "https://github.com/pytorch/pytorch/issues/132552",
@@ -1690,9 +1702,9 @@
       "mac"
     ]
   ],
-  "test_grad_scaler_with_preset_grad_scale_in_place_unscale_False_Adam_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
-    "135721",
-    "https://github.com/pytorch/pytorch/issues/135721",
+  "test_grad_scaler_with_preset_grad_scale_in_place_unscale_False_AdamW_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
+    "135692",
+    "https://github.com/pytorch/pytorch/issues/135692",
     [
       "linux"
     ]
@@ -3159,13 +3171,6 @@
     "https://github.com/pytorch/pytorch/issues/70546",
     [
       "mac"
-    ]
-  ],
-  "test_tmp_not_defined_issue2_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
-    "135212",
-    "https://github.com/pytorch/pytorch/issues/135212",
-    [
-      "linux"
     ]
   ],
   "test_torch_manual_seed_seeds_cuda_devices (__main__.TestCuda)": [
