@@ -636,6 +636,13 @@
       "linux"
     ]
   ],
+  "test_cuda_tracker_equivalence (__main__.TestMemTracker)": [
+    "139515",
+    "https://github.com/pytorch/pytorch/issues/139515",
+    [
+      "rocm"
+    ]
+  ],
   "test_cuda_variable_sharing (__main__.TestMultiprocessing)": [
     "92131",
     "https://github.com/pytorch/pytorch/issues/92131",
@@ -3242,6 +3249,13 @@
   "test_tracker_multi_group_eager (__main__.TestTrackerFullyShard1DTrainingCore)": [
     "129390",
     "https://github.com/pytorch/pytorch/issues/129390",
+    [
+      "rocm"
+    ]
+  ],
+  "test_tracker_non_root_forward_backward (__main__.TestTrackerFullyShard1DTrainingCore)": [
+    "129692",
+    "https://github.com/pytorch/pytorch/issues/129692",
     [
       "rocm"
     ]
