@@ -636,13 +636,6 @@
       "linux"
     ]
   ],
-  "test_cuda_tracker_equivalence (__main__.TestMemTracker)": [
-    "139515",
-    "https://github.com/pytorch/pytorch/issues/139515",
-    [
-      "rocm"
-    ]
-  ],
   "test_cuda_variable_sharing (__main__.TestMultiprocessing)": [
     "92131",
     "https://github.com/pytorch/pytorch/issues/92131",
