@@ -2004,6 +2004,20 @@
       "linux"
     ]
   ],
+  "test_manual_with_data_parallel_dp_type_DDP_ScheduleClass1_use_new_runtime_False (__main__.ComposabilityTest)": [
+    "139552",
+    "https://github.com/pytorch/pytorch/issues/139552",
+    [
+      "linux"
+    ]
+  ],
+  "test_manual_with_data_parallel_dp_type_DDP_ScheduleClass2_use_new_runtime_False (__main__.ComposabilityTest)": [
+    "139551",
+    "https://github.com/pytorch/pytorch/issues/139551",
+    [
+      "linux"
+    ]
+  ],
   "test_matmul_offline_tunableop_cuda_float16 (__main__.TestLinalgCUDA)": [
     "137936",
     "https://github.com/pytorch/pytorch/issues/137936",
