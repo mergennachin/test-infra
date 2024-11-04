@@ -395,6 +395,13 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_addmm_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
+    "139615",
+    "https://github.com/pytorch/pytorch/issues/139615",
+    [
+      "inductor"
+    ]
+  ],
   "test_comprehensive_empty_strided_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
     "102033",
     "https://github.com/pytorch/pytorch/issues/102033",
@@ -407,14 +414,6 @@
     "https://github.com/pytorch/pytorch/issues/102044",
     [
       "inductor"
-    ]
-  ],
-  "test_comprehensive_fft_fft_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
-    "122715",
-    "https://github.com/pytorch/pytorch/issues/122715",
-    [
-      "inductor",
-      "rocm"
     ]
   ],
   "test_comprehensive_fft_ifft_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
@@ -486,9 +485,23 @@
       "rocm"
     ]
   ],
+  "test_comprehensive_scatter_reduce_mean_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
+    "139614",
+    "https://github.com/pytorch/pytorch/issues/139614",
+    [
+      "linux"
+    ]
+  ],
   "test_comprehensive_special_bessel_y1_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
     "125151",
     "https://github.com/pytorch/pytorch/issues/125151",
+    [
+      "inductor"
+    ]
+  ],
+  "test_comprehensive_special_i0e_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
+    "139616",
+    "https://github.com/pytorch/pytorch/issues/139616",
     [
       "inductor"
     ]
@@ -880,6 +893,13 @@
   "test_embedding_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
     "135456",
     "https://github.com/pytorch/pytorch/issues/135456",
+    [
+      "linux"
+    ]
+  ],
+  "test_embedding_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "135250",
+    "https://github.com/pytorch/pytorch/issues/135250",
     [
       "linux"
     ]
@@ -1691,6 +1711,13 @@
   "test_grad_scaler_with_preset_grad_scale_in_place_unscale_False_AdamW_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
     "135692",
     "https://github.com/pytorch/pytorch/issues/135692",
+    [
+      "linux"
+    ]
+  ],
+  "test_grad_scaler_with_preset_grad_scale_in_place_unscale_False_Adam_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
+    "135721",
+    "https://github.com/pytorch/pytorch/issues/135721",
     [
       "linux"
     ]
@@ -2554,13 +2581,6 @@
     "https://github.com/pytorch/pytorch/issues/106027",
     [
       "rocm"
-    ]
-  ],
-  "test_profiler_mark_wrapper_call_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "135294",
-    "https://github.com/pytorch/pytorch/issues/135294",
-    [
-      "linux"
     ]
   ],
   "test_profiler_rpc_key_names (__main__.TensorPipeRpcTest)": [
