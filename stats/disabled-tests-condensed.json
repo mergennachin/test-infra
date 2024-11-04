@@ -126,15 +126,6 @@
       "slow"
     ]
   ],
-  "test_aot_export_while_loop_simple_cuda_float32 (__main__.TestHOPCUDA)": [
-    "123948",
-    "https://github.com/pytorch/pytorch/issues/123948",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_aot_module_simplified_fake_tensor_gm_raises (__main__.TestAOTModuleSimplified)": [
     "124590",
     "https://github.com/pytorch/pytorch/issues/124590",
@@ -2577,15 +2568,6 @@
       "slow"
     ]
   ],
-  "test_pre_dispatch_export_while_loop_simple_cuda_float32 (__main__.TestHOPCUDA)": [
-    "123943",
-    "https://github.com/pytorch/pytorch/issues/123943",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_precompilations (__main__.TestMaxAutotune)": [
     "124265",
     "https://github.com/pytorch/pytorch/issues/124265",
@@ -2625,6 +2607,13 @@
     "https://github.com/pytorch/pytorch/issues/106027",
     [
       "rocm"
+    ]
+  ],
+  "test_profiler_mark_wrapper_call_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "135294",
+    "https://github.com/pytorch/pytorch/issues/135294",
+    [
+      "linux"
     ]
   ],
   "test_profiler_rpc_key_names (__main__.TensorPipeRpcTest)": [
@@ -2808,15 +2797,6 @@
     "https://github.com/pytorch/pytorch/issues/139074",
     [
       "linux",
-      "slow"
-    ]
-  ],
-  "test_retrace_export_while_loop_simple_cuda_float32 (__main__.TestHOPCUDA)": [
-    "123944",
-    "https://github.com/pytorch/pytorch/issues/123944",
-    [
-      "linux",
-      "rocm",
       "slow"
     ]
   ],
@@ -3023,15 +3003,6 @@
     "https://github.com/pytorch/pytorch/issues/139073",
     [
       "linux",
-      "slow"
-    ]
-  ],
-  "test_serialize_export_while_loop_simple_cuda_float32 (__main__.TestHOPCUDA)": [
-    "123946",
-    "https://github.com/pytorch/pytorch/issues/123946",
-    [
-      "linux",
-      "rocm",
       "slow"
     ]
   ],
