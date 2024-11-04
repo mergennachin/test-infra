@@ -476,7 +476,9 @@
     "139625",
     "https://github.com/pytorch/pytorch/issues/139625",
     [
-      "inductor"
+      "inductor",
+      "linux",
+      "slow"
     ]
   ],
   "test_comprehensive_nn_functional_adaptive_avg_pool2d_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
