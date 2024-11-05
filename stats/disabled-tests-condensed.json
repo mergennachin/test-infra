@@ -2762,6 +2762,13 @@
       "rocm"
     ]
   ],
+  "test_post_accumulate_grad_hook_e2e (__main__.TestAutograd)": [
+    "137892",
+    "https://github.com/pytorch/pytorch/issues/137892",
+    [
+      "dynamo"
+    ]
+  ],
   "test_post_localSGD_optimizer_parity_with_hierarchical_sgd (__main__.TestDistBackendWithSpawn)": [
     "75052",
     "https://github.com/pytorch/pytorch/issues/75052",
