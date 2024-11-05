@@ -1305,6 +1305,13 @@
       "rocm"
     ]
   ],
+  "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_1024_seq_len_k_1024_head_dim_128_is_causal_True_dropout_p_0_0_float16_scale_l1_cuda_float16 (__main__.TestSDPACudaOnlyCUDA)": [
+    "131128",
+    "https://github.com/pytorch/pytorch/issues/131128",
+    [
+      "rocm"
+    ]
+  ],
   "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_1024_seq_len_k_1024_head_dim_128_is_causal_True_dropout_p_0_22_bfloat16_scale0_cuda_bfloat16 (__main__.TestSDPACudaOnlyCUDA)": [
     "131445",
     "https://github.com/pytorch/pytorch/issues/131445",
