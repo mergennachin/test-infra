@@ -1121,6 +1121,13 @@
       "linux"
     ]
   ],
+  "test_dtensor_mm (__main__.DistMatrixOpsTest)": [
+    "139813",
+    "https://github.com/pytorch/pytorch/issues/139813",
+    [
+      "rocm"
+    ]
+  ],
   "test_dtensor_op_db_bmm_cpu_float32 (__main__.TestDTensorOpsCPU)": [
     "127373",
     "https://github.com/pytorch/pytorch/issues/127373",
@@ -2302,6 +2309,13 @@
     "https://github.com/pytorch/pytorch/issues/139149",
     [
       "inductor"
+    ]
+  ],
+  "test_linear_binary_dynamic_shapes_cpp_wrapper (__main__.DynamicShapesCppWrapperCpuTests)": [
+    "139812",
+    "https://github.com/pytorch/pytorch/issues/139812",
+    [
+      "linux"
     ]
   ],
   "test_load_from_bias_head_seq_batch_float16 (__main__.TestFlexDecoding)": [
@@ -3599,6 +3613,13 @@
   "test_tracker_non_root_forward_backward (__main__.TestTrackerFullyShard1DTrainingCore)": [
     "129692",
     "https://github.com/pytorch/pytorch/issues/129692",
+    [
+      "rocm"
+    ]
+  ],
+  "test_tracker_with_activation_checkpointing (__main__.TestTrackerFullyShard1DTrainingCompose)": [
+    "139814",
+    "https://github.com/pytorch/pytorch/issues/139814",
     [
       "rocm"
     ]
