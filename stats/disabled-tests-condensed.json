@@ -412,7 +412,9 @@
     "139730",
     "https://github.com/pytorch/pytorch/issues/139730",
     [
-      "inductor"
+      "inductor",
+      "linux",
+      "slow"
     ]
   ],
   "test_comprehensive_cat_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
@@ -437,6 +439,13 @@
       "slow"
     ]
   ],
+  "test_comprehensive_cumprod_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
+    "139744",
+    "https://github.com/pytorch/pytorch/issues/139744",
+    [
+      "linux"
+    ]
+  ],
   "test_comprehensive_deg2rad_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
     "139731",
     "https://github.com/pytorch/pytorch/issues/139731",
@@ -448,7 +457,8 @@
     "139626",
     "https://github.com/pytorch/pytorch/issues/139626",
     [
-      "inductor"
+      "inductor",
+      "linux"
     ]
   ],
   "test_comprehensive_diff_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
@@ -462,7 +472,9 @@
     "139712",
     "https://github.com/pytorch/pytorch/issues/139712",
     [
-      "inductor"
+      "inductor",
+      "linux",
+      "slow"
     ]
   ],
   "test_comprehensive_empty_strided_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
@@ -593,11 +605,20 @@
       "linux"
     ]
   ],
+  "test_comprehensive_nn_functional_bilinear_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
+    "139743",
+    "https://github.com/pytorch/pytorch/issues/139743",
+    [
+      "linux"
+    ]
+  ],
   "test_comprehensive_nn_functional_conv_transpose3d_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
     "139726",
     "https://github.com/pytorch/pytorch/issues/139726",
     [
-      "inductor"
+      "inductor",
+      "linux",
+      "slow"
     ]
   ],
   "test_comprehensive_nn_functional_cosine_embedding_loss_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
@@ -1119,13 +1140,6 @@
   "test_embedding_bag_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
     "135215",
     "https://github.com/pytorch/pytorch/issues/135215",
-    [
-      "linux"
-    ]
-  ],
-  "test_embedding_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
-    "135456",
-    "https://github.com/pytorch/pytorch/issues/135456",
     [
       "linux"
     ]
