@@ -426,6 +426,14 @@
       "slow"
     ]
   ],
+  "test_comprehensive_amax_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
+    "124640",
+    "https://github.com/pytorch/pytorch/issues/124640",
+    [
+      "inductor",
+      "linux"
+    ]
+  ],
   "test_comprehensive_cat_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
     "139729",
     "https://github.com/pytorch/pytorch/issues/139729",
@@ -745,6 +753,14 @@
       "linux"
     ]
   ],
+  "test_comprehensive_nn_functional_embedding_bag_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
+    "139858",
+    "https://github.com/pytorch/pytorch/issues/139858",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_comprehensive_nn_functional_interpolate_nearest_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
     "139688",
     "https://github.com/pytorch/pytorch/issues/139688",
@@ -806,6 +822,14 @@
     "https://github.com/pytorch/pytorch/issues/139845",
     [
       "linux"
+    ]
+  ],
+  "test_comprehensive_scatter_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
+    "139859",
+    "https://github.com/pytorch/pytorch/issues/139859",
+    [
+      "linux",
+      "slow"
     ]
   ],
   "test_comprehensive_scatter_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
@@ -3785,17 +3809,6 @@
       "macos",
       "rocm",
       "slow"
-    ]
-  ],
-  "test_unbacked_bindings_for_divisible_u_symint_retraceability_non_strict (__main__.RetraceExportNonStrictTestExport)": [
-    "138676",
-    "https://github.com/pytorch/pytorch/issues/138676",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm"
     ]
   ],
   "test_unbacked_bindings_for_divisible_u_symint_training_ir_to_decomp (__main__.TrainingIRToRunDecompExportTestExport)": [
