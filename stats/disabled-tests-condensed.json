@@ -126,6 +126,15 @@
       "slow"
     ]
   ],
+  "test_aot_export_while_loop_simple_cuda_float32 (__main__.TestHOPCUDA)": [
+    "123948",
+    "https://github.com/pytorch/pytorch/issues/123948",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_aot_module_simplified_fake_tensor_gm_raises (__main__.TestAOTModuleSimplified)": [
     "124590",
     "https://github.com/pytorch/pytorch/issues/124590",
