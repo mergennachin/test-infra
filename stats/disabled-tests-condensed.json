@@ -2010,6 +2010,13 @@
       "linux"
     ]
   ],
+  "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_1024_seq_len_k_2048_head_dim_160_is_causal_False_dropout_p_0_0_float16_scale_l1_cuda_float16 (__main__.TestSDPACudaOnlyCUDA)": [
+    "131532",
+    "https://github.com/pytorch/pytorch/issues/131532",
+    [
+      "linux"
+    ]
+  ],
   "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_1024_seq_len_k_2048_head_dim_160_is_causal_False_dropout_p_0_48_float16_scale0_cuda_float16 (__main__.TestSDPACudaOnlyCUDA)": [
     "131626",
     "https://github.com/pytorch/pytorch/issues/131626",
@@ -3162,13 +3169,6 @@
     "https://github.com/pytorch/pytorch/issues/122491",
     [
       "linux"
-    ]
-  ],
-  "test_restart_pg (__main__.ProcessGroupNCCLGroupTest)": [
-    "139591",
-    "https://github.com/pytorch/pytorch/issues/139591",
-    [
-      "rocm"
     ]
   ],
   "test_retrace_export_auto_functionalize_simple_cuda_float32 (__main__.TestHOPCUDA)": [
