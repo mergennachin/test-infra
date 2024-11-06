@@ -3811,6 +3811,17 @@
       "slow"
     ]
   ],
+  "test_unbacked_bindings_for_divisible_u_symint_retraceability_non_strict (__main__.RetraceExportNonStrictTestExport)": [
+    "138676",
+    "https://github.com/pytorch/pytorch/issues/138676",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm"
+    ]
+  ],
   "test_unbacked_bindings_for_divisible_u_symint_training_ir_to_decomp (__main__.TrainingIRToRunDecompExportTestExport)": [
     "138583",
     "https://github.com/pytorch/pytorch/issues/138583",
