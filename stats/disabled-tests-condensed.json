@@ -430,7 +430,8 @@
     "139729",
     "https://github.com/pytorch/pytorch/issues/139729",
     [
-      "inductor"
+      "inductor",
+      "linux"
     ]
   ],
   "test_comprehensive_constant_pad_nd_cuda_int32 (__main__.TestInductorOpInfoCUDA)": [
@@ -463,9 +464,30 @@
       "slow"
     ]
   ],
+  "test_comprehensive_cumsum_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
+    "139830",
+    "https://github.com/pytorch/pytorch/issues/139830",
+    [
+      "inductor"
+    ]
+  ],
   "test_comprehensive_deg2rad_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
     "139731",
     "https://github.com/pytorch/pytorch/issues/139731",
+    [
+      "rocm"
+    ]
+  ],
+  "test_comprehensive_diag_embed_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
+    "139826",
+    "https://github.com/pytorch/pytorch/issues/139826",
+    [
+      "inductor"
+    ]
+  ],
+  "test_comprehensive_diag_embed_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
+    "139829",
+    "https://github.com/pytorch/pytorch/issues/139829",
     [
       "rocm"
     ]
@@ -492,6 +514,13 @@
       "inductor",
       "linux",
       "slow"
+    ]
+  ],
+  "test_comprehensive_empty_permuted_cuda_int32 (__main__.TestInductorOpInfoCUDA)": [
+    "139831",
+    "https://github.com/pytorch/pytorch/issues/139831",
+    [
+      "inductor"
     ]
   ],
   "test_comprehensive_empty_strided_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
@@ -581,6 +610,13 @@
   "test_comprehensive_lerp_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
     "139778",
     "https://github.com/pytorch/pytorch/issues/139778",
+    [
+      "inductor"
+    ]
+  ],
+  "test_comprehensive_lerp_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
+    "139827",
+    "https://github.com/pytorch/pytorch/issues/139827",
     [
       "inductor"
     ]
@@ -675,7 +711,8 @@
     "139800",
     "https://github.com/pytorch/pytorch/issues/139800",
     [
-      "inductor"
+      "inductor",
+      "linux"
     ]
   ],
   "test_comprehensive_nn_functional_conv_transpose3d_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
@@ -749,11 +786,26 @@
       "rocm"
     ]
   ],
+  "test_comprehensive_pca_lowrank_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
+    "139828",
+    "https://github.com/pytorch/pytorch/issues/139828",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_comprehensive_roll_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
     "139683",
     "https://github.com/pytorch/pytorch/issues/139683",
     [
       "inductor"
+    ]
+  ],
+  "test_comprehensive_scatter_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
+    "139825",
+    "https://github.com/pytorch/pytorch/issues/139825",
+    [
+      "linux"
     ]
   ],
   "test_comprehensive_scatter_reduce_mean_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
