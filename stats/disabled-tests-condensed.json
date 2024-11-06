@@ -801,6 +801,13 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_scatter_add_cuda_bool (__main__.TestInductorOpInfoCUDA)": [
+    "139845",
+    "https://github.com/pytorch/pytorch/issues/139845",
+    [
+      "linux"
+    ]
+  ],
   "test_comprehensive_scatter_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
     "139825",
     "https://github.com/pytorch/pytorch/issues/139825",
@@ -3864,6 +3871,13 @@
   "test_variant_consistency_jit_linalg_lu_factor_ex_cuda_complex64 (__main__.TestJitCUDA)": [
     "86887",
     "https://github.com/pytorch/pytorch/issues/86887",
+    [
+      "linux"
+    ]
+  ],
+  "test_vdd_clamp_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "134445",
+    "https://github.com/pytorch/pytorch/issues/134445",
     [
       "linux"
     ]
