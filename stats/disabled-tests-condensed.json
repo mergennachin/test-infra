@@ -810,6 +810,13 @@
       "slow"
     ]
   ],
+  "test_comprehensive_prod_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
+    "139871",
+    "https://github.com/pytorch/pytorch/issues/139871",
+    [
+      "linux"
+    ]
+  ],
   "test_comprehensive_roll_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
     "139683",
     "https://github.com/pytorch/pytorch/issues/139683",
@@ -1250,13 +1257,6 @@
       "rocm",
       "linux",
       "slow"
-    ]
-  ],
-  "test_dunder_new_function_inlining1 (__main__.MiscTests)": [
-    "137166",
-    "https://github.com/pytorch/pytorch/issues/137166",
-    [
-      "linux"
     ]
   ],
   "test_dunder_round_edgecases_val_2147483647_ndigits_-1 (__main__.TestNonarrayArgs)": [
