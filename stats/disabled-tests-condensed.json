@@ -441,6 +441,13 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_copysign_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
+    "139925",
+    "https://github.com/pytorch/pytorch/issues/139925",
+    [
+      "inductor"
+    ]
+  ],
   "test_comprehensive_cross_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
     "139689",
     "https://github.com/pytorch/pytorch/issues/139689",
@@ -649,6 +656,13 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_masked_argmax_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
+    "139927",
+    "https://github.com/pytorch/pytorch/issues/139927",
+    [
+      "inductor"
+    ]
+  ],
   "test_comprehensive_masked_var_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
     "139691",
     "https://github.com/pytorch/pytorch/issues/139691",
@@ -807,6 +821,13 @@
     "https://github.com/pytorch/pytorch/issues/139871",
     [
       "linux"
+    ]
+  ],
+  "test_comprehensive_randint_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
+    "139926",
+    "https://github.com/pytorch/pytorch/issues/139926",
+    [
+      "inductor"
     ]
   ],
   "test_comprehensive_roll_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
@@ -1288,13 +1309,6 @@
   "test_dynamo_export_retains_readable_parameter_and_buffer_names (__main__.TestFxToOnnx)": [
     "138064",
     "https://github.com/pytorch/pytorch/issues/138064",
-    [
-      "linux"
-    ]
-  ],
-  "test_embedding_bag_cpu (__main__.CpuTests)": [
-    "135457",
-    "https://github.com/pytorch/pytorch/issues/135457",
     [
       "linux"
     ]
