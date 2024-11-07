@@ -1224,13 +1224,6 @@
       "linux"
     ]
   ],
-  "test_dropout_deterministic_cuda (__main__.GPUTests)": [
-    "133025",
-    "https://github.com/pytorch/pytorch/issues/133025",
-    [
-      "linux"
-    ]
-  ],
   "test_dtensor_mm (__main__.DistMatrixOpsTest)": [
     "139813",
     "https://github.com/pytorch/pytorch/issues/139813",
@@ -3610,6 +3603,13 @@
     "https://github.com/pytorch/pytorch/issues/91497",
     [
       "linux"
+    ]
+  ],
+  "test_tensor_subclasses (__main__.TestScript)": [
+    "119949",
+    "https://github.com/pytorch/pytorch/issues/119949",
+    [
+      "dynamo"
     ]
   ],
   "test_tensorboard_trace_handler (__main__.TestProfiler)": [
