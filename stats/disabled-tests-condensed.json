@@ -407,6 +407,13 @@
       "inductor"
     ]
   ],
+  "test_comprehensive___rpow___cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
+    "140050",
+    "https://github.com/pytorch/pytorch/issues/140050",
+    [
+      "inductor"
+    ]
+  ],
   "test_comprehensive__unsafe_masked_index_cuda_bool (__main__.TestInductorOpInfoCUDA)": [
     "131748",
     "https://github.com/pytorch/pytorch/issues/131748",
@@ -605,6 +612,13 @@
     "https://github.com/pytorch/pytorch/issues/139622",
     [
       "inductor"
+    ]
+  ],
+  "test_comprehensive_exponential_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
+    "140049",
+    "https://github.com/pytorch/pytorch/issues/140049",
+    [
+      "linux"
     ]
   ],
   "test_comprehensive_eye_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
@@ -934,6 +948,13 @@
       "rocm"
     ]
   ],
+  "test_comprehensive_nn_functional_softmin_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
+    "140052",
+    "https://github.com/pytorch/pytorch/issues/140052",
+    [
+      "linux"
+    ]
+  ],
   "test_comprehensive_pca_lowrank_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
     "139828",
     "https://github.com/pytorch/pytorch/issues/139828",
@@ -947,6 +968,13 @@
     "https://github.com/pytorch/pytorch/issues/139871",
     [
       "linux"
+    ]
+  ],
+  "test_comprehensive_put_cuda_int32 (__main__.TestInductorOpInfoCUDA)": [
+    "140051",
+    "https://github.com/pytorch/pytorch/issues/140051",
+    [
+      "inductor"
     ]
   ],
   "test_comprehensive_randint_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
