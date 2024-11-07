@@ -127,6 +127,17 @@
       "slow"
     ]
   ],
+  "test_aot_export_with_torch_cond (__main__.TestAOTExport)": [
+    "139998",
+    "https://github.com/pytorch/pytorch/issues/139998",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm"
+    ]
+  ],
   "test_aot_module_simplified_fake_tensor_gm_raises (__main__.TestAOTModuleSimplified)": [
     "124590",
     "https://github.com/pytorch/pytorch/issues/124590",
@@ -433,6 +444,20 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_as_strided_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
+    "139992",
+    "https://github.com/pytorch/pytorch/issues/139992",
+    [
+      "inductor"
+    ]
+  ],
+  "test_comprehensive_bernoulli_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
+    "139993",
+    "https://github.com/pytorch/pytorch/issues/139993",
+    [
+      "inductor"
+    ]
+  ],
   "test_comprehensive_cat_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
     "139729",
     "https://github.com/pytorch/pytorch/issues/139729",
@@ -535,6 +560,13 @@
       "inductor",
       "linux",
       "slow"
+    ]
+  ],
+  "test_comprehensive_dstack_cuda_bool (__main__.TestInductorOpInfoCUDA)": [
+    "139991",
+    "https://github.com/pytorch/pytorch/issues/139991",
+    [
+      "inductor"
     ]
   ],
   "test_comprehensive_empty_permuted_cuda_int32 (__main__.TestInductorOpInfoCUDA)": [
@@ -705,6 +737,13 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_mvlgamma_mvlgamma_p_5_cuda_int32 (__main__.TestInductorOpInfoCUDA)": [
+    "139997",
+    "https://github.com/pytorch/pytorch/issues/139997",
+    [
+      "inductor"
+    ]
+  ],
   "test_comprehensive_nanquantile_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
     "139593",
     "https://github.com/pytorch/pytorch/issues/139593",
@@ -738,6 +777,13 @@
   "test_comprehensive_nn_functional_adaptive_avg_pool2d_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
     "131080",
     "https://github.com/pytorch/pytorch/issues/131080",
+    [
+      "linux"
+    ]
+  ],
+  "test_comprehensive_nn_functional_adaptive_max_pool3d_cpu_float32 (__main__.TestInductorOpInfoCPU)": [
+    "139994",
+    "https://github.com/pytorch/pytorch/issues/139994",
     [
       "linux"
     ]
@@ -833,6 +879,13 @@
     "https://github.com/pytorch/pytorch/issues/131050",
     [
       "rocm",
+      "linux"
+    ]
+  ],
+  "test_comprehensive_nn_functional_prelu_cpu_float16 (__main__.TestInductorOpInfoCPU)": [
+    "139996",
+    "https://github.com/pytorch/pytorch/issues/139996",
+    [
       "linux"
     ]
   ],
@@ -967,6 +1020,13 @@
   "test_comprehensive_sum_to_size_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
     "139660",
     "https://github.com/pytorch/pytorch/issues/139660",
+    [
+      "linux"
+    ]
+  ],
+  "test_comprehensive_transpose_copy_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
+    "139995",
+    "https://github.com/pytorch/pytorch/issues/139995",
     [
       "linux"
     ]
