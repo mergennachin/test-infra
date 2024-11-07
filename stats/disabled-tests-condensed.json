@@ -426,12 +426,26 @@
       "linux"
     ]
   ],
+  "test_comprehensive_amax_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
+    "139982",
+    "https://github.com/pytorch/pytorch/issues/139982",
+    [
+      "inductor"
+    ]
+  ],
   "test_comprehensive_cat_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
     "139729",
     "https://github.com/pytorch/pytorch/issues/139729",
     [
       "inductor",
       "linux"
+    ]
+  ],
+  "test_comprehensive_column_stack_cuda_int32 (__main__.TestInductorOpInfoCUDA)": [
+    "139984",
+    "https://github.com/pytorch/pytorch/issues/139984",
+    [
+      "inductor"
     ]
   ],
   "test_comprehensive_constant_pad_nd_cuda_int32 (__main__.TestInductorOpInfoCUDA)": [
@@ -579,6 +593,13 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_fill_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
+    "139978",
+    "https://github.com/pytorch/pytorch/issues/139978",
+    [
+      "linux"
+    ]
+  ],
   "test_comprehensive_heaviside_cuda_bool (__main__.TestInductorOpInfoCUDA)": [
     "139779",
     "https://github.com/pytorch/pytorch/issues/139779",
@@ -610,6 +631,13 @@
   "test_comprehensive_isclose_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
     "139802",
     "https://github.com/pytorch/pytorch/issues/139802",
+    [
+      "inductor"
+    ]
+  ],
+  "test_comprehensive_isreal_cpu_float16 (__main__.TestInductorOpInfoCPU)": [
+    "139983",
+    "https://github.com/pytorch/pytorch/issues/139983",
     [
       "inductor"
     ]
@@ -659,6 +687,13 @@
   "test_comprehensive_masked_argmax_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
     "139927",
     "https://github.com/pytorch/pytorch/issues/139927",
+    [
+      "inductor"
+    ]
+  ],
+  "test_comprehensive_masked_softmin_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
+    "139980",
+    "https://github.com/pytorch/pytorch/issues/139980",
     [
       "inductor"
     ]
@@ -830,6 +865,13 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_randint_like_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
+    "139981",
+    "https://github.com/pytorch/pytorch/issues/139981",
+    [
+      "inductor"
+    ]
+  ],
   "test_comprehensive_roll_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
     "139683",
     "https://github.com/pytorch/pytorch/issues/139683",
@@ -925,6 +967,13 @@
   "test_comprehensive_sum_to_size_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
     "139660",
     "https://github.com/pytorch/pytorch/issues/139660",
+    [
+      "linux"
+    ]
+  ],
+  "test_comprehensive_trapezoid_cuda_int32 (__main__.TestInductorOpInfoCUDA)": [
+    "139979",
+    "https://github.com/pytorch/pytorch/issues/139979",
     [
       "linux"
     ]
