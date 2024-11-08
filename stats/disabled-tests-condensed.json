@@ -461,9 +461,24 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_argsort_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
+    "131135",
+    "https://github.com/pytorch/pytorch/issues/131135",
+    [
+      "rocm",
+      "inductor"
+    ]
+  ],
   "test_comprehensive_as_strided_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
     "139992",
     "https://github.com/pytorch/pytorch/issues/139992",
+    [
+      "inductor"
+    ]
+  ],
+  "test_comprehensive_baddbmm_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
+    "140076",
+    "https://github.com/pytorch/pytorch/issues/140076",
     [
       "inductor"
     ]
@@ -481,6 +496,13 @@
     [
       "inductor",
       "linux"
+    ]
+  ],
+  "test_comprehensive_cdist_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
+    "140074",
+    "https://github.com/pytorch/pytorch/issues/140074",
+    [
+      "inductor"
     ]
   ],
   "test_comprehensive_column_stack_cuda_int32 (__main__.TestInductorOpInfoCUDA)": [
@@ -642,6 +664,13 @@
       "rocm"
     ]
   ],
+  "test_comprehensive_fft_ifft2_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
+    "140071",
+    "https://github.com/pytorch/pytorch/issues/140071",
+    [
+      "rocm"
+    ]
+  ],
   "test_comprehensive_fft_ifft_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
     "127344",
     "https://github.com/pytorch/pytorch/issues/127344",
@@ -761,6 +790,13 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_masked_sum_cuda_int32 (__main__.TestInductorOpInfoCUDA)": [
+    "140072",
+    "https://github.com/pytorch/pytorch/issues/140072",
+    [
+      "inductor"
+    ]
+  ],
   "test_comprehensive_masked_var_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
     "139691",
     "https://github.com/pytorch/pytorch/issues/139691",
@@ -824,6 +860,13 @@
     "https://github.com/pytorch/pytorch/issues/139994",
     [
       "linux"
+    ]
+  ],
+  "test_comprehensive_nn_functional_batch_norm_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
+    "140080",
+    "https://github.com/pytorch/pytorch/issues/140080",
+    [
+      "inductor"
     ]
   ],
   "test_comprehensive_nn_functional_batch_norm_without_cudnn_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
@@ -900,6 +943,13 @@
       "slow"
     ]
   ],
+  "test_comprehensive_nn_functional_hardtanh_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
+    "140077",
+    "https://github.com/pytorch/pytorch/issues/140077",
+    [
+      "rocm"
+    ]
+  ],
   "test_comprehensive_nn_functional_interpolate_nearest_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
     "139688",
     "https://github.com/pytorch/pytorch/issues/139688",
@@ -963,6 +1013,13 @@
       "slow"
     ]
   ],
+  "test_comprehensive_polygamma_polygamma_n_0_cpu_bool (__main__.TestInductorOpInfoCPU)": [
+    "140075",
+    "https://github.com/pytorch/pytorch/issues/140075",
+    [
+      "inductor"
+    ]
+  ],
   "test_comprehensive_prod_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
     "139871",
     "https://github.com/pytorch/pytorch/issues/139871",
@@ -1023,6 +1080,13 @@
   "test_comprehensive_scatter_reduce_mean_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
     "139614",
     "https://github.com/pytorch/pytorch/issues/139614",
+    [
+      "linux"
+    ]
+  ],
+  "test_comprehensive_scatter_reduce_prod_cpu_float32 (__main__.TestInductorOpInfoCPU)": [
+    "140073",
+    "https://github.com/pytorch/pytorch/issues/140073",
     [
       "linux"
     ]
@@ -1098,11 +1162,25 @@
       "linux"
     ]
   ],
+  "test_comprehensive_sub_cpu_int64 (__main__.TestInductorOpInfoCPU)": [
+    "140078",
+    "https://github.com/pytorch/pytorch/issues/140078",
+    [
+      "linux"
+    ]
+  ],
   "test_comprehensive_sum_to_size_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
     "139660",
     "https://github.com/pytorch/pytorch/issues/139660",
     [
       "linux"
+    ]
+  ],
+  "test_comprehensive_torch_ops_aten__safe_softmax_default_cuda_bool (__main__.TestInductorOpInfoCUDA)": [
+    "140079",
+    "https://github.com/pytorch/pytorch/issues/140079",
+    [
+      "inductor"
     ]
   ],
   "test_comprehensive_transpose_copy_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
