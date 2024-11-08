@@ -566,6 +566,13 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_cumulative_trapezoid_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
+    "140164",
+    "https://github.com/pytorch/pytorch/issues/140164",
+    [
+      "inductor"
+    ]
+  ],
   "test_comprehensive_deg2rad_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
     "139731",
     "https://github.com/pytorch/pytorch/issues/139731",
@@ -1769,13 +1776,6 @@
   "test_fake_tensor_mode_huggingface_openai_whisper (__main__.TestFxToOnnxFakeTensorWithOnnxRuntime_op_level_debug_False_dynamic_shapes_False_load_checkpoint_during_init_True_export_within_fake_mode_True_model_type_TorchModelType.TORCH_NN_MODULE)": [
     "130575",
     "https://github.com/pytorch/pytorch/issues/130575",
-    [
-      "linux"
-    ]
-  ],
-  "test_file_reader_no_memory_leak (__main__.TestScript)": [
-    "138885",
-    "https://github.com/pytorch/pytorch/issues/138885",
     [
       "linux"
     ]
