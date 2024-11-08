@@ -1127,6 +1127,13 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_softmax_with_dtype_cuda_bool (__main__.TestInductorOpInfoCUDA)": [
+    "140098",
+    "https://github.com/pytorch/pytorch/issues/140098",
+    [
+      "linux"
+    ]
+  ],
   "test_comprehensive_special_bessel_j1_cuda_bool (__main__.TestInductorOpInfoCUDA)": [
     "139694",
     "https://github.com/pytorch/pytorch/issues/139694",
@@ -1153,6 +1160,13 @@
     "https://github.com/pytorch/pytorch/issues/139912",
     [
       "linux"
+    ]
+  ],
+  "test_comprehensive_split_with_sizes_cpu_float16 (__main__.TestInductorOpInfoCPU)": [
+    "140099",
+    "https://github.com/pytorch/pytorch/issues/140099",
+    [
+      "inductor"
     ]
   ],
   "test_comprehensive_stft_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
@@ -1195,6 +1209,13 @@
     "https://github.com/pytorch/pytorch/issues/139979",
     [
       "linux"
+    ]
+  ],
+  "test_comprehensive_unsqueeze_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
+    "140100",
+    "https://github.com/pytorch/pytorch/issues/140100",
+    [
+      "inductor"
     ]
   ],
   "test_comprehensive_var_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
