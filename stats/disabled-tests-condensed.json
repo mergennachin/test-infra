@@ -616,6 +616,13 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_diff_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
+    "140178",
+    "https://github.com/pytorch/pytorch/issues/140178",
+    [
+      "inductor"
+    ]
+  ],
   "test_comprehensive_diff_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
     "139727",
     "https://github.com/pytorch/pytorch/issues/139727",
@@ -1018,6 +1025,13 @@
       "slow"
     ]
   ],
+  "test_comprehensive_nn_functional_glu_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
+    "140181",
+    "https://github.com/pytorch/pytorch/issues/140181",
+    [
+      "inductor"
+    ]
+  ],
   "test_comprehensive_nn_functional_hardtanh_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
     "140077",
     "https://github.com/pytorch/pytorch/issues/140077",
@@ -1087,6 +1101,13 @@
       "linux"
     ]
   ],
+  "test_comprehensive_ones_cuda_bool (__main__.TestInductorOpInfoCUDA)": [
+    "140175",
+    "https://github.com/pytorch/pytorch/issues/140175",
+    [
+      "inductor"
+    ]
+  ],
   "test_comprehensive_pca_lowrank_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
     "139828",
     "https://github.com/pytorch/pytorch/issues/139828",
@@ -1142,6 +1163,20 @@
     "https://github.com/pytorch/pytorch/issues/139683",
     [
       "inductor"
+    ]
+  ],
+  "test_comprehensive_round_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
+    "140180",
+    "https://github.com/pytorch/pytorch/issues/140180",
+    [
+      "linux"
+    ]
+  ],
+  "test_comprehensive_rsub_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
+    "140179",
+    "https://github.com/pytorch/pytorch/issues/140179",
+    [
+      "linux"
     ]
   ],
   "test_comprehensive_scatter_add_cuda_bool (__main__.TestInductorOpInfoCUDA)": [
@@ -1279,6 +1314,13 @@
       "linux"
     ]
   ],
+  "test_comprehensive_tensordot_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
+    "140177",
+    "https://github.com/pytorch/pytorch/issues/140177",
+    [
+      "inductor"
+    ]
+  ],
   "test_comprehensive_torch_ops_aten__safe_softmax_default_cuda_bool (__main__.TestInductorOpInfoCUDA)": [
     "140079",
     "https://github.com/pytorch/pytorch/issues/140079",
@@ -1308,6 +1350,13 @@
       "linux"
     ]
   ],
+  "test_comprehensive_unfold_copy_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
+    "140182",
+    "https://github.com/pytorch/pytorch/issues/140182",
+    [
+      "inductor"
+    ]
+  ],
   "test_comprehensive_unsqueeze_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
     "140100",
     "https://github.com/pytorch/pytorch/issues/140100",
@@ -1321,6 +1370,13 @@
     "https://github.com/pytorch/pytorch/issues/139690",
     [
       "inductor"
+    ]
+  ],
+  "test_comprehensive_view_copy_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
+    "140176",
+    "https://github.com/pytorch/pytorch/issues/140176",
+    [
+      "rocm"
     ]
   ],
   "test_comprehensive_where_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
@@ -1545,18 +1601,6 @@
     "https://github.com/pytorch/pytorch/issues/127738",
     [
       "dynamo"
-    ]
-  ],
-  "test_device_mode_ops_sparse_mm_reduce_cpu_bfloat16 (__main__.TestDeviceUtilsCPU)": [
-    "132494",
-    "https://github.com/pytorch/pytorch/issues/132494",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "win",
-      "windows"
     ]
   ],
   "test_device_mode_ops_sparse_mm_reduce_cpu_float16 (__main__.TestDeviceUtilsCPU)": [
@@ -2109,13 +2153,6 @@
     "https://github.com/pytorch/pytorch/issues/115859",
     [
       "rocm"
-    ]
-  ],
-  "test_is_isnot (__main__.TestScript)": [
-    "120694",
-    "https://github.com/pytorch/pytorch/issues/120694",
-    [
-      "dynamo"
     ]
   ],
   "test_jvpvjp_nn_functional_conv3d_cuda_float32 (__main__.TestOperatorsCUDA)": [
