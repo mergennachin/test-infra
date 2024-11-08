@@ -480,14 +480,16 @@
     "140076",
     "https://github.com/pytorch/pytorch/issues/140076",
     [
-      "inductor"
+      "inductor",
+      "linux"
     ]
   ],
   "test_comprehensive_bernoulli_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
     "139993",
     "https://github.com/pytorch/pytorch/issues/139993",
     [
-      "inductor"
+      "inductor",
+      "linux"
     ]
   ],
   "test_comprehensive_cat_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
@@ -502,7 +504,8 @@
     "140074",
     "https://github.com/pytorch/pytorch/issues/140074",
     [
-      "inductor"
+      "inductor",
+      "linux"
     ]
   ],
   "test_comprehensive_column_stack_cuda_int32 (__main__.TestInductorOpInfoCUDA)": [
@@ -605,7 +608,8 @@
     "139991",
     "https://github.com/pytorch/pytorch/issues/139991",
     [
-      "inductor"
+      "inductor",
+      "linux"
     ]
   ],
   "test_comprehensive_empty_permuted_cuda_int32 (__main__.TestInductorOpInfoCUDA)": [
@@ -808,7 +812,8 @@
     "139997",
     "https://github.com/pytorch/pytorch/issues/139997",
     [
-      "inductor"
+      "inductor",
+      "linux"
     ]
   ],
   "test_comprehensive_nanquantile_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
@@ -1215,7 +1220,8 @@
     "140100",
     "https://github.com/pytorch/pytorch/issues/140100",
     [
-      "inductor"
+      "inductor",
+      "linux"
     ]
   ],
   "test_comprehensive_var_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
