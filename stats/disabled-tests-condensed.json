@@ -529,6 +529,13 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_cos_cuda_int32 (__main__.TestInductorOpInfoCUDA)": [
+    "140134",
+    "https://github.com/pytorch/pytorch/issues/140134",
+    [
+      "linux"
+    ]
+  ],
   "test_comprehensive_cross_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
     "139689",
     "https://github.com/pytorch/pytorch/issues/139689",
@@ -836,6 +843,13 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_mvlgamma_mvlgamma_p_5_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
+    "140135",
+    "https://github.com/pytorch/pytorch/issues/140135",
+    [
+      "linux"
+    ]
+  ],
   "test_comprehensive_mvlgamma_mvlgamma_p_5_cuda_int32 (__main__.TestInductorOpInfoCUDA)": [
     "139997",
     "https://github.com/pytorch/pytorch/issues/139997",
@@ -879,6 +893,13 @@
     "https://github.com/pytorch/pytorch/issues/139685",
     [
       "linux"
+    ]
+  ],
+  "test_comprehensive_new_full_cuda_int32 (__main__.TestInductorOpInfoCUDA)": [
+    "140136",
+    "https://github.com/pytorch/pytorch/issues/140136",
+    [
+      "inductor"
     ]
   ],
   "test_comprehensive_nn_functional_adaptive_avg_pool2d_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
@@ -1263,6 +1284,13 @@
     "https://github.com/pytorch/pytorch/issues/139979",
     [
       "linux"
+    ]
+  ],
+  "test_comprehensive_trapz_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
+    "140133",
+    "https://github.com/pytorch/pytorch/issues/140133",
+    [
+      "inductor"
     ]
   ],
   "test_comprehensive_unsqueeze_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
