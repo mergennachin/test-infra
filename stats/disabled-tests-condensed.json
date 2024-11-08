@@ -1052,6 +1052,13 @@
       "linux"
     ]
   ],
+  "test_comprehensive_nn_functional_pad_reflect_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
+    "140144",
+    "https://github.com/pytorch/pytorch/issues/140144",
+    [
+      "linux"
+    ]
+  ],
   "test_comprehensive_nn_functional_prelu_cpu_float16 (__main__.TestInductorOpInfoCPU)": [
     "139996",
     "https://github.com/pytorch/pytorch/issues/139996",
@@ -1290,7 +1297,8 @@
     "140133",
     "https://github.com/pytorch/pytorch/issues/140133",
     [
-      "inductor"
+      "inductor",
+      "linux"
     ]
   ],
   "test_comprehensive_unsqueeze_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
@@ -3564,6 +3572,15 @@
       "linux"
     ]
   ],
+  "test_retrace_export_auto_functionalize_simple_cuda_float32 (__main__.TestHOPCUDA)": [
+    "123449",
+    "https://github.com/pytorch/pytorch/issues/123449",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_retrace_export_cond_simple_cuda_float32 (__main__.TestHOPCUDA)": [
     "123564",
     "https://github.com/pytorch/pytorch/issues/123564",
@@ -3769,6 +3786,15 @@
     "https://github.com/pytorch/pytorch/issues/127755",
     [
       "dynamo"
+    ]
+  ],
+  "test_serialize_export_auto_functionalize_simple_cuda_float32 (__main__.TestHOPCUDA)": [
+    "123563",
+    "https://github.com/pytorch/pytorch/issues/123563",
+    [
+      "linux",
+      "slow",
+      "rocm"
     ]
   ],
   "test_serialize_export_cond_simple_cuda_float32 (__main__.TestHOPCUDA)": [
