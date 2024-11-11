@@ -2968,13 +2968,6 @@
       "slow"
     ]
   ],
-  "test_save_with_without_initializer_dont_include_initializer_no_fake_mode_no_exported_program (__main__.TestFxToOnnx)": [
-    "125020",
-    "https://github.com/pytorch/pytorch/issues/125020",
-    [
-      "linux"
-    ]
-  ],
   "test_scaled_dot_product_attention_cuda_cuda_wrapper (__main__.TestCudaWrapper)": [
     "115896",
     "https://github.com/pytorch/pytorch/issues/115896",
@@ -3714,14 +3707,6 @@
       "windows",
       "rocm",
       "slow"
-    ]
-  ],
-  "test_where_broadcast_cpu (__main__.CpuTests)": [
-    "139057",
-    "https://github.com/pytorch/pytorch/issues/139057",
-    [
-      "mac",
-      "macos"
     ]
   ],
   "test_wrapper_subclass_aliasing_conv2d_cpu (__main__.TestWrapperSubclassAliasingCPU)": [
