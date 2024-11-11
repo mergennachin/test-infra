@@ -512,7 +512,8 @@
     "139984",
     "https://github.com/pytorch/pytorch/issues/139984",
     [
-      "inductor"
+      "inductor",
+      "linux"
     ]
   ],
   "test_comprehensive_constant_pad_nd_cuda_int32 (__main__.TestInductorOpInfoCUDA)": [
@@ -787,6 +788,13 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_kron_cuda_bool (__main__.TestInductorOpInfoCUDA)": [
+    "140244",
+    "https://github.com/pytorch/pytorch/issues/140244",
+    [
+      "inductor"
+    ]
+  ],
   "test_comprehensive_lerp_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
     "139778",
     "https://github.com/pytorch/pytorch/issues/139778",
@@ -827,6 +835,13 @@
     "https://github.com/pytorch/pytorch/issues/139801",
     [
       "inductor"
+    ]
+  ],
+  "test_comprehensive_linalg_pinv_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
+    "140242",
+    "https://github.com/pytorch/pytorch/issues/140242",
+    [
+      "linux"
     ]
   ],
   "test_comprehensive_masked_argmax_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
@@ -1165,6 +1180,13 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_rot90_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
+    "140243",
+    "https://github.com/pytorch/pytorch/issues/140243",
+    [
+      "linux"
+    ]
+  ],
   "test_comprehensive_round_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
     "140180",
     "https://github.com/pytorch/pytorch/issues/140180",
@@ -1452,6 +1474,15 @@
       "rocm"
     ]
   ],
+  "test_copy_r_to_c_cuda (__main__.TestAutogradDeviceTypeCUDA)": [
+    "140245",
+    "https://github.com/pytorch/pytorch/issues/140245",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_cpp_extension_recommends_custom_ops_dynamic_shapes (__main__.DynamicShapesMiscTests)": [
     "127813",
     "https://github.com/pytorch/pytorch/issues/127813",
@@ -1601,6 +1632,18 @@
     "https://github.com/pytorch/pytorch/issues/127738",
     [
       "dynamo"
+    ]
+  ],
+  "test_device_mode_ops_sparse_mm_reduce_cpu_bfloat16 (__main__.TestDeviceUtilsCPU)": [
+    "132494",
+    "https://github.com/pytorch/pytorch/issues/132494",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "win",
+      "windows"
     ]
   ],
   "test_device_mode_ops_sparse_mm_reduce_cpu_float16 (__main__.TestDeviceUtilsCPU)": [
