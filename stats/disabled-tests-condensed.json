@@ -94,14 +94,6 @@
       "slow"
     ]
   ],
-  "test_aot_export_cond_simple_cuda_float32 (__main__.TestHOPCUDA)": [
-    "123096",
-    "https://github.com/pytorch/pytorch/issues/123096",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_aot_export_cond_simple_cuda_int32 (__main__.TestHOPCUDA)": [
     "123194",
     "https://github.com/pytorch/pytorch/issues/123194",
@@ -543,6 +535,13 @@
     [
       "linux",
       "slow"
+    ]
+  ],
+  "test_comprehensive_cummin_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
+    "140295",
+    "https://github.com/pytorch/pytorch/issues/140295",
+    [
+      "linux"
     ]
   ],
   "test_comprehensive_cumprod_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
@@ -1243,6 +1242,13 @@
     [
       "linux",
       "slow"
+    ]
+  ],
+  "test_comprehensive_scatter_reduce_prod_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
+    "140294",
+    "https://github.com/pytorch/pytorch/issues/140294",
+    [
+      "linux"
     ]
   ],
   "test_comprehensive_searchsorted_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
@@ -2967,6 +2973,11 @@
       "rocm",
       "slow"
     ]
+  ],
+  "test_save_load_checkpoint (__main__.DistributedDataParallelTest)": [
+    "137771",
+    "https://github.com/pytorch/pytorch/issues/137771",
+    []
   ],
   "test_scaled_dot_product_attention_cuda_cuda_wrapper (__main__.TestCudaWrapper)": [
     "115896",
