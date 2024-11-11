@@ -1690,26 +1690,6 @@
       "linux"
     ]
   ],
-  "test_dtype_aware_codegen_load_upcast_to_fp32_False_bfloat16 (__main__.TritonCodeGenTests)": [
-    "138944",
-    "https://github.com/pytorch/pytorch/issues/138944",
-    [
-      "inductor",
-      "rocm",
-      "linux",
-      "slow"
-    ]
-  ],
-  "test_dtype_aware_codegen_load_upcast_to_fp32_False_float16 (__main__.TritonCodeGenTests)": [
-    "138943",
-    "https://github.com/pytorch/pytorch/issues/138943",
-    [
-      "inductor",
-      "rocm",
-      "linux",
-      "slow"
-    ]
-  ],
   "test_dunder_round_edgecases_val_2147483647_ndigits_-1 (__main__.TestNonarrayArgs)": [
     "116121",
     "https://github.com/pytorch/pytorch/issues/116121",
