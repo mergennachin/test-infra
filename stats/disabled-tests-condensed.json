@@ -2934,11 +2934,6 @@
       "slow"
     ]
   ],
-  "test_save_load_checkpoint (__main__.DistributedDataParallelTest)": [
-    "137771",
-    "https://github.com/pytorch/pytorch/issues/137771",
-    []
-  ],
   "test_save_with_without_initializer_dont_include_initializer_no_fake_mode_no_exported_program (__main__.TestFxToOnnx)": [
     "125020",
     "https://github.com/pytorch/pytorch/issues/125020",
