@@ -491,6 +491,13 @@
       "linux"
     ]
   ],
+  "test_comprehensive_bmm_cpu_float64 (__main__.TestInductorOpInfoCPU)": [
+    "140336",
+    "https://github.com/pytorch/pytorch/issues/140336",
+    [
+      "linux"
+    ]
+  ],
   "test_comprehensive_cat_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
     "139729",
     "https://github.com/pytorch/pytorch/issues/139729",
@@ -738,6 +745,13 @@
       "rocm"
     ]
   ],
+  "test_comprehensive_fft_ifftn_cpu_float64 (__main__.TestInductorOpInfoCPU)": [
+    "140337",
+    "https://github.com/pytorch/pytorch/issues/140337",
+    [
+      "inductor"
+    ]
+  ],
   "test_comprehensive_fft_rfft2_cuda_int32 (__main__.TestInductorOpInfoCUDA)": [
     "140317",
     "https://github.com/pytorch/pytorch/issues/140317",
@@ -793,6 +807,13 @@
     "https://github.com/pytorch/pytorch/issues/139799",
     [
       "linux"
+    ]
+  ],
+  "test_comprehensive_int_cpu_float16 (__main__.TestInductorOpInfoCPU)": [
+    "140338",
+    "https://github.com/pytorch/pytorch/issues/140338",
+    [
+      "inductor"
     ]
   ],
   "test_comprehensive_isclose_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
@@ -900,6 +921,13 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_median_cpu_int32 (__main__.TestInductorOpInfoCPU)": [
+    "140341",
+    "https://github.com/pytorch/pytorch/issues/140341",
+    [
+      "linux"
+    ]
+  ],
   "test_comprehensive_meshgrid_variadic_tensors_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
     "140309",
     "https://github.com/pytorch/pytorch/issues/140309",
@@ -920,6 +948,13 @@
     [
       "inductor",
       "linux"
+    ]
+  ],
+  "test_comprehensive_nanmean_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
+    "140339",
+    "https://github.com/pytorch/pytorch/issues/140339",
+    [
+      "rocm"
     ]
   ],
   "test_comprehensive_nanquantile_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
@@ -1081,6 +1116,13 @@
       "linux"
     ]
   ],
+  "test_comprehensive_nn_functional_embedding_bag_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
+    "140340",
+    "https://github.com/pytorch/pytorch/issues/140340",
+    [
+      "linux"
+    ]
+  ],
   "test_comprehensive_nn_functional_embedding_bag_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
     "139858",
     "https://github.com/pytorch/pytorch/issues/139858",
@@ -1093,7 +1135,8 @@
     "140316",
     "https://github.com/pytorch/pytorch/issues/140316",
     [
-      "inductor"
+      "inductor",
+      "linux"
     ]
   ],
   "test_comprehensive_nn_functional_glu_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
@@ -1225,6 +1268,13 @@
   "test_comprehensive_randint_like_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
     "139981",
     "https://github.com/pytorch/pytorch/issues/139981",
+    [
+      "inductor"
+    ]
+  ],
+  "test_comprehensive_roll_cpu_bool (__main__.TestInductorOpInfoCPU)": [
+    "140335",
+    "https://github.com/pytorch/pytorch/issues/140335",
     [
       "inductor"
     ]
@@ -3806,13 +3856,6 @@
     [
       "mac",
       "macos"
-    ]
-  ],
-  "test_wrapper_subclass_aliasing_conv2d_cpu (__main__.TestWrapperSubclassAliasingCPU)": [
-    "139056",
-    "https://github.com/pytorch/pytorch/issues/139056",
-    [
-      "dynamo"
     ]
   ],
   "test_zero_model_parallel_parameters_as_bucket_view_True (__main__.TestZeroRedundancyOptimizerDistributed)": [
