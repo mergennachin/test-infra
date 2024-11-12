@@ -916,6 +916,13 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_fmin_cuda_int32 (__main__.TestInductorOpInfoCUDA)": [
+    "140429",
+    "https://github.com/pytorch/pytorch/issues/140429",
+    [
+      "rocm"
+    ]
+  ],
   "test_comprehensive_heaviside_cuda_bool (__main__.TestInductorOpInfoCUDA)": [
     "139779",
     "https://github.com/pytorch/pytorch/issues/139779",
@@ -1619,6 +1626,13 @@
     "https://github.com/pytorch/pytorch/issues/140099",
     [
       "inductor"
+    ]
+  ],
+  "test_comprehensive_std_unbiased_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
+    "140430",
+    "https://github.com/pytorch/pytorch/issues/140430",
+    [
+      "rocm"
     ]
   ],
   "test_comprehensive_stft_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
