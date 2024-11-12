@@ -599,6 +599,13 @@
       "linux"
     ]
   ],
+  "test_comprehensive_cauchy_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
+    "140456",
+    "https://github.com/pytorch/pytorch/issues/140456",
+    [
+      "rocm"
+    ]
+  ],
   "test_comprehensive_cdist_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
     "140074",
     "https://github.com/pytorch/pytorch/issues/140074",
@@ -1316,6 +1323,13 @@
     "https://github.com/pytorch/pytorch/issues/140077",
     [
       "rocm"
+    ]
+  ],
+  "test_comprehensive_nn_functional_interpolate_nearest-exact_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
+    "140455",
+    "https://github.com/pytorch/pytorch/issues/140455",
+    [
+      "inductor"
     ]
   ],
   "test_comprehensive_nn_functional_interpolate_nearest_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
