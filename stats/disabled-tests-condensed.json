@@ -282,14 +282,6 @@
       "mac"
     ]
   ],
-  "test_byte_mask (__main__.TestAdvancedIndexing)": [
-    "138911",
-    "https://github.com/pytorch/pytorch/issues/138911",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_byte_mask_accumulate (__main__.TestAdvancedIndexing)": [
     "125927",
     "https://github.com/pytorch/pytorch/issues/125927",
@@ -520,6 +512,13 @@
     [
       "inductor",
       "linux"
+    ]
+  ],
+  "test_comprehensive_complex_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
+    "140367",
+    "https://github.com/pytorch/pytorch/issues/140367",
+    [
+      "inductor"
     ]
   ],
   "test_comprehensive_constant_pad_nd_cuda_int32 (__main__.TestInductorOpInfoCUDA)": [
@@ -996,7 +995,8 @@
     "139710",
     "https://github.com/pytorch/pytorch/issues/139710",
     [
-      "inductor"
+      "inductor",
+      "rocm"
     ]
   ],
   "test_comprehensive_native_dropout_backward_cpu_int32 (__main__.TestInductorOpInfoCPU)": [
@@ -1362,6 +1362,13 @@
     "https://github.com/pytorch/pytorch/issues/139614",
     [
       "linux"
+    ]
+  ],
+  "test_comprehensive_scatter_reduce_mean_cuda_int32 (__main__.TestInductorOpInfoCUDA)": [
+    "140366",
+    "https://github.com/pytorch/pytorch/issues/140366",
+    [
+      "inductor"
     ]
   ],
   "test_comprehensive_scatter_reduce_prod_cpu_float32 (__main__.TestInductorOpInfoCPU)": [
@@ -1863,6 +1870,13 @@
   "test_doc_examples (__main__.TestTypeHints)": [
     "98259",
     "https://github.com/pytorch/pytorch/issues/98259",
+    [
+      "linux"
+    ]
+  ],
+  "test_dropout_deterministic_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
+    "132957",
+    "https://github.com/pytorch/pytorch/issues/132957",
     [
       "linux"
     ]
@@ -3397,6 +3411,13 @@
       "linux",
       "asan",
       "macos"
+    ]
+  ],
+  "test_sparse_gradients_grad_is_view (__main__.DistributedDataParallelTest)": [
+    "140368",
+    "https://github.com/pytorch/pytorch/issues/140368",
+    [
+      "linux"
     ]
   ],
   "test_split_scan (__main__.TestKernelBenchmark)": [
