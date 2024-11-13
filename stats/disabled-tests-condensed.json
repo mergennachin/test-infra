@@ -2065,13 +2065,6 @@
       "linux"
     ]
   ],
-  "test_comprehensive_var_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
-    "139690",
-    "https://github.com/pytorch/pytorch/issues/139690",
-    [
-      "inductor"
-    ]
-  ],
   "test_comprehensive_var_mean_cpu_float16 (__main__.TestInductorOpInfoCPU)": [
     "140477",
     "https://github.com/pytorch/pytorch/issues/140477",
