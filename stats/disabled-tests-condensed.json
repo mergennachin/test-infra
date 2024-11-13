@@ -555,14 +555,6 @@
       "inductor"
     ]
   ],
-  "test_comprehensive__unsafe_masked_index_cuda_bool (__main__.TestInductorOpInfoCUDA)": [
-    "131748",
-    "https://github.com/pytorch/pytorch/issues/131748",
-    [
-      "rocm",
-      "inductor"
-    ]
-  ],
   "test_comprehensive_addbmm_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
     "139693",
     "https://github.com/pytorch/pytorch/issues/139693",
@@ -605,6 +597,13 @@
   "test_comprehensive_amax_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
     "140387",
     "https://github.com/pytorch/pytorch/issues/140387",
+    [
+      "inductor"
+    ]
+  ],
+  "test_comprehensive_amin_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
+    "140581",
+    "https://github.com/pytorch/pytorch/issues/140581",
     [
       "inductor"
     ]
@@ -881,7 +880,8 @@
     "140121",
     "https://github.com/pytorch/pytorch/issues/140121",
     [
-      "inductor"
+      "inductor",
+      "linux"
     ]
   ],
   "test_comprehensive_diff_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
@@ -1267,6 +1267,13 @@
       "linux"
     ]
   ],
+  "test_comprehensive_matmul_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
+    "140584",
+    "https://github.com/pytorch/pytorch/issues/140584",
+    [
+      "inductor"
+    ]
+  ],
   "test_comprehensive_median_cpu_int32 (__main__.TestInductorOpInfoCPU)": [
     "140341",
     "https://github.com/pytorch/pytorch/issues/140341",
@@ -1515,6 +1522,13 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_nn_functional_group_norm_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
+    "140583",
+    "https://github.com/pytorch/pytorch/issues/140583",
+    [
+      "inductor"
+    ]
+  ],
   "test_comprehensive_nn_functional_hardtanh_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
     "140077",
     "https://github.com/pytorch/pytorch/issues/140077",
@@ -1567,6 +1581,13 @@
       "rocm",
       "win",
       "windows"
+    ]
+  ],
+  "test_comprehensive_nn_functional_pad_constant_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
+    "140582",
+    "https://github.com/pytorch/pytorch/issues/140582",
+    [
+      "inductor"
     ]
   ],
   "test_comprehensive_nn_functional_pad_reflect_cuda_bfloat16 (__main__.TestDecompCUDA)": [
@@ -1693,6 +1714,20 @@
   "test_comprehensive_remainder_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
     "140529",
     "https://github.com/pytorch/pytorch/issues/140529",
+    [
+      "inductor"
+    ]
+  ],
+  "test_comprehensive_remainder_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
+    "140585",
+    "https://github.com/pytorch/pytorch/issues/140585",
+    [
+      "rocm"
+    ]
+  ],
+  "test_comprehensive_remainder_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
+    "140579",
+    "https://github.com/pytorch/pytorch/issues/140579",
     [
       "inductor"
     ]
@@ -1979,6 +2014,13 @@
       "linux"
     ]
   ],
+  "test_comprehensive_sub_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
+    "140580",
+    "https://github.com/pytorch/pytorch/issues/140580",
+    [
+      "inductor"
+    ]
+  ],
   "test_comprehensive_sum_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
     "140524",
     "https://github.com/pytorch/pytorch/issues/140524",
@@ -2063,6 +2105,13 @@
     [
       "inductor",
       "linux"
+    ]
+  ],
+  "test_comprehensive_var_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
+    "139690",
+    "https://github.com/pytorch/pytorch/issues/139690",
+    [
+      "inductor"
     ]
   ],
   "test_comprehensive_var_mean_cpu_float16 (__main__.TestInductorOpInfoCPU)": [
