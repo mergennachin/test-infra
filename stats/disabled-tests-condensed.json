@@ -1712,6 +1712,13 @@
       "linux"
     ]
   ],
+  "test_comprehensive_scatter_reduce_amin_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
+    "140543",
+    "https://github.com/pytorch/pytorch/issues/140543",
+    [
+      "inductor"
+    ]
+  ],
   "test_comprehensive_scatter_reduce_mean_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
     "139614",
     "https://github.com/pytorch/pytorch/issues/139614",
