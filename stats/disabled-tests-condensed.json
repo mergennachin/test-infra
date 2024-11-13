@@ -869,6 +869,13 @@
       "linux"
     ]
   ],
+  "test_comprehensive_diagonal_scatter_cuda_int32 (__main__.TestInductorOpInfoCUDA)": [
+    "140617",
+    "https://github.com/pytorch/pytorch/issues/140617",
+    [
+      "linux"
+    ]
+  ],
   "test_comprehensive_diff_cuda_bool (__main__.TestInductorOpInfoCUDA)": [
     "140381",
     "https://github.com/pytorch/pytorch/issues/140381",
@@ -1937,6 +1944,13 @@
       "linux"
     ]
   ],
+  "test_comprehensive_sort_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
+    "140616",
+    "https://github.com/pytorch/pytorch/issues/140616",
+    [
+      "linux"
+    ]
+  ],
   "test_comprehensive_special_bessel_j1_cuda_bool (__main__.TestInductorOpInfoCUDA)": [
     "139694",
     "https://github.com/pytorch/pytorch/issues/139694",
@@ -2159,6 +2173,13 @@
   "test_comprehensive_xlogy_cpu_int64 (__main__.TestInductorOpInfoCPU)": [
     "140474",
     "https://github.com/pytorch/pytorch/issues/140474",
+    [
+      "linux"
+    ]
+  ],
+  "test_comprehensive_zero__cuda_bool (__main__.TestInductorOpInfoCUDA)": [
+    "140618",
+    "https://github.com/pytorch/pytorch/issues/140618",
     [
       "linux"
     ]
@@ -2416,18 +2437,6 @@
   "test_device_mode_ops_sparse_mm_reduce_cpu_float32 (__main__.TestDeviceUtilsCPU)": [
     "132552",
     "https://github.com/pytorch/pytorch/issues/132552",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "win",
-      "windows"
-    ]
-  ],
-  "test_device_mode_ops_sparse_mm_reduce_cpu_float64 (__main__.TestDeviceUtilsCPU)": [
-    "132619",
-    "https://github.com/pytorch/pytorch/issues/132619",
     [
       "asan",
       "linux",
@@ -2943,6 +2952,13 @@
   "test_inplace_gradgrad_remainder_cuda_float64 (__main__.TestBwdGradientsCUDA)": [
     "100675",
     "https://github.com/pytorch/pytorch/issues/100675",
+    [
+      "linux"
+    ]
+  ],
+  "test_input_mutation2_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "135295",
+    "https://github.com/pytorch/pytorch/issues/135295",
     [
       "linux"
     ]
