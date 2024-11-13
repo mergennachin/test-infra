@@ -287,6 +287,13 @@
       "linux"
     ]
   ],
+  "test_backward_nan_to_num_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)": [
+    "140549",
+    "https://github.com/pytorch/pytorch/issues/140549",
+    [
+      "linux"
+    ]
+  ],
   "test_backward_polygamma_polygamma_n_1_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)": [
     "140406",
     "https://github.com/pytorch/pytorch/issues/140406",
@@ -294,6 +301,22 @@
       "linux",
       "rocm",
       "slow"
+    ]
+  ],
+  "test_backward_polygamma_polygamma_n_2_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)": [
+    "140552",
+    "https://github.com/pytorch/pytorch/issues/140552",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_backward_prod_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)": [
+    "140556",
+    "https://github.com/pytorch/pytorch/issues/140556",
+    [
+      "linux"
     ]
   ],
   "test_backward_special_erfcx_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)": [
@@ -311,6 +334,13 @@
       "linux",
       "rocm",
       "slow"
+    ]
+  ],
+  "test_backward_special_ndtr_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)": [
+    "140555",
+    "https://github.com/pytorch/pytorch/issues/140555",
+    [
+      "linux"
     ]
   ],
   "test_barrier_timeout_group (__main__.TestDistBackendWithSpawn)": [
@@ -445,9 +475,33 @@
       "slow"
     ]
   ],
+  "test_compile_backward_reciprocal_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)": [
+    "140550",
+    "https://github.com/pytorch/pytorch/issues/140550",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
+  "test_compile_forward_all_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)": [
+    "140553",
+    "https://github.com/pytorch/pytorch/issues/140553",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_compile_forward_igammac_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)": [
     "140408",
     "https://github.com/pytorch/pytorch/issues/140408",
+    [
+      "linux",
+      "rocm"
+    ]
+  ],
+  "test_compile_forward_special_bessel_y0_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)": [
+    "140548",
+    "https://github.com/pytorch/pytorch/issues/140548",
     [
       "linux",
       "rocm"
@@ -465,6 +519,15 @@
   "test_compile_forward_special_ndtri_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)": [
     "140412",
     "https://github.com/pytorch/pytorch/issues/140412",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_compile_forward_special_spherical_bessel_j0_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)": [
+    "140551",
+    "https://github.com/pytorch/pytorch/issues/140551",
     [
       "linux",
       "rocm",
@@ -2002,13 +2065,6 @@
       "linux"
     ]
   ],
-  "test_comprehensive_var_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
-    "139690",
-    "https://github.com/pytorch/pytorch/issues/139690",
-    [
-      "inductor"
-    ]
-  ],
   "test_comprehensive_var_mean_cpu_float16 (__main__.TestInductorOpInfoCPU)": [
     "140477",
     "https://github.com/pytorch/pytorch/issues/140477",
@@ -2575,6 +2631,14 @@
       "rocm"
     ]
   ],
+  "test_forward_all_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)": [
+    "140554",
+    "https://github.com/pytorch/pytorch/issues/140554",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_forward_mode_AD_linalg_det_singular_cuda_complex128 (__main__.TestFwdGradientsCUDA)": [
     "93045",
     "https://github.com/pytorch/pytorch/issues/93045",
@@ -2830,13 +2894,6 @@
   "test_inplace_gradgrad_remainder_cuda_float64 (__main__.TestBwdGradientsCUDA)": [
     "100675",
     "https://github.com/pytorch/pytorch/issues/100675",
-    [
-      "linux"
-    ]
-  ],
-  "test_input_mutation2_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "135295",
-    "https://github.com/pytorch/pytorch/issues/135295",
     [
       "linux"
     ]
