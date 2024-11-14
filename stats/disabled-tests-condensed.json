@@ -2142,6 +2142,13 @@
       "linux"
     ]
   ],
+  "test_comprehensive_softmax_with_dtype_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
+    "140732",
+    "https://github.com/pytorch/pytorch/issues/140732",
+    [
+      "inductor"
+    ]
+  ],
   "test_comprehensive_softmax_with_dtype_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
     "140403",
     "https://github.com/pytorch/pytorch/issues/140403",
