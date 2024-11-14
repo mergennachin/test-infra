@@ -965,6 +965,13 @@
       "rocm"
     ]
   ],
+  "test_comprehensive_div_trunc_rounding_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
+    "140667",
+    "https://github.com/pytorch/pytorch/issues/140667",
+    [
+      "inductor"
+    ]
+  ],
   "test_comprehensive_dstack_cuda_bool (__main__.TestInductorOpInfoCUDA)": [
     "139991",
     "https://github.com/pytorch/pytorch/issues/139991",
@@ -1261,6 +1268,13 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_linalg_lu_factor_ex_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
+    "140671",
+    "https://github.com/pytorch/pytorch/issues/140671",
+    [
+      "inductor"
+    ]
+  ],
   "test_comprehensive_linalg_matrix_norm_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
     "139801",
     "https://github.com/pytorch/pytorch/issues/139801",
@@ -1372,6 +1386,13 @@
     "https://github.com/pytorch/pytorch/issues/140486",
     [
       "inductor"
+    ]
+  ],
+  "test_comprehensive_minimum_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
+    "140669",
+    "https://github.com/pytorch/pytorch/issues/140669",
+    [
+      "linux"
     ]
   ],
   "test_comprehensive_mvlgamma_mvlgamma_p_5_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
@@ -1536,6 +1557,13 @@
       "slow"
     ]
   ],
+  "test_comprehensive_nn_functional_cosine_embedding_loss_cpu_float64 (__main__.TestInductorOpInfoCPU)": [
+    "140668",
+    "https://github.com/pytorch/pytorch/issues/140668",
+    [
+      "linux"
+    ]
+  ],
   "test_comprehensive_nn_functional_cosine_embedding_loss_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
     "140008",
     "https://github.com/pytorch/pytorch/issues/140008",
@@ -1655,6 +1683,13 @@
     "https://github.com/pytorch/pytorch/issues/140528",
     [
       "rocm"
+    ]
+  ],
+  "test_comprehensive_nn_functional_mse_loss_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
+    "140665",
+    "https://github.com/pytorch/pytorch/issues/140665",
+    [
+      "linux"
     ]
   ],
   "test_comprehensive_nn_functional_nll_loss_cuda_float32 (__main__.TestDecompCUDA)": [
@@ -2137,6 +2172,13 @@
       "rocm"
     ]
   ],
+  "test_comprehensive_stft_cpu_float64 (__main__.TestInductorOpInfoCPU)": [
+    "140670",
+    "https://github.com/pytorch/pytorch/issues/140670",
+    [
+      "linux"
+    ]
+  ],
   "test_comprehensive_stft_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
     "139732",
     "https://github.com/pytorch/pytorch/issues/139732",
@@ -2255,7 +2297,8 @@
     "139690",
     "https://github.com/pytorch/pytorch/issues/139690",
     [
-      "inductor"
+      "inductor",
+      "rocm"
     ]
   ],
   "test_comprehensive_var_mean_cpu_float16 (__main__.TestInductorOpInfoCPU)": [
@@ -2298,6 +2341,13 @@
     "https://github.com/pytorch/pytorch/issues/140120",
     [
       "rocm"
+    ]
+  ],
+  "test_comprehensive_xlogy_cpu_int32 (__main__.TestInductorOpInfoCPU)": [
+    "140672",
+    "https://github.com/pytorch/pytorch/issues/140672",
+    [
+      "linux"
     ]
   ],
   "test_comprehensive_xlogy_cpu_int64 (__main__.TestInductorOpInfoCPU)": [
@@ -2555,6 +2605,18 @@
   "test_device_mode_ops_sparse_mm_reduce_cpu_float16 (__main__.TestDeviceUtilsCPU)": [
     "133827",
     "https://github.com/pytorch/pytorch/issues/133827",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "win",
+      "windows"
+    ]
+  ],
+  "test_device_mode_ops_sparse_mm_reduce_cpu_float64 (__main__.TestDeviceUtilsCPU)": [
+    "132619",
+    "https://github.com/pytorch/pytorch/issues/132619",
     [
       "asan",
       "linux",
@@ -3910,6 +3972,13 @@
       "rocm"
     ]
   ],
+  "test_scatter_uneven (__main__.DeviceMeshCollectiveTest)": [
+    "96282",
+    "https://github.com/pytorch/pytorch/issues/96282",
+    [
+      "linux"
+    ]
+  ],
   "test_schema_correctness_nn_functional_conv3d_cuda_complex64 (__main__.TestSchemaCheckModeOpInfoCUDA)": [
     "114574",
     "https://github.com/pytorch/pytorch/issues/114574",
@@ -4082,6 +4151,13 @@
   "test_single_linear (quantization.jit.test_quantize_jit.TestQuantizeJit)": [
     "105121",
     "https://github.com/pytorch/pytorch/issues/105121",
+    [
+      "rocm"
+    ]
+  ],
+  "test_slice_index_changing_sign_cuda (__main__.TestInductorDynamicCUDA)": [
+    "140666",
+    "https://github.com/pytorch/pytorch/issues/140666",
     [
       "rocm"
     ]
