@@ -612,7 +612,8 @@
     "139982",
     "https://github.com/pytorch/pytorch/issues/139982",
     [
-      "inductor"
+      "inductor",
+      "linux"
     ]
   ],
   "test_comprehensive_amax_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
@@ -698,6 +699,13 @@
   "test_comprehensive_bmm_cpu_float64 (__main__.TestInductorOpInfoCPU)": [
     "140336",
     "https://github.com/pytorch/pytorch/issues/140336",
+    [
+      "linux"
+    ]
+  ],
+  "test_comprehensive_bucketize_cpu_float16 (__main__.TestInductorOpInfoCPU)": [
+    "140691",
+    "https://github.com/pytorch/pytorch/issues/140691",
     [
       "linux"
     ]
@@ -987,6 +995,13 @@
       "linux"
     ]
   ],
+  "test_comprehensive_empty_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
+    "140694",
+    "https://github.com/pytorch/pytorch/issues/140694",
+    [
+      "rocm"
+    ]
+  ],
   "test_comprehensive_empty_permuted_cuda_int32 (__main__.TestInductorOpInfoCUDA)": [
     "139831",
     "https://github.com/pytorch/pytorch/issues/139831",
@@ -1165,6 +1180,13 @@
   "test_comprehensive_ge_cuda_bool (__main__.TestInductorOpInfoCUDA)": [
     "140511",
     "https://github.com/pytorch/pytorch/issues/140511",
+    [
+      "inductor"
+    ]
+  ],
+  "test_comprehensive_gradient_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
+    "140695",
+    "https://github.com/pytorch/pytorch/issues/140695",
     [
       "inductor"
     ]
@@ -1432,11 +1454,25 @@
       "linux"
     ]
   ],
+  "test_comprehensive_nansum_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
+    "140693",
+    "https://github.com/pytorch/pytorch/issues/140693",
+    [
+      "inductor"
+    ]
+  ],
   "test_comprehensive_nansum_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
     "139710",
     "https://github.com/pytorch/pytorch/issues/139710",
     [
       "inductor",
+      "rocm"
+    ]
+  ],
+  "test_comprehensive_narrow_copy_cuda_bool (__main__.TestInductorOpInfoCUDA)": [
+    "140690",
+    "https://github.com/pytorch/pytorch/issues/140690",
+    [
       "rocm"
     ]
   ],
@@ -2106,6 +2142,13 @@
     "https://github.com/pytorch/pytorch/issues/125151",
     [
       "inductor"
+    ]
+  ],
+  "test_comprehensive_special_erfcx_cpu_int32 (__main__.TestInductorOpInfoCPU)": [
+    "140692",
+    "https://github.com/pytorch/pytorch/issues/140692",
+    [
+      "linux"
     ]
   ],
   "test_comprehensive_special_hermite_polynomial_h_cuda_int32 (__main__.TestInductorOpInfoCUDA)": [
