@@ -674,14 +674,6 @@
       "linux"
     ]
   ],
-  "test_comprehensive_cat_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
-    "139729",
-    "https://github.com/pytorch/pytorch/issues/139729",
-    [
-      "inductor",
-      "linux"
-    ]
-  ],
   "test_comprehensive_cauchy_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
     "140456",
     "https://github.com/pytorch/pytorch/issues/140456",
