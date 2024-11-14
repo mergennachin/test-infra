@@ -818,6 +818,13 @@
       "linux"
     ]
   ],
+  "test_comprehensive_cumprod_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
+    "140680",
+    "https://github.com/pytorch/pytorch/issues/140680",
+    [
+      "linux"
+    ]
+  ],
   "test_comprehensive_cumprod_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
     "139780",
     "https://github.com/pytorch/pytorch/issues/139780",
@@ -1272,7 +1279,8 @@
     "140671",
     "https://github.com/pytorch/pytorch/issues/140671",
     [
-      "inductor"
+      "inductor",
+      "linux"
     ]
   ],
   "test_comprehensive_linalg_matrix_norm_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
@@ -2605,6 +2613,18 @@
   "test_device_mode_ops_sparse_mm_reduce_cpu_float16 (__main__.TestDeviceUtilsCPU)": [
     "133827",
     "https://github.com/pytorch/pytorch/issues/133827",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "win",
+      "windows"
+    ]
+  ],
+  "test_device_mode_ops_sparse_mm_reduce_cpu_float32 (__main__.TestDeviceUtilsCPU)": [
+    "132552",
+    "https://github.com/pytorch/pytorch/issues/132552",
     [
       "asan",
       "linux",
