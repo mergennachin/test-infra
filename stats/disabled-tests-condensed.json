@@ -302,6 +302,14 @@
       "rocm"
     ]
   ],
+  "test_backward_fmin_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)": [
+    "140813",
+    "https://github.com/pytorch/pytorch/issues/140813",
+    [
+      "linux",
+      "rocm"
+    ]
+  ],
   "test_backward_nan_to_num_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)": [
     "140549",
     "https://github.com/pytorch/pytorch/issues/140549",
@@ -342,12 +350,28 @@
       "slow"
     ]
   ],
+  "test_backward_sigmoid_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)": [
+    "140811",
+    "https://github.com/pytorch/pytorch/issues/140811",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_backward_special_erfcx_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)": [
     "140413",
     "https://github.com/pytorch/pytorch/issues/140413",
     [
       "linux",
       "rocm"
+    ]
+  ],
+  "test_backward_special_i0e_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)": [
+    "140810",
+    "https://github.com/pytorch/pytorch/issues/140810",
+    [
+      "linux",
+      "slow"
     ]
   ],
   "test_backward_special_log_ndtr_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)": [
@@ -484,6 +508,13 @@
       "dynamo"
     ]
   ],
+  "test_checkpoint_wrapper_parity (__main__.CheckpointWrapperTest)": [
+    "79510",
+    "https://github.com/pytorch/pytorch/issues/79510",
+    [
+      "linux"
+    ]
+  ],
   "test_compare_cpu__refs_empty_strided_cuda_float32 (__main__.TestCommonCUDA)": [
     "101625",
     "https://github.com/pytorch/pytorch/issues/101625",
@@ -522,6 +553,13 @@
     [
       "linux",
       "rocm"
+    ]
+  ],
+  "test_compile_forward_argmin_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)": [
+    "140812",
+    "https://github.com/pytorch/pytorch/issues/140812",
+    [
+      "linux"
     ]
   ],
   "test_compile_forward_igammac_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)": [
@@ -3775,6 +3813,15 @@
     "75139",
     "https://github.com/pytorch/pytorch/issues/75139",
     [
+      "rocm"
+    ]
+  ],
+  "test_pre_dispatch_export_auto_functionalize_simple_cuda_float32 (__main__.TestHOPCUDA)": [
+    "123267",
+    "https://github.com/pytorch/pytorch/issues/123267",
+    [
+      "linux",
+      "slow",
       "rocm"
     ]
   ],
