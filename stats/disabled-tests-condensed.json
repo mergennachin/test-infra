@@ -692,6 +692,13 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_as_strided_copy_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
+    "140774",
+    "https://github.com/pytorch/pytorch/issues/140774",
+    [
+      "inductor"
+    ]
+  ],
   "test_comprehensive_as_strided_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
     "139992",
     "https://github.com/pytorch/pytorch/issues/139992",
@@ -1217,6 +1224,13 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_full_cpu_float16 (__main__.TestInductorOpInfoCPU)": [
+    "140771",
+    "https://github.com/pytorch/pytorch/issues/140771",
+    [
+      "linux"
+    ]
+  ],
   "test_comprehensive_ge_cuda_bool (__main__.TestInductorOpInfoCUDA)": [
     "140511",
     "https://github.com/pytorch/pytorch/issues/140511",
@@ -1487,6 +1501,13 @@
       "linux"
     ]
   ],
+  "test_comprehensive_nan_to_num_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
+    "140775",
+    "https://github.com/pytorch/pytorch/issues/140775",
+    [
+      "linux"
+    ]
+  ],
   "test_comprehensive_nanmean_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
     "140339",
     "https://github.com/pytorch/pytorch/issues/140339",
@@ -1646,6 +1667,13 @@
       "inductor",
       "linux",
       "slow"
+    ]
+  ],
+  "test_comprehensive_nn_functional_cosine_embedding_loss_cpu_float16 (__main__.TestInductorOpInfoCPU)": [
+    "140770",
+    "https://github.com/pytorch/pytorch/issues/140770",
+    [
+      "linux"
     ]
   ],
   "test_comprehensive_nn_functional_cosine_embedding_loss_cpu_float64 (__main__.TestInductorOpInfoCPU)": [
@@ -1976,6 +2004,13 @@
   "test_comprehensive_roll_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
     "139683",
     "https://github.com/pytorch/pytorch/issues/139683",
+    [
+      "inductor"
+    ]
+  ],
+  "test_comprehensive_rot90_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
+    "140773",
+    "https://github.com/pytorch/pytorch/issues/140773",
     [
       "inductor"
     ]
@@ -2389,6 +2424,13 @@
     "https://github.com/pytorch/pytorch/issues/140352",
     [
       "linux"
+    ]
+  ],
+  "test_comprehensive_unsqueeze_copy_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
+    "140772",
+    "https://github.com/pytorch/pytorch/issues/140772",
+    [
+      "rocm"
     ]
   ],
   "test_comprehensive_unsqueeze_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
