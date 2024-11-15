@@ -2513,15 +2513,6 @@
       "inductor"
     ]
   ],
-  "test_constant_insertion (__main__.TestJit)": [
-    "96894",
-    "https://github.com/pytorch/pytorch/issues/96894",
-    [
-      "win",
-      "windows",
-      "dynamo"
-    ]
-  ],
   "test_conv (quantization.jit.test_quantize_jit.TestQuantizeJit)": [
     "105125",
     "https://github.com/pytorch/pytorch/issues/105125",
