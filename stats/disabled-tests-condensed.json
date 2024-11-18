@@ -804,6 +804,14 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_baddbmm_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
+    "140076",
+    "https://github.com/pytorch/pytorch/issues/140076",
+    [
+      "inductor",
+      "linux"
+    ]
+  ],
   "test_comprehensive_bernoulli_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
     "139993",
     "https://github.com/pytorch/pytorch/issues/139993",
@@ -839,14 +847,6 @@
     "https://github.com/pytorch/pytorch/issues/140456",
     [
       "rocm"
-    ]
-  ],
-  "test_comprehensive_cdist_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
-    "140074",
-    "https://github.com/pytorch/pytorch/issues/140074",
-    [
-      "inductor",
-      "linux"
     ]
   ],
   "test_comprehensive_column_stack_cuda_int32 (__main__.TestInductorOpInfoCUDA)": [
