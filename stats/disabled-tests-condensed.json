@@ -4102,15 +4102,6 @@
       "rocm"
     ]
   ],
-  "test_rng (__main__.TestCompilerBisector)": [
-    "139590",
-    "https://github.com/pytorch/pytorch/issues/139590",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_save_load_checkpoint (__main__.DistributedDataParallelTest)": [
     "137771",
     "https://github.com/pytorch/pytorch/issues/137771",
@@ -4517,13 +4508,6 @@
     "https://github.com/pytorch/pytorch/issues/70546",
     [
       "mac"
-    ]
-  ],
-  "test_tmp_not_defined_issue2_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
-    "135212",
-    "https://github.com/pytorch/pytorch/issues/135212",
-    [
-      "linux"
     ]
   ],
   "test_torch_manual_seed_seeds_cuda_devices (__main__.TestCuda)": [
