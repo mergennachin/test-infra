@@ -849,6 +849,14 @@
       "rocm"
     ]
   ],
+  "test_comprehensive_cdist_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
+    "140074",
+    "https://github.com/pytorch/pytorch/issues/140074",
+    [
+      "inductor",
+      "linux"
+    ]
+  ],
   "test_comprehensive_column_stack_cuda_int32 (__main__.TestInductorOpInfoCUDA)": [
     "139984",
     "https://github.com/pytorch/pytorch/issues/139984",
