@@ -804,14 +804,6 @@
       "inductor"
     ]
   ],
-  "test_comprehensive_baddbmm_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
-    "140076",
-    "https://github.com/pytorch/pytorch/issues/140076",
-    [
-      "inductor",
-      "linux"
-    ]
-  ],
   "test_comprehensive_bernoulli_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
     "139993",
     "https://github.com/pytorch/pytorch/issues/139993",
@@ -2718,13 +2710,6 @@
       "slow"
     ]
   ],
-  "test_cuda_load (__main__.TestCUDACodeCache)": [
-    "138343",
-    "https://github.com/pytorch/pytorch/issues/138343",
-    [
-      "linux"
-    ]
-  ],
   "test_cuda_memory_leak_detection (__main__.TestCudaMultiGPU)": [
     "104695",
     "https://github.com/pytorch/pytorch/issues/104695",
@@ -3947,13 +3932,6 @@
     "https://github.com/pytorch/pytorch/issues/106027",
     [
       "rocm"
-    ]
-  ],
-  "test_profiler_mark_wrapper_call_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "135294",
-    "https://github.com/pytorch/pytorch/issues/135294",
-    [
-      "linux"
     ]
   ],
   "test_profiler_rpc_key_names (__main__.TensorPipeRpcTest)": [
