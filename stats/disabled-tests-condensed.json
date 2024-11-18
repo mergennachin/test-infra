@@ -1164,13 +1164,6 @@
       "rocm"
     ]
   ],
-  "test_comprehensive_fft_ifft_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
-    "127344",
-    "https://github.com/pytorch/pytorch/issues/127344",
-    [
-      "rocm"
-    ]
-  ],
   "test_comprehensive_fft_ifftn_cpu_float64 (__main__.TestInductorOpInfoCPU)": [
     "140337",
     "https://github.com/pytorch/pytorch/issues/140337",
@@ -2934,13 +2927,6 @@
       "linux"
     ]
   ],
-  "test_embedding_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "135250",
-    "https://github.com/pytorch/pytorch/issues/135250",
-    [
-      "linux"
-    ]
-  ],
   "test_execution_trace_with_kineto (__main__.TestExecutionTrace)": [
     "123536",
     "https://github.com/pytorch/pytorch/issues/123536",
@@ -3133,13 +3119,6 @@
   "test_grad_scaler_with_preset_grad_scale_in_place_unscale_False_AdamW_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
     "135692",
     "https://github.com/pytorch/pytorch/issues/135692",
-    [
-      "linux"
-    ]
-  ],
-  "test_grad_scaler_with_preset_grad_scale_in_place_unscale_False_Adam_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
-    "135721",
-    "https://github.com/pytorch/pytorch/issues/135721",
     [
       "linux"
     ]
@@ -4100,6 +4079,15 @@
     "https://github.com/pytorch/pytorch/issues/126380",
     [
       "rocm"
+    ]
+  ],
+  "test_rng (__main__.TestCompilerBisector)": [
+    "139590",
+    "https://github.com/pytorch/pytorch/issues/139590",
+    [
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_save_load_checkpoint (__main__.DistributedDataParallelTest)": [
