@@ -849,14 +849,6 @@
       "rocm"
     ]
   ],
-  "test_comprehensive_cdist_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
-    "140074",
-    "https://github.com/pytorch/pytorch/issues/140074",
-    [
-      "inductor",
-      "linux"
-    ]
-  ],
   "test_comprehensive_column_stack_cuda_int32 (__main__.TestInductorOpInfoCUDA)": [
     "139984",
     "https://github.com/pytorch/pytorch/issues/139984",
@@ -2845,6 +2837,14 @@
       "macos",
       "win",
       "windows"
+    ]
+  ],
+  "test_device_mode_ops_sparse_sampled_addmm_cpu_complex128 (__main__.TestDeviceUtilsCPU)": [
+    "132643",
+    "https://github.com/pytorch/pytorch/issues/132643",
+    [
+      "asan",
+      "linux"
     ]
   ],
   "test_distributed_checkpoint_state_dict_type0 (__main__.TestDistributedCheckpoint)": [
