@@ -492,14 +492,6 @@
       "macos"
     ]
   ],
-  "test_byte_tensor_assignment (__main__.TestAdvancedIndexing)": [
-    "137028",
-    "https://github.com/pytorch/pytorch/issues/137028",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_cat_slice_cat_cuda_cuda_wrapper (__main__.TestCudaWrapper)": [
     "135164",
     "https://github.com/pytorch/pytorch/issues/135164",
@@ -4285,14 +4277,6 @@
       "rocm",
       "linux",
       "slow"
-    ]
-  ],
-  "test_sdpa_mask_fp16_L6_S17_NH23_HS121 (__main__.TestSDPA)": [
-    "138905",
-    "https://github.com/pytorch/pytorch/issues/138905",
-    [
-      "mac",
-      "macos"
     ]
   ],
   "test_sdpa_rewriter_3_cuda (__main__.SDPAPatternRewriterCudaDynamicTests)": [
