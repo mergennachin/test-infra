@@ -141,15 +141,6 @@
       "slow"
     ]
   ],
-  "test_aot_export_while_loop_simple_cuda_float32 (__main__.TestHOPCUDA)": [
-    "123948",
-    "https://github.com/pytorch/pytorch/issues/123948",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_aot_export_with_torch_cond (__main__.TestAOTExport)": [
     "139998",
     "https://github.com/pytorch/pytorch/issues/139998",
@@ -310,6 +301,14 @@
       "rocm"
     ]
   ],
+  "test_backward_lgamma_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)": [
+    "141029",
+    "https://github.com/pytorch/pytorch/issues/141029",
+    [
+      "linux",
+      "rocm"
+    ]
+  ],
   "test_backward_nan_to_num_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)": [
     "140549",
     "https://github.com/pytorch/pytorch/issues/140549",
@@ -432,6 +431,22 @@
       "linux",
       "rocm",
       "slow"
+    ]
+  ],
+  "test_backward_sqrt_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)": [
+    "141032",
+    "https://github.com/pytorch/pytorch/issues/141032",
+    [
+      "linux",
+      "rocm"
+    ]
+  ],
+  "test_backward_sum_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)": [
+    "141033",
+    "https://github.com/pytorch/pytorch/issues/141033",
+    [
+      "linux",
+      "rocm"
     ]
   ],
   "test_barrier_timeout_group (__main__.TestDistBackendWithSpawn)": [
@@ -583,6 +598,15 @@
       "slow"
     ]
   ],
+  "test_compile_backward_special_erfcx_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)": [
+    "132672",
+    "https://github.com/pytorch/pytorch/issues/132672",
+    [
+      "linux",
+      "slow",
+      "rocm"
+    ]
+  ],
   "test_compile_forward_all_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)": [
     "140553",
     "https://github.com/pytorch/pytorch/issues/140553",
@@ -612,6 +636,13 @@
     [
       "linux",
       "rocm"
+    ]
+  ],
+  "test_compile_forward_max_reduction_with_dim_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)": [
+    "141031",
+    "https://github.com/pytorch/pytorch/issues/141031",
+    [
+      "linux"
     ]
   ],
   "test_compile_forward_special_bessel_y0_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)": [
@@ -2879,6 +2910,14 @@
       "linux"
     ]
   ],
+  "test_device_mode_ops_sparse_sampled_addmm_cpu_float64 (__main__.TestDeviceUtilsCPU)": [
+    "132737",
+    "https://github.com/pytorch/pytorch/issues/132737",
+    [
+      "asan",
+      "linux"
+    ]
+  ],
   "test_distributed_checkpoint_state_dict_type0 (__main__.TestDistributedCheckpoint)": [
     "113937",
     "https://github.com/pytorch/pytorch/issues/113937",
@@ -2994,13 +3033,6 @@
   "test_embedding_bag_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
     "135215",
     "https://github.com/pytorch/pytorch/issues/135215",
-    [
-      "linux"
-    ]
-  ],
-  "test_embedding_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
-    "135456",
-    "https://github.com/pytorch/pytorch/issues/135456",
     [
       "linux"
     ]
@@ -3128,6 +3160,20 @@
     [
       "linux",
       "slow"
+    ]
+  ],
+  "test_forward_igamma_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)": [
+    "141030",
+    "https://github.com/pytorch/pytorch/issues/141030",
+    [
+      "linux"
+    ]
+  ],
+  "test_forward_min_reduction_with_dim_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)": [
+    "141028",
+    "https://github.com/pytorch/pytorch/issues/141028",
+    [
+      "linux"
     ]
   ],
   "test_forward_mode_AD_linalg_det_singular_cuda_complex128 (__main__.TestFwdGradientsCUDA)": [
@@ -3931,15 +3977,6 @@
       "slow"
     ]
   ],
-  "test_pre_dispatch_export_while_loop_simple_cuda_float32 (__main__.TestHOPCUDA)": [
-    "123943",
-    "https://github.com/pytorch/pytorch/issues/123943",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_precompilations (__main__.TestMaxAutotune)": [
     "124265",
     "https://github.com/pytorch/pytorch/issues/124265",
@@ -4166,15 +4203,6 @@
       "slow"
     ]
   ],
-  "test_retrace_export_while_loop_simple_cuda_float32 (__main__.TestHOPCUDA)": [
-    "123944",
-    "https://github.com/pytorch/pytorch/issues/123944",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_ring_attention_native_transformer_is_causal_True (__main__.RingAttentionTest)": [
     "126380",
     "https://github.com/pytorch/pytorch/issues/126380",
@@ -4362,15 +4390,6 @@
     "https://github.com/pytorch/pytorch/issues/139073",
     [
       "linux",
-      "slow"
-    ]
-  ],
-  "test_serialize_export_while_loop_simple_cuda_float32 (__main__.TestHOPCUDA)": [
-    "123946",
-    "https://github.com/pytorch/pytorch/issues/123946",
-    [
-      "linux",
-      "rocm",
       "slow"
     ]
   ],
