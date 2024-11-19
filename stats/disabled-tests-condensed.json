@@ -3036,6 +3036,13 @@
       "linux"
     ]
   ],
+  "test_embedding_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
+    "135456",
+    "https://github.com/pytorch/pytorch/issues/135456",
+    [
+      "linux"
+    ]
+  ],
   "test_embedding_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
     "135250",
     "https://github.com/pytorch/pytorch/issues/135250",
