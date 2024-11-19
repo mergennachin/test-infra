@@ -13,6 +13,13 @@
       "rocm"
     ]
   ],
+  "test_abs_cuda (__main__.TestInductorDynamicCUDA)": [
+    "137224",
+    "https://github.com/pytorch/pytorch/issues/137224",
+    [
+      "rocm"
+    ]
+  ],
   "test_add_loggers_functions (__main__.TestFXNumericSuiteNShadows)": [
     "140380",
     "https://github.com/pytorch/pytorch/issues/140380",
@@ -765,7 +772,8 @@
     "140505",
     "https://github.com/pytorch/pytorch/issues/140505",
     [
-      "inductor"
+      "inductor",
+      "rocm"
     ]
   ],
   "test_comprehensive_argsort_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
@@ -2862,6 +2870,14 @@
       "linux"
     ]
   ],
+  "test_device_mode_ops_sparse_sampled_addmm_cpu_complex64 (__main__.TestDeviceUtilsCPU)": [
+    "132686",
+    "https://github.com/pytorch/pytorch/issues/132686",
+    [
+      "asan",
+      "linux"
+    ]
+  ],
   "test_distributed_checkpoint_state_dict_type0 (__main__.TestDistributedCheckpoint)": [
     "113937",
     "https://github.com/pytorch/pytorch/issues/113937",
@@ -4737,18 +4753,6 @@
     [
       "linux",
       "mac"
-    ]
-  ],
-  "test_unbacked_bindings_for_divisible_u_symint (__main__.TestExport)": [
-    "138586",
-    "https://github.com/pytorch/pytorch/issues/138586",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "slow"
     ]
   ],
   "test_unbacked_bindings_for_divisible_u_symint_non_strict (__main__.NonStrictExportTestExport)": [
