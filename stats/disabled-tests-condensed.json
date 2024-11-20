@@ -3871,20 +3871,6 @@
       "linux"
     ]
   ],
-  "test_pattern_matcher_multi_user_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
-    "134432",
-    "https://github.com/pytorch/pytorch/issues/134432",
-    [
-      "linux"
-    ]
-  ],
-  "test_pattern_matcher_multi_user_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "134433",
-    "https://github.com/pytorch/pytorch/issues/134433",
-    [
-      "linux"
-    ]
-  ],
   "test_pcontext_wait_on_a_child_thread (__main__.StartProcessesAsFuncTest)": [
     "136164",
     "https://github.com/pytorch/pytorch/issues/136164",
@@ -3911,13 +3897,6 @@
     "https://github.com/pytorch/pytorch/issues/136687",
     [
       "rocm"
-    ]
-  ],
-  "test_post_accumulate_grad_hook_e2e (__main__.TestAutograd)": [
-    "137892",
-    "https://github.com/pytorch/pytorch/issues/137892",
-    [
-      "dynamo"
     ]
   ],
   "test_post_localSGD_optimizer_parity_with_hierarchical_sgd (__main__.TestDistBackendWithSpawn)": [
@@ -4785,57 +4764,9 @@
       "slow"
     ]
   ],
-  "test_unbacked_bindings_for_divisible_u_symint_non_strict (__main__.NonStrictExportTestExport)": [
-    "138585",
-    "https://github.com/pytorch/pytorch/issues/138585",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "slow"
-    ]
-  ],
-  "test_unbacked_bindings_for_divisible_u_symint_retraceability (__main__.RetraceExportTestExport)": [
-    "138584",
-    "https://github.com/pytorch/pytorch/issues/138584",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_unbacked_bindings_for_divisible_u_symint_retraceability_non_strict (__main__.RetraceExportNonStrictTestExport)": [
     "138676",
     "https://github.com/pytorch/pytorch/issues/138676",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "slow"
-    ]
-  ],
-  "test_unbacked_bindings_for_divisible_u_symint_training_ir_to_decomp (__main__.TrainingIRToRunDecompExportTestExport)": [
-    "138583",
-    "https://github.com/pytorch/pytorch/issues/138583",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "slow"
-    ]
-  ],
-  "test_unbacked_bindings_for_divisible_u_symint_training_ir_to_decomp_non_strict (__main__.TrainingIRToRunDecompExportNonStrictTestExport)": [
-    "138582",
-    "https://github.com/pytorch/pytorch/issues/138582",
     [
       "asan",
       "linux",
