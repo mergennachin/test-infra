@@ -4839,6 +4839,13 @@
       "slow"
     ]
   ],
+  "test_user_defined_object_as_input (__main__.AutogradFunctionTests)": [
+    "141211",
+    "https://github.com/pytorch/pytorch/issues/141211",
+    [
+      "linux"
+    ]
+  ],
   "test_variant_consistency_eager_nn_functional_conv3d_cuda_complex64 (__main__.TestCommonCUDA)": [
     "114592",
     "https://github.com/pytorch/pytorch/issues/114592",
@@ -4985,7 +4992,8 @@
     [
       "asan",
       "linux",
-      "rocm"
+      "rocm",
+      "slow"
     ]
   ],
   "test_wrapper_subclass_aliasing_conv2d_cpu (__main__.TestWrapperSubclassAliasingCPU)": [
