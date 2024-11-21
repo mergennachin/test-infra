@@ -4979,6 +4979,15 @@
       "macos"
     ]
   ],
+  "test_while_loop_schema_gen (__main__.TestHopSchema)": [
+    "141202",
+    "https://github.com/pytorch/pytorch/issues/141202",
+    [
+      "asan",
+      "linux",
+      "rocm"
+    ]
+  ],
   "test_wrapper_subclass_aliasing_conv2d_cpu (__main__.TestWrapperSubclassAliasingCPU)": [
     "139056",
     "https://github.com/pytorch/pytorch/issues/139056",
