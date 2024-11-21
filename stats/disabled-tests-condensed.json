@@ -3168,6 +3168,13 @@
       "inductor"
     ]
   ],
+  "test_linear_backward_memory_usage_cuda_float32 (__main__.TestNestedTensorSubclassCUDA)": [
+    "141292",
+    "https://github.com/pytorch/pytorch/issues/141292",
+    [
+      "rocm"
+    ]
+  ],
   "test_linear_binary_dynamic_shapes_cpp_wrapper (__main__.DynamicShapesCppWrapperCpuTests)": [
     "139812",
     "https://github.com/pytorch/pytorch/issues/139812",
