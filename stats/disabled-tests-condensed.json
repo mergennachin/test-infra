@@ -1690,13 +1690,6 @@
       "linux"
     ]
   ],
-  "test_comprehensive_nn_functional_adaptive_max_pool3d_cpu_float32 (__main__.TestInductorOpInfoCPU)": [
-    "139994",
-    "https://github.com/pytorch/pytorch/issues/139994",
-    [
-      "linux"
-    ]
-  ],
   "test_comprehensive_nn_functional_batch_norm_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
     "140080",
     "https://github.com/pytorch/pytorch/issues/140080",
@@ -1964,13 +1957,6 @@
   "test_comprehensive_nn_functional_poisson_nll_loss_cuda_int32 (__main__.TestInductorOpInfoCUDA)": [
     "140646",
     "https://github.com/pytorch/pytorch/issues/140646",
-    [
-      "linux"
-    ]
-  ],
-  "test_comprehensive_nn_functional_prelu_cpu_float16 (__main__.TestInductorOpInfoCPU)": [
-    "139996",
-    "https://github.com/pytorch/pytorch/issues/139996",
     [
       "linux"
     ]
