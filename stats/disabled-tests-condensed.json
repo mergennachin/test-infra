@@ -3860,13 +3860,6 @@
     "https://github.com/pytorch/pytorch/issues/137771",
     []
   ],
-  "test_save_with_without_initializer_dont_include_initializer_no_fake_mode_no_exported_program (__main__.TestFxToOnnx)": [
-    "125020",
-    "https://github.com/pytorch/pytorch/issues/125020",
-    [
-      "linux"
-    ]
-  ],
   "test_scaled_dot_product_attention_cuda_cuda_wrapper (__main__.TestCudaWrapper)": [
     "115896",
     "https://github.com/pytorch/pytorch/issues/115896",
