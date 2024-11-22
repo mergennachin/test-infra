@@ -1400,13 +1400,6 @@
       "linux"
     ]
   ],
-  "test_comprehensive_nn_functional_binary_cross_entropy_cpu_float16 (__main__.TestInductorOpInfoCPU)": [
-    "140124",
-    "https://github.com/pytorch/pytorch/issues/140124",
-    [
-      "linux"
-    ]
-  ],
   "test_comprehensive_nn_functional_binary_cross_entropy_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
     "140122",
     "https://github.com/pytorch/pytorch/issues/140122",
@@ -1701,13 +1694,6 @@
   "test_comprehensive_polygamma_polygamma_n_1_cpu_int64 (__main__.TestInductorOpInfoCPU)": [
     "140507",
     "https://github.com/pytorch/pytorch/issues/140507",
-    [
-      "linux"
-    ]
-  ],
-  "test_comprehensive_polygamma_polygamma_n_2_cpu_int32 (__main__.TestInductorOpInfoCPU)": [
-    "140125",
-    "https://github.com/pytorch/pytorch/issues/140125",
     [
       "linux"
     ]
@@ -2314,7 +2300,8 @@
     "141330",
     "https://github.com/pytorch/pytorch/issues/141330",
     [
-      "linux"
+      "linux",
+      "slow"
     ]
   ],
   "test_conv_stride_constraints (__main__.CPUReproTests)": [
