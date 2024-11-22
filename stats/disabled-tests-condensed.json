@@ -2390,6 +2390,13 @@
       "linux"
     ]
   ],
+  "test_creation_with_zeros_cuda_float8_e5m2 (__main__.TestFloat8DtypeCUDA)": [
+    "124474",
+    "https://github.com/pytorch/pytorch/issues/124474",
+    [
+      "rocm"
+    ]
+  ],
   "test_cross_entropy_large_tensor_reduction_mean_cuda (__main__.TestNNDeviceTypeCUDA)": [
     "105253",
     "https://github.com/pytorch/pytorch/issues/105253",
@@ -2443,6 +2450,15 @@
     "https://github.com/pytorch/pytorch/issues/92131",
     [
       "rocm"
+    ]
+  ],
+  "test_cusparse_multiple_threads_same_device (__main__.TestCuda)": [
+    "127536",
+    "https://github.com/pytorch/pytorch/issues/127536",
+    [
+      "dynamo",
+      "inductor",
+      "linux"
     ]
   ],
   "test_custom_op_1_cuda_cuda_wrapper (__main__.TestCudaWrapper)": [
