@@ -141,18 +141,6 @@
       "slow"
     ]
   ],
-  "test_aot_export_with_torch_cond (__main__.TestAOTExport)": [
-    "139998",
-    "https://github.com/pytorch/pytorch/issues/139998",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_aot_module_simplified_fake_tensor_gm_raises (__main__.TestAOTModuleSimplified)": [
     "124590",
     "https://github.com/pytorch/pytorch/issues/124590",
@@ -1783,13 +1771,6 @@
       "linux"
     ]
   ],
-  "test_comprehensive_round_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
-    "140180",
-    "https://github.com/pytorch/pytorch/issues/140180",
-    [
-      "linux"
-    ]
-  ],
   "test_comprehensive_rsub_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
     "140179",
     "https://github.com/pytorch/pytorch/issues/140179",
@@ -2171,14 +2152,6 @@
     "https://github.com/pytorch/pytorch/issues/140772",
     [
       "rocm"
-    ]
-  ],
-  "test_comprehensive_unsqueeze_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
-    "140100",
-    "https://github.com/pytorch/pytorch/issues/140100",
-    [
-      "inductor",
-      "linux"
     ]
   ],
   "test_comprehensive_var_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
