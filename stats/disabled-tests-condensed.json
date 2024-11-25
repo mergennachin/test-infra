@@ -124,6 +124,15 @@
       "slow"
     ]
   ],
+  "test_aot_export_invoke_subgraph_simple_cuda_float32 (__main__.TestHOPCUDA)": [
+    "138707",
+    "https://github.com/pytorch/pytorch/issues/138707",
+    [
+      "linux",
+      "slow",
+      "rocm"
+    ]
+  ],
   "test_aot_export_scan_simple_cuda_float32 (__main__.TestHOPCUDA)": [
     "139075",
     "https://github.com/pytorch/pytorch/issues/139075",
@@ -3569,6 +3578,15 @@
       "rocm"
     ]
   ],
+  "test_pre_dispatch_export_invoke_subgraph_simple_cuda_float32 (__main__.TestHOPCUDA)": [
+    "138704",
+    "https://github.com/pytorch/pytorch/issues/138704",
+    [
+      "linux",
+      "slow",
+      "rocm"
+    ]
+  ],
   "test_pre_dispatch_export_scan_simple_cuda_float32 (__main__.TestHOPCUDA)": [
     "139072",
     "https://github.com/pytorch/pytorch/issues/139072",
@@ -3786,6 +3804,15 @@
       "rocm"
     ]
   ],
+  "test_retrace_export_invoke_subgraph_simple_cuda_float32 (__main__.TestHOPCUDA)": [
+    "138705",
+    "https://github.com/pytorch/pytorch/issues/138705",
+    [
+      "linux",
+      "slow",
+      "rocm"
+    ]
+  ],
   "test_retrace_export_scan_simple_cuda_float32 (__main__.TestHOPCUDA)": [
     "139074",
     "https://github.com/pytorch/pytorch/issues/139074",
@@ -3946,6 +3973,15 @@
   "test_serialize_export_cond_simple_cuda_float32 (__main__.TestHOPCUDA)": [
     "123727",
     "https://github.com/pytorch/pytorch/issues/123727",
+    [
+      "linux",
+      "slow",
+      "rocm"
+    ]
+  ],
+  "test_serialize_export_invoke_subgraph_simple_cuda_float32 (__main__.TestHOPCUDA)": [
+    "138706",
+    "https://github.com/pytorch/pytorch/issues/138706",
     [
       "linux",
       "slow",
