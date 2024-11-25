@@ -2469,6 +2469,11 @@
       "linux"
     ]
   ],
+  "test_ddp_profiling_execution_trace (__main__.TestDistBackendWithSpawn)": [
+    "137765",
+    "https://github.com/pytorch/pytorch/issues/137765",
+    []
+  ],
   "test_ddp_update_process_group_new_group (__main__.TestDistBackendWithSpawn)": [
     "137971",
     "https://github.com/pytorch/pytorch/issues/137971",
