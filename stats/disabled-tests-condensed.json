@@ -141,6 +141,18 @@
       "slow"
     ]
   ],
+  "test_aot_export_with_torch_cond (__main__.TestAOTExport)": [
+    "139998",
+    "https://github.com/pytorch/pytorch/issues/139998",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_aot_module_simplified_fake_tensor_gm_raises (__main__.TestAOTModuleSimplified)": [
     "124590",
     "https://github.com/pytorch/pytorch/issues/124590",
@@ -156,13 +168,6 @@
   "test_arange2_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
     "127343",
     "https://github.com/pytorch/pytorch/issues/127343",
-    [
-      "rocm"
-    ]
-  ],
-  "test_arange_dynamic_cuda (__main__.TestInductorDynamicCUDA)": [
-    "127067",
-    "https://github.com/pytorch/pytorch/issues/127067",
     [
       "rocm"
     ]
