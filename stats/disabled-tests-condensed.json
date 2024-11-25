@@ -2317,15 +2317,6 @@
       "rocm"
     ]
   ],
-  "test_copy_r_to_c_cuda (__main__.TestAutogradDeviceTypeCUDA)": [
-    "140245",
-    "https://github.com/pytorch/pytorch/issues/140245",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_cpp_extension_recommends_custom_ops_dynamic_shapes (__main__.DynamicShapesMiscTests)": [
     "127813",
     "https://github.com/pytorch/pytorch/issues/127813",
@@ -2491,18 +2482,6 @@
     "https://github.com/pytorch/pytorch/issues/127738",
     [
       "dynamo"
-    ]
-  ],
-  "test_device_mode_ops_sparse_mm_reduce_cpu_bfloat16 (__main__.TestDeviceUtilsCPU)": [
-    "132494",
-    "https://github.com/pytorch/pytorch/issues/132494",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "win",
-      "windows"
     ]
   ],
   "test_device_mode_ops_sparse_mm_reduce_cpu_float16 (__main__.TestDeviceUtilsCPU)": [
