@@ -1264,13 +1264,6 @@
       "linux"
     ]
   ],
-  "test_comprehensive_meshgrid_variadic_tensors_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
-    "140309",
-    "https://github.com/pytorch/pytorch/issues/140309",
-    [
-      "linux"
-    ]
-  ],
   "test_comprehensive_min_binary_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
     "140486",
     "https://github.com/pytorch/pytorch/issues/140486",
@@ -3850,11 +3843,6 @@
       "rocm",
       "slow"
     ]
-  ],
-  "test_save_load_checkpoint (__main__.DistributedDataParallelTest)": [
-    "137771",
-    "https://github.com/pytorch/pytorch/issues/137771",
-    []
   ],
   "test_scaled_dot_product_attention_cuda_cuda_wrapper (__main__.TestCudaWrapper)": [
     "115896",
