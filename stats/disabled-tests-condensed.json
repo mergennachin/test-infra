@@ -1593,13 +1593,6 @@
       "inductor"
     ]
   ],
-  "test_comprehensive_softmax_with_dtype_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
-    "140403",
-    "https://github.com/pytorch/pytorch/issues/140403",
-    [
-      "linux"
-    ]
-  ],
   "test_comprehensive_sort_cuda_int32 (__main__.TestInductorOpInfoCUDA)": [
     "140485",
     "https://github.com/pytorch/pytorch/issues/140485",
@@ -3408,14 +3401,6 @@
       "rocm"
     ]
   ],
-  "test_retrace_export_scan_simple_cuda_float32 (__main__.TestHOPCUDA)": [
-    "139074",
-    "https://github.com/pytorch/pytorch/issues/139074",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_retrace_export_while_loop_simple_cuda_float32 (__main__.TestHOPCUDA)": [
     "123944",
     "https://github.com/pytorch/pytorch/issues/123944",
@@ -3590,14 +3575,6 @@
       "linux",
       "slow",
       "rocm"
-    ]
-  ],
-  "test_serialize_export_scan_simple_cuda_float32 (__main__.TestHOPCUDA)": [
-    "139073",
-    "https://github.com/pytorch/pytorch/issues/139073",
-    [
-      "linux",
-      "slow"
     ]
   ],
   "test_serialize_export_while_loop_simple_cuda_float32 (__main__.TestHOPCUDA)": [
