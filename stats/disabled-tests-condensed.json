@@ -717,14 +717,6 @@
       "linux"
     ]
   ],
-  "test_comprehensive_diff_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
-    "139727",
-    "https://github.com/pytorch/pytorch/issues/139727",
-    [
-      "rocm",
-      "inductor"
-    ]
-  ],
   "test_comprehensive_div_trunc_rounding_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
     "140667",
     "https://github.com/pytorch/pytorch/issues/140667",
@@ -1600,13 +1592,6 @@
     "https://github.com/pytorch/pytorch/issues/140526",
     [
       "inductor"
-    ]
-  ],
-  "test_comprehensive_softmax_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
-    "140386",
-    "https://github.com/pytorch/pytorch/issues/140386",
-    [
-      "linux"
     ]
   ],
   "test_comprehensive_softmax_with_dtype_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
