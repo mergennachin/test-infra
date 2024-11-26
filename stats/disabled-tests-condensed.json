@@ -430,14 +430,6 @@
       "inductor"
     ]
   ],
-  "test_comprehensive_addbmm_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
-    "139693",
-    "https://github.com/pytorch/pytorch/issues/139693",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_comprehensive_addcdiv_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
     "140642",
     "https://github.com/pytorch/pytorch/issues/140642",
@@ -450,15 +442,6 @@
     "https://github.com/pytorch/pytorch/issues/139615",
     [
       "inductor"
-    ]
-  ],
-  "test_comprehensive_addr_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
-    "139730",
-    "https://github.com/pytorch/pytorch/issues/139730",
-    [
-      "inductor",
-      "linux",
-      "slow"
     ]
   ],
   "test_comprehensive_all_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
@@ -555,27 +538,11 @@
       "linux"
     ]
   ],
-  "test_comprehensive_cat_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
-    "139729",
-    "https://github.com/pytorch/pytorch/issues/139729",
-    [
-      "inductor",
-      "linux"
-    ]
-  ],
   "test_comprehensive_cauchy_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
     "140456",
     "https://github.com/pytorch/pytorch/issues/140456",
     [
       "rocm"
-    ]
-  ],
-  "test_comprehensive_cdist_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
-    "140074",
-    "https://github.com/pytorch/pytorch/issues/140074",
-    [
-      "inductor",
-      "linux"
     ]
   ],
   "test_comprehensive_column_stack_cuda_int32 (__main__.TestInductorOpInfoCUDA)": [
@@ -635,13 +602,6 @@
       "inductor"
     ]
   ],
-  "test_comprehensive_cummin_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
-    "140295",
-    "https://github.com/pytorch/pytorch/issues/140295",
-    [
-      "linux"
-    ]
-  ],
   "test_comprehensive_cummin_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
     "140385",
     "https://github.com/pytorch/pytorch/issues/140385",
@@ -675,13 +635,6 @@
     "https://github.com/pytorch/pytorch/issues/140164",
     [
       "inductor"
-    ]
-  ],
-  "test_comprehensive_deg2rad_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
-    "139731",
-    "https://github.com/pytorch/pytorch/issues/139731",
-    [
-      "rocm"
     ]
   ],
   "test_comprehensive_diag_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
@@ -990,14 +943,6 @@
       "rocm"
     ]
   ],
-  "test_comprehensive_index_reduce_mean_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
-    "140119",
-    "https://github.com/pytorch/pytorch/issues/140119",
-    [
-      "rocm",
-      "inductor"
-    ]
-  ],
   "test_comprehensive_int_cpu_float16 (__main__.TestInductorOpInfoCPU)": [
     "140338",
     "https://github.com/pytorch/pytorch/issues/140338",
@@ -1074,13 +1019,6 @@
     "https://github.com/pytorch/pytorch/issues/139801",
     [
       "inductor"
-    ]
-  ],
-  "test_comprehensive_linalg_pinv_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
-    "140242",
-    "https://github.com/pytorch/pytorch/issues/140242",
-    [
-      "linux"
     ]
   ],
   "test_comprehensive_linalg_qr_cpu_float64 (__main__.TestInductorOpInfoCPU)": [
@@ -1225,14 +1163,6 @@
       "inductor"
     ]
   ],
-  "test_comprehensive_nansum_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
-    "139710",
-    "https://github.com/pytorch/pytorch/issues/139710",
-    [
-      "inductor",
-      "rocm"
-    ]
-  ],
   "test_comprehensive_narrow_copy_cuda_bool (__main__.TestInductorOpInfoCUDA)": [
     "140690",
     "https://github.com/pytorch/pytorch/issues/140690",
@@ -1247,13 +1177,6 @@
       "inductor",
       "linux",
       "slow"
-    ]
-  ],
-  "test_comprehensive_new_empty_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
-    "139685",
-    "https://github.com/pytorch/pytorch/issues/139685",
-    [
-      "linux"
     ]
   ],
   "test_comprehensive_new_full_cuda_int32 (__main__.TestInductorOpInfoCUDA)": [
@@ -1285,13 +1208,6 @@
       "linux"
     ]
   ],
-  "test_comprehensive_nn_functional_binary_cross_entropy_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
-    "140122",
-    "https://github.com/pytorch/pytorch/issues/140122",
-    [
-      "linux"
-    ]
-  ],
   "test_comprehensive_nn_functional_binary_cross_entropy_with_logits_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
     "140313",
     "https://github.com/pytorch/pytorch/issues/140313",
@@ -1311,23 +1227,6 @@
     "https://github.com/pytorch/pytorch/issues/140315",
     [
       "linux"
-    ]
-  ],
-  "test_comprehensive_nn_functional_conv3d_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
-    "139800",
-    "https://github.com/pytorch/pytorch/issues/139800",
-    [
-      "inductor",
-      "linux"
-    ]
-  ],
-  "test_comprehensive_nn_functional_conv_transpose3d_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
-    "139726",
-    "https://github.com/pytorch/pytorch/issues/139726",
-    [
-      "inductor",
-      "linux",
-      "slow"
     ]
   ],
   "test_comprehensive_nn_functional_cosine_embedding_loss_cpu_float16 (__main__.TestInductorOpInfoCPU)": [
@@ -1365,26 +1264,11 @@
       "inductor"
     ]
   ],
-  "test_comprehensive_nn_functional_cosine_similarity_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
-    "139728",
-    "https://github.com/pytorch/pytorch/issues/139728",
-    [
-      "linux"
-    ]
-  ],
   "test_comprehensive_nn_functional_embedding_bag_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
     "140340",
     "https://github.com/pytorch/pytorch/issues/140340",
     [
       "linux"
-    ]
-  ],
-  "test_comprehensive_nn_functional_embedding_bag_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
-    "139858",
-    "https://github.com/pytorch/pytorch/issues/139858",
-    [
-      "linux",
-      "slow"
     ]
   ],
   "test_comprehensive_nn_functional_fractional_max_pool3d_cpu_float32 (__main__.TestInductorOpInfoCPU)": [
@@ -1421,13 +1305,6 @@
     "https://github.com/pytorch/pytorch/issues/140583",
     [
       "inductor"
-    ]
-  ],
-  "test_comprehensive_nn_functional_hardtanh_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
-    "140077",
-    "https://github.com/pytorch/pytorch/issues/140077",
-    [
-      "rocm"
     ]
   ],
   "test_comprehensive_nn_functional_instance_norm_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
@@ -1562,13 +1439,6 @@
       "linux"
     ]
   ],
-  "test_comprehensive_prod_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
-    "139871",
-    "https://github.com/pytorch/pytorch/issues/139871",
-    [
-      "linux"
-    ]
-  ],
   "test_comprehensive_put_cuda_int32 (__main__.TestInductorOpInfoCUDA)": [
     "140051",
     "https://github.com/pytorch/pytorch/issues/140051",
@@ -1633,23 +1503,9 @@
       "inductor"
     ]
   ],
-  "test_comprehensive_rot90_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
-    "140243",
-    "https://github.com/pytorch/pytorch/issues/140243",
-    [
-      "linux"
-    ]
-  ],
   "test_comprehensive_round_cpu_float16 (__main__.TestInductorOpInfoCPU)": [
     "140482",
     "https://github.com/pytorch/pytorch/issues/140482",
-    [
-      "linux"
-    ]
-  ],
-  "test_comprehensive_rsub_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
-    "140179",
-    "https://github.com/pytorch/pytorch/issues/140179",
     [
       "linux"
     ]
@@ -1659,21 +1515,6 @@
     "https://github.com/pytorch/pytorch/issues/140503",
     [
       "inductor"
-    ]
-  ],
-  "test_comprehensive_scatter_add_cuda_bool (__main__.TestInductorOpInfoCUDA)": [
-    "139845",
-    "https://github.com/pytorch/pytorch/issues/139845",
-    [
-      "linux"
-    ]
-  ],
-  "test_comprehensive_scatter_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
-    "139859",
-    "https://github.com/pytorch/pytorch/issues/139859",
-    [
-      "linux",
-      "slow"
     ]
   ],
   "test_comprehensive_scatter_reduce_amax_cpu_bool (__main__.TestInductorOpInfoCPU)": [
@@ -1859,13 +1700,6 @@
       "inductor"
     ]
   ],
-  "test_comprehensive_special_zeta_cuda_bool (__main__.TestInductorOpInfoCUDA)": [
-    "139912",
-    "https://github.com/pytorch/pytorch/issues/139912",
-    [
-      "linux"
-    ]
-  ],
   "test_comprehensive_split_with_sizes_cpu_float16 (__main__.TestInductorOpInfoCPU)": [
     "140099",
     "https://github.com/pytorch/pytorch/issues/140099",
@@ -1899,13 +1733,6 @@
   "test_comprehensive_stft_cpu_float64 (__main__.TestInductorOpInfoCPU)": [
     "140670",
     "https://github.com/pytorch/pytorch/issues/140670",
-    [
-      "linux"
-    ]
-  ],
-  "test_comprehensive_stft_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
-    "139732",
-    "https://github.com/pytorch/pytorch/issues/139732",
     [
       "linux"
     ]
@@ -1973,14 +1800,6 @@
       "linux"
     ]
   ],
-  "test_comprehensive_trapz_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
-    "140133",
-    "https://github.com/pytorch/pytorch/issues/140133",
-    [
-      "inductor",
-      "linux"
-    ]
-  ],
   "test_comprehensive_unfold_copy_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
     "140653",
     "https://github.com/pytorch/pytorch/issues/140653",
@@ -2041,13 +1860,6 @@
   "test_comprehensive_vstack_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
     "140478",
     "https://github.com/pytorch/pytorch/issues/140478",
-    [
-      "rocm"
-    ]
-  ],
-  "test_comprehensive_where_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
-    "140120",
-    "https://github.com/pytorch/pytorch/issues/140120",
     [
       "rocm"
     ]
@@ -2430,13 +2242,6 @@
       "linux"
     ]
   ],
-  "test_dropout_deterministic_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
-    "132957",
-    "https://github.com/pytorch/pytorch/issues/132957",
-    [
-      "linux"
-    ]
-  ],
   "test_dtensor_mm (__main__.DistMatrixOpsTest)": [
     "139813",
     "https://github.com/pytorch/pytorch/issues/139813",
@@ -2595,6 +2400,13 @@
   "test_fake_tensor_mode_huggingface_openai_whisper (__main__.TestFxToOnnxFakeTensorWithOnnxRuntime_op_level_debug_False_dynamic_shapes_False_load_checkpoint_during_init_True_export_within_fake_mode_True_model_type_TorchModelType.TORCH_NN_MODULE)": [
     "130575",
     "https://github.com/pytorch/pytorch/issues/130575",
+    [
+      "linux"
+    ]
+  ],
+  "test_file_reader_no_memory_leak (__main__.TestScript)": [
+    "138885",
+    "https://github.com/pytorch/pytorch/issues/138885",
     [
       "linux"
     ]
