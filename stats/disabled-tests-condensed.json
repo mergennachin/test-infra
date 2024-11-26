@@ -1553,13 +1553,6 @@
       "slow"
     ]
   ],
-  "test_comprehensive_scatter_reduce_prod_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
-    "140294",
-    "https://github.com/pytorch/pytorch/issues/140294",
-    [
-      "linux"
-    ]
-  ],
   "test_comprehensive_scatter_reduce_sum_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
     "140533",
     "https://github.com/pytorch/pytorch/issues/140533",
@@ -2305,18 +2298,6 @@
       "rocm"
     ]
   ],
-  "test_dynamo_error (__main__.LoggingTests)": [
-    "139254",
-    "https://github.com/pytorch/pytorch/issues/139254",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_dynamo_export_retains_readable_parameter_and_buffer_names (__main__.TestFxToOnnx)": [
     "138064",
     "https://github.com/pytorch/pytorch/issues/138064",
@@ -2656,18 +2637,6 @@
     "https://github.com/pytorch/pytorch/issues/118109",
     [
       "rocm"
-    ]
-  ],
-  "test_inductor_error (__main__.LoggingTests)": [
-    "139253",
-    "https://github.com/pytorch/pytorch/issues/139253",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "slow"
     ]
   ],
   "test_inductor_inplace_op_on_view (__main__.C10DFunctionalNativeTest)": [
@@ -3075,18 +3044,6 @@
     "https://github.com/pytorch/pytorch/issues/109341",
     [
       "inductor"
-    ]
-  ],
-  "test_not_implemented_error (__main__.ExcTests)": [
-    "139255",
-    "https://github.com/pytorch/pytorch/issues/139255",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "slow"
     ]
   ],
   "test_numpy_ref_mps_nn_functional_conv_transpose1d_mps_float32 (__main__.TestCommonMPS)": [
