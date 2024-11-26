@@ -1189,13 +1189,6 @@
       "linux"
     ]
   ],
-  "test_comprehensive_mvlgamma_mvlgamma_p_5_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
-    "140135",
-    "https://github.com/pytorch/pytorch/issues/140135",
-    [
-      "linux"
-    ]
-  ],
   "test_comprehensive_mvlgamma_mvlgamma_p_5_cuda_int32 (__main__.TestInductorOpInfoCUDA)": [
     "139997",
     "https://github.com/pytorch/pytorch/issues/139997",
