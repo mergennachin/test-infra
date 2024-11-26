@@ -1686,13 +1686,6 @@
       "linux"
     ]
   ],
-  "test_comprehensive_std_unbiased_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
-    "140430",
-    "https://github.com/pytorch/pytorch/issues/140430",
-    [
-      "rocm"
-    ]
-  ],
   "test_comprehensive_stft_cpu_float64 (__main__.TestInductorOpInfoCPU)": [
     "140670",
     "https://github.com/pytorch/pytorch/issues/140670",
