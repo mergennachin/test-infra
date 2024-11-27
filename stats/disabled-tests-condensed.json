@@ -3862,6 +3862,16 @@
       "dynamo"
     ]
   ],
+  "test_torchvision_models_efficientnet_v2_m (__main__.TestVisionTracing)": [
+    "124152",
+    "https://github.com/pytorch/pytorch/issues/124152",
+    [
+      "asan",
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_torchvision_models_regnet_y_400mf (__main__.TestVisionTracing)": [
     "140531",
     "https://github.com/pytorch/pytorch/issues/140531",
