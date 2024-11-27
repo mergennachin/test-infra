@@ -422,6 +422,14 @@
       "inductor"
     ]
   ],
+  "test_comprehensive__unsafe_masked_index_cuda_bool (__main__.TestInductorOpInfoCUDA)": [
+    "131748",
+    "https://github.com/pytorch/pytorch/issues/131748",
+    [
+      "rocm",
+      "inductor"
+    ]
+  ],
   "test_comprehensive_addcdiv_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
     "140642",
     "https://github.com/pytorch/pytorch/issues/140642",
@@ -2797,8 +2805,9 @@
     "141636",
     "https://github.com/pytorch/pytorch/issues/141636",
     [
+      "linux",
       "rocm",
-      "linux"
+      "slow"
     ]
   ],
   "test_max_split_expandable (__main__.TestCudaMallocAsync)": [
