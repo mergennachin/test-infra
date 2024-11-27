@@ -2800,6 +2800,20 @@
       "rocm"
     ]
   ],
+  "test_matmul_small_brute_force_tunableop_cuda_float32 (__main__.TestLinalgCUDA)": [
+    "141635",
+    "https://github.com/pytorch/pytorch/issues/141635",
+    [
+      "linux"
+    ]
+  ],
+  "test_matmul_small_brute_force_tunableop_cuda_float64 (__main__.TestLinalgCUDA)": [
+    "141636",
+    "https://github.com/pytorch/pytorch/issues/141636",
+    [
+      "rocm"
+    ]
+  ],
   "test_max_split_expandable (__main__.TestCudaMallocAsync)": [
     "134837",
     "https://github.com/pytorch/pytorch/issues/134837",
@@ -3817,6 +3831,13 @@
     "https://github.com/pytorch/pytorch/issues/70546",
     [
       "mac"
+    ]
+  ],
+  "test_threading (__main__.TestWithNCCL)": [
+    "141637",
+    "https://github.com/pytorch/pytorch/issues/141637",
+    [
+      "linux"
     ]
   ],
   "test_torch_manual_seed_seeds_cuda_devices (__main__.TestCuda)": [
