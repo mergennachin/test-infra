@@ -702,14 +702,6 @@
       "inductor"
     ]
   ],
-  "test_comprehensive_diff_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
-    "140121",
-    "https://github.com/pytorch/pytorch/issues/140121",
-    [
-      "inductor",
-      "linux"
-    ]
-  ],
   "test_comprehensive_diff_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
     "140178",
     "https://github.com/pytorch/pytorch/issues/140178",
