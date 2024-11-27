@@ -2797,7 +2797,8 @@
     "141636",
     "https://github.com/pytorch/pytorch/issues/141636",
     [
-      "rocm"
+      "rocm",
+      "linux"
     ]
   ],
   "test_max_split_expandable (__main__.TestCudaMallocAsync)": [
