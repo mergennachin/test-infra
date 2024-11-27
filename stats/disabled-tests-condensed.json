@@ -629,13 +629,6 @@
       "inductor"
     ]
   ],
-  "test_comprehensive_diag_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
-    "140506",
-    "https://github.com/pytorch/pytorch/issues/140506",
-    [
-      "linux"
-    ]
-  ],
   "test_comprehensive_diag_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
     "140527",
     "https://github.com/pytorch/pytorch/issues/140527",
@@ -1174,14 +1167,6 @@
     "131080",
     "https://github.com/pytorch/pytorch/issues/131080",
     [
-      "linux"
-    ]
-  ],
-  "test_comprehensive_nn_functional_batch_norm_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
-    "140080",
-    "https://github.com/pytorch/pytorch/issues/140080",
-    [
-      "inductor",
       "linux"
     ]
   ],
@@ -1804,13 +1789,6 @@
     "https://github.com/pytorch/pytorch/issues/140353",
     [
       "linux"
-    ]
-  ],
-  "test_comprehensive_view_as_complex_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
-    "140481",
-    "https://github.com/pytorch/pytorch/issues/140481",
-    [
-      "rocm"
     ]
   ],
   "test_comprehensive_vstack_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
@@ -2782,6 +2760,13 @@
       "linux"
     ]
   ],
+  "test_matmul_offline_mgpu_tunableop_cuda_float32 (__main__.TestLinalgCUDA)": [
+    "141652",
+    "https://github.com/pytorch/pytorch/issues/141652",
+    [
+      "rocm"
+    ]
+  ],
   "test_matmul_offline_tunableop_cuda_float16 (__main__.TestLinalgCUDA)": [
     "137936",
     "https://github.com/pytorch/pytorch/issues/137936",
@@ -2804,7 +2789,8 @@
     "141635",
     "https://github.com/pytorch/pytorch/issues/141635",
     [
-      "linux"
+      "linux",
+      "slow"
     ]
   ],
   "test_matmul_small_brute_force_tunableop_cuda_float64 (__main__.TestLinalgCUDA)": [
