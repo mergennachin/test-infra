@@ -2069,6 +2069,18 @@
       "windows"
     ]
   ],
+  "test_device_mode_ops_sparse_mm_reduce_cpu_float32 (__main__.TestDeviceUtilsCPU)": [
+    "132552",
+    "https://github.com/pytorch/pytorch/issues/132552",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "win",
+      "windows"
+    ]
+  ],
   "test_device_mode_ops_sparse_sampled_addmm_cpu_complex128 (__main__.TestDeviceUtilsCPU)": [
     "132643",
     "https://github.com/pytorch/pytorch/issues/132643",
