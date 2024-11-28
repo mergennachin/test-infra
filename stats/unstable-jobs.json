@@ -15,6 +15,14 @@
     "cuda12.4-py3.10-gcc9-sm86",
     "test (inductor_timm)"
   ],
+  "inductor-micro-benchmark / cuda12.1-py3.10-gcc9-sm80 / test (inductor-micro-benchmark)": [
+    "huydhn",
+    "141747",
+    "https://github.com/pytorch/pytorch/issues/141747",
+    "inductor-micro-benchmark",
+    "cuda12.1-py3.10-gcc9-sm80",
+    "test (inductor-micro-benchmark)"
+  ],
   "inductor-rocm / rocm6.1-py3.8-inductor / test (inductor)": [
     "atalman",
     "131823",
