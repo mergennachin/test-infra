@@ -2639,13 +2639,6 @@
       "linux"
     ]
   ],
-  "test_input_mutation2_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "135295",
-    "https://github.com/pytorch/pytorch/issues/135295",
-    [
-      "linux"
-    ]
-  ],
   "test_intra_node_comm_all_reduce (__main__.CommTest)": [
     "115859",
     "https://github.com/pytorch/pytorch/issues/115859",
@@ -3731,6 +3724,13 @@
   "test_sparse_gradients_grad_is_view (__main__.DistributedDataParallelTest)": [
     "140368",
     "https://github.com/pytorch/pytorch/issues/140368",
+    [
+      "linux"
+    ]
+  ],
+  "test_split_scan (__main__.MultiKernelTest)": [
+    "141739",
+    "https://github.com/pytorch/pytorch/issues/141739",
     [
       "linux"
     ]
