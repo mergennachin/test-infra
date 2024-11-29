@@ -2881,6 +2881,13 @@
       "linux"
     ]
   ],
+  "test_mnist_exported_with_no_warnings (__main__.TestFxToOnnx)": [
+    "141785",
+    "https://github.com/pytorch/pytorch/issues/141785",
+    [
+      "linux"
+    ]
+  ],
   "test_nccl_errors_dump (__main__.NcclErrorDumpTest)": [
     "123530",
     "https://github.com/pytorch/pytorch/issues/123530",
