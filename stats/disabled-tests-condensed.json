@@ -304,9 +304,25 @@
       "linux"
     ]
   ],
+  "test_byte_mask (__main__.TestAdvancedIndexing)": [
+    "138911",
+    "https://github.com/pytorch/pytorch/issues/138911",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_byte_mask_accumulate (__main__.TestAdvancedIndexing)": [
     "125927",
     "https://github.com/pytorch/pytorch/issues/125927",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
+  "test_byte_tensor_assignment (__main__.TestAdvancedIndexing)": [
+    "137028",
+    "https://github.com/pytorch/pytorch/issues/137028",
     [
       "mac",
       "macos"
