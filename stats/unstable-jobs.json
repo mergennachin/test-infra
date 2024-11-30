@@ -30,5 +30,13 @@
     "inductor-rocm",
     "rocm6.1-py3.8-inductor",
     "test (inductor)"
+  ],
+  "trunk / win-vs2019-cpu-py3 / test (default)": [
+    "clee2000",
+    "130257",
+    "https://github.com/pytorch/pytorch/issues/130257",
+    "trunk",
+    "win-vs2019-cpu-py3",
+    "test (default)"
   ]
 }
