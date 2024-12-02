@@ -843,13 +843,6 @@
       "inductor"
     ]
   ],
-  "test_comprehensive_heaviside_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
-    "139624",
-    "https://github.com/pytorch/pytorch/issues/139624",
-    [
-      "rocm"
-    ]
-  ],
   "test_comprehensive_int_cpu_float16 (__main__.TestInductorOpInfoCPU)": [
     "140338",
     "https://github.com/pytorch/pytorch/issues/140338",
@@ -997,13 +990,6 @@
       "inductor"
     ]
   ],
-  "test_comprehensive_minimum_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
-    "140669",
-    "https://github.com/pytorch/pytorch/issues/140669",
-    [
-      "linux"
-    ]
-  ],
   "test_comprehensive_nansum_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
     "140693",
     "https://github.com/pytorch/pytorch/issues/140693",
@@ -1030,13 +1016,6 @@
   "test_comprehensive_nn_functional_adaptive_avg_pool2d_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
     "131080",
     "https://github.com/pytorch/pytorch/issues/131080",
-    [
-      "linux"
-    ]
-  ],
-  "test_comprehensive_nn_functional_batch_norm_without_cudnn_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
-    "140007",
-    "https://github.com/pytorch/pytorch/issues/140007",
     [
       "linux"
     ]
@@ -1181,13 +1160,6 @@
       "linux"
     ]
   ],
-  "test_comprehensive_nn_functional_poisson_nll_loss_cuda_int32 (__main__.TestInductorOpInfoCUDA)": [
-    "140646",
-    "https://github.com/pytorch/pytorch/issues/140646",
-    [
-      "linux"
-    ]
-  ],
   "test_comprehensive_nn_functional_soft_margin_loss_cpu_float32 (__main__.TestInductorOpInfoCPU)": [
     "140498",
     "https://github.com/pytorch/pytorch/issues/140498",
@@ -1255,14 +1227,6 @@
     "140529",
     "https://github.com/pytorch/pytorch/issues/140529",
     [
-      "inductor"
-    ]
-  ],
-  "test_comprehensive_remainder_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
-    "140585",
-    "https://github.com/pytorch/pytorch/issues/140585",
-    [
-      "rocm",
       "inductor"
     ]
   ],
@@ -3016,15 +2980,6 @@
     "107950",
     "https://github.com/pytorch/pytorch/issues/107950",
     [
-      "rocm"
-    ]
-  ],
-  "test_reentrant_parent_error_on_cpu_cuda (__main__.TestAutogradDeviceTypeCUDA)": [
-    "86735",
-    "https://github.com/pytorch/pytorch/issues/86735",
-    [
-      "win",
-      "windows",
       "rocm"
     ]
   ],
