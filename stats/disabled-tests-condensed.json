@@ -393,6 +393,13 @@
       "dynamo"
     ]
   ],
+  "test_checkpoint_wrapper_parity (__main__.CheckpointWrapperTest)": [
+    "79510",
+    "https://github.com/pytorch/pytorch/issues/79510",
+    [
+      "linux"
+    ]
+  ],
   "test_compare_cpu__refs_empty_strided_cuda_float32 (__main__.TestCommonCUDA)": [
     "101625",
     "https://github.com/pytorch/pytorch/issues/101625",
@@ -1748,6 +1755,18 @@
   "test_device_mode_ops_sparse_mm_reduce_cpu_bfloat16 (__main__.TestDeviceUtilsCPU)": [
     "132494",
     "https://github.com/pytorch/pytorch/issues/132494",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "win",
+      "windows"
+    ]
+  ],
+  "test_device_mode_ops_sparse_mm_reduce_cpu_float16 (__main__.TestDeviceUtilsCPU)": [
+    "133827",
+    "https://github.com/pytorch/pytorch/issues/133827",
     [
       "asan",
       "linux",
