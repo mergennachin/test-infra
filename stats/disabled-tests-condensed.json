@@ -3081,15 +3081,6 @@
       "rocm"
     ]
   ],
-  "test_rng (__main__.TestCompilerBisector)": [
-    "139590",
-    "https://github.com/pytorch/pytorch/issues/139590",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_save_load_checkpoint (__main__.DistributedDataParallelTest)": [
     "137771",
     "https://github.com/pytorch/pytorch/issues/137771",
