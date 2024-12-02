@@ -407,15 +407,6 @@
       "rocm"
     ]
   ],
-  "test_compile_backward_fmin_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)": [
-    "132670",
-    "https://github.com/pytorch/pytorch/issues/132670",
-    [
-      "linux",
-      "slow",
-      "rocm"
-    ]
-  ],
   "test_compile_backward_special_erfcx_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)": [
     "132672",
     "https://github.com/pytorch/pytorch/issues/132672",
@@ -1939,13 +1930,6 @@
       "linux"
     ]
   ],
-  "test_embedding_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "135250",
-    "https://github.com/pytorch/pytorch/issues/135250",
-    [
-      "linux"
-    ]
-  ],
   "test_execution_trace_with_kineto (__main__.TestExecutionTrace)": [
     "123536",
     "https://github.com/pytorch/pytorch/issues/123536",
@@ -3079,6 +3063,15 @@
     "https://github.com/pytorch/pytorch/issues/126380",
     [
       "rocm"
+    ]
+  ],
+  "test_rng (__main__.TestCompilerBisector)": [
+    "139590",
+    "https://github.com/pytorch/pytorch/issues/139590",
+    [
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_save_load_checkpoint (__main__.DistributedDataParallelTest)": [
