@@ -480,14 +480,6 @@
       "linux"
     ]
   ],
-  "test_comprehensive_argsort_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
-    "140505",
-    "https://github.com/pytorch/pytorch/issues/140505",
-    [
-      "inductor",
-      "rocm"
-    ]
-  ],
   "test_comprehensive_as_strided_copy_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
     "140774",
     "https://github.com/pytorch/pytorch/issues/140774",
@@ -2125,9 +2117,9 @@
       "linux"
     ]
   ],
-  "test_grad_scaler_with_preset_grad_scale_in_place_unscale_False_SGD_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
-    "135783",
-    "https://github.com/pytorch/pytorch/issues/135783",
+  "test_grad_scaler_with_preset_grad_scale_in_place_unscale_False_Adam_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
+    "135721",
+    "https://github.com/pytorch/pytorch/issues/135721",
     [
       "linux"
     ]
@@ -2873,6 +2865,13 @@
       "rocm"
     ]
   ],
+  "test_profiler_mark_wrapper_call_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "135294",
+    "https://github.com/pytorch/pytorch/issues/135294",
+    [
+      "linux"
+    ]
+  ],
   "test_profiler_rpc_key_names (__main__.TensorPipeRpcTest)": [
     "125365",
     "https://github.com/pytorch/pytorch/issues/125365",
@@ -3439,13 +3438,6 @@
       "linux"
     ]
   ],
-  "test_tensor_dtype_complex (__main__.CommTest)": [
-    "112460",
-    "https://github.com/pytorch/pytorch/issues/112460",
-    [
-      "linux"
-    ]
-  ],
   "test_tensor_requires_grad (test_jit.TestScript)": [
     "91497",
     "https://github.com/pytorch/pytorch/issues/91497",
@@ -3656,18 +3648,6 @@
     [
       "linux",
       "mac"
-    ]
-  ],
-  "test_unbacked_bindings_for_divisible_u_symint (__main__.TestExport)": [
-    "138586",
-    "https://github.com/pytorch/pytorch/issues/138586",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "slow"
     ]
   ],
   "test_unbacked_bindings_for_divisible_u_symint_non_strict (__main__.NonStrictExportTestExport)": [
