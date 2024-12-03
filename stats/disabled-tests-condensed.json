@@ -183,13 +183,6 @@
       "windows"
     ]
   ],
-  "test_async_compile (__main__.TestCUDACodeCache)": [
-    "138342",
-    "https://github.com/pytorch/pytorch/issues/138342",
-    [
-      "linux"
-    ]
-  ],
   "test_attention_vs_linear (__main__.MemoryBudgetTest)": [
     "128217",
     "https://github.com/pytorch/pytorch/issues/128217",
@@ -404,15 +397,6 @@
     "101625",
     "https://github.com/pytorch/pytorch/issues/101625",
     [
-      "rocm"
-    ]
-  ],
-  "test_compile_backward_special_erfcx_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)": [
-    "132672",
-    "https://github.com/pytorch/pytorch/issues/132672",
-    [
-      "linux",
-      "slow",
       "rocm"
     ]
   ],
