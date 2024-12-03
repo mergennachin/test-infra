@@ -1901,13 +1901,6 @@
       "linux"
     ]
   ],
-  "test_embedding_bag_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "135215",
-    "https://github.com/pytorch/pytorch/issues/135215",
-    [
-      "linux"
-    ]
-  ],
   "test_embedding_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
     "135456",
     "https://github.com/pytorch/pytorch/issues/135456",
@@ -2430,7 +2423,8 @@
     "141458",
     "https://github.com/pytorch/pytorch/issues/141458",
     [
-      "rocm"
+      "rocm",
+      "linux"
     ]
   ],
   "test_matmul_small_brute_force_tunableop_cuda_float32 (__main__.TestLinalgCUDA)": [
@@ -3650,6 +3644,18 @@
       "mac"
     ]
   ],
+  "test_unbacked_bindings_for_divisible_u_symint (__main__.TestExport)": [
+    "138586",
+    "https://github.com/pytorch/pytorch/issues/138586",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_unbacked_bindings_for_divisible_u_symint_non_strict (__main__.NonStrictExportTestExport)": [
     "138585",
     "https://github.com/pytorch/pytorch/issues/138585",
@@ -3812,6 +3818,13 @@
     "https://github.com/pytorch/pytorch/issues/86893",
     [
       "linux"
+    ]
+  ],
+  "test_vmapvjpvjp_linalg_householder_product_cuda_float32 (__main__.TestOperatorsCUDA)": [
+    "107659",
+    "https://github.com/pytorch/pytorch/issues/107659",
+    [
+      "rocm"
     ]
   ],
   "test_vmapvjpvjp_linalg_lu_cuda_float32 (__main__.TestOperatorsCUDA)": [
