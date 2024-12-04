@@ -661,11 +661,12 @@
       "inductor"
     ]
   ],
-  "test_comprehensive_fft_fftshift_cpu_float32 (__main__.TestInductorOpInfoCPU)": [
-    "140311",
-    "https://github.com/pytorch/pytorch/issues/140311",
+  "test_comprehensive_fft_fft_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
+    "122715",
+    "https://github.com/pytorch/pytorch/issues/122715",
     [
-      "linux"
+      "inductor",
+      "rocm"
     ]
   ],
   "test_comprehensive_fft_fftshift_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
@@ -680,13 +681,6 @@
     "https://github.com/pytorch/pytorch/issues/140337",
     [
       "inductor"
-    ]
-  ],
-  "test_comprehensive_fft_ihfftn_cpu_int32 (__main__.TestInductorOpInfoCPU)": [
-    "140649",
-    "https://github.com/pytorch/pytorch/issues/140649",
-    [
-      "linux"
     ]
   ],
   "test_comprehensive_fft_rfft2_cuda_int32 (__main__.TestInductorOpInfoCUDA)": [
@@ -885,13 +879,6 @@
       "inductor"
     ]
   ],
-  "test_comprehensive_median_cpu_int32 (__main__.TestInductorOpInfoCPU)": [
-    "140341",
-    "https://github.com/pytorch/pytorch/issues/140341",
-    [
-      "linux"
-    ]
-  ],
   "test_comprehensive_min_binary_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
     "140486",
     "https://github.com/pytorch/pytorch/issues/140486",
@@ -998,11 +985,11 @@
       "inductor"
     ]
   ],
-  "test_comprehensive_nn_functional_margin_ranking_loss_cpu_int32 (__main__.TestInductorOpInfoCPU)": [
-    "140508",
-    "https://github.com/pytorch/pytorch/issues/140508",
+  "test_comprehensive_nn_functional_max_unpool2d_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
+    "140528",
+    "https://github.com/pytorch/pytorch/issues/140528",
     [
-      "linux"
+      "rocm"
     ]
   ],
   "test_comprehensive_nn_functional_nll_loss_cuda_float32 (__main__.TestDecompCUDA)": [
@@ -1254,13 +1241,6 @@
     "https://github.com/pytorch/pytorch/issues/140177",
     [
       "inductor"
-    ]
-  ],
-  "test_comprehensive_tile_cpu_int32 (__main__.TestInductorOpInfoCPU)": [
-    "140476",
-    "https://github.com/pytorch/pytorch/issues/140476",
-    [
-      "linux"
     ]
   ],
   "test_comprehensive_torch_ops_aten__safe_softmax_default_cuda_bool (__main__.TestInductorOpInfoCUDA)": [
@@ -1593,22 +1573,6 @@
       "windows"
     ]
   ],
-  "test_device_mode_ops_sparse_sampled_addmm_cpu_float32 (__main__.TestDeviceUtilsCPU)": [
-    "132720",
-    "https://github.com/pytorch/pytorch/issues/132720",
-    [
-      "asan",
-      "linux"
-    ]
-  ],
-  "test_device_mode_ops_sparse_sampled_addmm_cpu_float64 (__main__.TestDeviceUtilsCPU)": [
-    "132737",
-    "https://github.com/pytorch/pytorch/issues/132737",
-    [
-      "asan",
-      "linux"
-    ]
-  ],
   "test_distributed_checkpoint_state_dict_type0 (__main__.TestDistributedCheckpoint)": [
     "113937",
     "https://github.com/pytorch/pytorch/issues/113937",
@@ -1705,13 +1669,6 @@
   "test_embedding_bag_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
     "135215",
     "https://github.com/pytorch/pytorch/issues/135215",
-    [
-      "linux"
-    ]
-  ],
-  "test_embedding_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
-    "135456",
-    "https://github.com/pytorch/pytorch/issues/135456",
     [
       "linux"
     ]
@@ -1921,6 +1878,13 @@
   "test_grad_scaler_with_preset_grad_scale_in_place_unscale_False_Adam_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
     "135721",
     "https://github.com/pytorch/pytorch/issues/135721",
+    [
+      "linux"
+    ]
+  ],
+  "test_grad_scaler_with_preset_grad_scale_in_place_unscale_False_SGD_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
+    "135783",
+    "https://github.com/pytorch/pytorch/issues/135783",
     [
       "linux"
     ]
@@ -3695,9 +3659,9 @@
       "slow"
     ]
   ],
-  "test_wrapper_subclass_aliasing_conv2d_cpu (__main__.TestWrapperSubclassAliasingCPU)": [
-    "139056",
-    "https://github.com/pytorch/pytorch/issues/139056",
+  "test_wrapper_subclass_aliasing_fft_fft2_cpu (__main__.TestWrapperSubclassAliasingCPU)": [
+    "142021",
+    "https://github.com/pytorch/pytorch/issues/142021",
     [
       "dynamo"
     ]
