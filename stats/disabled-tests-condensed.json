@@ -1583,6 +1583,14 @@
       "linux"
     ]
   ],
+  "test_device_mode_ops_sparse_sampled_addmm_cpu_float64 (__main__.TestDeviceUtilsCPU)": [
+    "132737",
+    "https://github.com/pytorch/pytorch/issues/132737",
+    [
+      "asan",
+      "linux"
+    ]
+  ],
   "test_distributed_checkpoint_state_dict_type0 (__main__.TestDistributedCheckpoint)": [
     "113937",
     "https://github.com/pytorch/pytorch/issues/113937",
@@ -3433,18 +3441,6 @@
   "test_unbacked_bindings_for_divisible_u_symint_retraceability (__main__.RetraceExportTestExport)": [
     "138584",
     "https://github.com/pytorch/pytorch/issues/138584",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "slow"
-    ]
-  ],
-  "test_unbacked_bindings_for_divisible_u_symint_retraceability_non_strict (__main__.RetraceExportNonStrictTestExport)": [
-    "138676",
-    "https://github.com/pytorch/pytorch/issues/138676",
     [
       "asan",
       "linux",
