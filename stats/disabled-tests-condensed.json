@@ -1559,6 +1559,14 @@
       "linux"
     ]
   ],
+  "test_device_mode_ops_sparse_sampled_addmm_cpu_complex64 (__main__.TestDeviceUtilsCPU)": [
+    "132686",
+    "https://github.com/pytorch/pytorch/issues/132686",
+    [
+      "asan",
+      "linux"
+    ]
+  ],
   "test_distributed_checkpoint_state_dict_type0 (__main__.TestDistributedCheckpoint)": [
     "113937",
     "https://github.com/pytorch/pytorch/issues/113937",
