@@ -1294,11 +1294,28 @@
       "rocm"
     ]
   ],
+  "test_conv2d_binary_dynamic_shapes (__main__.TestDynamicPatternMatcher)": [
+    "141329",
+    "https://github.com/pytorch/pytorch/issues/141329",
+    [
+      "asan",
+      "linux",
+      "slow"
+    ]
+  ],
   "test_conv3d_64bit_indexing_cuda (__main__.TestConvolutionNNDeviceTypeCUDA)": [
     "104366",
     "https://github.com/pytorch/pytorch/issues/104366",
     [
       "rocm"
+    ]
+  ],
+  "test_conv3d_binary_dynamic_shapes (__main__.TestDynamicPatternMatcher)": [
+    "141330",
+    "https://github.com/pytorch/pytorch/issues/141330",
+    [
+      "linux",
+      "slow"
     ]
   ],
   "test_conv_stride_constraints (__main__.CPUReproTests)": [
@@ -2126,6 +2143,14 @@
       "rocm"
     ]
   ],
+  "test_linear_binary_broadcast_shapes_cpu (__main__.TestPatternMatcher)": [
+    "141328",
+    "https://github.com/pytorch/pytorch/issues/141328",
+    [
+      "asan",
+      "linux"
+    ]
+  ],
   "test_linear_binary_dynamic_shapes_cpp_wrapper (__main__.DynamicShapesCppWrapperCpuTests)": [
     "139812",
     "https://github.com/pytorch/pytorch/issues/139812",
@@ -2488,6 +2513,13 @@
   "test_output_match_nn_functional_poisson_nll_loss_cpu_int32 (__main__.TORCH_NN_MODULECPU)": [
     "122389",
     "https://github.com/pytorch/pytorch/issues/122389",
+    [
+      "linux"
+    ]
+  ],
+  "test_pattern_matcher_multi_user_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "134433",
+    "https://github.com/pytorch/pytorch/issues/134433",
     [
       "linux"
     ]
@@ -3414,9 +3446,57 @@
       "slow"
     ]
   ],
+  "test_unbacked_bindings_for_divisible_u_symint_non_strict (__main__.NonStrictExportTestExport)": [
+    "138585",
+    "https://github.com/pytorch/pytorch/issues/138585",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_unbacked_bindings_for_divisible_u_symint_retraceability (__main__.RetraceExportTestExport)": [
+    "138584",
+    "https://github.com/pytorch/pytorch/issues/138584",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_unbacked_bindings_for_divisible_u_symint_retraceability_non_strict (__main__.RetraceExportNonStrictTestExport)": [
     "138676",
     "https://github.com/pytorch/pytorch/issues/138676",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_unbacked_bindings_for_divisible_u_symint_training_ir_to_decomp (__main__.TrainingIRToRunDecompExportTestExport)": [
+    "138583",
+    "https://github.com/pytorch/pytorch/issues/138583",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_unbacked_bindings_for_divisible_u_symint_training_ir_to_decomp_non_strict (__main__.TrainingIRToRunDecompExportNonStrictTestExport)": [
+    "138582",
+    "https://github.com/pytorch/pytorch/issues/138582",
     [
       "asan",
       "linux",
@@ -3482,13 +3562,6 @@
   "test_variant_consistency_jit_linalg_lu_factor_ex_cuda_complex64 (__main__.TestJitCUDA)": [
     "86887",
     "https://github.com/pytorch/pytorch/issues/86887",
-    [
-      "linux"
-    ]
-  ],
-  "test_vdd_clamp_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "134445",
-    "https://github.com/pytorch/pytorch/issues/134445",
     [
       "linux"
     ]
