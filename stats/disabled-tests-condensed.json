@@ -20,6 +20,13 @@
       "rocm"
     ]
   ],
+  "test_add_loggers_linear_mod_quant_quant (__main__.TestFXNumericSuiteNShadows)": [
+    "142172",
+    "https://github.com/pytorch/pytorch/issues/142172",
+    [
+      "dynamo"
+    ]
+  ],
   "test_alibi_bias_float32 (__main__.TestTemplatedSDPA)": [
     "124526",
     "https://github.com/pytorch/pytorch/issues/124526",
@@ -3629,6 +3636,13 @@
       "linux",
       "rocm",
       "slow"
+    ]
+  ],
+  "test_wrapper_subclass_aliasing_conv2d_cpu (__main__.TestWrapperSubclassAliasingCPU)": [
+    "139056",
+    "https://github.com/pytorch/pytorch/issues/139056",
+    [
+      "dynamo"
     ]
   ],
   "test_wrapper_subclass_aliasing_fft_fft2_cpu (__main__.TestWrapperSubclassAliasingCPU)": [
