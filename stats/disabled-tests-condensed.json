@@ -2147,7 +2147,8 @@
     "141292",
     "https://github.com/pytorch/pytorch/issues/141292",
     [
-      "rocm"
+      "rocm",
+      "linux"
     ]
   ],
   "test_linear_binary_broadcast_shapes_cpu (__main__.TestPatternMatcher)": [
