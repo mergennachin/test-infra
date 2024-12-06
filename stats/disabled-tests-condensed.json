@@ -1292,28 +1292,11 @@
       "rocm"
     ]
   ],
-  "test_conv2d_binary_dynamic_shapes (__main__.TestDynamicPatternMatcher)": [
-    "141329",
-    "https://github.com/pytorch/pytorch/issues/141329",
-    [
-      "asan",
-      "linux",
-      "slow"
-    ]
-  ],
   "test_conv3d_64bit_indexing_cuda (__main__.TestConvolutionNNDeviceTypeCUDA)": [
     "104366",
     "https://github.com/pytorch/pytorch/issues/104366",
     [
       "rocm"
-    ]
-  ],
-  "test_conv3d_binary_dynamic_shapes (__main__.TestDynamicPatternMatcher)": [
-    "141330",
-    "https://github.com/pytorch/pytorch/issues/141330",
-    [
-      "linux",
-      "slow"
     ]
   ],
   "test_conv_stride_constraints (__main__.CPUReproTests)": [
@@ -2155,14 +2138,6 @@
     "https://github.com/pytorch/pytorch/issues/141292",
     [
       "rocm",
-      "linux"
-    ]
-  ],
-  "test_linear_binary_broadcast_shapes_cpu (__main__.TestPatternMatcher)": [
-    "141328",
-    "https://github.com/pytorch/pytorch/issues/141328",
-    [
-      "asan",
       "linux"
     ]
   ],
