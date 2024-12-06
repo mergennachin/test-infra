@@ -2166,13 +2166,6 @@
       "linux"
     ]
   ],
-  "test_linear_binary_dynamic_shapes_cpp_wrapper (__main__.DynamicShapesCppWrapperCpuTests)": [
-    "139812",
-    "https://github.com/pytorch/pytorch/issues/139812",
-    [
-      "linux"
-    ]
-  ],
   "test_load_from_bias_head_seq_batch_float16 (__main__.TestFlexDecoding)": [
     "134144",
     "https://github.com/pytorch/pytorch/issues/134144",
