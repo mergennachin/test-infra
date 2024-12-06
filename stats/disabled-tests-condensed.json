@@ -2224,31 +2224,6 @@
       "windows"
     ]
   ],
-  "test_matmul_small_brute_force_tunableop_cuda_float16 (__main__.TestLinalgCUDA)": [
-    "141458",
-    "https://github.com/pytorch/pytorch/issues/141458",
-    [
-      "rocm",
-      "linux"
-    ]
-  ],
-  "test_matmul_small_brute_force_tunableop_cuda_float32 (__main__.TestLinalgCUDA)": [
-    "141635",
-    "https://github.com/pytorch/pytorch/issues/141635",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
-  "test_matmul_small_brute_force_tunableop_cuda_float64 (__main__.TestLinalgCUDA)": [
-    "141636",
-    "https://github.com/pytorch/pytorch/issues/141636",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_max_split_expandable (__main__.TestCudaMallocAsync)": [
     "134837",
     "https://github.com/pytorch/pytorch/issues/134837",
