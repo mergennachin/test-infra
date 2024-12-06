@@ -13,13 +13,6 @@
       "rocm"
     ]
   ],
-  "test_abs_cuda (__main__.TestInductorDynamicCUDA)": [
-    "137224",
-    "https://github.com/pytorch/pytorch/issues/137224",
-    [
-      "rocm"
-    ]
-  ],
   "test_add_loggers_linear_mod_quant_quant (__main__.TestFXNumericSuiteNShadows)": [
     "142172",
     "https://github.com/pytorch/pytorch/issues/142172",
