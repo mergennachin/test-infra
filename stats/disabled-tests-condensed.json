@@ -2151,13 +2151,6 @@
       "linux"
     ]
   ],
-  "test_matmul_offline_mgpu_tunableop_cuda_float32 (__main__.TestLinalgCUDA)": [
-    "141652",
-    "https://github.com/pytorch/pytorch/issues/141652",
-    [
-      "rocm"
-    ]
-  ],
   "test_matmul_offline_tunableop_cuda_float16 (__main__.TestLinalgCUDA)": [
     "137936",
     "https://github.com/pytorch/pytorch/issues/137936",
@@ -2167,14 +2160,6 @@
       "slow",
       "win",
       "windows"
-    ]
-  ],
-  "test_matmul_small_brute_force_tunableop_cuda_float16 (__main__.TestLinalgCUDA)": [
-    "141458",
-    "https://github.com/pytorch/pytorch/issues/141458",
-    [
-      "rocm",
-      "linux"
     ]
   ],
   "test_matmul_small_brute_force_tunableop_cuda_float32 (__main__.TestLinalgCUDA)": [
