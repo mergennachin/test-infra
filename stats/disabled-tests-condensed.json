@@ -1478,18 +1478,6 @@
       "dynamo"
     ]
   ],
-  "test_device_mode_ops_sparse_mm_reduce_cpu_bfloat16 (__main__.TestDeviceUtilsCPU)": [
-    "132494",
-    "https://github.com/pytorch/pytorch/issues/132494",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "win",
-      "windows"
-    ]
-  ],
   "test_device_mode_ops_sparse_mm_reduce_cpu_float16 (__main__.TestDeviceUtilsCPU)": [
     "133827",
     "https://github.com/pytorch/pytorch/issues/133827",
@@ -1607,26 +1595,6 @@
     "https://github.com/pytorch/pytorch/issues/123294",
     [
       "linux"
-    ]
-  ],
-  "test_dtype_aware_codegen_load_upcast_to_fp32_False_bfloat16 (__main__.TritonCodeGenTests)": [
-    "138944",
-    "https://github.com/pytorch/pytorch/issues/138944",
-    [
-      "inductor",
-      "rocm",
-      "linux",
-      "slow"
-    ]
-  ],
-  "test_dtype_aware_codegen_load_upcast_to_fp32_False_float16 (__main__.TritonCodeGenTests)": [
-    "138943",
-    "https://github.com/pytorch/pytorch/issues/138943",
-    [
-      "inductor",
-      "rocm",
-      "linux",
-      "slow"
     ]
   ],
   "test_dunder_round_edgecases_val_2147483647_ndigits_-1 (__main__.TestNonarrayArgs)": [
@@ -3572,13 +3540,6 @@
       "windows",
       "rocm",
       "slow"
-    ]
-  ],
-  "test_weight_norm_bwd_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "141484",
-    "https://github.com/pytorch/pytorch/issues/141484",
-    [
-      "linux"
     ]
   ],
   "test_where_broadcast_cpu (__main__.CpuTests)": [
