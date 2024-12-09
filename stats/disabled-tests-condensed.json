@@ -117,15 +117,6 @@
       "slow"
     ]
   ],
-  "test_aot_export_invoke_subgraph_simple_cuda_float32 (__main__.TestHOPCUDA)": [
-    "138707",
-    "https://github.com/pytorch/pytorch/issues/138707",
-    [
-      "linux",
-      "slow",
-      "rocm"
-    ]
-  ],
   "test_aot_export_scan_simple_cuda_float32 (__main__.TestHOPCUDA)": [
     "139075",
     "https://github.com/pytorch/pytorch/issues/139075",
@@ -351,13 +342,6 @@
   "test_causal_variants_compile_causal_variant_CausalVariant_LOWER_RIGHT_shape3_cuda (__main__.TestAttnBiasCUDA)": [
     "118658",
     "https://github.com/pytorch/pytorch/issues/118658",
-    [
-      "rocm"
-    ]
-  ],
-  "test_causal_variants_compile_causal_variant_CausalVariant_UPPER_LEFT_shape0_cuda (__main__.TestAttnBiasCUDA)": [
-    "118672",
-    "https://github.com/pytorch/pytorch/issues/118672",
     [
       "rocm"
     ]
@@ -2510,15 +2494,6 @@
       "rocm"
     ]
   ],
-  "test_pre_dispatch_export_invoke_subgraph_simple_cuda_float32 (__main__.TestHOPCUDA)": [
-    "138704",
-    "https://github.com/pytorch/pytorch/issues/138704",
-    [
-      "linux",
-      "slow",
-      "rocm"
-    ]
-  ],
   "test_pre_dispatch_export_scan_simple_cuda_float32 (__main__.TestHOPCUDA)": [
     "139072",
     "https://github.com/pytorch/pytorch/issues/139072",
@@ -2725,15 +2700,6 @@
       "linux",
       "rocm",
       "slow"
-    ]
-  ],
-  "test_retrace_export_invoke_subgraph_simple_cuda_float32 (__main__.TestHOPCUDA)": [
-    "138705",
-    "https://github.com/pytorch/pytorch/issues/138705",
-    [
-      "linux",
-      "slow",
-      "rocm"
     ]
   ],
   "test_retrace_export_scan_simple_cuda_float32 (__main__.TestHOPCUDA)": [
