@@ -1,12 +1,4 @@
 {
-  "inductor / cuda12.1-py3.10-gcc9-sm86 / test (inductor_timm)": [
-    "huydhn",
-    "141703",
-    "https://github.com/pytorch/pytorch/issues/141703",
-    "inductor",
-    "cuda12.1-py3.10-gcc9-sm86",
-    "test (inductor_timm)"
-  ],
   "inductor-rocm / rocm6.1-py3.8-inductor / test (inductor)": [
     "atalman",
     "131823",
