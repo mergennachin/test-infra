@@ -134,6 +134,18 @@
       "slow"
     ]
   ],
+  "test_aot_export_with_torch_cond (__main__.TestAOTExport)": [
+    "139998",
+    "https://github.com/pytorch/pytorch/issues/139998",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_aot_module_simplified_fake_tensor_gm_raises (__main__.TestAOTModuleSimplified)": [
     "124590",
     "https://github.com/pytorch/pytorch/issues/124590",
