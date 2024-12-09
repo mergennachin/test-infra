@@ -1462,6 +1462,18 @@
       "dynamo"
     ]
   ],
+  "test_device_mode_ops_sparse_mm_reduce_cpu_bfloat16 (__main__.TestDeviceUtilsCPU)": [
+    "132494",
+    "https://github.com/pytorch/pytorch/issues/132494",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "win",
+      "windows"
+    ]
+  ],
   "test_device_mode_ops_sparse_mm_reduce_cpu_float16 (__main__.TestDeviceUtilsCPU)": [
     "133827",
     "https://github.com/pytorch/pytorch/issues/133827",
@@ -2852,15 +2864,6 @@
       "rocm"
     ]
   ],
-  "test_serialize_export_invoke_subgraph_simple_cuda_float32 (__main__.TestHOPCUDA)": [
-    "138706",
-    "https://github.com/pytorch/pytorch/issues/138706",
-    [
-      "linux",
-      "slow",
-      "rocm"
-    ]
-  ],
   "test_serialize_export_scan_simple_cuda_float32 (__main__.TestHOPCUDA)": [
     "139073",
     "https://github.com/pytorch/pytorch/issues/139073",
@@ -3506,6 +3509,13 @@
       "windows",
       "rocm",
       "slow"
+    ]
+  ],
+  "test_weight_norm_bwd_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "141484",
+    "https://github.com/pytorch/pytorch/issues/141484",
+    [
+      "linux"
     ]
   ],
   "test_where_broadcast_cpu (__main__.CpuTests)": [
