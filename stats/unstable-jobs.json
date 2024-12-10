@@ -1,4 +1,12 @@
 {
+  "Lint / workflow-checks / linux-job": [
+    "jeanschmidt",
+    "142485",
+    "https://github.com/pytorch/pytorch/issues/142485",
+    "Lint",
+    "workflow-checks",
+    "linux-job"
+  ],
   "inductor-rocm / rocm6.1-py3.8-inductor / test (inductor)": [
     "atalman",
     "131823",
