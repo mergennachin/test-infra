@@ -6,5 +6,13 @@
     "inductor-rocm",
     "rocm6.1-py3.8-inductor",
     "test (inductor)"
+  ],
+  "trunk / macos-py3-arm64 / test (default)": [
+    "huydhn",
+    "142434",
+    "https://github.com/pytorch/pytorch/issues/142434",
+    "trunk",
+    "macos-py3-arm64",
+    "test (default)"
   ]
 }
