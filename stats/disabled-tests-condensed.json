@@ -883,13 +883,6 @@
       "inductor"
     ]
   ],
-  "test_comprehensive_nn_functional_adaptive_avg_pool2d_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
-    "131080",
-    "https://github.com/pytorch/pytorch/issues/131080",
-    [
-      "linux"
-    ]
-  ],
   "test_comprehensive_nn_functional_binary_cross_entropy_with_logits_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
     "140313",
     "https://github.com/pytorch/pytorch/issues/140313",
@@ -1167,7 +1160,8 @@
     "125151",
     "https://github.com/pytorch/pytorch/issues/125151",
     [
-      "inductor"
+      "inductor",
+      "rocm"
     ]
   ],
   "test_comprehensive_special_hermite_polynomial_h_cuda_int32 (__main__.TestInductorOpInfoCUDA)": [
@@ -1695,13 +1689,6 @@
       "linux"
     ]
   ],
-  "test_file_reader_no_memory_leak (__main__.TestScript)": [
-    "138885",
-    "https://github.com/pytorch/pytorch/issues/138885",
-    [
-      "linux"
-    ]
-  ],
   "test_find_or_create_pg (__main__.TestPgTag)": [
     "107278",
     "https://github.com/pytorch/pytorch/issues/107278",
@@ -1916,15 +1903,6 @@
       "slow"
     ]
   ],
-  "test_ind_worker_queue (__main__.TestIndividualWorkerQueue)": [
-    "68643",
-    "https://github.com/pytorch/pytorch/issues/68643",
-    [
-      "macos",
-      "linux",
-      "win"
-    ]
-  ],
   "test_index_add_correctness (__main__.TestTorch)": [
     "91184",
     "https://github.com/pytorch/pytorch/issues/91184",
@@ -2120,6 +2098,13 @@
     "https://github.com/pytorch/pytorch/issues/139139",
     [
       "linux"
+    ]
+  ],
+  "test_matmul_offline_mgpu_tunableop_cuda_float32 (__main__.TestLinalgCUDA)": [
+    "141652",
+    "https://github.com/pytorch/pytorch/issues/141652",
+    [
+      "rocm"
     ]
   ],
   "test_matmul_offline_tunableop_cuda_float16 (__main__.TestLinalgCUDA)": [
@@ -2464,6 +2449,15 @@
       "windows",
       "mac",
       "macos"
+    ]
+  ],
+  "test_override_cpu_sum (__main__.TestPythonRegistration)": [
+    "142475",
+    "https://github.com/pytorch/pytorch/issues/142475",
+    [
+      "asan",
+      "linux",
+      "rocm"
     ]
   ],
   "test_pattern_matcher_multi_user_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
@@ -3517,13 +3511,6 @@
   "test_vmapvjpvjp_linalg_lu_factor_cuda_float32 (__main__.TestOperatorsCUDA)": [
     "113850",
     "https://github.com/pytorch/pytorch/issues/113850",
-    [
-      "linux"
-    ]
-  ],
-  "test_vmapvjpvjp_linalg_lu_factor_ex_cuda_float32 (__main__.TestOperatorsCUDA)": [
-    "104737",
-    "https://github.com/pytorch/pytorch/issues/104737",
     [
       "linux"
     ]
