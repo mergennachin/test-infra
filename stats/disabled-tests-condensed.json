@@ -2426,16 +2426,6 @@
       "linux"
     ]
   ],
-  "test_out_of_order_index_ds (__main__.TestOutOfOrderDataLoader)": [
-    "142343",
-    "https://github.com/pytorch/pytorch/issues/142343",
-    [
-      "linux",
-      "rocm",
-      "win",
-      "windows"
-    ]
-  ],
   "test_output_match_nn_functional_poisson_nll_loss_cpu_int32 (__main__.TORCH_NN_MODULECPU)": [
     "122389",
     "https://github.com/pytorch/pytorch/issues/122389",
