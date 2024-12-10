@@ -1767,6 +1767,13 @@
       "dynamo"
     ]
   ],
+  "test_fsdp_unsupported_module_cls (__main__.TestFSDPMiscMultiThread)": [
+    "137948",
+    "https://github.com/pytorch/pytorch/issues/137948",
+    [
+      "linux"
+    ]
+  ],
   "test_full_dtype (__main__.TestFull)": [
     "138574",
     "https://github.com/pytorch/pytorch/issues/138574",
@@ -2426,6 +2433,18 @@
       "linux"
     ]
   ],
+  "test_out_of_order_index_ds (__main__.TestOutOfOrderDataLoader)": [
+    "142343",
+    "https://github.com/pytorch/pytorch/issues/142343",
+    [
+      "linux",
+      "rocm",
+      "win",
+      "windows",
+      "mac",
+      "macos"
+    ]
+  ],
   "test_output_match_nn_functional_poisson_nll_loss_cpu_int32 (__main__.TORCH_NN_MODULECPU)": [
     "122389",
     "https://github.com/pytorch/pytorch/issues/122389",
@@ -2442,7 +2461,9 @@
       "rocm",
       "slow",
       "win",
-      "windows"
+      "windows",
+      "mac",
+      "macos"
     ]
   ],
   "test_pattern_matcher_multi_user_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
@@ -2895,6 +2916,14 @@
     "https://github.com/pytorch/pytorch/issues/115540",
     [
       "rocm"
+    ]
+  ],
+  "test_simple (__main__.TestNumericDebugger)": [
+    "142470",
+    "https://github.com/pytorch/pytorch/issues/142470",
+    [
+      "mac",
+      "macos"
     ]
   ],
   "test_single_linear (quantization.jit.test_quantize_jit.TestQuantizeJit)": [
@@ -3530,7 +3559,9 @@
       "asan",
       "linux",
       "rocm",
-      "slow"
+      "slow",
+      "mac",
+      "macos"
     ]
   ],
   "test_wrapper_subclass_aliasing_conv2d_cpu (__main__.TestWrapperSubclassAliasingCPU)": [
