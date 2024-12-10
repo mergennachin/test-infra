@@ -2443,6 +2443,18 @@
       "linux"
     ]
   ],
+  "test_override_aten_ops_with_multiple_libraries (__main__.TestPythonRegistration)": [
+    "142460",
+    "https://github.com/pytorch/pytorch/issues/142460",
+    [
+      "asan",
+      "linux",
+      "rocm",
+      "slow",
+      "win",
+      "windows"
+    ]
+  ],
   "test_pattern_matcher_multi_user_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
     "134433",
     "https://github.com/pytorch/pytorch/issues/134433",
@@ -2752,6 +2764,13 @@
     [
       "inductor",
       "rocm"
+    ]
+  ],
+  "test_scatter_uneven (__main__.DeviceMeshCollectiveTest)": [
+    "96282",
+    "https://github.com/pytorch/pytorch/issues/96282",
+    [
+      "linux"
     ]
   ],
   "test_schema_correctness_nn_functional_conv3d_cuda_complex64 (__main__.TestSchemaCheckModeOpInfoCUDA)": [
