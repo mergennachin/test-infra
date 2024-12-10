@@ -2466,11 +2466,12 @@
     [
       "asan",
       "linux",
-      "rocm",
       "mac",
       "macos",
+      "rocm",
       "win",
-      "windows"
+      "windows",
+      "slow"
     ]
   ],
   "test_override_cuda_with_jiterator (__main__.TestPythonRegistration)": [
