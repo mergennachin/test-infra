@@ -1970,13 +1970,6 @@
       "linux"
     ]
   ],
-  "test_init_process_group (__main__.DeviceMeshTest)": [
-    "142361",
-    "https://github.com/pytorch/pytorch/issues/142361",
-    [
-      "rocm"
-    ]
-  ],
   "test_inplace_custom_op (__main__.InplacingTests)": [
     "135327",
     "https://github.com/pytorch/pytorch/issues/135327",
