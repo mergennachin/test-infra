@@ -158,6 +158,13 @@
     "https://github.com/pytorch/pytorch/issues/106440",
     []
   ],
+  "test_arange_dynamic_cuda (__main__.TestInductorDynamicCUDA)": [
+    "127067",
+    "https://github.com/pytorch/pytorch/issues/127067",
+    [
+      "rocm"
+    ]
+  ],
   "test_assigning_back_deleter_fns_to_tensor (__main__.TestBlockStateAbsorption)": [
     "134810",
     "https://github.com/pytorch/pytorch/issues/134810",
@@ -4043,7 +4050,9 @@
       "rocm",
       "slow",
       "win",
-      "windows"
+      "windows",
+      "mac",
+      "macos"
     ]
   ],
   "test_register_functional_op_no_returns (__main__.TestPythonRegistration)": [
