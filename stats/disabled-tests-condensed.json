@@ -4041,7 +4041,19 @@
       "asan",
       "linux",
       "rocm",
-      "slow"
+      "slow",
+      "win",
+      "windows"
+    ]
+  ],
+  "test_register_functional_op_no_returns (__main__.TestPythonRegistration)": [
+    "117834",
+    "https://github.com/pytorch/pytorch/issues/117834",
+    [
+      "dynamo",
+      "asan",
+      "linux",
+      "rocm"
     ]
   ],
   "test_relu_cuda_dynamic_shapes_cuda_wrapper (__main__.DynamicShapesCudaWrapperCudaTests)": [
