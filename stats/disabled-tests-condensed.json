@@ -13,6 +13,13 @@
       "rocm"
     ]
   ],
+  "test_add_loggers_linear_mod_fp32_quant (__main__.TestFXNumericSuiteNShadows)": [
+    "142860",
+    "https://github.com/pytorch/pytorch/issues/142860",
+    [
+      "dynamo"
+    ]
+  ],
   "test_add_loggers_linear_mod_quant_quant (__main__.TestFXNumericSuiteNShadows)": [
     "142172",
     "https://github.com/pytorch/pytorch/issues/142172",
@@ -468,14 +475,6 @@
     "140050",
     "https://github.com/pytorch/pytorch/issues/140050",
     [
-      "inductor"
-    ]
-  ],
-  "test_comprehensive__unsafe_masked_index_cuda_bool (__main__.TestInductorOpInfoCUDA)": [
-    "131748",
-    "https://github.com/pytorch/pytorch/issues/131748",
-    [
-      "rocm",
       "inductor"
     ]
   ],
@@ -4058,6 +4057,18 @@
   "test_register_functional_op_no_returns (__main__.TestPythonRegistration)": [
     "117834",
     "https://github.com/pytorch/pytorch/issues/117834",
+    [
+      "asan",
+      "dynamo",
+      "linux",
+      "rocm",
+      "win",
+      "windows"
+    ]
+  ],
+  "test_register_functional_op_one_return (__main__.TestPythonRegistration)": [
+    "117816",
+    "https://github.com/pytorch/pytorch/issues/117816",
     [
       "dynamo",
       "asan",
