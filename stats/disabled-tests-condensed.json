@@ -1799,6 +1799,14 @@
       "rocm"
     ]
   ],
+  "test_flip_cpu (__main__.CpuTests)": [
+    "142863",
+    "https://github.com/pytorch/pytorch/issues/142863",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_fn_grad_grid_sampler_2d_cuda_float64 (__main__.TestBwdGradientsCUDA)": [
     "131079",
     "https://github.com/pytorch/pytorch/issues/131079",
@@ -4070,10 +4078,11 @@
     "117816",
     "https://github.com/pytorch/pytorch/issues/117816",
     [
-      "dynamo",
       "asan",
+      "dynamo",
       "linux",
-      "rocm"
+      "rocm",
+      "slow"
     ]
   ],
   "test_relu_cuda_dynamic_shapes_cuda_wrapper (__main__.DynamicShapesCudaWrapperCudaTests)": [
