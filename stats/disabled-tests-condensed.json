@@ -1515,13 +1515,6 @@
       "dynamo"
     ]
   ],
-  "test_deepcopy_after_parametrization_swap_True (__main__.TestNNParametrization)": [
-    "127738",
-    "https://github.com/pytorch/pytorch/issues/127738",
-    [
-      "dynamo"
-    ]
-  ],
   "test_device_mode_ops_sparse_mm_reduce_cpu_bfloat16 (__main__.TestDeviceUtilsCPU)": [
     "132494",
     "https://github.com/pytorch/pytorch/issues/132494",
@@ -4249,13 +4242,6 @@
     "https://github.com/pytorch/pytorch/issues/134991",
     [
       "linux"
-    ]
-  ],
-  "test_serialization_parametrization_swap_True (__main__.TestNNParametrization)": [
-    "127755",
-    "https://github.com/pytorch/pytorch/issues/127755",
-    [
-      "dynamo"
     ]
   ],
   "test_serialize_export_invoke_subgraph_simple_cuda_float32 (__main__.TestHOPCUDA)": [
