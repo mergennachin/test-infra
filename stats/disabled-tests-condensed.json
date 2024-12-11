@@ -4040,7 +4040,8 @@
     [
       "asan",
       "linux",
-      "rocm"
+      "rocm",
+      "slow"
     ]
   ],
   "test_relu_cuda_dynamic_shapes_cuda_wrapper (__main__.DynamicShapesCudaWrapperCudaTests)": [
@@ -4128,6 +4129,13 @@
   "test_scaled_dot_product_attention_cuda_dynamic_shapes_cuda_wrapper (__main__.DynamicShapesCudaWrapperCudaTests)": [
     "134931",
     "https://github.com/pytorch/pytorch/issues/134931",
+    [
+      "linux"
+    ]
+  ],
+  "test_scatter_1d (__main__.DeviceMeshCollectiveTest)": [
+    "98059",
+    "https://github.com/pytorch/pytorch/issues/98059",
     [
       "linux"
     ]
