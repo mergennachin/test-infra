@@ -506,27 +506,6 @@
       "inductor"
     ]
   ],
-  "test_comprehensive_as_strided_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
-    "139992",
-    "https://github.com/pytorch/pytorch/issues/139992",
-    [
-      "inductor"
-    ]
-  ],
-  "test_comprehensive_atleast_1d_cuda_bool (__main__.TestInductorOpInfoCUDA)": [
-    "140654",
-    "https://github.com/pytorch/pytorch/issues/140654",
-    [
-      "inductor"
-    ]
-  ],
-  "test_comprehensive_bmm_cpu_float64 (__main__.TestInductorOpInfoCPU)": [
-    "140336",
-    "https://github.com/pytorch/pytorch/issues/140336",
-    [
-      "linux"
-    ]
-  ],
   "test_comprehensive_cdouble_cuda_bool (__main__.TestInductorOpInfoCUDA)": [
     "141750",
     "https://github.com/pytorch/pytorch/issues/141750",
@@ -538,13 +517,6 @@
   "test_comprehensive_complex_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
     "140367",
     "https://github.com/pytorch/pytorch/issues/140367",
-    [
-      "inductor"
-    ]
-  ],
-  "test_comprehensive_cos_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
-    "140643",
-    "https://github.com/pytorch/pytorch/issues/140643",
     [
       "inductor"
     ]
@@ -577,13 +549,6 @@
       "inductor"
     ]
   ],
-  "test_comprehensive_eq_cpu_float32 (__main__.TestInductorOpInfoCPU)": [
-    "140501",
-    "https://github.com/pytorch/pytorch/issues/140501",
-    [
-      "inductor"
-    ]
-  ],
   "test_comprehensive_fft_fft_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
     "122715",
     "https://github.com/pytorch/pytorch/issues/122715",
@@ -607,27 +572,6 @@
       "inductor"
     ]
   ],
-  "test_comprehensive_fft_ifftn_cpu_float64 (__main__.TestInductorOpInfoCPU)": [
-    "140337",
-    "https://github.com/pytorch/pytorch/issues/140337",
-    [
-      "inductor"
-    ]
-  ],
-  "test_comprehensive_int_cpu_float16 (__main__.TestInductorOpInfoCPU)": [
-    "140338",
-    "https://github.com/pytorch/pytorch/issues/140338",
-    [
-      "inductor"
-    ]
-  ],
-  "test_comprehensive_isreal_cpu_float16 (__main__.TestInductorOpInfoCPU)": [
-    "139983",
-    "https://github.com/pytorch/pytorch/issues/139983",
-    [
-      "inductor"
-    ]
-  ],
   "test_comprehensive_linalg_ldl_factor_ex_cuda (__main__.TestDecompCUDA)": [
     "76962",
     "https://github.com/pytorch/pytorch/issues/76962",
@@ -638,13 +582,6 @@
   "test_comprehensive_linalg_lu_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
     "137684",
     "https://github.com/pytorch/pytorch/issues/137684",
-    [
-      "inductor"
-    ]
-  ],
-  "test_comprehensive_linalg_qr_cpu_float64 (__main__.TestInductorOpInfoCPU)": [
-    "140644",
-    "https://github.com/pytorch/pytorch/issues/140644",
     [
       "inductor"
     ]
@@ -661,21 +598,6 @@
     "https://github.com/pytorch/pytorch/issues/140584",
     [
       "inductor"
-    ]
-  ],
-  "test_comprehensive_nn_functional_conv2d_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
-    "140532",
-    "https://github.com/pytorch/pytorch/issues/140532",
-    [
-      "inductor"
-    ]
-  ],
-  "test_comprehensive_nn_functional_fractional_max_pool3d_cpu_float32 (__main__.TestInductorOpInfoCPU)": [
-    "140316",
-    "https://github.com/pytorch/pytorch/issues/140316",
-    [
-      "inductor",
-      "linux"
     ]
   ],
   "test_comprehensive_nn_functional_glu_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
@@ -719,20 +641,6 @@
       "linux"
     ]
   ],
-  "test_comprehensive_polygamma_polygamma_n_0_cpu_bool (__main__.TestInductorOpInfoCPU)": [
-    "140075",
-    "https://github.com/pytorch/pytorch/issues/140075",
-    [
-      "inductor"
-    ]
-  ],
-  "test_comprehensive_roll_cpu_bool (__main__.TestInductorOpInfoCPU)": [
-    "140335",
-    "https://github.com/pytorch/pytorch/issues/140335",
-    [
-      "inductor"
-    ]
-  ],
   "test_comprehensive_rsub_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
     "140503",
     "https://github.com/pytorch/pytorch/issues/140503",
@@ -746,20 +654,6 @@
     [
       "inductor",
       "rocm"
-    ]
-  ],
-  "test_comprehensive_split_with_sizes_cpu_float16 (__main__.TestInductorOpInfoCPU)": [
-    "140099",
-    "https://github.com/pytorch/pytorch/issues/140099",
-    [
-      "inductor"
-    ]
-  ],
-  "test_comprehensive_tensordot_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
-    "140177",
-    "https://github.com/pytorch/pytorch/issues/140177",
-    [
-      "inductor"
     ]
   ],
   "test_constant_abi_compatible_cuda (__main__.AOTInductorTestABICompatibleCuda)": [
