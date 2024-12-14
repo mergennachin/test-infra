@@ -31,6 +31,14 @@
     "linux-focal-rocm6.2-py3.10",
     "test"
   ],
+  "slow / linux-focal-rocm6.2-py3.10 / test (slow)": [
+    "huydhn",
+    "143246",
+    "https://github.com/pytorch/pytorch/issues/143246",
+    "slow",
+    "linux-focal-rocm6.2-py3.10",
+    "test (slow)"
+  ],
   "trunk / linux-focal-rocm6.2-py3.10 / test": [
     "huydhn",
     "143230",
