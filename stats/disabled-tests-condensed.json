@@ -819,20 +819,6 @@
       "rocm"
     ]
   ],
-  "test_custom_op_all_inputs_abi_compatible_cpu_with_stack_allocation (__main__.AOTInductorTestABICompatibleCpuWithStackAllocation)": [
-    "134793",
-    "https://github.com/pytorch/pytorch/issues/134793",
-    [
-      "linux"
-    ]
-  ],
-  "test_custom_op_all_inputs_cpu_with_stack_allocation (__main__.AOTInductorTestABICompatibleCpuWithStackAllocation)": [
-    "138955",
-    "https://github.com/pytorch/pytorch/issues/138955",
-    [
-      "linux"
-    ]
-  ],
   "test_ddp_has_finalized (__main__.TestDistBackendWithSpawn)": [
     "102751",
     "https://github.com/pytorch/pytorch/issues/102751",
