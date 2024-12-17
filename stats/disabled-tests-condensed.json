@@ -952,6 +952,13 @@
       "linux"
     ]
   ],
+  "test_disable_external_correlation (__main__.TestProfiler)": [
+    "143373",
+    "https://github.com/pytorch/pytorch/issues/143373",
+    [
+      "rocm"
+    ]
+  ],
   "test_distributed_checkpoint_state_dict_type0 (__main__.TestDistributedCheckpoint)": [
     "113937",
     "https://github.com/pytorch/pytorch/issues/113937",
@@ -4256,6 +4263,15 @@
     "https://github.com/pytorch/pytorch/issues/134991",
     [
       "linux"
+    ]
+  ],
+  "test_serialize_export_invoke_subgraph_simple_cuda_float32 (__main__.TestHOPCUDA)": [
+    "138706",
+    "https://github.com/pytorch/pytorch/issues/138706",
+    [
+      "linux",
+      "slow",
+      "rocm"
     ]
   ],
   "test_serialized_patterns_up_to_date (__main__.TestPatternMatcher)": [
