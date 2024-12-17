@@ -13,13 +13,6 @@
       "rocm"
     ]
   ],
-  "test_add_loggers_linear_mod_fp32_quant (__main__.TestFXNumericSuiteNShadows)": [
-    "142860",
-    "https://github.com/pytorch/pytorch/issues/142860",
-    [
-      "dynamo"
-    ]
-  ],
   "test_add_loggers_linear_mod_quant_quant (__main__.TestFXNumericSuiteNShadows)": [
     "142172",
     "https://github.com/pytorch/pytorch/issues/142172",
@@ -114,15 +107,6 @@
     [
       "linux",
       "slow"
-    ]
-  ],
-  "test_aot_export_invoke_subgraph_simple_cuda_float32 (__main__.TestHOPCUDA)": [
-    "138707",
-    "https://github.com/pytorch/pytorch/issues/138707",
-    [
-      "linux",
-      "slow",
-      "rocm"
     ]
   ],
   "test_aot_export_scan_simple_cuda_float32 (__main__.TestHOPCUDA)": [
