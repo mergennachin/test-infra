@@ -1424,17 +1424,6 @@
       "rocm"
     ]
   ],
-  "test_matmul_offline_tunableop_cuda_float16 (__main__.TestLinalgCUDA)": [
-    "137936",
-    "https://github.com/pytorch/pytorch/issues/137936",
-    [
-      "linux",
-      "rocm",
-      "slow",
-      "win",
-      "windows"
-    ]
-  ],
   "test_max_split_expandable (__main__.TestCudaMallocAsync)": [
     "134837",
     "https://github.com/pytorch/pytorch/issues/134837",
