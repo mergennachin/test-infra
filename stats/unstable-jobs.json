@@ -6,13 +6,5 @@
     "Lint",
     "workflow-checks",
     "linux-job"
-  ],
-  "inductor-rocm / rocm6.1-py3.8-inductor / test (inductor)": [
-    "atalman",
-    "131823",
-    "https://github.com/pytorch/pytorch/issues/131823",
-    "inductor-rocm",
-    "rocm6.1-py3.8-inductor",
-    "test (inductor)"
   ]
 }
