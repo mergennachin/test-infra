@@ -1725,15 +1725,6 @@
       "slow"
     ]
   ],
-  "test_op_has_batch_rule___rdiv___cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
-    "143019",
-    "https://github.com/pytorch/pytorch/issues/143019",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_op_has_batch_rule___rmod___cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "142539",
     "https://github.com/pytorch/pytorch/issues/142539",
@@ -1872,14 +1863,6 @@
       "slow"
     ]
   ],
-  "test_op_has_batch_rule_asinh_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
-    "143022",
-    "https://github.com/pytorch/pytorch/issues/143022",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_op_has_batch_rule_atan2_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "142746",
     "https://github.com/pytorch/pytorch/issues/142746",
@@ -1939,14 +1922,6 @@
   "test_op_has_batch_rule_byte_functorch_no_channels_last_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "142549",
     "https://github.com/pytorch/pytorch/issues/142549",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
-  "test_op_has_batch_rule_cartesian_prod_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
-    "143034",
-    "https://github.com/pytorch/pytorch/issues/143034",
     [
       "linux",
       "slow"
@@ -2056,14 +2031,6 @@
       "slow"
     ]
   ],
-  "test_op_has_batch_rule_cross_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
-    "143013",
-    "https://github.com/pytorch/pytorch/issues/143013",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_op_has_batch_rule_deg2rad_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "142806",
     "https://github.com/pytorch/pytorch/issues/142806",
@@ -2128,14 +2095,6 @@
       "slow"
     ]
   ],
-  "test_op_has_batch_rule_erfc_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
-    "143023",
-    "https://github.com/pytorch/pytorch/issues/143023",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_op_has_batch_rule_expm1_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "142659",
     "https://github.com/pytorch/pytorch/issues/142659",
@@ -2147,14 +2106,6 @@
   "test_op_has_batch_rule_fft_fft2_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "142780",
     "https://github.com/pytorch/pytorch/issues/142780",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
-  "test_op_has_batch_rule_fft_fft_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
-    "143012",
-    "https://github.com/pytorch/pytorch/issues/143012",
     [
       "linux",
       "slow"
@@ -2232,14 +2183,6 @@
       "slow"
     ]
   ],
-  "test_op_has_batch_rule_fmax_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
-    "143031",
-    "https://github.com/pytorch/pytorch/issues/143031",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_op_has_batch_rule_gcd_cuda_int64 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "142628",
     "https://github.com/pytorch/pytorch/issues/142628",
@@ -2251,14 +2194,6 @@
   "test_op_has_batch_rule_geqrf_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "142694",
     "https://github.com/pytorch/pytorch/issues/142694",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
-  "test_op_has_batch_rule_gradient_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
-    "143015",
-    "https://github.com/pytorch/pytorch/issues/143015",
     [
       "linux",
       "slow"
@@ -2392,14 +2327,6 @@
       "slow"
     ]
   ],
-  "test_op_has_batch_rule_linalg_cholesky_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
-    "143032",
-    "https://github.com/pytorch/pytorch/issues/143032",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_op_has_batch_rule_linalg_lu_factor_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "142526",
     "https://github.com/pytorch/pytorch/issues/142526",
@@ -2464,14 +2391,6 @@
       "slow"
     ]
   ],
-  "test_op_has_batch_rule_log1p_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
-    "143024",
-    "https://github.com/pytorch/pytorch/issues/143024",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_op_has_batch_rule_logaddexp_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "142681",
     "https://github.com/pytorch/pytorch/issues/142681",
@@ -2515,14 +2434,6 @@
   "test_op_has_batch_rule_logspace_tensor_overload_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "142573",
     "https://github.com/pytorch/pytorch/issues/142573",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
-  "test_op_has_batch_rule_logsumexp_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
-    "143020",
-    "https://github.com/pytorch/pytorch/issues/143020",
     [
       "linux",
       "slow"
@@ -2763,14 +2674,6 @@
   "test_op_has_batch_rule_nn_functional_binary_cross_entropy_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "142729",
     "https://github.com/pytorch/pytorch/issues/142729",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
-  "test_op_has_batch_rule_nn_functional_binary_cross_entropy_with_logits_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
-    "143016",
-    "https://github.com/pytorch/pytorch/issues/143016",
     [
       "linux",
       "slow"
@@ -3032,14 +2935,6 @@
       "slow"
     ]
   ],
-  "test_op_has_batch_rule_nn_functional_softmin_with_dtype_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
-    "143035",
-    "https://github.com/pytorch/pytorch/issues/143035",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_op_has_batch_rule_nn_functional_softplus_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "142712",
     "https://github.com/pytorch/pytorch/issues/142712",
@@ -3059,14 +2954,6 @@
   "test_op_has_batch_rule_nn_functional_triplet_margin_with_distance_loss_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "142713",
     "https://github.com/pytorch/pytorch/issues/142713",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
-  "test_op_has_batch_rule_nn_functional_unfold_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
-    "143033",
-    "https://github.com/pytorch/pytorch/issues/143033",
     [
       "linux",
       "slow"
@@ -4912,14 +4799,6 @@
       "slow"
     ]
   ],
-  "test_vmap_exhaustive_bitwise_left_shift_cuda_int64 (__main__.TestVmapOperatorsOpInfoCUDA)": [
-    "143021",
-    "https://github.com/pytorch/pytorch/issues/143021",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_vmap_exhaustive_bitwise_or_cuda_int64 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "142648",
     "https://github.com/pytorch/pytorch/issues/142648",
@@ -4984,14 +4863,6 @@
       "slow"
     ]
   ],
-  "test_vmap_exhaustive_cholesky_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
-    "143027",
-    "https://github.com/pytorch/pytorch/issues/143027",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_vmap_exhaustive_column_stack_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "142699",
     "https://github.com/pytorch/pytorch/issues/142699",
@@ -5032,14 +4903,6 @@
       "slow"
     ]
   ],
-  "test_vmap_exhaustive_corrcoef_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
-    "143029",
-    "https://github.com/pytorch/pytorch/issues/143029",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_vmap_exhaustive_cos_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "142754",
     "https://github.com/pytorch/pytorch/issues/142754",
@@ -5075,14 +4938,6 @@
   "test_vmap_exhaustive_div_floor_rounding_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "142716",
     "https://github.com/pytorch/pytorch/issues/142716",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
-  "test_vmap_exhaustive_div_no_rounding_mode_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
-    "143014",
-    "https://github.com/pytorch/pytorch/issues/143014",
     [
       "linux",
       "slow"
@@ -5304,14 +5159,6 @@
       "slow"
     ]
   ],
-  "test_vmap_exhaustive_isnan_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
-    "142894",
-    "https://github.com/pytorch/pytorch/issues/142894",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_vmap_exhaustive_lcm_cuda_int64 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "142619",
     "https://github.com/pytorch/pytorch/issues/142619",
@@ -5376,14 +5223,6 @@
       "slow"
     ]
   ],
-  "test_vmap_exhaustive_log1p_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
-    "143017",
-    "https://github.com/pytorch/pytorch/issues/143017",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_vmap_exhaustive_logaddexp_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "142595",
     "https://github.com/pytorch/pytorch/issues/142595",
@@ -5435,14 +5274,6 @@
   "test_vmap_exhaustive_lu_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "142787",
     "https://github.com/pytorch/pytorch/issues/142787",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
-  "test_vmap_exhaustive_lu_solve_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
-    "143028",
-    "https://github.com/pytorch/pytorch/issues/143028",
     [
       "linux",
       "slow"
@@ -5752,14 +5583,6 @@
       "slow"
     ]
   ],
-  "test_vmap_exhaustive_nn_functional_relu6_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
-    "143030",
-    "https://github.com/pytorch/pytorch/issues/143030",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_vmap_exhaustive_nn_functional_selu_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "142756",
     "https://github.com/pytorch/pytorch/issues/142756",
@@ -5827,14 +5650,6 @@
   "test_vmap_exhaustive_ones_like_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "142728",
     "https://github.com/pytorch/pytorch/issues/142728",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
-  "test_vmap_exhaustive_ops_aten__new_zeros_with_same_feature_meta_functorchonly_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
-    "142912",
-    "https://github.com/pytorch/pytorch/issues/142912",
     [
       "linux",
       "slow"
@@ -6057,25 +5872,9 @@
       "slow"
     ]
   ],
-  "test_vmap_exhaustive_special_modified_bessel_i0_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
-    "143025",
-    "https://github.com/pytorch/pytorch/issues/143025",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_vmap_exhaustive_special_xlog1py_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "142724",
     "https://github.com/pytorch/pytorch/issues/142724",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
-  "test_vmap_exhaustive_special_zeta_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
-    "143018",
-    "https://github.com/pytorch/pytorch/issues/143018",
     [
       "linux",
       "slow"
