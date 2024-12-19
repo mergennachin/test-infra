@@ -1417,13 +1417,6 @@
       "linux"
     ]
   ],
-  "test_matmul_offline_mgpu_tunableop_cuda_float32 (__main__.TestLinalgCUDA)": [
-    "141652",
-    "https://github.com/pytorch/pytorch/issues/141652",
-    [
-      "rocm"
-    ]
-  ],
   "test_max_split_expandable (__main__.TestCudaMallocAsync)": [
     "134837",
     "https://github.com/pytorch/pytorch/issues/134837",
