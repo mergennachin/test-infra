@@ -1,10 +1,1 @@
-{
-  "Lint / workflow-checks / linux-job": [
-    "jeanschmidt",
-    "142485",
-    "https://github.com/pytorch/pytorch/issues/142485",
-    "Lint",
-    "workflow-checks",
-    "linux-job"
-  ]
-}
+{}
