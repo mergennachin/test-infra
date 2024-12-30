@@ -2259,6 +2259,13 @@
       "linux"
     ]
   ],
+  "test_setting_meta_device_model_broadcasting_and_memory (__main__.TestStateDict)": [
+    "143994",
+    "https://github.com/pytorch/pytorch/issues/143994",
+    [
+      "rocm"
+    ]
+  ],
   "test_shufflenet_v2 (__main__.TORCH_NN_MODULE)": [
     "123295",
     "https://github.com/pytorch/pytorch/issues/123295",
