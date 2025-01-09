@@ -1897,14 +1897,6 @@
       "macos"
     ]
   ],
-  "test_qs8_conv1d_batchnorm_seq (__main__.TestConv1d)": [
-    "144466",
-    "https://github.com/pytorch/pytorch/issues/144466",
-    [
-      "linux",
-      "executorch"
-    ]
-  ],
   "test_rand (test_jit.TestScript)": [
     "91495",
     "https://github.com/pytorch/pytorch/issues/91495",
@@ -2242,6 +2234,15 @@
     "https://github.com/pytorch/pytorch/issues/134991",
     [
       "linux"
+    ]
+  ],
+  "test_serialize_export_invoke_subgraph_simple_cuda_float32 (__main__.TestHOPCUDA)": [
+    "138706",
+    "https://github.com/pytorch/pytorch/issues/138706",
+    [
+      "linux",
+      "slow",
+      "rocm"
     ]
   ],
   "test_serialized_patterns_up_to_date (__main__.TestPatternMatcher)": [
