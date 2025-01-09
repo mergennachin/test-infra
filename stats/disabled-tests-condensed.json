@@ -2079,15 +2079,6 @@
       "linux"
     ]
   ],
-  "test_retrace_export_invoke_subgraph_simple_cuda_float32 (__main__.TestHOPCUDA)": [
-    "138705",
-    "https://github.com/pytorch/pytorch/issues/138705",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_ring_attention_native_transformer_is_causal_True (__main__.RingAttentionTest)": [
     "126380",
     "https://github.com/pytorch/pytorch/issues/126380",
@@ -2234,6 +2225,15 @@
     "https://github.com/pytorch/pytorch/issues/134991",
     [
       "linux"
+    ]
+  ],
+  "test_serialize_export_invoke_subgraph_simple_cuda_float32 (__main__.TestHOPCUDA)": [
+    "138706",
+    "https://github.com/pytorch/pytorch/issues/138706",
+    [
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_serialized_patterns_up_to_date (__main__.TestPatternMatcher)": [
