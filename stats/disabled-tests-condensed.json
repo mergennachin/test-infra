@@ -109,15 +109,6 @@
       "slow"
     ]
   ],
-  "test_aot_export_invoke_subgraph_simple_cuda_float32 (__main__.TestHOPCUDA)": [
-    "138707",
-    "https://github.com/pytorch/pytorch/issues/138707",
-    [
-      "linux",
-      "slow",
-      "rocm"
-    ]
-  ],
   "test_aot_export_scan_simple_cuda_float32 (__main__.TestHOPCUDA)": [
     "139075",
     "https://github.com/pytorch/pytorch/issues/139075",
@@ -2084,8 +2075,8 @@
     "https://github.com/pytorch/pytorch/issues/138705",
     [
       "linux",
-      "slow",
-      "rocm"
+      "rocm",
+      "slow"
     ]
   ],
   "test_ring_attention_native_transformer_is_causal_True (__main__.RingAttentionTest)": [
