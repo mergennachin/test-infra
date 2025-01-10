@@ -2075,8 +2075,8 @@
     "https://github.com/pytorch/pytorch/issues/138705",
     [
       "linux",
-      "rocm",
-      "slow"
+      "slow",
+      "rocm"
     ]
   ],
   "test_ring_attention_native_transformer_is_causal_True (__main__.RingAttentionTest)": [
@@ -2232,8 +2232,8 @@
     "https://github.com/pytorch/pytorch/issues/138706",
     [
       "linux",
-      "slow",
-      "rocm"
+      "rocm",
+      "slow"
     ]
   ],
   "test_serialized_patterns_up_to_date (__main__.TestPatternMatcher)": [
