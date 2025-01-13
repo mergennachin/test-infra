@@ -2455,6 +2455,13 @@
       "macos"
     ]
   ],
+  "test_tcp (__main__.WorkerServerTest)": [
+    "144689",
+    "https://github.com/pytorch/pytorch/issues/144689",
+    [
+      "rocm"
+    ]
+  ],
   "test_tensor_as_tensor_shape_prop (test_jit.TestScript)": [
     "91482",
     "https://github.com/pytorch/pytorch/issues/91482",
