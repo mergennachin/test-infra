@@ -1,10 +1,1 @@
-{
-  "pull / linux-jammy-py3-clang12-executorch / test (executorch)": [
-    "huydhn",
-    "144480",
-    "https://github.com/pytorch/pytorch/issues/144480",
-    "pull",
-    "linux-jammy-py3-clang12-executorch",
-    "test (executorch)"
-  ]
-}
+{}
