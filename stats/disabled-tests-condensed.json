@@ -122,6 +122,27 @@
     "https://github.com/pytorch/pytorch/issues/106440",
     []
   ],
+  "test_aoti_eager_cache_hit_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
+    "144919",
+    "https://github.com/pytorch/pytorch/issues/144919",
+    [
+      "rocm"
+    ]
+  ],
+  "test_aoti_eager_dtype_device_layout_dynamic_shapes_cuda (__main__.DynamicShapesCodegenGPUTests)": [
+    "144923",
+    "https://github.com/pytorch/pytorch/issues/144923",
+    [
+      "rocm"
+    ]
+  ],
+  "test_aoti_eager_support_str_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
+    "144921",
+    "https://github.com/pytorch/pytorch/issues/144921",
+    [
+      "rocm"
+    ]
+  ],
   "test_arange_dynamic_cuda (__main__.TestInductorDynamicCUDA)": [
     "127067",
     "https://github.com/pytorch/pytorch/issues/127067",
@@ -743,6 +764,13 @@
     [
       "linux",
       "rocm"
+    ]
+  ],
+  "test_distributed_checkpoint_state_dict_type1_cuda (__main__.TestDistributedCheckpointCUDA)": [
+    "144918",
+    "https://github.com/pytorch/pytorch/issues/144918",
+    [
+      "linux"
     ]
   ],
   "test_doc_examples (__main__.TestTypeHints)": [
@@ -1756,6 +1784,13 @@
       "mac"
     ]
   ],
+  "test_repeat_graph_capture_cublas_workspace_memory (__main__.TestCuda)": [
+    "144922",
+    "https://github.com/pytorch/pytorch/issues/144922",
+    [
+      "rocm"
+    ]
+  ],
   "test_requires_grad_loop (test_jit.TestScript)": [
     "91492",
     "https://github.com/pytorch/pytorch/issues/91492",
@@ -1768,6 +1803,17 @@
     "https://github.com/pytorch/pytorch/issues/122491",
     [
       "linux"
+    ]
+  ],
+  "test_returning_symint (__main__.TestPythonRegistration)": [
+    "144920",
+    "https://github.com/pytorch/pytorch/issues/144920",
+    [
+      "asan",
+      "linux",
+      "rocm",
+      "win",
+      "windows"
     ]
   ],
   "test_ring_attention_native_transformer_is_causal_True (__main__.RingAttentionTest)": [
@@ -1784,6 +1830,11 @@
       "mac",
       "macos"
     ]
+  ],
+  "test_save_load_checkpoint (__main__.DistributedDataParallelTest)": [
+    "137771",
+    "https://github.com/pytorch/pytorch/issues/137771",
+    []
   ],
   "test_scaled_dot_product_attention_cuda_cuda_wrapper (__main__.TestCudaWrapper)": [
     "115896",
