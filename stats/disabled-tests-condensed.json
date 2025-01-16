@@ -450,7 +450,11 @@
     "https://github.com/pytorch/pytorch/issues/144901",
     [
       "asan",
-      "linux"
+      "linux",
+      "mac",
+      "macos",
+      "win",
+      "windows"
     ]
   ],
   "test_compile_forward_select_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)": [
@@ -1802,7 +1806,9 @@
     "https://github.com/pytorch/pytorch/issues/144934",
     [
       "asan",
-      "linux"
+      "linux",
+      "mac",
+      "macos"
     ]
   ],
   "test_pynode_destruction_deadlock (__main__.TestAutogradWithCompiledAutograd)": [
@@ -2015,6 +2021,14 @@
   "test_run_decompositions_preserve_handle (__main__.TestNumericDebugger)": [
     "142805",
     "https://github.com/pytorch/pytorch/issues/142805",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
+  "test_run_decompositions_same_handle_id (__main__.TestNumericDebugger)": [
+    "144963",
+    "https://github.com/pytorch/pytorch/issues/144963",
     [
       "mac",
       "macos"
