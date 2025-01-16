@@ -148,6 +148,13 @@
       "rocm"
     ]
   ],
+  "test_aoti_eager_support_out_dynamic_shapes_cuda (__main__.DynamicShapesCodegenGPUTests)": [
+    "144947",
+    "https://github.com/pytorch/pytorch/issues/144947",
+    [
+      "rocm"
+    ]
+  ],
   "test_aoti_eager_support_str_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
     "144921",
     "https://github.com/pytorch/pytorch/issues/144921",
@@ -451,7 +458,8 @@
     "https://github.com/pytorch/pytorch/issues/144935",
     [
       "linux",
-      "rocm"
+      "rocm",
+      "slow"
     ]
   ],
   "test_complex_half_reference_testing_as_strided_scatter_cuda_complex32 (__main__.TestCommonCUDA)": [
@@ -593,6 +601,13 @@
     "https://github.com/pytorch/pytorch/issues/140503",
     [
       "inductor"
+    ]
+  ],
+  "test_config_option_dont_assume_alignment_cudagraphs_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
+    "144949",
+    "https://github.com/pytorch/pytorch/issues/144949",
+    [
+      "rocm"
     ]
   ],
   "test_constant_abi_compatible_cuda (__main__.AOTInductorTestABICompatibleCuda)": [
@@ -822,6 +837,13 @@
     "https://github.com/pytorch/pytorch/issues/98259",
     [
       "linux"
+    ]
+  ],
+  "test_dropout_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
+    "144948",
+    "https://github.com/pytorch/pytorch/issues/144948",
+    [
+      "rocm"
     ]
   ],
   "test_dtensor_mm (__main__.DistMatrixOpsTest)": [
@@ -1215,6 +1237,13 @@
     "https://github.com/pytorch/pytorch/issues/115859",
     [
       "rocm"
+    ]
+  ],
+  "test_is_isnot (__main__.TestScript)": [
+    "120694",
+    "https://github.com/pytorch/pytorch/issues/120694",
+    [
+      "dynamo"
     ]
   ],
   "test_item_to_inputs_kernel_nobreak_cuda (__main__.TestInductorDynamicCUDA)": [
@@ -2288,6 +2317,13 @@
   "test_tensor_as_tensor_shape_prop (test_jit.TestScript)": [
     "91482",
     "https://github.com/pytorch/pytorch/issues/91482",
+    [
+      "linux"
+    ]
+  ],
+  "test_tensor_dtype_complex (__main__.CommTest)": [
+    "112460",
+    "https://github.com/pytorch/pytorch/issues/112460",
     [
       "linux"
     ]
