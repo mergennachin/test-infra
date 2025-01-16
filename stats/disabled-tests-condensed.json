@@ -180,6 +180,13 @@
       "rocm"
     ]
   ],
+  "test_aoti_eager_support_str_dynamic_shapes_cuda (__main__.DynamicShapesCodegenGPUTests)": [
+    "145003",
+    "https://github.com/pytorch/pytorch/issues/145003",
+    [
+      "rocm"
+    ]
+  ],
   "test_aoti_eager_support_str_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
     "144921",
     "https://github.com/pytorch/pytorch/issues/144921",
@@ -696,6 +703,13 @@
       "rocm"
     ]
   ],
+  "test_cow_input_masked_argmin_cuda_float32 (__main__.TestCompositeComplianceCUDA)": [
+    "145005",
+    "https://github.com/pytorch/pytorch/issues/145005",
+    [
+      "rocm"
+    ]
+  ],
   "test_cpp_extension_recommends_custom_ops_dynamic_shapes (__main__.DynamicShapesMiscTests)": [
     "127813",
     "https://github.com/pytorch/pytorch/issues/127813",
@@ -846,6 +860,18 @@
   "test_device_mode_ops_sparse_mm_reduce_cpu_float32 (__main__.TestDeviceUtilsCPU)": [
     "132552",
     "https://github.com/pytorch/pytorch/issues/132552",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "win",
+      "windows"
+    ]
+  ],
+  "test_device_mode_ops_sparse_mm_reduce_cpu_float64 (__main__.TestDeviceUtilsCPU)": [
+    "132619",
+    "https://github.com/pytorch/pytorch/issues/132619",
     [
       "asan",
       "linux",
@@ -1390,6 +1416,13 @@
       "linux"
     ]
   ],
+  "test_list_clearing_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
+    "145004",
+    "https://github.com/pytorch/pytorch/issues/145004",
+    [
+      "rocm"
+    ]
+  ],
   "test_load_from_bias_head_seq_batch_float16 (__main__.TestFlexDecoding)": [
     "134144",
     "https://github.com/pytorch/pytorch/issues/134144",
@@ -1854,6 +1887,20 @@
       "rocm"
     ]
   ],
+  "test_profiler_mark_wrapper_call_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "135294",
+    "https://github.com/pytorch/pytorch/issues/135294",
+    [
+      "linux"
+    ]
+  ],
+  "test_profiler_mark_wrapper_call_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
+    "145002",
+    "https://github.com/pytorch/pytorch/issues/145002",
+    [
+      "rocm"
+    ]
+  ],
   "test_profiler_rpc_key_names (__main__.TensorPipeRpcTest)": [
     "125365",
     "https://github.com/pytorch/pytorch/issues/125365",
@@ -2013,6 +2060,20 @@
       "macos",
       "win",
       "windows"
+    ]
+  ],
+  "test_register_functional_op_multiple_returns (__main__.TestPythonRegistration)": [
+    "142807",
+    "https://github.com/pytorch/pytorch/issues/142807",
+    [
+      "asan",
+      "linux",
+      "rocm",
+      "slow",
+      "win",
+      "windows",
+      "mac",
+      "macos"
     ]
   ],
   "test_register_functional_op_with_optional (__main__.TestPythonRegistration)": [
