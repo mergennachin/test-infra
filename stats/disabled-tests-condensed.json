@@ -1070,6 +1070,13 @@
       "linux"
     ]
   ],
+  "test_file_reader_no_memory_leak (__main__.TestScript)": [
+    "138885",
+    "https://github.com/pytorch/pytorch/issues/138885",
+    [
+      "linux"
+    ]
+  ],
   "test_find_or_create_pg (__main__.TestPgTag)": [
     "107278",
     "https://github.com/pytorch/pytorch/issues/107278",
@@ -1614,6 +1621,14 @@
       "linux"
     ]
   ],
+  "test_mps_event_module (__main__.TestMPS)": [
+    "145052",
+    "https://github.com/pytorch/pytorch/issues/145052",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_nccl_errors_dump (__main__.NcclErrorDumpTest)": [
     "123530",
     "https://github.com/pytorch/pytorch/issues/123530",
@@ -1626,6 +1641,15 @@
     "https://github.com/pytorch/pytorch/issues/105120",
     [
       "rocm"
+    ]
+  ],
+  "test_nested_optimize_decorator (__main__.MiscTests)": [
+    "145053",
+    "https://github.com/pytorch/pytorch/issues/145053",
+    [
+      "linux",
+      "mac",
+      "macos"
     ]
   ],
   "test_new_spectral_norm_forward_swap_True (__main__.TestNNParametrization)": [
@@ -2111,6 +2135,21 @@
       "win",
       "windows",
       "slow"
+    ]
+  ],
+  "test_register_functional_op_one_return (__main__.TestPythonRegistration)": [
+    "117816",
+    "https://github.com/pytorch/pytorch/issues/117816",
+    [
+      "asan",
+      "dynamo",
+      "linux",
+      "rocm",
+      "slow",
+      "win",
+      "windows",
+      "mac",
+      "macos"
     ]
   ],
   "test_register_functional_op_with_optional (__main__.TestPythonRegistration)": [
