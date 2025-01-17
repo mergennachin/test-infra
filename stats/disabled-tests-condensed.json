@@ -1941,13 +1941,6 @@
       "rocm"
     ]
   ],
-  "test_profiler_mark_wrapper_call_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "135294",
-    "https://github.com/pytorch/pytorch/issues/135294",
-    [
-      "linux"
-    ]
-  ],
   "test_profiler_mark_wrapper_call_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
     "145002",
     "https://github.com/pytorch/pytorch/issues/145002",
