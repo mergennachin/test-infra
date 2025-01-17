@@ -274,6 +274,17 @@
       "linux"
     ]
   ],
+  "test_autograd_in_attr (__main__.TestPythonDispatch)": [
+    "145068",
+    "https://github.com/pytorch/pytorch/issues/145068",
+    [
+      "asan",
+      "linux",
+      "rocm",
+      "win",
+      "windows"
+    ]
+  ],
   "test_backward_ddp_inside (__main__.TensorPipeDdpUnderDistAutogradTest)": [
     "104328",
     "https://github.com/pytorch/pytorch/issues/104328",
@@ -2232,9 +2243,11 @@
       "asan",
       "linux",
       "rocm",
+      "slow",
       "win",
       "windows",
-      "slow"
+      "mac",
+      "macos"
     ]
   ],
   "test_ring_attention_native_transformer_is_causal_True (__main__.RingAttentionTest)": [
@@ -2503,6 +2516,13 @@
   "test_sparse_add_cuda_complex128 (__main__.TestSparseCSRCUDA)": [
     "86388",
     "https://github.com/pytorch/pytorch/issues/86388",
+    [
+      "rocm"
+    ]
+  ],
+  "test_sparse_add_cuda_complex64 (__main__.TestSparseCSRCUDA)": [
+    "145069",
+    "https://github.com/pytorch/pytorch/issues/145069",
     [
       "rocm"
     ]
