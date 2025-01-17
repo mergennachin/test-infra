@@ -224,47 +224,6 @@
       "rocm"
     ]
   ],
-  "test_autograd_cpp_node_data_dependent (__main__.TestCompiledAutograd)": [
-    "125579",
-    "https://github.com/pytorch/pytorch/issues/125579",
-    [
-      "linux",
-      "rocm"
-    ]
-  ],
-  "test_autograd_cpp_node_saved (__main__.TestCompiledAutograd)": [
-    "131103",
-    "https://github.com/pytorch/pytorch/issues/131103",
-    [
-      "mac",
-      "macos",
-      "linux"
-    ]
-  ],
-  "test_autograd_cpp_node_saved_dynamic (__main__.TestCompiledAutograd)": [
-    "135685",
-    "https://github.com/pytorch/pytorch/issues/135685",
-    [
-      "linux"
-    ]
-  ],
-  "test_autograd_cpp_node_saved_float (__main__.TestCompiledAutograd)": [
-    "133197",
-    "https://github.com/pytorch/pytorch/issues/133197",
-    [
-      "mac",
-      "macos",
-      "linux"
-    ]
-  ],
-  "test_autograd_cpp_node_saved_int (__main__.TestCompiledAutograd)": [
-    "133283",
-    "https://github.com/pytorch/pytorch/issues/133283",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_autograd_function_backed_op (__main__.TestCustomOpWithCompiledAutograd)": [
     "121342",
     "https://github.com/pytorch/pytorch/issues/121342",
@@ -1739,14 +1698,6 @@
     "https://github.com/pytorch/pytorch/issues/81732",
     [
       "linux"
-    ]
-  ],
-  "test_non_traceable_autograd_cpp_node (__main__.TestCompiledAutograd)": [
-    "134738",
-    "https://github.com/pytorch/pytorch/issues/134738",
-    [
-      "mac",
-      "macos"
     ]
   ],
   "test_nondeterministic_alert_histc_cuda (__main__.TestTorchDeviceTypeCUDA)": [
