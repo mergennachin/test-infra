@@ -314,6 +314,17 @@
       "mac"
     ]
   ],
+  "test_basic (__main__.TestPythonDispatch)": [
+    "145096",
+    "https://github.com/pytorch/pytorch/issues/145096",
+    [
+      "linux",
+      "rocm",
+      "slow",
+      "win",
+      "windows"
+    ]
+  ],
   "test_bitwise_cuda_cuda_wrapper (__main__.TestCudaWrapper)": [
     "121511",
     "https://github.com/pytorch/pytorch/issues/121511",
