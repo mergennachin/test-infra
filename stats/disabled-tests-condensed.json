@@ -448,15 +448,6 @@
       "windows"
     ]
   ],
-  "test_compile_forward_chunk_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)": [
-    "144900",
-    "https://github.com/pytorch/pytorch/issues/144900",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_compile_forward_clone_cpu_float32 (__main__.TestNestedTensorOpInfoCPU)": [
     "144936",
     "https://github.com/pytorch/pytorch/issues/144936",
@@ -996,6 +987,13 @@
       "linux"
     ]
   ],
+  "test_equivalent_template_code (__main__.BenchmarkMultiTemplateFusionCudaTest)": [
+    "145017",
+    "https://github.com/pytorch/pytorch/issues/145017",
+    [
+      "rocm"
+    ]
+  ],
   "test_execution_trace_with_kineto (__main__.TestExecutionTrace)": [
     "123536",
     "https://github.com/pytorch/pytorch/issues/123536",
@@ -1525,6 +1523,13 @@
   "test_merge_liveness (jit.test_freezing.TestMKLDNNReinplacing)": [
     "91481",
     "https://github.com/pytorch/pytorch/issues/91481",
+    [
+      "linux"
+    ]
+  ],
+  "test_metadata_consistency_check (__main__.DTensorMeshTest)": [
+    "131598",
+    "https://github.com/pytorch/pytorch/issues/131598",
     [
       "linux"
     ]
@@ -2419,6 +2424,13 @@
   "test_sparse_add_cuda_complex128 (__main__.TestSparseCSRCUDA)": [
     "86388",
     "https://github.com/pytorch/pytorch/issues/86388",
+    [
+      "rocm"
+    ]
+  ],
+  "test_sparse_add_cuda_float64 (__main__.TestSparseCSRCUDA)": [
+    "145019",
+    "https://github.com/pytorch/pytorch/issues/145019",
     [
       "rocm"
     ]
