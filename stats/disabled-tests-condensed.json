@@ -2138,21 +2138,6 @@
       "slow"
     ]
   ],
-  "test_register_functional_op_one_return (__main__.TestPythonRegistration)": [
-    "117816",
-    "https://github.com/pytorch/pytorch/issues/117816",
-    [
-      "asan",
-      "dynamo",
-      "linux",
-      "rocm",
-      "slow",
-      "win",
-      "windows",
-      "mac",
-      "macos"
-    ]
-  ],
   "test_register_functional_op_with_optional (__main__.TestPythonRegistration)": [
     "117871",
     "https://github.com/pytorch/pytorch/issues/117871",
