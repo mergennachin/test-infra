@@ -1136,13 +1136,6 @@
       "rocm"
     ]
   ],
-  "test_flex_attention (__main__.TestCompiledAutograd)": [
-    "144912",
-    "https://github.com/pytorch/pytorch/issues/144912",
-    [
-      "rocm"
-    ]
-  ],
   "test_flip_cpu (__main__.CpuTests)": [
     "142863",
     "https://github.com/pytorch/pytorch/issues/142863",
