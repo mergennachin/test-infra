@@ -970,6 +970,13 @@
       "linux"
     ]
   ],
+  "test_dtype_passthrough_dtype_complex128 (__main__.TestDLPack)": [
+    "145134",
+    "https://github.com/pytorch/pytorch/issues/145134",
+    [
+      "linux"
+    ]
+  ],
   "test_dtype_sympy_expr_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
     "135213",
     "https://github.com/pytorch/pytorch/issues/135213",
@@ -1359,6 +1366,13 @@
   "test_input_mutation2_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
     "135295",
     "https://github.com/pytorch/pytorch/issues/135295",
+    [
+      "linux"
+    ]
+  ],
+  "test_integers_t1_uint8_np_longlong (__main__.TestArrayFromScalar)": [
+    "145135",
+    "https://github.com/pytorch/pytorch/issues/145135",
     [
       "linux"
     ]
