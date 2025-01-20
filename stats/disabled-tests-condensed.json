@@ -159,6 +159,13 @@
     "https://github.com/pytorch/pytorch/issues/106440",
     []
   ],
+  "test_aoti (__main__.TestMemoryPlanning)": [
+    "145211",
+    "https://github.com/pytorch/pytorch/issues/145211",
+    [
+      "rocm"
+    ]
+  ],
   "test_aoti_eager_cache_hit_dynamic_shapes_cuda (__main__.DynamicShapesCodegenGPUTests)": [
     "145184",
     "https://github.com/pytorch/pytorch/issues/145184",
@@ -1502,6 +1509,13 @@
       "linux"
     ]
   ],
+  "test_matmul_triton_kernel_benchmark (__main__.TestKernelBenchmark)": [
+    "115002",
+    "https://github.com/pytorch/pytorch/issues/115002",
+    [
+      "rocm"
+    ]
+  ],
   "test_max_split_expandable (__main__.TestCudaMallocAsync)": [
     "134837",
     "https://github.com/pytorch/pytorch/issues/134837",
@@ -2116,15 +2130,6 @@
       "rocm"
     ]
   ],
-  "test_reentrant_parent_error_on_cpu_cuda (__main__.TestAutogradDeviceTypeCUDA)": [
-    "86735",
-    "https://github.com/pytorch/pytorch/issues/86735",
-    [
-      "win",
-      "windows",
-      "rocm"
-    ]
-  ],
   "test_register_fallthrough (__main__.TestPythonRegistration)": [
     "142494",
     "https://github.com/pytorch/pytorch/issues/142494",
@@ -2202,6 +2207,13 @@
       "rocm"
     ]
   ],
+  "test_remote_cache_load_function_device_cuda_float32_dynamic_False_bundle_triton_False (__main__.TestFxGraphCache)": [
+    "145212",
+    "https://github.com/pytorch/pytorch/issues/145212",
+    [
+      "rocm"
+    ]
+  ],
   "test_remote_cache_load_function_device_cuda_float32_dynamic_False_bundle_triton_True (__main__.TestFxGraphCache)": [
     "145191",
     "https://github.com/pytorch/pytorch/issues/145191",
@@ -2219,6 +2231,13 @@
   "test_reorder_peak_memory_dfs (__main__.TestOperatorReorderForPeakMemory)": [
     "145183",
     "https://github.com/pytorch/pytorch/issues/145183",
+    [
+      "rocm"
+    ]
+  ],
+  "test_reorder_peak_memory_lpmf (__main__.TestOperatorReorderForPeakMemory)": [
+    "145210",
+    "https://github.com/pytorch/pytorch/issues/145210",
     [
       "rocm"
     ]
