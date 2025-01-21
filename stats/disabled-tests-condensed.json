@@ -13,26 +13,11 @@
       "rocm"
     ]
   ],
-  "test_alibi_bias_float32 (__main__.TestTemplatedSDPA)": [
-    "124526",
-    "https://github.com/pytorch/pytorch/issues/124526",
-    [
-      "linux"
-    ]
-  ],
   "test_alibi_causal_float16 (__main__.TestTemplatedSDPA)": [
     "123610",
     "https://github.com/pytorch/pytorch/issues/123610",
     [
       "rocm"
-    ]
-  ],
-  "test_alibi_causal_float32 (__main__.TestTemplatedSDPA)": [
-    "124588",
-    "https://github.com/pytorch/pytorch/issues/124588",
-    [
-      "linux",
-      "slow"
     ]
   ],
   "test_all_reduce_coalesced_group_min (__main__.TestDistBackendWithSpawn)": [
