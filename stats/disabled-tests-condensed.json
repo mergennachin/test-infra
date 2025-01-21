@@ -247,20 +247,6 @@
       "linux"
     ]
   ],
-  "test_autograd_in_attr (__main__.TestPythonDispatch)": [
-    "145068",
-    "https://github.com/pytorch/pytorch/issues/145068",
-    [
-      "asan",
-      "linux",
-      "rocm",
-      "slow",
-      "win",
-      "windows",
-      "mac",
-      "macos"
-    ]
-  ],
   "test_backward_ddp_inside (__main__.TensorPipeDdpUnderDistAutogradTest)": [
     "104328",
     "https://github.com/pytorch/pytorch/issues/104328",
@@ -1843,20 +1829,6 @@
       "linux"
     ]
   ],
-  "test_override_aten_ops_with_multiple_libraries (__main__.TestPythonRegistration)": [
-    "142460",
-    "https://github.com/pytorch/pytorch/issues/142460",
-    [
-      "asan",
-      "linux",
-      "rocm",
-      "slow",
-      "win",
-      "windows",
-      "mac",
-      "macos"
-    ]
-  ],
   "test_override_cpu_sum (__main__.TestPythonRegistration)": [
     "142475",
     "https://github.com/pytorch/pytorch/issues/142475",
@@ -1868,14 +1840,6 @@
       "rocm",
       "win",
       "windows",
-      "slow"
-    ]
-  ],
-  "test_override_cuda_with_jiterator (__main__.TestPythonRegistration)": [
-    "142495",
-    "https://github.com/pytorch/pytorch/issues/142495",
-    [
-      "linux",
       "slow"
     ]
   ],
@@ -2125,62 +2089,6 @@
       "rocm"
     ]
   ],
-  "test_register_fallthrough (__main__.TestPythonRegistration)": [
-    "142494",
-    "https://github.com/pytorch/pytorch/issues/142494",
-    [
-      "asan",
-      "linux",
-      "rocm",
-      "mac",
-      "macos",
-      "win",
-      "windows"
-    ]
-  ],
-  "test_register_functional_op_multiple_returns (__main__.TestPythonRegistration)": [
-    "142807",
-    "https://github.com/pytorch/pytorch/issues/142807",
-    [
-      "asan",
-      "linux",
-      "rocm",
-      "slow",
-      "win",
-      "windows",
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_register_functional_op_no_returns (__main__.TestPythonRegistration)": [
-    "117834",
-    "https://github.com/pytorch/pytorch/issues/117834",
-    [
-      "asan",
-      "dynamo",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "win",
-      "windows",
-      "slow"
-    ]
-  ],
-  "test_register_functional_op_with_optional (__main__.TestPythonRegistration)": [
-    "117871",
-    "https://github.com/pytorch/pytorch/issues/117871",
-    [
-      "asan",
-      "dynamo",
-      "linux",
-      "rocm",
-      "win",
-      "windows",
-      "mac",
-      "macos"
-    ]
-  ],
   "test_relu_cuda_dynamic_shapes_cuda_wrapper (__main__.DynamicShapesCudaWrapperCudaTests)": [
     "122364",
     "https://github.com/pytorch/pytorch/issues/122364",
@@ -2274,20 +2182,6 @@
       "linux",
       "slow",
       "rocm"
-    ]
-  ],
-  "test_returning_symint (__main__.TestPythonRegistration)": [
-    "144920",
-    "https://github.com/pytorch/pytorch/issues/144920",
-    [
-      "asan",
-      "linux",
-      "rocm",
-      "slow",
-      "win",
-      "windows",
-      "mac",
-      "macos"
     ]
   ],
   "test_reuse_kernel_cuda (__main__.AOTInductorTestABICompatibleGpu)": [
