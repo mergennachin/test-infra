@@ -132,13 +132,6 @@
       "slow"
     ]
   ],
-  "test_aot_module_simplified_fake_tensor_gm_raises (__main__.TestAOTModuleSimplified)": [
-    "124590",
-    "https://github.com/pytorch/pytorch/issues/124590",
-    [
-      "dynamo"
-    ]
-  ],
   "test_aot_sequence_nr (__main__.DynamicShapesAotAutogradFallbackTests)": [
     "106440",
     "https://github.com/pytorch/pytorch/issues/106440",
@@ -348,6 +341,13 @@
   "test_cache_load_function_device_cuda_float32_dynamic_False_bundle_triton_True_grad_True (__main__.TestFxGraphCache)": [
     "145336",
     "https://github.com/pytorch/pytorch/issues/145336",
+    [
+      "rocm"
+    ]
+  ],
+  "test_cat (__main__.NumBytesMetricTests)": [
+    "145344",
+    "https://github.com/pytorch/pytorch/issues/145344",
     [
       "rocm"
     ]
@@ -1258,6 +1258,13 @@
       "linux"
     ]
   ],
+  "test_graph_break_inside_ctx_with_side_effects (__main__.ContextlibContextManagerTests)": [
+    "145346",
+    "https://github.com/pytorch/pytorch/issues/145346",
+    [
+      "linux"
+    ]
+  ],
   "test_graph_concurrent_replay (__main__.TestCuda)": [
     "104055",
     "https://github.com/pytorch/pytorch/issues/104055",
@@ -1854,6 +1861,20 @@
       "win",
       "windows",
       "slow"
+    ]
+  ],
+  "test_partitioning_unremat_bw (__main__.MinCutPartitioningTests)": [
+    "145343",
+    "https://github.com/pytorch/pytorch/issues/145343",
+    [
+      "rocm"
+    ]
+  ],
+  "test_partitioning_with_view (__main__.MinCutPartitioningTests)": [
+    "145345",
+    "https://github.com/pytorch/pytorch/issues/145345",
+    [
+      "rocm"
     ]
   ],
   "test_pattern_matcher_multi_user_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
@@ -3053,7 +3074,8 @@
       "macos",
       "rocm",
       "win",
-      "windows"
+      "windows",
+      "slow"
     ]
   ],
   "test_warn_on_invalid_torch_function_tensor_subclass (__main__.TestTorchFunctionWarning)": [
