@@ -1056,6 +1056,13 @@
       "dynamo"
     ]
   ],
+  "test_extern (__main__.NumBytesMetricTests)": [
+    "145352",
+    "https://github.com/pytorch/pytorch/issues/145352",
+    [
+      "rocm"
+    ]
+  ],
   "test_extra_cuda_context (__main__.ProcessGroupNCCLGroupTest)": [
     "139011",
     "https://github.com/pytorch/pytorch/issues/139011",
@@ -2319,6 +2326,14 @@
       "rocm",
       "linux",
       "slow"
+    ]
+  ],
+  "test_sdpa_mask_fp16_L6_S17_NH23_HS121 (__main__.TestSDPA)": [
+    "138905",
+    "https://github.com/pytorch/pytorch/issues/138905",
+    [
+      "mac",
+      "macos"
     ]
   ],
   "test_sdpa_rewriter_12_cuda (__main__.SDPAPatternRewriterCudaDynamicTests)": [
