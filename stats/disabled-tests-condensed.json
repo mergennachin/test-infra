@@ -761,13 +761,6 @@
     "https://github.com/pytorch/pytorch/issues/106308",
     []
   ],
-  "test_cuda_event_created_outside_of_graph (__main__.CtxManagerTests)": [
-    "133828",
-    "https://github.com/pytorch/pytorch/issues/133828",
-    [
-      "linux"
-    ]
-  ],
   "test_cuda_event_created_outside_of_graph_dynamic_shapes (__main__.DynamicShapesCtxManagerTests)": [
     "133837",
     "https://github.com/pytorch/pytorch/issues/133837",
@@ -1708,13 +1701,6 @@
     "https://github.com/pytorch/pytorch/issues/104454",
     [
       "asan"
-    ]
-  ],
-  "test_no_grad_copy (__main__.TestAutograd)": [
-    "139734",
-    "https://github.com/pytorch/pytorch/issues/139734",
-    [
-      "dynamo"
     ]
   ],
   "test_non_commutative_scan_op (__main__.CudaReproTests)": [
