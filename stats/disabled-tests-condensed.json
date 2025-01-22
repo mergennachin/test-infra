@@ -1420,20 +1420,6 @@
       "linux"
     ]
   ],
-  "test_large_mmaped_weights_non_abi_compatible_cuda (__main__.AOTInductorTestNonABICompatibleCuda)": [
-    "127202",
-    "https://github.com/pytorch/pytorch/issues/127202",
-    [
-      "linux"
-    ]
-  ],
-  "test_large_weight_non_abi_compatible_cuda (__main__.AOTInductorTestNonABICompatibleCuda)": [
-    "127068",
-    "https://github.com/pytorch/pytorch/issues/127068",
-    [
-      "linux"
-    ]
-  ],
   "test_learnable_forward_per_channel_cpu (quantization.core.test_workflow_ops.TestFakeQuantizeOps)": [
     "107155",
     "https://github.com/pytorch/pytorch/issues/107155",
