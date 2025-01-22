@@ -1619,17 +1619,6 @@
       "dynamo"
     ]
   ],
-  "test_min_cut_partitioner_recomputable_ops (__main__.TestPartitioning)": [
-    "104327",
-    "https://github.com/pytorch/pytorch/issues/104327",
-    [
-      "asan",
-      "linux",
-      "win",
-      "windows",
-      "dynamo"
-    ]
-  ],
   "test_mismatched_global_state (__main__.GraphRegionTrackerTests)": [
     "144895",
     "https://github.com/pytorch/pytorch/issues/144895",
@@ -1740,13 +1729,6 @@
       "linux",
       "mac",
       "macos"
-    ]
-  ],
-  "test_new_spectral_norm_forward_swap_True (__main__.TestNNParametrization)": [
-    "131089",
-    "https://github.com/pytorch/pytorch/issues/131089",
-    [
-      "dynamo"
     ]
   ],
   "test_nnc_correctness_frac_cpu_bfloat16 (__main__.TestNNCOpInfoCPU)": [
