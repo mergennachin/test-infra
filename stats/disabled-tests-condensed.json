@@ -727,13 +727,6 @@
       "rocm"
     ]
   ],
-  "test_cpp_extension_recommends_custom_ops_dynamic_shapes (__main__.DynamicShapesMiscTests)": [
-    "127813",
-    "https://github.com/pytorch/pytorch/issues/127813",
-    [
-      "linux"
-    ]
-  ],
   "test_cpp_frontend_module_has_same_output_as_python (__main__.TestCppExtensionJIT)": [
     "116105",
     "https://github.com/pytorch/pytorch/issues/116105",
@@ -1088,13 +1081,6 @@
       "macos",
       "win",
       "windows"
-    ]
-  ],
-  "test_fake_crossref_backward_no_amp_index_fill_cuda_float32 (__main__.TestFakeTensorCUDA)": [
-    "99126",
-    "https://github.com/pytorch/pytorch/issues/99126",
-    [
-      "linux"
     ]
   ],
   "test_fake_tensor_mode_huggingface_gpt2 (__main__.TORCH_NN_MODULE)": [
