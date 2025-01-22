@@ -211,15 +211,6 @@
       "rocm"
     ]
   ],
-  "test_autograd_function_backed_op (__main__.TestCustomOpWithCompiledAutograd)": [
-    "121342",
-    "https://github.com/pytorch/pytorch/issues/121342",
-    [
-      "mac",
-      "macos",
-      "linux"
-    ]
-  ],
   "test_backward_ddp_inside (__main__.TensorPipeDdpUnderDistAutogradTest)": [
     "104328",
     "https://github.com/pytorch/pytorch/issues/104328",
