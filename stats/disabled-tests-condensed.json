@@ -1184,13 +1184,6 @@
       "rocm"
     ]
   ],
-  "test_fs_preserve_sharing (__main__.TestMultiprocessing)": [
-    "91467",
-    "https://github.com/pytorch/pytorch/issues/91467",
-    [
-      "dynamo"
-    ]
-  ],
   "test_fsdp_unsupported_module_cls (__main__.TestFSDPMiscMultiThread)": [
     "137948",
     "https://github.com/pytorch/pytorch/issues/137948",
@@ -3013,6 +3006,13 @@
     "https://github.com/pytorch/pytorch/issues/134445",
     [
       "linux"
+    ]
+  ],
+  "test_view_of_slice_cuda (__main__.TestUnbackedSymintsCUDA)": [
+    "145386",
+    "https://github.com/pytorch/pytorch/issues/145386",
+    [
+      "rocm"
     ]
   ],
   "test_vit_aten_export (__main__.TestQuantizePT2EModels)": [
