@@ -1646,6 +1646,13 @@
       "macos"
     ]
   ],
+  "test_new_spectral_norm_forward_swap_True (__main__.TestNNParametrization)": [
+    "131089",
+    "https://github.com/pytorch/pytorch/issues/131089",
+    [
+      "dynamo"
+    ]
+  ],
   "test_nnc_correctness_frac_cpu_bfloat16 (__main__.TestNNCOpInfoCPU)": [
     "104454",
     "https://github.com/pytorch/pytorch/issues/104454",
