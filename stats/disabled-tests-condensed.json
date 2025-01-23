@@ -720,6 +720,14 @@
       "macos"
     ]
   ],
+  "test_crash (__main__.TestCompileWorker)": [
+    "131064",
+    "https://github.com/pytorch/pytorch/issues/131064",
+    [
+      "asan",
+      "linux"
+    ]
+  ],
   "test_cross_entropy_large_tensor_reduction_mean_cuda (__main__.TestNNDeviceTypeCUDA)": [
     "105253",
     "https://github.com/pytorch/pytorch/issues/105253",
