@@ -2743,17 +2743,6 @@
       "linux"
     ]
   ],
-  "test_trigger_bisect_on_error (__main__.ExcTests)": [
-    "131303",
-    "https://github.com/pytorch/pytorch/issues/131303",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm"
-    ]
-  ],
   "test_variant_consistency_eager_nn_functional_conv3d_cuda_complex64 (__main__.TestCommonCUDA)": [
     "114592",
     "https://github.com/pytorch/pytorch/issues/114592",
