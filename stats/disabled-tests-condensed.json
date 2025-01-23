@@ -2165,7 +2165,8 @@
     "145193",
     "https://github.com/pytorch/pytorch/issues/145193",
     [
-      "rocm"
+      "rocm",
+      "inductor"
     ]
   ],
   "test_ring_attention_native_transformer_is_causal_True (__main__.RingAttentionTest)": [
@@ -2620,7 +2621,10 @@
     [
       "asan",
       "linux",
-      "rocm"
+      "rocm",
+      "mac",
+      "macos",
+      "slow"
     ]
   ],
   "test_tensor_subclasses (__main__.TestScript)": [
