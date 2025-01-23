@@ -2399,15 +2399,6 @@
       "inductor"
     ]
   ],
-  "test_slice_with_floordiv (__main__.TestExport)": [
-    "131101",
-    "https://github.com/pytorch/pytorch/issues/131101",
-    [
-      "linux",
-      "slow",
-      "mac"
-    ]
-  ],
   "test_slice_with_floordiv_non_strict (__main__.NonStrictExportTestExport)": [
     "131088",
     "https://github.com/pytorch/pytorch/issues/131088",
@@ -2432,35 +2423,6 @@
       "linux",
       "mac",
       "macos"
-    ]
-  ],
-  "test_slice_with_floordiv_serdes (__main__.SerDesExportTestExport)": [
-    "131119",
-    "https://github.com/pytorch/pytorch/issues/131119",
-    [
-      "linux",
-      "asan",
-      "macos"
-    ]
-  ],
-  "test_slice_with_floordiv_serdes_non_strict (__main__.SerDesExportNonStrictTestExport)": [
-    "138884",
-    "https://github.com/pytorch/pytorch/issues/138884",
-    [
-      "asan",
-      "linux",
-      "rocm",
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_slice_with_floordiv_training_ir_to_decomp (__main__.TrainingIRToRunDecompExportTestExport)": [
-    "131082",
-    "https://github.com/pytorch/pytorch/issues/131082",
-    [
-      "linux",
-      "asan",
-      "mac"
     ]
   ],
   "test_slice_with_floordiv_training_ir_to_decomp_non_strict (__main__.TrainingIRToRunDecompExportNonStrictTestExport)": [
@@ -2826,17 +2788,6 @@
     "https://github.com/pytorch/pytorch/issues/124267",
     [
       "linux"
-    ]
-  ],
-  "test_trigger_bisect_on_error (__main__.ExcTests)": [
-    "131303",
-    "https://github.com/pytorch/pytorch/issues/131303",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm"
     ]
   ],
   "test_unbacked_bindings_for_divisible_u_symint (__main__.TestExport)": [
