@@ -2399,41 +2399,6 @@
       "inductor"
     ]
   ],
-  "test_slice_with_floordiv_non_strict (__main__.NonStrictExportTestExport)": [
-    "131088",
-    "https://github.com/pytorch/pytorch/issues/131088",
-    [
-      "linux",
-      "macos"
-    ]
-  ],
-  "test_slice_with_floordiv_retraceability (__main__.RetraceExportTestExport)": [
-    "131083",
-    "https://github.com/pytorch/pytorch/issues/131083",
-    [
-      "linux",
-      "mac"
-    ]
-  ],
-  "test_slice_with_floordiv_retraceability_non_strict (__main__.RetraceExportNonStrictTestExport)": [
-    "138675",
-    "https://github.com/pytorch/pytorch/issues/138675",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_slice_with_floordiv_training_ir_to_decomp_non_strict (__main__.TrainingIRToRunDecompExportNonStrictTestExport)": [
-    "131136",
-    "https://github.com/pytorch/pytorch/issues/131136",
-    [
-      "linux",
-      "asan",
-      "macos"
-    ]
-  ],
   "test_sparse_add_cuda_complex128 (__main__.TestSparseCSRCUDA)": [
     "86388",
     "https://github.com/pytorch/pytorch/issues/86388",
