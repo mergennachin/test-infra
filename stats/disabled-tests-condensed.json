@@ -120,6 +120,18 @@
       "slow"
     ]
   ],
+  "test_aot_export_with_torch_cond (__main__.TestAOTExport)": [
+    "139998",
+    "https://github.com/pytorch/pytorch/issues/139998",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_aoti (__main__.TestMemoryPlanning)": [
     "145211",
     "https://github.com/pytorch/pytorch/issues/145211",
@@ -1129,20 +1141,6 @@
       "rocm"
     ]
   ],
-  "test_fn_grad_linalg_det_singular_cuda_complex128 (__main__.TestBwdGradientsCUDA)": [
-    "93044",
-    "https://github.com/pytorch/pytorch/issues/93044",
-    [
-      "rocm"
-    ]
-  ],
-  "test_forward_mode_AD_linalg_det_singular_cuda_complex128 (__main__.TestFwdGradientsCUDA)": [
-    "93045",
-    "https://github.com/pytorch/pytorch/issues/93045",
-    [
-      "rocm"
-    ]
-  ],
   "test_fsdp_unsupported_module_cls (__main__.TestFSDPMiscMultiThread)": [
     "137948",
     "https://github.com/pytorch/pytorch/issues/137948",
@@ -2052,6 +2050,15 @@
     "107950",
     "https://github.com/pytorch/pytorch/issues/107950",
     [
+      "rocm"
+    ]
+  ],
+  "test_reentrant_parent_error_on_cpu_cuda (__main__.TestAutogradDeviceTypeCUDA)": [
+    "86735",
+    "https://github.com/pytorch/pytorch/issues/86735",
+    [
+      "win",
+      "windows",
       "rocm"
     ]
   ],
