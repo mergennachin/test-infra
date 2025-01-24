@@ -1622,14 +1622,6 @@
       "linux"
     ]
   ],
-  "test_mps_event_module (__main__.TestMPS)": [
-    "145052",
-    "https://github.com/pytorch/pytorch/issues/145052",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_nccl_errors_dump (__main__.NcclErrorDumpTest)": [
     "123530",
     "https://github.com/pytorch/pytorch/issues/123530",
