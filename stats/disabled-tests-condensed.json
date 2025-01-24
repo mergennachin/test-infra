@@ -269,13 +269,6 @@
       "mac"
     ]
   ],
-  "test_bw_decoding_fails_float16 (__main__.TestFlexDecoding)": [
-    "141761",
-    "https://github.com/pytorch/pytorch/issues/141761",
-    [
-      "linux"
-    ]
-  ],
   "test_byte_mask (__main__.TestAdvancedIndexing)": [
     "138911",
     "https://github.com/pytorch/pytorch/issues/138911",
