@@ -1141,13 +1141,6 @@
       "inductor"
     ]
   ],
-  "test_gradgrad_nn_Transformer_cuda_float64 (__main__.TestModuleCUDA)": [
-    "117140",
-    "https://github.com/pytorch/pytorch/issues/117140",
-    [
-      "linux"
-    ]
-  ],
   "test_graph_break_inside_ctx_with_side_effects (__main__.ContextlibContextManagerTests)": [
     "145346",
     "https://github.com/pytorch/pytorch/issues/145346",
@@ -1340,14 +1333,6 @@
     "145359",
     "https://github.com/pytorch/pytorch/issues/145359",
     [
-      "linux"
-    ]
-  ],
-  "test_linear_backward_memory_usage_cuda_float32 (__main__.TestNestedTensorSubclassCUDA)": [
-    "141292",
-    "https://github.com/pytorch/pytorch/issues/141292",
-    [
-      "rocm",
       "linux"
     ]
   ],
