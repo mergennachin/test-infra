@@ -2492,15 +2492,6 @@
       "slow"
     ]
   ],
-  "test_torchvision_models_regnet_y_400mf (__main__.TestVisionTracing)": [
-    "140531",
-    "https://github.com/pytorch/pytorch/issues/140531",
-    [
-      "asan",
-      "linux",
-      "slow"
-    ]
-  ],
   "test_tp_transform_with_uncovered_op (__main__.TensorParallelTest)": [
     "115784",
     "https://github.com/pytorch/pytorch/issues/115784",
