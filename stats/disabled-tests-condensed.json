@@ -1336,6 +1336,14 @@
       "linux"
     ]
   ],
+  "test_linear_backward_memory_usage_cuda_float32 (__main__.TestNestedTensorSubclassCUDA)": [
+    "141292",
+    "https://github.com/pytorch/pytorch/issues/141292",
+    [
+      "rocm",
+      "linux"
+    ]
+  ],
   "test_list_clearing_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
     "145004",
     "https://github.com/pytorch/pytorch/issues/145004",
