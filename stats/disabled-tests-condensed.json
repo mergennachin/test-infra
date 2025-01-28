@@ -27,13 +27,6 @@
       "mac"
     ]
   ],
-  "test_allocation_id_uniqueness (__main__.TestTorchTidyProfiler)": [
-    "125021",
-    "https://github.com/pytorch/pytorch/issues/125021",
-    [
-      "dynamo"
-    ]
-  ],
   "test_allocator_fuzz (__main__.TestCudaMallocAsync)": [
     "135249",
     "https://github.com/pytorch/pytorch/issues/135249",
