@@ -677,6 +677,21 @@
     "https://github.com/pytorch/pytorch/issues/106308",
     []
   ],
+  "test_cuda_event_created_outside_of_graph (__main__.CtxManagerTests)": [
+    "133828",
+    "https://github.com/pytorch/pytorch/issues/133828",
+    [
+      "linux"
+    ]
+  ],
+  "test_cuda_event_created_outside_of_graph_dynamic_shapes (__main__.DynamicShapesCtxManagerTests)": [
+    "133837",
+    "https://github.com/pytorch/pytorch/issues/133837",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_cuda_memory_leak_detection (__main__.TestCudaMultiGPU)": [
     "104695",
     "https://github.com/pytorch/pytorch/issues/104695",
@@ -822,6 +837,13 @@
     [
       "linux",
       "rocm"
+    ]
+  ],
+  "test_distributed_checkpoint_state_dict_type0_cuda (__main__.TestDistributedCheckpointCUDA)": [
+    "145807",
+    "https://github.com/pytorch/pytorch/issues/145807",
+    [
+      "linux"
     ]
   ],
   "test_distributed_checkpoint_state_dict_type1 (__main__.TestDistributedCheckpoint)": [
@@ -1341,6 +1363,18 @@
     "https://github.com/pytorch/pytorch/issues/80338",
     [
       "linux"
+    ]
+  ],
+  "test_log_traced_frames (__main__.LoggingTests)": [
+    "137461",
+    "https://github.com/pytorch/pytorch/issues/137461",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "slow"
     ]
   ],
   "test_manual_with_data_parallel_dp_type_DDP_ScheduleClass0_use_new_runtime_False (__main__.ComposabilityTest)": [
@@ -2013,6 +2047,13 @@
   "test_resnet18 (__main__.TORCH_NN_MODULE)": [
     "122491",
     "https://github.com/pytorch/pytorch/issues/122491",
+    [
+      "linux"
+    ]
+  ],
+  "test_return_advanced_contextmanager (__main__.ContextlibContextManagerTests)": [
+    "145805",
+    "https://github.com/pytorch/pytorch/issues/145805",
     [
       "linux"
     ]
