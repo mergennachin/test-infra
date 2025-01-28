@@ -279,6 +279,13 @@
       "rocm"
     ]
   ],
+  "test_cat_max_autotune_triton (__main__.TestMaxAutotune)": [
+    "145830",
+    "https://github.com/pytorch/pytorch/issues/145830",
+    [
+      "rocm"
+    ]
+  ],
   "test_cat_slice_cat_cuda_cuda_wrapper (__main__.TestCudaWrapper)": [
     "135164",
     "https://github.com/pytorch/pytorch/issues/135164",
@@ -2495,6 +2502,16 @@
     "https://github.com/pytorch/pytorch/issues/121876",
     [
       "dynamo"
+    ]
+  ],
+  "test_torchvision_models_efficientnet_b7 (__main__.TestVisionTracing)": [
+    "123890",
+    "https://github.com/pytorch/pytorch/issues/123890",
+    [
+      "asan",
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_torchvision_models_efficientnet_v2_m (__main__.TestVisionTracing)": [
