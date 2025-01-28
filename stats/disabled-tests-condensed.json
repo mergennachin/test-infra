@@ -1372,18 +1372,6 @@
       "linux"
     ]
   ],
-  "test_log_traced_frames (__main__.LoggingTests)": [
-    "137461",
-    "https://github.com/pytorch/pytorch/issues/137461",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_manual_with_data_parallel_dp_type_DDP_ScheduleClass0_use_new_runtime_False (__main__.ComposabilityTest)": [
     "139139",
     "https://github.com/pytorch/pytorch/issues/139139",
