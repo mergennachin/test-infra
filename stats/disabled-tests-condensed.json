@@ -1668,6 +1668,13 @@
       "rocm"
     ]
   ],
+  "test_op_dtype_propagation_bitwise_xor_cuda_int64 (__main__.TestCaseCUDA)": [
+    "145836",
+    "https://github.com/pytorch/pytorch/issues/145836",
+    [
+      "rocm"
+    ]
+  ],
   "test_open_device_registration (__main__.ExtensionBackendTests)": [
     "137027",
     "https://github.com/pytorch/pytorch/issues/137027",
