@@ -83,48 +83,6 @@
       "rocm"
     ]
   ],
-  "test_aoti_eager_cache_hit_dynamic_shapes_cuda (__main__.DynamicShapesCodegenGPUTests)": [
-    "145184",
-    "https://github.com/pytorch/pytorch/issues/145184",
-    [
-      "rocm"
-    ]
-  ],
-  "test_aoti_eager_cache_hit_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
-    "144919",
-    "https://github.com/pytorch/pytorch/issues/144919",
-    [
-      "rocm"
-    ]
-  ],
-  "test_aoti_eager_dtype_device_layout_dynamic_shapes_cuda (__main__.DynamicShapesCodegenGPUTests)": [
-    "144923",
-    "https://github.com/pytorch/pytorch/issues/144923",
-    [
-      "rocm"
-    ]
-  ],
-  "test_aoti_eager_support_out_dynamic_shapes_cuda (__main__.DynamicShapesCodegenGPUTests)": [
-    "144947",
-    "https://github.com/pytorch/pytorch/issues/144947",
-    [
-      "rocm"
-    ]
-  ],
-  "test_aoti_eager_support_str_dynamic_shapes_cuda (__main__.DynamicShapesCodegenGPUTests)": [
-    "145003",
-    "https://github.com/pytorch/pytorch/issues/145003",
-    [
-      "rocm"
-    ]
-  ],
-  "test_aoti_eager_support_str_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
-    "144921",
-    "https://github.com/pytorch/pytorch/issues/144921",
-    [
-      "rocm"
-    ]
-  ],
   "test_attention_vs_linear (__main__.MemoryBudgetTest)": [
     "128217",
     "https://github.com/pytorch/pytorch/issues/128217",
@@ -230,13 +188,6 @@
       "macos"
     ]
   ],
-  "test_cache_hot_load_device_cuda_bfloat16_dynamic_False (__main__.AOTAutogradCacheTests)": [
-    "145334",
-    "https://github.com/pytorch/pytorch/issues/145334",
-    [
-      "rocm"
-    ]
-  ],
   "test_cache_hot_load_device_cuda_bfloat16_dynamic_False (__main__.TestFxGraphCache)": [
     "145364",
     "https://github.com/pytorch/pytorch/issues/145364",
@@ -268,13 +219,6 @@
   "test_cache_load_function_device_cuda_float32_dynamic_False_bundle_triton_True_grad_True (__main__.TestFxGraphCache)": [
     "145336",
     "https://github.com/pytorch/pytorch/issues/145336",
-    [
-      "rocm"
-    ]
-  ],
-  "test_cat (__main__.NumBytesMetricTests)": [
-    "145344",
-    "https://github.com/pytorch/pytorch/issues/145344",
     [
       "rocm"
     ]
@@ -982,25 +926,11 @@
       "linux"
     ]
   ],
-  "test_equivalent_template_code (__main__.BenchmarkMultiTemplateFusionCudaTest)": [
-    "145017",
-    "https://github.com/pytorch/pytorch/issues/145017",
-    [
-      "rocm"
-    ]
-  ],
   "test_execution_trace_with_kineto (__main__.TestExecutionTrace)": [
     "123536",
     "https://github.com/pytorch/pytorch/issues/123536",
     [
       "dynamo"
-    ]
-  ],
-  "test_extern (__main__.NumBytesMetricTests)": [
-    "145352",
-    "https://github.com/pytorch/pytorch/issues/145352",
-    [
-      "rocm"
     ]
   ],
   "test_extra_cuda_context (__main__.ProcessGroupNCCLGroupTest)": [
@@ -1739,20 +1669,6 @@
       "slow"
     ]
   ],
-  "test_partitioning_unremat_bw (__main__.MinCutPartitioningTests)": [
-    "145343",
-    "https://github.com/pytorch/pytorch/issues/145343",
-    [
-      "rocm"
-    ]
-  ],
-  "test_partitioning_with_view (__main__.MinCutPartitioningTests)": [
-    "145345",
-    "https://github.com/pytorch/pytorch/issues/145345",
-    [
-      "rocm"
-    ]
-  ],
   "test_pattern_matcher_multi_user_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
     "134433",
     "https://github.com/pytorch/pytorch/issues/134433",
@@ -2080,14 +1996,6 @@
     "https://github.com/pytorch/pytorch/issues/145805",
     [
       "linux"
-    ]
-  ],
-  "test_reuse_kernel_cuda (__main__.AOTInductorTestABICompatibleGpu)": [
-    "145193",
-    "https://github.com/pytorch/pytorch/issues/145193",
-    [
-      "rocm",
-      "inductor"
     ]
   ],
   "test_ring_attention_native_transformer_is_causal_True (__main__.RingAttentionTest)": [
