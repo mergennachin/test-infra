@@ -1439,6 +1439,13 @@
       "rocm"
     ]
   ],
+  "test_missing_getstate (__main__.TestScript)": [
+    "145928",
+    "https://github.com/pytorch/pytorch/issues/145928",
+    [
+      "dynamo"
+    ]
+  ],
   "test_mixed_mm (__main__.TestPatternMatcher)": [
     "145192",
     "https://github.com/pytorch/pytorch/issues/145192",
@@ -1539,6 +1546,13 @@
   "test_new_spectral_norm_forward_swap_True (__main__.TestNNParametrization)": [
     "131089",
     "https://github.com/pytorch/pytorch/issues/131089",
+    [
+      "dynamo"
+    ]
+  ],
+  "test_nn_LSTM_with_layers (__main__.TestScript)": [
+    "145927",
+    "https://github.com/pytorch/pytorch/issues/145927",
     [
       "dynamo"
     ]
@@ -1996,6 +2010,13 @@
     "https://github.com/pytorch/pytorch/issues/145805",
     [
       "linux"
+    ]
+  ],
+  "test_return_tuple (__main__.TestScript)": [
+    "145926",
+    "https://github.com/pytorch/pytorch/issues/145926",
+    [
+      "dynamo"
     ]
   ],
   "test_ring_attention_native_transformer_is_causal_True (__main__.RingAttentionTest)": [
