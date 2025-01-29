@@ -925,6 +925,13 @@
       "linux"
     ]
   ],
+  "test_dtensor_seq_par_shard_dim_0 (__main__.MicroPipelineTPTest)": [
+    "145924",
+    "https://github.com/pytorch/pytorch/issues/145924",
+    [
+      "linux"
+    ]
+  ],
   "test_dtype_sympy_expr_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
     "135213",
     "https://github.com/pytorch/pytorch/issues/135213",
