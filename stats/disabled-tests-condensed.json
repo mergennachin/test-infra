@@ -444,6 +444,13 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_any_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
+    "145919",
+    "https://github.com/pytorch/pytorch/issues/145919",
+    [
+      "rocm"
+    ]
+  ],
   "test_comprehensive_argsort_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
     "131158",
     "https://github.com/pytorch/pytorch/issues/131158",
