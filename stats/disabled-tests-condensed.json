@@ -1489,6 +1489,13 @@
       "rocm"
     ]
   ],
+  "test_mm_batching (__main__.TestScript)": [
+    "119747",
+    "https://github.com/pytorch/pytorch/issues/119747",
+    [
+      "dynamo"
+    ]
+  ],
   "test_mm_concat_cuda (__main__.FreezingGpuTests)": [
     "145186",
     "https://github.com/pytorch/pytorch/issues/145186",
@@ -1598,6 +1605,13 @@
     "https://github.com/pytorch/pytorch/issues/81732",
     [
       "linux"
+    ]
+  ],
+  "test_non_final_return (__main__.TestScript)": [
+    "145975",
+    "https://github.com/pytorch/pytorch/issues/145975",
+    [
+      "dynamo"
     ]
   ],
   "test_nondeterministic_alert_histc_cuda (__main__.TestTorchDeviceTypeCUDA)": [
@@ -1820,6 +1834,13 @@
       "macos"
     ]
   ],
+  "test_pybind_type_comparisons (__main__.TestScript)": [
+    "145971",
+    "https://github.com/pytorch/pytorch/issues/145971",
+    [
+      "dynamo"
+    ]
+  ],
   "test_pynode_destruction_deadlock (__main__.TestAutogradWithCompiledAutograd)": [
     "121576",
     "https://github.com/pytorch/pytorch/issues/121576",
@@ -1882,6 +1903,13 @@
     [
       "mac",
       "macos"
+    ]
+  ],
+  "test_reassign_module_lhs (__main__.TestScript)": [
+    "145973",
+    "https://github.com/pytorch/pytorch/issues/145973",
+    [
+      "dynamo"
     ]
   ],
   "test_recompile_on_global_state_change (__main__.MiscTests)": [
@@ -2118,6 +2146,27 @@
       "slow",
       "win",
       "windows"
+    ]
+  ],
+  "test_script_annotation (__main__.TestScript)": [
+    "145974",
+    "https://github.com/pytorch/pytorch/issues/145974",
+    [
+      "dynamo"
+    ]
+  ],
+  "test_script_outputs (__main__.TestScript)": [
+    "145976",
+    "https://github.com/pytorch/pytorch/issues/145976",
+    [
+      "dynamo"
+    ]
+  ],
+  "test_scriptable_fn_as_attr (__main__.TestScript)": [
+    "145972",
+    "https://github.com/pytorch/pytorch/issues/145972",
+    [
+      "dynamo"
     ]
   ],
   "test_sdpa_compile_cuda_bfloat16 (__main__.TestNestedTensorSubclassCUDA)": [
