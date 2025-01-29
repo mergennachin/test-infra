@@ -83,6 +83,20 @@
       "rocm"
     ]
   ],
+  "test_aoti_eager_cache_hit_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
+    "144919",
+    "https://github.com/pytorch/pytorch/issues/144919",
+    [
+      "rocm"
+    ]
+  ],
+  "test_aoti_eager_dtype_device_layout_dynamic_shapes_cuda (__main__.DynamicShapesCodegenGPUTests)": [
+    "144923",
+    "https://github.com/pytorch/pytorch/issues/144923",
+    [
+      "rocm"
+    ]
+  ],
   "test_attention_vs_linear (__main__.MemoryBudgetTest)": [
     "128217",
     "https://github.com/pytorch/pytorch/issues/128217",
@@ -1736,6 +1750,13 @@
   "test_prod_large (__main__.TestCuda)": [
     "134723",
     "https://github.com/pytorch/pytorch/issues/134723",
+    [
+      "linux"
+    ]
+  ],
+  "test_profile_all_threads (__main__.TestProfiler)": [
+    "145951",
+    "https://github.com/pytorch/pytorch/issues/145951",
     [
       "linux"
     ]
