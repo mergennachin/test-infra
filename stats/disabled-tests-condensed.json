@@ -83,6 +83,13 @@
       "rocm"
     ]
   ],
+  "test_aoti_eager_cache_hit_dynamic_shapes_cuda (__main__.DynamicShapesCodegenGPUTests)": [
+    "145184",
+    "https://github.com/pytorch/pytorch/issues/145184",
+    [
+      "rocm"
+    ]
+  ],
   "test_aoti_eager_cache_hit_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
     "144919",
     "https://github.com/pytorch/pytorch/issues/144919",
@@ -567,6 +574,13 @@
       "rocm"
     ]
   ],
+  "test_config_option_dont_assume_alignment_cudagraphs_dynamic_shapes_cuda (__main__.DynamicShapesCodegenGPUTests)": [
+    "146038",
+    "https://github.com/pytorch/pytorch/issues/146038",
+    [
+      "rocm"
+    ]
+  ],
   "test_constant_abi_compatible_cuda (__main__.AOTInductorTestABICompatibleCuda)": [
     "137579",
     "https://github.com/pytorch/pytorch/issues/137579",
@@ -732,18 +746,6 @@
       "dynamo"
     ]
   ],
-  "test_device_mode_ops_sparse_mm_reduce_cpu_float16 (__main__.TestDeviceUtilsCPU)": [
-    "133827",
-    "https://github.com/pytorch/pytorch/issues/133827",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "win",
-      "windows"
-    ]
-  ],
   "test_device_mode_ops_sparse_mm_reduce_cpu_float32 (__main__.TestDeviceUtilsCPU)": [
     "132552",
     "https://github.com/pytorch/pytorch/issues/132552",
@@ -836,6 +838,13 @@
       "linux"
     ]
   ],
+  "test_dropout_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
+    "144948",
+    "https://github.com/pytorch/pytorch/issues/144948",
+    [
+      "rocm"
+    ]
+  ],
   "test_dtensor_mm (__main__.DistMatrixOpsTest)": [
     "139813",
     "https://github.com/pytorch/pytorch/issues/139813",
@@ -896,13 +905,6 @@
   "test_dynamo_export_retains_readable_parameter_and_buffer_names (__main__.TestFxToOnnx)": [
     "138064",
     "https://github.com/pytorch/pytorch/issues/138064",
-    [
-      "linux"
-    ]
-  ],
-  "test_embedding_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "135250",
-    "https://github.com/pytorch/pytorch/issues/135250",
     [
       "linux"
     ]
@@ -1707,20 +1709,6 @@
       "linux"
     ]
   ],
-  "test_override_cpu_sum (__main__.TestPythonRegistration)": [
-    "142475",
-    "https://github.com/pytorch/pytorch/issues/142475",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "win",
-      "windows",
-      "slow"
-    ]
-  ],
   "test_partitioning_unremat_bw (__main__.MinCutPartitioningTests)": [
     "145343",
     "https://github.com/pytorch/pytorch/issues/145343",
@@ -2111,6 +2099,15 @@
     "https://github.com/pytorch/pytorch/issues/126380",
     [
       "rocm"
+    ]
+  ],
+  "test_rng (__main__.TestCompilerBisector)": [
+    "139590",
+    "https://github.com/pytorch/pytorch/issues/139590",
+    [
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_round (__main__.TestScript)": [
@@ -2774,13 +2771,6 @@
       "linux"
     ]
   ],
-  "test_vdd_clamp_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "134445",
-    "https://github.com/pytorch/pytorch/issues/134445",
-    [
-      "linux"
-    ]
-  ],
   "test_view_of_slice_cuda (__main__.TestUnbackedSymintsCUDA)": [
     "145386",
     "https://github.com/pytorch/pytorch/issues/145386",
@@ -2865,6 +2855,18 @@
       "windows",
       "rocm",
       "slow"
+    ]
+  ],
+  "test_while_loop_schema_gen (__main__.TestHopSchema)": [
+    "141202",
+    "https://github.com/pytorch/pytorch/issues/141202",
+    [
+      "asan",
+      "linux",
+      "rocm",
+      "slow",
+      "mac",
+      "macos"
     ]
   ],
   "test_zero_model_parallel_parameters_as_bucket_view_True (__main__.TestZeroRedundancyOptimizerDistributed)": [
