@@ -97,6 +97,20 @@
       "rocm"
     ]
   ],
+  "test_aoti_eager_override_registration_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
+    "145997",
+    "https://github.com/pytorch/pytorch/issues/145997",
+    [
+      "rocm"
+    ]
+  ],
+  "test_aoti_eager_support_out_dynamic_shapes_cuda (__main__.DynamicShapesCodegenGPUTests)": [
+    "144947",
+    "https://github.com/pytorch/pytorch/issues/144947",
+    [
+      "rocm"
+    ]
+  ],
   "test_attention_vs_linear (__main__.MemoryBudgetTest)": [
     "128217",
     "https://github.com/pytorch/pytorch/issues/128217",
@@ -1247,15 +1261,6 @@
       "dynamo"
     ]
   ],
-  "test_item_to_inputs_kernel_nobreak_cuda (__main__.TestInductorDynamicCUDA)": [
-    "119538",
-    "https://github.com/pytorch/pytorch/issues/119538",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_jvpvjp_nn_functional_conv3d_cuda_float32 (__main__.TestOperatorsCUDA)": [
     "114654",
     "https://github.com/pytorch/pytorch/issues/114654",
@@ -1444,13 +1449,6 @@
     "https://github.com/pytorch/pytorch/issues/131104",
     [
       "dynamo"
-    ]
-  ],
-  "test_mismatched_global_state (__main__.GraphRegionTrackerTests)": [
-    "144895",
-    "https://github.com/pytorch/pytorch/issues/144895",
-    [
-      "rocm"
     ]
   ],
   "test_missing_getstate (__main__.TestScript)": [
@@ -1709,6 +1707,13 @@
       "win",
       "windows",
       "slow"
+    ]
+  ],
+  "test_partitioning_unremat_bw (__main__.MinCutPartitioningTests)": [
+    "145343",
+    "https://github.com/pytorch/pytorch/issues/145343",
+    [
+      "rocm"
     ]
   ],
   "test_pattern_matcher_multi_user_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
@@ -2291,13 +2296,6 @@
     [
       "rocm",
       "inductor"
-    ]
-  ],
-  "test_sparse_add_cuda_complex128 (__main__.TestSparseCSRCUDA)": [
-    "86388",
-    "https://github.com/pytorch/pytorch/issues/86388",
-    [
-      "rocm"
     ]
   ],
   "test_sparse_add_cuda_complex64 (__main__.TestSparseCSRCUDA)": [
