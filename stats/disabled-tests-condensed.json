@@ -111,6 +111,13 @@
       "rocm"
     ]
   ],
+  "test_aoti_eager_support_out_dynamic_shapes_cuda (__main__.DynamicShapesCodegenGPUTests)": [
+    "144947",
+    "https://github.com/pytorch/pytorch/issues/144947",
+    [
+      "rocm"
+    ]
+  ],
   "test_aoti_eager_support_str_dynamic_shapes_cuda (__main__.DynamicShapesCodegenGPUTests)": [
     "145003",
     "https://github.com/pytorch/pytorch/issues/145003",
@@ -330,6 +337,16 @@
       "macos"
     ]
   ],
+  "test_channel_group_quantization (__main__.TestQuantizePT2EAffineQuantization)": [
+    "144902",
+    "https://github.com/pytorch/pytorch/issues/144902",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos"
+    ]
+  ],
   "test_checkpoint_trigger (__main__.TestCheckpoint)": [
     "97402",
     "https://github.com/pytorch/pytorch/issues/97402",
@@ -539,6 +556,13 @@
       "rocm"
     ]
   ],
+  "test_config_option_dont_assume_alignment_cudagraphs_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
+    "144949",
+    "https://github.com/pytorch/pytorch/issues/144949",
+    [
+      "rocm"
+    ]
+  ],
   "test_constant_abi_compatible_cuda (__main__.AOTInductorTestABICompatibleCuda)": [
     "137579",
     "https://github.com/pytorch/pytorch/issues/137579",
@@ -740,6 +764,13 @@
       "linux"
     ]
   ],
+  "test_device_type (__main__.TestScript)": [
+    "146083",
+    "https://github.com/pytorch/pytorch/issues/146083",
+    [
+      "dynamo"
+    ]
+  ],
   "test_disable_external_correlation (__main__.TestProfiler)": [
     "143373",
     "https://github.com/pytorch/pytorch/issues/143373",
@@ -851,6 +882,20 @@
   "test_dynamo_export_retains_readable_parameter_and_buffer_names (__main__.TestFxToOnnx)": [
     "138064",
     "https://github.com/pytorch/pytorch/issues/138064",
+    [
+      "linux"
+    ]
+  ],
+  "test_embedding_bag_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "135215",
+    "https://github.com/pytorch/pytorch/issues/135215",
+    [
+      "linux"
+    ]
+  ],
+  "test_embedding_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
+    "135456",
+    "https://github.com/pytorch/pytorch/issues/135456",
     [
       "linux"
     ]
@@ -1464,6 +1509,13 @@
       "dynamo"
     ]
   ],
+  "test_module_parameters_and_buffers (__main__.TestScript)": [
+    "146082",
+    "https://github.com/pytorch/pytorch/issues/146082",
+    [
+      "dynamo"
+    ]
+  ],
   "test_nccl_errors_dump (__main__.NcclErrorDumpTest)": [
     "123530",
     "https://github.com/pytorch/pytorch/issues/123530",
@@ -1594,6 +1646,13 @@
       "rocm"
     ]
   ],
+  "test_oneline_func (__main__.TestScript)": [
+    "146079",
+    "https://github.com/pytorch/pytorch/issues/146079",
+    [
+      "dynamo"
+    ]
+  ],
   "test_onnx_export_huggingface_llm_models_with_kv_cache (__main__.DynamoExporterTest)": [
     "146022",
     "https://github.com/pytorch/pytorch/issues/146022",
@@ -1660,6 +1719,13 @@
     "https://github.com/pytorch/pytorch/issues/146032",
     [
       "dynamo"
+    ]
+  ],
+  "test_pattern_matcher_multi_user_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "134433",
+    "https://github.com/pytorch/pytorch/issues/134433",
+    [
+      "linux"
     ]
   ],
   "test_pcontext_wait_on_a_child_thread (__main__.StartProcessesAsFuncTest)": [
@@ -1771,6 +1837,13 @@
     "https://github.com/pytorch/pytorch/issues/121576",
     [
       "asan"
+    ]
+  ],
+  "test_python_call_annotation (__main__.TestScript)": [
+    "146077",
+    "https://github.com/pytorch/pytorch/issues/146077",
+    [
+      "dynamo"
     ]
   ],
   "test_python_frontend (__main__.TestScript)": [
@@ -1979,6 +2052,13 @@
       "rocm"
     ]
   ],
+  "test_request_bailout (__main__.TestScript)": [
+    "146076",
+    "https://github.com/pytorch/pytorch/issues/146076",
+    [
+      "dynamo"
+    ]
+  ],
   "test_requires_grad_loop (test_jit.TestScript)": [
     "91492",
     "https://github.com/pytorch/pytorch/issues/91492",
@@ -2108,6 +2188,13 @@
       "dynamo"
     ]
   ],
+  "test_script_non_tensor_args_outputs (__main__.TestScript)": [
+    "146081",
+    "https://github.com/pytorch/pytorch/issues/146081",
+    [
+      "dynamo"
+    ]
+  ],
   "test_script_outputs (__main__.TestScript)": [
     "145976",
     "https://github.com/pytorch/pytorch/issues/145976",
@@ -2207,6 +2294,13 @@
     "https://github.com/pytorch/pytorch/issues/134991",
     [
       "linux"
+    ]
+  ],
+  "test_serialization_big_ints (__main__.TestScript)": [
+    "146080",
+    "https://github.com/pytorch/pytorch/issues/146080",
+    [
+      "dynamo"
     ]
   ],
   "test_serialized_patterns_up_to_date (__main__.TestPatternMatcher)": [
@@ -2443,6 +2537,13 @@
   "test_ternary (__main__.TestScript)": [
     "146016",
     "https://github.com/pytorch/pytorch/issues/146016",
+    [
+      "dynamo"
+    ]
+  ],
+  "test_ternary_static_if (__main__.TestScript)": [
+    "146078",
+    "https://github.com/pytorch/pytorch/issues/146078",
     [
       "dynamo"
     ]
@@ -2775,6 +2876,13 @@
       "windows",
       "rocm",
       "slow"
+    ]
+  ],
+  "test_weight_norm_bwd_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "141484",
+    "https://github.com/pytorch/pytorch/issues/141484",
+    [
+      "linux"
     ]
   ],
   "test_while_loop_schema_gen (__main__.TestHopSchema)": [
