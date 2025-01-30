@@ -330,16 +330,6 @@
       "macos"
     ]
   ],
-  "test_channel_group_quantization (__main__.TestQuantizePT2EAffineQuantization)": [
-    "144902",
-    "https://github.com/pytorch/pytorch/issues/144902",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos"
-    ]
-  ],
   "test_checkpoint_trigger (__main__.TestCheckpoint)": [
     "97402",
     "https://github.com/pytorch/pytorch/issues/97402",
@@ -361,18 +351,6 @@
       "rocm"
     ]
   ],
-  "test_compile_forward_chunk_cpu_float32 (__main__.TestNestedTensorOpInfoCPU)": [
-    "144904",
-    "https://github.com/pytorch/pytorch/issues/144904",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "win",
-      "windows"
-    ]
-  ],
   "test_compile_forward_chunk_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)": [
     "144900",
     "https://github.com/pytorch/pytorch/issues/144900",
@@ -380,26 +358,6 @@
       "linux",
       "rocm",
       "slow"
-    ]
-  ],
-  "test_compile_forward_clone_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)": [
-    "144899",
-    "https://github.com/pytorch/pytorch/issues/144899",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
-  "test_compile_forward_select_cpu_float32 (__main__.TestNestedTensorOpInfoCPU)": [
-    "144901",
-    "https://github.com/pytorch/pytorch/issues/144901",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "win",
-      "windows"
     ]
   ],
   "test_complex_half_reference_testing_as_strided_scatter_cuda_complex32 (__main__.TestCommonCUDA)": [
@@ -1824,16 +1782,6 @@
     "144903",
     "https://github.com/pytorch/pytorch/issues/144903",
     [
-      "linux",
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_pt2_traceable_aot_eager_cpu_float8_e5m2 (__main__.TestFloat8DtypeCPUOnlyCPU)": [
-    "144934",
-    "https://github.com/pytorch/pytorch/issues/144934",
-    [
-      "asan",
       "linux",
       "mac",
       "macos"
