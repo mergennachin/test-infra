@@ -402,15 +402,6 @@
       "windows"
     ]
   ],
-  "test_compile_forward_select_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)": [
-    "144935",
-    "https://github.com/pytorch/pytorch/issues/144935",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_complex_half_reference_testing_as_strided_scatter_cuda_complex32 (__main__.TestCommonCUDA)": [
     "78205",
     "https://github.com/pytorch/pytorch/issues/78205",
@@ -579,13 +570,6 @@
   "test_comprehensive_svd_lowrank_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
     "145362",
     "https://github.com/pytorch/pytorch/issues/145362",
-    [
-      "rocm"
-    ]
-  ],
-  "test_config_option_dont_assume_alignment_cudagraphs_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
-    "144949",
-    "https://github.com/pytorch/pytorch/issues/144949",
     [
       "rocm"
     ]
@@ -859,13 +843,6 @@
       "linux"
     ]
   ],
-  "test_dropout_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
-    "144948",
-    "https://github.com/pytorch/pytorch/issues/144948",
-    [
-      "rocm"
-    ]
-  ],
   "test_dtensor_mm (__main__.DistMatrixOpsTest)": [
     "139813",
     "https://github.com/pytorch/pytorch/issues/139813",
@@ -987,6 +964,13 @@
     "https://github.com/pytorch/pytorch/issues/130575",
     [
       "linux"
+    ]
+  ],
+  "test_fibb (__main__.TestScript)": [
+    "146024",
+    "https://github.com/pytorch/pytorch/issues/146024",
+    [
+      "dynamo"
     ]
   ],
   "test_file_reader_no_memory_leak (__main__.TestScript)": [
@@ -1539,6 +1523,13 @@
       "dynamo"
     ]
   ],
+  "test_module_copying (__main__.TestScript)": [
+    "146030",
+    "https://github.com/pytorch/pytorch/issues/146030",
+    [
+      "dynamo"
+    ]
+  ],
   "test_nccl_errors_dump (__main__.NcclErrorDumpTest)": [
     "123530",
     "https://github.com/pytorch/pytorch/issues/123530",
@@ -1565,6 +1556,13 @@
   "test_new_spectral_norm_forward_swap_True (__main__.TestNNParametrization)": [
     "131089",
     "https://github.com/pytorch/pytorch/issues/131089",
+    [
+      "dynamo"
+    ]
+  ],
+  "test_nn_HingeEmbeddingLoss_no_batch_dim_sum (__main__.TestJitGeneratedModule)": [
+    "146027",
+    "https://github.com/pytorch/pytorch/issues/146027",
     [
       "dynamo"
     ]
@@ -1633,6 +1631,13 @@
       "dynamo"
     ]
   ],
+  "test_number_augassign_bitwise_pow (__main__.TestScript)": [
+    "146033",
+    "https://github.com/pytorch/pytorch/issues/146033",
+    [
+      "dynamo"
+    ]
+  ],
   "test_numpy_ref_mps_nn_functional_conv_transpose1d_mps_float32 (__main__.TestCommonMPS)": [
     "87542",
     "https://github.com/pytorch/pytorch/issues/87542",
@@ -1653,6 +1658,13 @@
     "https://github.com/pytorch/pytorch/issues/105123",
     [
       "rocm"
+    ]
+  ],
+  "test_onnx_export_huggingface_llm_models_with_kv_cache (__main__.DynamoExporterTest)": [
+    "146022",
+    "https://github.com/pytorch/pytorch/issues/146022",
+    [
+      "linux"
     ]
   ],
   "test_op_dtype_propagation_bitwise_xor_cuda_int64 (__main__.TestCaseCUDA)": [
@@ -1721,6 +1733,13 @@
     "https://github.com/pytorch/pytorch/issues/145343",
     [
       "rocm"
+    ]
+  ],
+  "test_pass (__main__.TestScript)": [
+    "146032",
+    "https://github.com/pytorch/pytorch/issues/146032",
+    [
+      "dynamo"
     ]
   ],
   "test_pcontext_wait_on_a_child_thread (__main__.StartProcessesAsFuncTest)": [
@@ -1853,6 +1872,13 @@
       "asan"
     ]
   ],
+  "test_python_frontend (__main__.TestScript)": [
+    "146023",
+    "https://github.com/pytorch/pytorch/issues/146023",
+    [
+      "dynamo"
+    ]
+  ],
   "test_python_frontend_source_range (__main__.TestScript)": [
     "146011",
     "https://github.com/pytorch/pytorch/issues/146011",
@@ -1865,6 +1891,13 @@
     "https://github.com/pytorch/pytorch/issues/73474",
     [
       "macos"
+    ]
+  ],
+  "test_python_op_name (__main__.TestScript)": [
+    "146031",
+    "https://github.com/pytorch/pytorch/issues/146031",
+    [
+      "dynamo"
     ]
   ],
   "test_rand (test_jit.TestScript)": [
@@ -2087,6 +2120,13 @@
       "rocm"
     ]
   ],
+  "test_round (__main__.TestScript)": [
+    "146028",
+    "https://github.com/pytorch/pytorch/issues/146028",
+    [
+      "dynamo"
+    ]
+  ],
   "test_run_decompositions_map_handle_to_new_nodes (__main__.TestNumericDebugger)": [
     "144933",
     "https://github.com/pytorch/pytorch/issues/144933",
@@ -2168,6 +2208,20 @@
   "test_script_pad_sequence_pack_sequence (__main__.TestScript)": [
     "146015",
     "https://github.com/pytorch/pytorch/issues/146015",
+    [
+      "dynamo"
+    ]
+  ],
+  "test_script_sequential_for (__main__.TestScript)": [
+    "146029",
+    "https://github.com/pytorch/pytorch/issues/146029",
+    [
+      "dynamo"
+    ]
+  ],
+  "test_script_sequential_multi_output_fail (__main__.TestScript)": [
+    "146026",
+    "https://github.com/pytorch/pytorch/issues/146026",
     [
       "dynamo"
     ]
@@ -2324,13 +2378,6 @@
       "linux"
     ]
   ],
-  "test_split_scan (__main__.MultiKernelTest)": [
-    "141739",
-    "https://github.com/pytorch/pytorch/issues/141739",
-    [
-      "linux"
-    ]
-  ],
   "test_split_scan (__main__.TestKernelBenchmark)": [
     "133228",
     "https://github.com/pytorch/pytorch/issues/133228",
@@ -2433,13 +2480,6 @@
       "linux"
     ]
   ],
-  "test_tensor_dtype_complex (__main__.CommTest)": [
-    "112460",
-    "https://github.com/pytorch/pytorch/issues/112460",
-    [
-      "linux"
-    ]
-  ],
   "test_tensor_requires_grad (test_jit.TestScript)": [
     "91497",
     "https://github.com/pytorch/pytorch/issues/91497",
@@ -2509,6 +2549,13 @@
     "https://github.com/pytorch/pytorch/issues/135212",
     [
       "linux"
+    ]
+  ],
+  "test_torch_any (__main__.TestScript)": [
+    "146025",
+    "https://github.com/pytorch/pytorch/issues/146025",
+    [
+      "dynamo"
     ]
   ],
   "test_torch_functional_tensordot_list (__main__.TestScript)": [
