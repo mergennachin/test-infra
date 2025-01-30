@@ -704,18 +704,6 @@
       "dynamo"
     ]
   ],
-  "test_device_mode_ops_sparse_mm_reduce_cpu_float32 (__main__.TestDeviceUtilsCPU)": [
-    "132552",
-    "https://github.com/pytorch/pytorch/issues/132552",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "win",
-      "windows"
-    ]
-  ],
   "test_device_mode_ops_sparse_mm_reduce_cpu_float64 (__main__.TestDeviceUtilsCPU)": [
     "132619",
     "https://github.com/pytorch/pytorch/issues/132619",
@@ -1156,13 +1144,6 @@
   "test_inplace_gradgrad_remainder_cuda_float64 (__main__.TestBwdGradientsCUDA)": [
     "100675",
     "https://github.com/pytorch/pytorch/issues/100675",
-    [
-      "linux"
-    ]
-  ],
-  "test_input_mutation2_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "135295",
-    "https://github.com/pytorch/pytorch/issues/135295",
     [
       "linux"
     ]
@@ -1776,15 +1757,6 @@
     "https://github.com/pytorch/pytorch/issues/125365",
     [
       "linux"
-    ]
-  ],
-  "test_pt2_traceable_aot_eager_cpu_float8_e4m3fn (__main__.TestFloat8DtypeCPUOnlyCPU)": [
-    "144903",
-    "https://github.com/pytorch/pytorch/issues/144903",
-    [
-      "linux",
-      "mac",
-      "macos"
     ]
   ],
   "test_pybind_type_comparisons (__main__.TestScript)": [
