@@ -104,13 +104,6 @@
       "rocm"
     ]
   ],
-  "test_aoti_eager_support_out_dynamic_shapes_cuda (__main__.DynamicShapesCodegenGPUTests)": [
-    "144947",
-    "https://github.com/pytorch/pytorch/issues/144947",
-    [
-      "rocm"
-    ]
-  ],
   "test_aoti_eager_support_str_dynamic_shapes_cuda (__main__.DynamicShapesCodegenGPUTests)": [
     "145003",
     "https://github.com/pytorch/pytorch/issues/145003",
