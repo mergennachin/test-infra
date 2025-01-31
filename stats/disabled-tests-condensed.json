@@ -888,6 +888,13 @@
       "linux"
     ]
   ],
+  "test_embedding_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "135250",
+    "https://github.com/pytorch/pytorch/issues/135250",
+    [
+      "linux"
+    ]
+  ],
   "test_execution_trace_with_kineto (__main__.TestExecutionTrace)": [
     "123536",
     "https://github.com/pytorch/pytorch/issues/123536",
@@ -1497,6 +1504,13 @@
       "dynamo"
     ]
   ],
+  "test_module_with_params_called_fails (__main__.TestScript)": [
+    "146124",
+    "https://github.com/pytorch/pytorch/issues/146124",
+    [
+      "dynamo"
+    ]
+  ],
   "test_nccl_errors_dump (__main__.NcclErrorDumpTest)": [
     "123530",
     "https://github.com/pytorch/pytorch/issues/123530",
@@ -1681,6 +1695,13 @@
       "linux"
     ]
   ],
+  "test_ord (__main__.TestScript)": [
+    "146125",
+    "https://github.com/pytorch/pytorch/issues/146125",
+    [
+      "dynamo"
+    ]
+  ],
   "test_output_match_nn_functional_poisson_nll_loss_cpu_int32 (__main__.TORCH_NN_MODULECPU)": [
     "122389",
     "https://github.com/pytorch/pytorch/issues/122389",
@@ -1812,7 +1833,8 @@
     [
       "linux",
       "mac",
-      "macos"
+      "macos",
+      "asan"
     ]
   ],
   "test_pybind_type_comparisons (__main__.TestScript)": [
@@ -2179,6 +2201,13 @@
       "dynamo"
     ]
   ],
+  "test_script_bool_constant (__main__.TestScript)": [
+    "146122",
+    "https://github.com/pytorch/pytorch/issues/146122",
+    [
+      "dynamo"
+    ]
+  ],
   "test_script_non_tensor_args_outputs (__main__.TestScript)": [
     "146081",
     "https://github.com/pytorch/pytorch/issues/146081",
@@ -2210,6 +2239,13 @@
   "test_script_sequential_multi_output_fail (__main__.TestScript)": [
     "146026",
     "https://github.com/pytorch/pytorch/issues/146026",
+    [
+      "dynamo"
+    ]
+  ],
+  "test_script_star_assign (__main__.TestScript)": [
+    "146123",
+    "https://github.com/pytorch/pytorch/issues/146123",
     [
       "dynamo"
     ]
@@ -2779,6 +2815,13 @@
   "test_variant_consistency_jit_linalg_lu_factor_ex_cuda_complex64 (__main__.TestJitCUDA)": [
     "86887",
     "https://github.com/pytorch/pytorch/issues/86887",
+    [
+      "linux"
+    ]
+  ],
+  "test_vdd_clamp_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "134445",
+    "https://github.com/pytorch/pytorch/issues/134445",
     [
       "linux"
     ]
