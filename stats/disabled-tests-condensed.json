@@ -726,14 +726,6 @@
       "dynamo"
     ]
   ],
-  "test_device_mode_ops_sparse_sampled_addmm_cpu_complex64 (__main__.TestDeviceUtilsCPU)": [
-    "132686",
-    "https://github.com/pytorch/pytorch/issues/132686",
-    [
-      "asan",
-      "linux"
-    ]
-  ],
   "test_device_mode_ops_sparse_sampled_addmm_cpu_float64 (__main__.TestDeviceUtilsCPU)": [
     "132737",
     "https://github.com/pytorch/pytorch/issues/132737",
@@ -831,13 +823,6 @@
   "test_dtensor_seq_par_shard_dim_0 (__main__.MicroPipelineTPTest)": [
     "145924",
     "https://github.com/pytorch/pytorch/issues/145924",
-    [
-      "linux"
-    ]
-  ],
-  "test_dtype_sympy_expr_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
-    "135213",
-    "https://github.com/pytorch/pytorch/issues/135213",
     [
       "linux"
     ]
@@ -1600,6 +1585,13 @@
       "inductor"
     ]
   ],
+  "test_not (__main__.TestScript)": [
+    "146164",
+    "https://github.com/pytorch/pytorch/issues/146164",
+    [
+      "dynamo"
+    ]
+  ],
   "test_number_abs (__main__.TestScript)": [
     "146013",
     "https://github.com/pytorch/pytorch/issues/146013",
@@ -1905,6 +1897,36 @@
       "dynamo"
     ]
   ],
+  "test_pytree_register_data_class_retraceability_non_strict (__main__.RetraceExportNonStrictTestExport)": [
+    "146159",
+    "https://github.com/pytorch/pytorch/issues/146159",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos"
+    ]
+  ],
+  "test_pytree_register_data_class_serdes_non_strict (__main__.SerDesExportNonStrictTestExport)": [
+    "146160",
+    "https://github.com/pytorch/pytorch/issues/146160",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos"
+    ]
+  ],
+  "test_pytree_register_data_class_training_ir_to_decomp_non_strict (__main__.TrainingIRToRunDecompExportNonStrictTestExport)": [
+    "146161",
+    "https://github.com/pytorch/pytorch/issues/146161",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos"
+    ]
+  ],
   "test_rand (test_jit.TestScript)": [
     "91495",
     "https://github.com/pytorch/pytorch/issues/91495",
@@ -2060,6 +2082,13 @@
     "https://github.com/pytorch/pytorch/issues/69178",
     [
       "mac"
+    ]
+  ],
+  "test_remove_dropout (__main__.TestScript)": [
+    "146162",
+    "https://github.com/pytorch/pytorch/issues/146162",
+    [
+      "dynamo"
     ]
   ],
   "test_reorder_peak_memory (__main__.TestOperatorReorderForPeakMemory)": [
@@ -2248,6 +2277,13 @@
       "dynamo"
     ]
   ],
+  "test_script_optional_none (__main__.TestScript)": [
+    "146163",
+    "https://github.com/pytorch/pytorch/issues/146163",
+    [
+      "dynamo"
+    ]
+  ],
   "test_script_outputs (__main__.TestScript)": [
     "145976",
     "https://github.com/pytorch/pytorch/issues/145976",
@@ -2375,6 +2411,13 @@
     "https://github.com/pytorch/pytorch/issues/135476",
     [
       "linux"
+    ]
+  ],
+  "test_serialized_source_ranges2 (__main__.TestScript)": [
+    "146165",
+    "https://github.com/pytorch/pytorch/issues/146165",
+    [
+      "dynamo"
     ]
   ],
   "test_set_per_process_memory_fraction (__main__.TestCuda)": [
@@ -2617,13 +2660,6 @@
   "test_threading (__main__.TestWithNCCL)": [
     "141637",
     "https://github.com/pytorch/pytorch/issues/141637",
-    [
-      "linux"
-    ]
-  ],
-  "test_tmp_not_defined_issue2_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
-    "135212",
-    "https://github.com/pytorch/pytorch/issues/135212",
     [
       "linux"
     ]
