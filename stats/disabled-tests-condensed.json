@@ -1599,6 +1599,13 @@
       "dynamo"
     ]
   ],
+  "test_ntuple_builtins (__main__.TestScript)": [
+    "146205",
+    "https://github.com/pytorch/pytorch/issues/146205",
+    [
+      "dynamo"
+    ]
+  ],
   "test_number_abs (__main__.TestScript)": [
     "146013",
     "https://github.com/pytorch/pytorch/issues/146013",
@@ -1814,13 +1821,6 @@
       "linux"
     ]
   ],
-  "test_profiler_mark_wrapper_call_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
-    "145002",
-    "https://github.com/pytorch/pytorch/issues/145002",
-    [
-      "rocm"
-    ]
-  ],
   "test_profiler_rpc_key_names (__main__.TensorPipeRpcTest)": [
     "125365",
     "https://github.com/pytorch/pytorch/issues/125365",
@@ -1900,6 +1900,13 @@
   "test_python_op_name (__main__.TestScript)": [
     "146031",
     "https://github.com/pytorch/pytorch/issues/146031",
+    [
+      "dynamo"
+    ]
+  ],
+  "test_python_val_doesnt_have_attr (__main__.TestScript)": [
+    "146206",
+    "https://github.com/pytorch/pytorch/issues/146206",
     [
       "dynamo"
     ]
@@ -2203,6 +2210,13 @@
     [
       "linux",
       "rocm"
+    ]
+  ],
+  "test_return_stmt_not_at_end (__main__.TestScript)": [
+    "146204",
+    "https://github.com/pytorch/pytorch/issues/146204",
+    [
+      "dynamo"
     ]
   ],
   "test_return_tuple (__main__.TestScript)": [
