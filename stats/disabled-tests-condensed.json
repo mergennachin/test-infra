@@ -951,13 +951,6 @@
       "dynamo"
     ]
   ],
-  "test_file_reader_no_memory_leak (__main__.TestScript)": [
-    "138885",
-    "https://github.com/pytorch/pytorch/issues/138885",
-    [
-      "linux"
-    ]
-  ],
   "test_find_or_create_pg (__main__.TestPgTag)": [
     "107278",
     "https://github.com/pytorch/pytorch/issues/107278",
@@ -1185,6 +1178,13 @@
       "linux"
     ]
   ],
+  "test_input_mutation2_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "135295",
+    "https://github.com/pytorch/pytorch/issues/135295",
+    [
+      "linux"
+    ]
+  ],
   "test_int64_upsample3d_cuda_bfloat16 (__main__.TestTorchDeviceTypeCUDA)": [
     "146007",
     "https://github.com/pytorch/pytorch/issues/146007",
@@ -1274,6 +1274,13 @@
     [
       "rocm",
       "linux"
+    ]
+  ],
+  "test_list_clearing_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
+    "145004",
+    "https://github.com/pytorch/pytorch/issues/145004",
+    [
+      "rocm"
     ]
   ],
   "test_load_from_bias_head_seq_batch_float16 (__main__.TestFlexDecoding)": [
@@ -1529,15 +1536,6 @@
       "rocm"
     ]
   ],
-  "test_nested_optimize_decorator (__main__.MiscTests)": [
-    "145053",
-    "https://github.com/pytorch/pytorch/issues/145053",
-    [
-      "linux",
-      "mac",
-      "macos"
-    ]
-  ],
   "test_new_spectral_norm_forward_swap_True (__main__.TestNNParametrization)": [
     "131089",
     "https://github.com/pytorch/pytorch/issues/131089",
@@ -1713,6 +1711,13 @@
       "linux"
     ]
   ],
+  "test_pack_unpack_state (__main__.TestScript)": [
+    "146149",
+    "https://github.com/pytorch/pytorch/issues/146149",
+    [
+      "dynamo"
+    ]
+  ],
   "test_partitioning_unremat_bw (__main__.MinCutPartitioningTests)": [
     "145343",
     "https://github.com/pytorch/pytorch/issues/145343",
@@ -1875,6 +1880,13 @@
   "test_python_frontend (__main__.TestScript)": [
     "146023",
     "https://github.com/pytorch/pytorch/issues/146023",
+    [
+      "dynamo"
+    ]
+  ],
+  "test_python_frontend_py3 (__main__.TestScript)": [
+    "146146",
+    "https://github.com/pytorch/pytorch/issues/146146",
     [
       "dynamo"
     ]
@@ -2222,6 +2234,20 @@
       "dynamo"
     ]
   ],
+  "test_script_chunk (__main__.TestScript)": [
+    "146150",
+    "https://github.com/pytorch/pytorch/issues/146150",
+    [
+      "dynamo"
+    ]
+  ],
+  "test_script_module_call_noscript (__main__.TestScript)": [
+    "146147",
+    "https://github.com/pytorch/pytorch/issues/146147",
+    [
+      "dynamo"
+    ]
+  ],
   "test_script_non_tensor_args_outputs (__main__.TestScript)": [
     "146081",
     "https://github.com/pytorch/pytorch/issues/146081",
@@ -2260,6 +2286,13 @@
   "test_script_star_assign (__main__.TestScript)": [
     "146123",
     "https://github.com/pytorch/pytorch/issues/146123",
+    [
+      "dynamo"
+    ]
+  ],
+  "test_script_star_expr (__main__.TestScript)": [
+    "146148",
+    "https://github.com/pytorch/pytorch/issues/146148",
     [
       "dynamo"
     ]
