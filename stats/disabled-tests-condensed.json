@@ -793,13 +793,6 @@
       "linux"
     ]
   ],
-  "test_dropout_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
-    "144948",
-    "https://github.com/pytorch/pytorch/issues/144948",
-    [
-      "rocm"
-    ]
-  ],
   "test_dropout_eval (__main__.TestScript)": [
     "146138",
     "https://github.com/pytorch/pytorch/issues/146138",
