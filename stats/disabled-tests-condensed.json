@@ -728,18 +728,6 @@
       "dynamo"
     ]
   ],
-  "test_device_mode_ops_sparse_mm_reduce_cpu_float64 (__main__.TestDeviceUtilsCPU)": [
-    "132619",
-    "https://github.com/pytorch/pytorch/issues/132619",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "win",
-      "windows"
-    ]
-  ],
   "test_device_mode_ops_sparse_sampled_addmm_cpu_complex128 (__main__.TestDeviceUtilsCPU)": [
     "132643",
     "https://github.com/pytorch/pytorch/issues/132643",
@@ -1284,13 +1272,6 @@
       "linux"
     ]
   ],
-  "test_list_clearing_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
-    "145004",
-    "https://github.com/pytorch/pytorch/issues/145004",
-    [
-      "rocm"
-    ]
-  ],
   "test_load_from_bias_head_seq_batch_float16 (__main__.TestFlexDecoding)": [
     "134144",
     "https://github.com/pytorch/pytorch/issues/134144",
@@ -1825,6 +1806,15 @@
       "linux"
     ]
   ],
+  "test_pt2_traceable_aot_eager_cpu_float8_e4m3fn (__main__.TestFloat8DtypeCPUOnlyCPU)": [
+    "144903",
+    "https://github.com/pytorch/pytorch/issues/144903",
+    [
+      "linux",
+      "mac",
+      "macos"
+    ]
+  ],
   "test_pybind_type_comparisons (__main__.TestScript)": [
     "145971",
     "https://github.com/pytorch/pytorch/issues/145971",
@@ -2084,7 +2074,8 @@
     "145805",
     "https://github.com/pytorch/pytorch/issues/145805",
     [
-      "linux"
+      "linux",
+      "rocm"
     ]
   ],
   "test_return_tuple (__main__.TestScript)": [
