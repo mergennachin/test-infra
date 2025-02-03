@@ -251,13 +251,6 @@
       "rocm"
     ]
   ],
-  "test_cache_load_function_device_cuda_bfloat16_dynamic_False_bundle_triton_True_grad_False (__main__.TestFxGraphCache)": [
-    "145217",
-    "https://github.com/pytorch/pytorch/issues/145217",
-    [
-      "rocm"
-    ]
-  ],
   "test_cache_load_function_device_cuda_float32_dynamic_False_bundle_triton_True_grad_False (__main__.TestFxGraphCache)": [
     "145363",
     "https://github.com/pytorch/pytorch/issues/145363",
