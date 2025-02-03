@@ -265,13 +265,6 @@
       "rocm"
     ]
   ],
-  "test_cache_load_function_device_cuda_bfloat16_dynamic_False_bundle_triton_True_grad_True (__main__.TestFxGraphCache)": [
-    "145181",
-    "https://github.com/pytorch/pytorch/issues/145181",
-    [
-      "rocm"
-    ]
-  ],
   "test_cache_load_function_device_cuda_float32_dynamic_False_bundle_triton_True_grad_False (__main__.TestFxGraphCache)": [
     "145363",
     "https://github.com/pytorch/pytorch/issues/145363",
@@ -522,15 +515,6 @@
     [
       "rocm",
       "linux"
-    ]
-  ],
-  "test_comprehensive_pca_lowrank_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
-    "139828",
-    "https://github.com/pytorch/pytorch/issues/139828",
-    [
-      "linux",
-      "slow",
-      "rocm"
     ]
   ],
   "test_comprehensive_rsub_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
@@ -1376,13 +1360,6 @@
       "dynamo"
     ]
   ],
-  "test_mixed_mm (__main__.TestPatternMatcher)": [
-    "145192",
-    "https://github.com/pytorch/pytorch/issues/145192",
-    [
-      "rocm"
-    ]
-  ],
   "test_mixed_mm_bad_cases (__main__.TestPatternMatcher)": [
     "128487",
     "https://github.com/pytorch/pytorch/issues/128487",
@@ -1806,13 +1783,6 @@
       "rocm"
     ]
   ],
-  "test_profiler_mark_wrapper_call_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "135294",
-    "https://github.com/pytorch/pytorch/issues/135294",
-    [
-      "linux"
-    ]
-  ],
   "test_profiler_rpc_key_names (__main__.TensorPipeRpcTest)": [
     "125365",
     "https://github.com/pytorch/pytorch/issues/125365",
@@ -2097,30 +2067,9 @@
       "rocm"
     ]
   ],
-  "test_remote_cache_load_function_device_cuda_bfloat16_dynamic_False_bundle_triton_False (__main__.TestFxGraphCache)": [
-    "145182",
-    "https://github.com/pytorch/pytorch/issues/145182",
-    [
-      "rocm"
-    ]
-  ],
-  "test_remote_cache_load_function_device_cuda_bfloat16_dynamic_False_bundle_triton_True (__main__.TestFxGraphCache)": [
-    "145190",
-    "https://github.com/pytorch/pytorch/issues/145190",
-    [
-      "rocm"
-    ]
-  ],
   "test_remote_cache_load_function_device_cuda_float32_dynamic_False_bundle_triton_False (__main__.TestFxGraphCache)": [
     "145212",
     "https://github.com/pytorch/pytorch/issues/145212",
-    [
-      "rocm"
-    ]
-  ],
-  "test_remote_cache_load_function_device_cuda_float32_dynamic_False_bundle_triton_True (__main__.TestFxGraphCache)": [
-    "145191",
-    "https://github.com/pytorch/pytorch/issues/145191",
     [
       "rocm"
     ]
@@ -2142,13 +2091,6 @@
   "test_reorder_peak_memory (__main__.TestOperatorReorderForPeakMemory)": [
     "145332",
     "https://github.com/pytorch/pytorch/issues/145332",
-    [
-      "rocm"
-    ]
-  ],
-  "test_reorder_peak_memory_dfs (__main__.TestOperatorReorderForPeakMemory)": [
-    "145183",
-    "https://github.com/pytorch/pytorch/issues/145183",
     [
       "rocm"
     ]
@@ -2420,13 +2362,6 @@
       "rocm"
     ]
   ],
-  "test_sdpa_rewriter_12_cuda (__main__.SDPAPatternRewriterCudaTests)": [
-    "145187",
-    "https://github.com/pytorch/pytorch/issues/145187",
-    [
-      "rocm"
-    ]
-  ],
   "test_sdpa_rewriter_3_cuda (__main__.SDPAPatternRewriterCudaDynamicTests)": [
     "122896",
     "https://github.com/pytorch/pytorch/issues/122896",
@@ -2524,14 +2459,6 @@
     "https://github.com/pytorch/pytorch/issues/105121",
     [
       "rocm"
-    ]
-  ],
-  "test_slice_scatter_reinplace_cuda (__main__.GPUTests)": [
-    "145189",
-    "https://github.com/pytorch/pytorch/issues/145189",
-    [
-      "rocm",
-      "inductor"
     ]
   ],
   "test_sparse_add_cuda_float64 (__main__.TestSparseCSRCUDA)": [
