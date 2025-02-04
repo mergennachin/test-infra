@@ -2092,6 +2092,13 @@
       "rocm"
     ]
   ],
+  "test_remote_cache_load_function_device_cuda_float32_dynamic_False_bundle_triton_False (__main__.TestFxGraphCache)": [
+    "145212",
+    "https://github.com/pytorch/pytorch/issues/145212",
+    [
+      "rocm"
+    ]
+  ],
   "test_remote_timeout_to_here_in_jit (__main__.FaultyJitFaultyAgentRpcTest)": [
     "69178",
     "https://github.com/pytorch/pytorch/issues/69178",
@@ -2470,6 +2477,14 @@
     "https://github.com/pytorch/pytorch/issues/105121",
     [
       "rocm"
+    ]
+  ],
+  "test_slice_scatter_reinplace_cuda (__main__.GPUTests)": [
+    "145189",
+    "https://github.com/pytorch/pytorch/issues/145189",
+    [
+      "rocm",
+      "inductor"
     ]
   ],
   "test_sparse_add_cuda_float64 (__main__.TestSparseCSRCUDA)": [
