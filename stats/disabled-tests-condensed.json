@@ -39,7 +39,8 @@
     "https://github.com/pytorch/pytorch/issues/144988",
     [
       "mac",
-      "macos"
+      "macos",
+      "rocm"
     ]
   ],
   "test_always_alive_values (jit.test_freezing.TestMKLDNNReinplacing)": [
@@ -121,6 +122,13 @@
   "test_aoti_eager_support_out_dynamic_shapes_cuda (__main__.DynamicShapesCodegenGPUTests)": [
     "144947",
     "https://github.com/pytorch/pytorch/issues/144947",
+    [
+      "rocm"
+    ]
+  ],
+  "test_aoti_eager_support_out_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
+    "146523",
+    "https://github.com/pytorch/pytorch/issues/146523",
     [
       "rocm"
     ]
@@ -1143,6 +1151,13 @@
   "test_mm_concat_cuda (__main__.FreezingGpuTests)": [
     "145186",
     "https://github.com/pytorch/pytorch/issues/145186",
+    [
+      "rocm"
+    ]
+  ],
+  "test_mm_plus_mm (__main__.TestPatternMatcher)": [
+    "145335",
+    "https://github.com/pytorch/pytorch/issues/145335",
     [
       "rocm"
     ]
