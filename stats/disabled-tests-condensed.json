@@ -744,13 +744,6 @@
       "rocm"
     ]
   ],
-  "test_dynamo_export_retains_readable_parameter_and_buffer_names (__main__.TestFxToOnnx)": [
-    "138064",
-    "https://github.com/pytorch/pytorch/issues/138064",
-    [
-      "linux"
-    ]
-  ],
   "test_embedding_bag_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
     "135215",
     "https://github.com/pytorch/pytorch/issues/135215",
@@ -1187,13 +1180,6 @@
     [
       "linux",
       "slow"
-    ]
-  ],
-  "test_mnist_exported_with_no_warnings (__main__.TestFxToOnnx)": [
-    "141785",
-    "https://github.com/pytorch/pytorch/issues/141785",
-    [
-      "linux"
     ]
   ],
   "test_module_apis (__main__.TestScript)": [
