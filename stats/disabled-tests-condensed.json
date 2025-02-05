@@ -97,6 +97,20 @@
       "rocm"
     ]
   ],
+  "test_aoti_eager_dtype_device_layout_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
+    "146487",
+    "https://github.com/pytorch/pytorch/issues/146487",
+    [
+      "rocm"
+    ]
+  ],
+  "test_aoti_eager_override_registration_dynamic_shapes_cuda (__main__.DynamicShapesCodegenGPUTests)": [
+    "146486",
+    "https://github.com/pytorch/pytorch/issues/146486",
+    [
+      "rocm"
+    ]
+  ],
   "test_aoti_eager_override_registration_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
     "145997",
     "https://github.com/pytorch/pytorch/issues/145997",
@@ -832,6 +846,14 @@
     "https://github.com/pytorch/pytorch/issues/134811",
     [
       "linux"
+    ]
+  ],
+  "test_gelu_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "135222",
+    "https://github.com/pytorch/pytorch/issues/135222",
+    [
+      "linux",
+      "rocm"
     ]
   ],
   "test_gpu_simple (__main__.TensorPipeCudaDistAutogradTest)": [
@@ -2050,7 +2072,8 @@
     "https://github.com/pytorch/pytorch/issues/142470",
     [
       "mac",
-      "macos"
+      "macos",
+      "rocm"
     ]
   ],
   "test_single_linear (quantization.jit.test_quantize_jit.TestQuantizeJit)": [
