@@ -721,6 +721,15 @@
       "dynamo"
     ]
   ],
+  "test_dynamic_stride_nobreak_cuda (__main__.TestInductorDynamicCUDA)": [
+    "117954",
+    "https://github.com/pytorch/pytorch/issues/117954",
+    [
+      "linux",
+      "slow",
+      "rocm"
+    ]
+  ],
   "test_dynamic_toggle (__main__.TestProfiler)": [
     "134479",
     "https://github.com/pytorch/pytorch/issues/134479",
@@ -1134,13 +1143,6 @@
   "test_mm_concat_cuda (__main__.FreezingGpuTests)": [
     "145186",
     "https://github.com/pytorch/pytorch/issues/145186",
-    [
-      "rocm"
-    ]
-  ],
-  "test_mm_plus_mm (__main__.TestPatternMatcher)": [
-    "145335",
-    "https://github.com/pytorch/pytorch/issues/145335",
     [
       "rocm"
     ]
@@ -1859,7 +1861,8 @@
     "https://github.com/pytorch/pytorch/issues/144963",
     [
       "mac",
-      "macos"
+      "macos",
+      "rocm"
     ]
   ],
   "test_scatter_uneven (__main__.DeviceMeshCollectiveTest)": [
