@@ -1470,14 +1470,6 @@
       "linux"
     ]
   ],
-  "test_prod (__main__.MPSBasicTests)": [
-    "146430",
-    "https://github.com/pytorch/pytorch/issues/146430",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_prod_large (__main__.TestCuda)": [
     "134723",
     "https://github.com/pytorch/pytorch/issues/134723",
