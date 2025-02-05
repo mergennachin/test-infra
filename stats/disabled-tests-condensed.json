@@ -1197,6 +1197,13 @@
       "dynamo"
     ]
   ],
+  "test_multi_output_unbacked_custom_op_cuda (__main__.TestInductorDynamicCUDA)": [
+    "135755",
+    "https://github.com/pytorch/pytorch/issues/135755",
+    [
+      "rocm"
+    ]
+  ],
   "test_nested (quantization.jit.test_quantize_jit.TestQuantizeJit)": [
     "105120",
     "https://github.com/pytorch/pytorch/issues/105120",
