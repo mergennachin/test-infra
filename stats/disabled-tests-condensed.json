@@ -237,13 +237,6 @@
       "rocm"
     ]
   ],
-  "test_cache_load_function_device_cuda_float32_dynamic_False_bundle_triton_True_grad_True (__main__.TestFxGraphCache)": [
-    "145336",
-    "https://github.com/pytorch/pytorch/issues/145336",
-    [
-      "rocm"
-    ]
-  ],
   "test_cat_max_autotune_triton (__main__.TestMaxAutotune)": [
     "145830",
     "https://github.com/pytorch/pytorch/issues/145830",
@@ -330,14 +323,6 @@
     "https://github.com/pytorch/pytorch/issues/145919",
     [
       "rocm"
-    ]
-  ],
-  "test_comprehensive_argsort_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
-    "131158",
-    "https://github.com/pytorch/pytorch/issues/131158",
-    [
-      "rocm",
-      "inductor"
     ]
   ],
   "test_comprehensive_complex_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
@@ -1131,13 +1116,6 @@
       "dynamo"
     ]
   ],
-  "test_mixed_mm_bad_cases (__main__.TestPatternMatcher)": [
-    "128487",
-    "https://github.com/pytorch/pytorch/issues/128487",
-    [
-      "rocm"
-    ]
-  ],
   "test_mixed_mm_epi_works (__main__.TestPatternMatcher)": [
     "126489",
     "https://github.com/pytorch/pytorch/issues/126489",
@@ -1773,9 +1751,23 @@
       "rocm"
     ]
   ],
+  "test_remote_cache_load_function_device_cuda_bfloat16_dynamic_False_bundle_triton_False (__main__.TestFxGraphCache)": [
+    "145182",
+    "https://github.com/pytorch/pytorch/issues/145182",
+    [
+      "rocm"
+    ]
+  ],
   "test_remote_cache_load_function_device_cuda_float32_dynamic_False_bundle_triton_False (__main__.TestFxGraphCache)": [
     "145212",
     "https://github.com/pytorch/pytorch/issues/145212",
+    [
+      "rocm"
+    ]
+  ],
+  "test_remote_cache_load_function_device_cuda_float32_dynamic_False_bundle_triton_True (__main__.TestFxGraphCache)": [
+    "145191",
+    "https://github.com/pytorch/pytorch/issues/145191",
     [
       "rocm"
     ]
@@ -1792,13 +1784,6 @@
     "https://github.com/pytorch/pytorch/issues/146162",
     [
       "dynamo"
-    ]
-  ],
-  "test_reorder_peak_memory (__main__.TestOperatorReorderForPeakMemory)": [
-    "145332",
-    "https://github.com/pytorch/pytorch/issues/145332",
-    [
-      "rocm"
     ]
   ],
   "test_repeated_calling_cuda (__main__.AOTInductorTestABICompatibleGpu)": [
