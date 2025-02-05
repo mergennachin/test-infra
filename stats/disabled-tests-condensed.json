@@ -846,13 +846,6 @@
       "mac"
     ]
   ],
-  "test_graph_break_inside_ctx_with_side_effects (__main__.ContextlibContextManagerTests)": [
-    "145346",
-    "https://github.com/pytorch/pytorch/issues/145346",
-    [
-      "linux"
-    ]
-  ],
   "test_graph_concurrent_replay (__main__.TestCuda)": [
     "104055",
     "https://github.com/pytorch/pytorch/issues/104055",
