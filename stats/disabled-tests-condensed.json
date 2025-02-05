@@ -230,13 +230,6 @@
       "rocm"
     ]
   ],
-  "test_cache_load_function_device_cuda_float32_dynamic_False_bundle_triton_True_grad_False (__main__.TestFxGraphCache)": [
-    "145363",
-    "https://github.com/pytorch/pytorch/issues/145363",
-    [
-      "rocm"
-    ]
-  ],
   "test_cat_max_autotune_triton (__main__.TestMaxAutotune)": [
     "145830",
     "https://github.com/pytorch/pytorch/issues/145830",
@@ -460,13 +453,6 @@
     "https://github.com/pytorch/pytorch/issues/140503",
     [
       "inductor"
-    ]
-  ],
-  "test_comprehensive_svd_lowrank_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
-    "145362",
-    "https://github.com/pytorch/pytorch/issues/145362",
-    [
-      "rocm"
     ]
   ],
   "test_config_option_dont_assume_alignment_cudagraphs_dynamic_shapes_cuda (__main__.DynamicShapesCodegenGPUTests)": [
@@ -1116,14 +1102,6 @@
     "https://github.com/pytorch/pytorch/issues/145928",
     [
       "dynamo"
-    ]
-  ],
-  "test_mixed_mm_epi_works (__main__.TestPatternMatcher)": [
-    "126489",
-    "https://github.com/pytorch/pytorch/issues/126489",
-    [
-      "linux",
-      "rocm"
     ]
   ],
   "test_mlp_contiguous_relu_compile_cutlass (__main__.SparseSemiStructuredTensorCompileTest)": [
