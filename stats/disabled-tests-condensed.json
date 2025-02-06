@@ -65,18 +65,6 @@
       "macos"
     ]
   ],
-  "test_aot_export_with_torch_cond (__main__.TestAOTExport)": [
-    "139998",
-    "https://github.com/pytorch/pytorch/issues/139998",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_aoti_eager_cache_hit_dynamic_shapes_cuda (__main__.DynamicShapesCodegenGPUTests)": [
     "145184",
     "https://github.com/pytorch/pytorch/issues/145184",
