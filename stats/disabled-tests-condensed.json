@@ -477,6 +477,14 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_svd_lowrank_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
+    "145362",
+    "https://github.com/pytorch/pytorch/issues/145362",
+    [
+      "rocm",
+      "inductor"
+    ]
+  ],
   "test_config_option_dont_assume_alignment_cudagraphs_dynamic_shapes_cuda (__main__.DynamicShapesCodegenGPUTests)": [
     "146038",
     "https://github.com/pytorch/pytorch/issues/146038",
@@ -1801,6 +1809,13 @@
     "https://github.com/pytorch/pytorch/issues/146162",
     [
       "dynamo"
+    ]
+  ],
+  "test_reorder_peak_memory_lpmf (__main__.TestOperatorReorderForPeakMemory)": [
+    "145210",
+    "https://github.com/pytorch/pytorch/issues/145210",
+    [
+      "rocm"
     ]
   ],
   "test_repeated_calling_cuda (__main__.AOTInductorTestABICompatibleGpu)": [
