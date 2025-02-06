@@ -2313,6 +2313,13 @@
       "linux"
     ]
   ],
+  "test_tmp_not_defined_issue3_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "146602",
+    "https://github.com/pytorch/pytorch/issues/146602",
+    [
+      "rocm"
+    ]
+  ],
   "test_torch_any (__main__.TestScript)": [
     "146025",
     "https://github.com/pytorch/pytorch/issues/146025",
