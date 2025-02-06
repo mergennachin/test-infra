@@ -1142,6 +1142,13 @@
       "dynamo"
     ]
   ],
+  "test_mixed_mm (__main__.TestPatternMatcher)": [
+    "145192",
+    "https://github.com/pytorch/pytorch/issues/145192",
+    [
+      "rocm"
+    ]
+  ],
   "test_mlp_contiguous_relu_compile_cutlass (__main__.SparseSemiStructuredTensorCompileTest)": [
     "122352",
     "https://github.com/pytorch/pytorch/issues/122352",
