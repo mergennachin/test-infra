@@ -2516,13 +2516,6 @@
       "linux"
     ]
   ],
-  "test_view_of_slice_cuda (__main__.TestUnbackedSymintsCUDA)": [
-    "145386",
-    "https://github.com/pytorch/pytorch/issues/145386",
-    [
-      "rocm"
-    ]
-  ],
   "test_vit_aten_export (__main__.TestQuantizePT2EModels)": [
     "113506",
     "https://github.com/pytorch/pytorch/issues/113506",
