@@ -944,6 +944,13 @@
       "linux"
     ]
   ],
+  "test_insignificant_strides (__main__.SDPAPatternRewriterCudaTests)": [
+    "146810",
+    "https://github.com/pytorch/pytorch/issues/146810",
+    [
+      "rocm"
+    ]
+  ],
   "test_int64_upsample3d_cuda_bfloat16 (__main__.TestTorchDeviceTypeCUDA)": [
     "146007",
     "https://github.com/pytorch/pytorch/issues/146007",
