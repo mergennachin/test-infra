@@ -65,6 +65,13 @@
       "macos"
     ]
   ],
+  "test_aot_cudagraphs_cuda (__main__.TestOptimizationsCUDA)": [
+    "146851",
+    "https://github.com/pytorch/pytorch/issues/146851",
+    [
+      "linux"
+    ]
+  ],
   "test_aoti_eager_cache_hit_dynamic_shapes_cuda (__main__.DynamicShapesCodegenGPUTests)": [
     "145184",
     "https://github.com/pytorch/pytorch/issues/145184",
