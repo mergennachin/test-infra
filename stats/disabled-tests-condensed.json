@@ -893,6 +893,13 @@
       "windows"
     ]
   ],
+  "test_inductor_all_gather_into_tensor_coalesced (__main__.CompileTest)": [
+    "146806",
+    "https://github.com/pytorch/pytorch/issues/146806",
+    [
+      "linux"
+    ]
+  ],
   "test_init_from_local_shards (__main__.TestShardedTensorFromLocalShards)": [
     "78068",
     "https://github.com/pytorch/pytorch/issues/78068",
@@ -2013,13 +2020,6 @@
     [
       "mac",
       "macos"
-    ]
-  ],
-  "test_sdpa_rewriter_12_cuda (__main__.SDPAPatternRewriterCudaDynamicTests)": [
-    "145188",
-    "https://github.com/pytorch/pytorch/issues/145188",
-    [
-      "rocm"
     ]
   ],
   "test_sdpa_rewriter_3_cuda (__main__.SDPAPatternRewriterCudaDynamicTests)": [
