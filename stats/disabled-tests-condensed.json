@@ -233,13 +233,6 @@
       "macos"
     ]
   ],
-  "test_cache_hot_load_device_cuda_bfloat16_dynamic_False (__main__.TestFxGraphCache)": [
-    "145364",
-    "https://github.com/pytorch/pytorch/issues/145364",
-    [
-      "rocm"
-    ]
-  ],
   "test_cat_max_autotune_triton (__main__.TestMaxAutotune)": [
     "145830",
     "https://github.com/pytorch/pytorch/issues/145830",
