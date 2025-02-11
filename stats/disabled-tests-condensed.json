@@ -1348,13 +1348,6 @@
       "dynamo"
     ]
   ],
-  "test_onnx_export_huggingface_llm_models_with_kv_cache (__main__.DynamoExporterTest)": [
-    "146022",
-    "https://github.com/pytorch/pytorch/issues/146022",
-    [
-      "linux"
-    ]
-  ],
   "test_open_device_registration (__main__.ExtensionBackendTests)": [
     "137027",
     "https://github.com/pytorch/pytorch/issues/137027",
