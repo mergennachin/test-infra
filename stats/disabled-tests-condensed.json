@@ -231,6 +231,20 @@
       "macos"
     ]
   ],
+  "test_cache_load_function_device_cuda_bfloat16_dynamic_False_bundle_triton_True_grad_True (__main__.TestFxGraphCache)": [
+    "145181",
+    "https://github.com/pytorch/pytorch/issues/145181",
+    [
+      "rocm"
+    ]
+  ],
+  "test_cache_load_function_device_cuda_float32_dynamic_False_bundle_triton_True_grad_True (__main__.TestFxGraphCache)": [
+    "145336",
+    "https://github.com/pytorch/pytorch/issues/145336",
+    [
+      "rocm"
+    ]
+  ],
   "test_cat_max_autotune_extern (__main__.TestMaxAutotune)": [
     "146971",
     "https://github.com/pytorch/pytorch/issues/146971",
@@ -439,6 +453,21 @@
     "140503",
     "https://github.com/pytorch/pytorch/issues/140503",
     [
+      "inductor"
+    ]
+  ],
+  "test_comprehensive_stft_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
+    "146978",
+    "https://github.com/pytorch/pytorch/issues/146978",
+    [
+      "inductor"
+    ]
+  ],
+  "test_comprehensive_stft_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
+    "139732",
+    "https://github.com/pytorch/pytorch/issues/139732",
+    [
+      "linux",
       "inductor"
     ]
   ],
@@ -1126,6 +1155,14 @@
     "145192",
     "https://github.com/pytorch/pytorch/issues/145192",
     [
+      "rocm"
+    ]
+  ],
+  "test_mixed_mm_epi_works (__main__.TestPatternMatcher)": [
+    "126489",
+    "https://github.com/pytorch/pytorch/issues/126489",
+    [
+      "linux",
       "rocm"
     ]
   ],
