@@ -231,6 +231,21 @@
       "macos"
     ]
   ],
+  "test_cat_max_autotune_extern (__main__.TestMaxAutotune)": [
+    "146971",
+    "https://github.com/pytorch/pytorch/issues/146971",
+    [
+      "rocm",
+      "inductor"
+    ]
+  ],
+  "test_cat_max_autotune_triton (__main__.TestMaxAutotune)": [
+    "145830",
+    "https://github.com/pytorch/pytorch/issues/145830",
+    [
+      "rocm"
+    ]
+  ],
   "test_causal_variants_compile_causal_variant_CausalVariant_LOWER_RIGHT_shape0_cuda (__main__.TestAttnBiasCUDA)": [
     "118641",
     "https://github.com/pytorch/pytorch/issues/118641",
@@ -859,7 +874,8 @@
     "146806",
     "https://github.com/pytorch/pytorch/issues/146806",
     [
-      "linux"
+      "linux",
+      "rocm"
     ]
   ],
   "test_init_from_local_shards (__main__.TestShardedTensorFromLocalShards)": [
@@ -1406,6 +1422,13 @@
     "https://github.com/pytorch/pytorch/issues/136164",
     [
       "rocm"
+    ]
+  ],
+  "test_per_sample_api_compute_batch_size_not_pytreeable_cpu (__main__.TestExpandedWeightModuleCPU)": [
+    "146972",
+    "https://github.com/pytorch/pytorch/issues/146972",
+    [
+      "dynamo"
     ]
   ],
   "test_pinned_memory_empty_cache (__main__.TestCuda)": [
@@ -2320,16 +2343,6 @@
   "test_torchvision_models_efficientnet_b7 (__main__.TestVisionTracing)": [
     "123890",
     "https://github.com/pytorch/pytorch/issues/123890",
-    [
-      "asan",
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
-  "test_torchvision_models_efficientnet_v2_m (__main__.TestVisionTracing)": [
-    "124152",
-    "https://github.com/pytorch/pytorch/issues/124152",
     [
       "asan",
       "linux",
