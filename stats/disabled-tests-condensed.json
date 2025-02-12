@@ -928,6 +928,13 @@
       "linux"
     ]
   ],
+  "test_insignificant_strides (__main__.SDPAPatternRewriterCudaDynamicTests)": [
+    "146959",
+    "https://github.com/pytorch/pytorch/issues/146959",
+    [
+      "rocm"
+    ]
+  ],
   "test_insignificant_strides (__main__.SDPAPatternRewriterCudaTests)": [
     "146810",
     "https://github.com/pytorch/pytorch/issues/146810",
