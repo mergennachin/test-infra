@@ -298,13 +298,6 @@
       "inductor"
     ]
   ],
-  "test_comprehensive_any_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
-    "145919",
-    "https://github.com/pytorch/pytorch/issues/145919",
-    [
-      "rocm"
-    ]
-  ],
   "test_comprehensive_complex_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
     "140367",
     "https://github.com/pytorch/pytorch/issues/140367",
@@ -338,14 +331,6 @@
     "https://github.com/pytorch/pytorch/issues/102044",
     [
       "inductor"
-    ]
-  ],
-  "test_comprehensive_fft_fft_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
-    "122715",
-    "https://github.com/pytorch/pytorch/issues/122715",
-    [
-      "inductor",
-      "rocm"
     ]
   ],
   "test_comprehensive_fft_fftshift_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
