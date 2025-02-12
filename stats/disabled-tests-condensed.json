@@ -478,13 +478,6 @@
       "rocm"
     ]
   ],
-  "test_conv_backward_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
-    "145900",
-    "https://github.com/pytorch/pytorch/issues/145900",
-    [
-      "rocm"
-    ]
-  ],
   "test_conv_stride_constraints (__main__.CPUReproTests)": [
     "107774",
     "https://github.com/pytorch/pytorch/issues/107774",
