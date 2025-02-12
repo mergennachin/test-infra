@@ -79,13 +79,6 @@
       "rocm"
     ]
   ],
-  "test_aoti_eager_cache_hit_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
-    "144919",
-    "https://github.com/pytorch/pytorch/issues/144919",
-    [
-      "rocm"
-    ]
-  ],
   "test_aoti_eager_dtype_device_layout_dynamic_shapes_cuda (__main__.DynamicShapesCodegenGPUTests)": [
     "144923",
     "https://github.com/pytorch/pytorch/issues/144923",
@@ -2143,6 +2136,13 @@
     [
       "rocm",
       "inductor"
+    ]
+  ],
+  "test_sparse_add_cuda_complex128 (__main__.TestSparseCSRCUDA)": [
+    "86388",
+    "https://github.com/pytorch/pytorch/issues/86388",
+    [
+      "rocm"
     ]
   ],
   "test_sparse_add_cuda_float64 (__main__.TestSparseCSRCUDA)": [
