@@ -3394,7 +3394,8 @@
       "test_modules": 1092.4493408203125,
       "test_ops": 4311.20743016402,
       "test_ops_gradients": 675.9363199869791,
-      "test_torch": 1775.7913188468665
+      "test_torch": 1775.7913188468665,
+      "inductor/test_torchinductor_opinfo": 16734.948893229168
     },
     "inductor_avx2": {
       "inductor/test_torchinductor": 2070.585662841797,
