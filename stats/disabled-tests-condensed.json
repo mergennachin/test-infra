@@ -471,6 +471,13 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_sub_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
+    "147047",
+    "https://github.com/pytorch/pytorch/issues/147047",
+    [
+      "inductor"
+    ]
+  ],
   "test_comprehensive_svd_lowrank_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
     "145362",
     "https://github.com/pytorch/pytorch/issues/145362",
