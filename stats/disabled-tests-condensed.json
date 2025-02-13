@@ -100,13 +100,6 @@
       "rocm"
     ]
   ],
-  "test_aoti_eager_override_registration_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
-    "145997",
-    "https://github.com/pytorch/pytorch/issues/145997",
-    [
-      "rocm"
-    ]
-  ],
   "test_aoti_eager_support_out_dynamic_shapes_cuda (__main__.DynamicShapesCodegenGPUTests)": [
     "144947",
     "https://github.com/pytorch/pytorch/issues/144947",
@@ -408,6 +401,20 @@
   "test_comprehensive_nn_functional_glu_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
     "140383",
     "https://github.com/pytorch/pytorch/issues/140383",
+    [
+      "inductor"
+    ]
+  ],
+  "test_comprehensive_nn_functional_interpolate_bilinear_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
+    "147057",
+    "https://github.com/pytorch/pytorch/issues/147057",
+    [
+      "inductor"
+    ]
+  ],
+  "test_comprehensive_nn_functional_interpolate_linear_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
+    "147058",
+    "https://github.com/pytorch/pytorch/issues/147058",
     [
       "inductor"
     ]
