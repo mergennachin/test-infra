@@ -114,20 +114,6 @@
       "rocm"
     ]
   ],
-  "test_aoti_eager_support_str_dynamic_shapes_cuda (__main__.DynamicShapesCodegenGPUTests)": [
-    "145003",
-    "https://github.com/pytorch/pytorch/issues/145003",
-    [
-      "rocm"
-    ]
-  ],
-  "test_aoti_eager_support_str_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
-    "144921",
-    "https://github.com/pytorch/pytorch/issues/144921",
-    [
-      "rocm"
-    ]
-  ],
   "test_arange_dynamic_cuda (__main__.TestInductorDynamicCUDA)": [
     "127067",
     "https://github.com/pytorch/pytorch/issues/127067",
@@ -979,13 +965,6 @@
       "rocm"
     ]
   ],
-  "test_int64_upsample3d_cuda_bfloat16 (__main__.TestTorchDeviceTypeCUDA)": [
-    "146007",
-    "https://github.com/pytorch/pytorch/issues/146007",
-    [
-      "rocm"
-    ]
-  ],
   "test_intra_node_comm_all_reduce (__main__.CommTest)": [
     "115859",
     "https://github.com/pytorch/pytorch/issues/115859",
@@ -998,15 +977,6 @@
     "https://github.com/pytorch/pytorch/issues/120694",
     [
       "dynamo"
-    ]
-  ],
-  "test_item_to_inputs_kernel_nobreak_cuda (__main__.TestInductorDynamicCUDA)": [
-    "119538",
-    "https://github.com/pytorch/pytorch/issues/119538",
-    [
-      "linux",
-      "rocm",
-      "slow"
     ]
   ],
   "test_jvpvjp_nn_functional_conv3d_cuda_float32 (__main__.TestOperatorsCUDA)": [
@@ -1149,13 +1119,6 @@
     "https://github.com/pytorch/pytorch/issues/131104",
     [
       "dynamo"
-    ]
-  ],
-  "test_mismatched_global_state (__main__.GraphRegionTrackerTests)": [
-    "144895",
-    "https://github.com/pytorch/pytorch/issues/144895",
-    [
-      "rocm"
     ]
   ],
   "test_missing_getstate (__main__.TestScript)": [
