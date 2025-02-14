@@ -916,6 +916,13 @@
       "linux"
     ]
   ],
+  "test_input_mutation2_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "135295",
+    "https://github.com/pytorch/pytorch/issues/135295",
+    [
+      "linux"
+    ]
+  ],
   "test_insignificant_strides (__main__.SDPAPatternRewriterCudaDynamicTests)": [
     "146959",
     "https://github.com/pytorch/pytorch/issues/146959",
@@ -1081,6 +1088,13 @@
       "slow"
     ]
   ],
+  "test_memory_stats_multigpu (__main__.TestCudaMultiGPU)": [
+    "129860",
+    "https://github.com/pytorch/pytorch/issues/129860",
+    [
+      "linux"
+    ]
+  ],
   "test_merge_liveness (jit.test_freezing.TestMKLDNNReinplacing)": [
     "91481",
     "https://github.com/pytorch/pytorch/issues/91481",
@@ -1119,6 +1133,13 @@
   "test_mixed_mm (__main__.TestPatternMatcher)": [
     "145192",
     "https://github.com/pytorch/pytorch/issues/145192",
+    [
+      "rocm"
+    ]
+  ],
+  "test_mixed_mm_bad_cases (__main__.TestPatternMatcher)": [
+    "128487",
+    "https://github.com/pytorch/pytorch/issues/128487",
     [
       "rocm"
     ]
@@ -1527,6 +1548,16 @@
       "asan"
     ]
   ],
+  "test_pt2_traceable_aot_eager_cpu_float8_e5m2 (__main__.TestFloat8DtypeCPUOnlyCPU)": [
+    "144934",
+    "https://github.com/pytorch/pytorch/issues/144934",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos"
+    ]
+  ],
   "test_pybind_type_comparisons (__main__.TestScript)": [
     "145971",
     "https://github.com/pytorch/pytorch/issues/145971",
@@ -1586,42 +1617,6 @@
   "test_pytree_register_data_class_retraceability_non_strict (__main__.RetraceExportNonStrictTestExport)": [
     "146159",
     "https://github.com/pytorch/pytorch/issues/146159",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "slow"
-    ]
-  ],
-  "test_pytree_register_nested_data_class_retraceability_non_strict (__main__.RetraceExportNonStrictTestExport)": [
-    "146186",
-    "https://github.com/pytorch/pytorch/issues/146186",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "slow"
-    ]
-  ],
-  "test_pytree_register_nested_data_class_serdes_non_strict (__main__.SerDesExportNonStrictTestExport)": [
-    "146183",
-    "https://github.com/pytorch/pytorch/issues/146183",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "slow"
-    ]
-  ],
-  "test_pytree_register_nested_data_class_training_ir_to_decomp_non_strict (__main__.TrainingIRToRunDecompExportNonStrictTestExport)": [
-    "146184",
-    "https://github.com/pytorch/pytorch/issues/146184",
     [
       "asan",
       "linux",
@@ -1771,14 +1766,6 @@
     "145210",
     "https://github.com/pytorch/pytorch/issues/145210",
     [
-      "rocm"
-    ]
-  ],
-  "test_repeated_calling_cuda (__main__.AOTInductorTestABICompatibleGpu)": [
-    "146185",
-    "https://github.com/pytorch/pytorch/issues/146185",
-    [
-      "linux",
       "rocm"
     ]
   ],
