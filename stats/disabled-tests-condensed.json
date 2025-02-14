@@ -1399,14 +1399,6 @@
       "macos"
     ]
   ],
-  "test_output_match_linalg_cholesky_ex_cpu_float32 (__main__.TestConsistencyCPU)": [
-    "147128",
-    "https://github.com/pytorch/pytorch/issues/147128",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_pack_unpack_state (__main__.TestScript)": [
     "146149",
     "https://github.com/pytorch/pytorch/issues/146149",
