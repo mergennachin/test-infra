@@ -721,6 +721,20 @@
       "rocm"
     ]
   ],
+  "test_embedding_bag_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "135215",
+    "https://github.com/pytorch/pytorch/issues/135215",
+    [
+      "linux"
+    ]
+  ],
+  "test_embedding_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
+    "135456",
+    "https://github.com/pytorch/pytorch/issues/135456",
+    [
+      "linux"
+    ]
+  ],
   "test_execution_trace_with_kineto (__main__.TestExecutionTrace)": [
     "123536",
     "https://github.com/pytorch/pytorch/issues/123536",
@@ -1414,6 +1428,13 @@
       "dynamo"
     ]
   ],
+  "test_pattern_matcher_multi_user_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "134433",
+    "https://github.com/pytorch/pytorch/issues/134433",
+    [
+      "linux"
+    ]
+  ],
   "test_pcontext_wait_on_a_child_thread (__main__.StartProcessesAsFuncTest)": [
     "136164",
     "https://github.com/pytorch/pytorch/issues/136164",
@@ -1457,6 +1478,13 @@
       "linux"
     ]
   ],
+  "test_profile_all_threads (__main__.TestProfiler)": [
+    "145951",
+    "https://github.com/pytorch/pytorch/issues/145951",
+    [
+      "linux"
+    ]
+  ],
   "test_profiler (__main__.TestJit)": [
     "65521",
     "https://github.com/pytorch/pytorch/issues/65521",
@@ -1495,16 +1523,6 @@
     "https://github.com/pytorch/pytorch/issues/125365",
     [
       "linux"
-    ]
-  ],
-  "test_pt2_traceable_aot_eager_cpu_float8_e4m3fn (__main__.TestFloat8DtypeCPUOnlyCPU)": [
-    "144903",
-    "https://github.com/pytorch/pytorch/issues/144903",
-    [
-      "linux",
-      "mac",
-      "macos",
-      "asan"
     ]
   ],
   "test_pt2_traceable_aot_eager_cpu_float8_e5m2 (__main__.TestFloat8DtypeCPUOnlyCPU)": [
@@ -2481,13 +2499,6 @@
       "linux"
     ]
   ],
-  "test_vdd_clamp_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "134445",
-    "https://github.com/pytorch/pytorch/issues/134445",
-    [
-      "linux"
-    ]
-  ],
   "test_vit_aten_export (__main__.TestQuantizePT2EModels)": [
     "113506",
     "https://github.com/pytorch/pytorch/issues/113506",
@@ -2572,6 +2583,13 @@
       "windows",
       "rocm",
       "slow"
+    ]
+  ],
+  "test_weight_norm_bwd_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "141484",
+    "https://github.com/pytorch/pytorch/issues/141484",
+    [
+      "linux"
     ]
   ],
   "test_while_loop_schema_gen (__main__.TestHopSchema)": [
