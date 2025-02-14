@@ -909,13 +909,6 @@
       "linux"
     ]
   ],
-  "test_input_mutation2_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "135295",
-    "https://github.com/pytorch/pytorch/issues/135295",
-    [
-      "linux"
-    ]
-  ],
   "test_insignificant_strides (__main__.SDPAPatternRewriterCudaDynamicTests)": [
     "146959",
     "https://github.com/pytorch/pytorch/issues/146959",
@@ -1000,13 +993,6 @@
       "linux"
     ]
   ],
-  "test_list_clearing_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
-    "145004",
-    "https://github.com/pytorch/pytorch/issues/145004",
-    [
-      "rocm"
-    ]
-  ],
   "test_load_from_bias_head_seq_batch_float16 (__main__.TestFlexDecoding)": [
     "134144",
     "https://github.com/pytorch/pytorch/issues/134144",
@@ -1024,6 +1010,13 @@
   "test_matmul_triton_kernel_benchmark (__main__.TestKernelBenchmark)": [
     "115002",
     "https://github.com/pytorch/pytorch/issues/115002",
+    [
+      "rocm"
+    ]
+  ],
+  "test_max_autotune (__main__.TestFlexAttention)": [
+    "147200",
+    "https://github.com/pytorch/pytorch/issues/147200",
     [
       "rocm"
     ]
@@ -1523,6 +1516,16 @@
     "https://github.com/pytorch/pytorch/issues/125365",
     [
       "linux"
+    ]
+  ],
+  "test_pt2_traceable_aot_eager_cpu_float8_e4m3fn (__main__.TestFloat8DtypeCPUOnlyCPU)": [
+    "144903",
+    "https://github.com/pytorch/pytorch/issues/144903",
+    [
+      "linux",
+      "mac",
+      "macos",
+      "asan"
     ]
   ],
   "test_pybind_type_comparisons (__main__.TestScript)": [
