@@ -100,6 +100,13 @@
       "rocm"
     ]
   ],
+  "test_arange_dynamic_cuda (__main__.TestInductorDynamicCUDA)": [
+    "127067",
+    "https://github.com/pytorch/pytorch/issues/127067",
+    [
+      "rocm"
+    ]
+  ],
   "test_attention_vs_linear (__main__.MemoryBudgetTest)": [
     "128217",
     "https://github.com/pytorch/pytorch/issues/128217",
@@ -712,13 +719,6 @@
     [
       "windows",
       "rocm"
-    ]
-  ],
-  "test_embedding_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "135250",
-    "https://github.com/pytorch/pytorch/issues/135250",
-    [
-      "linux"
     ]
   ],
   "test_execution_trace_with_kineto (__main__.TestExecutionTrace)": [
@@ -1815,14 +1815,6 @@
     "https://github.com/pytorch/pytorch/issues/146012",
     [
       "dynamo"
-    ]
-  ],
-  "test_return_advanced_contextmanager (__main__.ContextlibContextManagerTests)": [
-    "145805",
-    "https://github.com/pytorch/pytorch/issues/145805",
-    [
-      "linux",
-      "rocm"
     ]
   ],
   "test_return_stmt_not_at_end (__main__.TestScript)": [
