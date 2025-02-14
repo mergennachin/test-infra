@@ -1525,16 +1525,6 @@
       "linux"
     ]
   ],
-  "test_pt2_traceable_aot_eager_cpu_float8_e5m2 (__main__.TestFloat8DtypeCPUOnlyCPU)": [
-    "144934",
-    "https://github.com/pytorch/pytorch/issues/144934",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos"
-    ]
-  ],
   "test_pybind_type_comparisons (__main__.TestScript)": [
     "145971",
     "https://github.com/pytorch/pytorch/issues/145971",
@@ -2197,13 +2187,6 @@
   "test_tensor_as_tensor_shape_prop (test_jit.TestScript)": [
     "91482",
     "https://github.com/pytorch/pytorch/issues/91482",
-    [
-      "linux"
-    ]
-  ],
-  "test_tensor_dtype_complex (__main__.CommTest)": [
-    "112460",
-    "https://github.com/pytorch/pytorch/issues/112460",
     [
       "linux"
     ]
