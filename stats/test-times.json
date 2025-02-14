@@ -3394,6 +3394,7 @@
     },
     "inductor_amx": {
       "inductor/test_torchinductor": 1293.4809850056965,
+      "inductor/test_torchinductor_opinfo": 16734.948893229168,
       "test_modules": 1027.0206705729167,
       "test_ops": 3344.6623572508493,
       "test_ops_gradients": 594.7143351236979,
@@ -3401,6 +3402,7 @@
     },
     "inductor_avx2": {
       "inductor/test_torchinductor": 2122.412702560425,
+      "inductor/test_torchinductor_opinfo": 31309.5390625,
       "test_modules": 1845.0363362630208,
       "test_ops": 5192.236065427463,
       "test_ops_gradients": 1039.8819986979167,
