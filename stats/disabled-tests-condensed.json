@@ -1595,30 +1595,6 @@
       "slow"
     ]
   ],
-  "test_pytree_register_data_class_serdes_non_strict (__main__.SerDesExportNonStrictTestExport)": [
-    "146160",
-    "https://github.com/pytorch/pytorch/issues/146160",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "slow"
-    ]
-  ],
-  "test_pytree_register_data_class_training_ir_to_decomp_non_strict (__main__.TrainingIRToRunDecompExportNonStrictTestExport)": [
-    "146161",
-    "https://github.com/pytorch/pytorch/issues/146161",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_pytree_register_nested_data_class_retraceability_non_strict (__main__.RetraceExportNonStrictTestExport)": [
     "146186",
     "https://github.com/pytorch/pytorch/issues/146186",
@@ -2150,13 +2126,6 @@
       "linux"
     ]
   ],
-  "test_strided_inputs_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
-    "145044",
-    "https://github.com/pytorch/pytorch/issues/145044",
-    [
-      "rocm"
-    ]
-  ],
   "test_successful (jit.test_freezing.TestMKLDNNReinplacing)": [
     "91489",
     "https://github.com/pytorch/pytorch/issues/91489",
@@ -2427,6 +2396,13 @@
   "test_transformerencoderlayer_cuda_float32 (__main__.TestNNDeviceTypeCUDA)": [
     "134687",
     "https://github.com/pytorch/pytorch/issues/134687",
+    [
+      "rocm"
+    ]
+  ],
+  "test_triton_kernel_multiple_out (__main__.AutogradFunctionTests)": [
+    "147214",
+    "https://github.com/pytorch/pytorch/issues/147214",
     [
       "rocm"
     ]
