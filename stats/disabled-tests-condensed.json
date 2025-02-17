@@ -1769,6 +1769,14 @@
       "rocm"
     ]
   ],
+  "test_repeated_calling_cuda (__main__.AOTInductorTestABICompatibleGpu)": [
+    "146185",
+    "https://github.com/pytorch/pytorch/issues/146185",
+    [
+      "linux",
+      "rocm"
+    ]
+  ],
   "test_request_bailout (__main__.TestScript)": [
     "146076",
     "https://github.com/pytorch/pytorch/issues/146076",
