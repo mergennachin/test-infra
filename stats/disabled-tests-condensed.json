@@ -634,13 +634,6 @@
       "rocm"
     ]
   ],
-  "test_dropout_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
-    "144948",
-    "https://github.com/pytorch/pytorch/issues/144948",
-    [
-      "rocm"
-    ]
-  ],
   "test_dropout_eval (__main__.TestScript)": [
     "146138",
     "https://github.com/pytorch/pytorch/issues/146138",
@@ -1633,13 +1626,6 @@
   "test_recompile_on_global_state_change (__main__.MiscTests)": [
     "144897",
     "https://github.com/pytorch/pytorch/issues/144897",
-    [
-      "rocm"
-    ]
-  ],
-  "test_recompile_on_global_state_change_dynamic_shapes (__main__.DynamicShapesMiscTests)": [
-    "144896",
-    "https://github.com/pytorch/pytorch/issues/144896",
     [
       "rocm"
     ]
