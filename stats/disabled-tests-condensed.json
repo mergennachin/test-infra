@@ -1497,20 +1497,6 @@
       "rocm"
     ]
   ],
-  "test_profiler_mark_wrapper_call_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "135294",
-    "https://github.com/pytorch/pytorch/issues/135294",
-    [
-      "linux"
-    ]
-  ],
-  "test_profiler_mark_wrapper_call_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
-    "145002",
-    "https://github.com/pytorch/pytorch/issues/145002",
-    [
-      "rocm"
-    ]
-  ],
   "test_profiler_rpc_key_names (__main__.TensorPipeRpcTest)": [
     "125365",
     "https://github.com/pytorch/pytorch/issues/125365",
@@ -1592,18 +1578,6 @@
     "https://github.com/pytorch/pytorch/issues/146206",
     [
       "dynamo"
-    ]
-  ],
-  "test_pytree_register_data_class_retraceability_non_strict (__main__.RetraceExportNonStrictTestExport)": [
-    "146159",
-    "https://github.com/pytorch/pytorch/issues/146159",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "slow"
     ]
   ],
   "test_rand (test_jit.TestScript)": [
