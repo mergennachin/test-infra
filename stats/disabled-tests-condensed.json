@@ -72,13 +72,6 @@
       "linux"
     ]
   ],
-  "test_aoti_eager_dtype_device_layout_dynamic_shapes_cuda (__main__.DynamicShapesCodegenGPUTests)": [
-    "144923",
-    "https://github.com/pytorch/pytorch/issues/144923",
-    [
-      "rocm"
-    ]
-  ],
   "test_aoti_eager_dtype_device_layout_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
     "146487",
     "https://github.com/pytorch/pytorch/issues/146487",
@@ -869,7 +862,8 @@
     "https://github.com/pytorch/pytorch/issues/146806",
     [
       "linux",
-      "rocm"
+      "rocm",
+      "inductor"
     ]
   ],
   "test_init_from_local_shards (__main__.TestShardedTensorFromLocalShards)": [
@@ -1439,13 +1433,6 @@
     "https://github.com/pytorch/pytorch/issues/134433",
     [
       "linux"
-    ]
-  ],
-  "test_pcontext_wait_on_a_child_thread (__main__.StartProcessesAsFuncTest)": [
-    "136164",
-    "https://github.com/pytorch/pytorch/issues/136164",
-    [
-      "rocm"
     ]
   ],
   "test_per_sample_api_compute_batch_size_not_pytreeable_cpu (__main__.TestExpandedWeightModuleCPU)": [
@@ -2293,13 +2280,6 @@
       "slow"
     ]
   ],
-  "test_tp_transform_with_uncovered_op (__main__.TensorParallelTest)": [
-    "115784",
-    "https://github.com/pytorch/pytorch/issues/115784",
-    [
-      "rocm"
-    ]
-  ],
   "test_trace_buffer_slice (__main__.TestFX)": [
     "74208",
     "https://github.com/pytorch/pytorch/issues/74208",
@@ -2315,13 +2295,6 @@
   "test_trace_while_active (__main__.NCCLTraceTest)": [
     "112815",
     "https://github.com/pytorch/pytorch/issues/112815",
-    [
-      "rocm"
-    ]
-  ],
-  "test_tracker_multi_group_eager (__main__.TestTrackerFullyShard1DTrainingCore)": [
-    "129390",
-    "https://github.com/pytorch/pytorch/issues/129390",
     [
       "rocm"
     ]
@@ -2343,20 +2316,6 @@
   "test_train_parity_2d_mlp (__main__.TestFullyShard2DTraining)": [
     "125555",
     "https://github.com/pytorch/pytorch/issues/125555",
-    [
-      "rocm"
-    ]
-  ],
-  "test_train_parity_2d_transformer_checkpoint_resume (__main__.TestFullyShard2DTraining)": [
-    "125644",
-    "https://github.com/pytorch/pytorch/issues/125644",
-    [
-      "rocm"
-    ]
-  ],
-  "test_transformer_runtime (__main__.TestRuntimeEstimator)": [
-    "134824",
-    "https://github.com/pytorch/pytorch/issues/134824",
     [
       "rocm"
     ]
