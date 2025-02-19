@@ -278,7 +278,9 @@
       "asan",
       "linux",
       "rocm",
-      "slow"
+      "slow",
+      "win",
+      "windows"
     ]
   ],
   "test_complex_half_reference_testing_as_strided_scatter_cuda_complex32 (__main__.TestCommonCUDA)": [
@@ -1705,13 +1707,6 @@
       "rocm"
     ]
   ],
-  "test_remote_cache_load_function_device_cuda_float32_dynamic_False_bundle_triton_True (__main__.TestFxGraphCache)": [
-    "145191",
-    "https://github.com/pytorch/pytorch/issues/145191",
-    [
-      "rocm"
-    ]
-  ],
   "test_remote_timeout_to_here_in_jit (__main__.FaultyJitFaultyAgentRpcTest)": [
     "69178",
     "https://github.com/pytorch/pytorch/issues/69178",
@@ -1808,6 +1803,13 @@
       "mac",
       "macos",
       "rocm"
+    ]
+  ],
+  "test_scatter_1d (__main__.DeviceMeshCollectiveTest)": [
+    "98059",
+    "https://github.com/pytorch/pytorch/issues/98059",
+    [
+      "linux"
     ]
   ],
   "test_scatter_uneven (__main__.DeviceMeshCollectiveTest)": [
@@ -2019,14 +2021,6 @@
     "https://github.com/pytorch/pytorch/issues/105121",
     [
       "rocm"
-    ]
-  ],
-  "test_slice_scatter_reinplace_cuda (__main__.GPUTests)": [
-    "145189",
-    "https://github.com/pytorch/pytorch/issues/145189",
-    [
-      "rocm",
-      "inductor"
     ]
   ],
   "test_sparse_add_cuda_complex128 (__main__.TestSparseCSRCUDA)": [
