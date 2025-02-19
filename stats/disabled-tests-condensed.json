@@ -695,15 +695,6 @@
       "dynamo"
     ]
   ],
-  "test_dynamic_stride_nobreak_cuda (__main__.TestInductorDynamicCUDA)": [
-    "117954",
-    "https://github.com/pytorch/pytorch/issues/117954",
-    [
-      "linux",
-      "slow",
-      "rocm"
-    ]
-  ],
   "test_dynamic_toggle (__main__.TestProfiler)": [
     "134479",
     "https://github.com/pytorch/pytorch/issues/134479",
