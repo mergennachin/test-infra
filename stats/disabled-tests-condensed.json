@@ -271,6 +271,16 @@
       "rocm"
     ]
   ],
+  "test_complex_data_dependent_expr (__main__.TestDraftExport)": [
+    "147426",
+    "https://github.com/pytorch/pytorch/issues/147426",
+    [
+      "asan",
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_complex_half_reference_testing_as_strided_scatter_cuda_complex32 (__main__.TestCommonCUDA)": [
     "78205",
     "https://github.com/pytorch/pytorch/issues/78205",
@@ -1490,6 +1500,13 @@
       "rocm"
     ]
   ],
+  "test_profiler_mark_wrapper_call_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "135294",
+    "https://github.com/pytorch/pytorch/issues/135294",
+    [
+      "linux"
+    ]
+  ],
   "test_profiler_rpc_key_names (__main__.TensorPipeRpcTest)": [
     "125365",
     "https://github.com/pytorch/pytorch/issues/125365",
@@ -1626,6 +1643,13 @@
   "test_recompile_on_global_state_change (__main__.MiscTests)": [
     "144897",
     "https://github.com/pytorch/pytorch/issues/144897",
+    [
+      "rocm"
+    ]
+  ],
+  "test_recompile_on_global_state_change_dynamic_shapes (__main__.DynamicShapesMiscTests)": [
+    "144896",
+    "https://github.com/pytorch/pytorch/issues/144896",
     [
       "rocm"
     ]
@@ -2094,6 +2118,13 @@
   "test_tensor_as_tensor_shape_prop (test_jit.TestScript)": [
     "91482",
     "https://github.com/pytorch/pytorch/issues/91482",
+    [
+      "linux"
+    ]
+  ],
+  "test_tensor_dtype_complex (__main__.CommTest)": [
+    "112460",
+    "https://github.com/pytorch/pytorch/issues/112460",
     [
       "linux"
     ]
