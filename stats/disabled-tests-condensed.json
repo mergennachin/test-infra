@@ -72,13 +72,6 @@
       "linux"
     ]
   ],
-  "test_aoti_eager_support_out_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
-    "146523",
-    "https://github.com/pytorch/pytorch/issues/146523",
-    [
-      "rocm"
-    ]
-  ],
   "test_arange_dynamic_cuda (__main__.TestInductorDynamicCUDA)": [
     "127067",
     "https://github.com/pytorch/pytorch/issues/127067",
@@ -1130,13 +1123,6 @@
   "test_mm_concat_cuda (__main__.FreezingGpuTests)": [
     "145186",
     "https://github.com/pytorch/pytorch/issues/145186",
-    [
-      "rocm"
-    ]
-  ],
-  "test_mm_plus_mm (__main__.TestPatternMatcher)": [
-    "145335",
-    "https://github.com/pytorch/pytorch/issues/145335",
     [
       "rocm"
     ]
