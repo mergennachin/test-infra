@@ -1676,6 +1676,13 @@
       "rocm"
     ]
   ],
+  "test_repeat_graph_capture_cublas_workspace_memory (__main__.TestCuda)": [
+    "144922",
+    "https://github.com/pytorch/pytorch/issues/144922",
+    [
+      "rocm"
+    ]
+  ],
   "test_repeated_calling_cuda (__main__.AOTInductorTestABICompatibleGpu)": [
     "146185",
     "https://github.com/pytorch/pytorch/issues/146185",
@@ -1969,6 +1976,14 @@
     "https://github.com/pytorch/pytorch/issues/105121",
     [
       "rocm"
+    ]
+  ],
+  "test_slice_scatter_reinplace_cuda (__main__.GPUTests)": [
+    "145189",
+    "https://github.com/pytorch/pytorch/issues/145189",
+    [
+      "rocm",
+      "inductor"
     ]
   ],
   "test_sparse_add_cuda_complex128 (__main__.TestSparseCSRCUDA)": [
