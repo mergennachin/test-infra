@@ -1877,6 +1877,13 @@
       "macos"
     ]
   ],
+  "test_sdpa_rewriter_12_cuda (__main__.SDPAPatternRewriterCudaTests)": [
+    "145187",
+    "https://github.com/pytorch/pytorch/issues/145187",
+    [
+      "rocm"
+    ]
+  ],
   "test_sdpa_rewriter_3_cuda (__main__.SDPAPatternRewriterCudaDynamicTests)": [
     "122896",
     "https://github.com/pytorch/pytorch/issues/122896",
@@ -2147,13 +2154,6 @@
     "https://github.com/pytorch/pytorch/issues/141637",
     [
       "linux"
-    ]
-  ],
-  "test_tmp_not_defined_issue3_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "146602",
-    "https://github.com/pytorch/pytorch/issues/146602",
-    [
-      "rocm"
     ]
   ],
   "test_torch_any (__main__.TestScript)": [
