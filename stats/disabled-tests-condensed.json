@@ -6,13 +6,6 @@
       "linux"
     ]
   ],
-  "test_RNN_dropout_state (__main__.TestNN)": [
-    "107183",
-    "https://github.com/pytorch/pytorch/issues/107183",
-    [
-      "rocm"
-    ]
-  ],
   "test_add_tuple_non_optional (__main__.TestScript)": [
     "146136",
     "https://github.com/pytorch/pytorch/issues/146136",
