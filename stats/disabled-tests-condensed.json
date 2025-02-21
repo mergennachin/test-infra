@@ -79,13 +79,6 @@
       "rocm"
     ]
   ],
-  "test_attention_vs_linear (__main__.MemoryBudgetTest)": [
-    "128217",
-    "https://github.com/pytorch/pytorch/issues/128217",
-    [
-      "rocm"
-    ]
-  ],
   "test_attn_cuda (__main__.TestMin)": [
     "86710",
     "https://github.com/pytorch/pytorch/issues/86710",
@@ -1573,6 +1566,13 @@
     "https://github.com/pytorch/pytorch/issues/145973",
     [
       "dynamo"
+    ]
+  ],
+  "test_recompile_on_global_state_change (__main__.MiscTests)": [
+    "144897",
+    "https://github.com/pytorch/pytorch/issues/144897",
+    [
+      "rocm"
     ]
   ],
   "test_recompile_on_global_state_change_dynamic_shapes (__main__.DynamicShapesMiscTests)": [
