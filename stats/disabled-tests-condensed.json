@@ -1877,6 +1877,13 @@
       "rocm"
     ]
   ],
+  "test_sdpa_rewriter_14_cuda (__main__.SDPAPatternRewriterCudaDynamicTests)": [
+    "147600",
+    "https://github.com/pytorch/pytorch/issues/147600",
+    [
+      "rocm"
+    ]
+  ],
   "test_sdpa_rewriter_3_cuda (__main__.SDPAPatternRewriterCudaDynamicTests)": [
     "122896",
     "https://github.com/pytorch/pytorch/issues/122896",
