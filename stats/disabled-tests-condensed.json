@@ -811,6 +811,13 @@
       "inductor"
     ]
   ],
+  "test_inductor_all_gather_into_tensor_single (__main__.CompileTest)": [
+    "147707",
+    "https://github.com/pytorch/pytorch/issues/147707",
+    [
+      "linux"
+    ]
+  ],
   "test_init_from_local_shards (__main__.TestShardedTensorFromLocalShards)": [
     "78068",
     "https://github.com/pytorch/pytorch/issues/78068",
@@ -1338,13 +1345,6 @@
       "dynamo"
     ]
   ],
-  "test_partitioning_unremat_bw (__main__.MinCutPartitioningTests)": [
-    "145343",
-    "https://github.com/pytorch/pytorch/issues/145343",
-    [
-      "rocm"
-    ]
-  ],
   "test_pass (__main__.TestScript)": [
     "146032",
     "https://github.com/pytorch/pytorch/issues/146032",
@@ -1640,13 +1640,6 @@
       "dynamo"
     ]
   ],
-  "test_reorder_peak_memory_lpmf (__main__.TestOperatorReorderForPeakMemory)": [
-    "145210",
-    "https://github.com/pytorch/pytorch/issues/145210",
-    [
-      "rocm"
-    ]
-  ],
   "test_repeat_graph_capture_cublas_workspace_memory (__main__.TestCuda)": [
     "144922",
     "https://github.com/pytorch/pytorch/issues/144922",
@@ -1880,20 +1873,6 @@
   "test_sdpa_rewriter_14_cuda (__main__.SDPAPatternRewriterCudaDynamicTests)": [
     "147600",
     "https://github.com/pytorch/pytorch/issues/147600",
-    [
-      "rocm"
-    ]
-  ],
-  "test_sdpa_rewriter_3_cuda (__main__.SDPAPatternRewriterCudaDynamicTests)": [
-    "122896",
-    "https://github.com/pytorch/pytorch/issues/122896",
-    [
-      "rocm"
-    ]
-  ],
-  "test_sdpa_rewriter_4_cuda (__main__.SDPAPatternRewriterCudaDynamicTests)": [
-    "122942",
-    "https://github.com/pytorch/pytorch/issues/122942",
     [
       "rocm"
     ]
