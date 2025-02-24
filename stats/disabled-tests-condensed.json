@@ -1,4 +1,12 @@
 {
+  "test_2d_reductions_mixed_indexing_reduction_op0_cuda (__main__.TritonBlockPointerTestGPU)": [
+    "147755",
+    "https://github.com/pytorch/pytorch/issues/147755",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_DistributedDataParallel (__main__.TestDistBackendWithSpawn)": [
     "77317",
     "https://github.com/pytorch/pytorch/issues/77317",
@@ -839,6 +847,14 @@
       "inductor",
       "linux",
       "rocm"
+    ]
+  ],
+  "test_inductor_all_reduce_single (__main__.CompileTest)": [
+    "147754",
+    "https://github.com/pytorch/pytorch/issues/147754",
+    [
+      "rocm",
+      "inductor"
     ]
   ],
   "test_init_from_local_shards (__main__.TestShardedTensorFromLocalShards)": [
