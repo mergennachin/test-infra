@@ -837,7 +837,8 @@
     "https://github.com/pytorch/pytorch/issues/147733",
     [
       "inductor",
-      "linux"
+      "linux",
+      "rocm"
     ]
   ],
   "test_init_from_local_shards (__main__.TestShardedTensorFromLocalShards)": [
