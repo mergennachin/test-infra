@@ -818,6 +818,13 @@
       "linux"
     ]
   ],
+  "test_inductor_all_reduce_coalesced (__main__.CompileTest)": [
+    "147726",
+    "https://github.com/pytorch/pytorch/issues/147726",
+    [
+      "linux"
+    ]
+  ],
   "test_init_from_local_shards (__main__.TestShardedTensorFromLocalShards)": [
     "78068",
     "https://github.com/pytorch/pytorch/issues/78068",
