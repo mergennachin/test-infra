@@ -523,6 +523,13 @@
       "rocm"
     ]
   ],
+  "test_custom_hook_custom_stream (__main__.TestHSDPWithCustomHook)": [
+    "147767",
+    "https://github.com/pytorch/pytorch/issues/147767",
+    [
+      "rocm"
+    ]
+  ],
   "test_ddp_comm_hook_sparse_gradients (__main__.DistributedDataParallelTest)": [
     "146400",
     "https://github.com/pytorch/pytorch/issues/146400",
