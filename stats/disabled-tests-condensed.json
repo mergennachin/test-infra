@@ -530,6 +530,13 @@
       "rocm"
     ]
   ],
+  "test_custom_hsdp_all_reduce_hook (__main__.TestHSDPWithCustomHook)": [
+    "147769",
+    "https://github.com/pytorch/pytorch/issues/147769",
+    [
+      "rocm"
+    ]
+  ],
   "test_ddp_comm_hook_sparse_gradients (__main__.DistributedDataParallelTest)": [
     "146400",
     "https://github.com/pytorch/pytorch/issues/146400",
