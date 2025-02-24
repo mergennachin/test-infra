@@ -836,7 +836,8 @@
     "147733",
     "https://github.com/pytorch/pytorch/issues/147733",
     [
-      "inductor"
+      "inductor",
+      "linux"
     ]
   ],
   "test_init_from_local_shards (__main__.TestShardedTensorFromLocalShards)": [
