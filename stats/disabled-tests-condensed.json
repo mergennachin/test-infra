@@ -232,16 +232,6 @@
       "macos"
     ]
   ],
-  "test_channel_group_quantization (__main__.TestQuantizePT2EAffineQuantization)": [
-    "144902",
-    "https://github.com/pytorch/pytorch/issues/144902",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos"
-    ]
-  ],
   "test_checkpoint_trigger (__main__.TestCheckpoint)": [
     "97402",
     "https://github.com/pytorch/pytorch/issues/97402",
@@ -907,7 +897,9 @@
     "147816",
     "https://github.com/pytorch/pytorch/issues/147816",
     [
-      "inductor"
+      "inductor",
+      "linux",
+      "rocm"
     ]
   ],
   "test_init_from_local_shards (__main__.TestShardedTensorFromLocalShards)": [
