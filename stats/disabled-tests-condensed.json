@@ -902,6 +902,13 @@
       "rocm"
     ]
   ],
+  "test_inductor_inplace_op_on_view (__main__.CompileTest)": [
+    "147852",
+    "https://github.com/pytorch/pytorch/issues/147852",
+    [
+      "inductor"
+    ]
+  ],
   "test_init_from_local_shards (__main__.TestShardedTensorFromLocalShards)": [
     "78068",
     "https://github.com/pytorch/pytorch/issues/78068",
@@ -1146,6 +1153,13 @@
       "dynamo"
     ]
   ],
+  "test_mixed_mm (__main__.TestPatternMatcher)": [
+    "145192",
+    "https://github.com/pytorch/pytorch/issues/145192",
+    [
+      "rocm"
+    ]
+  ],
   "test_mixed_mm_bad_cases (__main__.TestPatternMatcher)": [
     "128487",
     "https://github.com/pytorch/pytorch/issues/128487",
@@ -1158,6 +1172,13 @@
     "https://github.com/pytorch/pytorch/issues/126489",
     [
       "linux",
+      "rocm"
+    ]
+  ],
+  "test_mixed_mm_exhaustive_dtypes (__main__.TestPatternMatcher)": [
+    "147853",
+    "https://github.com/pytorch/pytorch/issues/147853",
+    [
       "rocm"
     ]
   ],
