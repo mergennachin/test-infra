@@ -911,6 +911,14 @@
       "linux"
     ]
   ],
+  "test_inductor_reduce_scatter_tensor_coalesced (__main__.CompileTest)": [
+    "147887",
+    "https://github.com/pytorch/pytorch/issues/147887",
+    [
+      "rocm",
+      "inductor"
+    ]
+  ],
   "test_init_from_local_shards (__main__.TestShardedTensorFromLocalShards)": [
     "78068",
     "https://github.com/pytorch/pytorch/issues/78068",
