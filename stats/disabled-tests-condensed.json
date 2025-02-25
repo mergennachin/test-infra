@@ -723,6 +723,13 @@
       "linux"
     ]
   ],
+  "test_equivalent_template_code (__main__.BenchmarkMultiTemplateFusionCudaTest)": [
+    "145017",
+    "https://github.com/pytorch/pytorch/issues/145017",
+    [
+      "rocm"
+    ]
+  ],
   "test_execution_trace_with_kineto (__main__.TestExecutionTrace)": [
     "123536",
     "https://github.com/pytorch/pytorch/issues/123536",
@@ -892,7 +899,15 @@
     "https://github.com/pytorch/pytorch/issues/147795",
     [
       "inductor",
-      "linux"
+      "linux",
+      "rocm"
+    ]
+  ],
+  "test_inductor_broadcast (__main__.CompileTest)": [
+    "147816",
+    "https://github.com/pytorch/pytorch/issues/147816",
+    [
+      "inductor"
     ]
   ],
   "test_init_from_local_shards (__main__.TestShardedTensorFromLocalShards)": [
