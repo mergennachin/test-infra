@@ -925,7 +925,15 @@
     "https://github.com/pytorch/pytorch/issues/147911",
     [
       "inductor",
-      "rocm"
+      "rocm",
+      "linux"
+    ]
+  ],
+  "test_inductor_reuse_buffer_after_inplace_collective (__main__.CompileTest)": [
+    "147950",
+    "https://github.com/pytorch/pytorch/issues/147950",
+    [
+      "inductor"
     ]
   ],
   "test_init_from_local_shards (__main__.TestShardedTensorFromLocalShards)": [
@@ -1277,6 +1285,13 @@
     "https://github.com/pytorch/pytorch/issues/146124",
     [
       "dynamo"
+    ]
+  ],
+  "test_multi_output_unbacked_custom_op_cuda (__main__.TestInductorDynamicCUDA)": [
+    "135755",
+    "https://github.com/pytorch/pytorch/issues/135755",
+    [
+      "rocm"
     ]
   ],
   "test_nested (quantization.jit.test_quantize_jit.TestQuantizeJit)": [
@@ -1762,6 +1777,20 @@
     "https://github.com/pytorch/pytorch/issues/146162",
     [
       "dynamo"
+    ]
+  ],
+  "test_reorder_peak_memory_bfs (__main__.TestOperatorReorderForPeakMemory)": [
+    "147949",
+    "https://github.com/pytorch/pytorch/issues/147949",
+    [
+      "rocm"
+    ]
+  ],
+  "test_reorder_peak_memory_lpmf (__main__.TestOperatorReorderForPeakMemory)": [
+    "145210",
+    "https://github.com/pytorch/pytorch/issues/145210",
+    [
+      "rocm"
     ]
   ],
   "test_repeat_graph_capture_cublas_workspace_memory (__main__.TestCuda)": [
