@@ -933,7 +933,8 @@
     "147950",
     "https://github.com/pytorch/pytorch/issues/147950",
     [
-      "inductor"
+      "inductor",
+      "rocm"
     ]
   ],
   "test_init_from_local_shards (__main__.TestShardedTensorFromLocalShards)": [
@@ -1205,6 +1206,13 @@
   "test_mixed_mm_exhaustive_dtypes (__main__.TestPatternMatcher)": [
     "147853",
     "https://github.com/pytorch/pytorch/issues/147853",
+    [
+      "rocm"
+    ]
+  ],
+  "test_mixed_mm_gating (__main__.TestPatternMatcher)": [
+    "147965",
+    "https://github.com/pytorch/pytorch/issues/147965",
     [
       "rocm"
     ]
