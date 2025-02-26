@@ -1663,6 +1663,14 @@
       "asan"
     ]
   ],
+  "test_ranks_and_tag (__main__.CompileTest)": [
+    "147974",
+    "https://github.com/pytorch/pytorch/issues/147974",
+    [
+      "rocm",
+      "inductor"
+    ]
+  ],
   "test_re_export_preserve_handle (__main__.TestNumericDebugger)": [
     "144898",
     "https://github.com/pytorch/pytorch/issues/144898",
