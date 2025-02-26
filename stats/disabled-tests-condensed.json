@@ -101,13 +101,6 @@
       "rocm"
     ]
   ],
-  "test_avoid_register_spilling_cuda (__main__.BenchmarkFusionCudaTest)": [
-    "146988",
-    "https://github.com/pytorch/pytorch/issues/146988",
-    [
-      "rocm"
-    ]
-  ],
   "test_backward_ddp_inside (__main__.TensorPipeDdpUnderDistAutogradTest)": [
     "104328",
     "https://github.com/pytorch/pytorch/issues/104328",
@@ -1667,8 +1660,9 @@
     "147974",
     "https://github.com/pytorch/pytorch/issues/147974",
     [
+      "inductor",
       "rocm",
-      "inductor"
+      "linux"
     ]
   ],
   "test_re_export_preserve_handle (__main__.TestNumericDebugger)": [
@@ -2094,13 +2088,6 @@
     [
       "rocm",
       "inductor"
-    ]
-  ],
-  "test_sparse_add_cuda_complex128 (__main__.TestSparseCSRCUDA)": [
-    "86388",
-    "https://github.com/pytorch/pytorch/issues/86388",
-    [
-      "rocm"
     ]
   ],
   "test_sparse_add_cuda_float64 (__main__.TestSparseCSRCUDA)": [
