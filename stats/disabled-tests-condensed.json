@@ -1680,6 +1680,15 @@
       "dynamo"
     ]
   ],
+  "test_recompile (__main__.AutoFunctionalizeTests)": [
+    "148013",
+    "https://github.com/pytorch/pytorch/issues/148013",
+    [
+      "mac",
+      "macos",
+      "rocm"
+    ]
+  ],
   "test_recompile_on_global_state_change (__main__.MiscTests)": [
     "144897",
     "https://github.com/pytorch/pytorch/issues/144897",
@@ -2495,6 +2504,14 @@
     "https://github.com/pytorch/pytorch/issues/113850",
     [
       "linux"
+    ]
+  ],
+  "test_wait_tensor (__main__.CompileTest)": [
+    "148014",
+    "https://github.com/pytorch/pytorch/issues/148014",
+    [
+      "rocm",
+      "inductor"
     ]
   ],
   "test_warn_on_invalid_torch_function_standalone_class (__main__.TestTorchFunctionWarning)": [
