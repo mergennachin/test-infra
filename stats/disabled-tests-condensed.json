@@ -1714,15 +1714,6 @@
       "linux"
     ]
   ],
-  "test_rng (__main__.TestCompilerBisector)": [
-    "139590",
-    "https://github.com/pytorch/pytorch/issues/139590",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_run_decompositions_map_handle_to_new_nodes (__main__.TestNumericDebugger)": [
     "144933",
     "https://github.com/pytorch/pytorch/issues/144933",
@@ -2339,18 +2330,6 @@
     "https://github.com/pytorch/pytorch/issues/141484",
     [
       "linux"
-    ]
-  ],
-  "test_while_loop_schema_gen (__main__.TestHopSchema)": [
-    "141202",
-    "https://github.com/pytorch/pytorch/issues/141202",
-    [
-      "asan",
-      "linux",
-      "rocm",
-      "slow",
-      "mac",
-      "macos"
     ]
   ],
   "test_zero_model_parallel_parameters_as_bucket_view_True (__main__.TestZeroRedundancyOptimizerDistributed)": [
