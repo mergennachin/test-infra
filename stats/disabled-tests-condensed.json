@@ -136,6 +136,13 @@
       "mac"
     ]
   ],
+  "test_builtin_score_mods_bfloat16_score_mod0_head_dims0 (__main__.TestFlexDecoding)": [
+    "148057",
+    "https://github.com/pytorch/pytorch/issues/148057",
+    [
+      "rocm"
+    ]
+  ],
   "test_byte_mask (__main__.TestAdvancedIndexing)": [
     "138911",
     "https://github.com/pytorch/pytorch/issues/138911",
@@ -1274,6 +1281,14 @@
       "inductor"
     ]
   ],
+  "test_nonstrict_trace_inside_compiled_function_kwarg (__main__.DecoratorTests)": [
+    "148055",
+    "https://github.com/pytorch/pytorch/issues/148055",
+    [
+      "linux",
+      "rocm"
+    ]
+  ],
   "test_nonstrict_trace_nested_custom_class (__main__.DecoratorTests)": [
     "148033",
     "https://github.com/pytorch/pytorch/issues/148033",
@@ -1281,7 +1296,9 @@
       "linux",
       "mac",
       "macos",
-      "rocm"
+      "rocm",
+      "asan",
+      "slow"
     ]
   ],
   "test_nonstrict_trace_nested_custom_class_error (__main__.DecoratorTests)": [
@@ -1311,6 +1328,21 @@
       "linux",
       "mac",
       "macos"
+    ]
+  ],
+  "test_nonstrict_trace_on_method (__main__.DecoratorTests)": [
+    "148054",
+    "https://github.com/pytorch/pytorch/issues/148054",
+    [
+      "asan",
+      "linux"
+    ]
+  ],
+  "test_nonstrict_trace_pre_existing_custom_class_with_side_effects (__main__.DecoratorTests)": [
+    "148056",
+    "https://github.com/pytorch/pytorch/issues/148056",
+    [
+      "linux"
     ]
   ],
   "test_numpy_ref_mps_nn_functional_conv_transpose1d_mps_float32 (__main__.TestCommonMPS)": [
@@ -1549,11 +1581,12 @@
     "148013",
     "https://github.com/pytorch/pytorch/issues/148013",
     [
+      "asan",
+      "linux",
       "mac",
       "macos",
       "rocm",
-      "asan",
-      "linux"
+      "slow"
     ]
   ],
   "test_recompile_on_global_state_change (__main__.MiscTests)": [
