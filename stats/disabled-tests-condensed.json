@@ -1919,6 +1919,13 @@
       "linux"
     ]
   ],
+  "test_split (__main__.AutoFunctionalizeTests)": [
+    "148080",
+    "https://github.com/pytorch/pytorch/issues/148080",
+    [
+      "rocm"
+    ]
+  ],
   "test_split_scan (__main__.TestKernelBenchmark)": [
     "133228",
     "https://github.com/pytorch/pytorch/issues/133228",
