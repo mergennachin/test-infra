@@ -560,6 +560,13 @@
       "dynamo"
     ]
   ],
+  "test_disable_ctx_manager (__main__.ContextlibContextManagerTests)": [
+    "148068",
+    "https://github.com/pytorch/pytorch/issues/148068",
+    [
+      "rocm"
+    ]
+  ],
   "test_disable_external_correlation (__main__.TestProfiler)": [
     "143373",
     "https://github.com/pytorch/pytorch/issues/143373",
@@ -1335,14 +1342,18 @@
     "https://github.com/pytorch/pytorch/issues/148054",
     [
       "asan",
-      "linux"
+      "linux",
+      "mac",
+      "macos"
     ]
   ],
   "test_nonstrict_trace_pre_existing_custom_class_with_side_effects (__main__.DecoratorTests)": [
     "148056",
     "https://github.com/pytorch/pytorch/issues/148056",
     [
-      "linux"
+      "linux",
+      "mac",
+      "macos"
     ]
   ],
   "test_numpy_ref_mps_nn_functional_conv_transpose1d_mps_float32 (__main__.TestCommonMPS)": [
@@ -1868,6 +1879,18 @@
   "test_slice (__main__.AutoFunctionalizeTests)": [
     "148035",
     "https://github.com/pytorch/pytorch/issues/148035",
+    [
+      "mac",
+      "macos",
+      "rocm",
+      "asan",
+      "linux",
+      "slow"
+    ]
+  ],
+  "test_slice_dynamic (__main__.AutoFunctionalizeTests)": [
+    "148067",
+    "https://github.com/pytorch/pytorch/issues/148067",
     [
       "mac",
       "macos",
