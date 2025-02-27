@@ -959,13 +959,6 @@
       "rocm"
     ]
   ],
-  "test_int64_upsample3d_cuda_bfloat16 (__main__.TestTorchDeviceTypeCUDA)": [
-    "146007",
-    "https://github.com/pytorch/pytorch/issues/146007",
-    [
-      "rocm"
-    ]
-  ],
   "test_intra_node_comm_all_reduce (__main__.CommTest)": [
     "115859",
     "https://github.com/pytorch/pytorch/issues/115859",
@@ -978,15 +971,6 @@
     "https://github.com/pytorch/pytorch/issues/120694",
     [
       "dynamo"
-    ]
-  ],
-  "test_item_to_inputs_kernel_nobreak_cuda (__main__.TestInductorDynamicCUDA)": [
-    "119538",
-    "https://github.com/pytorch/pytorch/issues/119538",
-    [
-      "linux",
-      "rocm",
-      "slow"
     ]
   ],
   "test_jvpvjp_nn_functional_conv3d_cuda_float32 (__main__.TestOperatorsCUDA)": [
@@ -1136,13 +1120,6 @@
     "https://github.com/pytorch/pytorch/issues/131104",
     [
       "dynamo"
-    ]
-  ],
-  "test_mismatched_global_state (__main__.GraphRegionTrackerTests)": [
-    "144895",
-    "https://github.com/pytorch/pytorch/issues/144895",
-    [
-      "rocm"
     ]
   ],
   "test_mixed_mm (__main__.TestPatternMatcher)": [
@@ -1894,7 +1871,9 @@
     [
       "mac",
       "macos",
-      "rocm"
+      "rocm",
+      "asan",
+      "linux"
     ]
   ],
   "test_slice_scatter_reinplace_cuda (__main__.GPUTests)": [
@@ -1923,7 +1902,9 @@
     "148080",
     "https://github.com/pytorch/pytorch/issues/148080",
     [
-      "rocm"
+      "rocm",
+      "mac",
+      "macos"
     ]
   ],
   "test_split_scan (__main__.TestKernelBenchmark)": [
