@@ -1145,6 +1145,14 @@
       "rocm"
     ]
   ],
+  "test_mixed_mm_epi_works (__main__.TestPatternMatcher)": [
+    "126489",
+    "https://github.com/pytorch/pytorch/issues/126489",
+    [
+      "linux",
+      "rocm"
+    ]
+  ],
   "test_mixed_mm_exhaustive_dtypes (__main__.TestPatternMatcher)": [
     "147853",
     "https://github.com/pytorch/pytorch/issues/147853",
@@ -1264,6 +1272,45 @@
     "https://github.com/pytorch/pytorch/issues/109341",
     [
       "inductor"
+    ]
+  ],
+  "test_nonstrict_trace_nested_custom_class (__main__.DecoratorTests)": [
+    "148033",
+    "https://github.com/pytorch/pytorch/issues/148033",
+    [
+      "linux",
+      "mac",
+      "macos",
+      "rocm"
+    ]
+  ],
+  "test_nonstrict_trace_nested_custom_class_error (__main__.DecoratorTests)": [
+    "148031",
+    "https://github.com/pytorch/pytorch/issues/148031",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos"
+    ]
+  ],
+  "test_nonstrict_trace_newly_constructed_custom_class_with_side_effects (__main__.DecoratorTests)": [
+    "148032",
+    "https://github.com/pytorch/pytorch/issues/148032",
+    [
+      "linux",
+      "mac",
+      "macos",
+      "rocm"
+    ]
+  ],
+  "test_nonstrict_trace_no_action_at_a_distance (__main__.DecoratorTests)": [
+    "148034",
+    "https://github.com/pytorch/pytorch/issues/148034",
+    [
+      "linux",
+      "mac",
+      "macos"
     ]
   ],
   "test_numpy_ref_mps_nn_functional_conv_transpose1d_mps_float32 (__main__.TestCommonMPS)": [
@@ -1504,7 +1551,9 @@
     [
       "mac",
       "macos",
-      "rocm"
+      "rocm",
+      "asan",
+      "linux"
     ]
   ],
   "test_recompile_on_global_state_change (__main__.MiscTests)": [
@@ -1780,6 +1829,15 @@
     "105121",
     "https://github.com/pytorch/pytorch/issues/105121",
     [
+      "rocm"
+    ]
+  ],
+  "test_slice (__main__.AutoFunctionalizeTests)": [
+    "148035",
+    "https://github.com/pytorch/pytorch/issues/148035",
+    [
+      "mac",
+      "macos",
       "rocm"
     ]
   ],
@@ -2160,8 +2218,9 @@
     "148014",
     "https://github.com/pytorch/pytorch/issues/148014",
     [
+      "inductor",
       "rocm",
-      "inductor"
+      "linux"
     ]
   ],
   "test_warn_on_invalid_torch_function_standalone_class (__main__.TestTorchFunctionWarning)": [
