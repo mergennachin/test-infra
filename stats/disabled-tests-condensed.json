@@ -669,6 +669,17 @@
       "rocm"
     ]
   ],
+  "test_dynamo_timed (__main__.TestDynamoTimed)": [
+    "148093",
+    "https://github.com/pytorch/pytorch/issues/148093",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm"
+    ]
+  ],
   "test_embedding_bag_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
     "135215",
     "https://github.com/pytorch/pytorch/issues/135215",
@@ -1213,6 +1224,13 @@
     "https://github.com/pytorch/pytorch/issues/131089",
     [
       "dynamo"
+    ]
+  ],
+  "test_njt_causal_bfloat16 (__main__.TestFlexAttention)": [
+    "148095",
+    "https://github.com/pytorch/pytorch/issues/148095",
+    [
+      "rocm"
     ]
   ],
   "test_nnc_correctness_frac_cpu_bfloat16 (__main__.TestNNCOpInfoCPU)": [
@@ -1869,11 +1887,12 @@
     "148067",
     "https://github.com/pytorch/pytorch/issues/148067",
     [
+      "asan",
+      "linux",
       "mac",
       "macos",
       "rocm",
-      "asan",
-      "linux"
+      "slow"
     ]
   ],
   "test_slice_scatter_reinplace_cuda (__main__.GPUTests)": [
@@ -1905,6 +1924,13 @@
       "rocm",
       "mac",
       "macos"
+    ]
+  ],
+  "test_split_dynamic (__main__.AutoFunctionalizeTests)": [
+    "148094",
+    "https://github.com/pytorch/pytorch/issues/148094",
+    [
+      "rocm"
     ]
   ],
   "test_split_scan (__main__.TestKernelBenchmark)": [
