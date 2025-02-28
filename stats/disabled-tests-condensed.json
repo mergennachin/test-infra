@@ -1337,6 +1337,15 @@
       "macos"
     ]
   ],
+  "test_nonstrict_trace_pre_existing_custom_class (__main__.DecoratorTests)": [
+    "148166",
+    "https://github.com/pytorch/pytorch/issues/148166",
+    [
+      "linux",
+      "mac",
+      "macos"
+    ]
+  ],
   "test_nonstrict_trace_pre_existing_custom_class_with_side_effects (__main__.DecoratorTests)": [
     "148056",
     "https://github.com/pytorch/pytorch/issues/148056",
