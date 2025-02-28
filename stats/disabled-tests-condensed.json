@@ -2146,13 +2146,6 @@
       "rocm"
     ]
   ],
-  "test_triton_kernel_multiple_out (__main__.AutogradFunctionTests)": [
-    "147214",
-    "https://github.com/pytorch/pytorch/issues/147214",
-    [
-      "rocm"
-    ]
-  ],
   "test_variant_consistency_eager_nn_functional_conv3d_cuda_complex64 (__main__.TestCommonCUDA)": [
     "114592",
     "https://github.com/pytorch/pytorch/issues/114592",
@@ -2202,13 +2195,6 @@
   "test_variant_consistency_jit_linalg_lu_factor_ex_cuda_complex64 (__main__.TestJitCUDA)": [
     "86887",
     "https://github.com/pytorch/pytorch/issues/86887",
-    [
-      "linux"
-    ]
-  ],
-  "test_vdd_clamp_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "134445",
-    "https://github.com/pytorch/pytorch/issues/134445",
     [
       "linux"
     ]
