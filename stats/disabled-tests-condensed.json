@@ -654,6 +654,30 @@
       "dynamo"
     ]
   ],
+  "test_dynamic_sources_dynamic_override (__main__.MiscTests)": [
+    "148218",
+    "https://github.com/pytorch/pytorch/issues/148218",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_dynamic_sources_dynamic_override_dynamic_shapes (__main__.DynamicShapesMiscTests)": [
+    "148214",
+    "https://github.com/pytorch/pytorch/issues/148214",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_dynamic_toggle (__main__.TestProfiler)": [
     "134479",
     "https://github.com/pytorch/pytorch/issues/134479",
@@ -781,6 +805,26 @@
     "https://github.com/pytorch/pytorch/issues/104055",
     [
       "rocm"
+    ]
+  ],
+  "test_guard_failure_fn2 (__main__.MiscTests)": [
+    "148217",
+    "https://github.com/pytorch/pytorch/issues/148217",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_guard_failure_fn_shape_control_dynamic_shapes (__main__.DynamicShapesMiscTests)": [
+    "148216",
+    "https://github.com/pytorch/pytorch/issues/148216",
+    [
+      "mac",
+      "macos"
     ]
   ],
   "test_homogeneous_attributes (__main__.TestFSDPMiscMultiThread)": [
@@ -1032,6 +1076,16 @@
     "https://github.com/pytorch/pytorch/issues/80338",
     [
       "linux"
+    ]
+  ],
+  "test_mark_unbacked_strict_dynamic_shapes (__main__.DynamicShapesMiscTests)": [
+    "148215",
+    "https://github.com/pytorch/pytorch/issues/148215",
+    [
+      "asan",
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_matmul_triton_kernel_benchmark (__main__.TestKernelBenchmark)": [
@@ -1410,6 +1464,13 @@
     [
       "mac",
       "macos"
+    ]
+  ],
+  "test_partitioning_unremat_bw (__main__.MinCutPartitioningTests)": [
+    "145343",
+    "https://github.com/pytorch/pytorch/issues/145343",
+    [
+      "rocm"
     ]
   ],
   "test_pattern_matcher_multi_user_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
