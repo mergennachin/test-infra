@@ -78,13 +78,6 @@
       "linux"
     ]
   ],
-  "test_arange_dynamic_cuda (__main__.TestInductorDynamicCUDA)": [
-    "127067",
-    "https://github.com/pytorch/pytorch/issues/127067",
-    [
-      "rocm"
-    ]
-  ],
   "test_attn_cuda (__main__.TestMin)": [
     "86710",
     "https://github.com/pytorch/pytorch/issues/86710",
@@ -1026,14 +1019,6 @@
       "linux"
     ]
   ],
-  "test_linear_backward_memory_usage_cuda_float32 (__main__.TestNestedTensorSubclassCUDA)": [
-    "141292",
-    "https://github.com/pytorch/pytorch/issues/141292",
-    [
-      "rocm",
-      "linux"
-    ]
-  ],
   "test_load_from_bias_head_seq_batch_float16 (__main__.TestFlexDecoding)": [
     "134144",
     "https://github.com/pytorch/pytorch/issues/134144",
@@ -1647,15 +1632,6 @@
       "mac"
     ]
   ],
-  "test_reentrant_parent_error_on_cpu_cuda (__main__.TestAutogradDeviceTypeCUDA)": [
-    "86735",
-    "https://github.com/pytorch/pytorch/issues/86735",
-    [
-      "win",
-      "windows",
-      "rocm"
-    ]
-  ],
   "test_remote_cache_load_function_device_cuda_bfloat16_dynamic_False_bundle_triton_False (__main__.TestFxGraphCache)": [
     "145182",
     "https://github.com/pytorch/pytorch/issues/145182",
@@ -1680,6 +1656,13 @@
   "test_reorder_peak_memory_bfs (__main__.TestOperatorReorderForPeakMemory)": [
     "147949",
     "https://github.com/pytorch/pytorch/issues/147949",
+    [
+      "rocm"
+    ]
+  ],
+  "test_reorder_peak_memory_dfs (__main__.TestOperatorReorderForPeakMemory)": [
+    "145183",
+    "https://github.com/pytorch/pytorch/issues/145183",
     [
       "rocm"
     ]
@@ -1712,6 +1695,15 @@
     "https://github.com/pytorch/pytorch/issues/91492",
     [
       "linux"
+    ]
+  ],
+  "test_rng (__main__.TestCompilerBisector)": [
+    "139590",
+    "https://github.com/pytorch/pytorch/issues/139590",
+    [
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_run_decompositions_map_handle_to_new_nodes (__main__.TestNumericDebugger)": [
@@ -1934,11 +1926,12 @@
     "148094",
     "https://github.com/pytorch/pytorch/issues/148094",
     [
-      "rocm",
       "asan",
       "linux",
       "mac",
-      "macos"
+      "macos",
+      "rocm",
+      "slow"
     ]
   ],
   "test_split_scan (__main__.TestKernelBenchmark)": [
