@@ -167,13 +167,6 @@
       "rocm"
     ]
   ],
-  "test_cache_load_function_device_cuda_float32_dynamic_False_bundle_triton_True_grad_True (__main__.TestFxGraphCache)": [
-    "145336",
-    "https://github.com/pytorch/pytorch/issues/145336",
-    [
-      "rocm"
-    ]
-  ],
   "test_causal_variants_compile_causal_variant_CausalVariant_LOWER_RIGHT_shape0_cuda (__main__.TestAttnBiasCUDA)": [
     "118641",
     "https://github.com/pytorch/pytorch/issues/118641",
