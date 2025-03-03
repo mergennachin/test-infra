@@ -737,6 +737,16 @@
       "dynamo"
     ]
   ],
+  "test_export_defaults_ok_dynamic_shapes (__main__.DynamicShapesExportTests)": [
+    "148331",
+    "https://github.com/pytorch/pytorch/issues/148331",
+    [
+      "asan",
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_extra_cuda_context (__main__.ProcessGroupNCCLGroupTest)": [
     "139011",
     "https://github.com/pytorch/pytorch/issues/139011",
@@ -1109,6 +1119,18 @@
     "https://github.com/pytorch/pytorch/issues/80338",
     [
       "linux"
+    ]
+  ],
+  "test_mark_unbacked_strict (__main__.MiscTests)": [
+    "148332",
+    "https://github.com/pytorch/pytorch/issues/148332",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "slow"
     ]
   ],
   "test_mark_unbacked_strict_dynamic_shapes (__main__.DynamicShapesMiscTests)": [
@@ -1711,6 +1733,15 @@
       "rocm"
     ]
   ],
+  "test_repeated_calling_cuda (__main__.AOTInductorTestABICompatibleGpu)": [
+    "146185",
+    "https://github.com/pytorch/pytorch/issues/146185",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_requires_grad_loop (test_jit.TestScript)": [
     "91492",
     "https://github.com/pytorch/pytorch/issues/91492",
@@ -1990,6 +2021,14 @@
     "https://github.com/pytorch/pytorch/issues/91488",
     [
       "linux"
+    ]
+  ],
+  "test_sys_modules_dynamic_shapes (__main__.DynamicShapesMiscTests)": [
+    "148330",
+    "https://github.com/pytorch/pytorch/issues/148330",
+    [
+      "mac",
+      "macos"
     ]
   ],
   "test_tcp (__main__.WorkerServerTest)": [
