@@ -721,6 +721,15 @@
       "linux"
     ]
   ],
+  "test_empty_graph_nested_calls_fullgraph_True_dynamic_shapes (__main__.DynamicShapesReproTests)": [
+    "148311",
+    "https://github.com/pytorch/pytorch/issues/148311",
+    [
+      "asan",
+      "linux",
+      "slow"
+    ]
+  ],
   "test_equivalent_template_code (__main__.BenchmarkMultiTemplateFusionCudaTest)": [
     "145017",
     "https://github.com/pytorch/pytorch/issues/145017",
@@ -996,6 +1005,13 @@
       "linux"
     ]
   ],
+  "test_input_mutation2_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "135295",
+    "https://github.com/pytorch/pytorch/issues/135295",
+    [
+      "linux"
+    ]
+  ],
   "test_int64_upsample3d_cuda_bfloat16 (__main__.TestTorchDeviceTypeCUDA)": [
     "146007",
     "https://github.com/pytorch/pytorch/issues/146007",
@@ -1012,6 +1028,17 @@
       "mac",
       "macos",
       "rocm"
+    ]
+  ],
+  "test_int_shape_inplace_binops (__main__.MiscTests)": [
+    "148312",
+    "https://github.com/pytorch/pytorch/issues/148312",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "slow"
     ]
   ],
   "test_intra_node_comm_all_reduce (__main__.CommTest)": [
@@ -1689,15 +1716,6 @@
     "https://github.com/pytorch/pytorch/issues/144922",
     [
       "rocm"
-    ]
-  ],
-  "test_repeated_calling_cuda (__main__.AOTInductorTestABICompatibleGpu)": [
-    "146185",
-    "https://github.com/pytorch/pytorch/issues/146185",
-    [
-      "linux",
-      "rocm",
-      "slow"
     ]
   ],
   "test_requires_grad_loop (test_jit.TestScript)": [
