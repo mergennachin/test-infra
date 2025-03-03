@@ -491,13 +491,6 @@
       "rocm"
     ]
   ],
-  "test_custom_hook_custom_stream (__main__.TestHSDPWithCustomHook)": [
-    "147767",
-    "https://github.com/pytorch/pytorch/issues/147767",
-    [
-      "rocm"
-    ]
-  ],
   "test_custom_hsdp_all_reduce_hook (__main__.TestHSDPWithCustomHook)": [
     "147769",
     "https://github.com/pytorch/pytorch/issues/147769",
