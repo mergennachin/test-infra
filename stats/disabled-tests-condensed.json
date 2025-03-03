@@ -19,13 +19,6 @@
     "https://github.com/pytorch/pytorch/issues/68849",
     []
   ],
-  "test_add_tuple_non_optional (__main__.TestScript)": [
-    "146136",
-    "https://github.com/pytorch/pytorch/issues/146136",
-    [
-      "dynamo"
-    ]
-  ],
   "test_all_reduce_coalesced_group_min (__main__.TestDistBackendWithSpawn)": [
     "70754",
     "https://github.com/pytorch/pytorch/issues/70754",
@@ -604,6 +597,15 @@
       "linux"
     ]
   ],
+  "test_dont_aggressively_write_assert_dynamic_shapes (__main__.DynamicShapesReproTests)": [
+    "148295",
+    "https://github.com/pytorch/pytorch/issues/148295",
+    [
+      "asan",
+      "linux",
+      "rocm"
+    ]
+  ],
   "test_dropout_deterministic_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
     "132957",
     "https://github.com/pytorch/pytorch/issues/132957",
@@ -708,6 +710,13 @@
   "test_embedding_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
     "135456",
     "https://github.com/pytorch/pytorch/issues/135456",
+    [
+      "linux"
+    ]
+  ],
+  "test_embedding_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "135250",
+    "https://github.com/pytorch/pytorch/issues/135250",
     [
       "linux"
     ]
@@ -987,17 +996,21 @@
       "linux"
     ]
   ],
-  "test_input_mutation2_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "135295",
-    "https://github.com/pytorch/pytorch/issues/135295",
-    [
-      "linux"
-    ]
-  ],
   "test_int64_upsample3d_cuda_bfloat16 (__main__.TestTorchDeviceTypeCUDA)": [
     "146007",
     "https://github.com/pytorch/pytorch/issues/146007",
     [
+      "rocm"
+    ]
+  ],
+  "test_int_shape_binops (__main__.MiscTests)": [
+    "148296",
+    "https://github.com/pytorch/pytorch/issues/148296",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
       "rocm"
     ]
   ],
@@ -1085,7 +1098,9 @@
       "asan",
       "linux",
       "rocm",
-      "slow"
+      "slow",
+      "mac",
+      "macos"
     ]
   ],
   "test_matmul_triton_kernel_benchmark (__main__.TestKernelBenchmark)": [
@@ -1146,13 +1161,6 @@
       "linux",
       "rocm",
       "slow"
-    ]
-  ],
-  "test_memory_stats_multigpu (__main__.TestCudaMultiGPU)": [
-    "129860",
-    "https://github.com/pytorch/pytorch/issues/129860",
-    [
-      "linux"
     ]
   ],
   "test_merge_liveness (jit.test_freezing.TestMKLDNNReinplacing)": [
@@ -1217,13 +1225,6 @@
     "https://github.com/pytorch/pytorch/issues/122352",
     [
       "rocm"
-    ]
-  ],
-  "test_mm_batching (__main__.TestScript)": [
-    "119747",
-    "https://github.com/pytorch/pytorch/issues/119747",
-    [
-      "dynamo"
     ]
   ],
   "test_mm_concat_cuda (__main__.FreezingGpuTests)": [
@@ -1303,13 +1304,6 @@
     "https://github.com/pytorch/pytorch/issues/81732",
     [
       "linux"
-    ]
-  ],
-  "test_non_final_return (__main__.TestScript)": [
-    "145975",
-    "https://github.com/pytorch/pytorch/issues/145975",
-    [
-      "dynamo"
     ]
   ],
   "test_nondeterministic_alert_histc_cuda (__main__.TestTorchDeviceTypeCUDA)": [
@@ -1542,23 +1536,6 @@
       "linux"
     ]
   ],
-  "test_pt2_traceable_aot_eager_cpu_float8_e5m2 (__main__.TestFloat8DtypeCPUOnlyCPU)": [
-    "144934",
-    "https://github.com/pytorch/pytorch/issues/144934",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_pybind_type_comparisons (__main__.TestScript)": [
-    "145971",
-    "https://github.com/pytorch/pytorch/issues/145971",
-    [
-      "dynamo"
-    ]
-  ],
   "test_pynode_destruction_deadlock (__main__.TestAutogradWithCompiledAutograd)": [
     "121576",
     "https://github.com/pytorch/pytorch/issues/121576",
@@ -1616,13 +1593,6 @@
     [
       "mac",
       "macos"
-    ]
-  ],
-  "test_reassign_module_lhs (__main__.TestScript)": [
-    "145973",
-    "https://github.com/pytorch/pytorch/issues/145973",
-    [
-      "dynamo"
     ]
   ],
   "test_recompile (__main__.AutoFunctionalizeTests)": [
@@ -1785,27 +1755,6 @@
       "slow",
       "win",
       "windows"
-    ]
-  ],
-  "test_script_annotation (__main__.TestScript)": [
-    "145974",
-    "https://github.com/pytorch/pytorch/issues/145974",
-    [
-      "dynamo"
-    ]
-  ],
-  "test_script_outputs (__main__.TestScript)": [
-    "145976",
-    "https://github.com/pytorch/pytorch/issues/145976",
-    [
-      "dynamo"
-    ]
-  ],
-  "test_scriptable_fn_as_attr (__main__.TestScript)": [
-    "145972",
-    "https://github.com/pytorch/pytorch/issues/145972",
-    [
-      "dynamo"
     ]
   ],
   "test_sdpa_compile_cuda_bfloat16 (__main__.TestNestedTensorSubclassCUDA)": [
@@ -2072,13 +2021,6 @@
       "slow"
     ]
   ],
-  "test_tensor_subclasses (__main__.TestScript)": [
-    "119949",
-    "https://github.com/pytorch/pytorch/issues/119949",
-    [
-      "dynamo"
-    ]
-  ],
   "test_tensorboard_trace_handler (__main__.TestProfiler)": [
     "82915",
     "https://github.com/pytorch/pytorch/issues/82915",
@@ -2094,13 +2036,6 @@
     "https://github.com/pytorch/pytorch/issues/70546",
     [
       "mac"
-    ]
-  ],
-  "test_ternary_right_associative (__main__.TestScript)": [
-    "146137",
-    "https://github.com/pytorch/pytorch/issues/146137",
-    [
-      "dynamo"
     ]
   ],
   "test_threading (__main__.TestWithNCCL)": [
@@ -2256,6 +2191,13 @@
   "test_variant_consistency_jit_linalg_lu_factor_ex_cuda_complex64 (__main__.TestJitCUDA)": [
     "86887",
     "https://github.com/pytorch/pytorch/issues/86887",
+    [
+      "linux"
+    ]
+  ],
+  "test_vdd_clamp_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "134445",
+    "https://github.com/pytorch/pytorch/issues/134445",
     [
       "linux"
     ]
