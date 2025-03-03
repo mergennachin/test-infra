@@ -740,6 +740,15 @@
       "slow"
     ]
   ],
+  "test_export_with_cond_dynamic_shape_pred_dynamic_shapes (__main__.DynamicShapesExportTests)": [
+    "148368",
+    "https://github.com/pytorch/pytorch/issues/148368",
+    [
+      "asan",
+      "linux",
+      "rocm"
+    ]
+  ],
   "test_extra_cuda_context (__main__.ProcessGroupNCCLGroupTest)": [
     "139011",
     "https://github.com/pytorch/pytorch/issues/139011",
@@ -1493,6 +1502,18 @@
     [
       "mac",
       "macos"
+    ]
+  ],
+  "test_param_shape_binops (__main__.MiscTests)": [
+    "148369",
+    "https://github.com/pytorch/pytorch/issues/148369",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "slow"
     ]
   ],
   "test_partitioning_unremat_bw (__main__.MinCutPartitioningTests)": [
