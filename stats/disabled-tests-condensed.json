@@ -174,6 +174,13 @@
       "rocm"
     ]
   ],
+  "test_capture_tracked_dynamic_shapes (__main__.DynamicShapesHigherOrderOpTests)": [
+    "148427",
+    "https://github.com/pytorch/pytorch/issues/148427",
+    [
+      "rocm"
+    ]
+  ],
   "test_causal_variants_compile_causal_variant_CausalVariant_LOWER_RIGHT_shape0_cuda (__main__.TestAttnBiasCUDA)": [
     "118641",
     "https://github.com/pytorch/pytorch/issues/118641",
@@ -714,6 +721,14 @@
     "https://github.com/pytorch/pytorch/issues/135250",
     [
       "linux"
+    ]
+  ],
+  "test_empty_graph_nested_calls_fullgraph_False_dynamic_shapes (__main__.DynamicShapesReproTests)": [
+    "148426",
+    "https://github.com/pytorch/pytorch/issues/148426",
+    [
+      "mac",
+      "macos"
     ]
   ],
   "test_empty_graph_nested_calls_fullgraph_True_dynamic_shapes (__main__.DynamicShapesReproTests)": [
@@ -1922,11 +1937,12 @@
     "148392",
     "https://github.com/pytorch/pytorch/issues/148392",
     [
+      "asan",
+      "linux",
       "mac",
       "macos",
       "rocm",
-      "asan",
-      "linux"
+      "slow"
     ]
   ],
   "test_simple (__main__.TestNumericDebugger)": [
@@ -2071,6 +2087,15 @@
     "https://github.com/pytorch/pytorch/issues/91488",
     [
       "linux"
+    ]
+  ],
+  "test_sys_modules (__main__.MiscTests)": [
+    "148428",
+    "https://github.com/pytorch/pytorch/issues/148428",
+    [
+      "mac",
+      "macos",
+      "rocm"
     ]
   ],
   "test_sys_modules_dynamic_shapes (__main__.DynamicShapesMiscTests)": [
@@ -2246,9 +2271,10 @@
     "148390",
     "https://github.com/pytorch/pytorch/issues/148390",
     [
-      "rocm",
       "asan",
-      "linux"
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_variant_consistency_eager_nn_functional_conv3d_cuda_complex64 (__main__.TestCommonCUDA)": [
