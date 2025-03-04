@@ -176,6 +176,13 @@
       "linux"
     ]
   ],
+  "test_capture_untracked_global_dynamic_shapes (__main__.DynamicShapesHigherOrderOpTests)": [
+    "148442",
+    "https://github.com/pytorch/pytorch/issues/148442",
+    [
+      "rocm"
+    ]
+  ],
   "test_causal_variants_compile_causal_variant_CausalVariant_LOWER_RIGHT_shape0_cuda (__main__.TestAttnBiasCUDA)": [
     "118641",
     "https://github.com/pytorch/pytorch/issues/118641",
@@ -2279,6 +2286,13 @@
       "linux",
       "rocm",
       "slow"
+    ]
+  ],
+  "test_user_defined_binop (__main__.MiscTests)": [
+    "148443",
+    "https://github.com/pytorch/pytorch/issues/148443",
+    [
+      "rocm"
     ]
   ],
   "test_variant_consistency_eager_nn_functional_conv3d_cuda_complex64 (__main__.TestCommonCUDA)": [
