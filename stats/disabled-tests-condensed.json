@@ -160,13 +160,6 @@
       "rocm"
     ]
   ],
-  "test_cache_load_function_device_cuda_bfloat16_dynamic_False_bundle_triton_True_grad_True (__main__.TestFxGraphCache)": [
-    "145181",
-    "https://github.com/pytorch/pytorch/issues/145181",
-    [
-      "rocm"
-    ]
-  ],
   "test_cache_load_function_device_cuda_float32_dynamic_False_bundle_triton_True_grad_True (__main__.TestFxGraphCache)": [
     "145336",
     "https://github.com/pytorch/pytorch/issues/145336",
@@ -178,7 +171,9 @@
     "148427",
     "https://github.com/pytorch/pytorch/issues/148427",
     [
-      "rocm"
+      "rocm",
+      "asan",
+      "linux"
     ]
   ],
   "test_causal_variants_compile_causal_variant_CausalVariant_LOWER_RIGHT_shape0_cuda (__main__.TestAttnBiasCUDA)": [
@@ -1554,6 +1549,13 @@
       "linux"
     ]
   ],
+  "test_per_sample_api_compute_batch_size_not_pytreeable_cpu (__main__.TestExpandedWeightModuleCPU)": [
+    "146972",
+    "https://github.com/pytorch/pytorch/issues/146972",
+    [
+      "dynamo"
+    ]
+  ],
   "test_pinned_memory_empty_cache (__main__.TestCuda)": [
     "136687",
     "https://github.com/pytorch/pytorch/issues/136687",
@@ -2095,7 +2097,9 @@
     [
       "mac",
       "macos",
-      "rocm"
+      "rocm",
+      "asan",
+      "linux"
     ]
   ],
   "test_sys_modules_dynamic_shapes (__main__.DynamicShapesMiscTests)": [
