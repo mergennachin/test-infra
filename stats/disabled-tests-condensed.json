@@ -589,7 +589,9 @@
     [
       "asan",
       "linux",
-      "rocm"
+      "rocm",
+      "mac",
+      "macos"
     ]
   ],
   "test_dropout_deterministic_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
@@ -1705,6 +1707,15 @@
       "mac"
     ]
   ],
+  "test_reentrant_parent_error_on_cpu_cuda (__main__.TestAutogradDeviceTypeCUDA)": [
+    "86735",
+    "https://github.com/pytorch/pytorch/issues/86735",
+    [
+      "win",
+      "windows",
+      "rocm"
+    ]
+  ],
   "test_remote_cache_load_function_device_cuda_bfloat16_dynamic_False_bundle_triton_False (__main__.TestFxGraphCache)": [
     "145182",
     "https://github.com/pytorch/pytorch/issues/145182",
@@ -1851,6 +1862,13 @@
       "rocm"
     ]
   ],
+  "test_sdpa_rewriter_14_cuda (__main__.SDPAPatternRewriterCudaTests)": [
+    "148391",
+    "https://github.com/pytorch/pytorch/issues/148391",
+    [
+      "rocm"
+    ]
+  ],
   "test_send_recv_all_to_all (__main__.ProcessGroupGlooTest)": [
     "71195",
     "https://github.com/pytorch/pytorch/issues/71195",
@@ -1890,6 +1908,15 @@
     "143994",
     "https://github.com/pytorch/pytorch/issues/143994",
     [
+      "rocm"
+    ]
+  ],
+  "test_shape_int_inplace_binops (__main__.MiscTests)": [
+    "148392",
+    "https://github.com/pytorch/pytorch/issues/148392",
+    [
+      "mac",
+      "macos",
       "rocm"
     ]
   ],
@@ -2202,6 +2229,13 @@
   "test_transformerencoderlayer_cuda_float32 (__main__.TestNNDeviceTypeCUDA)": [
     "134687",
     "https://github.com/pytorch/pytorch/issues/134687",
+    [
+      "rocm"
+    ]
+  ],
+  "test_untracked_inputs_in_constraints_dynamic_shapes (__main__.DynamicShapesExportTests)": [
+    "148390",
+    "https://github.com/pytorch/pytorch/issues/148390",
     [
       "rocm"
     ]
