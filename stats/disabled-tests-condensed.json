@@ -189,7 +189,8 @@
     "148464",
     "https://github.com/pytorch/pytorch/issues/148464",
     [
-      "rocm"
+      "rocm",
+      "linux"
     ]
   ],
   "test_causal_variants_compile_causal_variant_CausalVariant_LOWER_RIGHT_shape0_cuda (__main__.TestAttnBiasCUDA)": [
