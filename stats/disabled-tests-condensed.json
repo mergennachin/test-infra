@@ -180,7 +180,9 @@
     "148442",
     "https://github.com/pytorch/pytorch/issues/148442",
     [
-      "rocm"
+      "rocm",
+      "asan",
+      "linux"
     ]
   ],
   "test_causal_variants_compile_causal_variant_CausalVariant_LOWER_RIGHT_shape0_cuda (__main__.TestAttnBiasCUDA)": [
@@ -900,15 +902,6 @@
       "rocm",
       "win",
       "windows"
-    ]
-  ],
-  "test_inductor_all_gather_into_tensor_coalesced (__main__.CompileTest)": [
-    "146806",
-    "https://github.com/pytorch/pytorch/issues/146806",
-    [
-      "linux",
-      "rocm",
-      "inductor"
     ]
   ],
   "test_inductor_all_gather_into_tensor_single (__main__.CompileTest)": [
@@ -2292,7 +2285,12 @@
     "148443",
     "https://github.com/pytorch/pytorch/issues/148443",
     [
-      "rocm"
+      "rocm",
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "slow"
     ]
   ],
   "test_variant_consistency_eager_nn_functional_conv3d_cuda_complex64 (__main__.TestCommonCUDA)": [
