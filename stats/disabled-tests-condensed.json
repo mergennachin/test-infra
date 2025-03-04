@@ -185,6 +185,13 @@
       "linux"
     ]
   ],
+  "test_capture_untracked_nonlocal_dynamic_shapes (__main__.DynamicShapesHigherOrderOpTests)": [
+    "148464",
+    "https://github.com/pytorch/pytorch/issues/148464",
+    [
+      "rocm"
+    ]
+  ],
   "test_causal_variants_compile_causal_variant_CausalVariant_LOWER_RIGHT_shape0_cuda (__main__.TestAttnBiasCUDA)": [
     "118641",
     "https://github.com/pytorch/pytorch/issues/118641",
@@ -741,7 +748,9 @@
     [
       "asan",
       "linux",
-      "slow"
+      "slow",
+      "mac",
+      "macos"
     ]
   ],
   "test_equivalent_template_code (__main__.BenchmarkMultiTemplateFusionCudaTest)": [
@@ -902,6 +911,15 @@
       "rocm",
       "win",
       "windows"
+    ]
+  ],
+  "test_inductor_all_gather_into_tensor_coalesced (__main__.CompileTest)": [
+    "146806",
+    "https://github.com/pytorch/pytorch/issues/146806",
+    [
+      "linux",
+      "rocm",
+      "inductor"
     ]
   ],
   "test_inductor_all_gather_into_tensor_single (__main__.CompileTest)": [
@@ -1925,6 +1943,14 @@
     "135115",
     "https://github.com/pytorch/pytorch/issues/135115",
     [
+      "linux"
+    ]
+  ],
+  "test_set_stance_eager_then_compile_with_graph_break (__main__.DecoratorTests)": [
+    "148463",
+    "https://github.com/pytorch/pytorch/issues/148463",
+    [
+      "asan",
       "linux"
     ]
   ],
