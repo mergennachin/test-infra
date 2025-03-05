@@ -1114,6 +1114,15 @@
       "slow"
     ]
   ],
+  "test_internal_nonlocal_dynamic_shapes (__main__.DynamicShapesHigherOrderOpTests)": [
+    "148558",
+    "https://github.com/pytorch/pytorch/issues/148558",
+    [
+      "asan",
+      "linux",
+      "rocm"
+    ]
+  ],
   "test_intra_node_comm_all_reduce (__main__.CommTest)": [
     "115859",
     "https://github.com/pytorch/pytorch/issues/115859",
