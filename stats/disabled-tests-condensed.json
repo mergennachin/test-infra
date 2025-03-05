@@ -189,8 +189,9 @@
     "148464",
     "https://github.com/pytorch/pytorch/issues/148464",
     [
+      "linux",
       "rocm",
-      "linux"
+      "asan"
     ]
   ],
   "test_causal_variants_compile_causal_variant_CausalVariant_LOWER_RIGHT_shape0_cuda (__main__.TestAttnBiasCUDA)": [
@@ -775,7 +776,9 @@
       "asan",
       "linux",
       "rocm",
-      "slow"
+      "slow",
+      "mac",
+      "macos"
     ]
   ],
   "test_export_with_cond_dynamic_shape_pred_dynamic_shapes (__main__.DynamicShapesExportTests)": [
@@ -809,6 +812,13 @@
     "https://github.com/pytorch/pytorch/issues/131079",
     [
       "inductor",
+      "rocm"
+    ]
+  ],
+  "test_freevars_as_inputs_to_wrap_dynamic_shapes (__main__.DynamicShapesHigherOrderOpTests)": [
+    "148514",
+    "https://github.com/pytorch/pytorch/issues/148514",
+    [
       "rocm"
     ]
   ],
@@ -1945,6 +1955,15 @@
     "https://github.com/pytorch/pytorch/issues/135115",
     [
       "linux"
+    ]
+  ],
+  "test_set_stance_eager_then_compile (__main__.DecoratorTests)": [
+    "148515",
+    "https://github.com/pytorch/pytorch/issues/148515",
+    [
+      "linux",
+      "mac",
+      "macos"
     ]
   ],
   "test_set_stance_eager_then_compile_with_graph_break (__main__.DecoratorTests)": [
