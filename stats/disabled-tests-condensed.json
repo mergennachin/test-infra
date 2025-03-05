@@ -819,7 +819,9 @@
     "148514",
     "https://github.com/pytorch/pytorch/issues/148514",
     [
-      "rocm"
+      "rocm",
+      "asan",
+      "linux"
     ]
   ],
   "test_fsdp_unsupported_module_cls (__main__.TestFSDPMiscMultiThread)": [
@@ -864,11 +866,26 @@
       "linux"
     ]
   ],
+  "test_globals_change_in_other_file (__main__.ContextlibContextManagerTests)": [
+    "148523",
+    "https://github.com/pytorch/pytorch/issues/148523",
+    [
+      "rocm"
+    ]
+  ],
   "test_gpu_simple (__main__.TensorPipeCudaDistAutogradTest)": [
     "70753",
     "https://github.com/pytorch/pytorch/issues/70753",
     [
       "mac"
+    ]
+  ],
+  "test_graph_break_before___enter__ (__main__.ContextlibContextManagerTests)": [
+    "148524",
+    "https://github.com/pytorch/pytorch/issues/148524",
+    [
+      "linux",
+      "rocm"
     ]
   ],
   "test_graph_concurrent_replay (__main__.TestCuda)": [
@@ -1633,13 +1650,6 @@
       "rocm"
     ]
   ],
-  "test_profiler_mark_wrapper_call_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "135294",
-    "https://github.com/pytorch/pytorch/issues/135294",
-    [
-      "linux"
-    ]
-  ],
   "test_profiler_rpc_key_names (__main__.TensorPipeRpcTest)": [
     "125365",
     "https://github.com/pytorch/pytorch/issues/125365",
@@ -1721,13 +1731,6 @@
   "test_recompile_on_global_state_change (__main__.MiscTests)": [
     "144897",
     "https://github.com/pytorch/pytorch/issues/144897",
-    [
-      "rocm"
-    ]
-  ],
-  "test_recompile_on_global_state_change_dynamic_shapes (__main__.DynamicShapesMiscTests)": [
-    "144896",
-    "https://github.com/pytorch/pytorch/issues/144896",
     [
       "rocm"
     ]
@@ -1892,6 +1895,13 @@
     [
       "mac",
       "macos"
+    ]
+  ],
+  "test_sdpa_rewriter_11_cuda (__main__.SDPAPatternRewriterCudaTests)": [
+    "148525",
+    "https://github.com/pytorch/pytorch/issues/148525",
+    [
+      "rocm"
     ]
   ],
   "test_sdpa_rewriter_12_cuda (__main__.SDPAPatternRewriterCudaDynamicTests)": [
@@ -2166,13 +2176,6 @@
   "test_tensor_as_tensor_shape_prop (test_jit.TestScript)": [
     "91482",
     "https://github.com/pytorch/pytorch/issues/91482",
-    [
-      "linux"
-    ]
-  ],
-  "test_tensor_dtype_complex (__main__.CommTest)": [
-    "112460",
-    "https://github.com/pytorch/pytorch/issues/112460",
     [
       "linux"
     ]
