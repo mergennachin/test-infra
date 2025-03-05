@@ -621,14 +621,6 @@
       "macos"
     ]
   ],
-  "test_dropout_deterministic_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
-    "132957",
-    "https://github.com/pytorch/pytorch/issues/132957",
-    [
-      "linux",
-      "rocm"
-    ]
-  ],
   "test_dtensor_mm (__main__.DistMatrixOpsTest)": [
     "139813",
     "https://github.com/pytorch/pytorch/issues/139813",
@@ -787,7 +779,9 @@
     [
       "asan",
       "linux",
-      "rocm"
+      "rocm",
+      "mac",
+      "macos"
     ]
   ],
   "test_extra_cuda_context (__main__.ProcessGroupNCCLGroupTest)": [
@@ -1045,6 +1039,15 @@
       "linux"
     ]
   ],
+  "test_inlined_functions_dynamic_shapes (__main__.DynamicShapesHigherOrderOpTests)": [
+    "148544",
+    "https://github.com/pytorch/pytorch/issues/148544",
+    [
+      "asan",
+      "linux",
+      "rocm"
+    ]
+  ],
   "test_inplace_custom_op (__main__.InplacingTests)": [
     "135327",
     "https://github.com/pytorch/pytorch/issues/135327",
@@ -1215,6 +1218,13 @@
   "test_matmul_triton_kernel_benchmark (__main__.TestKernelBenchmark)": [
     "115002",
     "https://github.com/pytorch/pytorch/issues/115002",
+    [
+      "rocm"
+    ]
+  ],
+  "test_max_autotune (__main__.TestFlexAttention)": [
+    "147200",
+    "https://github.com/pytorch/pytorch/issues/147200",
     [
       "rocm"
     ]
@@ -1609,14 +1619,6 @@
       "rocm"
     ]
   ],
-  "test_precompilations (__main__.TestMaxAutotune)": [
-    "124265",
-    "https://github.com/pytorch/pytorch/issues/124265",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_prim_grad_undefined (test_jit.TestScript)": [
     "91493",
     "https://github.com/pytorch/pytorch/issues/91493",
@@ -1648,6 +1650,13 @@
     "https://github.com/pytorch/pytorch/issues/106027",
     [
       "rocm"
+    ]
+  ],
+  "test_profiler_mark_wrapper_call_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "135294",
+    "https://github.com/pytorch/pytorch/issues/135294",
+    [
+      "linux"
     ]
   ],
   "test_profiler_rpc_key_names (__main__.TensorPipeRpcTest)": [
@@ -1769,13 +1778,6 @@
     [
       "win",
       "windows",
-      "rocm"
-    ]
-  ],
-  "test_remote_cache_load_function_device_cuda_bfloat16_dynamic_False_bundle_triton_False (__main__.TestFxGraphCache)": [
-    "145182",
-    "https://github.com/pytorch/pytorch/issues/145182",
-    [
       "rocm"
     ]
   ],
@@ -2185,18 +2187,6 @@
     "https://github.com/pytorch/pytorch/issues/91497",
     [
       "linux"
-    ]
-  ],
-  "test_tensor_subclass_basic (__main__.TestCompiledAutograd)": [
-    "145457",
-    "https://github.com/pytorch/pytorch/issues/145457",
-    [
-      "asan",
-      "linux",
-      "rocm",
-      "mac",
-      "macos",
-      "slow"
     ]
   ],
   "test_tensorboard_trace_handler (__main__.TestProfiler)": [
