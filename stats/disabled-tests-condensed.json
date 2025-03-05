@@ -916,6 +916,14 @@
       "linux"
     ]
   ],
+  "test_host_memory_stats (__main__.TestCuda)": [
+    "148607",
+    "https://github.com/pytorch/pytorch/issues/148607",
+    [
+      "linux",
+      "rocm"
+    ]
+  ],
   "test_ind_worker_queue (__main__.TestIndividualWorkerQueue)": [
     "68643",
     "https://github.com/pytorch/pytorch/issues/68643",
@@ -1388,6 +1396,15 @@
     "105120",
     "https://github.com/pytorch/pytorch/issues/105120",
     [
+      "rocm"
+    ]
+  ],
+  "test_nested_tuple_output_dynamic_shapes (__main__.DynamicShapesHigherOrderOpTests)": [
+    "148606",
+    "https://github.com/pytorch/pytorch/issues/148606",
+    [
+      "asan",
+      "linux",
       "rocm"
     ]
   ],
@@ -2326,7 +2343,9 @@
       "asan",
       "linux",
       "rocm",
-      "slow"
+      "slow",
+      "mac",
+      "macos"
     ]
   ],
   "test_user_defined_binop (__main__.MiscTests)": [
