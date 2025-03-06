@@ -2568,8 +2568,9 @@
     "148665",
     "https://github.com/pytorch/pytorch/issues/148665",
     [
+      "linux",
       "rocm",
-      "linux"
+      "asan"
     ]
   ],
   "test_zero_model_parallel_parameters_as_bucket_view_True (__main__.TestZeroRedundancyOptimizerDistributed)": [
