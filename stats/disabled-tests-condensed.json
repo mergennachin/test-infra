@@ -489,20 +489,6 @@
       "linux"
     ]
   ],
-  "test_cross_entropy_large_tensor_reduction_mean_cuda (__main__.TestNNDeviceTypeCUDA)": [
-    "105253",
-    "https://github.com/pytorch/pytorch/issues/105253",
-    [
-      "rocm"
-    ]
-  ],
-  "test_cross_entropy_large_tensor_reduction_sum_cuda (__main__.TestNNDeviceTypeCUDA)": [
-    "105933",
-    "https://github.com/pytorch/pytorch/issues/105933",
-    [
-      "rocm"
-    ]
-  ],
   "test_cuda_assert_should_not_stop_common_distributed_test_suite_cuda (__main__.TestTestingCUDA)": [
     "106308",
     "https://github.com/pytorch/pytorch/issues/106308",
@@ -2233,7 +2219,9 @@
     "https://github.com/pytorch/pytorch/issues/148330",
     [
       "mac",
-      "macos"
+      "macos",
+      "linux",
+      "slow"
     ]
   ],
   "test_tcp (__main__.WorkerServerTest)": [
@@ -2580,7 +2568,8 @@
     "148665",
     "https://github.com/pytorch/pytorch/issues/148665",
     [
-      "rocm"
+      "rocm",
+      "linux"
     ]
   ],
   "test_zero_model_parallel_parameters_as_bucket_view_True (__main__.TestZeroRedundancyOptimizerDistributed)": [
