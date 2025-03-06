@@ -921,7 +921,8 @@
     "https://github.com/pytorch/pytorch/issues/148607",
     [
       "linux",
-      "rocm"
+      "rocm",
+      "slow"
     ]
   ],
   "test_ind_worker_queue (__main__.TestIndividualWorkerQueue)": [
@@ -1856,6 +1857,13 @@
     "https://github.com/pytorch/pytorch/issues/91492",
     [
       "linux"
+    ]
+  ],
+  "test_return_captured_var_used_multiple_times_dynamic_shapes (__main__.DynamicShapesHigherOrderOpTests)": [
+    "148624",
+    "https://github.com/pytorch/pytorch/issues/148624",
+    [
+      "rocm"
     ]
   ],
   "test_rng (__main__.TestCompilerBisector)": [
