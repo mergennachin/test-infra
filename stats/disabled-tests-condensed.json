@@ -1810,6 +1810,13 @@
       "rocm"
     ]
   ],
+  "test_remote_cache_load_function_device_cuda_float32_dynamic_False_bundle_triton_True (__main__.TestFxGraphCache)": [
+    "145191",
+    "https://github.com/pytorch/pytorch/issues/145191",
+    [
+      "rocm"
+    ]
+  ],
   "test_remote_timeout_to_here_in_jit (__main__.FaultyJitFaultyAgentRpcTest)": [
     "69178",
     "https://github.com/pytorch/pytorch/issues/69178",
@@ -2014,6 +2021,16 @@
       "linux"
     ]
   ],
+  "test_set_stance_aot_eager_then_compile (__main__.DecoratorTests)": [
+    "148644",
+    "https://github.com/pytorch/pytorch/issues/148644",
+    [
+      "linux",
+      "mac",
+      "macos",
+      "rocm"
+    ]
+  ],
   "test_set_stance_eager_then_compile (__main__.DecoratorTests)": [
     "148515",
     "https://github.com/pytorch/pytorch/issues/148515",
@@ -2184,6 +2201,13 @@
     "https://github.com/pytorch/pytorch/issues/91488",
     [
       "linux"
+    ]
+  ],
+  "test_symint_in_slice_dynamic_shapes (__main__.DynamicShapesHigherOrderOpTests)": [
+    "148643",
+    "https://github.com/pytorch/pytorch/issues/148643",
+    [
+      "rocm"
     ]
   ],
   "test_sys_modules (__main__.MiscTests)": [
