@@ -171,9 +171,11 @@
     "148427",
     "https://github.com/pytorch/pytorch/issues/148427",
     [
-      "rocm",
       "asan",
-      "linux"
+      "linux",
+      "rocm",
+      "mac",
+      "macos"
     ]
   ],
   "test_capture_untracked_global_dynamic_shapes (__main__.DynamicShapesHigherOrderOpTests)": [
@@ -1863,7 +1865,9 @@
     "148624",
     "https://github.com/pytorch/pytorch/issues/148624",
     [
-      "rocm"
+      "rocm",
+      "asan",
+      "linux"
     ]
   ],
   "test_rng (__main__.TestCompilerBisector)": [
@@ -1931,6 +1935,13 @@
     [
       "mac",
       "macos"
+    ]
+  ],
+  "test_sdpa_rewriter_11_cuda (__main__.SDPAPatternRewriterCudaDynamicTests)": [
+    "148631",
+    "https://github.com/pytorch/pytorch/issues/148631",
+    [
+      "rocm"
     ]
   ],
   "test_sdpa_rewriter_11_cuda (__main__.SDPAPatternRewriterCudaTests)": [
@@ -2079,14 +2090,6 @@
       "slow"
     ]
   ],
-  "test_slice_scatter_reinplace_cuda (__main__.GPUTests)": [
-    "145189",
-    "https://github.com/pytorch/pytorch/issues/145189",
-    [
-      "rocm",
-      "inductor"
-    ]
-  ],
   "test_sparse_add_cuda_float64 (__main__.TestSparseCSRCUDA)": [
     "145019",
     "https://github.com/pytorch/pytorch/issues/145019",
@@ -2212,6 +2215,13 @@
   "test_tensor_as_tensor_shape_prop (test_jit.TestScript)": [
     "91482",
     "https://github.com/pytorch/pytorch/issues/91482",
+    [
+      "linux"
+    ]
+  ],
+  "test_tensor_dtype_complex (__main__.CommTest)": [
+    "112460",
+    "https://github.com/pytorch/pytorch/issues/112460",
     [
       "linux"
     ]
