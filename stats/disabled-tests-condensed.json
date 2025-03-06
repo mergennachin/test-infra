@@ -182,9 +182,11 @@
     "148442",
     "https://github.com/pytorch/pytorch/issues/148442",
     [
-      "rocm",
       "asan",
-      "linux"
+      "linux",
+      "rocm",
+      "mac",
+      "macos"
     ]
   ],
   "test_capture_untracked_nonlocal_dynamic_shapes (__main__.DynamicShapesHigherOrderOpTests)": [
@@ -908,7 +910,9 @@
     "https://github.com/pytorch/pytorch/issues/148216",
     [
       "mac",
-      "macos"
+      "macos",
+      "linux",
+      "slow"
     ]
   ],
   "test_homogeneous_attributes (__main__.TestFSDPMiscMultiThread)": [
@@ -2028,7 +2032,8 @@
       "linux",
       "mac",
       "macos",
-      "rocm"
+      "rocm",
+      "asan"
     ]
   ],
   "test_set_stance_eager_then_compile (__main__.DecoratorTests)": [
@@ -2207,7 +2212,9 @@
     "148643",
     "https://github.com/pytorch/pytorch/issues/148643",
     [
-      "rocm"
+      "rocm",
+      "asan",
+      "linux"
     ]
   ],
   "test_sys_modules (__main__.MiscTests)": [
