@@ -1137,7 +1137,9 @@
     [
       "asan",
       "linux",
-      "rocm"
+      "rocm",
+      "mac",
+      "macos"
     ]
   ],
   "test_intra_node_comm_all_reduce (__main__.CommTest)": [
@@ -1647,13 +1649,6 @@
       "dynamo"
     ]
   ],
-  "test_pinned_memory_empty_cache (__main__.TestCuda)": [
-    "136687",
-    "https://github.com/pytorch/pytorch/issues/136687",
-    [
-      "rocm"
-    ]
-  ],
   "test_prim_grad_undefined (test_jit.TestScript)": [
     "91493",
     "https://github.com/pytorch/pytorch/issues/91493",
@@ -1784,13 +1779,6 @@
     "https://github.com/pytorch/pytorch/issues/138557",
     [
       "linux"
-    ]
-  ],
-  "test_record_stream_on_shifted_view (__main__.TestCuda)": [
-    "120318",
-    "https://github.com/pytorch/pytorch/issues/120318",
-    [
-      "rocm"
     ]
   ],
   "test_reduce_full_group_max (__main__.TestDistBackendWithSpawn)": [
