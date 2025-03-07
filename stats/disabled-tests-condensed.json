@@ -1586,16 +1586,6 @@
       "slow"
     ]
   ],
-  "test_open_device_registration (__main__.TritonExtensionBackendTests)": [
-    "136125",
-    "https://github.com/pytorch/pytorch/issues/136125",
-    [
-      "asan",
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_optional_list (test_jit.TestScript)": [
     "91484",
     "https://github.com/pytorch/pytorch/issues/91484",
