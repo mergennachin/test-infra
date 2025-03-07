@@ -276,6 +276,14 @@
       "rocm"
     ]
   ],
+  "test_comprehensive_all_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
+    "140652",
+    "https://github.com/pytorch/pytorch/issues/140652",
+    [
+      "linux",
+      "inductor"
+    ]
+  ],
   "test_comprehensive_complex_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
     "140367",
     "https://github.com/pytorch/pytorch/issues/140367",
@@ -2105,6 +2113,14 @@
       "macos",
       "rocm",
       "slow"
+    ]
+  ],
+  "test_slice_scatter_reinplace_cuda (__main__.GPUTests)": [
+    "145189",
+    "https://github.com/pytorch/pytorch/issues/145189",
+    [
+      "rocm",
+      "inductor"
     ]
   ],
   "test_sparse_add_cuda_float64 (__main__.TestSparseCSRCUDA)": [
