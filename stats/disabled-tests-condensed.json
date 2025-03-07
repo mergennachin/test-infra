@@ -1060,7 +1060,9 @@
     [
       "asan",
       "linux",
-      "rocm"
+      "rocm",
+      "mac",
+      "macos"
     ]
   ],
   "test_inplace_custom_op (__main__.InplacingTests)": [
