@@ -733,7 +733,9 @@
     "https://github.com/pytorch/pytorch/issues/148426",
     [
       "mac",
-      "macos"
+      "macos",
+      "linux",
+      "slow"
     ]
   ],
   "test_empty_graph_nested_calls_fullgraph_True_dynamic_shapes (__main__.DynamicShapesReproTests)": [
@@ -813,9 +815,11 @@
     "148514",
     "https://github.com/pytorch/pytorch/issues/148514",
     [
-      "rocm",
       "asan",
-      "linux"
+      "linux",
+      "rocm",
+      "mac",
+      "macos"
     ]
   ],
   "test_fsdp_unsupported_module_cls (__main__.TestFSDPMiscMultiThread)": [
@@ -1764,13 +1768,6 @@
       "macos",
       "rocm",
       "slow"
-    ]
-  ],
-  "test_recompile_on_global_state_change (__main__.MiscTests)": [
-    "144897",
-    "https://github.com/pytorch/pytorch/issues/144897",
-    [
-      "rocm"
     ]
   ],
   "test_record_stream (__main__.TestCuda)": [
