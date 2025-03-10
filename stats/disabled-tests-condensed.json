@@ -178,6 +178,16 @@
       "macos"
     ]
   ],
+  "test_capture_tracked_nested_dynamic_shapes (__main__.DynamicShapesHigherOrderOpTests)": [
+    "148851",
+    "https://github.com/pytorch/pytorch/issues/148851",
+    [
+      "linux",
+      "mac",
+      "macos",
+      "rocm"
+    ]
+  ],
   "test_capture_untracked_global_dynamic_shapes (__main__.DynamicShapesHigherOrderOpTests)": [
     "148442",
     "https://github.com/pytorch/pytorch/issues/148442",
@@ -359,6 +369,13 @@
     "https://github.com/pytorch/pytorch/issues/131080",
     [
       "linux",
+      "inductor"
+    ]
+  ],
+  "test_comprehensive_nn_functional_conv_transpose3d_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
+    "148853",
+    "https://github.com/pytorch/pytorch/issues/148853",
+    [
       "inductor"
     ]
   ],
@@ -1147,13 +1164,6 @@
     "https://github.com/pytorch/pytorch/issues/115859",
     [
       "rocm"
-    ]
-  ],
-  "test_is_isnot (__main__.TestScript)": [
-    "120694",
-    "https://github.com/pytorch/pytorch/issues/120694",
-    [
-      "dynamo"
     ]
   ],
   "test_item_to_inputs_kernel_nobreak_cuda (__main__.TestInductorDynamicCUDA)": [
@@ -2354,6 +2364,13 @@
     "https://github.com/pytorch/pytorch/issues/125555",
     [
       "rocm"
+    ]
+  ],
+  "test_train_parity_multi_group_unshard_async_op (__main__.TestFullyShard1DTrainingCore)": [
+    "148852",
+    "https://github.com/pytorch/pytorch/issues/148852",
+    [
+      "inductor"
     ]
   ],
   "test_transformer_training_is_seq_parallel_False (__main__.DistTensorParallelExampleTest)": [
