@@ -976,13 +976,6 @@
       "inductor"
     ]
   ],
-  "test_inductor_all_gather_into_tensor_single (__main__.CompileTest)": [
-    "147707",
-    "https://github.com/pytorch/pytorch/issues/147707",
-    [
-      "linux"
-    ]
-  ],
   "test_inductor_all_reduce_coalesced (__main__.CompileTest)": [
     "147726",
     "https://github.com/pytorch/pytorch/issues/147726",
@@ -2364,6 +2357,14 @@
     "https://github.com/pytorch/pytorch/issues/125555",
     [
       "rocm"
+    ]
+  ],
+  "test_train_parity_2d_transformer_checkpoint_resume (__main__.TestFullyShard2DTraining)": [
+    "125644",
+    "https://github.com/pytorch/pytorch/issues/125644",
+    [
+      "rocm",
+      "linux"
     ]
   ],
   "test_train_parity_multi_group_unshard_async_op (__main__.TestFullyShard1DTrainingCore)": [
