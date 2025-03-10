@@ -1186,6 +1186,17 @@
       "mac"
     ]
   ],
+  "test_lift_tensors_with_shared_symbols_dynamic_shapes (__main__.DynamicShapesHigherOrderOpTests)": [
+    "148870",
+    "https://github.com/pytorch/pytorch/issues/148870",
+    [
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_like_channels_last_cpu (__main__.CpuTritonTests)": [
     "139149",
     "https://github.com/pytorch/pytorch/issues/139149",
