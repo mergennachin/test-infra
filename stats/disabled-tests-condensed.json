@@ -1231,6 +1231,17 @@
       "linux"
     ]
   ],
+  "test_make_closure_dynamic_shapes (__main__.DynamicShapesHigherOrderOpTests)": [
+    "148889",
+    "https://github.com/pytorch/pytorch/issues/148889",
+    [
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_mark_unbacked_strict (__main__.MiscTests)": [
     "148332",
     "https://github.com/pytorch/pytorch/issues/148332",
