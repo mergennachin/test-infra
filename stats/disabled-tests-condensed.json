@@ -71,6 +71,13 @@
       "linux"
     ]
   ],
+  "test_arange_dynamic_cuda (__main__.TestInductorDynamicCUDA)": [
+    "127067",
+    "https://github.com/pytorch/pytorch/issues/127067",
+    [
+      "rocm"
+    ]
+  ],
   "test_attn_cuda (__main__.TestMin)": [
     "86710",
     "https://github.com/pytorch/pytorch/issues/86710",
@@ -1006,6 +1013,15 @@
       "inductor",
       "linux",
       "rocm"
+    ]
+  ],
+  "test_inductor_all_reduce_single (__main__.CompileTest)": [
+    "147754",
+    "https://github.com/pytorch/pytorch/issues/147754",
+    [
+      "inductor",
+      "rocm",
+      "linux"
     ]
   ],
   "test_inductor_all_to_all_single (__main__.CompileTest)": [
@@ -2057,7 +2073,9 @@
     [
       "linux",
       "rocm",
-      "slow"
+      "slow",
+      "mac",
+      "macos"
     ]
   ],
   "test_simple (__main__.TestNumericDebugger)": [
@@ -2603,6 +2621,14 @@
       "linux",
       "rocm",
       "asan"
+    ]
+  ],
+  "test_wrap_kwarg_default_dynamic_shapes (__main__.DynamicShapesHigherOrderOpTests)": [
+    "148951",
+    "https://github.com/pytorch/pytorch/issues/148951",
+    [
+      "linux",
+      "rocm"
     ]
   ],
   "test_zero_model_parallel_parameters_as_bucket_view_True (__main__.TestZeroRedundancyOptimizerDistributed)": [
