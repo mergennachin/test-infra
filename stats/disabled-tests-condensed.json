@@ -924,6 +924,14 @@
       "rocm"
     ]
   ],
+  "test_graph_partition (__main__.TritonCodeGenTests)": [
+    "148957",
+    "https://github.com/pytorch/pytorch/issues/148957",
+    [
+      "rocm",
+      "inductor"
+    ]
+  ],
   "test_guard_failure_fn2 (__main__.MiscTests)": [
     "148217",
     "https://github.com/pytorch/pytorch/issues/148217",
