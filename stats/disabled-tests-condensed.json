@@ -839,6 +839,13 @@
       "macos"
     ]
   ],
+  "test_fsdp_tp_integration (__main__.TestTPFSDPIntegration)": [
+    "148934",
+    "https://github.com/pytorch/pytorch/issues/148934",
+    [
+      "linux"
+    ]
+  ],
   "test_fsdp_unsupported_module_cls (__main__.TestFSDPMiscMultiThread)": [
     "137948",
     "https://github.com/pytorch/pytorch/issues/137948",
@@ -1001,15 +1008,6 @@
       "rocm"
     ]
   ],
-  "test_inductor_all_reduce_single (__main__.CompileTest)": [
-    "147754",
-    "https://github.com/pytorch/pytorch/issues/147754",
-    [
-      "inductor",
-      "rocm",
-      "linux"
-    ]
-  ],
   "test_inductor_all_to_all_single (__main__.CompileTest)": [
     "147795",
     "https://github.com/pytorch/pytorch/issues/147795",
@@ -1164,6 +1162,13 @@
     "https://github.com/pytorch/pytorch/issues/115859",
     [
       "rocm"
+    ]
+  ],
+  "test_is_isnot (__main__.TestScript)": [
+    "120694",
+    "https://github.com/pytorch/pytorch/issues/120694",
+    [
+      "dynamo"
     ]
   ],
   "test_item_to_inputs_kernel_nobreak_cuda (__main__.TestInductorDynamicCUDA)": [
@@ -1460,7 +1465,8 @@
       "linux",
       "mac",
       "macos",
-      "rocm"
+      "rocm",
+      "slow"
     ]
   ],
   "test_new_spectral_norm_forward_swap_True (__main__.TestNNParametrization)": [
@@ -1823,9 +1829,11 @@
     "148624",
     "https://github.com/pytorch/pytorch/issues/148624",
     [
-      "rocm",
       "asan",
-      "linux"
+      "linux",
+      "rocm",
+      "mac",
+      "macos"
     ]
   ],
   "test_rng (__main__.TestCompilerBisector)": [
@@ -2017,6 +2025,14 @@
       "macos",
       "rocm",
       "slow"
+    ]
+  ],
+  "test_side_effect_local_list_append_no_graph_break_dynamic_shapes (__main__.DynamicShapesHigherOrderOpTests)": [
+    "148935",
+    "https://github.com/pytorch/pytorch/issues/148935",
+    [
+      "linux",
+      "rocm"
     ]
   ],
   "test_simple (__main__.TestNumericDebugger)": [
