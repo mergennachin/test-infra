@@ -1190,6 +1190,13 @@
       "windows"
     ]
   ],
+  "test_layer_norm_bwd_req_grad (__main__.DistMathOpsTest)": [
+    "148943",
+    "https://github.com/pytorch/pytorch/issues/148943",
+    [
+      "linux"
+    ]
+  ],
   "test_learnable_forward_per_channel_cpu (quantization.core.test_workflow_ops.TestFakeQuantizeOps)": [
     "107155",
     "https://github.com/pytorch/pytorch/issues/107155",
@@ -1767,6 +1774,13 @@
       "rocm"
     ]
   ],
+  "test_remote_cache_load_function_device_cuda_float32_dynamic_False_bundle_triton_False (__main__.TestFxGraphCache)": [
+    "145212",
+    "https://github.com/pytorch/pytorch/issues/145212",
+    [
+      "rocm"
+    ]
+  ],
   "test_remote_cache_load_function_device_cuda_float32_dynamic_False_bundle_triton_True (__main__.TestFxGraphCache)": [
     "145191",
     "https://github.com/pytorch/pytorch/issues/145191",
@@ -1973,6 +1987,14 @@
       "linux"
     ]
   ],
+  "test_set_nccl_pg_timeout_backend0 (__main__.ProcessGroupNCCLGroupTest)": [
+    "148944",
+    "https://github.com/pytorch/pytorch/issues/148944",
+    [
+      "linux",
+      "rocm"
+    ]
+  ],
   "test_set_per_process_memory_fraction (__main__.TestCuda)": [
     "135115",
     "https://github.com/pytorch/pytorch/issues/135115",
@@ -2005,7 +2027,9 @@
     "https://github.com/pytorch/pytorch/issues/148463",
     [
       "asan",
-      "linux"
+      "linux",
+      "mac",
+      "macos"
     ]
   ],
   "test_setting_meta_device_model_broadcasting_and_memory (__main__.TestStateDict)": [
@@ -2032,7 +2056,8 @@
     "https://github.com/pytorch/pytorch/issues/148935",
     [
       "linux",
-      "rocm"
+      "rocm",
+      "slow"
     ]
   ],
   "test_simple (__main__.TestNumericDebugger)": [
