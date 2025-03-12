@@ -449,16 +449,6 @@
       "linux"
     ]
   ],
-  "test_comprehensive_pca_lowrank_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
-    "139828",
-    "https://github.com/pytorch/pytorch/issues/139828",
-    [
-      "linux",
-      "rocm",
-      "slow",
-      "inductor"
-    ]
-  ],
   "test_comprehensive_rsub_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
     "140503",
     "https://github.com/pytorch/pytorch/issues/140503",
@@ -684,13 +674,6 @@
   "test_dtensor_op_db_nn_functional_multi_head_attention_forward_cpu_float32 (__main__.TestDTensorOpsCPU)": [
     "123294",
     "https://github.com/pytorch/pytorch/issues/123294",
-    [
-      "linux"
-    ]
-  ],
-  "test_dtensor_seq_par_shard_dim_0 (__main__.MicroPipelineTPTest)": [
-    "145924",
-    "https://github.com/pytorch/pytorch/issues/145924",
     [
       "linux"
     ]
