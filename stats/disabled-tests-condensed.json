@@ -71,6 +71,13 @@
       "linux"
     ]
   ],
+  "test_aoti_debug_printer_codegen_cuda (__main__.AOTInductorTestABICompatibleGpu)": [
+    "149080",
+    "https://github.com/pytorch/pytorch/issues/149080",
+    [
+      "inductor"
+    ]
+  ],
   "test_arange_dynamic_cuda (__main__.TestInductorDynamicCUDA)": [
     "127067",
     "https://github.com/pytorch/pytorch/issues/127067",
@@ -442,6 +449,16 @@
       "linux"
     ]
   ],
+  "test_comprehensive_pca_lowrank_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
+    "139828",
+    "https://github.com/pytorch/pytorch/issues/139828",
+    [
+      "linux",
+      "rocm",
+      "slow",
+      "inductor"
+    ]
+  ],
   "test_comprehensive_rsub_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
     "140503",
     "https://github.com/pytorch/pytorch/issues/140503",
@@ -586,6 +603,13 @@
     "https://github.com/pytorch/pytorch/issues/101787",
     [
       "dynamo"
+    ]
+  ],
+  "test_destruct_before_terminate_pg (__main__.ProcessGroupNCCLGroupTest)": [
+    "149081",
+    "https://github.com/pytorch/pytorch/issues/149081",
+    [
+      "linux"
     ]
   ],
   "test_disable_ctx_manager (__main__.ContextlibContextManagerTests)": [
@@ -1060,6 +1084,15 @@
   "test_inductor_reduce_scatter_tensor_coalesced (__main__.CompileTest)": [
     "147887",
     "https://github.com/pytorch/pytorch/issues/147887",
+    [
+      "inductor",
+      "rocm",
+      "linux"
+    ]
+  ],
+  "test_inductor_reduce_scatter_tensor_single (__main__.CompileTest)": [
+    "147911",
+    "https://github.com/pytorch/pytorch/issues/147911",
     [
       "inductor",
       "rocm",
@@ -2645,7 +2678,9 @@
     "https://github.com/pytorch/pytorch/issues/148961",
     [
       "linux",
-      "rocm"
+      "rocm",
+      "mac",
+      "macos"
     ]
   ],
   "test_wrap_kwarg_dynamic_shapes (__main__.DynamicShapesHigherOrderOpTests)": [
@@ -2660,6 +2695,14 @@
     "https://github.com/pytorch/pytorch/issues/149024",
     [
       "linux"
+    ]
+  ],
+  "test_wrap_pytree_kwargs_dynamic_shapes (__main__.DynamicShapesHigherOrderOpTests)": [
+    "149079",
+    "https://github.com/pytorch/pytorch/issues/149079",
+    [
+      "linux",
+      "slow"
     ]
   ],
   "test_zero_model_parallel_parameters_as_bucket_view_True (__main__.TestZeroRedundancyOptimizerDistributed)": [
