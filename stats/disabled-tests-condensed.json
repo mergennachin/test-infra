@@ -478,6 +478,13 @@
       "inductor"
     ]
   ],
+  "test_cond_autograd_zeros_unused_branch_complex_compile_mode_compile (__main__.TestControlFlow)": [
+    "149050",
+    "https://github.com/pytorch/pytorch/issues/149050",
+    [
+      "rocm"
+    ]
+  ],
   "test_conv (quantization.jit.test_quantize_jit.TestQuantizeJit)": [
     "105125",
     "https://github.com/pytorch/pytorch/issues/105125",
