@@ -1065,9 +1065,9 @@
       "rocm"
     ]
   ],
-  "test_inductor_reduce_scatter_tensor_single (__main__.CompileTest)": [
-    "147911",
-    "https://github.com/pytorch/pytorch/issues/147911",
+  "test_inductor_inplace_op_on_view (__main__.CompileTest)": [
+    "147852",
+    "https://github.com/pytorch/pytorch/issues/147852",
     [
       "inductor",
       "rocm",
@@ -2661,7 +2661,9 @@
     "https://github.com/pytorch/pytorch/issues/148951",
     [
       "linux",
-      "rocm"
+      "rocm",
+      "mac",
+      "macos"
     ]
   ],
   "test_wrap_kwarg_default_if_branch_dynamic_shapes (__main__.DynamicShapesHigherOrderOpTests)": [
