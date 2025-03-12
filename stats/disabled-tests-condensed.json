@@ -301,13 +301,6 @@
       "inductor"
     ]
   ],
-  "test_complex_half_reference_testing_fft_irfft_cuda_complex32 (__main__.TestCommonCUDA)": [
-    "147970",
-    "https://github.com/pytorch/pytorch/issues/147970",
-    [
-      "rocm"
-    ]
-  ],
   "test_comprehensive_all_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
     "140652",
     "https://github.com/pytorch/pytorch/issues/140652",
@@ -1064,9 +1057,9 @@
       "linux"
     ]
   ],
-  "test_inductor_reuse_buffer_after_inplace_collective (__main__.CompileTest)": [
-    "147950",
-    "https://github.com/pytorch/pytorch/issues/147950",
+  "test_inductor_reduce_scatter_tensor_coalesced (__main__.CompileTest)": [
+    "147887",
+    "https://github.com/pytorch/pytorch/issues/147887",
     [
       "inductor",
       "rocm",
