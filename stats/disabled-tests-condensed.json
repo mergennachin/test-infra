@@ -225,6 +225,13 @@
       "macos"
     ]
   ],
+  "test_cat_max_autotune_triton (__main__.TestMaxAutotune)": [
+    "145830",
+    "https://github.com/pytorch/pytorch/issues/145830",
+    [
+      "rocm"
+    ]
+  ],
   "test_causal_variants_compile_causal_variant_CausalVariant_LOWER_RIGHT_shape0_cuda (__main__.TestAttnBiasCUDA)": [
     "118641",
     "https://github.com/pytorch/pytorch/issues/118641",
@@ -2668,6 +2675,13 @@
   "test_wrap_kwarg_dynamic_shapes (__main__.DynamicShapesHigherOrderOpTests)": [
     "149000",
     "https://github.com/pytorch/pytorch/issues/149000",
+    [
+      "linux"
+    ]
+  ],
+  "test_wrap_kwarg_only_dynamic_shapes (__main__.DynamicShapesHigherOrderOpTests)": [
+    "149024",
+    "https://github.com/pytorch/pytorch/issues/149024",
     [
       "linux"
     ]
