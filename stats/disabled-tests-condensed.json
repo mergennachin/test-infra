@@ -1049,13 +1049,13 @@
       "rocm"
     ]
   ],
-  "test_inductor_reduce_scatter_tensor_coalesced (__main__.CompileTest)": [
-    "147887",
-    "https://github.com/pytorch/pytorch/issues/147887",
+  "test_inductor_broadcast (__main__.CompileTest)": [
+    "147816",
+    "https://github.com/pytorch/pytorch/issues/147816",
     [
       "inductor",
-      "rocm",
-      "linux"
+      "linux",
+      "rocm"
     ]
   ],
   "test_inductor_reduce_scatter_tensor_single (__main__.CompileTest)": [
@@ -2464,6 +2464,13 @@
       "slow"
     ]
   ],
+  "test_var_mean_tile_reduction_True_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
+    "149016",
+    "https://github.com/pytorch/pytorch/issues/149016",
+    [
+      "rocm"
+    ]
+  ],
   "test_variant_consistency_eager_nn_functional_conv3d_cuda_complex64 (__main__.TestCommonCUDA)": [
     "114592",
     "https://github.com/pytorch/pytorch/issues/114592",
@@ -2635,9 +2642,11 @@
     "148665",
     "https://github.com/pytorch/pytorch/issues/148665",
     [
+      "asan",
       "linux",
       "rocm",
-      "asan"
+      "mac",
+      "macos"
     ]
   ],
   "test_wrap_kwarg_default_dynamic_shapes (__main__.DynamicShapesHigherOrderOpTests)": [
