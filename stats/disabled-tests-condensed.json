@@ -275,6 +275,18 @@
       "rocm"
     ]
   ],
+  "test_compile_body_aliasing_contents_backend_aot_eager (__main__.TestCompileTorchbind)": [
+    "149121",
+    "https://github.com/pytorch/pytorch/issues/149121",
+    [
+      "asan",
+      "linux",
+      "rocm",
+      "win",
+      "windows",
+      "slow"
+    ]
+  ],
   "test_complex_data_dependent_expr (__main__.TestDraftExport)": [
     "147426",
     "https://github.com/pytorch/pytorch/issues/147426",
@@ -1208,6 +1220,15 @@
     "https://github.com/pytorch/pytorch/issues/120694",
     [
       "dynamo"
+    ]
+  ],
+  "test_item_to_inputs_kernel_nobreak_cuda (__main__.TestInductorDynamicCUDA)": [
+    "119538",
+    "https://github.com/pytorch/pytorch/issues/119538",
+    [
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_jvpvjp_nn_functional_conv3d_cuda_float32 (__main__.TestOperatorsCUDA)": [
@@ -2665,7 +2686,9 @@
     "https://github.com/pytorch/pytorch/issues/149079",
     [
       "linux",
-      "slow"
+      "slow",
+      "mac",
+      "macos"
     ]
   ],
   "test_zero_model_parallel_parameters_as_bucket_view_True (__main__.TestZeroRedundancyOptimizerDistributed)": [
