@@ -275,6 +275,17 @@
       "rocm"
     ]
   ],
+  "test_compile_body_aliasing_contents_backend_aot_eager (__main__.TestCompileTorchbind)": [
+    "149121",
+    "https://github.com/pytorch/pytorch/issues/149121",
+    [
+      "asan",
+      "linux",
+      "rocm",
+      "win",
+      "windows"
+    ]
+  ],
   "test_complex_data_dependent_expr (__main__.TestDraftExport)": [
     "147426",
     "https://github.com/pytorch/pytorch/issues/147426",
@@ -2695,7 +2706,9 @@
     "149024",
     "https://github.com/pytorch/pytorch/issues/149024",
     [
-      "linux"
+      "linux",
+      "mac",
+      "macos"
     ]
   ],
   "test_wrap_pytree_kwargs_dynamic_shapes (__main__.DynamicShapesHigherOrderOpTests)": [
