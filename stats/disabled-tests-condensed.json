@@ -605,13 +605,6 @@
       "linux"
     ]
   ],
-  "test_disable_ctx_manager (__main__.ContextlibContextManagerTests)": [
-    "148068",
-    "https://github.com/pytorch/pytorch/issues/148068",
-    [
-      "rocm"
-    ]
-  ],
   "test_disable_external_correlation (__main__.TestProfiler)": [
     "143373",
     "https://github.com/pytorch/pytorch/issues/143373",
@@ -2139,18 +2132,6 @@
     "https://github.com/pytorch/pytorch/issues/105121",
     [
       "rocm"
-    ]
-  ],
-  "test_slice (__main__.AutoFunctionalizeTests)": [
-    "148035",
-    "https://github.com/pytorch/pytorch/issues/148035",
-    [
-      "mac",
-      "macos",
-      "rocm",
-      "asan",
-      "linux",
-      "slow"
     ]
   ],
   "test_slice_dynamic (__main__.AutoFunctionalizeTests)": [
