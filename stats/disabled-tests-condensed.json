@@ -1175,13 +1175,6 @@
       "linux"
     ]
   ],
-  "test_int64_upsample3d_cuda_bfloat16 (__main__.TestTorchDeviceTypeCUDA)": [
-    "146007",
-    "https://github.com/pytorch/pytorch/issues/146007",
-    [
-      "rocm"
-    ]
-  ],
   "test_int_shape_binops (__main__.MiscTests)": [
     "148296",
     "https://github.com/pytorch/pytorch/issues/148296",
@@ -1227,15 +1220,6 @@
     "https://github.com/pytorch/pytorch/issues/120694",
     [
       "dynamo"
-    ]
-  ],
-  "test_item_to_inputs_kernel_nobreak_cuda (__main__.TestInductorDynamicCUDA)": [
-    "119538",
-    "https://github.com/pytorch/pytorch/issues/119538",
-    [
-      "linux",
-      "rocm",
-      "slow"
     ]
   ],
   "test_jvpvjp_nn_functional_conv3d_cuda_float32 (__main__.TestOperatorsCUDA)": [
@@ -1793,18 +1777,6 @@
       "macos"
     ]
   ],
-  "test_recompile (__main__.AutoFunctionalizeTests)": [
-    "148013",
-    "https://github.com/pytorch/pytorch/issues/148013",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_record_stream (__main__.TestCuda)": [
     "134746",
     "https://github.com/pytorch/pytorch/issues/134746",
@@ -2178,18 +2150,6 @@
     "https://github.com/pytorch/pytorch/issues/140368",
     [
       "linux"
-    ]
-  ],
-  "test_split (__main__.AutoFunctionalizeTests)": [
-    "148080",
-    "https://github.com/pytorch/pytorch/issues/148080",
-    [
-      "mac",
-      "macos",
-      "rocm",
-      "asan",
-      "linux",
-      "slow"
     ]
   ],
   "test_split_dynamic (__main__.AutoFunctionalizeTests)": [
