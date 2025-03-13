@@ -283,7 +283,8 @@
       "linux",
       "rocm",
       "win",
-      "windows"
+      "windows",
+      "slow"
     ]
   ],
   "test_complex_data_dependent_expr (__main__.TestDraftExport)": [
@@ -702,6 +703,13 @@
   "test_dtensor_op_db_nn_functional_multi_head_attention_forward_cpu_float32 (__main__.TestDTensorOpsCPU)": [
     "123294",
     "https://github.com/pytorch/pytorch/issues/123294",
+    [
+      "linux"
+    ]
+  ],
+  "test_dtensor_seq_par_shard_dim_0 (__main__.MicroPipelineTPTest)": [
+    "145924",
+    "https://github.com/pytorch/pytorch/issues/145924",
     [
       "linux"
     ]
@@ -1533,13 +1541,6 @@
     "https://github.com/pytorch/pytorch/issues/131089",
     [
       "dynamo"
-    ]
-  ],
-  "test_njt_causal_bfloat16 (__main__.TestFlexAttention)": [
-    "148095",
-    "https://github.com/pytorch/pytorch/issues/148095",
-    [
-      "rocm"
     ]
   ],
   "test_nnc_correctness_frac_cpu_bfloat16 (__main__.TestNNCOpInfoCPU)": [
