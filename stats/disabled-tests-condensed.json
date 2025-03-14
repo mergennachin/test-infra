@@ -399,7 +399,8 @@
     "148853",
     "https://github.com/pytorch/pytorch/issues/148853",
     [
-      "inductor"
+      "inductor",
+      "linux"
     ]
   ],
   "test_comprehensive_nn_functional_glu_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
@@ -714,18 +715,6 @@
   "test_dynamic_sources_dynamic_override (__main__.MiscTests)": [
     "148218",
     "https://github.com/pytorch/pytorch/issues/148218",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "slow"
-    ]
-  ],
-  "test_dynamic_sources_dynamic_override_dynamic_shapes (__main__.DynamicShapesMiscTests)": [
-    "148214",
-    "https://github.com/pytorch/pytorch/issues/148214",
     [
       "asan",
       "linux",
@@ -1808,6 +1797,13 @@
   "test_remote_cache_load_function_device_cuda_bfloat16_dynamic_False_bundle_triton_False (__main__.TestFxGraphCache)": [
     "145182",
     "https://github.com/pytorch/pytorch/issues/145182",
+    [
+      "rocm"
+    ]
+  ],
+  "test_remote_cache_load_function_device_cuda_bfloat16_dynamic_False_bundle_triton_True (__main__.TestFxGraphCache)": [
+    "145190",
+    "https://github.com/pytorch/pytorch/issues/145190",
     [
       "rocm"
     ]
