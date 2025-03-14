@@ -283,18 +283,6 @@
       "rocm"
     ]
   ],
-  "test_compile_body_aliasing_contents_backend_aot_eager (__main__.TestCompileTorchbind)": [
-    "149121",
-    "https://github.com/pytorch/pytorch/issues/149121",
-    [
-      "asan",
-      "linux",
-      "rocm",
-      "win",
-      "windows",
-      "slow"
-    ]
-  ],
   "test_complex_data_dependent_expr (__main__.TestDraftExport)": [
     "147426",
     "https://github.com/pytorch/pytorch/issues/147426",
