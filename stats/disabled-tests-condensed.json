@@ -1282,14 +1282,6 @@
       "linux"
     ]
   ],
-  "test_linear_backward_memory_usage_cuda_float32 (__main__.TestNestedTensorSubclassCUDA)": [
-    "141292",
-    "https://github.com/pytorch/pytorch/issues/141292",
-    [
-      "rocm",
-      "linux"
-    ]
-  ],
   "test_load_from_bias_head_seq_batch_float16 (__main__.TestFlexDecoding)": [
     "134144",
     "https://github.com/pytorch/pytorch/issues/134144",
