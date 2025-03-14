@@ -275,6 +275,18 @@
       "rocm"
     ]
   ],
+  "test_compile_body_aliasing_contents_backend_aot_eager (__main__.TestCompileTorchbind)": [
+    "149121",
+    "https://github.com/pytorch/pytorch/issues/149121",
+    [
+      "asan",
+      "linux",
+      "rocm",
+      "win",
+      "windows",
+      "slow"
+    ]
+  ],
   "test_complex_data_dependent_expr (__main__.TestDraftExport)": [
     "147426",
     "https://github.com/pytorch/pytorch/issues/147426",
@@ -653,7 +665,9 @@
     "149101",
     "https://github.com/pytorch/pytorch/issues/149101",
     [
-      "linux"
+      "linux",
+      "mac",
+      "macos"
     ]
   ],
   "test_dont_aggressively_write_assert_dynamic_shapes (__main__.DynamicShapesReproTests)": [
@@ -1161,6 +1175,13 @@
     "https://github.com/pytorch/pytorch/issues/135295",
     [
       "linux"
+    ]
+  ],
+  "test_int64_upsample3d_cuda_bfloat16 (__main__.TestTorchDeviceTypeCUDA)": [
+    "146007",
+    "https://github.com/pytorch/pytorch/issues/146007",
+    [
+      "rocm"
     ]
   ],
   "test_int_shape_binops (__main__.MiscTests)": [
