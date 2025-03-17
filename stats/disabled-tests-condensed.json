@@ -712,6 +712,18 @@
       "dynamo"
     ]
   ],
+  "test_dynamic_sources_dynamic_override (__main__.MiscTests)": [
+    "148218",
+    "https://github.com/pytorch/pytorch/issues/148218",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_dynamic_sources_dynamic_override_dynamic_shapes (__main__.DynamicShapesMiscTests)": [
     "148214",
     "https://github.com/pytorch/pytorch/issues/148214",
@@ -2532,6 +2544,15 @@
     "113850",
     "https://github.com/pytorch/pytorch/issues/113850",
     [
+      "linux"
+    ]
+  ],
+  "test_wait_tensor (__main__.CompileTest)": [
+    "148014",
+    "https://github.com/pytorch/pytorch/issues/148014",
+    [
+      "inductor",
+      "rocm",
       "linux"
     ]
   ],
