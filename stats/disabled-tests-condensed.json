@@ -758,13 +758,6 @@
       "linux"
     ]
   ],
-  "test_embedding_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "135250",
-    "https://github.com/pytorch/pytorch/issues/135250",
-    [
-      "linux"
-    ]
-  ],
   "test_empty_graph_nested_calls_fullgraph_False_dynamic_shapes (__main__.DynamicShapesReproTests)": [
     "148426",
     "https://github.com/pytorch/pytorch/issues/148426",
@@ -2487,13 +2480,6 @@
   "test_variant_consistency_jit_linalg_lu_factor_ex_cuda_complex64 (__main__.TestJitCUDA)": [
     "86887",
     "https://github.com/pytorch/pytorch/issues/86887",
-    [
-      "linux"
-    ]
-  ],
-  "test_vdd_clamp_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "134445",
-    "https://github.com/pytorch/pytorch/issues/134445",
     [
       "linux"
     ]
