@@ -1167,6 +1167,13 @@
       "linux"
     ]
   ],
+  "test_input_mutation2_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "135295",
+    "https://github.com/pytorch/pytorch/issues/135295",
+    [
+      "linux"
+    ]
+  ],
   "test_int64_upsample3d_cuda_bfloat16 (__main__.TestTorchDeviceTypeCUDA)": [
     "146007",
     "https://github.com/pytorch/pytorch/issues/146007",
@@ -1870,6 +1877,16 @@
       "rocm"
     ]
   ],
+  "test_repeated_calling_cuda (__main__.AOTInductorTestABICompatibleGpu)": [
+    "146185",
+    "https://github.com/pytorch/pytorch/issues/146185",
+    [
+      "linux",
+      "rocm",
+      "slow",
+      "inductor"
+    ]
+  ],
   "test_requires_grad_loop (test_jit.TestScript)": [
     "91492",
     "https://github.com/pytorch/pytorch/issues/91492",
@@ -2387,7 +2404,8 @@
     "148852",
     "https://github.com/pytorch/pytorch/issues/148852",
     [
-      "inductor"
+      "inductor",
+      "linux"
     ]
   ],
   "test_transformer_training_is_seq_parallel_False (__main__.DistTensorParallelExampleTest)": [
@@ -2409,6 +2427,13 @@
     "https://github.com/pytorch/pytorch/issues/134687",
     [
       "rocm"
+    ]
+  ],
+  "test_unshard_async (__main__.TestFullyShardUnshardMultiProcess)": [
+    "149349",
+    "https://github.com/pytorch/pytorch/issues/149349",
+    [
+      "inductor"
     ]
   ],
   "test_untracked_inputs_in_constraints_dynamic_shapes (__main__.DynamicShapesExportTests)": [
