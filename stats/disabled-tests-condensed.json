@@ -19,6 +19,13 @@
     "https://github.com/pytorch/pytorch/issues/68849",
     []
   ],
+  "test_all_gather_uneven (__main__.DeviceMeshCollectiveTest)": [
+    "98049",
+    "https://github.com/pytorch/pytorch/issues/98049",
+    [
+      "linux"
+    ]
+  ],
   "test_all_reduce_coalesced_group_min (__main__.TestDistBackendWithSpawn)": [
     "70754",
     "https://github.com/pytorch/pytorch/issues/70754",
@@ -1135,13 +1142,6 @@
       "linux"
     ]
   ],
-  "test_init_from_local_shards (__main__.TestShardedTensorFromLocalShards)": [
-    "78068",
-    "https://github.com/pytorch/pytorch/issues/78068",
-    [
-      "linux"
-    ]
-  ],
   "test_inlined_functions_dynamic_shapes (__main__.DynamicShapesHigherOrderOpTests)": [
     "148544",
     "https://github.com/pytorch/pytorch/issues/148544",
@@ -2197,13 +2197,6 @@
     "https://github.com/pytorch/pytorch/issues/140368",
     [
       "linux"
-    ]
-  ],
-  "test_split_scan (__main__.TestKernelBenchmark)": [
-    "133228",
-    "https://github.com/pytorch/pytorch/issues/133228",
-    [
-      "rocm"
     ]
   ],
   "test_streaming_backwards_callback (__main__.TestCuda)": [
