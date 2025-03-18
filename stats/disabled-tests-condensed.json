@@ -192,6 +192,13 @@
       "rocm"
     ]
   ],
+  "test_cache_load_function_device_cuda_bfloat16_dynamic_False_bundle_triton_True_grad_True (__main__.TestFxGraphCache)": [
+    "145181",
+    "https://github.com/pytorch/pytorch/issues/145181",
+    [
+      "rocm"
+    ]
+  ],
   "test_cache_load_function_device_cuda_float32_dynamic_False_bundle_triton_True_grad_True (__main__.TestFxGraphCache)": [
     "145336",
     "https://github.com/pytorch/pytorch/issues/145336",
@@ -2161,6 +2168,13 @@
     [
       "rocm",
       "inductor"
+    ]
+  ],
+  "test_sparse_add_cuda_complex64 (__main__.TestSparseCSRCUDA)": [
+    "145069",
+    "https://github.com/pytorch/pytorch/issues/145069",
+    [
+      "rocm"
     ]
   ],
   "test_sparse_add_cuda_float64 (__main__.TestSparseCSRCUDA)": [
