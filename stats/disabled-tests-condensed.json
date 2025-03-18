@@ -1060,15 +1060,6 @@
       "windows"
     ]
   ],
-  "test_inductor_all_gather_into_tensor_coalesced (__main__.CompileTest)": [
-    "146806",
-    "https://github.com/pytorch/pytorch/issues/146806",
-    [
-      "linux",
-      "rocm",
-      "inductor"
-    ]
-  ],
   "test_inductor_all_gather_into_tensor_single (__main__.CompileTest)": [
     "147707",
     "https://github.com/pytorch/pytorch/issues/147707",
@@ -2164,18 +2155,6 @@
     "https://github.com/pytorch/pytorch/issues/105121",
     [
       "rocm"
-    ]
-  ],
-  "test_slice_dynamic (__main__.AutoFunctionalizeTests)": [
-    "148067",
-    "https://github.com/pytorch/pytorch/issues/148067",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "slow"
     ]
   ],
   "test_slice_scatter_reinplace_cuda (__main__.GPUTests)": [
