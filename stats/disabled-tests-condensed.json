@@ -75,7 +75,8 @@
     "149080",
     "https://github.com/pytorch/pytorch/issues/149080",
     [
-      "inductor"
+      "inductor",
+      "rocm"
     ]
   ],
   "test_arange_dynamic_cuda (__main__.TestInductorDynamicCUDA)": [
@@ -1247,6 +1248,15 @@
       "windows"
     ]
   ],
+  "test_kineto_profiler_with_environment_variable (__main__.TestProfiler)": [
+    "107383",
+    "https://github.com/pytorch/pytorch/issues/107383",
+    [
+      "dynamo",
+      "rocm",
+      "linux"
+    ]
+  ],
   "test_layer_norm_bwd_req_grad (__main__.DistMathOpsTest)": [
     "148943",
     "https://github.com/pytorch/pytorch/issues/148943",
@@ -2405,7 +2415,8 @@
     "https://github.com/pytorch/pytorch/issues/148852",
     [
       "inductor",
-      "linux"
+      "linux",
+      "rocm"
     ]
   ],
   "test_transformer_training_is_seq_parallel_False (__main__.DistTensorParallelExampleTest)": [
