@@ -783,18 +783,6 @@
       "rocm"
     ]
   ],
-  "test_dynamo_timed (__main__.TestDynamoTimed)": [
-    "148093",
-    "https://github.com/pytorch/pytorch/issues/148093",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_embedding_bag_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
     "135215",
     "https://github.com/pytorch/pytorch/issues/135215",
@@ -1375,13 +1363,6 @@
       "rocm"
     ]
   ],
-  "test_max_autotune (__main__.TestFlexAttention)": [
-    "147200",
-    "https://github.com/pytorch/pytorch/issues/147200",
-    [
-      "rocm"
-    ]
-  ],
   "test_max_autotune_remote_caching_dynamic_False (__main__.TestMaxAutotuneRemoteCache)": [
     "145361",
     "https://github.com/pytorch/pytorch/issues/145361",
@@ -1743,13 +1724,6 @@
       "rocm"
     ]
   ],
-  "test_profiler_mark_wrapper_call_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "135294",
-    "https://github.com/pytorch/pytorch/issues/135294",
-    [
-      "linux"
-    ]
-  ],
   "test_profiler_rpc_key_names (__main__.TensorPipeRpcTest)": [
     "125365",
     "https://github.com/pytorch/pytorch/issues/125365",
@@ -1879,6 +1853,13 @@
     "https://github.com/pytorch/pytorch/issues/69178",
     [
       "mac"
+    ]
+  ],
+  "test_reorder_peak_memory (__main__.TestOperatorReorderForPeakMemory)": [
+    "145332",
+    "https://github.com/pytorch/pytorch/issues/145332",
+    [
+      "rocm"
     ]
   ],
   "test_reorder_peak_memory_bfs (__main__.TestOperatorReorderForPeakMemory)": [
