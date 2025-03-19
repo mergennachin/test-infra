@@ -1060,6 +1060,15 @@
       "windows"
     ]
   ],
+  "test_inductor_all_gather_into_tensor_coalesced (__main__.CompileTest)": [
+    "146806",
+    "https://github.com/pytorch/pytorch/issues/146806",
+    [
+      "linux",
+      "rocm",
+      "inductor"
+    ]
+  ],
   "test_inductor_all_gather_into_tensor_single (__main__.CompileTest)": [
     "147707",
     "https://github.com/pytorch/pytorch/issues/147707",
