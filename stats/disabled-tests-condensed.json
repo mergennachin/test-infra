@@ -980,14 +980,6 @@
       "mac"
     ]
   ],
-  "test_graph_break_before___enter__ (__main__.ContextlibContextManagerTests)": [
-    "148524",
-    "https://github.com/pytorch/pytorch/issues/148524",
-    [
-      "linux",
-      "rocm"
-    ]
-  ],
   "test_graph_concurrent_replay (__main__.TestCuda)": [
     "104055",
     "https://github.com/pytorch/pytorch/issues/104055",
@@ -1702,6 +1694,13 @@
     "https://github.com/pytorch/pytorch/issues/134433",
     [
       "linux"
+    ]
+  ],
+  "test_per_sample_api_compute_batch_size_not_pytreeable_cpu (__main__.TestExpandedWeightModuleCPU)": [
+    "146972",
+    "https://github.com/pytorch/pytorch/issues/146972",
+    [
+      "dynamo"
     ]
   ],
   "test_prim_grad_undefined (test_jit.TestScript)": [
