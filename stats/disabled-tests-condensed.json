@@ -161,9 +161,25 @@
       "slow"
     ]
   ],
+  "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_float16 (__main__.TestForeachCUDA)": [
+    "149522",
+    "https://github.com/pytorch/pytorch/issues/149522",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_float32 (__main__.TestForeachCUDA)": [
     "149409",
     "https://github.com/pytorch/pytorch/issues/149409",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
+  "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_float64 (__main__.TestForeachCUDA)": [
+    "149523",
+    "https://github.com/pytorch/pytorch/issues/149523",
     [
       "linux",
       "slow"
@@ -783,6 +799,18 @@
       "rocm"
     ]
   ],
+  "test_dynamo_timed (__main__.TestDynamoTimed)": [
+    "148093",
+    "https://github.com/pytorch/pytorch/issues/148093",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_embedding_bag_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
     "135215",
     "https://github.com/pytorch/pytorch/issues/135215",
@@ -1274,6 +1302,30 @@
       "linux"
     ]
   ],
+  "test_lazy_module2 (__main__.NNModuleTests)": [
+    "149520",
+    "https://github.com/pytorch/pytorch/issues/149520",
+    [
+      "linux",
+      "rocm"
+    ]
+  ],
+  "test_lazy_module3_cuda (__main__.NNModuleTestsDeviceCUDA)": [
+    "149519",
+    "https://github.com/pytorch/pytorch/issues/149519",
+    [
+      "linux",
+      "rocm"
+    ]
+  ],
+  "test_lazy_module4 (__main__.NNModuleTests)": [
+    "149521",
+    "https://github.com/pytorch/pytorch/issues/149521",
+    [
+      "linux",
+      "rocm"
+    ]
+  ],
   "test_learnable_forward_per_channel_cpu (quantization.core.test_workflow_ops.TestFakeQuantizeOps)": [
     "107155",
     "https://github.com/pytorch/pytorch/issues/107155",
@@ -1305,13 +1357,6 @@
     "https://github.com/pytorch/pytorch/issues/145359",
     [
       "linux"
-    ]
-  ],
-  "test_load_from_bias_head_seq_batch_float16 (__main__.TestFlexDecoding)": [
-    "134144",
-    "https://github.com/pytorch/pytorch/issues/134144",
-    [
-      "rocm"
     ]
   ],
   "test_lobpcg (__main__.TestAutograd)": [
@@ -1722,6 +1767,13 @@
     "https://github.com/pytorch/pytorch/issues/106027",
     [
       "rocm"
+    ]
+  ],
+  "test_profiler_mark_wrapper_call_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "135294",
+    "https://github.com/pytorch/pytorch/issues/135294",
+    [
+      "linux"
     ]
   ],
   "test_profiler_rpc_key_names (__main__.TensorPipeRpcTest)": [
