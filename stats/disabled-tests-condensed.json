@@ -638,6 +638,13 @@
       "linux"
     ]
   ],
+  "test_ddp_graphs (__main__.StructuredTraceTest)": [
+    "149671",
+    "https://github.com/pytorch/pytorch/issues/149671",
+    [
+      "rocm"
+    ]
+  ],
   "test_ddp_has_finalized (__main__.TestDistBackendWithSpawn)": [
     "102751",
     "https://github.com/pytorch/pytorch/issues/102751",
@@ -1176,6 +1183,13 @@
       "linux"
     ]
   ],
+  "test_init_from_local_shards (__main__.TestShardedTensorFromLocalShards)": [
+    "78068",
+    "https://github.com/pytorch/pytorch/issues/78068",
+    [
+      "linux"
+    ]
+  ],
   "test_inlined_functions_dynamic_shapes (__main__.DynamicShapesHigherOrderOpTests)": [
     "148544",
     "https://github.com/pytorch/pytorch/issues/148544",
@@ -1332,6 +1346,14 @@
   "test_lazy_module4 (__main__.NNModuleTests)": [
     "149521",
     "https://github.com/pytorch/pytorch/issues/149521",
+    [
+      "linux",
+      "rocm"
+    ]
+  ],
+  "test_lazy_module_speculation_log_divergence (__main__.NNModuleTests)": [
+    "149670",
+    "https://github.com/pytorch/pytorch/issues/149670",
     [
       "linux",
       "rocm"
