@@ -1352,6 +1352,14 @@
       "inductor"
     ]
   ],
+  "test_linear (__main__.TestLazyModules)": [
+    "149604",
+    "https://github.com/pytorch/pytorch/issues/149604",
+    [
+      "linux",
+      "rocm"
+    ]
+  ],
   "test_linear_and_cel_max_autotune (__main__.InplacePaddingTest)": [
     "145359",
     "https://github.com/pytorch/pytorch/issues/145359",
