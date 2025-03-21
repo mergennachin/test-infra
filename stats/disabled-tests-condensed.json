@@ -642,7 +642,8 @@
     "149671",
     "https://github.com/pytorch/pytorch/issues/149671",
     [
-      "rocm"
+      "rocm",
+      "linux"
     ]
   ],
   "test_ddp_has_finalized (__main__.TestDistBackendWithSpawn)": [
@@ -2361,6 +2362,13 @@
   "test_tensor_as_tensor_shape_prop (test_jit.TestScript)": [
     "91482",
     "https://github.com/pytorch/pytorch/issues/91482",
+    [
+      "linux"
+    ]
+  ],
+  "test_tensor_dtype_complex (__main__.CommTest)": [
+    "112460",
+    "https://github.com/pytorch/pytorch/issues/112460",
     [
       "linux"
     ]
