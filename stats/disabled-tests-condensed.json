@@ -2481,14 +2481,6 @@
       "rocm"
     ]
   ],
-  "test_train_parity_2d_transformer_checkpoint_resume (__main__.TestFullyShard2DTraining)": [
-    "125644",
-    "https://github.com/pytorch/pytorch/issues/125644",
-    [
-      "rocm",
-      "linux"
-    ]
-  ],
   "test_train_parity_multi_group_cpu_offload_eager (__main__.TestFullyShard1DTrainingCore)": [
     "148901",
     "https://github.com/pytorch/pytorch/issues/148901",
