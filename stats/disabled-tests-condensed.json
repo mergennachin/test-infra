@@ -1132,15 +1132,6 @@
       "rocm"
     ]
   ],
-  "test_inductor_all_reduce_single (__main__.CompileTest)": [
-    "147754",
-    "https://github.com/pytorch/pytorch/issues/147754",
-    [
-      "inductor",
-      "rocm",
-      "linux"
-    ]
-  ],
   "test_inductor_all_to_all_single (__main__.CompileTest)": [
     "147795",
     "https://github.com/pytorch/pytorch/issues/147795",
