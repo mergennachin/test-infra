@@ -1729,14 +1729,6 @@
       "slow"
     ]
   ],
-  "test_parity__foreach_abs_fastpath_inplace_cuda_bfloat16 (__main__.TestForeachCUDA)": [
-    "148966",
-    "https://github.com/pytorch/pytorch/issues/148966",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_partitioning_unremat_bw (__main__.MinCutPartitioningTests)": [
     "145343",
     "https://github.com/pytorch/pytorch/issues/145343",
