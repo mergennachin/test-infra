@@ -2153,14 +2153,6 @@
       "linux"
     ]
   ],
-  "test_set_nccl_pg_timeout_backend0 (__main__.ProcessGroupNCCLGroupTest)": [
-    "148944",
-    "https://github.com/pytorch/pytorch/issues/148944",
-    [
-      "linux",
-      "rocm"
-    ]
-  ],
   "test_set_per_process_memory_fraction (__main__.TestCuda)": [
     "135115",
     "https://github.com/pytorch/pytorch/issues/135115",
