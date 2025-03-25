@@ -962,13 +962,6 @@
       "macos"
     ]
   ],
-  "test_fsdp_tp_integration (__main__.TestTPFSDPIntegration)": [
-    "148934",
-    "https://github.com/pytorch/pytorch/issues/148934",
-    [
-      "linux"
-    ]
-  ],
   "test_fsdp_unsupported_module_cls (__main__.TestFSDPMiscMultiThread)": [
     "137948",
     "https://github.com/pytorch/pytorch/issues/137948",
@@ -1302,13 +1295,6 @@
     "https://github.com/pytorch/pytorch/issues/115859",
     [
       "rocm"
-    ]
-  ],
-  "test_is_isnot (__main__.TestScript)": [
-    "120694",
-    "https://github.com/pytorch/pytorch/issues/120694",
-    [
-      "dynamo"
     ]
   ],
   "test_item_to_inputs_kernel_nobreak_cuda (__main__.TestInductorDynamicCUDA)": [
