@@ -132,14 +132,6 @@
       "mac"
     ]
   ],
-  "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_bfloat16 (__main__.TestForeachCUDA)": [
-    "148965",
-    "https://github.com/pytorch/pytorch/issues/148965",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_complex128 (__main__.TestForeachCUDA)": [
     "149323",
     "https://github.com/pytorch/pytorch/issues/149323",
@@ -1132,6 +1124,15 @@
       "rocm"
     ]
   ],
+  "test_inductor_all_reduce_single (__main__.CompileTest)": [
+    "147754",
+    "https://github.com/pytorch/pytorch/issues/147754",
+    [
+      "inductor",
+      "rocm",
+      "linux"
+    ]
+  ],
   "test_inductor_all_to_all_single (__main__.CompileTest)": [
     "147795",
     "https://github.com/pytorch/pytorch/issues/147795",
@@ -1584,15 +1585,6 @@
       "slow"
     ]
   ],
-  "test_multi_output_unbacked_custom_op_cuda (__main__.TestInductorDynamicCUDA)": [
-    "135755",
-    "https://github.com/pytorch/pytorch/issues/135755",
-    [
-      "rocm",
-      "linux",
-      "slow"
-    ]
-  ],
   "test_nested (quantization.jit.test_quantize_jit.TestQuantizeJit)": [
     "105120",
     "https://github.com/pytorch/pytorch/issues/105120",
@@ -1776,13 +1768,6 @@
   "test_prod_large (__main__.TestCuda)": [
     "134723",
     "https://github.com/pytorch/pytorch/issues/134723",
-    [
-      "linux"
-    ]
-  ],
-  "test_profile_all_threads (__main__.TestProfiler)": [
-    "145951",
-    "https://github.com/pytorch/pytorch/issues/145951",
     [
       "linux"
     ]
