@@ -1142,13 +1142,13 @@
       "rocm"
     ]
   ],
-  "test_inductor_inplace_op_on_view (__main__.CompileTest)": [
-    "147852",
-    "https://github.com/pytorch/pytorch/issues/147852",
+  "test_inductor_broadcast (__main__.CompileTest)": [
+    "147816",
+    "https://github.com/pytorch/pytorch/issues/147816",
     [
       "inductor",
-      "rocm",
-      "linux"
+      "linux",
+      "rocm"
     ]
   ],
   "test_inductor_reduce_scatter_tensor_coalesced (__main__.CompileTest)": [
