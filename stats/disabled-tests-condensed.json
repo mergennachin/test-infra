@@ -853,13 +853,6 @@
       "linux"
     ]
   ],
-  "test_embedding_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "135250",
-    "https://github.com/pytorch/pytorch/issues/135250",
-    [
-      "linux"
-    ]
-  ],
   "test_empty_graph_nested_calls_fullgraph_False_dynamic_shapes (__main__.DynamicShapesReproTests)": [
     "148426",
     "https://github.com/pytorch/pytorch/issues/148426",
@@ -1222,13 +1215,6 @@
   "test_inplace_gradgrad_remainder_cuda_float64 (__main__.TestBwdGradientsCUDA)": [
     "100675",
     "https://github.com/pytorch/pytorch/issues/100675",
-    [
-      "linux"
-    ]
-  ],
-  "test_input_mutation2_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "135295",
-    "https://github.com/pytorch/pytorch/issues/135295",
     [
       "linux"
     ]
@@ -1772,13 +1758,6 @@
     "https://github.com/pytorch/pytorch/issues/106027",
     [
       "rocm"
-    ]
-  ],
-  "test_profiler_mark_wrapper_call_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "135294",
-    "https://github.com/pytorch/pytorch/issues/135294",
-    [
-      "linux"
     ]
   ],
   "test_profiler_rpc_key_names (__main__.TensorPipeRpcTest)": [
