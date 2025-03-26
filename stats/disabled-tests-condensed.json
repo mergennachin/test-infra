@@ -1176,6 +1176,15 @@
       "linux"
     ]
   ],
+  "test_inductor_reduce_scatter_tensor_coalesced (__main__.CompileTest)": [
+    "147887",
+    "https://github.com/pytorch/pytorch/issues/147887",
+    [
+      "inductor",
+      "rocm",
+      "linux"
+    ]
+  ],
   "test_inductor_reduce_scatter_tensor_single (__main__.CompileTest)": [
     "147911",
     "https://github.com/pytorch/pytorch/issues/147911",
