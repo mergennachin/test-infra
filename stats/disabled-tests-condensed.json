@@ -2105,13 +2105,6 @@
       "linux"
     ]
   ],
-  "test_serialized_patterns_up_to_date (__main__.TestPatternMatcher)": [
-    "135476",
-    "https://github.com/pytorch/pytorch/issues/135476",
-    [
-      "linux"
-    ]
-  ],
   "test_set_per_process_memory_fraction (__main__.TestCuda)": [
     "135115",
     "https://github.com/pytorch/pytorch/issues/135115",
