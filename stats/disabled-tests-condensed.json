@@ -1115,6 +1115,15 @@
       "inductor"
     ]
   ],
+  "test_inductor_all_reduce_non_contig_input (__main__.CompileTest)": [
+    "147733",
+    "https://github.com/pytorch/pytorch/issues/147733",
+    [
+      "inductor",
+      "linux",
+      "rocm"
+    ]
+  ],
   "test_inductor_all_reduce_single (__main__.CompileTest)": [
     "147754",
     "https://github.com/pytorch/pytorch/issues/147754",
