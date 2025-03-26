@@ -104,6 +104,13 @@
       "rocm"
     ]
   ],
+  "test_avoid_register_spilling_cuda (__main__.BenchmarkFusionCudaTest)": [
+    "146988",
+    "https://github.com/pytorch/pytorch/issues/146988",
+    [
+      "rocm"
+    ]
+  ],
   "test_backward_ddp_inside (__main__.TensorPipeDdpUnderDistAutogradTest)": [
     "104328",
     "https://github.com/pytorch/pytorch/issues/104328",
@@ -1124,15 +1131,6 @@
       "inductor",
       "rocm",
       "linux"
-    ]
-  ],
-  "test_inductor_broadcast (__main__.CompileTest)": [
-    "147816",
-    "https://github.com/pytorch/pytorch/issues/147816",
-    [
-      "inductor",
-      "linux",
-      "rocm"
     ]
   ],
   "test_inductor_inplace_op_on_view (__main__.CompileTest)": [
