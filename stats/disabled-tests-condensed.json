@@ -697,13 +697,6 @@
       "dynamo"
     ]
   ],
-  "test_destruct_before_terminate_pg (__main__.ProcessGroupNCCLGroupTest)": [
-    "149081",
-    "https://github.com/pytorch/pytorch/issues/149081",
-    [
-      "linux"
-    ]
-  ],
   "test_disable_external_correlation (__main__.TestProfiler)": [
     "143373",
     "https://github.com/pytorch/pytorch/issues/143373",
@@ -1179,15 +1172,6 @@
   "test_inductor_reduce_scatter_tensor_coalesced (__main__.CompileTest)": [
     "147887",
     "https://github.com/pytorch/pytorch/issues/147887",
-    [
-      "inductor",
-      "rocm",
-      "linux"
-    ]
-  ],
-  "test_inductor_reduce_scatter_tensor_single (__main__.CompileTest)": [
-    "147911",
-    "https://github.com/pytorch/pytorch/issues/147911",
     [
       "inductor",
       "rocm",
