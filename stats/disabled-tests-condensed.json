@@ -440,6 +440,19 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_fft_irfftn_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
+    "150099",
+    "https://github.com/pytorch/pytorch/issues/150099",
+    [
+      "<fill this in or delete. valid labels are: asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "win",
+      "windows.>"
+    ]
+  ],
   "test_comprehensive_linalg_ldl_factor_ex_cuda (__main__.TestDecompCUDA)": [
     "76962",
     "https://github.com/pytorch/pytorch/issues/76962",
