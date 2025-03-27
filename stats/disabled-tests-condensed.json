@@ -1188,6 +1188,15 @@
       "linux"
     ]
   ],
+  "test_inductor_reuse_buffer_after_inplace_collective (__main__.CompileTest)": [
+    "147950",
+    "https://github.com/pytorch/pytorch/issues/147950",
+    [
+      "inductor",
+      "rocm",
+      "linux"
+    ]
+  ],
   "test_init_from_local_shards (__main__.TestShardedTensorFromLocalShards)": [
     "78068",
     "https://github.com/pytorch/pytorch/issues/78068",
