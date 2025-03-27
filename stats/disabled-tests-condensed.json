@@ -1178,6 +1178,15 @@
       "linux"
     ]
   ],
+  "test_inductor_reduce_scatter_tensor_single (__main__.CompileTest)": [
+    "147911",
+    "https://github.com/pytorch/pytorch/issues/147911",
+    [
+      "inductor",
+      "rocm",
+      "linux"
+    ]
+  ],
   "test_init_from_local_shards (__main__.TestShardedTensorFromLocalShards)": [
     "78068",
     "https://github.com/pytorch/pytorch/issues/78068",
@@ -1816,15 +1825,6 @@
       "asan"
     ]
   ],
-  "test_ranks_and_tag (__main__.CompileTest)": [
-    "147974",
-    "https://github.com/pytorch/pytorch/issues/147974",
-    [
-      "inductor",
-      "rocm",
-      "linux"
-    ]
-  ],
   "test_re_export_preserve_handle (__main__.TestNumericDebugger)": [
     "144898",
     "https://github.com/pytorch/pytorch/issues/144898",
@@ -2448,6 +2448,14 @@
     "134687",
     "https://github.com/pytorch/pytorch/issues/134687",
     [
+      "rocm"
+    ]
+  ],
+  "test_triton_kernel_to_post_grad_tracing_cuda (__main__.TestProvenanceTracingArtifact)": [
+    "150087",
+    "https://github.com/pytorch/pytorch/issues/150087",
+    [
+      "linux",
       "rocm"
     ]
   ],
