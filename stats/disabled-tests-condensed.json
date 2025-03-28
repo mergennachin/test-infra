@@ -1043,13 +1043,6 @@
       "linux"
     ]
   ],
-  "test_get_model_state_dict_del_memory (__main__.TestStateDictMemory)": [
-    "149430",
-    "https://github.com/pytorch/pytorch/issues/149430",
-    [
-      "linux"
-    ]
-  ],
   "test_globals_change_in_other_file (__main__.ContextlibContextManagerTests)": [
     "148523",
     "https://github.com/pytorch/pytorch/issues/148523",
