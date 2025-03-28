@@ -155,14 +155,6 @@
       "slow"
     ]
   ],
-  "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_complex64 (__main__.TestForeachCUDA)": [
-    "149199",
-    "https://github.com/pytorch/pytorch/issues/149199",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_float16 (__main__.TestForeachCUDA)": [
     "149522",
     "https://github.com/pytorch/pytorch/issues/149522",
@@ -531,6 +523,16 @@
     [
       "rocm",
       "linux"
+    ]
+  ],
+  "test_comprehensive_pca_lowrank_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
+    "139828",
+    "https://github.com/pytorch/pytorch/issues/139828",
+    [
+      "linux",
+      "rocm",
+      "slow",
+      "inductor"
     ]
   ],
   "test_comprehensive_rsub_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
@@ -977,6 +979,13 @@
   "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_float16 (__main__.TestForeachCUDA)": [
     "150173",
     "https://github.com/pytorch/pytorch/issues/150173",
+    [
+      "linux"
+    ]
+  ],
+  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_float32 (__main__.TestForeachCUDA)": [
+    "150208",
+    "https://github.com/pytorch/pytorch/issues/150208",
     [
       "linux"
     ]
