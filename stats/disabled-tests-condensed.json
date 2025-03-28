@@ -976,6 +976,14 @@
       "slow"
     ]
   ],
+  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_complex64 (__main__.TestForeachCUDA)": [
+    "150161",
+    "https://github.com/pytorch/pytorch/issues/150161",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_freevars_as_inputs_to_wrap_dynamic_shapes (__main__.DynamicShapesHigherOrderOpTests)": [
     "148514",
     "https://github.com/pytorch/pytorch/issues/148514",
@@ -1266,13 +1274,6 @@
     "https://github.com/pytorch/pytorch/issues/100675",
     [
       "linux"
-    ]
-  ],
-  "test_int64_upsample3d_cuda_bfloat16 (__main__.TestTorchDeviceTypeCUDA)": [
-    "146007",
-    "https://github.com/pytorch/pytorch/issues/146007",
-    [
-      "rocm"
     ]
   ],
   "test_int_shape_binops (__main__.MiscTests)": [
