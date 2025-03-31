@@ -808,18 +808,6 @@
       "slow"
     ]
   ],
-  "test_dynamic_sources_dynamic_override_dynamic_shapes (__main__.DynamicShapesMiscTests)": [
-    "148214",
-    "https://github.com/pytorch/pytorch/issues/148214",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_dynamic_toggle (__main__.TestProfiler)": [
     "134479",
     "https://github.com/pytorch/pytorch/issues/134479",
@@ -2354,6 +2342,19 @@
     "https://github.com/pytorch/pytorch/issues/91497",
     [
       "linux"
+    ]
+  ],
+  "test_tensor_with_grad_to_scalar_warning (__main__.TestTorch)": [
+    "150273",
+    "https://github.com/pytorch/pytorch/issues/150273",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "win",
+      "windows"
     ]
   ],
   "test_tensorboard_trace_handler (__main__.TestProfiler)": [
