@@ -1012,6 +1012,14 @@
       "linux"
     ]
   ],
+  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_int64 (__main__.TestForeachCUDA)": [
+    "150392",
+    "https://github.com/pytorch/pytorch/issues/150392",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_freevars_as_inputs_to_wrap_dynamic_shapes (__main__.DynamicShapesHigherOrderOpTests)": [
     "148514",
     "https://github.com/pytorch/pytorch/issues/148514",
@@ -1792,6 +1800,13 @@
       "rocm"
     ]
   ],
+  "test_partitioning_with_view (__main__.MinCutPartitioningTests)": [
+    "145345",
+    "https://github.com/pytorch/pytorch/issues/145345",
+    [
+      "rocm"
+    ]
+  ],
   "test_pattern_matcher_multi_user_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
     "134433",
     "https://github.com/pytorch/pytorch/issues/134433",
@@ -2003,6 +2018,16 @@
     "https://github.com/pytorch/pytorch/issues/144922",
     [
       "rocm"
+    ]
+  ],
+  "test_repeated_calling_cuda (__main__.AOTInductorTestABICompatibleGpu)": [
+    "146185",
+    "https://github.com/pytorch/pytorch/issues/146185",
+    [
+      "linux",
+      "rocm",
+      "slow",
+      "inductor"
     ]
   ],
   "test_requires_grad_loop (test_jit.TestScript)": [
@@ -2622,6 +2647,13 @@
   "test_variant_consistency_jit_linalg_lu_factor_ex_cuda_complex64 (__main__.TestJitCUDA)": [
     "86887",
     "https://github.com/pytorch/pytorch/issues/86887",
+    [
+      "linux"
+    ]
+  ],
+  "test_vdd_clamp_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "134445",
+    "https://github.com/pytorch/pytorch/issues/134445",
     [
       "linux"
     ]
