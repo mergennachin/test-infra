@@ -81,13 +81,6 @@
       "rocm"
     ]
   ],
-  "test_arange_dynamic_cuda (__main__.TestInductorDynamicCUDA)": [
-    "127067",
-    "https://github.com/pytorch/pytorch/issues/127067",
-    [
-      "rocm"
-    ]
-  ],
   "test_attn_cuda (__main__.TestMin)": [
     "86710",
     "https://github.com/pytorch/pytorch/issues/86710",
@@ -1012,6 +1005,13 @@
       "slow"
     ]
   ],
+  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_int8 (__main__.TestForeachCUDA)": [
+    "150407",
+    "https://github.com/pytorch/pytorch/issues/150407",
+    [
+      "linux"
+    ]
+  ],
   "test_freevars_as_inputs_to_wrap_dynamic_shapes (__main__.DynamicShapesHigherOrderOpTests)": [
     "148514",
     "https://github.com/pytorch/pytorch/issues/148514",
@@ -1490,6 +1490,13 @@
   "test_matmul_triton_kernel_benchmark (__main__.TestKernelBenchmark)": [
     "115002",
     "https://github.com/pytorch/pytorch/issues/115002",
+    [
+      "rocm"
+    ]
+  ],
+  "test_matrix_rank_basic_cuda_float32 (__main__.TestLinalgCUDA)": [
+    "150406",
+    "https://github.com/pytorch/pytorch/issues/150406",
     [
       "rocm"
     ]
