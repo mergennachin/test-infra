@@ -556,14 +556,6 @@
       "inductor"
     ]
   ],
-  "test_comprehensive_svd_lowrank_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
-    "145362",
-    "https://github.com/pytorch/pytorch/issues/145362",
-    [
-      "rocm",
-      "inductor"
-    ]
-  ],
   "test_cond_autograd_zeros_unused_branch_complex_compile_mode_compile (__main__.TestControlFlow)": [
     "149050",
     "https://github.com/pytorch/pytorch/issues/149050",
