@@ -1365,13 +1365,6 @@
       "linux"
     ]
   ],
-  "test_layer_norm_bwd_req_grad (__main__.DistMathOpsTest)": [
-    "148943",
-    "https://github.com/pytorch/pytorch/issues/148943",
-    [
-      "linux"
-    ]
-  ],
   "test_lazy_module2 (__main__.NNModuleTests)": [
     "149520",
     "https://github.com/pytorch/pytorch/issues/149520",
