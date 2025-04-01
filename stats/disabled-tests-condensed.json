@@ -156,14 +156,6 @@
       "slow"
     ]
   ],
-  "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_float32 (__main__.TestForeachCUDA)": [
-    "149409",
-    "https://github.com/pytorch/pytorch/issues/149409",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_float64 (__main__.TestForeachCUDA)": [
     "149523",
     "https://github.com/pytorch/pytorch/issues/149523",
@@ -1012,6 +1004,14 @@
       "linux"
     ]
   ],
+  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_uint8 (__main__.TestForeachCUDA)": [
+    "150417",
+    "https://github.com/pytorch/pytorch/issues/150417",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_freevars_as_inputs_to_wrap_dynamic_shapes (__main__.DynamicShapesHigherOrderOpTests)": [
     "148514",
     "https://github.com/pytorch/pytorch/issues/148514",
@@ -1335,6 +1335,13 @@
     "https://github.com/pytorch/pytorch/issues/115859",
     [
       "rocm"
+    ]
+  ],
+  "test_is_isnot (__main__.TestScript)": [
+    "120694",
+    "https://github.com/pytorch/pytorch/issues/120694",
+    [
+      "dynamo"
     ]
   ],
   "test_item_to_inputs_kernel_nobreak_cuda (__main__.TestInductorDynamicCUDA)": [
