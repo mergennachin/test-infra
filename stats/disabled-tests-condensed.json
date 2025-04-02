@@ -1027,6 +1027,14 @@
       "linux"
     ]
   ],
+  "test_foreach_l2_large_value_input__foreach_norm_cuda_float16 (__main__.TestForeachCUDA)": [
+    "150509",
+    "https://github.com/pytorch/pytorch/issues/150509",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_freevars_as_inputs_to_wrap_dynamic_shapes (__main__.DynamicShapesHigherOrderOpTests)": [
     "148514",
     "https://github.com/pytorch/pytorch/issues/148514",
@@ -1803,6 +1811,14 @@
     "https://github.com/pytorch/pytorch/issues/150468",
     [
       "linux"
+    ]
+  ],
+  "test_parity__foreach_abs_fastpath_inplace_cuda_float16 (__main__.TestForeachCUDA)": [
+    "150510",
+    "https://github.com/pytorch/pytorch/issues/150510",
+    [
+      "linux",
+      "slow"
     ]
   ],
   "test_partitioning_unremat_bw (__main__.MinCutPartitioningTests)": [
