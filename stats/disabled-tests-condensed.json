@@ -633,6 +633,16 @@
       "rocm"
     ]
   ],
+  "test_cusparse_multiple_threads_same_device (__main__.TestCuda)": [
+    "127536",
+    "https://github.com/pytorch/pytorch/issues/127536",
+    [
+      "dynamo",
+      "inductor",
+      "linux",
+      "slow"
+    ]
+  ],
   "test_custom_hsdp_all_reduce_hook (__main__.TestHSDPWithCustomHook)": [
     "147769",
     "https://github.com/pytorch/pytorch/issues/147769",
