@@ -156,25 +156,9 @@
       "slow"
     ]
   ],
-  "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_float16 (__main__.TestForeachCUDA)": [
-    "149522",
-    "https://github.com/pytorch/pytorch/issues/149522",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_float32 (__main__.TestForeachCUDA)": [
     "149409",
     "https://github.com/pytorch/pytorch/issues/149409",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
-  "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_float64 (__main__.TestForeachCUDA)": [
-    "149523",
-    "https://github.com/pytorch/pytorch/issues/149523",
     [
       "linux",
       "slow"
@@ -839,18 +823,6 @@
       "rocm"
     ]
   ],
-  "test_dynamo_timed (__main__.TestDynamoTimed)": [
-    "148093",
-    "https://github.com/pytorch/pytorch/issues/148093",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_embedding_bag_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
     "135215",
     "https://github.com/pytorch/pytorch/issues/135215",
@@ -1428,30 +1400,6 @@
       "linux"
     ]
   ],
-  "test_lazy_module2 (__main__.NNModuleTests)": [
-    "149520",
-    "https://github.com/pytorch/pytorch/issues/149520",
-    [
-      "linux",
-      "rocm"
-    ]
-  ],
-  "test_lazy_module3_cuda (__main__.NNModuleTestsDeviceCUDA)": [
-    "149519",
-    "https://github.com/pytorch/pytorch/issues/149519",
-    [
-      "linux",
-      "rocm"
-    ]
-  ],
-  "test_lazy_module4 (__main__.NNModuleTests)": [
-    "149521",
-    "https://github.com/pytorch/pytorch/issues/149521",
-    [
-      "linux",
-      "rocm"
-    ]
-  ],
   "test_lazy_module_speculation_log_divergence (__main__.NNModuleTests)": [
     "149670",
     "https://github.com/pytorch/pytorch/issues/149670",
@@ -1859,6 +1807,13 @@
   "test_parity__foreach_abs_fastpath_inplace_cuda_float32 (__main__.TestForeachCUDA)": [
     "150530",
     "https://github.com/pytorch/pytorch/issues/150530",
+    [
+      "linux"
+    ]
+  ],
+  "test_parity__foreach_abs_fastpath_inplace_cuda_float64 (__main__.TestForeachCUDA)": [
+    "150562",
+    "https://github.com/pytorch/pytorch/issues/150562",
     [
       "linux"
     ]
