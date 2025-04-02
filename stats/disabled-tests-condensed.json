@@ -1328,6 +1328,13 @@
       "linux"
     ]
   ],
+  "test_int64_upsample3d_cuda_bfloat16 (__main__.TestTorchDeviceTypeCUDA)": [
+    "146007",
+    "https://github.com/pytorch/pytorch/issues/146007",
+    [
+      "rocm"
+    ]
+  ],
   "test_int_shape_binops (__main__.MiscTests)": [
     "148296",
     "https://github.com/pytorch/pytorch/issues/148296",
@@ -1836,6 +1843,13 @@
     [
       "linux",
       "slow"
+    ]
+  ],
+  "test_parity__foreach_abs_fastpath_inplace_cuda_float32 (__main__.TestForeachCUDA)": [
+    "150530",
+    "https://github.com/pytorch/pytorch/issues/150530",
+    [
+      "linux"
     ]
   ],
   "test_partitioning_unremat_bw (__main__.MinCutPartitioningTests)": [
