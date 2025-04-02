@@ -371,6 +371,14 @@
       "inductor"
     ]
   ],
+  "test_comprehensive__unsafe_masked_index_cuda_int32 (__main__.TestInductorOpInfoCUDA)": [
+    "131118",
+    "https://github.com/pytorch/pytorch/issues/131118",
+    [
+      "rocm",
+      "inductor"
+    ]
+  ],
   "test_comprehensive_complex_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
     "140367",
     "https://github.com/pytorch/pytorch/issues/140367",
@@ -1172,6 +1180,15 @@
       "rocm",
       "win",
       "windows"
+    ]
+  ],
+  "test_inductor_all_gather_into_tensor_coalesced (__main__.CompileTest)": [
+    "146806",
+    "https://github.com/pytorch/pytorch/issues/146806",
+    [
+      "linux",
+      "rocm",
+      "inductor"
     ]
   ],
   "test_inductor_all_gather_into_tensor_single (__main__.CompileTest)": [
