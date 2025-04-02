@@ -164,6 +164,14 @@
       "slow"
     ]
   ],
+  "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_float32 (__main__.TestForeachCUDA)": [
+    "149409",
+    "https://github.com/pytorch/pytorch/issues/149409",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_float64 (__main__.TestForeachCUDA)": [
     "149523",
     "https://github.com/pytorch/pytorch/issues/149523",
@@ -1729,13 +1737,6 @@
     "https://github.com/pytorch/pytorch/issues/104454",
     [
       "asan"
-    ]
-  ],
-  "test_non_commutative_scan_op (__main__.CudaReproTests)": [
-    "126689",
-    "https://github.com/pytorch/pytorch/issues/126689",
-    [
-      "rocm"
     ]
   ],
   "test_non_contiguous_input_mm_plus_mm (__main__.TestMaxAutotune)": [
