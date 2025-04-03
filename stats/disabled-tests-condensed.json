@@ -1454,14 +1454,6 @@
       "inductor"
     ]
   ],
-  "test_linear (__main__.TestLazyModules)": [
-    "149604",
-    "https://github.com/pytorch/pytorch/issues/149604",
-    [
-      "linux",
-      "rocm"
-    ]
-  ],
   "test_linear_and_cel_max_autotune (__main__.InplacePaddingTest)": [
     "145359",
     "https://github.com/pytorch/pytorch/issues/145359",
@@ -1841,6 +1833,13 @@
   "test_parity__foreach_abs_fastpath_inplace_cuda_int16 (__main__.TestForeachCUDA)": [
     "150590",
     "https://github.com/pytorch/pytorch/issues/150590",
+    [
+      "linux"
+    ]
+  ],
+  "test_parity__foreach_abs_fastpath_inplace_cuda_int32 (__main__.TestForeachCUDA)": [
+    "150602",
+    "https://github.com/pytorch/pytorch/issues/150602",
     [
       "linux"
     ]
