@@ -549,6 +549,14 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_svd_lowrank_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
+    "145362",
+    "https://github.com/pytorch/pytorch/issues/145362",
+    [
+      "rocm",
+      "inductor"
+    ]
+  ],
   "test_cond_autograd_zeros_unused_branch_complex_compile_mode_compile (__main__.TestControlFlow)": [
     "149050",
     "https://github.com/pytorch/pytorch/issues/149050",
@@ -821,6 +829,18 @@
     [
       "windows",
       "rocm"
+    ]
+  ],
+  "test_dynamo_timed (__main__.TestDynamoTimed)": [
+    "148093",
+    "https://github.com/pytorch/pytorch/issues/148093",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "slow"
     ]
   ],
   "test_embedding_bag_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
@@ -1814,6 +1834,13 @@
   "test_parity__foreach_abs_fastpath_inplace_cuda_float64 (__main__.TestForeachCUDA)": [
     "150562",
     "https://github.com/pytorch/pytorch/issues/150562",
+    [
+      "linux"
+    ]
+  ],
+  "test_parity__foreach_abs_fastpath_inplace_cuda_int16 (__main__.TestForeachCUDA)": [
+    "150590",
+    "https://github.com/pytorch/pytorch/issues/150590",
     [
       "linux"
     ]
