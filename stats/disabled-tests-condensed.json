@@ -2355,6 +2355,13 @@
       "linux"
     ]
   ],
+  "test_special_polygamma_cpu_halide (__main__.HalideCpuTests)": [
+    "150624",
+    "https://github.com/pytorch/pytorch/issues/150624",
+    [
+      "linux"
+    ]
+  ],
   "test_streaming_backwards_callback (__main__.TestCuda)": [
     "135024",
     "https://github.com/pytorch/pytorch/issues/135024",
