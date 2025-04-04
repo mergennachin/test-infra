@@ -1881,6 +1881,13 @@
       "rocm"
     ]
   ],
+  "test_pattern_matcher_multi_user_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "134433",
+    "https://github.com/pytorch/pytorch/issues/134433",
+    [
+      "linux"
+    ]
+  ],
   "test_per_sample_api_compute_batch_size_not_pytreeable_cpu (__main__.TestExpandedWeightModuleCPU)": [
     "146972",
     "https://github.com/pytorch/pytorch/issues/146972",
