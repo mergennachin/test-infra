@@ -2662,18 +2662,6 @@
       "inductor"
     ]
   ],
-  "test_untracked_inputs_in_constraints_dynamic_shapes (__main__.DynamicShapesExportTests)": [
-    "148390",
-    "https://github.com/pytorch/pytorch/issues/148390",
-    [
-      "asan",
-      "linux",
-      "rocm",
-      "slow",
-      "mac",
-      "macos"
-    ]
-  ],
   "test_user_defined_binop (__main__.MiscTests)": [
     "148443",
     "https://github.com/pytorch/pytorch/issues/148443",
