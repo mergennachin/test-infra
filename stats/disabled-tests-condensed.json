@@ -1173,6 +1173,15 @@
       "inductor"
     ]
   ],
+  "test_inductor_all_gather_into_tensor_single (__main__.CompileTest)": [
+    "147707",
+    "https://github.com/pytorch/pytorch/issues/147707",
+    [
+      "linux",
+      "rocm",
+      "inductor"
+    ]
+  ],
   "test_inductor_all_reduce_non_contig_input (__main__.CompileTest)": [
     "147733",
     "https://github.com/pytorch/pytorch/issues/147733",
