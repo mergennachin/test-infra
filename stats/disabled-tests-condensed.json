@@ -1223,6 +1223,15 @@
       "rocm"
     ]
   ],
+  "test_inductor_all_reduce_single (__main__.CompileTest)": [
+    "147754",
+    "https://github.com/pytorch/pytorch/issues/147754",
+    [
+      "inductor",
+      "rocm",
+      "linux"
+    ]
+  ],
   "test_inductor_all_to_all_single (__main__.CompileTest)": [
     "147795",
     "https://github.com/pytorch/pytorch/issues/147795",
@@ -1628,6 +1637,13 @@
       "slow"
     ]
   ],
+  "test_multiple_module (__main__.TestInvokeSubgraphExportStrict)": [
+    "150877",
+    "https://github.com/pytorch/pytorch/issues/150877",
+    [
+      "dynamo"
+    ]
+  ],
   "test_nested (quantization.jit.test_quantize_jit.TestQuantizeJit)": [
     "105120",
     "https://github.com/pytorch/pytorch/issues/105120",
@@ -1905,6 +1921,13 @@
       "slow"
     ]
   ],
+  "test_parity__foreach_abs_fastpath_outplace_cuda_uint8 (__main__.TestForeachCUDA)": [
+    "150878",
+    "https://github.com/pytorch/pytorch/issues/150878",
+    [
+      "linux"
+    ]
+  ],
   "test_partitioning_unremat_bw (__main__.MinCutPartitioningTests)": [
     "145343",
     "https://github.com/pytorch/pytorch/issues/145343",
@@ -2051,6 +2074,15 @@
     "https://github.com/pytorch/pytorch/issues/75168",
     [
       "mac"
+    ]
+  ],
+  "test_reentrant_parent_error_on_cpu_cuda (__main__.TestAutogradDeviceTypeCUDA)": [
+    "86735",
+    "https://github.com/pytorch/pytorch/issues/86735",
+    [
+      "win",
+      "windows",
+      "rocm"
     ]
   ],
   "test_remote_cache_load_function_device_cuda_bfloat16_dynamic_False_bundle_triton_False (__main__.TestFxGraphCache)": [
