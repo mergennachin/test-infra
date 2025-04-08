@@ -1263,13 +1263,6 @@
       "linux"
     ]
   ],
-  "test_init_from_local_shards (__main__.TestShardedTensorFromLocalShards)": [
-    "78068",
-    "https://github.com/pytorch/pytorch/issues/78068",
-    [
-      "linux"
-    ]
-  ],
   "test_inlined_functions_dynamic_shapes (__main__.DynamicShapesHigherOrderOpTests)": [
     "148544",
     "https://github.com/pytorch/pytorch/issues/148544",
@@ -1890,6 +1883,14 @@
       "slow"
     ]
   ],
+  "test_parity__foreach_abs_fastpath_outplace_cuda_int8 (__main__.TestForeachCUDA)": [
+    "150837",
+    "https://github.com/pytorch/pytorch/issues/150837",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_partitioning_unremat_bw (__main__.MinCutPartitioningTests)": [
     "145343",
     "https://github.com/pytorch/pytorch/issues/145343",
@@ -2036,15 +2037,6 @@
     "https://github.com/pytorch/pytorch/issues/75168",
     [
       "mac"
-    ]
-  ],
-  "test_reentrant_parent_error_on_cpu_cuda (__main__.TestAutogradDeviceTypeCUDA)": [
-    "86735",
-    "https://github.com/pytorch/pytorch/issues/86735",
-    [
-      "win",
-      "windows",
-      "rocm"
     ]
   ],
   "test_remote_cache_load_function_device_cuda_bfloat16_dynamic_False_bundle_triton_False (__main__.TestFxGraphCache)": [
