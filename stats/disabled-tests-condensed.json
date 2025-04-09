@@ -895,6 +895,13 @@
       "macos"
     ]
   ],
+  "test_extern (__main__.NumBytesMetricTests)": [
+    "145352",
+    "https://github.com/pytorch/pytorch/issues/145352",
+    [
+      "rocm"
+    ]
+  ],
   "test_extra_cuda_context (__main__.ProcessGroupNCCLGroupTest)": [
     "139011",
     "https://github.com/pytorch/pytorch/issues/139011",
@@ -1420,6 +1427,14 @@
       "inductor"
     ]
   ],
+  "test_linalg_solve_triangular_large_cuda_complex128 (__main__.TestLinalgCUDA)": [
+    "150959",
+    "https://github.com/pytorch/pytorch/issues/150959",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_linear_and_cel_max_autotune (__main__.InplacePaddingTest)": [
     "145359",
     "https://github.com/pytorch/pytorch/issues/145359",
@@ -1923,6 +1938,13 @@
   "test_parity__foreach_acos_fastpath_inplace_cuda_complex128 (__main__.TestForeachCUDA)": [
     "150933",
     "https://github.com/pytorch/pytorch/issues/150933",
+    [
+      "linux"
+    ]
+  ],
+  "test_parity__foreach_acos_fastpath_inplace_cuda_complex64 (__main__.TestForeachCUDA)": [
+    "150960",
+    "https://github.com/pytorch/pytorch/issues/150960",
     [
       "linux"
     ]
