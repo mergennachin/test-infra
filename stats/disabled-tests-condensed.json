@@ -2753,6 +2753,15 @@
       "rocm"
     ]
   ],
+  "test_triton_kernel_to_post_grad_tracing_cuda (__main__.TestProvenanceTracingArtifact)": [
+    "150087",
+    "https://github.com/pytorch/pytorch/issues/150087",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_unshard_async (__main__.TestFullyShardUnshardMultiProcess)": [
     "149349",
     "https://github.com/pytorch/pytorch/issues/149349",
