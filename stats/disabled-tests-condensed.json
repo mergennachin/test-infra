@@ -264,6 +264,13 @@
       "rocm"
     ]
   ],
+  "test_cache_load_function_device_cuda_float32_dynamic_False_bundle_triton_True_use_static_cuda_launcher_False_grad_True (__main__.TestFxGraphCache)": [
+    "150991",
+    "https://github.com/pytorch/pytorch/issues/150991",
+    [
+      "rocm"
+    ]
+  ],
   "test_capture_tracked_dynamic_shapes (__main__.DynamicShapesHigherOrderOpTests)": [
     "148427",
     "https://github.com/pytorch/pytorch/issues/148427",
@@ -1245,6 +1252,15 @@
   "test_inductor_inplace_op_on_view (__main__.CompileTest)": [
     "147852",
     "https://github.com/pytorch/pytorch/issues/147852",
+    [
+      "inductor",
+      "rocm",
+      "linux"
+    ]
+  ],
+  "test_inductor_reduce_scatter_tensor_coalesced (__main__.CompileTest)": [
+    "147887",
+    "https://github.com/pytorch/pytorch/issues/147887",
     [
       "inductor",
       "rocm",
