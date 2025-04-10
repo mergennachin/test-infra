@@ -1988,6 +1988,13 @@
       "slow"
     ]
   ],
+  "test_parity__foreach_acos_fastpath_outplace_cuda_bfloat16 (__main__.TestForeachCUDA)": [
+    "151054",
+    "https://github.com/pytorch/pytorch/issues/151054",
+    [
+      "linux"
+    ]
+  ],
   "test_partitioning_unremat_bw (__main__.MinCutPartitioningTests)": [
     "145343",
     "https://github.com/pytorch/pytorch/issues/145343",
@@ -2096,15 +2103,6 @@
     "https://github.com/pytorch/pytorch/issues/84937",
     [
       "asan"
-    ]
-  ],
-  "test_ranks_and_tag (__main__.CompileTest)": [
-    "147974",
-    "https://github.com/pytorch/pytorch/issues/147974",
-    [
-      "inductor",
-      "rocm",
-      "linux"
     ]
   ],
   "test_re_export_preserve_handle (__main__.TestNumericDebugger)": [
