@@ -949,6 +949,14 @@
       "rocm"
     ]
   ],
+  "test_foreach_check_stride_ignore_dims_of_one_cuda_float32 (__main__.TestForeachCUDA)": [
+    "150026",
+    "https://github.com/pytorch/pytorch/issues/150026",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_bfloat16 (__main__.TestForeachCUDA)": [
     "150119",
     "https://github.com/pytorch/pytorch/issues/150119",
@@ -1393,6 +1401,15 @@
     "https://github.com/pytorch/pytorch/issues/120694",
     [
       "dynamo"
+    ]
+  ],
+  "test_item_to_inputs_kernel_nobreak_cuda (__main__.TestInductorDynamicCUDA)": [
+    "119538",
+    "https://github.com/pytorch/pytorch/issues/119538",
+    [
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_jvpvjp_nn_functional_conv3d_cuda_float32 (__main__.TestOperatorsCUDA)": [
@@ -2004,6 +2021,13 @@
   "test_parity__foreach_acos_fastpath_outplace_cuda_complex64 (__main__.TestForeachCUDA)": [
     "151099",
     "https://github.com/pytorch/pytorch/issues/151099",
+    [
+      "linux"
+    ]
+  ],
+  "test_parity__foreach_acos_fastpath_outplace_cuda_float16 (__main__.TestForeachCUDA)": [
+    "151114",
+    "https://github.com/pytorch/pytorch/issues/151114",
     [
       "linux"
     ]
