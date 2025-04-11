@@ -2105,6 +2105,15 @@
       "asan"
     ]
   ],
+  "test_ranks_and_tag (__main__.CompileTest)": [
+    "147974",
+    "https://github.com/pytorch/pytorch/issues/147974",
+    [
+      "inductor",
+      "rocm",
+      "linux"
+    ]
+  ],
   "test_re_export_preserve_handle (__main__.TestNumericDebugger)": [
     "144898",
     "https://github.com/pytorch/pytorch/issues/144898",
@@ -2167,6 +2176,13 @@
   "test_remote_cache_load_function_device_cuda_float32_dynamic_False_bundle_triton_False (__main__.TestFxGraphCache)": [
     "145212",
     "https://github.com/pytorch/pytorch/issues/145212",
+    [
+      "rocm"
+    ]
+  ],
+  "test_remote_cache_load_function_device_cuda_float32_dynamic_False_bundle_triton_False_use_static_cuda_launcher_False (__main__.TestFxGraphCache)": [
+    "151074",
+    "https://github.com/pytorch/pytorch/issues/151074",
     [
       "rocm"
     ]
