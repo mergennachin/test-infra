@@ -1395,15 +1395,6 @@
       "dynamo"
     ]
   ],
-  "test_item_to_inputs_kernel_nobreak_cuda (__main__.TestInductorDynamicCUDA)": [
-    "119538",
-    "https://github.com/pytorch/pytorch/issues/119538",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_jvpvjp_nn_functional_conv3d_cuda_float32 (__main__.TestOperatorsCUDA)": [
     "114654",
     "https://github.com/pytorch/pytorch/issues/114654",
@@ -2008,6 +1999,13 @@
     [
       "linux",
       "slow"
+    ]
+  ],
+  "test_parity__foreach_acos_fastpath_outplace_cuda_complex64 (__main__.TestForeachCUDA)": [
+    "151099",
+    "https://github.com/pytorch/pytorch/issues/151099",
+    [
+      "linux"
     ]
   ],
   "test_partitioning_unremat_bw (__main__.MinCutPartitioningTests)": [
