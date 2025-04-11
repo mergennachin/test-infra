@@ -2037,6 +2037,76 @@
       "rocm"
     ]
   ],
+  "test_pp_ddp_ScheduleClass1 (__main__.ComposabilityTest)": [
+    "151081",
+    "https://github.com/pytorch/pytorch/issues/151081",
+    [
+      "rocm"
+    ]
+  ],
+  "test_pp_ddp_ScheduleClass2 (__main__.ComposabilityTest)": [
+    "151082",
+    "https://github.com/pytorch/pytorch/issues/151082",
+    [
+      "rocm"
+    ]
+  ],
+  "test_pp_fsdp_dp_type_FSDP_MP_ScheduleClass0 (__main__.ComposabilityTest)": [
+    "151083",
+    "https://github.com/pytorch/pytorch/issues/151083",
+    [
+      "rocm"
+    ]
+  ],
+  "test_pp_fsdp_dp_type_FSDP_MP_ScheduleClass1 (__main__.ComposabilityTest)": [
+    "151084",
+    "https://github.com/pytorch/pytorch/issues/151084",
+    [
+      "rocm"
+    ]
+  ],
+  "test_pp_fsdp_dp_type_FSDP_MP_ScheduleClass2 (__main__.ComposabilityTest)": [
+    "151085",
+    "https://github.com/pytorch/pytorch/issues/151085",
+    [
+      "rocm"
+    ]
+  ],
+  "test_pp_fsdp_dp_type_FSDP_MP_ScheduleClass3 (__main__.ComposabilityTest)": [
+    "151090",
+    "https://github.com/pytorch/pytorch/issues/151090",
+    [
+      "rocm"
+    ]
+  ],
+  "test_pp_fsdp_dp_type_FSDP_ScheduleClass0 (__main__.ComposabilityTest)": [
+    "151086",
+    "https://github.com/pytorch/pytorch/issues/151086",
+    [
+      "rocm"
+    ]
+  ],
+  "test_pp_fsdp_dp_type_FSDP_ScheduleClass1 (__main__.ComposabilityTest)": [
+    "151087",
+    "https://github.com/pytorch/pytorch/issues/151087",
+    [
+      "rocm"
+    ]
+  ],
+  "test_pp_fsdp_dp_type_FSDP_ScheduleClass2 (__main__.ComposabilityTest)": [
+    "151088",
+    "https://github.com/pytorch/pytorch/issues/151088",
+    [
+      "rocm"
+    ]
+  ],
+  "test_pp_fsdp_dp_type_FSDP_ScheduleClass3 (__main__.ComposabilityTest)": [
+    "151089",
+    "https://github.com/pytorch/pytorch/issues/151089",
+    [
+      "rocm"
+    ]
+  ],
   "test_prim_grad_undefined (test_jit.TestScript)": [
     "91493",
     "https://github.com/pytorch/pytorch/issues/91493",
