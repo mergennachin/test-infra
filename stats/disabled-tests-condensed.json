@@ -28,6 +28,13 @@
       "mac"
     ]
   ],
+  "test_allgather_stress_cuda (__main__.ProcessGroupGlooTest)": [
+    "151077",
+    "https://github.com/pytorch/pytorch/issues/151077",
+    [
+      "rocm"
+    ]
+  ],
   "test_allocator_fuzz (__main__.TestCudaMallocAsync)": [
     "135249",
     "https://github.com/pytorch/pytorch/issues/135249",
@@ -2021,6 +2028,13 @@
     "https://github.com/pytorch/pytorch/issues/146972",
     [
       "dynamo"
+    ]
+  ],
+  "test_pp_ddp_ScheduleClass0 (__main__.ComposabilityTest)": [
+    "151078",
+    "https://github.com/pytorch/pytorch/issues/151078",
+    [
+      "rocm"
     ]
   ],
   "test_prim_grad_undefined (test_jit.TestScript)": [
