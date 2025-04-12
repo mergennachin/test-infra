@@ -28,6 +28,13 @@
       "mac"
     ]
   ],
+  "test_allgather_stress_cuda (__main__.ProcessGroupGlooLazyInitTest)": [
+    "151153",
+    "https://github.com/pytorch/pytorch/issues/151153",
+    [
+      "rocm"
+    ]
+  ],
   "test_allgather_stress_cuda (__main__.ProcessGroupGlooTest)": [
     "151077",
     "https://github.com/pytorch/pytorch/issues/151077",
