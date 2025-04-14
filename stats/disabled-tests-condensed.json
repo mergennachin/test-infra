@@ -795,18 +795,6 @@
       "dynamo"
     ]
   ],
-  "test_dynamic_sources_dynamic_override (__main__.MiscTests)": [
-    "148218",
-    "https://github.com/pytorch/pytorch/issues/148218",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_dynamic_sources_dynamic_override_dynamic_shapes (__main__.DynamicShapesMiscTests)": [
     "148214",
     "https://github.com/pytorch/pytorch/issues/148214",
@@ -1050,6 +1038,14 @@
       "slow"
     ]
   ],
+  "test_foreach_reduce_large_input__foreach_max_w_empty_False_cuda_bool (__main__.TestForeachCUDA)": [
+    "151229",
+    "https://github.com/pytorch/pytorch/issues/151229",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_freevars_as_inputs_to_wrap_dynamic_shapes (__main__.DynamicShapesHigherOrderOpTests)": [
     "148514",
     "https://github.com/pytorch/pytorch/issues/148514",
@@ -1237,6 +1233,15 @@
   "test_inductor_all_to_all_single (__main__.CompileTest)": [
     "147795",
     "https://github.com/pytorch/pytorch/issues/147795",
+    [
+      "inductor",
+      "linux",
+      "rocm"
+    ]
+  ],
+  "test_inductor_broadcast (__main__.CompileTest)": [
+    "147816",
+    "https://github.com/pytorch/pytorch/issues/147816",
     [
       "inductor",
       "linux",
@@ -1986,6 +1991,13 @@
   "test_parity__foreach_acos_fastpath_outplace_cuda_float64 (__main__.TestForeachCUDA)": [
     "151214",
     "https://github.com/pytorch/pytorch/issues/151214",
+    [
+      "linux"
+    ]
+  ],
+  "test_parity__foreach_add_fastpath_inplace_cuda_bfloat16 (__main__.TestForeachCUDA)": [
+    "151228",
+    "https://github.com/pytorch/pytorch/issues/151228",
     [
       "linux"
     ]
@@ -2980,15 +2992,6 @@
     "113850",
     "https://github.com/pytorch/pytorch/issues/113850",
     [
-      "linux"
-    ]
-  ],
-  "test_wait_tensor (__main__.CompileTest)": [
-    "148014",
-    "https://github.com/pytorch/pytorch/issues/148014",
-    [
-      "inductor",
-      "rocm",
       "linux"
     ]
   ],
