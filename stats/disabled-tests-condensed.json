@@ -436,19 +436,6 @@
       "inductor"
     ]
   ],
-  "test_comprehensive_fft_irfftn_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
-    "150099",
-    "https://github.com/pytorch/pytorch/issues/150099",
-    [
-      "<fill this in or delete. valid labels are: asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "win",
-      "windows.>"
-    ]
-  ],
   "test_comprehensive_linalg_ldl_factor_ex_cuda (__main__.TestDecompCUDA)": [
     "76962",
     "https://github.com/pytorch/pytorch/issues/76962",
@@ -1229,15 +1216,6 @@
       "inductor"
     ]
   ],
-  "test_inductor_all_reduce_non_contig_input (__main__.CompileTest)": [
-    "147733",
-    "https://github.com/pytorch/pytorch/issues/147733",
-    [
-      "inductor",
-      "linux",
-      "rocm"
-    ]
-  ],
   "test_inductor_all_reduce_single (__main__.CompileTest)": [
     "147754",
     "https://github.com/pytorch/pytorch/issues/147754",
@@ -1247,54 +1225,9 @@
       "linux"
     ]
   ],
-  "test_inductor_all_to_all_single (__main__.CompileTest)": [
-    "147795",
-    "https://github.com/pytorch/pytorch/issues/147795",
-    [
-      "inductor",
-      "linux",
-      "rocm"
-    ]
-  ],
-  "test_inductor_broadcast (__main__.CompileTest)": [
-    "147816",
-    "https://github.com/pytorch/pytorch/issues/147816",
-    [
-      "inductor",
-      "linux",
-      "rocm"
-    ]
-  ],
-  "test_inductor_inplace_op_on_view (__main__.CompileTest)": [
-    "147852",
-    "https://github.com/pytorch/pytorch/issues/147852",
-    [
-      "inductor",
-      "rocm",
-      "linux"
-    ]
-  ],
   "test_inductor_reduce_scatter_tensor_coalesced (__main__.CompileTest)": [
     "147887",
     "https://github.com/pytorch/pytorch/issues/147887",
-    [
-      "inductor",
-      "rocm",
-      "linux"
-    ]
-  ],
-  "test_inductor_reduce_scatter_tensor_single (__main__.CompileTest)": [
-    "147911",
-    "https://github.com/pytorch/pytorch/issues/147911",
-    [
-      "inductor",
-      "rocm",
-      "linux"
-    ]
-  ],
-  "test_inductor_reuse_buffer_after_inplace_collective (__main__.CompileTest)": [
-    "147950",
-    "https://github.com/pytorch/pytorch/issues/147950",
     [
       "inductor",
       "rocm",
@@ -2051,13 +1984,6 @@
     "https://github.com/pytorch/pytorch/issues/134433",
     [
       "linux"
-    ]
-  ],
-  "test_per_sample_api_compute_batch_size_not_pytreeable_cpu (__main__.TestExpandedWeightModuleCPU)": [
-    "146972",
-    "https://github.com/pytorch/pytorch/issues/146972",
-    [
-      "dynamo"
     ]
   ],
   "test_pp_ddp_ScheduleClass0 (__main__.ComposabilityTest)": [
@@ -2849,15 +2775,6 @@
     "https://github.com/pytorch/pytorch/issues/148901",
     [
       "inductor"
-    ]
-  ],
-  "test_train_parity_multi_group_unshard_async_op (__main__.TestFullyShard1DTrainingCore)": [
-    "148852",
-    "https://github.com/pytorch/pytorch/issues/148852",
-    [
-      "inductor",
-      "linux",
-      "rocm"
     ]
   ],
   "test_transformer_training_is_seq_parallel_False (__main__.DistTensorParallelExampleTest)": [
