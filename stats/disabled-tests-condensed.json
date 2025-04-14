@@ -807,6 +807,18 @@
       "slow"
     ]
   ],
+  "test_dynamic_sources_dynamic_override_dynamic_shapes (__main__.DynamicShapesMiscTests)": [
+    "148214",
+    "https://github.com/pytorch/pytorch/issues/148214",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_dynamic_toggle (__main__.TestProfiler)": [
     "134479",
     "https://github.com/pytorch/pytorch/issues/134479",
