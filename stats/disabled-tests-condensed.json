@@ -787,6 +787,18 @@
       "dynamo"
     ]
   ],
+  "test_dynamic_sources_dynamic_override (__main__.MiscTests)": [
+    "148218",
+    "https://github.com/pytorch/pytorch/issues/148218",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_dynamic_sources_dynamic_override_dynamic_shapes (__main__.DynamicShapesMiscTests)": [
     "148214",
     "https://github.com/pytorch/pytorch/issues/148214",
@@ -1370,6 +1382,13 @@
       "linux",
       "win",
       "windows"
+    ]
+  ],
+  "test_kineto_profiler_with_environment_variable (__main__.SimpleKinetoInitializationTest)": [
+    "151267",
+    "https://github.com/pytorch/pytorch/issues/151267",
+    [
+      "linux"
     ]
   ],
   "test_kineto_profiler_with_environment_variable (__main__.TestProfiler)": [
@@ -1991,6 +2010,13 @@
   "test_parity__foreach_add_fastpath_inplace_cuda_bfloat16 (__main__.TestForeachCUDA)": [
     "151228",
     "https://github.com/pytorch/pytorch/issues/151228",
+    [
+      "linux"
+    ]
+  ],
+  "test_parity__foreach_add_fastpath_inplace_cuda_bool (__main__.TestForeachCUDA)": [
+    "151268",
+    "https://github.com/pytorch/pytorch/issues/151268",
     [
       "linux"
     ]
