@@ -1222,6 +1222,15 @@
       "linux"
     ]
   ],
+  "test_inductor_all_to_all_single (__main__.CompileTest)": [
+    "147795",
+    "https://github.com/pytorch/pytorch/issues/147795",
+    [
+      "inductor",
+      "linux",
+      "rocm"
+    ]
+  ],
   "test_inductor_reduce_scatter_tensor_coalesced (__main__.CompileTest)": [
     "147887",
     "https://github.com/pytorch/pytorch/issues/147887",
@@ -1962,6 +1971,13 @@
       "linux"
     ]
   ],
+  "test_parity__foreach_acos_fastpath_outplace_cuda_float64 (__main__.TestForeachCUDA)": [
+    "151214",
+    "https://github.com/pytorch/pytorch/issues/151214",
+    [
+      "linux"
+    ]
+  ],
   "test_partitioning_unremat_bw (__main__.MinCutPartitioningTests)": [
     "145343",
     "https://github.com/pytorch/pytorch/issues/145343",
@@ -2105,6 +2121,20 @@
     "https://github.com/pytorch/pytorch/issues/121576",
     [
       "asan"
+    ]
+  ],
+  "test_queues (__main__.LibUvTCPStoreTest)": [
+    "151216",
+    "https://github.com/pytorch/pytorch/issues/151216",
+    [
+      "linux"
+    ]
+  ],
+  "test_queues (__main__.PrefixTCPStoreTest)": [
+    "151215",
+    "https://github.com/pytorch/pytorch/issues/151215",
+    [
+      "linux"
     ]
   ],
   "test_rand (test_jit.TestScript)": [
