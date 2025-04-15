@@ -957,81 +957,6 @@
       "slow"
     ]
   ],
-  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_bfloat16 (__main__.TestForeachCUDA)": [
-    "150119",
-    "https://github.com/pytorch/pytorch/issues/150119",
-    [
-      "linux"
-    ]
-  ],
-  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_bool (__main__.TestForeachCUDA)": [
-    "150120",
-    "https://github.com/pytorch/pytorch/issues/150120",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
-  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_complex128 (__main__.TestForeachCUDA)": [
-    "150141",
-    "https://github.com/pytorch/pytorch/issues/150141",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
-  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_complex64 (__main__.TestForeachCUDA)": [
-    "150161",
-    "https://github.com/pytorch/pytorch/issues/150161",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
-  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_float16 (__main__.TestForeachCUDA)": [
-    "150173",
-    "https://github.com/pytorch/pytorch/issues/150173",
-    [
-      "linux"
-    ]
-  ],
-  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_float32 (__main__.TestForeachCUDA)": [
-    "150208",
-    "https://github.com/pytorch/pytorch/issues/150208",
-    [
-      "linux"
-    ]
-  ],
-  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_float64 (__main__.TestForeachCUDA)": [
-    "150298",
-    "https://github.com/pytorch/pytorch/issues/150298",
-    [
-      "linux"
-    ]
-  ],
-  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_int16 (__main__.TestForeachCUDA)": [
-    "150309",
-    "https://github.com/pytorch/pytorch/issues/150309",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
-  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_int32 (__main__.TestForeachCUDA)": [
-    "150350",
-    "https://github.com/pytorch/pytorch/issues/150350",
-    [
-      "linux"
-    ]
-  ],
-  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_int64 (__main__.TestForeachCUDA)": [
-    "150392",
-    "https://github.com/pytorch/pytorch/issues/150392",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_int8 (__main__.TestForeachCUDA)": [
     "150407",
     "https://github.com/pytorch/pytorch/issues/150407",
@@ -2399,6 +2324,16 @@
     "https://github.com/pytorch/pytorch/issues/144922",
     [
       "rocm"
+    ]
+  ],
+  "test_repeated_calling_cuda (__main__.AOTInductorTestABICompatibleGpu)": [
+    "146185",
+    "https://github.com/pytorch/pytorch/issues/146185",
+    [
+      "linux",
+      "rocm",
+      "slow",
+      "inductor"
     ]
   ],
   "test_requires_grad_loop (test_jit.TestScript)": [
