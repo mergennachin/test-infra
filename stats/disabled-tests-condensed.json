@@ -787,6 +787,19 @@
       "dynamo"
     ]
   ],
+  "test_duplicate_registration_impl (__main__.TestOpProfiles)": [
+    "151281",
+    "https://github.com/pytorch/pytorch/issues/151281",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "win",
+      "windows"
+    ]
+  ],
   "test_dynamic_sources_dynamic_override (__main__.MiscTests)": [
     "148218",
     "https://github.com/pytorch/pytorch/issues/148218",
@@ -1264,6 +1277,15 @@
   "test_inductor_reduce_scatter_tensor_coalesced (__main__.CompileTest)": [
     "147887",
     "https://github.com/pytorch/pytorch/issues/147887",
+    [
+      "inductor",
+      "rocm",
+      "linux"
+    ]
+  ],
+  "test_inductor_reduce_scatter_tensor_single (__main__.CompileTest)": [
+    "147911",
+    "https://github.com/pytorch/pytorch/issues/147911",
     [
       "inductor",
       "rocm",
@@ -1780,6 +1802,14 @@
       "slow"
     ]
   ],
+  "test_parity__foreach_abs_fastpath_inplace_cuda_bfloat16 (__main__.TestForeachCUDA)": [
+    "148966",
+    "https://github.com/pytorch/pytorch/issues/148966",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_parity__foreach_abs_fastpath_inplace_cuda_bool (__main__.TestForeachCUDA)": [
     "150468",
     "https://github.com/pytorch/pytorch/issues/150468",
@@ -2164,13 +2194,6 @@
     "https://github.com/pytorch/pytorch/issues/121576",
     [
       "asan"
-    ]
-  ],
-  "test_queues (__main__.LibUvTCPStoreTest)": [
-    "151216",
-    "https://github.com/pytorch/pytorch/issues/151216",
-    [
-      "linux"
     ]
   ],
   "test_queues (__main__.PrefixTCPStoreTest)": [
