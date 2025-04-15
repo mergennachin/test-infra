@@ -147,14 +147,6 @@
       "slow"
     ]
   ],
-  "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_complex128 (__main__.TestForeachCUDA)": [
-    "149323",
-    "https://github.com/pytorch/pytorch/issues/149323",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_complex64 (__main__.TestForeachCUDA)": [
     "149199",
     "https://github.com/pytorch/pytorch/issues/149199",
@@ -1014,6 +1006,14 @@
       "linux"
     ]
   ],
+  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_bool (__main__.TestForeachCUDA)": [
+    "150120",
+    "https://github.com/pytorch/pytorch/issues/150120",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_foreach_l2_large_value_input__foreach_norm_cuda_bfloat16 (__main__.TestForeachCUDA)": [
     "150467",
     "https://github.com/pytorch/pytorch/issues/150467",
@@ -1513,6 +1513,13 @@
   "test_matmul_triton_kernel_benchmark (__main__.TestKernelBenchmark)": [
     "115002",
     "https://github.com/pytorch/pytorch/issues/115002",
+    [
+      "rocm"
+    ]
+  ],
+  "test_matrix_rank_basic_cuda_float32 (__main__.TestLinalgCUDA)": [
+    "150406",
+    "https://github.com/pytorch/pytorch/issues/150406",
     [
       "rocm"
     ]
