@@ -957,13 +957,6 @@
       "slow"
     ]
   ],
-  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_int8 (__main__.TestForeachCUDA)": [
-    "150407",
-    "https://github.com/pytorch/pytorch/issues/150407",
-    [
-      "linux"
-    ]
-  ],
   "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_uint8 (__main__.TestForeachCUDA)": [
     "150417",
     "https://github.com/pytorch/pytorch/issues/150417",
@@ -1457,13 +1450,6 @@
   "test_matmul_triton_kernel_benchmark (__main__.TestKernelBenchmark)": [
     "115002",
     "https://github.com/pytorch/pytorch/issues/115002",
-    [
-      "rocm"
-    ]
-  ],
-  "test_matrix_rank_basic_cuda_float32 (__main__.TestLinalgCUDA)": [
-    "150406",
-    "https://github.com/pytorch/pytorch/issues/150406",
     [
       "rocm"
     ]
@@ -2006,6 +1992,13 @@
     [
       "linux",
       "slow"
+    ]
+  ],
+  "test_parity__foreach_add_fastpath_inplace_cuda_complex64 (__main__.TestForeachCUDA)": [
+    "151313",
+    "https://github.com/pytorch/pytorch/issues/151313",
+    [
+      "linux"
     ]
   ],
   "test_partitioning_unremat_bw (__main__.MinCutPartitioningTests)": [
@@ -2936,6 +2929,13 @@
       "linux"
     ]
   ],
+  "test_vdd_clamp_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "134445",
+    "https://github.com/pytorch/pytorch/issues/134445",
+    [
+      "linux"
+    ]
+  ],
   "test_vit_aten_export (__main__.TestQuantizePT2EModels)": [
     "113506",
     "https://github.com/pytorch/pytorch/issues/113506",
@@ -2984,6 +2984,15 @@
     "113850",
     "https://github.com/pytorch/pytorch/issues/113850",
     [
+      "linux"
+    ]
+  ],
+  "test_wait_tensor (__main__.CompileTest)": [
+    "148014",
+    "https://github.com/pytorch/pytorch/issues/148014",
+    [
+      "inductor",
+      "rocm",
       "linux"
     ]
   ],
