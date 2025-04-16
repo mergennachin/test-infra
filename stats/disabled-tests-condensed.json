@@ -233,6 +233,13 @@
       "linux"
     ]
   ],
+  "test_builtin_score_mods_different_block_size_float16_score_mod2_BLOCK_SIZE3_cuda_float16 (__main__.TestFlexAttentionCUDA)": [
+    "151393",
+    "https://github.com/pytorch/pytorch/issues/151393",
+    [
+      "linux"
+    ]
+  ],
   "test_builtin_score_mods_different_block_size_float16_score_mod7_BLOCK_SIZE2_cuda_float16 (__main__.TestFlexAttentionCUDA)": [
     "151334",
     "https://github.com/pytorch/pytorch/issues/151334",
@@ -243,6 +250,13 @@
   "test_builtin_score_mods_different_block_size_float32_score_mod1_BLOCK_SIZE_128_cuda_float32 (__main__.TestFlexAttentionCUDA)": [
     "151333",
     "https://github.com/pytorch/pytorch/issues/151333",
+    [
+      "linux"
+    ]
+  ],
+  "test_builtin_score_mods_different_block_size_float32_score_mod1_BLOCK_SIZE_256_cuda_float32 (__main__.TestFlexAttentionCUDA)": [
+    "151396",
+    "https://github.com/pytorch/pytorch/issues/151396",
     [
       "linux"
     ]
@@ -261,9 +275,37 @@
       "linux"
     ]
   ],
+  "test_builtin_score_mods_different_block_size_float32_score_mod2_BLOCK_SIZE_256_cuda_float32 (__main__.TestFlexAttentionCUDA)": [
+    "151394",
+    "https://github.com/pytorch/pytorch/issues/151394",
+    [
+      "linux"
+    ]
+  ],
   "test_builtin_score_mods_different_block_size_float32_score_mod4_BLOCK_SIZE3_cuda_float32 (__main__.TestFlexAttentionCUDA)": [
     "151342",
     "https://github.com/pytorch/pytorch/issues/151342",
+    [
+      "linux"
+    ]
+  ],
+  "test_builtin_score_mods_different_block_size_float32_score_mod5_BLOCK_SIZE2_cuda_float32 (__main__.TestFlexAttentionCUDA)": [
+    "151398",
+    "https://github.com/pytorch/pytorch/issues/151398",
+    [
+      "linux"
+    ]
+  ],
+  "test_builtin_score_mods_different_block_size_float32_score_mod5_BLOCK_SIZE_256_cuda_float32 (__main__.TestFlexAttentionCUDA)": [
+    "151391",
+    "https://github.com/pytorch/pytorch/issues/151391",
+    [
+      "linux"
+    ]
+  ],
+  "test_builtin_score_mods_different_block_size_float32_score_mod7_BLOCK_SIZE2_cuda_float32 (__main__.TestFlexAttentionCUDA)": [
+    "151390",
+    "https://github.com/pytorch/pytorch/issues/151390",
     [
       "linux"
     ]
@@ -887,6 +929,14 @@
       "slow"
     ]
   ],
+  "test_einsum_cpu (__main__.TestUnbackedSymintsCPU)": [
+    "151380",
+    "https://github.com/pytorch/pytorch/issues/151380",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_empty_graph_nested_calls_fullgraph_False_dynamic_shapes (__main__.DynamicShapesReproTests)": [
     "148426",
     "https://github.com/pytorch/pytorch/issues/148426",
@@ -1012,13 +1062,6 @@
     [
       "linux",
       "slow"
-    ]
-  ],
-  "test_foreach_l2_large_value_input__foreach_norm_cuda_bfloat16 (__main__.TestForeachCUDA)": [
-    "150467",
-    "https://github.com/pytorch/pytorch/issues/150467",
-    [
-      "linux"
     ]
   ],
   "test_foreach_l2_large_value_input__foreach_norm_cuda_float16 (__main__.TestForeachCUDA)": [
@@ -1189,6 +1232,21 @@
       "rocm",
       "win",
       "windows"
+    ]
+  ],
+  "test_index_propagation_nested_indirect_indexing_mps (__main__.GPUTests)": [
+    "151386",
+    "https://github.com/pytorch/pytorch/issues/151386",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
+  "test_index_weird2_cuda (__main__.TestFlexAttentionCUDA)": [
+    "151389",
+    "https://github.com/pytorch/pytorch/issues/151389",
+    [
+      "linux"
     ]
   ],
   "test_inductor_all_gather_into_tensor_coalesced (__main__.CompileTest)": [
@@ -1378,6 +1436,13 @@
       "rocm"
     ]
   ],
+  "test_is_isnot (__main__.TestScript)": [
+    "120694",
+    "https://github.com/pytorch/pytorch/issues/120694",
+    [
+      "dynamo"
+    ]
+  ],
   "test_item_to_inputs_kernel_nobreak_cuda (__main__.TestInductorDynamicCUDA)": [
     "119538",
     "https://github.com/pytorch/pytorch/issues/119538",
@@ -1457,6 +1522,13 @@
   "test_load_from_bias_head_seq_batch_float16_cuda_float16 (__main__.TestFlexAttentionCUDA)": [
     "151335",
     "https://github.com/pytorch/pytorch/issues/151335",
+    [
+      "linux"
+    ]
+  ],
+  "test_load_from_bias_seq_batch_float16_cuda_float16 (__main__.TestFlexAttentionCUDA)": [
+    "151388",
+    "https://github.com/pytorch/pytorch/issues/151388",
     [
       "linux"
     ]
@@ -1663,6 +1735,13 @@
       "slow"
     ]
   ],
+  "test_multiple_mask_calls_cuda (__main__.TestFlexAttentionCUDA)": [
+    "151387",
+    "https://github.com/pytorch/pytorch/issues/151387",
+    [
+      "rocm"
+    ]
+  ],
   "test_multiple_module (__main__.TestInvokeSubgraphExportStrict)": [
     "150877",
     "https://github.com/pytorch/pytorch/issues/150877",
@@ -1706,6 +1785,20 @@
       "dynamo"
     ]
   ],
+  "test_njt_causal_bfloat16_cuda_bfloat16 (__main__.TestFlexAttentionCUDA)": [
+    "151397",
+    "https://github.com/pytorch/pytorch/issues/151397",
+    [
+      "linux"
+    ]
+  ],
+  "test_njt_causal_float16_cuda_float16 (__main__.TestFlexAttentionCUDA)": [
+    "151392",
+    "https://github.com/pytorch/pytorch/issues/151392",
+    [
+      "linux"
+    ]
+  ],
   "test_nnc_correctness_frac_cpu_bfloat16 (__main__.TestNNCOpInfoCPU)": [
     "104454",
     "https://github.com/pytorch/pytorch/issues/104454",
@@ -1731,6 +1824,13 @@
   "test_non_equal_head_dims_score_mod2_float32_head_dims1_cuda_float32 (__main__.TestFlexAttentionCUDA)": [
     "151338",
     "https://github.com/pytorch/pytorch/issues/151338",
+    [
+      "linux"
+    ]
+  ],
+  "test_non_equal_head_dims_score_mod7_float32_head_dims1_cuda_float32 (__main__.TestFlexAttentionCUDA)": [
+    "151395",
+    "https://github.com/pytorch/pytorch/issues/151395",
     [
       "linux"
     ]
@@ -1820,13 +1920,6 @@
     [
       "linux",
       "slow"
-    ]
-  ],
-  "test_parity__foreach_abs_fastpath_inplace_cuda_bool (__main__.TestForeachCUDA)": [
-    "150468",
-    "https://github.com/pytorch/pytorch/issues/150468",
-    [
-      "linux"
     ]
   ],
   "test_parity__foreach_abs_fastpath_inplace_cuda_float16 (__main__.TestForeachCUDA)": [
@@ -2359,6 +2452,61 @@
     "https://github.com/pytorch/pytorch/issues/69178",
     [
       "mac"
+    ]
+  ],
+  "test_remove_noop_slice1_cpu (__main__.CpuTests)": [
+    "151379",
+    "https://github.com/pytorch/pytorch/issues/151379",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm"
+    ]
+  ],
+  "test_remove_noop_slice1_cuda (__main__.GPUTests)": [
+    "151381",
+    "https://github.com/pytorch/pytorch/issues/151381",
+    [
+      "linux",
+      "rocm"
+    ]
+  ],
+  "test_remove_noop_slice_cpu (__main__.CpuTests)": [
+    "151384",
+    "https://github.com/pytorch/pytorch/issues/151384",
+    [
+      "asan",
+      "linux",
+      "rocm"
+    ]
+  ],
+  "test_remove_noop_slice_cuda (__main__.GPUTests)": [
+    "151383",
+    "https://github.com/pytorch/pytorch/issues/151383",
+    [
+      "linux",
+      "rocm"
+    ]
+  ],
+  "test_remove_noop_slice_scatter_cpu (__main__.CpuTests)": [
+    "151382",
+    "https://github.com/pytorch/pytorch/issues/151382",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm"
+    ]
+  ],
+  "test_remove_noop_slice_scatter_cuda (__main__.GPUTests)": [
+    "151378",
+    "https://github.com/pytorch/pytorch/issues/151378",
+    [
+      "linux",
+      "rocm"
     ]
   ],
   "test_reorder_peak_memory (__main__.TestOperatorReorderForPeakMemory)": [
