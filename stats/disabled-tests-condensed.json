@@ -147,6 +147,14 @@
       "slow"
     ]
   ],
+  "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_complex128 (__main__.TestForeachCUDA)": [
+    "149323",
+    "https://github.com/pytorch/pytorch/issues/149323",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_complex64 (__main__.TestForeachCUDA)": [
     "149199",
     "https://github.com/pytorch/pytorch/issues/149199",
@@ -158,14 +166,6 @@
   "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_float16 (__main__.TestForeachCUDA)": [
     "149522",
     "https://github.com/pytorch/pytorch/issues/149522",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
-  "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_float32 (__main__.TestForeachCUDA)": [
-    "149409",
-    "https://github.com/pytorch/pytorch/issues/149409",
     [
       "linux",
       "slow"
@@ -850,13 +850,6 @@
       "macos"
     ]
   ],
-  "test_dtensor_mm (__main__.DistMatrixOpsTest)": [
-    "139813",
-    "https://github.com/pytorch/pytorch/issues/139813",
-    [
-      "rocm"
-    ]
-  ],
   "test_dtensor_op_db_full_like_cpu_float32 (__main__.TestDTensorOpsCPU)": [
     "132447",
     "https://github.com/pytorch/pytorch/issues/132447",
@@ -1089,6 +1082,14 @@
   "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_complex64 (__main__.TestForeachCUDA)": [
     "150161",
     "https://github.com/pytorch/pytorch/issues/150161",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
+  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_float16 (__main__.TestForeachCUDA)": [
+    "150173",
+    "https://github.com/pytorch/pytorch/issues/150173",
     [
       "linux",
       "slow"
