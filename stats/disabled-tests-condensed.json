@@ -1938,13 +1938,6 @@
       "slow"
     ]
   ],
-  "test_parity__foreach_abs_fastpath_inplace_cuda_float64 (__main__.TestForeachCUDA)": [
-    "150562",
-    "https://github.com/pytorch/pytorch/issues/150562",
-    [
-      "linux"
-    ]
-  ],
   "test_parity__foreach_abs_fastpath_inplace_cuda_int16 (__main__.TestForeachCUDA)": [
     "150590",
     "https://github.com/pytorch/pytorch/issues/150590",
