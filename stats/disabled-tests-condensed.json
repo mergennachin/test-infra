@@ -596,16 +596,6 @@
       "linux"
     ]
   ],
-  "test_comprehensive_pca_lowrank_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
-    "139828",
-    "https://github.com/pytorch/pytorch/issues/139828",
-    [
-      "linux",
-      "rocm",
-      "slow",
-      "inductor"
-    ]
-  ],
   "test_comprehensive_rsub_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
     "140503",
     "https://github.com/pytorch/pytorch/issues/140503",
@@ -1234,6 +1224,15 @@
       "macos"
     ]
   ],
+  "test_inductor_all_gather_into_tensor_coalesced (__main__.CompileTest)": [
+    "146806",
+    "https://github.com/pytorch/pytorch/issues/146806",
+    [
+      "linux",
+      "rocm",
+      "inductor"
+    ]
+  ],
   "test_inductor_all_gather_into_tensor_single (__main__.CompileTest)": [
     "147707",
     "https://github.com/pytorch/pytorch/issues/147707",
@@ -1363,13 +1362,6 @@
     "https://github.com/pytorch/pytorch/issues/100675",
     [
       "linux"
-    ]
-  ],
-  "test_int64_upsample3d_cuda_bfloat16 (__main__.TestTorchDeviceTypeCUDA)": [
-    "146007",
-    "https://github.com/pytorch/pytorch/issues/146007",
-    [
-      "rocm"
     ]
   ],
   "test_int_shape_binops (__main__.MiscTests)": [
@@ -1704,6 +1696,13 @@
       "slow"
     ]
   ],
+  "test_multiple_mask_calls_cuda (__main__.TestFlexAttentionCUDA)": [
+    "151387",
+    "https://github.com/pytorch/pytorch/issues/151387",
+    [
+      "rocm"
+    ]
+  ],
   "test_multiple_module (__main__.TestInvokeSubgraphExportStrict)": [
     "150877",
     "https://github.com/pytorch/pytorch/issues/150877",
@@ -1875,13 +1874,6 @@
     [
       "linux",
       "slow"
-    ]
-  ],
-  "test_parity__foreach_abs_fastpath_inplace_cuda_float32 (__main__.TestForeachCUDA)": [
-    "150530",
-    "https://github.com/pytorch/pytorch/issues/150530",
-    [
-      "linux"
     ]
   ],
   "test_parity__foreach_abs_fastpath_inplace_cuda_float64 (__main__.TestForeachCUDA)": [
