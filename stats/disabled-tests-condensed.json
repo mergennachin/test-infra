@@ -233,6 +233,13 @@
       "linux"
     ]
   ],
+  "test_builtin_score_mods_different_block_size_float16_score_mod2_BLOCK_SIZE3_cuda_float16 (__main__.TestFlexAttentionCUDA)": [
+    "151393",
+    "https://github.com/pytorch/pytorch/issues/151393",
+    [
+      "linux"
+    ]
+  ],
   "test_builtin_score_mods_different_block_size_float16_score_mod2_BLOCK_SIZE_128_cuda_float16 (__main__.TestFlexAttentionCUDA)": [
     "151418",
     "https://github.com/pytorch/pytorch/issues/151418",
@@ -254,6 +261,13 @@
       "linux"
     ]
   ],
+  "test_builtin_score_mods_different_block_size_float32_score_mod1_BLOCK_SIZE_256_cuda_float32 (__main__.TestFlexAttentionCUDA)": [
+    "151396",
+    "https://github.com/pytorch/pytorch/issues/151396",
+    [
+      "linux"
+    ]
+  ],
   "test_builtin_score_mods_different_block_size_float32_score_mod2_BLOCK_SIZE2_cuda_float32 (__main__.TestFlexAttentionCUDA)": [
     "151340",
     "https://github.com/pytorch/pytorch/issues/151340",
@@ -264,6 +278,13 @@
   "test_builtin_score_mods_different_block_size_float32_score_mod2_BLOCK_SIZE3_cuda_float32 (__main__.TestFlexAttentionCUDA)": [
     "151341",
     "https://github.com/pytorch/pytorch/issues/151341",
+    [
+      "linux"
+    ]
+  ],
+  "test_builtin_score_mods_different_block_size_float32_score_mod2_BLOCK_SIZE_256_cuda_float32 (__main__.TestFlexAttentionCUDA)": [
+    "151394",
+    "https://github.com/pytorch/pytorch/issues/151394",
     [
       "linux"
     ]
@@ -289,9 +310,30 @@
       "linux"
     ]
   ],
+  "test_builtin_score_mods_different_block_size_float32_score_mod5_BLOCK_SIZE_256_cuda_float32 (__main__.TestFlexAttentionCUDA)": [
+    "151391",
+    "https://github.com/pytorch/pytorch/issues/151391",
+    [
+      "linux"
+    ]
+  ],
   "test_builtin_score_mods_different_block_size_float32_score_mod6_BLOCK_SIZE3_cuda_float32 (__main__.TestFlexAttentionCUDA)": [
     "151413",
     "https://github.com/pytorch/pytorch/issues/151413",
+    [
+      "linux"
+    ]
+  ],
+  "test_builtin_score_mods_different_block_size_float32_score_mod6_BLOCK_SIZE_128_cuda_float32 (__main__.TestFlexAttentionCUDA)": [
+    "151445",
+    "https://github.com/pytorch/pytorch/issues/151445",
+    [
+      "linux"
+    ]
+  ],
+  "test_builtin_score_mods_different_block_size_float32_score_mod7_BLOCK_SIZE2_cuda_float32 (__main__.TestFlexAttentionCUDA)": [
+    "151390",
+    "https://github.com/pytorch/pytorch/issues/151390",
     [
       "linux"
     ]
@@ -694,16 +736,6 @@
       "rocm"
     ]
   ],
-  "test_cusparse_multiple_threads_same_device (__main__.TestCuda)": [
-    "127536",
-    "https://github.com/pytorch/pytorch/issues/127536",
-    [
-      "dynamo",
-      "inductor",
-      "linux",
-      "slow"
-    ]
-  ],
   "test_custom_hsdp_all_reduce_hook (__main__.TestHSDPWithCustomHook)": [
     "147769",
     "https://github.com/pytorch/pytorch/issues/147769",
@@ -1049,6 +1081,14 @@
   "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_complex128 (__main__.TestForeachCUDA)": [
     "150141",
     "https://github.com/pytorch/pytorch/issues/150141",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
+  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_complex64 (__main__.TestForeachCUDA)": [
+    "150161",
+    "https://github.com/pytorch/pytorch/issues/150161",
     [
       "linux",
       "slow"
@@ -1557,6 +1597,13 @@
       "rocm"
     ]
   ],
+  "test_max_autotune_cuda (__main__.TestFlexAttentionCUDA)": [
+    "151446",
+    "https://github.com/pytorch/pytorch/issues/151446",
+    [
+      "linux"
+    ]
+  ],
   "test_max_autotune_remote_caching_dynamic_False (__main__.TestMaxAutotuneRemoteCache)": [
     "145361",
     "https://github.com/pytorch/pytorch/issues/145361",
@@ -1746,6 +1793,13 @@
       "dynamo"
     ]
   ],
+  "test_njt_causal_bfloat16_cuda_bfloat16 (__main__.TestFlexAttentionCUDA)": [
+    "151397",
+    "https://github.com/pytorch/pytorch/issues/151397",
+    [
+      "linux"
+    ]
+  ],
   "test_nnc_correctness_frac_cpu_bfloat16 (__main__.TestNNCOpInfoCPU)": [
     "104454",
     "https://github.com/pytorch/pytorch/issues/104454",
@@ -1764,6 +1818,13 @@
   "test_non_contiguous_tensors_nn_ConvTranspose1d_cuda_complex32 (__main__.TestModuleCUDA)": [
     "81732",
     "https://github.com/pytorch/pytorch/issues/81732",
+    [
+      "linux"
+    ]
+  ],
+  "test_non_equal_head_dims_score_mod1_bfloat16_head_dims0_cuda_bfloat16 (__main__.TestFlexAttentionCUDA)": [
+    "151444",
+    "https://github.com/pytorch/pytorch/issues/151444",
     [
       "linux"
     ]
