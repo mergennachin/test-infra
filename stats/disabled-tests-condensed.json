@@ -2572,7 +2572,10 @@
     [
       "mac",
       "macos",
-      "rocm"
+      "rocm",
+      "asan",
+      "linux",
+      "slow"
     ]
   ],
   "test_remove_noop_view_default_cuda (__main__.GPUTests)": [
