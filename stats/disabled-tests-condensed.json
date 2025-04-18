@@ -186,22 +186,6 @@
       "slow"
     ]
   ],
-  "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_int16 (__main__.TestForeachCUDA)": [
-    "149627",
-    "https://github.com/pytorch/pytorch/issues/149627",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
-  "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_int32 (__main__.TestForeachCUDA)": [
-    "149628",
-    "https://github.com/pytorch/pytorch/issues/149628",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_int64 (__main__.TestForeachCUDA)": [
     "149735",
     "https://github.com/pytorch/pytorch/issues/149735",
@@ -275,6 +259,13 @@
       "linux"
     ]
   ],
+  "test_builtin_score_mods_different_block_size_float16_score_mod3_BLOCK_SIZE_256_cuda_float16 (__main__.TestFlexAttentionCUDA)": [
+    "151687",
+    "https://github.com/pytorch/pytorch/issues/151687",
+    [
+      "linux"
+    ]
+  ],
   "test_builtin_score_mods_different_block_size_float16_score_mod4_BLOCK_SIZE_128_cuda_float16 (__main__.TestFlexAttentionCUDA)": [
     "151665",
     "https://github.com/pytorch/pytorch/issues/151665",
@@ -289,9 +280,23 @@
       "linux"
     ]
   ],
+  "test_builtin_score_mods_different_block_size_float16_score_mod5_BLOCK_SIZE2_cuda_float16 (__main__.TestFlexAttentionCUDA)": [
+    "151688",
+    "https://github.com/pytorch/pytorch/issues/151688",
+    [
+      "linux"
+    ]
+  ],
   "test_builtin_score_mods_different_block_size_float16_score_mod5_BLOCK_SIZE3_cuda_float16 (__main__.TestFlexAttentionCUDA)": [
     "151577",
     "https://github.com/pytorch/pytorch/issues/151577",
+    [
+      "linux"
+    ]
+  ],
+  "test_builtin_score_mods_different_block_size_float16_score_mod5_BLOCK_SIZE_256_cuda_float16 (__main__.TestFlexAttentionCUDA)": [
+    "151686",
+    "https://github.com/pytorch/pytorch/issues/151686",
     [
       "linux"
     ]
@@ -320,6 +325,13 @@
   "test_builtin_score_mods_different_block_size_float16_score_mod7_BLOCK_SIZE3_cuda_float16 (__main__.TestFlexAttentionCUDA)": [
     "151664",
     "https://github.com/pytorch/pytorch/issues/151664",
+    [
+      "linux"
+    ]
+  ],
+  "test_builtin_score_mods_different_block_size_float16_score_mod7_BLOCK_SIZE_256_cuda_float16 (__main__.TestFlexAttentionCUDA)": [
+    "151690",
+    "https://github.com/pytorch/pytorch/issues/151690",
     [
       "linux"
     ]
@@ -1145,18 +1157,6 @@
       "rocm"
     ]
   ],
-  "test_dynamo_timed (__main__.TestDynamoTimed)": [
-    "148093",
-    "https://github.com/pytorch/pytorch/issues/148093",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_einsum_cpu (__main__.TestUnbackedSymintsCPU)": [
     "151380",
     "https://github.com/pytorch/pytorch/issues/151380",
@@ -1359,6 +1359,14 @@
     "https://github.com/pytorch/pytorch/issues/150407",
     [
       "linux"
+    ]
+  ],
+  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_uint8 (__main__.TestForeachCUDA)": [
+    "150417",
+    "https://github.com/pytorch/pytorch/issues/150417",
+    [
+      "linux",
+      "slow"
     ]
   ],
   "test_foreach_reduce_large_input__foreach_max_w_empty_False_cuda_bfloat16 (__main__.TestForeachCUDA)": [
@@ -2166,6 +2174,13 @@
       "linux"
     ]
   ],
+  "test_non_equal_head_dims_score_mod2_float16_head_dims1_cuda_float16 (__main__.TestFlexAttentionCUDA)": [
+    "151689",
+    "https://github.com/pytorch/pytorch/issues/151689",
+    [
+      "linux"
+    ]
+  ],
   "test_non_equal_head_dims_score_mod2_float32_head_dims0_cuda_float32 (__main__.TestFlexAttentionCUDA)": [
     "151513",
     "https://github.com/pytorch/pytorch/issues/151513",
@@ -2319,14 +2334,6 @@
   "test_parity__foreach_abs_fastpath_inplace_cuda_bool (__main__.TestForeachCUDA)": [
     "150468",
     "https://github.com/pytorch/pytorch/issues/150468",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
-  "test_parity__foreach_abs_fastpath_outplace_cuda_bool (__main__.TestForeachCUDA)": [
-    "150680",
-    "https://github.com/pytorch/pytorch/issues/150680",
     [
       "linux",
       "slow"
@@ -2520,13 +2527,6 @@
     "https://github.com/pytorch/pytorch/issues/145345",
     [
       "rocm"
-    ]
-  ],
-  "test_pattern_matcher_multi_user_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "134433",
-    "https://github.com/pytorch/pytorch/issues/134433",
-    [
-      "linux"
     ]
   ],
   "test_pp_ddp_ScheduleClass0 (__main__.ComposabilityTest)": [
