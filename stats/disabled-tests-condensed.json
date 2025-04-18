@@ -983,15 +983,6 @@
       "linux"
     ]
   ],
-  "test_ddp_graphs (__main__.StructuredTraceTest)": [
-    "149671",
-    "https://github.com/pytorch/pytorch/issues/149671",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_ddp_has_finalized (__main__.TestDistBackendWithSpawn)": [
     "102751",
     "https://github.com/pytorch/pytorch/issues/102751",
