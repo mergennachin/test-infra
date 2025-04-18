@@ -925,7 +925,8 @@
     "151661",
     "https://github.com/pytorch/pytorch/issues/151661",
     [
-      "linux"
+      "linux",
+      "slow"
     ]
   ],
   "test_cuda_assert_should_not_stop_common_distributed_test_suite_cuda (__main__.TestTestingCUDA)": [
