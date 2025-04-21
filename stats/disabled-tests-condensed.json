@@ -1163,6 +1163,18 @@
       "rocm"
     ]
   ],
+  "test_dynamo_timed (__main__.TestDynamoTimed)": [
+    "148093",
+    "https://github.com/pytorch/pytorch/issues/148093",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_einsum_cpu (__main__.TestUnbackedSymintsCPU)": [
     "151380",
     "https://github.com/pytorch/pytorch/issues/151380",
@@ -2519,6 +2531,13 @@
     "https://github.com/pytorch/pytorch/issues/145345",
     [
       "rocm"
+    ]
+  ],
+  "test_pattern_matcher_multi_user_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "134433",
+    "https://github.com/pytorch/pytorch/issues/134433",
+    [
+      "linux"
     ]
   ],
   "test_pp_ddp_ScheduleClass0 (__main__.ComposabilityTest)": [
