@@ -391,6 +391,13 @@
       "linux"
     ]
   ],
+  "test_builtin_score_mods_different_block_size_float32_score_mod1_BLOCK_SIZE3_cuda_float32 (__main__.TestFlexAttentionCUDA)": [
+    "151950",
+    "https://github.com/pytorch/pytorch/issues/151950",
+    [
+      "linux"
+    ]
+  ],
   "test_builtin_score_mods_different_block_size_float32_score_mod1_BLOCK_SIZE_128_cuda_float32 (__main__.TestFlexAttentionCUDA)": [
     "151333",
     "https://github.com/pytorch/pytorch/issues/151333",
@@ -601,6 +608,13 @@
       "linux"
     ]
   ],
+  "test_builtin_score_mods_dynamic_float16_score_mask_mod5_cuda_float16 (__main__.TestFlexAttentionCUDA)": [
+    "151951",
+    "https://github.com/pytorch/pytorch/issues/151951",
+    [
+      "linux"
+    ]
+  ],
   "test_builtin_score_mods_dynamic_float16_score_mask_mod7_cuda_float16 (__main__.TestFlexAttentionCUDA)": [
     "151889",
     "https://github.com/pytorch/pytorch/issues/151889",
@@ -618,6 +632,13 @@
   "test_builtin_score_mods_float16_score_mod1_cuda_float16 (__main__.TestFlexAttentionCUDA)": [
     "151538",
     "https://github.com/pytorch/pytorch/issues/151538",
+    [
+      "linux"
+    ]
+  ],
+  "test_builtin_score_mods_float16_score_mod2_cuda_float16 (__main__.TestFlexAttentionCUDA)": [
+    "151954",
+    "https://github.com/pytorch/pytorch/issues/151954",
     [
       "linux"
     ]
@@ -771,6 +792,13 @@
     "https://github.com/pytorch/pytorch/issues/145830",
     [
       "rocm"
+    ]
+  ],
+  "test_causal_block_non_divisible_cuda (__main__.TestFlexAttentionCUDA)": [
+    "151952",
+    "https://github.com/pytorch/pytorch/issues/151952",
+    [
+      "linux"
     ]
   ],
   "test_causal_variants_compile_causal_variant_CausalVariant_LOWER_RIGHT_shape0_cuda (__main__.TestAttnBiasCUDA)": [
@@ -2541,6 +2569,13 @@
       "slow"
     ]
   ],
+  "test_parity__foreach_abs_fastpath_inplace_cuda_int16 (__main__.TestForeachCUDA)": [
+    "150590",
+    "https://github.com/pytorch/pytorch/issues/150590",
+    [
+      "linux"
+    ]
+  ],
   "test_parity__foreach_abs_fastpath_outplace_cuda_uint8 (__main__.TestForeachCUDA)": [
     "150878",
     "https://github.com/pytorch/pytorch/issues/150878",
@@ -3628,6 +3663,15 @@
   "test_triton_kernel_to_post_grad_tracing_cuda (__main__.TestProvenanceTracingArtifact)": [
     "150087",
     "https://github.com/pytorch/pytorch/issues/150087",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_triton_kernel_to_post_grad_tracing_extern_kernel (__main__.TestProvenanceTracingArtifact)": [
+    "151953",
+    "https://github.com/pytorch/pytorch/issues/151953",
     [
       "linux",
       "rocm",
