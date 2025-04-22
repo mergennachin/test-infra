@@ -202,22 +202,6 @@
       "slow"
     ]
   ],
-  "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_int8 (__main__.TestForeachCUDA)": [
-    "149859",
-    "https://github.com/pytorch/pytorch/issues/149859",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
-  "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_uint8 (__main__.TestForeachCUDA)": [
-    "149858",
-    "https://github.com/pytorch/pytorch/issues/149858",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_builtin_remote_message_dropped_timeout_to_self (__main__.FaultyFaultyAgentRpcTest)": [
     "69179",
     "https://github.com/pytorch/pytorch/issues/69179",
