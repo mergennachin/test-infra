@@ -1225,6 +1225,18 @@
       "rocm"
     ]
   ],
+  "test_dynamo_timed (__main__.TestDynamoTimed)": [
+    "148093",
+    "https://github.com/pytorch/pytorch/issues/148093",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_einsum_cpu (__main__.TestUnbackedSymintsCPU)": [
     "151380",
     "https://github.com/pytorch/pytorch/issues/151380",
