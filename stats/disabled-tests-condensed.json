@@ -714,6 +714,13 @@
       "linux"
     ]
   ],
+  "test_builtin_score_mods_float32_score_mod2_cuda_float32 (__main__.TestFlexAttentionCUDA)": [
+    "152050",
+    "https://github.com/pytorch/pytorch/issues/152050",
+    [
+      "linux"
+    ]
+  ],
   "test_builtin_score_mods_float32_score_mod3_cuda_float32 (__main__.TestFlexAttentionCUDA)": [
     "151576",
     "https://github.com/pytorch/pytorch/issues/151576",
@@ -731,6 +738,13 @@
   "test_builtin_score_mods_float32_score_mod6_cuda_float32 (__main__.TestFlexAttentionCUDA)": [
     "152005",
     "https://github.com/pytorch/pytorch/issues/152005",
+    [
+      "linux"
+    ]
+  ],
+  "test_builtin_score_mods_float32_score_mod7_cuda_float32 (__main__.TestFlexAttentionCUDA)": [
+    "152051",
+    "https://github.com/pytorch/pytorch/issues/152051",
     [
       "linux"
     ]
@@ -908,6 +922,13 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_bitwise_right_shift_cuda_int32 (__main__.TestInductorOpInfoCUDA)": [
+    "152057",
+    "https://github.com/pytorch/pytorch/issues/152057",
+    [
+      "inductor"
+    ]
+  ],
   "test_comprehensive_complex_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
     "140367",
     "https://github.com/pytorch/pytorch/issues/140367",
@@ -950,6 +971,13 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_floor_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
+    "152058",
+    "https://github.com/pytorch/pytorch/issues/152058",
+    [
+      "inductor"
+    ]
+  ],
   "test_comprehensive_linalg_ldl_factor_ex_cuda (__main__.TestDecompCUDA)": [
     "76962",
     "https://github.com/pytorch/pytorch/issues/76962",
@@ -964,6 +992,14 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_linalg_pinv_singular_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
+    "152059",
+    "https://github.com/pytorch/pytorch/issues/152059",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_comprehensive_linalg_vecdot_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
     "140525",
     "https://github.com/pytorch/pytorch/issues/140525",
@@ -974,6 +1010,13 @@
   "test_comprehensive_matmul_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
     "140584",
     "https://github.com/pytorch/pytorch/issues/140584",
+    [
+      "inductor"
+    ]
+  ],
+  "test_comprehensive_native_layer_norm_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
+    "152056",
+    "https://github.com/pytorch/pytorch/issues/152056",
     [
       "inductor"
     ]
@@ -1015,6 +1058,14 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_nn_functional_max_pool3d_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
+    "152053",
+    "https://github.com/pytorch/pytorch/issues/152053",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_comprehensive_nn_functional_nll_loss_cuda_float32 (__main__.TestDecompCUDA)": [
     "117732",
     "https://github.com/pytorch/pytorch/issues/117732",
@@ -1052,11 +1103,26 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_rsub_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
+    "140179",
+    "https://github.com/pytorch/pytorch/issues/140179",
+    [
+      "linux",
+      "inductor"
+    ]
+  ],
   "test_comprehensive_rsub_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
     "140503",
     "https://github.com/pytorch/pytorch/issues/140503",
     [
       "inductor"
+    ]
+  ],
+  "test_comprehensive_sort_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
+    "152054",
+    "https://github.com/pytorch/pytorch/issues/152054",
+    [
+      "linux"
     ]
   ],
   "test_comprehensive_stft_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
@@ -1783,6 +1849,13 @@
       "windows"
     ]
   ],
+  "test_index_multiple_cuda (__main__.TestFlexAttentionCUDA)": [
+    "152052",
+    "https://github.com/pytorch/pytorch/issues/152052",
+    [
+      "linux"
+    ]
+  ],
   "test_index_propagation_nested_indirect_indexing_mps (__main__.GPUTests)": [
     "151386",
     "https://github.com/pytorch/pytorch/issues/151386",
@@ -2051,14 +2124,6 @@
     "https://github.com/pytorch/pytorch/issues/139149",
     [
       "inductor"
-    ]
-  ],
-  "test_linalg_solve_triangular_large_cuda_complex128 (__main__.TestLinalgCUDA)": [
-    "150959",
-    "https://github.com/pytorch/pytorch/issues/150959",
-    [
-      "linux",
-      "slow"
     ]
   ],
   "test_linear_and_cel_max_autotune (__main__.InplacePaddingTest)": [
@@ -2666,9 +2731,9 @@
       "slow"
     ]
   ],
-  "test_parity__foreach_acos_fastpath_inplace_cuda_complex64 (__main__.TestForeachCUDA)": [
-    "150960",
-    "https://github.com/pytorch/pytorch/issues/150960",
+  "test_parity__foreach_abs_fastpath_inplace_cuda_uint8 (__main__.TestForeachCUDA)": [
+    "150662",
+    "https://github.com/pytorch/pytorch/issues/150662",
     [
       "linux"
     ]
