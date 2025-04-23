@@ -685,9 +685,23 @@
       "linux"
     ]
   ],
+  "test_builtin_score_mods_float16_score_mod7_cuda_float16 (__main__.TestFlexAttentionCUDA)": [
+    "152003",
+    "https://github.com/pytorch/pytorch/issues/152003",
+    [
+      "linux"
+    ]
+  ],
   "test_builtin_score_mods_float32_score_mod0_cuda_float32 (__main__.TestFlexAttentionCUDA)": [
     "151619",
     "https://github.com/pytorch/pytorch/issues/151619",
+    [
+      "linux"
+    ]
+  ],
+  "test_builtin_score_mods_float32_score_mod1_cuda_float32 (__main__.TestFlexAttentionCUDA)": [
+    "152002",
+    "https://github.com/pytorch/pytorch/issues/152002",
     [
       "linux"
     ]
@@ -702,6 +716,13 @@
   "test_builtin_score_mods_float32_score_mod5_cuda_float32 (__main__.TestFlexAttentionCUDA)": [
     "151613",
     "https://github.com/pytorch/pytorch/issues/151613",
+    [
+      "linux"
+    ]
+  ],
+  "test_builtin_score_mods_float32_score_mod6_cuda_float32 (__main__.TestFlexAttentionCUDA)": [
+    "152005",
+    "https://github.com/pytorch/pytorch/issues/152005",
     [
       "linux"
     ]
@@ -1246,6 +1267,13 @@
   "test_doc_examples (__main__.TestTypeHints)": [
     "98259",
     "https://github.com/pytorch/pytorch/issues/98259",
+    [
+      "linux"
+    ]
+  ],
+  "test_doc_mask_sparse_cuda (__main__.TestFlexAttentionCUDA)": [
+    "152004",
+    "https://github.com/pytorch/pytorch/issues/152004",
     [
       "linux"
     ]
@@ -2621,11 +2649,12 @@
       "slow"
     ]
   ],
-  "test_parity__foreach_acos_fastpath_inplace_cuda_bfloat16 (__main__.TestForeachCUDA)": [
-    "150902",
-    "https://github.com/pytorch/pytorch/issues/150902",
+  "test_parity__foreach_abs_fastpath_inplace_cuda_int64 (__main__.TestForeachCUDA)": [
+    "150617",
+    "https://github.com/pytorch/pytorch/issues/150617",
     [
-      "linux"
+      "linux",
+      "slow"
     ]
   ],
   "test_parity__foreach_acos_fastpath_inplace_cuda_complex128 (__main__.TestForeachCUDA)": [
@@ -2961,6 +2990,15 @@
     "https://github.com/pytorch/pytorch/issues/75168",
     [
       "mac"
+    ]
+  ],
+  "test_reentrant_parent_error_on_cpu_cuda (__main__.TestAutogradDeviceTypeCUDA)": [
+    "86735",
+    "https://github.com/pytorch/pytorch/issues/86735",
+    [
+      "win",
+      "windows",
+      "rocm"
     ]
   ],
   "test_remote_cache_load_function_device_cuda_bfloat16_dynamic_False_bundle_triton_False (__main__.TestFxGraphCache)": [
