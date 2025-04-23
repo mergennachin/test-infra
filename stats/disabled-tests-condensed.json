@@ -2576,13 +2576,6 @@
       "linux"
     ]
   ],
-  "test_parity__foreach_abs_fastpath_outplace_cuda_uint8 (__main__.TestForeachCUDA)": [
-    "150878",
-    "https://github.com/pytorch/pytorch/issues/150878",
-    [
-      "linux"
-    ]
-  ],
   "test_parity__foreach_acos_fastpath_inplace_cuda_bfloat16 (__main__.TestForeachCUDA)": [
     "150902",
     "https://github.com/pytorch/pytorch/issues/150902",
@@ -2923,15 +2916,6 @@
     "https://github.com/pytorch/pytorch/issues/75168",
     [
       "mac"
-    ]
-  ],
-  "test_reentrant_parent_error_on_cpu_cuda (__main__.TestAutogradDeviceTypeCUDA)": [
-    "86735",
-    "https://github.com/pytorch/pytorch/issues/86735",
-    [
-      "win",
-      "windows",
-      "rocm"
     ]
   ],
   "test_remote_cache_load_function_device_cuda_bfloat16_dynamic_False_bundle_triton_False (__main__.TestFxGraphCache)": [
