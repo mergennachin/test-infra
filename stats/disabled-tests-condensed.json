@@ -489,6 +489,13 @@
       "linux"
     ]
   ],
+  "test_builtin_score_mods_different_block_size_float32_score_mod4_BLOCK_SIZE_256_cuda_float32 (__main__.TestFlexAttentionCUDA)": [
+    "151984",
+    "https://github.com/pytorch/pytorch/issues/151984",
+    [
+      "linux"
+    ]
+  ],
   "test_builtin_score_mods_different_block_size_float32_score_mod5_BLOCK_SIZE2_cuda_float32 (__main__.TestFlexAttentionCUDA)": [
     "151398",
     "https://github.com/pytorch/pytorch/issues/151398",
@@ -615,6 +622,13 @@
       "linux"
     ]
   ],
+  "test_builtin_score_mods_dynamic_float16_score_mask_mod6_cuda_float16 (__main__.TestFlexAttentionCUDA)": [
+    "151981",
+    "https://github.com/pytorch/pytorch/issues/151981",
+    [
+      "linux"
+    ]
+  ],
   "test_builtin_score_mods_dynamic_float16_score_mask_mod7_cuda_float16 (__main__.TestFlexAttentionCUDA)": [
     "151889",
     "https://github.com/pytorch/pytorch/issues/151889",
@@ -646,6 +660,13 @@
   "test_builtin_score_mods_float16_score_mod3_cuda_float16 (__main__.TestFlexAttentionCUDA)": [
     "151520",
     "https://github.com/pytorch/pytorch/issues/151520",
+    [
+      "linux"
+    ]
+  ],
+  "test_builtin_score_mods_float16_score_mod4_cuda_float16 (__main__.TestFlexAttentionCUDA)": [
+    "151983",
+    "https://github.com/pytorch/pytorch/issues/151983",
     [
       "linux"
     ]
@@ -975,6 +996,15 @@
       "linux"
     ]
   ],
+  "test_comprehensive_nn_functional_nll_loss_cuda_float64 (__main__.TestDecompCUDA)": [
+    "118355",
+    "https://github.com/pytorch/pytorch/issues/118355",
+    [
+      "rocm",
+      "win",
+      "windows"
+    ]
+  ],
   "test_comprehensive_nn_functional_pad_reflect_cuda_bfloat16 (__main__.TestDecompCUDA)": [
     "131050",
     "https://github.com/pytorch/pytorch/issues/131050",
@@ -1167,6 +1197,13 @@
     "https://github.com/pytorch/pytorch/issues/101787",
     [
       "dynamo"
+    ]
+  ],
+  "test_dependent_causal_bidirectional_float16_cuda_float16 (__main__.TestFlexAttentionCUDA)": [
+    "151982",
+    "https://github.com/pytorch/pytorch/issues/151982",
+    [
+      "linux"
     ]
   ],
   "test_disable_external_correlation (__main__.TestProfiler)": [
@@ -2572,6 +2609,13 @@
   "test_parity__foreach_abs_fastpath_inplace_cuda_int16 (__main__.TestForeachCUDA)": [
     "150590",
     "https://github.com/pytorch/pytorch/issues/150590",
+    [
+      "linux"
+    ]
+  ],
+  "test_parity__foreach_abs_fastpath_inplace_cuda_int32 (__main__.TestForeachCUDA)": [
+    "150602",
+    "https://github.com/pytorch/pytorch/issues/150602",
     [
       "linux"
     ]
