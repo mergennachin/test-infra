@@ -2914,13 +2914,6 @@
       "asan"
     ]
   ],
-  "test_queues (__main__.PrefixTCPStoreTest)": [
-    "151215",
-    "https://github.com/pytorch/pytorch/issues/151215",
-    [
-      "linux"
-    ]
-  ],
   "test_rand (test_jit.TestScript)": [
     "91495",
     "https://github.com/pytorch/pytorch/issues/91495",
