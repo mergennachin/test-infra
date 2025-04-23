@@ -1629,14 +1629,6 @@
       "slow"
     ]
   ],
-  "test_foreach_reduce_large_input__foreach_max_w_empty_False_cuda_bfloat16 (__main__.TestForeachCUDA)": [
-    "150932",
-    "https://github.com/pytorch/pytorch/issues/150932",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_foreach_reduce_large_input__foreach_max_w_empty_False_cuda_bool (__main__.TestForeachCUDA)": [
     "151229",
     "https://github.com/pytorch/pytorch/issues/151229",
@@ -2672,13 +2664,6 @@
     [
       "linux",
       "slow"
-    ]
-  ],
-  "test_parity__foreach_acos_fastpath_inplace_cuda_complex128 (__main__.TestForeachCUDA)": [
-    "150933",
-    "https://github.com/pytorch/pytorch/issues/150933",
-    [
-      "linux"
     ]
   ],
   "test_parity__foreach_acos_fastpath_inplace_cuda_complex64 (__main__.TestForeachCUDA)": [
