@@ -217,6 +217,13 @@
       "mac"
     ]
   ],
+  "test_builtin_score_mods_float32_score_mod4_cuda_float32 (__main__.TestFlexAttentionCUDA)": [
+    "152082",
+    "https://github.com/pytorch/pytorch/issues/152082",
+    [
+      "linux"
+    ]
+  ],
   "test_byte_mask (__main__.TestAdvancedIndexing)": [
     "138911",
     "https://github.com/pytorch/pytorch/issues/138911",
@@ -303,6 +310,13 @@
       "rocm",
       "mac",
       "macos"
+    ]
+  ],
+  "test_captured_scale_float16_cuda_float16 (__main__.TestFlexAttentionCUDA)": [
+    "152083",
+    "https://github.com/pytorch/pytorch/issues/152083",
+    [
+      "linux"
     ]
   ],
   "test_cat_max_autotune_triton (__main__.TestMaxAutotune)": [
@@ -1292,6 +1306,13 @@
       "macos"
     ]
   ],
+  "test_index_weird2_cuda (__main__.TestFlexAttentionCUDA)": [
+    "151389",
+    "https://github.com/pytorch/pytorch/issues/151389",
+    [
+      "linux"
+    ]
+  ],
   "test_inductor_all_gather_into_tensor_coalesced (__main__.CompileTest)": [
     "146806",
     "https://github.com/pytorch/pytorch/issues/146806",
@@ -1358,15 +1379,6 @@
   "test_inductor_inplace_op_on_view (__main__.CompileTest)": [
     "147852",
     "https://github.com/pytorch/pytorch/issues/147852",
-    [
-      "inductor",
-      "rocm",
-      "linux"
-    ]
-  ],
-  "test_inductor_reduce_scatter_tensor_coalesced (__main__.CompileTest)": [
-    "147887",
-    "https://github.com/pytorch/pytorch/issues/147887",
     [
       "inductor",
       "rocm",
