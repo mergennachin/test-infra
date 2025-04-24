@@ -1118,6 +1118,15 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_scatter_reduce_prod_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
+    "140003",
+    "https://github.com/pytorch/pytorch/issues/140003",
+    [
+      "linux",
+      "slow",
+      "inductor"
+    ]
+  ],
   "test_comprehensive_sort_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
     "152054",
     "https://github.com/pytorch/pytorch/issues/152054",
