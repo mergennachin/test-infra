@@ -2014,6 +2014,13 @@
       "slow"
     ]
   ],
+  "test_parity__foreach_abs_fastpath_outplace_cuda_float16 (__main__.TestForeachCUDA)": [
+    "150712",
+    "https://github.com/pytorch/pytorch/issues/150712",
+    [
+      "linux"
+    ]
+  ],
   "test_parity__foreach_acos_fastpath_outplace_cuda_bfloat16 (__main__.TestForeachCUDA)": [
     "151054",
     "https://github.com/pytorch/pytorch/issues/151054",
