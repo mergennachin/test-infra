@@ -728,6 +728,13 @@
       "linux"
     ]
   ],
+  "test_builtin_score_mods_float32_score_mod4_cuda_float32 (__main__.TestFlexAttentionCUDA)": [
+    "152082",
+    "https://github.com/pytorch/pytorch/issues/152082",
+    [
+      "linux"
+    ]
+  ],
   "test_builtin_score_mods_float32_score_mod5_cuda_float32 (__main__.TestFlexAttentionCUDA)": [
     "151613",
     "https://github.com/pytorch/pytorch/issues/151613",
@@ -847,6 +854,13 @@
   "test_captured_buffers_all_dims_float32_cuda_float32 (__main__.TestFlexAttentionCUDA)": [
     "151908",
     "https://github.com/pytorch/pytorch/issues/151908",
+    [
+      "linux"
+    ]
+  ],
+  "test_captured_scale_float16_cuda_float16 (__main__.TestFlexAttentionCUDA)": [
+    "152083",
+    "https://github.com/pytorch/pytorch/issues/152083",
     [
       "linux"
     ]
@@ -1873,6 +1887,13 @@
       "macos"
     ]
   ],
+  "test_index_weird2_cuda (__main__.TestFlexAttentionCUDA)": [
+    "151389",
+    "https://github.com/pytorch/pytorch/issues/151389",
+    [
+      "linux"
+    ]
+  ],
   "test_inductor_all_gather_into_tensor_coalesced (__main__.CompileTest)": [
     "146806",
     "https://github.com/pytorch/pytorch/issues/146806",
@@ -2747,9 +2768,9 @@
       "linux"
     ]
   ],
-  "test_parity__foreach_acos_fastpath_inplace_cuda_float16 (__main__.TestForeachCUDA)": [
-    "150985",
-    "https://github.com/pytorch/pytorch/issues/150985",
+  "test_parity__foreach_abs_fastpath_outplace_cuda_bfloat16 (__main__.TestForeachCUDA)": [
+    "150668",
+    "https://github.com/pytorch/pytorch/issues/150668",
     [
       "linux",
       "slow"
@@ -4057,13 +4078,6 @@
       "slow",
       "mac",
       "macos"
-    ]
-  ],
-  "test_zero_model_parallel_parameters_as_bucket_view_True (__main__.TestZeroRedundancyOptimizerDistributed)": [
-    "75984",
-    "https://github.com/pytorch/pytorch/issues/75984",
-    [
-      "rocm"
     ]
   ]
 }
