@@ -2029,14 +2029,6 @@
       "linux"
     ]
   ],
-  "test_parity__foreach_acos_fastpath_outplace_cuda_complex128 (__main__.TestForeachCUDA)": [
-    "151093",
-    "https://github.com/pytorch/pytorch/issues/151093",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_parity__foreach_acos_fastpath_outplace_cuda_complex64 (__main__.TestForeachCUDA)": [
     "151099",
     "https://github.com/pytorch/pytorch/issues/151099",
@@ -2272,15 +2264,6 @@
     "https://github.com/pytorch/pytorch/issues/84937",
     [
       "asan"
-    ]
-  ],
-  "test_ranks_and_tag (__main__.CompileTest)": [
-    "147974",
-    "https://github.com/pytorch/pytorch/issues/147974",
-    [
-      "inductor",
-      "rocm",
-      "linux"
     ]
   ],
   "test_re_export_preserve_handle (__main__.TestNumericDebugger)": [
