@@ -915,6 +915,20 @@
       "slow"
     ]
   ],
+  "test_e2e_compile_True_model_type0 (__main__.TestE2ESaveAndLoad)": [
+    "152168",
+    "https://github.com/pytorch/pytorch/issues/152168",
+    [
+      "rocm"
+    ]
+  ],
+  "test_e2e_compile_True_model_type2 (__main__.TestE2ESaveAndLoad)": [
+    "152169",
+    "https://github.com/pytorch/pytorch/issues/152169",
+    [
+      "rocm"
+    ]
+  ],
   "test_einsum_cpu (__main__.TestUnbackedSymintsCPU)": [
     "151380",
     "https://github.com/pytorch/pytorch/issues/151380",
