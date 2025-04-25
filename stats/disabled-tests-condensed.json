@@ -2258,6 +2258,13 @@
       "mac"
     ]
   ],
+  "test_reduce_stress_cuda (__main__.ProcessGroupGlooLazyInitTest)": [
+    "152201",
+    "https://github.com/pytorch/pytorch/issues/152201",
+    [
+      "rocm"
+    ]
+  ],
   "test_reentrant_parent_error_on_cpu_cuda (__main__.TestAutogradDeviceTypeCUDA)": [
     "86735",
     "https://github.com/pytorch/pytorch/issues/86735",
