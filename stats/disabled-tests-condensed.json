@@ -2029,6 +2029,14 @@
       "linux"
     ]
   ],
+  "test_parity__foreach_abs_fastpath_outplace_cuda_float64 (__main__.TestForeachCUDA)": [
+    "150752",
+    "https://github.com/pytorch/pytorch/issues/150752",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_parity__foreach_acos_fastpath_outplace_cuda_complex64 (__main__.TestForeachCUDA)": [
     "151099",
     "https://github.com/pytorch/pytorch/issues/151099",
