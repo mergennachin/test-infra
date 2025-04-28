@@ -1167,14 +1167,6 @@
       "slow"
     ]
   ],
-  "test_foreach_reduce_large_input__foreach_max_w_empty_False_cuda_bool (__main__.TestForeachCUDA)": [
-    "151229",
-    "https://github.com/pytorch/pytorch/issues/151229",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_freevars_as_inputs_to_wrap_dynamic_shapes (__main__.DynamicShapesHigherOrderOpTests)": [
     "148514",
     "https://github.com/pytorch/pytorch/issues/148514",
@@ -1372,6 +1364,15 @@
       "inductor",
       "rocm",
       "linux"
+    ]
+  ],
+  "test_inductor_all_to_all_single (__main__.CompileTest)": [
+    "147795",
+    "https://github.com/pytorch/pytorch/issues/147795",
+    [
+      "inductor",
+      "linux",
+      "rocm"
     ]
   ],
   "test_inductor_broadcast (__main__.CompileTest)": [
@@ -2067,11 +2068,12 @@
       "slow"
     ]
   ],
-  "test_parity__foreach_add_fastpath_inplace_cuda_bfloat16 (__main__.TestForeachCUDA)": [
-    "151228",
-    "https://github.com/pytorch/pytorch/issues/151228",
+  "test_parity__foreach_abs_fastpath_outplace_cuda_int8 (__main__.TestForeachCUDA)": [
+    "150837",
+    "https://github.com/pytorch/pytorch/issues/150837",
     [
-      "linux"
+      "linux",
+      "slow"
     ]
   ],
   "test_parity__foreach_add_fastpath_inplace_cuda_bool (__main__.TestForeachCUDA)": [
