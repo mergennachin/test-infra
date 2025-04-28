@@ -2317,6 +2317,13 @@
       "rocm"
     ]
   ],
+  "test_remote_cache_load_function_device_cuda_float32_dynamic_False_bundle_triton_True_use_static_cuda_launcher_False (__main__.TestFxGraphCache)": [
+    "152370",
+    "https://github.com/pytorch/pytorch/issues/152370",
+    [
+      "rocm"
+    ]
+  ],
   "test_remote_timeout_to_here_in_jit (__main__.FaultyJitFaultyAgentRpcTest)": [
     "69178",
     "https://github.com/pytorch/pytorch/issues/69178",
