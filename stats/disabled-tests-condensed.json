@@ -2059,6 +2059,13 @@
       "slow"
     ]
   ],
+  "test_parity__foreach_abs_fastpath_outplace_cuda_int32 (__main__.TestForeachCUDA)": [
+    "150800",
+    "https://github.com/pytorch/pytorch/issues/150800",
+    [
+      "linux"
+    ]
+  ],
   "test_parity__foreach_acos_fastpath_outplace_cuda_float64 (__main__.TestForeachCUDA)": [
     "151214",
     "https://github.com/pytorch/pytorch/issues/151214",
@@ -2475,6 +2482,15 @@
       "rocm",
       "mac",
       "macos"
+    ]
+  ],
+  "test_rng (__main__.TestCompilerBisector)": [
+    "139590",
+    "https://github.com/pytorch/pytorch/issues/139590",
+    [
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_run_decompositions_map_handle_to_new_nodes (__main__.TestNumericDebugger)": [
@@ -3159,6 +3175,18 @@
       "windows",
       "rocm",
       "slow"
+    ]
+  ],
+  "test_while_loop_schema_gen (__main__.TestHopSchema)": [
+    "141202",
+    "https://github.com/pytorch/pytorch/issues/141202",
+    [
+      "asan",
+      "linux",
+      "rocm",
+      "slow",
+      "mac",
+      "macos"
     ]
   ],
   "test_wrap_all_kwarg_dynamic_shapes (__main__.DynamicShapesHigherOrderOpTests)": [
