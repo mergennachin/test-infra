@@ -572,6 +572,13 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_pca_lowrank_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
+    "152318",
+    "https://github.com/pytorch/pytorch/issues/152318",
+    [
+      "inductor"
+    ]
+  ],
   "test_comprehensive_rsub_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
     "140179",
     "https://github.com/pytorch/pytorch/issues/140179",
@@ -1363,15 +1370,6 @@
       "linux"
     ]
   ],
-  "test_inductor_all_to_all_single (__main__.CompileTest)": [
-    "147795",
-    "https://github.com/pytorch/pytorch/issues/147795",
-    [
-      "inductor",
-      "linux",
-      "rocm"
-    ]
-  ],
   "test_inductor_broadcast (__main__.CompileTest)": [
     "147816",
     "https://github.com/pytorch/pytorch/issues/147816",
@@ -2057,11 +2055,12 @@
       "linux"
     ]
   ],
-  "test_parity__foreach_acos_fastpath_outplace_cuda_float64 (__main__.TestForeachCUDA)": [
-    "151214",
-    "https://github.com/pytorch/pytorch/issues/151214",
+  "test_parity__foreach_abs_fastpath_outplace_cuda_int64 (__main__.TestForeachCUDA)": [
+    "150822",
+    "https://github.com/pytorch/pytorch/issues/150822",
     [
-      "linux"
+      "linux",
+      "slow"
     ]
   ],
   "test_parity__foreach_add_fastpath_inplace_cuda_bfloat16 (__main__.TestForeachCUDA)": [
@@ -2640,13 +2639,6 @@
       "linux",
       "mac",
       "macos"
-    ]
-  ],
-  "test_setting_meta_device_model_broadcasting_and_memory (__main__.TestStateDict)": [
-    "143994",
-    "https://github.com/pytorch/pytorch/issues/143994",
-    [
-      "rocm"
     ]
   ],
   "test_shape_int_inplace_binops (__main__.MiscTests)": [
