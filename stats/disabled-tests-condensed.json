@@ -925,6 +925,13 @@
       "rocm"
     ]
   ],
+  "test_e2e_compile_True_model_type1 (__main__.TestE2ESaveAndLoad)": [
+    "152349",
+    "https://github.com/pytorch/pytorch/issues/152349",
+    [
+      "rocm"
+    ]
+  ],
   "test_e2e_compile_True_model_type2 (__main__.TestE2ESaveAndLoad)": [
     "152169",
     "https://github.com/pytorch/pytorch/issues/152169",
