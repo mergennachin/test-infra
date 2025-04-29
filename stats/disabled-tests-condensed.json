@@ -218,6 +218,14 @@
       "slow"
     ]
   ],
+  "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_int8 (__main__.TestForeachCUDA)": [
+    "149859",
+    "https://github.com/pytorch/pytorch/issues/149859",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_builtin_remote_message_dropped_timeout_to_self (__main__.FaultyFaultyAgentRpcTest)": [
     "69179",
     "https://github.com/pytorch/pytorch/issues/69179",
@@ -845,6 +853,20 @@
     "https://github.com/pytorch/pytorch/issues/116121",
     [
       "dynamo"
+    ]
+  ],
+  "test_duplicate_registration_impl (__main__.TestOpProfiles)": [
+    "151281",
+    "https://github.com/pytorch/pytorch/issues/151281",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "win",
+      "windows",
+      "slow"
     ]
   ],
   "test_dynamic_toggle (__main__.TestProfiler)": [
