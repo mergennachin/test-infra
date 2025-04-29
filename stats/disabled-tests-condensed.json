@@ -162,14 +162,6 @@
       "slow"
     ]
   ],
-  "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_complex64 (__main__.TestForeachCUDA)": [
-    "149199",
-    "https://github.com/pytorch/pytorch/issues/149199",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_float16 (__main__.TestForeachCUDA)": [
     "149522",
     "https://github.com/pytorch/pytorch/issues/149522",
@@ -574,6 +566,20 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_polygamma_polygamma_n_0_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
+    "152469",
+    "https://github.com/pytorch/pytorch/issues/152469",
+    [
+      "inductor"
+    ]
+  ],
+  "test_comprehensive_polygamma_polygamma_n_1_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
+    "152470",
+    "https://github.com/pytorch/pytorch/issues/152470",
+    [
+      "inductor"
+    ]
+  ],
   "test_comprehensive_rsub_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
     "140179",
     "https://github.com/pytorch/pytorch/issues/140179",
@@ -964,6 +970,20 @@
       "windows"
     ]
   ],
+  "test_fake_registration (__main__.TestOpProfiles)": [
+    "151301",
+    "https://github.com/pytorch/pytorch/issues/151301",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "slow",
+      "win",
+      "windows"
+    ]
+  ],
   "test_fn_grad_grid_sampler_2d_cuda_float64 (__main__.TestBwdGradientsCUDA)": [
     "131079",
     "https://github.com/pytorch/pytorch/issues/131079",
@@ -1285,6 +1305,15 @@
   "test_inductor_reduce_scatter_tensor_single (__main__.CompileTest)": [
     "147911",
     "https://github.com/pytorch/pytorch/issues/147911",
+    [
+      "inductor",
+      "rocm",
+      "linux"
+    ]
+  ],
+  "test_inductor_reuse_buffer_after_inplace_collective (__main__.CompileTest)": [
+    "147950",
+    "https://github.com/pytorch/pytorch/issues/147950",
     [
       "inductor",
       "rocm",
@@ -1681,6 +1710,14 @@
     [
       "mac",
       "macos"
+    ]
+  ],
+  "test_parity__foreach_abs_fastpath_inplace_cuda_bfloat16 (__main__.TestForeachCUDA)": [
+    "148966",
+    "https://github.com/pytorch/pytorch/issues/148966",
+    [
+      "linux",
+      "slow"
     ]
   ],
   "test_parity__foreach_abs_fastpath_inplace_cuda_bool (__main__.TestForeachCUDA)": [
@@ -2195,6 +2232,16 @@
     "https://github.com/pytorch/pytorch/issues/144922",
     [
       "rocm"
+    ]
+  ],
+  "test_repeated_calling_cuda (__main__.AOTInductorTestABICompatibleGpu)": [
+    "146185",
+    "https://github.com/pytorch/pytorch/issues/146185",
+    [
+      "linux",
+      "rocm",
+      "slow",
+      "inductor"
     ]
   ],
   "test_requires_grad_loop (test_jit.TestScript)": [
