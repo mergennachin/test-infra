@@ -983,20 +983,6 @@
       "windows"
     ]
   ],
-  "test_fake_registration (__main__.TestOpProfiles)": [
-    "151301",
-    "https://github.com/pytorch/pytorch/issues/151301",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "slow",
-      "win",
-      "windows"
-    ]
-  ],
   "test_fn_grad_grid_sampler_2d_cuda_float64 (__main__.TestBwdGradientsCUDA)": [
     "131079",
     "https://github.com/pytorch/pytorch/issues/131079",
