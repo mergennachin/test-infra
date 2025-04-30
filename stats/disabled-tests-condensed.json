@@ -347,6 +347,13 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_amin_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
+    "152558",
+    "https://github.com/pytorch/pytorch/issues/152558",
+    [
+      "linux"
+    ]
+  ],
   "test_comprehensive_bitwise_right_shift_cuda_int32 (__main__.TestInductorOpInfoCUDA)": [
     "152057",
     "https://github.com/pytorch/pytorch/issues/152057",
@@ -622,6 +629,13 @@
     "https://github.com/pytorch/pytorch/issues/140294",
     [
       "linux",
+      "inductor"
+    ]
+  ],
+  "test_comprehensive_signal_windows_hamming_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
+    "152559",
+    "https://github.com/pytorch/pytorch/issues/152559",
+    [
       "inductor"
     ]
   ],
@@ -1152,6 +1166,13 @@
       "inductor"
     ]
   ],
+  "test_graph_partition_reorder_cpu_and_gpu_interleave (__main__.CudaGraphTreeTests)": [
+    "152561",
+    "https://github.com/pytorch/pytorch/issues/152561",
+    [
+      "rocm"
+    ]
+  ],
   "test_homogeneous_attributes (__main__.TestFSDPMiscMultiThread)": [
     "105024",
     "https://github.com/pytorch/pytorch/issues/105024",
@@ -1350,6 +1371,13 @@
     "https://github.com/pytorch/pytorch/issues/115859",
     [
       "rocm"
+    ]
+  ],
+  "test_is_isnot (__main__.TestScript)": [
+    "120694",
+    "https://github.com/pytorch/pytorch/issues/120694",
+    [
+      "dynamo"
     ]
   ],
   "test_item_to_inputs_kernel_nobreak_cuda (__main__.TestInductorDynamicCUDA)": [
@@ -1866,6 +1894,14 @@
     "https://github.com/pytorch/pytorch/issues/134433",
     [
       "linux"
+    ]
+  ],
+  "test_pending_fusion_pro_and_epi (__main__.TestPrologueFusion)": [
+    "152560",
+    "https://github.com/pytorch/pytorch/issues/152560",
+    [
+      "rocm",
+      "inductor"
     ]
   ],
   "test_pending_fusions_multiple (__main__.TestPrologueFusion)": [
