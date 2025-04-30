@@ -161,14 +161,6 @@
       "slow"
     ]
   ],
-  "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_complex128 (__main__.TestForeachCUDA)": [
-    "149323",
-    "https://github.com/pytorch/pytorch/issues/149323",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_float16 (__main__.TestForeachCUDA)": [
     "149522",
     "https://github.com/pytorch/pytorch/issues/149522",
@@ -1012,9 +1004,9 @@
       "slow"
     ]
   ],
-  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_float16 (__main__.TestForeachCUDA)": [
-    "150173",
-    "https://github.com/pytorch/pytorch/issues/150173",
+  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_complex128 (__main__.TestForeachCUDA)": [
+    "150141",
+    "https://github.com/pytorch/pytorch/issues/150141",
     [
       "linux",
       "slow"
@@ -1208,6 +1200,15 @@
     "https://github.com/pytorch/pytorch/issues/151389",
     [
       "linux"
+    ]
+  ],
+  "test_inductor_all_gather_into_tensor_coalesced (__main__.CompileTest)": [
+    "146806",
+    "https://github.com/pytorch/pytorch/issues/146806",
+    [
+      "linux",
+      "rocm",
+      "inductor"
     ]
   ],
   "test_inductor_all_gather_into_tensor_single (__main__.CompileTest)": [
@@ -2098,6 +2099,17 @@
       "linux",
       "rocm",
       "slow"
+    ]
+  ],
+  "test_remove_noop_slice_cpu (__main__.CpuTests)": [
+    "151384",
+    "https://github.com/pytorch/pytorch/issues/151384",
+    [
+      "asan",
+      "linux",
+      "rocm",
+      "mac",
+      "macos"
     ]
   ],
   "test_remove_noop_slice_cuda (__main__.GPUTests)": [
