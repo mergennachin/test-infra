@@ -1275,11 +1275,6 @@
       "rocm"
     ]
   ],
-  "test_inductor_debug (__main__.LoggingTests)": [
-    "152511",
-    "https://github.com/pytorch/pytorch/issues/152511",
-    []
-  ],
   "test_inductor_inplace_op_on_view (__main__.CompileTest)": [
     "147852",
     "https://github.com/pytorch/pytorch/issues/147852",
