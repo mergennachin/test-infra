@@ -94,6 +94,13 @@
       "linux"
     ]
   ],
+  "test_aoti (__main__.TestMemoryPlanning)": [
+    "145211",
+    "https://github.com/pytorch/pytorch/issues/145211",
+    [
+      "rocm"
+    ]
+  ],
   "test_aoti_debug_printer_codegen_cuda (__main__.AOTInductorTestABICompatibleGpu)": [
     "149080",
     "https://github.com/pytorch/pytorch/issues/149080",
@@ -921,14 +928,6 @@
     "https://github.com/pytorch/pytorch/issues/152169",
     [
       "rocm"
-    ]
-  ],
-  "test_einsum_cpu (__main__.TestUnbackedSymintsCPU)": [
-    "151380",
-    "https://github.com/pytorch/pytorch/issues/151380",
-    [
-      "mac",
-      "macos"
     ]
   ],
   "test_equivalent_template_code (__main__.BenchmarkMultiTemplateFusionCudaTest)": [
@@ -1851,6 +1850,13 @@
       "linux"
     ]
   ],
+  "test_parity__foreach_acos_fastpath_inplace_cuda_bfloat16 (__main__.TestForeachCUDA)": [
+    "150902",
+    "https://github.com/pytorch/pytorch/issues/150902",
+    [
+      "linux"
+    ]
+  ],
   "test_partitioning_unremat_bw (__main__.MinCutPartitioningTests)": [
     "145343",
     "https://github.com/pytorch/pytorch/issues/145343",
@@ -2113,25 +2119,6 @@
       "rocm",
       "mac",
       "macos"
-    ]
-  ],
-  "test_remove_noop_slice_cuda (__main__.GPUTests)": [
-    "151383",
-    "https://github.com/pytorch/pytorch/issues/151383",
-    [
-      "linux",
-      "rocm"
-    ]
-  ],
-  "test_remove_noop_slice_scatter_cpu (__main__.CpuTests)": [
-    "151382",
-    "https://github.com/pytorch/pytorch/issues/151382",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm"
     ]
   ],
   "test_remove_noop_slice_scatter_cuda (__main__.GPUTests)": [
