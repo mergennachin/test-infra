@@ -1057,13 +1057,6 @@
       "slow"
     ]
   ],
-  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_float64 (__main__.TestForeachCUDA)": [
-    "150298",
-    "https://github.com/pytorch/pytorch/issues/150298",
-    [
-      "linux"
-    ]
-  ],
   "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_int16 (__main__.TestForeachCUDA)": [
     "150309",
     "https://github.com/pytorch/pytorch/issues/150309",
@@ -1381,6 +1374,13 @@
     "https://github.com/pytorch/pytorch/issues/152415",
     [
       "linux"
+    ]
+  ],
+  "test_int64_upsample3d_cuda_bfloat16 (__main__.TestTorchDeviceTypeCUDA)": [
+    "146007",
+    "https://github.com/pytorch/pytorch/issues/146007",
+    [
+      "rocm"
     ]
   ],
   "test_intra_node_comm_all_reduce (__main__.CommTest)": [
@@ -2194,11 +2194,14 @@
       "slow"
     ]
   ],
-  "test_remove_noop_view_default_cuda (__main__.GPUTests)": [
-    "151511",
-    "https://github.com/pytorch/pytorch/issues/151511",
+  "test_remove_noop_view_default_cpu (__main__.CpuTests)": [
+    "151512",
+    "https://github.com/pytorch/pytorch/issues/151512",
     [
+      "mac",
+      "macos",
       "rocm",
+      "asan",
       "linux",
       "slow"
     ]
