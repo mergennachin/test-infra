@@ -1026,6 +1026,14 @@
       "slow"
     ]
   ],
+  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_complex64 (__main__.TestForeachCUDA)": [
+    "150161",
+    "https://github.com/pytorch/pytorch/issues/150161",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_float32 (__main__.TestForeachCUDA)": [
     "150208",
     "https://github.com/pytorch/pytorch/issues/150208",
