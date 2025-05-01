@@ -654,6 +654,13 @@
       "linux"
     ]
   ],
+  "test_comprehensive_special_xlog1py_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
+    "140648",
+    "https://github.com/pytorch/pytorch/issues/140648",
+    [
+      "inductor"
+    ]
+  ],
   "test_comprehensive_stft_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
     "146978",
     "https://github.com/pytorch/pytorch/issues/146978",
@@ -1037,6 +1044,14 @@
   "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_complex64 (__main__.TestForeachCUDA)": [
     "150161",
     "https://github.com/pytorch/pytorch/issues/150161",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
+  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_float16 (__main__.TestForeachCUDA)": [
+    "150173",
+    "https://github.com/pytorch/pytorch/issues/150173",
     [
       "linux",
       "slow"
@@ -2176,18 +2191,6 @@
     [
       "linux",
       "rocm",
-      "slow"
-    ]
-  ],
-  "test_remove_noop_view_default_cpu (__main__.CpuTests)": [
-    "151512",
-    "https://github.com/pytorch/pytorch/issues/151512",
-    [
-      "mac",
-      "macos",
-      "rocm",
-      "asan",
-      "linux",
       "slow"
     ]
   ],
