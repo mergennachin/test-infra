@@ -161,6 +161,14 @@
       "slow"
     ]
   ],
+  "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_complex128 (__main__.TestForeachCUDA)": [
+    "149323",
+    "https://github.com/pytorch/pytorch/issues/149323",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_float16 (__main__.TestForeachCUDA)": [
     "149522",
     "https://github.com/pytorch/pytorch/issues/149522",
@@ -1057,6 +1065,13 @@
       "slow"
     ]
   ],
+  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_float32 (__main__.TestForeachCUDA)": [
+    "150208",
+    "https://github.com/pytorch/pytorch/issues/150208",
+    [
+      "linux"
+    ]
+  ],
   "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_int16 (__main__.TestForeachCUDA)": [
     "150309",
     "https://github.com/pytorch/pytorch/issues/150309",
@@ -1890,6 +1905,14 @@
     "https://github.com/pytorch/pytorch/issues/150902",
     [
       "linux"
+    ]
+  ],
+  "test_parity__foreach_acos_fastpath_inplace_cuda_complex128 (__main__.TestForeachCUDA)": [
+    "150933",
+    "https://github.com/pytorch/pytorch/issues/150933",
+    [
+      "linux",
+      "slow"
     ]
   ],
   "test_partitioning_unremat_bw (__main__.MinCutPartitioningTests)": [
