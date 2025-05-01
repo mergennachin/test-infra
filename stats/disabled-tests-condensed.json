@@ -1064,6 +1064,14 @@
       "linux"
     ]
   ],
+  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_float64 (__main__.TestForeachCUDA)": [
+    "150298",
+    "https://github.com/pytorch/pytorch/issues/150298",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_int32 (__main__.TestForeachCUDA)": [
     "150350",
     "https://github.com/pytorch/pytorch/issues/150350",
@@ -2649,6 +2657,15 @@
       "asan",
       "linux",
       "rocm",
+      "slow"
+    ]
+  ],
+  "test_torchvision_models_efficientnet_v2_l (__main__.TestVisionTracing)": [
+    "152632",
+    "https://github.com/pytorch/pytorch/issues/152632",
+    [
+      "asan",
+      "linux",
       "slow"
     ]
   ],
