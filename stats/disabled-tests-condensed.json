@@ -283,13 +283,6 @@
       "linux"
     ]
   ],
-  "test_cat_max_autotune_triton (__main__.TestMaxAutotune)": [
-    "145830",
-    "https://github.com/pytorch/pytorch/issues/145830",
-    [
-      "rocm"
-    ]
-  ],
   "test_causal_variants_compile_causal_variant_CausalVariant_LOWER_RIGHT_shape0_cuda (__main__.TestAttnBiasCUDA)": [
     "118641",
     "https://github.com/pytorch/pytorch/issues/118641",
@@ -1103,6 +1096,14 @@
   "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_int16 (__main__.TestForeachCUDA)": [
     "150309",
     "https://github.com/pytorch/pytorch/issues/150309",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
+  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_int32 (__main__.TestForeachCUDA)": [
+    "150350",
+    "https://github.com/pytorch/pytorch/issues/150350",
     [
       "linux",
       "slow"
@@ -2519,13 +2520,6 @@
     [
       "rocm",
       "inductor"
-    ]
-  ],
-  "test_sparse_add_cuda_complex64 (__main__.TestSparseCSRCUDA)": [
-    "145069",
-    "https://github.com/pytorch/pytorch/issues/145069",
-    [
-      "rocm"
     ]
   ],
   "test_sparse_add_cuda_float64 (__main__.TestSparseCSRCUDA)": [
