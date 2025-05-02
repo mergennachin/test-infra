@@ -491,6 +491,13 @@
       "rocm"
     ]
   ],
+  "test_comprehensive_nansum_cuda_int32 (__main__.TestInductorOpInfoCUDA)": [
+    "152666",
+    "https://github.com/pytorch/pytorch/issues/152666",
+    [
+      "inductor"
+    ]
+  ],
   "test_comprehensive_native_layer_norm_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
     "152056",
     "https://github.com/pytorch/pytorch/issues/152056",
@@ -1072,9 +1079,9 @@
       "slow"
     ]
   ],
-  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_int64 (__main__.TestForeachCUDA)": [
-    "150392",
-    "https://github.com/pytorch/pytorch/issues/150392",
+  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_int16 (__main__.TestForeachCUDA)": [
+    "150309",
+    "https://github.com/pytorch/pytorch/issues/150309",
     [
       "linux",
       "slow"
