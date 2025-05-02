@@ -654,6 +654,13 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_select_scatter_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
+    "152684",
+    "https://github.com/pytorch/pytorch/issues/152684",
+    [
+      "inductor"
+    ]
+  ],
   "test_comprehensive_signal_windows_hamming_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
     "152559",
     "https://github.com/pytorch/pytorch/issues/152559",
@@ -752,14 +759,6 @@
     [
       "asan",
       "linux"
-    ]
-  ],
-  "test_cublas_addmm_reduced_precision_fp16_accumulate_size_10000_cuda_float16 (__main__.TestMatmulCudaCUDA)": [
-    "151661",
-    "https://github.com/pytorch/pytorch/issues/151661",
-    [
-      "linux",
-      "slow"
     ]
   ],
   "test_cublas_addmm_reduced_precision_fp16_accumulate_size_1000_cuda_float16 (__main__.TestMatmulCudaCUDA)": [
@@ -1107,13 +1106,6 @@
     [
       "linux",
       "slow"
-    ]
-  ],
-  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_int8 (__main__.TestForeachCUDA)": [
-    "150407",
-    "https://github.com/pytorch/pytorch/issues/150407",
-    [
-      "linux"
     ]
   ],
   "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_uint8 (__main__.TestForeachCUDA)": [
