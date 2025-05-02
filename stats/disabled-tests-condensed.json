@@ -239,13 +239,6 @@
       "mac"
     ]
   ],
-  "test_builtin_score_mods_float32_score_mod4_cuda_float32 (__main__.TestFlexAttentionCUDA)": [
-    "152082",
-    "https://github.com/pytorch/pytorch/issues/152082",
-    [
-      "linux"
-    ]
-  ],
   "test_byte_mask (__main__.TestAdvancedIndexing)": [
     "138911",
     "https://github.com/pytorch/pytorch/issues/138911",
@@ -289,13 +282,6 @@
     "https://github.com/pytorch/pytorch/issues/150991",
     [
       "rocm"
-    ]
-  ],
-  "test_captured_scale_float16_cuda_float16 (__main__.TestFlexAttentionCUDA)": [
-    "152083",
-    "https://github.com/pytorch/pytorch/issues/152083",
-    [
-      "linux"
     ]
   ],
   "test_causal_variants_compile_causal_variant_CausalVariant_LOWER_RIGHT_shape0_cuda (__main__.TestAttnBiasCUDA)": [
