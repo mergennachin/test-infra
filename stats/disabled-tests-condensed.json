@@ -1,4 +1,11 @@
 {
+  "test_2d_mlp_with_nd_mesh (__main__.TestFullyShardNDTraining)": [
+    "152700",
+    "https://github.com/pytorch/pytorch/issues/152700",
+    [
+      "rocm"
+    ]
+  ],
   "test_2d_reductions_mixed_indexing_reduction_op0_cuda (__main__.TritonBlockPointerTestGPU)": [
     "147755",
     "https://github.com/pytorch/pytorch/issues/147755",
