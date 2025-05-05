@@ -349,6 +349,13 @@
       "inductor"
     ]
   ],
+  "test_comprehensive___rmul___cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
+    "152851",
+    "https://github.com/pytorch/pytorch/issues/152851",
+    [
+      "inductor"
+    ]
+  ],
   "test_comprehensive_amin_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
     "152558",
     "https://github.com/pytorch/pytorch/issues/152558",
@@ -1994,6 +2001,14 @@
     "https://github.com/pytorch/pytorch/issues/150960",
     [
       "linux"
+    ]
+  ],
+  "test_parity__foreach_acos_fastpath_inplace_cuda_float16 (__main__.TestForeachCUDA)": [
+    "150985",
+    "https://github.com/pytorch/pytorch/issues/150985",
+    [
+      "linux",
+      "slow"
     ]
   ],
   "test_partitioning_unremat_bw (__main__.MinCutPartitioningTests)": [
