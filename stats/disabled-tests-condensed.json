@@ -404,6 +404,13 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_fliplr_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
+    "152797",
+    "https://github.com/pytorch/pytorch/issues/152797",
+    [
+      "inductor"
+    ]
+  ],
   "test_comprehensive_floor_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
     "152058",
     "https://github.com/pytorch/pytorch/issues/152058",
@@ -435,6 +442,14 @@
   "test_comprehensive_linalg_pinv_singular_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
     "152059",
     "https://github.com/pytorch/pytorch/issues/152059",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
+  "test_comprehensive_linalg_pinv_singular_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
+    "152793",
+    "https://github.com/pytorch/pytorch/issues/152793",
     [
       "linux",
       "slow"
@@ -623,6 +638,13 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_rot90_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
+    "152796",
+    "https://github.com/pytorch/pytorch/issues/152796",
+    [
+      "inductor"
+    ]
+  ],
   "test_comprehensive_rsub_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
     "140179",
     "https://github.com/pytorch/pytorch/issues/140179",
@@ -669,6 +691,13 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_slice_scatter_cuda_bool (__main__.TestInductorOpInfoCUDA)": [
+    "152794",
+    "https://github.com/pytorch/pytorch/issues/152794",
+    [
+      "inductor"
+    ]
+  ],
   "test_comprehensive_sort_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
     "152054",
     "https://github.com/pytorch/pytorch/issues/152054",
@@ -709,6 +738,13 @@
     "https://github.com/pytorch/pytorch/issues/145362",
     [
       "rocm",
+      "inductor"
+    ]
+  ],
+  "test_comprehensive_unbind_copy_cuda_int32 (__main__.TestInductorOpInfoCUDA)": [
+    "152795",
+    "https://github.com/pytorch/pytorch/issues/152795",
+    [
       "inductor"
     ]
   ],
@@ -762,11 +798,12 @@
       "linux"
     ]
   ],
-  "test_cublas_addmm_reduced_precision_fp16_accumulate_size_100_cuda_float16 (__main__.TestMatmulCudaCUDA)": [
-    "151712",
-    "https://github.com/pytorch/pytorch/issues/151712",
+  "test_cublas_addmm_reduced_precision_fp16_accumulate_size_10000_cuda_float16 (__main__.TestMatmulCudaCUDA)": [
+    "151661",
+    "https://github.com/pytorch/pytorch/issues/151661",
     [
-      "linux"
+      "linux",
+      "slow"
     ]
   ],
   "test_cublas_addmm_size_1000_cuda_bfloat16 (__main__.TestMatmulCudaCUDA)": [
@@ -1107,6 +1144,13 @@
     [
       "linux",
       "slow"
+    ]
+  ],
+  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_int8 (__main__.TestForeachCUDA)": [
+    "150407",
+    "https://github.com/pytorch/pytorch/issues/150407",
+    [
+      "linux"
     ]
   ],
   "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_uint8 (__main__.TestForeachCUDA)": [
