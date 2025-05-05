@@ -192,6 +192,14 @@
       "slow"
     ]
   ],
+  "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_float32 (__main__.TestForeachCUDA)": [
+    "149409",
+    "https://github.com/pytorch/pytorch/issues/149409",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_float64 (__main__.TestForeachCUDA)": [
     "149523",
     "https://github.com/pytorch/pytorch/issues/149523",
@@ -809,6 +817,14 @@
   "test_cublas_addmm_reduced_precision_fp16_accumulate_size_1000_cuda_float16 (__main__.TestMatmulCudaCUDA)": [
     "151675",
     "https://github.com/pytorch/pytorch/issues/151675",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
+  "test_cublas_addmm_reduced_precision_fp16_accumulate_size_100_cuda_float16 (__main__.TestMatmulCudaCUDA)": [
+    "151712",
+    "https://github.com/pytorch/pytorch/issues/151712",
     [
       "linux",
       "slow"
@@ -1992,6 +2008,13 @@
     "https://github.com/pytorch/pytorch/issues/145345",
     [
       "rocm"
+    ]
+  ],
+  "test_pattern_matcher_multi_user_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "134433",
+    "https://github.com/pytorch/pytorch/issues/134433",
+    [
+      "linux"
     ]
   ],
   "test_pending_fusion_pro_and_epi (__main__.TestPrologueFusion)": [
