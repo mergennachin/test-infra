@@ -806,6 +806,14 @@
       "slow"
     ]
   ],
+  "test_cublas_addmm_reduced_precision_fp16_accumulate_size_1000_cuda_float16 (__main__.TestMatmulCudaCUDA)": [
+    "151675",
+    "https://github.com/pytorch/pytorch/issues/151675",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_cublas_addmm_size_1000_cuda_bfloat16 (__main__.TestMatmulCudaCUDA)": [
     "151834",
     "https://github.com/pytorch/pytorch/issues/151834",
@@ -1965,6 +1973,13 @@
       "slow"
     ]
   ],
+  "test_parity__foreach_acos_fastpath_inplace_cuda_complex64 (__main__.TestForeachCUDA)": [
+    "150960",
+    "https://github.com/pytorch/pytorch/issues/150960",
+    [
+      "linux"
+    ]
+  ],
   "test_partitioning_unremat_bw (__main__.MinCutPartitioningTests)": [
     "145343",
     "https://github.com/pytorch/pytorch/issues/145343",
@@ -2832,15 +2847,6 @@
     "https://github.com/pytorch/pytorch/issues/149016",
     [
       "rocm"
-    ]
-  ],
-  "test_variant_consistency_eager_nn_functional_conv3d_cuda_complex64 (__main__.TestCommonCUDA)": [
-    "114592",
-    "https://github.com/pytorch/pytorch/issues/114592",
-    [
-      "linux",
-      "win",
-      "windows"
     ]
   ],
   "test_variant_consistency_jit_linalg_lstsq_cpu_complex64 (__main__.TestJitCPU)": [
