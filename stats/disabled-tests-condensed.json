@@ -440,6 +440,20 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_gather_xpu_float32 (__main__.TestInductorOpInfoXPU)": [
+    "152911",
+    "https://github.com/pytorch/pytorch/issues/152911",
+    [
+      "linux"
+    ]
+  ],
+  "test_comprehensive_gather_xpu_float64 (__main__.TestInductorOpInfoXPU)": [
+    "152910",
+    "https://github.com/pytorch/pytorch/issues/152910",
+    [
+      "linux"
+    ]
+  ],
   "test_comprehensive_index_select_cuda_int32 (__main__.TestInductorOpInfoCUDA)": [
     "152416",
     "https://github.com/pytorch/pytorch/issues/152416",
@@ -704,6 +718,20 @@
     [
       "linux",
       "inductor"
+    ]
+  ],
+  "test_comprehensive_scatter_xpu_float32 (__main__.TestInductorOpInfoXPU)": [
+    "152912",
+    "https://github.com/pytorch/pytorch/issues/152912",
+    [
+      "linux"
+    ]
+  ],
+  "test_comprehensive_scatter_xpu_float64 (__main__.TestInductorOpInfoXPU)": [
+    "152898",
+    "https://github.com/pytorch/pytorch/issues/152898",
+    [
+      "linux"
     ]
   ],
   "test_comprehensive_select_scatter_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
