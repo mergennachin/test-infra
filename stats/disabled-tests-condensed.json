@@ -734,6 +734,13 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_rot90_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
+    "140773",
+    "https://github.com/pytorch/pytorch/issues/140773",
+    [
+      "inductor"
+    ]
+  ],
   "test_comprehensive_rsub_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
     "140179",
     "https://github.com/pytorch/pytorch/issues/140179",
@@ -1116,18 +1123,6 @@
       "rocm"
     ]
   ],
-  "test_dynamo_timed (__main__.TestDynamoTimed)": [
-    "148093",
-    "https://github.com/pytorch/pytorch/issues/148093",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_e2e_compile_True_model_type0 (__main__.TestE2ESaveAndLoad)": [
     "152168",
     "https://github.com/pytorch/pytorch/issues/152168",
@@ -1449,15 +1444,6 @@
   "test_inductor_all_gather_into_tensor_coalesced (__main__.CompileTest)": [
     "146806",
     "https://github.com/pytorch/pytorch/issues/146806",
-    [
-      "linux",
-      "rocm",
-      "inductor"
-    ]
-  ],
-  "test_inductor_all_gather_into_tensor_single (__main__.CompileTest)": [
-    "147707",
-    "https://github.com/pytorch/pytorch/issues/147707",
     [
       "linux",
       "rocm",
