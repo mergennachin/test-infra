@@ -391,6 +391,13 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_diagonal_copy_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
+    "152890",
+    "https://github.com/pytorch/pytorch/issues/152890",
+    [
+      "inductor"
+    ]
+  ],
   "test_comprehensive_diagonal_copy_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
     "140483",
     "https://github.com/pytorch/pytorch/issues/140483",
@@ -541,6 +548,13 @@
     "https://github.com/pytorch/pytorch/issues/131080",
     [
       "linux",
+      "inductor"
+    ]
+  ],
+  "test_comprehensive_nn_functional_conv3d_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
+    "152893",
+    "https://github.com/pytorch/pytorch/issues/152893",
+    [
       "inductor"
     ]
   ],
@@ -713,6 +727,13 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_sort_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
+    "152892",
+    "https://github.com/pytorch/pytorch/issues/152892",
+    [
+      "inductor"
+    ]
+  ],
   "test_comprehensive_sort_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
     "152054",
     "https://github.com/pytorch/pytorch/issues/152054",
@@ -835,13 +856,6 @@
     [
       "linux",
       "slow"
-    ]
-  ],
-  "test_cublas_addmm_size_1000_cuda_bfloat16 (__main__.TestMatmulCudaCUDA)": [
-    "151834",
-    "https://github.com/pytorch/pytorch/issues/151834",
-    [
-      "linux"
     ]
   ],
   "test_cublas_addmm_size_1000_cuda_float16 (__main__.TestMatmulCudaCUDA)": [
@@ -1557,13 +1571,6 @@
       "linux"
     ]
   ],
-  "test_matmul_layer_norm_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "151835",
-    "https://github.com/pytorch/pytorch/issues/151835",
-    [
-      "linux"
-    ]
-  ],
   "test_matmul_triton_kernel_benchmark (__main__.TestKernelBenchmark)": [
     "115002",
     "https://github.com/pytorch/pytorch/issues/115002",
@@ -2006,6 +2013,14 @@
   "test_parity__foreach_acos_fastpath_inplace_cuda_float16 (__main__.TestForeachCUDA)": [
     "150985",
     "https://github.com/pytorch/pytorch/issues/150985",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
+  "test_parity__foreach_acos_fastpath_inplace_cuda_float32 (__main__.TestForeachCUDA)": [
+    "151003",
+    "https://github.com/pytorch/pytorch/issues/151003",
     [
       "linux",
       "slow"
@@ -2731,13 +2746,6 @@
   "test_threading (__main__.TestWithNCCL)": [
     "141637",
     "https://github.com/pytorch/pytorch/issues/141637",
-    [
-      "linux"
-    ]
-  ],
-  "test_tmp_not_defined_issue2_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "135219",
-    "https://github.com/pytorch/pytorch/issues/135219",
     [
       "linux"
     ]
