@@ -508,6 +508,13 @@
       "windows.>"
     ]
   ],
+  "test_comprehensive_gather_xpu_int64 (__main__.TestInductorOpInfoXPU)": [
+    "152970",
+    "https://github.com/pytorch/pytorch/issues/152970",
+    [
+      "linux"
+    ]
+  ],
   "test_comprehensive_index_select_cuda_int32 (__main__.TestInductorOpInfoCUDA)": [
     "152416",
     "https://github.com/pytorch/pytorch/issues/152416",
