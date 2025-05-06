@@ -886,13 +886,6 @@
       "slow"
     ]
   ],
-  "test_cublas_addmm_size_1000_cuda_float16 (__main__.TestMatmulCudaCUDA)": [
-    "151862",
-    "https://github.com/pytorch/pytorch/issues/151862",
-    [
-      "linux"
-    ]
-  ],
   "test_cublas_and_lt_reduced_precision_fp16_accumulate_cuda (__main__.TestMatmulCudaCUDA)": [
     "151890",
     "https://github.com/pytorch/pytorch/issues/151890",
