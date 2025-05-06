@@ -829,6 +829,13 @@
       "linux"
     ]
   ],
+  "test_comprehensive_scatter_xpu_int32 (__main__.TestInductorOpInfoXPU)": [
+    "152971",
+    "https://github.com/pytorch/pytorch/issues/152971",
+    [
+      "linux"
+    ]
+  ],
   "test_comprehensive_select_scatter_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
     "152684",
     "https://github.com/pytorch/pytorch/issues/152684",
@@ -2166,6 +2173,14 @@
     "https://github.com/pytorch/pytorch/issues/151054",
     [
       "linux"
+    ]
+  ],
+  "test_parity__foreach_acos_fastpath_outplace_cuda_complex128 (__main__.TestForeachCUDA)": [
+    "151093",
+    "https://github.com/pytorch/pytorch/issues/151093",
+    [
+      "linux",
+      "slow"
     ]
   ],
   "test_partitioning_unremat_bw (__main__.MinCutPartitioningTests)": [
