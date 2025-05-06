@@ -720,6 +720,19 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_scatter_xpu_float16 (__main__.TestInductorOpInfoXPU)": [
+    "152925",
+    "https://github.com/pytorch/pytorch/issues/152925",
+    [
+      "<fill this in or delete. valid labels are: asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "win",
+      "windows.>"
+    ]
+  ],
   "test_comprehensive_scatter_xpu_float32 (__main__.TestInductorOpInfoXPU)": [
     "152912",
     "https://github.com/pytorch/pytorch/issues/152912",
