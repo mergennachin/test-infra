@@ -335,6 +335,13 @@
       "rocm"
     ]
   ],
+  "test_compiler_collectives_automatic_dynamic_tensor (__main__.TestMultiProc)": [
+    "152944",
+    "https://github.com/pytorch/pytorch/issues/152944",
+    [
+      "inductor"
+    ]
+  ],
   "test_complex_half_reference_testing_as_strided_scatter_cuda_complex32 (__main__.TestCommonCUDA)": [
     "78205",
     "https://github.com/pytorch/pytorch/issues/78205",
@@ -675,6 +682,13 @@
       "linux"
     ]
   ],
+  "test_comprehensive_ormqr_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
+    "152943",
+    "https://github.com/pytorch/pytorch/issues/152943",
+    [
+      "inductor"
+    ]
+  ],
   "test_comprehensive_pca_lowrank_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
     "139828",
     "https://github.com/pytorch/pytorch/issues/139828",
@@ -964,6 +978,13 @@
   "test_cublas_addmm_size_1000_cuda_bfloat16 (__main__.TestMatmulCudaCUDA)": [
     "151834",
     "https://github.com/pytorch/pytorch/issues/151834",
+    [
+      "linux"
+    ]
+  ],
+  "test_cublas_addmm_size_1000_cuda_float16 (__main__.TestMatmulCudaCUDA)": [
+    "151862",
+    "https://github.com/pytorch/pytorch/issues/151862",
     [
       "linux"
     ]
@@ -1444,6 +1465,15 @@
   "test_inductor_all_gather_into_tensor_coalesced (__main__.CompileTest)": [
     "146806",
     "https://github.com/pytorch/pytorch/issues/146806",
+    [
+      "linux",
+      "rocm",
+      "inductor"
+    ]
+  ],
+  "test_inductor_all_gather_into_tensor_single (__main__.CompileTest)": [
+    "147707",
+    "https://github.com/pytorch/pytorch/issues/147707",
     [
       "linux",
       "rocm",
@@ -2116,6 +2146,13 @@
       "slow"
     ]
   ],
+  "test_parity__foreach_acos_fastpath_outplace_cuda_bfloat16 (__main__.TestForeachCUDA)": [
+    "151054",
+    "https://github.com/pytorch/pytorch/issues/151054",
+    [
+      "linux"
+    ]
+  ],
   "test_partitioning_unremat_bw (__main__.MinCutPartitioningTests)": [
     "145343",
     "https://github.com/pytorch/pytorch/issues/145343",
@@ -2150,6 +2187,13 @@
     "https://github.com/pytorch/pytorch/issues/152221",
     [
       "rocm"
+    ]
+  ],
+  "test_per_sample_api_compute_batch_size_not_pytreeable_cpu (__main__.TestExpandedWeightModuleCPU)": [
+    "146972",
+    "https://github.com/pytorch/pytorch/issues/146972",
+    [
+      "dynamo"
     ]
   ],
   "test_prim_grad_undefined (test_jit.TestScript)": [
