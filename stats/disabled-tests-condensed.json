@@ -785,6 +785,13 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_rsub_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
+    "152996",
+    "https://github.com/pytorch/pytorch/issues/152996",
+    [
+      "inductor"
+    ]
+  ],
   "test_comprehensive_scatter_reduce_prod_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
     "140003",
     "https://github.com/pytorch/pytorch/issues/140003",
