@@ -809,6 +809,19 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_scatter_xpu_bool (__main__.TestInductorOpInfoXPU)": [
+    "153009",
+    "https://github.com/pytorch/pytorch/issues/153009",
+    [
+      "<fill this in or delete. valid labels are: asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "win",
+      "windows.>"
+    ]
+  ],
   "test_comprehensive_scatter_xpu_float16 (__main__.TestInductorOpInfoXPU)": [
     "152925",
     "https://github.com/pytorch/pytorch/issues/152925",
@@ -841,6 +854,19 @@
     "https://github.com/pytorch/pytorch/issues/152971",
     [
       "linux"
+    ]
+  ],
+  "test_comprehensive_scatter_xpu_int64 (__main__.TestInductorOpInfoXPU)": [
+    "153008",
+    "https://github.com/pytorch/pytorch/issues/153008",
+    [
+      "<fill this in or delete. valid labels are: asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "win",
+      "windows.>"
     ]
   ],
   "test_comprehensive_select_scatter_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
