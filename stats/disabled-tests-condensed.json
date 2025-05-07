@@ -371,11 +371,25 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_amin_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
+    "153030",
+    "https://github.com/pytorch/pytorch/issues/153030",
+    [
+      "inductor"
+    ]
+  ],
   "test_comprehensive_amin_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
     "152558",
     "https://github.com/pytorch/pytorch/issues/152558",
     [
       "linux"
+    ]
+  ],
+  "test_comprehensive_asinh_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
+    "153029",
+    "https://github.com/pytorch/pytorch/issues/153029",
+    [
+      "inductor"
     ]
   ],
   "test_comprehensive_bitwise_right_shift_cuda_int32 (__main__.TestInductorOpInfoCUDA)": [
@@ -410,7 +424,9 @@
     "152890",
     "https://github.com/pytorch/pytorch/issues/152890",
     [
-      "inductor"
+      "inductor",
+      "linux",
+      "slow"
     ]
   ],
   "test_comprehensive_diagonal_copy_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
@@ -930,6 +946,13 @@
   "test_comprehensive_sub_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
     "147047",
     "https://github.com/pytorch/pytorch/issues/147047",
+    [
+      "inductor"
+    ]
+  ],
+  "test_comprehensive_svd_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
+    "153031",
+    "https://github.com/pytorch/pytorch/issues/153031",
     [
       "inductor"
     ]
@@ -1465,6 +1488,17 @@
     "https://github.com/pytorch/pytorch/issues/105024",
     [
       "linux"
+    ]
+  ],
+  "test_hook_with_closure (__main__.HooksTests)": [
+    "153032",
+    "https://github.com/pytorch/pytorch/issues/153032",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm"
     ]
   ],
   "test_host_memory_stats (__main__.TestCuda)": [
