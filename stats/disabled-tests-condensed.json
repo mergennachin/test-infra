@@ -892,6 +892,14 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_signal_windows_general_cosine_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
+    "139682",
+    "https://github.com/pytorch/pytorch/issues/139682",
+    [
+      "linux",
+      "inductor"
+    ]
+  ],
   "test_comprehensive_signal_windows_hamming_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
     "152559",
     "https://github.com/pytorch/pytorch/issues/152559",
@@ -920,6 +928,13 @@
     "https://github.com/pytorch/pytorch/issues/152054",
     [
       "linux"
+    ]
+  ],
+  "test_comprehensive_special_ndtri_cuda_int64 (__main__.TestInductorOpInfoCUDA)": [
+    "153047",
+    "https://github.com/pytorch/pytorch/issues/153047",
+    [
+      "inductor"
     ]
   ],
   "test_comprehensive_special_xlog1py_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
@@ -970,6 +985,13 @@
     "https://github.com/pytorch/pytorch/issues/152928",
     [
       "inductor"
+    ]
+  ],
+  "test_comprehensive_trunc_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
+    "153046",
+    "https://github.com/pytorch/pytorch/issues/153046",
+    [
+      "linux"
     ]
   ],
   "test_comprehensive_unbind_copy_cuda_int32 (__main__.TestInductorOpInfoCUDA)": [
@@ -1063,6 +1085,13 @@
   "test_cublas_addmm_size_1000_cuda_float16 (__main__.TestMatmulCudaCUDA)": [
     "151862",
     "https://github.com/pytorch/pytorch/issues/151862",
+    [
+      "linux"
+    ]
+  ],
+  "test_cublas_and_lt_reduced_precision_fp16_accumulate_cuda (__main__.TestMatmulCudaCUDA)": [
+    "151890",
+    "https://github.com/pytorch/pytorch/issues/151890",
     [
       "linux"
     ]
@@ -1501,11 +1530,14 @@
       "rocm"
     ]
   ],
-  "test_host_memory_stats (__main__.TestCuda)": [
-    "148607",
-    "https://github.com/pytorch/pytorch/issues/148607",
+  "test_hook_with_nested_closure (__main__.HooksTests)": [
+    "153045",
+    "https://github.com/pytorch/pytorch/issues/153045",
     [
+      "asan",
       "linux",
+      "mac",
+      "macos",
       "rocm",
       "slow"
     ]
@@ -2250,6 +2282,13 @@
       "linux"
     ]
   ],
+  "test_parity__foreach_acos_fastpath_outplace_cuda_float16 (__main__.TestForeachCUDA)": [
+    "151114",
+    "https://github.com/pytorch/pytorch/issues/151114",
+    [
+      "linux"
+    ]
+  ],
   "test_partitioning_unremat_bw (__main__.MinCutPartitioningTests)": [
     "145343",
     "https://github.com/pytorch/pytorch/issues/145343",
@@ -2701,15 +2740,6 @@
       "slow",
       "win",
       "windows"
-    ]
-  ],
-  "test_sdpa_compile_cuda_bfloat16 (__main__.TestNestedTensorSubclassCUDA)": [
-    "119903",
-    "https://github.com/pytorch/pytorch/issues/119903",
-    [
-      "rocm",
-      "linux",
-      "slow"
     ]
   ],
   "test_sdpa_mask_fp16_L6_S17_NH23_HS121 (__main__.TestSDPA)": [
