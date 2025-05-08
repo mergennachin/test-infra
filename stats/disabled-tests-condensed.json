@@ -69,7 +69,8 @@
     [
       "mac",
       "macos",
-      "rocm"
+      "rocm",
+      "linux"
     ]
   ],
   "test_always_alive_values (jit.test_freezing.TestMKLDNNReinplacing)": [
@@ -2107,6 +2108,17 @@
     "https://github.com/pytorch/pytorch/issues/104454",
     [
       "asan"
+    ]
+  ],
+  "test_no_recompile_on_hook_identity_change (__main__.HooksTests)": [
+    "153207",
+    "https://github.com/pytorch/pytorch/issues/153207",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm"
     ]
   ],
   "test_non_contiguous_input_mm_plus_mm (__main__.TestMaxAutotune)": [
