@@ -1679,6 +1679,15 @@
       "linux"
     ]
   ],
+  "test_inductor_reduce_scatter_tensor_coalesced (__main__.CompileTest)": [
+    "147887",
+    "https://github.com/pytorch/pytorch/issues/147887",
+    [
+      "inductor",
+      "rocm",
+      "linux"
+    ]
+  ],
   "test_inductor_reduce_scatter_tensor_single (__main__.CompileTest)": [
     "147911",
     "https://github.com/pytorch/pytorch/issues/147911",
@@ -1809,7 +1818,8 @@
       "linux",
       "mac",
       "macos",
-      "rocm"
+      "rocm",
+      "slow"
     ]
   ],
   "test_intra_node_comm_all_reduce (__main__.CommTest)": [
@@ -2428,6 +2438,13 @@
   "test_parity__foreach_add_fastpath_inplace_cuda_bfloat16 (__main__.TestForeachCUDA)": [
     "151228",
     "https://github.com/pytorch/pytorch/issues/151228",
+    [
+      "linux"
+    ]
+  ],
+  "test_parity__foreach_add_fastpath_inplace_cuda_bool (__main__.TestForeachCUDA)": [
+    "151268",
+    "https://github.com/pytorch/pytorch/issues/151268",
     [
       "linux"
     ]
