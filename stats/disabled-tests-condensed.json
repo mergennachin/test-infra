@@ -1457,6 +1457,14 @@
       "slow"
     ]
   ],
+  "test_foreach_reduce_large_input__foreach_max_w_empty_False_cuda_bfloat16 (__main__.TestForeachCUDA)": [
+    "150932",
+    "https://github.com/pytorch/pytorch/issues/150932",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_fsdp_unsupported_module_cls (__main__.TestFSDPMiscMultiThread)": [
     "137948",
     "https://github.com/pytorch/pytorch/issues/137948",
@@ -1784,6 +1792,17 @@
       "macos",
       "rocm",
       "slow"
+    ]
+  ],
+  "test_intermediate_hook_with_closure_eager (__main__.HooksTests)": [
+    "153160",
+    "https://github.com/pytorch/pytorch/issues/153160",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm"
     ]
   ],
   "test_intra_node_comm_all_reduce (__main__.CommTest)": [
@@ -2981,7 +3000,8 @@
     [
       "mac",
       "macos",
-      "rocm"
+      "rocm",
+      "linux"
     ]
   ],
   "test_single_linear (quantization.jit.test_quantize_jit.TestQuantizeJit)": [
