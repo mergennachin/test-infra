@@ -832,6 +832,13 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_scatter_reduce_prod_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
+    "153148",
+    "https://github.com/pytorch/pytorch/issues/153148",
+    [
+      "inductor"
+    ]
+  ],
   "test_comprehensive_scatter_reduce_prod_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
     "140294",
     "https://github.com/pytorch/pytorch/issues/140294",
@@ -1664,15 +1671,6 @@
       "linux"
     ]
   ],
-  "test_inductor_reduce_scatter_tensor_coalesced (__main__.CompileTest)": [
-    "147887",
-    "https://github.com/pytorch/pytorch/issues/147887",
-    [
-      "inductor",
-      "rocm",
-      "linux"
-    ]
-  ],
   "test_inductor_reduce_scatter_tensor_single (__main__.CompileTest)": [
     "147911",
     "https://github.com/pytorch/pytorch/issues/147911",
@@ -1791,7 +1789,8 @@
       "linux",
       "mac",
       "macos",
-      "rocm"
+      "rocm",
+      "slow"
     ]
   ],
   "test_intra_node_comm_all_reduce (__main__.CommTest)": [
@@ -2028,6 +2027,15 @@
     "118346",
     "https://github.com/pytorch/pytorch/issues/118346",
     [
+      "linux",
+      "slow"
+    ]
+  ],
+  "test_multi_output_unbacked_custom_op_cuda (__main__.TestInductorDynamicCUDA)": [
+    "135755",
+    "https://github.com/pytorch/pytorch/issues/135755",
+    [
+      "rocm",
       "linux",
       "slow"
     ]
