@@ -1131,6 +1131,13 @@
       "rocm"
     ]
   ],
+  "test_ddp_apply_optim_in_backward_ignored_params (__main__.TestDistBackendWithSpawn)": [
+    "106361",
+    "https://github.com/pytorch/pytorch/issues/106361",
+    [
+      "rocm"
+    ]
+  ],
   "test_ddp_comm_hook_sparse_gradients (__main__.DistributedDataParallelTest)": [
     "146400",
     "https://github.com/pytorch/pytorch/issues/146400",
