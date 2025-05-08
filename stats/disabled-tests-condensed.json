@@ -279,6 +279,13 @@
       "macos"
     ]
   ],
+  "test_cache_hot_load_device_cuda_bfloat16_dynamic_False (__main__.AOTAutogradCacheTests)": [
+    "145334",
+    "https://github.com/pytorch/pytorch/issues/145334",
+    [
+      "rocm"
+    ]
+  ],
   "test_cache_load_function_device_cuda_bfloat16_dynamic_False_bundle_triton_True_use_static_cuda_launcher_False_grad_False (__main__.TestFxGraphCache)": [
     "151137",
     "https://github.com/pytorch/pytorch/issues/151137",
@@ -2011,6 +2018,17 @@
       "dynamo"
     ]
   ],
+  "test_nn_module (__main__.TestGuardSerialization)": [
+    "153120",
+    "https://github.com/pytorch/pytorch/issues/153120",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm"
+    ]
+  ],
   "test_nnc_correctness_frac_cpu_bfloat16 (__main__.TestNNCOpInfoCPU)": [
     "104454",
     "https://github.com/pytorch/pytorch/issues/104454",
@@ -2335,6 +2353,13 @@
     [
       "linux",
       "slow"
+    ]
+  ],
+  "test_parity__foreach_acos_fastpath_outplace_cuda_float64 (__main__.TestForeachCUDA)": [
+    "151214",
+    "https://github.com/pytorch/pytorch/issues/151214",
+    [
+      "linux"
     ]
   ],
   "test_partitioning_unremat_bw (__main__.MinCutPartitioningTests)": [
@@ -3303,6 +3328,15 @@
     "113850",
     "https://github.com/pytorch/pytorch/issues/113850",
     [
+      "linux"
+    ]
+  ],
+  "test_wait_tensor (__main__.CompileTest)": [
+    "148014",
+    "https://github.com/pytorch/pytorch/issues/148014",
+    [
+      "inductor",
+      "rocm",
       "linux"
     ]
   ],
