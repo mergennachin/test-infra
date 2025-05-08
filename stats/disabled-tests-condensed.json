@@ -378,13 +378,6 @@
       "inductor"
     ]
   ],
-  "test_comprehensive_amin_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
-    "153030",
-    "https://github.com/pytorch/pytorch/issues/153030",
-    [
-      "inductor"
-    ]
-  ],
   "test_comprehensive_amin_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
     "152558",
     "https://github.com/pytorch/pytorch/issues/152558",
