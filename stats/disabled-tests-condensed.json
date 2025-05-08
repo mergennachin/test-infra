@@ -1779,6 +1779,17 @@
       "slow"
     ]
   ],
+  "test_intermediary_hooks_same_on_inductor (__main__.HooksTests)": [
+    "153129",
+    "https://github.com/pytorch/pytorch/issues/153129",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm"
+    ]
+  ],
   "test_intra_node_comm_all_reduce (__main__.CommTest)": [
     "115859",
     "https://github.com/pytorch/pytorch/issues/115859",
@@ -2039,7 +2050,8 @@
       "linux",
       "mac",
       "macos",
-      "rocm"
+      "rocm",
+      "slow"
     ]
   ],
   "test_nnc_correctness_frac_cpu_bfloat16 (__main__.TestNNCOpInfoCPU)": [
