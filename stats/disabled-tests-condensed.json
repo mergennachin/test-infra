@@ -344,6 +344,14 @@
       "dynamo"
     ]
   ],
+  "test_clip_grad_norm_2d (__main__.TestClipGradNormWorldSize4)": [
+    "153236",
+    "https://github.com/pytorch/pytorch/issues/153236",
+    [
+      "rocm",
+      "inductor"
+    ]
+  ],
   "test_compare_cpu__refs_empty_strided_cuda_float32 (__main__.TestCommonCUDA)": [
     "101625",
     "https://github.com/pytorch/pytorch/issues/101625",
@@ -985,14 +993,6 @@
     "153031",
     "https://github.com/pytorch/pytorch/issues/153031",
     [
-      "inductor"
-    ]
-  ],
-  "test_comprehensive_svd_lowrank_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
-    "145362",
-    "https://github.com/pytorch/pytorch/issues/145362",
-    [
-      "rocm",
       "inductor"
     ]
   ],
@@ -2600,15 +2600,6 @@
     "https://github.com/pytorch/pytorch/issues/84937",
     [
       "asan"
-    ]
-  ],
-  "test_ranks_and_tag (__main__.CompileTest)": [
-    "147974",
-    "https://github.com/pytorch/pytorch/issues/147974",
-    [
-      "inductor",
-      "rocm",
-      "linux"
     ]
   ],
   "test_re_export_preserve_handle (__main__.TestNumericDebugger)": [
