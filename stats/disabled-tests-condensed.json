@@ -1238,6 +1238,13 @@
       "linux"
     ]
   ],
+  "test_dtensor_seq_par_shard_dim_1 (__main__.MicroPipelineTPTest)": [
+    "153223",
+    "https://github.com/pytorch/pytorch/issues/153223",
+    [
+      "linux"
+    ]
+  ],
   "test_dunder_round_edgecases_val_2147483647_ndigits_-1 (__main__.TestNonarrayArgs)": [
     "116121",
     "https://github.com/pytorch/pytorch/issues/116121",
@@ -2118,7 +2125,8 @@
       "linux",
       "mac",
       "macos",
-      "rocm"
+      "rocm",
+      "slow"
     ]
   ],
   "test_non_contiguous_input_mm_plus_mm (__main__.TestMaxAutotune)": [
@@ -2459,6 +2467,14 @@
     "https://github.com/pytorch/pytorch/issues/151268",
     [
       "linux"
+    ]
+  ],
+  "test_parity__foreach_add_fastpath_inplace_cuda_complex128 (__main__.TestForeachCUDA)": [
+    "151300",
+    "https://github.com/pytorch/pytorch/issues/151300",
+    [
+      "linux",
+      "slow"
     ]
   ],
   "test_partitioning_unremat_bw (__main__.MinCutPartitioningTests)": [
