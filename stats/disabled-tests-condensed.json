@@ -1473,6 +1473,14 @@
       "slow"
     ]
   ],
+  "test_foreach_reduce_large_input__foreach_max_w_empty_False_cuda_bool (__main__.TestForeachCUDA)": [
+    "151229",
+    "https://github.com/pytorch/pytorch/issues/151229",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_fsdp_unsupported_module_cls (__main__.TestFSDPMiscMultiThread)": [
     "137948",
     "https://github.com/pytorch/pytorch/issues/137948",
@@ -2473,6 +2481,13 @@
   "test_parity__foreach_add_fastpath_inplace_cuda_complex64 (__main__.TestForeachCUDA)": [
     "151313",
     "https://github.com/pytorch/pytorch/issues/151313",
+    [
+      "linux"
+    ]
+  ],
+  "test_parity__foreach_add_fastpath_inplace_cuda_float16 (__main__.TestForeachCUDA)": [
+    "153250",
+    "https://github.com/pytorch/pytorch/issues/153250",
     [
       "linux"
     ]
