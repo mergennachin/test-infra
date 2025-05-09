@@ -2499,6 +2499,13 @@
       "linux"
     ]
   ],
+  "test_parity__foreach_add_fastpath_inplace_cuda_float32 (__main__.TestForeachCUDA)": [
+    "153284",
+    "https://github.com/pytorch/pytorch/issues/153284",
+    [
+      "linux"
+    ]
+  ],
   "test_partitioning_unremat_bw (__main__.MinCutPartitioningTests)": [
     "145343",
     "https://github.com/pytorch/pytorch/issues/145343",
