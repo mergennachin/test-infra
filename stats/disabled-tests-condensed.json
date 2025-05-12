@@ -1460,6 +1460,14 @@
       "slow"
     ]
   ],
+  "test_foreach_reduce_large_input__foreach_max_w_empty_False_cuda_float16 (__main__.TestForeachCUDA)": [
+    "153379",
+    "https://github.com/pytorch/pytorch/issues/153379",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_fsdp_unsupported_module_cls (__main__.TestFSDPMiscMultiThread)": [
     "137948",
     "https://github.com/pytorch/pytorch/issues/137948",
@@ -1620,15 +1628,6 @@
       "linux",
       "rocm",
       "inductor"
-    ]
-  ],
-  "test_inductor_all_reduce_non_contig_input (__main__.CompileTest)": [
-    "147733",
-    "https://github.com/pytorch/pytorch/issues/147733",
-    [
-      "inductor",
-      "linux",
-      "rocm"
     ]
   ],
   "test_inductor_all_reduce_single (__main__.CompileTest)": [
