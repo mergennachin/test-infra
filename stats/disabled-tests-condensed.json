@@ -940,13 +940,6 @@
       "inductor"
     ]
   ],
-  "test_comprehensive_std_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
-    "152673",
-    "https://github.com/pytorch/pytorch/issues/152673",
-    [
-      "inductor"
-    ]
-  ],
   "test_comprehensive_stft_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
     "146978",
     "https://github.com/pytorch/pytorch/issues/146978",
