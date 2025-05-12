@@ -837,7 +837,13 @@
     "153018",
     "https://github.com/pytorch/pytorch/issues/153018",
     [
-      "linux"
+      "<fill this in or delete. valid labels are: asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "win",
+      "windows.>"
     ]
   ],
   "test_comprehensive_scatter_xpu_float16 (__main__.TestInductorOpInfoXPU)": [
