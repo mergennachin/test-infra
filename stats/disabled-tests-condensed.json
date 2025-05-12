@@ -1630,6 +1630,15 @@
       "inductor"
     ]
   ],
+  "test_inductor_all_reduce_non_contig_input (__main__.CompileTest)": [
+    "147733",
+    "https://github.com/pytorch/pytorch/issues/147733",
+    [
+      "inductor",
+      "linux",
+      "rocm"
+    ]
+  ],
   "test_inductor_all_reduce_single (__main__.CompileTest)": [
     "147754",
     "https://github.com/pytorch/pytorch/issues/147754",
@@ -1637,15 +1646,6 @@
       "inductor",
       "rocm",
       "linux"
-    ]
-  ],
-  "test_inductor_all_to_all_single (__main__.CompileTest)": [
-    "147795",
-    "https://github.com/pytorch/pytorch/issues/147795",
-    [
-      "inductor",
-      "linux",
-      "rocm"
     ]
   ],
   "test_inductor_broadcast (__main__.CompileTest)": [
@@ -2437,6 +2437,13 @@
   "test_parity__foreach_add_fastpath_inplace_cuda_float32 (__main__.TestForeachCUDA)": [
     "153284",
     "https://github.com/pytorch/pytorch/issues/153284",
+    [
+      "linux"
+    ]
+  ],
+  "test_parity__foreach_add_fastpath_inplace_cuda_float64 (__main__.TestForeachCUDA)": [
+    "153395",
+    "https://github.com/pytorch/pytorch/issues/153395",
     [
       "linux"
     ]
