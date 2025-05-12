@@ -837,13 +837,7 @@
     "153018",
     "https://github.com/pytorch/pytorch/issues/153018",
     [
-      "<fill this in or delete. valid labels are: asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "win",
-      "windows.>"
+      "linux"
     ]
   ],
   "test_comprehensive_scatter_xpu_float16 (__main__.TestInductorOpInfoXPU)": [
@@ -884,13 +878,7 @@
     "153017",
     "https://github.com/pytorch/pytorch/issues/153017",
     [
-      "<fill this in or delete. valid labels are: asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "win",
-      "windows.>"
+      "linux"
     ]
   ],
   "test_comprehensive_select_scatter_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
@@ -2859,15 +2847,6 @@
     "https://github.com/pytorch/pytorch/issues/91492",
     [
       "linux"
-    ]
-  ],
-  "test_rng (__main__.TestCompilerBisector)": [
-    "139590",
-    "https://github.com/pytorch/pytorch/issues/139590",
-    [
-      "linux",
-      "rocm",
-      "slow"
     ]
   ],
   "test_run_decompositions_map_handle_to_new_nodes (__main__.TestNumericDebugger)": [
