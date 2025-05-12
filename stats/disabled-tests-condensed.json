@@ -272,14 +272,6 @@
       "macos"
     ]
   ],
-  "test_byte_tensor_assignment (__main__.TestAdvancedIndexing)": [
-    "137028",
-    "https://github.com/pytorch/pytorch/issues/137028",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_cache_hot_load_device_cuda_bfloat16_dynamic_False (__main__.AOTAutogradCacheTests)": [
     "145334",
     "https://github.com/pytorch/pytorch/issues/145334",
@@ -327,14 +319,6 @@
     "https://github.com/pytorch/pytorch/issues/118658",
     [
       "rocm"
-    ]
-  ],
-  "test_cdist_large_batch (__main__.TestMPS)": [
-    "92078",
-    "https://github.com/pytorch/pytorch/issues/92078",
-    [
-      "mac",
-      "macos"
     ]
   ],
   "test_checkpoint_trigger (__main__.TestCheckpoint)": [
@@ -1719,15 +1703,6 @@
       "dynamo"
     ]
   ],
-  "test_item_to_inputs_kernel_nobreak_cuda (__main__.TestInductorDynamicCUDA)": [
-    "119538",
-    "https://github.com/pytorch/pytorch/issues/119538",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_jvpvjp_nn_functional_conv3d_cuda_float32 (__main__.TestOperatorsCUDA)": [
     "114654",
     "https://github.com/pytorch/pytorch/issues/114654",
@@ -2031,21 +2006,6 @@
     "https://github.com/pytorch/pytorch/issues/109341",
     [
       "inductor"
-    ]
-  ],
-  "test_numpy_ref_mps_nn_functional_conv_transpose1d_mps_float32 (__main__.TestCommonMPS)": [
-    "87542",
-    "https://github.com/pytorch/pytorch/issues/87542",
-    [
-      "macos"
-    ]
-  ],
-  "test_numpy_ref_mps_nn_functional_group_norm_mps_float32 (__main__.TestCommonMPS)": [
-    "90894",
-    "https://github.com/pytorch/pytorch/issues/90894",
-    [
-      "mac",
-      "macos"
     ]
   ],
   "test_observer_with_ignored_function (quantization.jit.test_quantize_jit.TestQuantizeJit)": [
@@ -2819,14 +2779,6 @@
       "windows"
     ]
   ],
-  "test_sdpa_mask_fp16_L6_S17_NH23_HS121 (__main__.TestSDPA)": [
-    "138905",
-    "https://github.com/pytorch/pytorch/issues/138905",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_sdpa_rewriter_11_cuda (__main__.SDPAPatternRewriterCudaDynamicTests)": [
     "148631",
     "https://github.com/pytorch/pytorch/issues/148631",
@@ -3378,18 +3330,6 @@
       "windows",
       "rocm",
       "slow"
-    ]
-  ],
-  "test_while_loop_schema_gen (__main__.TestHopSchema)": [
-    "141202",
-    "https://github.com/pytorch/pytorch/issues/141202",
-    [
-      "asan",
-      "linux",
-      "rocm",
-      "slow",
-      "mac",
-      "macos"
     ]
   ]
 }
