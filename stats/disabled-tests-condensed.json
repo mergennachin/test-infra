@@ -1298,6 +1298,30 @@
       "windows"
     ]
   ],
+  "test_find_or_create_pg (__main__.TestPgTag)": [
+    "107278",
+    "https://github.com/pytorch/pytorch/issues/107278",
+    [
+      "linux",
+      "rocm"
+    ]
+  ],
+  "test_flop_counter_op_options1_cuda_float16 (__main__.TestSchedulerCUDA)": [
+    "153494",
+    "https://github.com/pytorch/pytorch/issues/153494",
+    [
+      "rocm"
+    ]
+  ],
+  "test_flop_counter_op_options1_cuda_float32 (__main__.TestSchedulerCUDA)": [
+    "153495",
+    "https://github.com/pytorch/pytorch/issues/153495",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_foreach_check_stride_ignore_dims_of_one_cuda_float32 (__main__.TestForeachCUDA)": [
     "150026",
     "https://github.com/pytorch/pytorch/issues/150026",
@@ -3354,13 +3378,6 @@
   "test_variant_consistency_jit_linalg_lu_factor_ex_cuda_complex64 (__main__.TestJitCUDA)": [
     "86887",
     "https://github.com/pytorch/pytorch/issues/86887",
-    [
-      "linux"
-    ]
-  ],
-  "test_vdd_clamp_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "134445",
-    "https://github.com/pytorch/pytorch/issues/134445",
     [
       "linux"
     ]
