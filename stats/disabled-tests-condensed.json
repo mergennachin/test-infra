@@ -1950,6 +1950,14 @@
       "slow"
     ]
   ],
+  "test_mempool_ctx_multithread (__main__.TestMemPool)": [
+    "153460",
+    "https://github.com/pytorch/pytorch/issues/153460",
+    [
+      "linux",
+      "rocm"
+    ]
+  ],
   "test_merge_liveness (jit.test_freezing.TestMKLDNNReinplacing)": [
     "91481",
     "https://github.com/pytorch/pytorch/issues/91481",
