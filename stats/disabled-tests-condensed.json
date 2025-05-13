@@ -2450,6 +2450,13 @@
       "linux"
     ]
   ],
+  "test_parity__foreach_add_fastpath_inplace_cuda_int16 (__main__.TestForeachCUDA)": [
+    "153440",
+    "https://github.com/pytorch/pytorch/issues/153440",
+    [
+      "linux"
+    ]
+  ],
   "test_partitioning_unremat_bw (__main__.MinCutPartitioningTests)": [
     "145343",
     "https://github.com/pytorch/pytorch/issues/145343",
@@ -2616,13 +2623,6 @@
   "test_reduce_stress_cuda (__main__.ProcessGroupGlooLazyInitTest)": [
     "152201",
     "https://github.com/pytorch/pytorch/issues/152201",
-    [
-      "rocm"
-    ]
-  ],
-  "test_reduce_stress_cuda (__main__.ProcessGroupGlooTest)": [
-    "152367",
-    "https://github.com/pytorch/pytorch/issues/152367",
     [
       "rocm"
     ]
