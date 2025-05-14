@@ -1209,6 +1209,20 @@
       "dynamo"
     ]
   ],
+  "test_duplicate_registration_impl (__main__.TestOpProfiles)": [
+    "151281",
+    "https://github.com/pytorch/pytorch/issues/151281",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "win",
+      "windows",
+      "slow"
+    ]
+  ],
   "test_dynamic_toggle (__main__.TestProfiler)": [
     "134479",
     "https://github.com/pytorch/pytorch/issues/134479",
@@ -1690,15 +1704,6 @@
   "test_inductor_reduce_scatter_tensor_single (__main__.CompileTest)": [
     "147911",
     "https://github.com/pytorch/pytorch/issues/147911",
-    [
-      "inductor",
-      "rocm",
-      "linux"
-    ]
-  ],
-  "test_inductor_reuse_buffer_after_inplace_collective (__main__.CompileTest)": [
-    "147950",
-    "https://github.com/pytorch/pytorch/issues/147950",
     [
       "inductor",
       "rocm",
@@ -2483,6 +2488,13 @@
       "linux"
     ]
   ],
+  "test_parity__foreach_add_fastpath_inplace_cuda_int8 (__main__.TestForeachCUDA)": [
+    "153512",
+    "https://github.com/pytorch/pytorch/issues/153512",
+    [
+      "linux"
+    ]
+  ],
   "test_partitioning_unremat_bw (__main__.MinCutPartitioningTests)": [
     "145343",
     "https://github.com/pytorch/pytorch/issues/145343",
@@ -2860,16 +2872,6 @@
     "https://github.com/pytorch/pytorch/issues/144922",
     [
       "rocm"
-    ]
-  ],
-  "test_repeated_calling_cuda (__main__.AOTInductorTestABICompatibleGpu)": [
-    "146185",
-    "https://github.com/pytorch/pytorch/issues/146185",
-    [
-      "linux",
-      "rocm",
-      "slow",
-      "inductor"
     ]
   ],
   "test_requires_grad_loop (test_jit.TestScript)": [
