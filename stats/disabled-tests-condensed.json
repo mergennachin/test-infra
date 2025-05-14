@@ -1710,6 +1710,15 @@
       "linux"
     ]
   ],
+  "test_inductor_reuse_buffer_after_inplace_collective (__main__.CompileTest)": [
+    "147950",
+    "https://github.com/pytorch/pytorch/issues/147950",
+    [
+      "inductor",
+      "rocm",
+      "linux"
+    ]
+  ],
   "test_inplace_custom_op (__main__.InplacingTests)": [
     "135327",
     "https://github.com/pytorch/pytorch/issues/135327",
@@ -2874,6 +2883,16 @@
       "rocm"
     ]
   ],
+  "test_repeated_calling_cuda (__main__.AOTInductorTestABICompatibleGpu)": [
+    "146185",
+    "https://github.com/pytorch/pytorch/issues/146185",
+    [
+      "linux",
+      "rocm",
+      "slow",
+      "inductor"
+    ]
+  ],
   "test_requires_grad_loop (test_jit.TestScript)": [
     "91492",
     "https://github.com/pytorch/pytorch/issues/91492",
@@ -3380,6 +3399,13 @@
   "test_variant_consistency_jit_linalg_lu_factor_ex_cuda_complex64 (__main__.TestJitCUDA)": [
     "86887",
     "https://github.com/pytorch/pytorch/issues/86887",
+    [
+      "linux"
+    ]
+  ],
+  "test_vdd_clamp_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "134445",
+    "https://github.com/pytorch/pytorch/issues/134445",
     [
       "linux"
     ]
