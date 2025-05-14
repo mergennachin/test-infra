@@ -1249,6 +1249,20 @@
       "windows"
     ]
   ],
+  "test_fake_registration (__main__.TestOpProfiles)": [
+    "151301",
+    "https://github.com/pytorch/pytorch/issues/151301",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "slow",
+      "win",
+      "windows"
+    ]
+  ],
   "test_find_or_create_pg (__main__.TestPgTag)": [
     "107278",
     "https://github.com/pytorch/pytorch/issues/107278",
@@ -1825,6 +1839,13 @@
   "test_matmul_triton_kernel_benchmark (__main__.TestKernelBenchmark)": [
     "115002",
     "https://github.com/pytorch/pytorch/issues/115002",
+    [
+      "rocm"
+    ]
+  ],
+  "test_matrix_rank_basic_cuda_float32 (__main__.TestLinalgCUDA)": [
+    "150406",
+    "https://github.com/pytorch/pytorch/issues/150406",
     [
       "rocm"
     ]
@@ -2530,6 +2551,15 @@
       "mac"
     ]
   ],
+  "test_remove_noop_slice1_cuda (__main__.GPUTests)": [
+    "151381",
+    "https://github.com/pytorch/pytorch/issues/151381",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_remove_noop_slice_cpu (__main__.CpuTests)": [
     "151384",
     "https://github.com/pytorch/pytorch/issues/151384",
@@ -2539,6 +2569,15 @@
       "rocm",
       "mac",
       "macos"
+    ]
+  ],
+  "test_remove_noop_slice_cuda (__main__.GPUTests)": [
+    "151383",
+    "https://github.com/pytorch/pytorch/issues/151383",
+    [
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_remove_noop_view_default_cpu (__main__.CpuTests)": [
