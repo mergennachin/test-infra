@@ -272,6 +272,13 @@
       "dynamo"
     ]
   ],
+  "test_checkpointing_without_reentrant_dataparallel (__main__.TestAutogradWithCompiledAutograd)": [
+    "153608",
+    "https://github.com/pytorch/pytorch/issues/153608",
+    [
+      "linux"
+    ]
+  ],
   "test_clip_grad_norm_2d (__main__.TestClipGradNormWorldSize4)": [
     "153236",
     "https://github.com/pytorch/pytorch/issues/153236",
