@@ -527,14 +527,6 @@
       "inductor"
     ]
   ],
-  "test_comprehensive_nanmean_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
-    "140339",
-    "https://github.com/pytorch/pytorch/issues/140339",
-    [
-      "rocm",
-      "inductor"
-    ]
-  ],
   "test_comprehensive_nanquantile_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
     "139593",
     "https://github.com/pytorch/pytorch/issues/139593",
@@ -1312,14 +1304,6 @@
       "slow"
     ]
   ],
-  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_float16 (__main__.TestForeachCUDA)": [
-    "150173",
-    "https://github.com/pytorch/pytorch/issues/150173",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_float32 (__main__.TestForeachCUDA)": [
     "150208",
     "https://github.com/pytorch/pytorch/issues/150208",
@@ -1749,6 +1733,13 @@
     "https://github.com/pytorch/pytorch/issues/115859",
     [
       "rocm"
+    ]
+  ],
+  "test_is_isnot (__main__.TestScript)": [
+    "120694",
+    "https://github.com/pytorch/pytorch/issues/120694",
+    [
+      "dynamo"
     ]
   ],
   "test_item_to_inputs_kernel_nobreak_cuda (__main__.TestInductorDynamicCUDA)": [
