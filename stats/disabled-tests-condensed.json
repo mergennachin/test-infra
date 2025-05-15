@@ -162,14 +162,6 @@
       "slow"
     ]
   ],
-  "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_complex128 (__main__.TestForeachCUDA)": [
-    "149323",
-    "https://github.com/pytorch/pytorch/issues/149323",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_complex64 (__main__.TestForeachCUDA)": [
     "149199",
     "https://github.com/pytorch/pytorch/issues/149199",
@@ -1299,13 +1291,6 @@
       "slow"
     ]
   ],
-  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_float32 (__main__.TestForeachCUDA)": [
-    "150208",
-    "https://github.com/pytorch/pytorch/issues/150208",
-    [
-      "linux"
-    ]
-  ],
   "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_float64 (__main__.TestForeachCUDA)": [
     "150298",
     "https://github.com/pytorch/pytorch/issues/150298",
@@ -1462,6 +1447,13 @@
     [
       "rocm",
       "inductor"
+    ]
+  ],
+  "test_hessian_vectorize_raises_no_warnings_logging_tensor (__main__.TestAutogradFunctional)": [
+    "153644",
+    "https://github.com/pytorch/pytorch/issues/153644",
+    [
+      "dynamo"
     ]
   ],
   "test_homogeneous_attributes (__main__.TestFSDPMiscMultiThread)": [
@@ -1660,6 +1652,13 @@
       "rocm",
       "asan",
       "slow"
+    ]
+  ],
+  "test_int64_upsample3d_cuda_bfloat16 (__main__.TestTorchDeviceTypeCUDA)": [
+    "146007",
+    "https://github.com/pytorch/pytorch/issues/146007",
+    [
+      "rocm"
     ]
   ],
   "test_intermediary_hooks_same_on_aot_eager (__main__.HooksTests)": [
@@ -2094,14 +2093,6 @@
   "test_parity__foreach_abs_fastpath_outplace_cuda_float64 (__main__.TestForeachCUDA)": [
     "150752",
     "https://github.com/pytorch/pytorch/issues/150752",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
-  "test_parity__foreach_acos_fastpath_inplace_cuda_complex128 (__main__.TestForeachCUDA)": [
-    "150933",
-    "https://github.com/pytorch/pytorch/issues/150933",
     [
       "linux",
       "slow"
@@ -2575,11 +2566,14 @@
       "slow"
     ]
   ],
-  "test_remove_noop_view_default_cuda (__main__.GPUTests)": [
-    "151511",
-    "https://github.com/pytorch/pytorch/issues/151511",
+  "test_remove_noop_view_default_cpu (__main__.CpuTests)": [
+    "151512",
+    "https://github.com/pytorch/pytorch/issues/151512",
     [
+      "mac",
+      "macos",
       "rocm",
+      "asan",
       "linux",
       "slow"
     ]
