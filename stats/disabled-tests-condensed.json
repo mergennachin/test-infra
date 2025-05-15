@@ -1291,14 +1291,6 @@
       "slow"
     ]
   ],
-  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_float64 (__main__.TestForeachCUDA)": [
-    "150298",
-    "https://github.com/pytorch/pytorch/issues/150298",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_int16 (__main__.TestForeachCUDA)": [
     "150309",
     "https://github.com/pytorch/pytorch/issues/150309",
@@ -2073,6 +2065,14 @@
     "https://github.com/pytorch/pytorch/issues/91494",
     [
       "linux"
+    ]
+  ],
+  "test_parity__foreach_abs_fastpath_inplace_cuda_bfloat16 (__main__.TestForeachCUDA)": [
+    "148966",
+    "https://github.com/pytorch/pytorch/issues/148966",
+    [
+      "linux",
+      "slow"
     ]
   ],
   "test_parity__foreach_abs_fastpath_inplace_cuda_float32 (__main__.TestForeachCUDA)": [
