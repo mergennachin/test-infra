@@ -1097,9 +1097,9 @@
       "slow"
     ]
   ],
-  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_int64 (__main__.TestForeachCUDA)": [
-    "150392",
-    "https://github.com/pytorch/pytorch/issues/150392",
+  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_int32 (__main__.TestForeachCUDA)": [
+    "150350",
+    "https://github.com/pytorch/pytorch/issues/150350",
     [
       "linux",
       "slow"
@@ -1633,6 +1633,14 @@
     [
       "linux",
       "slow"
+    ]
+  ],
+  "test_mean_mps (__main__.GPUTests)": [
+    "153747",
+    "https://github.com/pytorch/pytorch/issues/153747",
+    [
+      "mac",
+      "macos"
     ]
   ],
   "test_mem_get_info (__main__.TestCuda)": [
