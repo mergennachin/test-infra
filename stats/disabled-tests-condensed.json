@@ -1295,13 +1295,6 @@
     "150208",
     "https://github.com/pytorch/pytorch/issues/150208",
     [
-      "linux"
-    ]
-  ],
-  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_int16 (__main__.TestForeachCUDA)": [
-    "150309",
-    "https://github.com/pytorch/pytorch/issues/150309",
-    [
       "linux",
       "slow"
     ]
@@ -2591,27 +2584,6 @@
     [
       "rocm",
       "linux",
-      "slow"
-    ]
-  ],
-  "test_remove_noop_view_dtype_cpu (__main__.CpuTests)": [
-    "151540",
-    "https://github.com/pytorch/pytorch/issues/151540",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "slow"
-    ]
-  ],
-  "test_remove_noop_view_dtype_cuda (__main__.GPUTests)": [
-    "151541",
-    "https://github.com/pytorch/pytorch/issues/151541",
-    [
-      "linux",
-      "rocm",
       "slow"
     ]
   ],
