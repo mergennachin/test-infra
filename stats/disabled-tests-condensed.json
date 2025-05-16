@@ -102,14 +102,6 @@
       "rocm"
     ]
   ],
-  "test_aoti_debug_printer_codegen_cuda (__main__.AOTInductorTestABICompatibleGpu)": [
-    "149080",
-    "https://github.com/pytorch/pytorch/issues/149080",
-    [
-      "inductor",
-      "rocm"
-    ]
-  ],
   "test_attn_cuda (__main__.TestMin)": [
     "86710",
     "https://github.com/pytorch/pytorch/issues/86710",
@@ -1111,13 +1103,6 @@
       "linux"
     ]
   ],
-  "test_dtensor_seq_par_shard_dim_0 (__main__.MicroPipelineTPTest)": [
-    "145924",
-    "https://github.com/pytorch/pytorch/issues/145924",
-    [
-      "linux"
-    ]
-  ],
   "test_dtensor_seq_par_shard_dim_1 (__main__.MicroPipelineTPTest)": [
     "153223",
     "https://github.com/pytorch/pytorch/issues/153223",
@@ -2106,22 +2091,6 @@
       "linux"
     ]
   ],
-  "test_parity__foreach_abs_fastpath_inplace_cuda_int8 (__main__.TestForeachCUDA)": [
-    "150630",
-    "https://github.com/pytorch/pytorch/issues/150630",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
-  "test_parity__foreach_abs_fastpath_outplace_cuda_float64 (__main__.TestForeachCUDA)": [
-    "150752",
-    "https://github.com/pytorch/pytorch/issues/150752",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_parity__foreach_acos_fastpath_inplace_cuda_complex64 (__main__.TestForeachCUDA)": [
     "150960",
     "https://github.com/pytorch/pytorch/issues/150960",
@@ -2287,20 +2256,6 @@
     "https://github.com/pytorch/pytorch/issues/153537",
     [
       "linux"
-    ]
-  ],
-  "test_partitioning_unremat_bw (__main__.MinCutPartitioningTests)": [
-    "145343",
-    "https://github.com/pytorch/pytorch/issues/145343",
-    [
-      "rocm"
-    ]
-  ],
-  "test_partitioning_with_view (__main__.MinCutPartitioningTests)": [
-    "145345",
-    "https://github.com/pytorch/pytorch/issues/145345",
-    [
-      "rocm"
     ]
   ],
   "test_pattern_matcher_multi_user_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
@@ -2611,6 +2566,27 @@
       "slow"
     ]
   ],
+  "test_remove_noop_view_dtype_cpu (__main__.CpuTests)": [
+    "151540",
+    "https://github.com/pytorch/pytorch/issues/151540",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_remove_noop_view_dtype_cuda (__main__.GPUTests)": [
+    "151541",
+    "https://github.com/pytorch/pytorch/issues/151541",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_reorder_peak_memory (__main__.TestOperatorReorderForPeakMemory)": [
     "145332",
     "https://github.com/pytorch/pytorch/issues/145332",
@@ -2753,13 +2729,6 @@
   "test_sdpa_rewriter_14_cuda (__main__.SDPAPatternRewriterCudaDynamicTests)": [
     "147600",
     "https://github.com/pytorch/pytorch/issues/147600",
-    [
-      "rocm"
-    ]
-  ],
-  "test_sdpa_rewriter_14_cuda (__main__.SDPAPatternRewriterCudaTests)": [
-    "148391",
-    "https://github.com/pytorch/pytorch/issues/148391",
     [
       "rocm"
     ]
@@ -3034,15 +3003,6 @@
       "asan",
       "linux",
       "rocm",
-      "slow"
-    ]
-  ],
-  "test_torchvision_models_efficientnet_v2_l (__main__.TestVisionTracing)": [
-    "152632",
-    "https://github.com/pytorch/pytorch/issues/152632",
-    [
-      "asan",
-      "linux",
       "slow"
     ]
   ],
