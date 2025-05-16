@@ -1276,6 +1276,13 @@
       "slow"
     ]
   ],
+  "test_impl_device_cpu (__main__.TestCustomOp)": [
+    "153763",
+    "https://github.com/pytorch/pytorch/issues/153763",
+    [
+      "dynamo"
+    ]
+  ],
   "test_ind_worker_queue (__main__.TestIndividualWorkerQueue)": [
     "68643",
     "https://github.com/pytorch/pytorch/issues/68643",
@@ -2776,6 +2783,14 @@
       "linux"
     ]
   ],
+  "test_tensor_index_put_slice_mps (__main__.GPUTests)": [
+    "153761",
+    "https://github.com/pytorch/pytorch/issues/153761",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_tensor_requires_grad (test_jit.TestScript)": [
     "91497",
     "https://github.com/pytorch/pytorch/issues/91497",
@@ -2962,6 +2977,14 @@
   "test_var_correction_mps (__main__.GPUTests)": [
     "153691",
     "https://github.com/pytorch/pytorch/issues/153691",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
+  "test_var_mean_tile_reduction_False_mps (__main__.GPUTests)": [
+    "153762",
+    "https://github.com/pytorch/pytorch/issues/153762",
     [
       "mac",
       "macos"
