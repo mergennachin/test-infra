@@ -1074,11 +1074,27 @@
       "linux"
     ]
   ],
+  "test_div_zero_dim_mps (__main__.GPUTests)": [
+    "153694",
+    "https://github.com/pytorch/pytorch/issues/153694",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_doc_examples (__main__.TestTypeHints)": [
     "98259",
     "https://github.com/pytorch/pytorch/issues/98259",
     [
       "linux"
+    ]
+  ],
+  "test_dropout_trivial_1_mps (__main__.GPUTests)": [
+    "153695",
+    "https://github.com/pytorch/pytorch/issues/153695",
+    [
+      "mac",
+      "macos"
     ]
   ],
   "test_dtensor_op_db_full_like_cpu_float32 (__main__.TestDTensorOpsCPU)": [
@@ -1294,6 +1310,14 @@
   "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_float32 (__main__.TestForeachCUDA)": [
     "150208",
     "https://github.com/pytorch/pytorch/issues/150208",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
+  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_float64 (__main__.TestForeachCUDA)": [
+    "150298",
+    "https://github.com/pytorch/pytorch/issues/150298",
     [
       "linux",
       "slow"
@@ -2969,6 +2993,14 @@
       "linux"
     ]
   ],
+  "test_tmp_not_defined_issue2_mps (__main__.GPUTests)": [
+    "153693",
+    "https://github.com/pytorch/pytorch/issues/153693",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_torch_manual_seed_seeds_cuda_devices (__main__.TestCuda)": [
     "135218",
     "https://github.com/pytorch/pytorch/issues/135218",
@@ -3107,6 +3139,14 @@
       "inductor"
     ]
   ],
+  "test_var_correction_mps (__main__.GPUTests)": [
+    "153691",
+    "https://github.com/pytorch/pytorch/issues/153691",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_var_mean_tile_reduction_True_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
     "149016",
     "https://github.com/pytorch/pytorch/issues/149016",
@@ -3163,6 +3203,14 @@
     "https://github.com/pytorch/pytorch/issues/134445",
     [
       "linux"
+    ]
+  ],
+  "test_views1_mps (__main__.GPUTests)": [
+    "153692",
+    "https://github.com/pytorch/pytorch/issues/153692",
+    [
+      "mac",
+      "macos"
     ]
   ],
   "test_vit_aten_export (__main__.TestQuantizePT2EModels)": [
