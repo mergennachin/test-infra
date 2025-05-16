@@ -691,13 +691,6 @@
       "inductor"
     ]
   ],
-  "test_comprehensive_scatter_reduce_prod_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
-    "153148",
-    "https://github.com/pytorch/pytorch/issues/153148",
-    [
-      "inductor"
-    ]
-  ],
   "test_comprehensive_scatter_reduce_prod_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
     "140294",
     "https://github.com/pytorch/pytorch/issues/140294",
