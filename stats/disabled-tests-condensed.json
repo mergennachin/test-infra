@@ -618,6 +618,16 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_pca_lowrank_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
+    "139828",
+    "https://github.com/pytorch/pytorch/issues/139828",
+    [
+      "linux",
+      "rocm",
+      "slow",
+      "inductor"
+    ]
+  ],
   "test_comprehensive_pca_lowrank_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
     "152318",
     "https://github.com/pytorch/pytorch/issues/152318",
@@ -1110,6 +1120,14 @@
       "linux"
     ]
   ],
+  "test_dtypeview_bfloat16_bfloat16_mps (__main__.GPUTests)": [
+    "153710",
+    "https://github.com/pytorch/pytorch/issues/153710",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_dunder_round_edgecases_val_2147483647_ndigits_-1 (__main__.TestNonarrayArgs)": [
     "116121",
     "https://github.com/pytorch/pytorch/issues/116121",
@@ -1308,9 +1326,9 @@
       "slow"
     ]
   ],
-  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_int32 (__main__.TestForeachCUDA)": [
-    "150350",
-    "https://github.com/pytorch/pytorch/issues/150350",
+  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_int16 (__main__.TestForeachCUDA)": [
+    "150309",
+    "https://github.com/pytorch/pytorch/issues/150309",
     [
       "linux",
       "slow"
@@ -1384,6 +1402,14 @@
     "https://github.com/pytorch/pytorch/issues/137948",
     [
       "linux"
+    ]
+  ],
+  "test_full_dtype (__main__.TestFull)": [
+    "138574",
+    "https://github.com/pytorch/pytorch/issues/138574",
+    [
+      "mac",
+      "macos"
     ]
   ],
   "test_fully_shard_post_optim_event_overlap (__main__.TestFullyShardOverlap)": [
@@ -1732,6 +1758,13 @@
       "slow"
     ]
   ],
+  "test_jacobian_vectorize_raises_no_warnings_logging_tensor (__main__.TestAutogradFunctional)": [
+    "153707",
+    "https://github.com/pytorch/pytorch/issues/153707",
+    [
+      "dynamo"
+    ]
+  ],
   "test_jvpvjp_nn_functional_conv3d_cuda_float32 (__main__.TestOperatorsCUDA)": [
     "114654",
     "https://github.com/pytorch/pytorch/issues/114654",
@@ -1764,6 +1797,14 @@
     [
       "macos",
       "mac"
+    ]
+  ],
+  "test_lerp_mps (__main__.GPUTests)": [
+    "153713",
+    "https://github.com/pytorch/pytorch/issues/153713",
+    [
+      "mac",
+      "macos"
     ]
   ],
   "test_like_channels_last_cpu (__main__.CpuTritonTests)": [
@@ -1813,6 +1854,14 @@
     "https://github.com/pytorch/pytorch/issues/145361",
     [
       "rocm"
+    ]
+  ],
+  "test_max_pool2d_with_indices_backward5_mps (__main__.GPUTests)": [
+    "153721",
+    "https://github.com/pytorch/pytorch/issues/153721",
+    [
+      "mac",
+      "macos"
     ]
   ],
   "test_max_split_expandable (__main__.TestCudaMallocAsync)": [
@@ -2639,6 +2688,14 @@
       "linux"
     ]
   ],
+  "test_resize_as_mps (__main__.GPUTests)": [
+    "153716",
+    "https://github.com/pytorch/pytorch/issues/153716",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_rng (__main__.TestCompilerBisector)": [
     "139590",
     "https://github.com/pytorch/pytorch/issues/139590",
@@ -2733,6 +2790,14 @@
       "rocm"
     ]
   ],
+  "test_searchsorted_mps (__main__.GPUTests)": [
+    "153711",
+    "https://github.com/pytorch/pytorch/issues/153711",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_send_recv_all_to_all (__main__.ProcessGroupGlooTest)": [
     "71195",
     "https://github.com/pytorch/pytorch/issues/71195",
@@ -2802,6 +2867,14 @@
     [
       "asan",
       "linux",
+      "mac",
+      "macos"
+    ]
+  ],
+  "test_shape_padding_mps (__main__.GPUTests)": [
+    "153719",
+    "https://github.com/pytorch/pytorch/issues/153719",
+    [
       "mac",
       "macos"
     ]
@@ -2917,6 +2990,14 @@
       "rocm"
     ]
   ],
+  "test_tensor1_mps (__main__.GPUTests)": [
+    "153709",
+    "https://github.com/pytorch/pytorch/issues/153709",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_tensor_as_tensor_shape_prop (test_jit.TestScript)": [
     "91482",
     "https://github.com/pytorch/pytorch/issues/91482",
@@ -2965,6 +3046,14 @@
   "test_tmp_not_defined_issue2_mps (__main__.GPUTests)": [
     "153693",
     "https://github.com/pytorch/pytorch/issues/153693",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
+  "test_topk_mps (__main__.GPUTests)": [
+    "153718",
+    "https://github.com/pytorch/pytorch/issues/153718",
     [
       "mac",
       "macos"
@@ -3165,6 +3254,22 @@
       "linux"
     ]
   ],
+  "test_view_on_aliased_mps (__main__.GPUTests)": [
+    "153717",
+    "https://github.com/pytorch/pytorch/issues/153717",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
+  "test_view_uint8_through_differing_bitwidths_mps (__main__.GPUTests)": [
+    "153720",
+    "https://github.com/pytorch/pytorch/issues/153720",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_views1_mps (__main__.GPUTests)": [
     "153692",
     "https://github.com/pytorch/pytorch/issues/153692",
@@ -3261,6 +3366,14 @@
       "slow"
     ]
   ],
+  "test_where_with_logical_op_mps (__main__.GPUTests)": [
+    "153712",
+    "https://github.com/pytorch/pytorch/issues/153712",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_while_loop_schema_gen (__main__.TestHopSchema)": [
     "141202",
     "https://github.com/pytorch/pytorch/issues/141202",
@@ -3269,6 +3382,22 @@
       "linux",
       "rocm",
       "slow",
+      "mac",
+      "macos"
+    ]
+  ],
+  "test_xblock_divides_xnumel_mps (__main__.GPUTests)": [
+    "153715",
+    "https://github.com/pytorch/pytorch/issues/153715",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
+  "test_zero_element_mutation_mps (__main__.GPUTests)": [
+    "153708",
+    "https://github.com/pytorch/pytorch/issues/153708",
+    [
       "mac",
       "macos"
     ]
