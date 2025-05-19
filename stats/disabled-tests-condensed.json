@@ -2667,6 +2667,19 @@
       "linux"
     ]
   ],
+  "test_simple_embed_cubin_True_xpu (__main__.AOTInductorTestABICompatibleGpu)": [
+    "153830",
+    "https://github.com/pytorch/pytorch/issues/153830",
+    [
+      "<fill this in or delete. valid labels are: asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "win",
+      "windows.>"
+    ]
+  ],
   "test_single_linear (quantization.jit.test_quantize_jit.TestQuantizeJit)": [
     "105121",
     "https://github.com/pytorch/pytorch/issues/105121",
