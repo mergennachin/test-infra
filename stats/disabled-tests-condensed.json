@@ -162,9 +162,17 @@
       "slow"
     ]
   ],
-  "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_float32 (__main__.TestForeachCUDA)": [
-    "149409",
-    "https://github.com/pytorch/pytorch/issues/149409",
+  "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_complex64 (__main__.TestForeachCUDA)": [
+    "149199",
+    "https://github.com/pytorch/pytorch/issues/149199",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
+  "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_float64 (__main__.TestForeachCUDA)": [
+    "149523",
+    "https://github.com/pytorch/pytorch/issues/149523",
     [
       "linux",
       "slow"
@@ -668,14 +676,6 @@
       "linux"
     ]
   ],
-  "test_cublas_addmm_reduced_precision_fp16_accumulate_size_100_cuda_float16 (__main__.TestMatmulCudaCUDA)": [
-    "151712",
-    "https://github.com/pytorch/pytorch/issues/151712",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_cublas_addmm_size_1000_cuda_bfloat16 (__main__.TestMatmulCudaCUDA)": [
     "151834",
     "https://github.com/pytorch/pytorch/issues/151834",
@@ -1084,6 +1084,14 @@
   "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_int32 (__main__.TestForeachCUDA)": [
     "150350",
     "https://github.com/pytorch/pytorch/issues/150350",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
+  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_int64 (__main__.TestForeachCUDA)": [
+    "150392",
+    "https://github.com/pytorch/pytorch/issues/150392",
     [
       "linux",
       "slow"
@@ -2052,13 +2060,6 @@
   "test_parity__foreach_add_fastpath_outplace_cuda_bfloat16 (__main__.TestForeachCUDA)": [
     "153537",
     "https://github.com/pytorch/pytorch/issues/153537",
-    [
-      "linux"
-    ]
-  ],
-  "test_pattern_matcher_multi_user_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "134433",
-    "https://github.com/pytorch/pytorch/issues/134433",
     [
       "linux"
     ]
