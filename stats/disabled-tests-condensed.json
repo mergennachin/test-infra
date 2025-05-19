@@ -229,6 +229,14 @@
       "rocm"
     ]
   ],
+  "test_cat_upcasting_mps (__main__.GPUTests)": [
+    "153814",
+    "https://github.com/pytorch/pytorch/issues/153814",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_causal_variants_compile_causal_variant_CausalVariant_LOWER_RIGHT_shape0_cuda (__main__.TestAttnBiasCUDA)": [
     "118641",
     "https://github.com/pytorch/pytorch/issues/118641",
@@ -1032,6 +1040,14 @@
       "slow"
     ]
   ],
+  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_bool (__main__.TestForeachCUDA)": [
+    "150120",
+    "https://github.com/pytorch/pytorch/issues/150120",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_complex128 (__main__.TestForeachCUDA)": [
     "150141",
     "https://github.com/pytorch/pytorch/issues/150141",
@@ -1486,6 +1502,14 @@
     "https://github.com/pytorch/pytorch/issues/115859",
     [
       "rocm"
+    ]
+  ],
+  "test_invalid_operand_issue1_mps (__main__.GPUTests)": [
+    "153813",
+    "https://github.com/pytorch/pytorch/issues/153813",
+    [
+      "mac",
+      "macos"
     ]
   ],
   "test_is_isnot (__main__.TestScript)": [
@@ -2450,6 +2474,14 @@
       "macos"
     ]
   ],
+  "test_resize_mps (__main__.GPUTests)": [
+    "153811",
+    "https://github.com/pytorch/pytorch/issues/153811",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_rng (__main__.TestCompilerBisector)": [
     "139590",
     "https://github.com/pytorch/pytorch/issues/139590",
@@ -2475,6 +2507,14 @@
       "macos",
       "rocm",
       "linux"
+    ]
+  ],
+  "test_scalar_output_mps (__main__.GPUTests)": [
+    "153810",
+    "https://github.com/pytorch/pytorch/issues/153810",
+    [
+      "mac",
+      "macos"
     ]
   ],
   "test_scatter_1d (__main__.DeviceMeshCollectiveTest)": [
@@ -2828,6 +2868,14 @@
       "macos"
     ]
   ],
+  "test_to_dtype_mps (__main__.GPUTests)": [
+    "153812",
+    "https://github.com/pytorch/pytorch/issues/153812",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_topk_mps (__main__.GPUTests)": [
     "153718",
     "https://github.com/pytorch/pytorch/issues/153718",
@@ -3154,6 +3202,13 @@
   "test_weight_norm_bwd_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
     "153803",
     "https://github.com/pytorch/pytorch/issues/153803",
+    [
+      "linux"
+    ]
+  ],
+  "test_weight_norm_bwd_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "141484",
+    "https://github.com/pytorch/pytorch/issues/141484",
     [
       "linux"
     ]
