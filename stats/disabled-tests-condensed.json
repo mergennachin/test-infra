@@ -962,13 +962,6 @@
       "dynamo"
     ]
   ],
-  "test_extern (__main__.NumBytesMetricTests)": [
-    "145352",
-    "https://github.com/pytorch/pytorch/issues/145352",
-    [
-      "rocm"
-    ]
-  ],
   "test_extra_cuda_context (__main__.ProcessGroupNCCLGroupTest)": [
     "139011",
     "https://github.com/pytorch/pytorch/issues/139011",
@@ -2280,13 +2273,6 @@
   "test_remote_cache_load_function_device_cuda_float32_dynamic_False_bundle_triton_False (__main__.TestFxGraphCache)": [
     "145212",
     "https://github.com/pytorch/pytorch/issues/145212",
-    [
-      "rocm"
-    ]
-  ],
-  "test_remote_cache_load_function_device_cuda_float32_dynamic_False_bundle_triton_False_use_static_cuda_launcher_False (__main__.TestFxGraphCache)": [
-    "151074",
-    "https://github.com/pytorch/pytorch/issues/151074",
     [
       "rocm"
     ]
