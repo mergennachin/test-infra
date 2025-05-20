@@ -568,13 +568,6 @@
       "linux"
     ]
   ],
-  "test_cublas_addmm_size_1000_cuda_bfloat16 (__main__.TestMatmulCudaCUDA)": [
-    "151834",
-    "https://github.com/pytorch/pytorch/issues/151834",
-    [
-      "linux"
-    ]
-  ],
   "test_cublas_addmm_size_1000_cuda_float16 (__main__.TestMatmulCudaCUDA)": [
     "151862",
     "https://github.com/pytorch/pytorch/issues/151862",
@@ -1589,6 +1582,14 @@
       "slow"
     ]
   ],
+  "test_memory_snapshot (__main__.TestCudaMallocAsync)": [
+    "126953",
+    "https://github.com/pytorch/pytorch/issues/126953",
+    [
+      "rocm",
+      "linux"
+    ]
+  ],
   "test_mempool_ctx_multithread (__main__.TestMemPool)": [
     "153460",
     "https://github.com/pytorch/pytorch/issues/153460",
@@ -1682,6 +1683,18 @@
     [
       "linux",
       "slow"
+    ]
+  ],
+  "test_module_and_optimizer_ids (__main__.TestTorchTidyProfiler)": [
+    "87581",
+    "https://github.com/pytorch/pytorch/issues/87581",
+    [
+      "linux",
+      "mac",
+      "macos",
+      "win",
+      "windows",
+      "dynamo"
     ]
   ],
   "test_multi_output_unbacked_custom_op_cuda (__main__.TestInductorDynamicCUDA)": [
@@ -1815,14 +1828,6 @@
   "test_parity__foreach_abs_fastpath_inplace_cuda_bool (__main__.TestForeachCUDA)": [
     "150468",
     "https://github.com/pytorch/pytorch/issues/150468",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
-  "test_parity__foreach_acos_fastpath_inplace_cuda_float64 (__main__.TestForeachCUDA)": [
-    "151019",
-    "https://github.com/pytorch/pytorch/issues/151019",
     [
       "linux",
       "slow"
@@ -2565,6 +2570,14 @@
       "macos"
     ]
   ],
+  "test_side_stream_backward_overlap (__main__.TestAutogradStreamSynchronization)": [
+    "153927",
+    "https://github.com/pytorch/pytorch/issues/153927",
+    [
+      "linux",
+      "rocm"
+    ]
+  ],
   "test_simple (__main__.TestNumericDebugger)": [
     "142470",
     "https://github.com/pytorch/pytorch/issues/142470",
@@ -2593,6 +2606,14 @@
     "https://github.com/pytorch/pytorch/issues/105121",
     [
       "rocm"
+    ]
+  ],
+  "test_slice_mutation1_mps (__main__.GPUTests)": [
+    "153913",
+    "https://github.com/pytorch/pytorch/issues/153913",
+    [
+      "mac",
+      "macos"
     ]
   ],
   "test_slice_scatter_reinplace_cuda (__main__.GPUTests)": [
