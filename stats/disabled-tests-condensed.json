@@ -2337,19 +2337,6 @@
       "inductor"
     ]
   ],
-  "test_repeated_user_defined_triton_kernel_embed_cubin_True_xpu (__main__.AOTInductorTestABICompatibleGpu)": [
-    "153829",
-    "https://github.com/pytorch/pytorch/issues/153829",
-    [
-      "<fill this in or delete. valid labels are: asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "win",
-      "windows.>"
-    ]
-  ],
   "test_requires_grad_loop (test_jit.TestScript)": [
     "91492",
     "https://github.com/pytorch/pytorch/issues/91492",
@@ -2580,19 +2567,6 @@
       "macos",
       "rocm",
       "linux"
-    ]
-  ],
-  "test_simple_embed_cubin_True_xpu (__main__.AOTInductorTestABICompatibleGpu)": [
-    "153830",
-    "https://github.com/pytorch/pytorch/issues/153830",
-    [
-      "<fill this in or delete. valid labels are: asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "win",
-      "windows.>"
     ]
   ],
   "test_single_linear (quantization.jit.test_quantize_jit.TestQuantizeJit)": [
