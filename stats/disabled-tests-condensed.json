@@ -2552,14 +2552,6 @@
       "macos"
     ]
   ],
-  "test_side_stream_backward_overlap (__main__.TestAutogradStreamSynchronization)": [
-    "153927",
-    "https://github.com/pytorch/pytorch/issues/153927",
-    [
-      "linux",
-      "rocm"
-    ]
-  ],
   "test_simple (__main__.TestNumericDebugger)": [
     "142470",
     "https://github.com/pytorch/pytorch/issues/142470",
