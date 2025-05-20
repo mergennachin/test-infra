@@ -1499,6 +1499,13 @@
       "linux"
     ]
   ],
+  "test_matmul_layer_norm_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "151835",
+    "https://github.com/pytorch/pytorch/issues/151835",
+    [
+      "linux"
+    ]
+  ],
   "test_matmul_triton_kernel_benchmark (__main__.TestKernelBenchmark)": [
     "115002",
     "https://github.com/pytorch/pytorch/issues/115002",
@@ -1833,6 +1840,14 @@
       "slow"
     ]
   ],
+  "test_parity__foreach_abs_fastpath_inplace_cuda_float16 (__main__.TestForeachCUDA)": [
+    "150510",
+    "https://github.com/pytorch/pytorch/issues/150510",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_parity__foreach_acos_fastpath_outplace_cuda_bfloat16 (__main__.TestForeachCUDA)": [
     "151054",
     "https://github.com/pytorch/pytorch/issues/151054",
@@ -2157,13 +2172,6 @@
   "test_remote_cache_load_function_device_cuda_bfloat16_dynamic_False_bundle_triton_True (__main__.TestFxGraphCache)": [
     "145190",
     "https://github.com/pytorch/pytorch/issues/145190",
-    [
-      "rocm"
-    ]
-  ],
-  "test_remote_cache_load_function_device_cuda_bfloat16_dynamic_False_bundle_triton_True_use_static_cuda_launcher_False (__main__.TestFxGraphCache)": [
-    "150444",
-    "https://github.com/pytorch/pytorch/issues/150444",
     [
       "rocm"
     ]
@@ -2622,6 +2630,14 @@
     [
       "rocm",
       "inductor"
+    ]
+  ],
+  "test_sort_transpose_mps (__main__.GPUTests)": [
+    "153939",
+    "https://github.com/pytorch/pytorch/issues/153939",
+    [
+      "mac",
+      "macos"
     ]
   ],
   "test_sparse_add_cuda_float64 (__main__.TestSparseCSRCUDA)": [
