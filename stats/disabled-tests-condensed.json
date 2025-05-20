@@ -170,6 +170,14 @@
       "slow"
     ]
   ],
+  "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_float16 (__main__.TestForeachCUDA)": [
+    "149522",
+    "https://github.com/pytorch/pytorch/issues/149522",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_float64 (__main__.TestForeachCUDA)": [
     "149523",
     "https://github.com/pytorch/pytorch/issues/149523",
@@ -565,13 +573,6 @@
     "https://github.com/pytorch/pytorch/issues/131064",
     [
       "asan",
-      "linux"
-    ]
-  ],
-  "test_cublas_addmm_size_1000_cuda_float16 (__main__.TestMatmulCudaCUDA)": [
-    "151862",
-    "https://github.com/pytorch/pytorch/issues/151862",
-    [
       "linux"
     ]
   ],
@@ -1199,15 +1200,6 @@
   "test_inductor_all_gather_into_tensor_coalesced (__main__.CompileTest)": [
     "146806",
     "https://github.com/pytorch/pytorch/issues/146806",
-    [
-      "linux",
-      "rocm",
-      "inductor"
-    ]
-  ],
-  "test_inductor_all_gather_into_tensor_single (__main__.CompileTest)": [
-    "147707",
-    "https://github.com/pytorch/pytorch/issues/147707",
     [
       "linux",
       "rocm",
@@ -1848,11 +1840,12 @@
       "slow"
     ]
   ],
-  "test_parity__foreach_acos_fastpath_outplace_cuda_bfloat16 (__main__.TestForeachCUDA)": [
-    "151054",
-    "https://github.com/pytorch/pytorch/issues/151054",
+  "test_parity__foreach_abs_fastpath_inplace_cuda_float32 (__main__.TestForeachCUDA)": [
+    "150530",
+    "https://github.com/pytorch/pytorch/issues/150530",
     [
-      "linux"
+      "linux",
+      "slow"
     ]
   ],
   "test_parity__foreach_acos_fastpath_outplace_cuda_complex128 (__main__.TestForeachCUDA)": [
@@ -1996,13 +1989,6 @@
     "https://github.com/pytorch/pytorch/issues/152221",
     [
       "rocm"
-    ]
-  ],
-  "test_per_sample_api_compute_batch_size_not_pytreeable_cpu (__main__.TestExpandedWeightModuleCPU)": [
-    "146972",
-    "https://github.com/pytorch/pytorch/issues/146972",
-    [
-      "dynamo"
     ]
   ],
   "test_prim_grad_undefined (test_jit.TestScript)": [
