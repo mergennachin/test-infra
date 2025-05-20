@@ -1849,9 +1849,9 @@
       "slow"
     ]
   ],
-  "test_parity__foreach_acos_fastpath_outplace_cuda_complex128 (__main__.TestForeachCUDA)": [
-    "151093",
-    "https://github.com/pytorch/pytorch/issues/151093",
+  "test_parity__foreach_abs_fastpath_inplace_cuda_float64 (__main__.TestForeachCUDA)": [
+    "150562",
+    "https://github.com/pytorch/pytorch/issues/150562",
     [
       "linux",
       "slow"
@@ -1990,6 +1990,13 @@
     "https://github.com/pytorch/pytorch/issues/152221",
     [
       "rocm"
+    ]
+  ],
+  "test_per_sample_api_compute_batch_size_not_pytreeable_cpu (__main__.TestExpandedWeightModuleCPU)": [
+    "146972",
+    "https://github.com/pytorch/pytorch/issues/146972",
+    [
+      "dynamo"
     ]
   ],
   "test_prim_grad_undefined (test_jit.TestScript)": [
@@ -2368,6 +2375,14 @@
       "linux",
       "rocm",
       "slow"
+    ]
+  ],
+  "test_roi_align_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "103156",
+    "https://github.com/pytorch/pytorch/issues/103156",
+    [
+      "linux",
+      "rocm"
     ]
   ],
   "test_run_decompositions_map_handle_to_new_nodes (__main__.TestNumericDebugger)": [
