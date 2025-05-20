@@ -1633,6 +1633,14 @@
       "inductor"
     ]
   ],
+  "test_like_rands2_mps (__main__.GPUTests)": [
+    "153911",
+    "https://github.com/pytorch/pytorch/issues/153911",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_linear_and_cel_max_autotune (__main__.InplacePaddingTest)": [
     "145359",
     "https://github.com/pytorch/pytorch/issues/145359",
@@ -1645,6 +1653,14 @@
     "https://github.com/pytorch/pytorch/issues/80338",
     [
       "linux"
+    ]
+  ],
+  "test_log1p_mps (__main__.GPUTests)": [
+    "153908",
+    "https://github.com/pytorch/pytorch/issues/153908",
+    [
+      "mac",
+      "macos"
     ]
   ],
   "test_lowering_to_x86 (__main__.TestQuantizePT2EX86Inductor)": [
@@ -2139,6 +2155,14 @@
     "https://github.com/pytorch/pytorch/issues/146972",
     [
       "dynamo"
+    ]
+  ],
+  "test_pow_int_mps (__main__.GPUTests)": [
+    "153906",
+    "https://github.com/pytorch/pytorch/issues/153906",
+    [
+      "mac",
+      "macos"
     ]
   ],
   "test_prim_grad_undefined (test_jit.TestScript)": [
@@ -2753,6 +2777,14 @@
       "macos"
     ]
   ],
+  "test_silu_mps (__main__.GPUTests)": [
+    "153910",
+    "https://github.com/pytorch/pytorch/issues/153910",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_simple (__main__.TestNumericDebugger)": [
     "142470",
     "https://github.com/pytorch/pytorch/issues/142470",
@@ -2918,6 +2950,14 @@
       "linux"
     ]
   ],
+  "test_tan_mps (__main__.GPUTests)": [
+    "153904",
+    "https://github.com/pytorch/pytorch/issues/153904",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_tcp (__main__.WorkerServerTest)": [
     "144689",
     "https://github.com/pytorch/pytorch/issues/144689",
@@ -3004,6 +3044,14 @@
   "test_tmp_not_defined_issue2_mps (__main__.GPUTests)": [
     "153693",
     "https://github.com/pytorch/pytorch/issues/153693",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
+  "test_to_device_constant_mps (__main__.GPUTests)": [
+    "153909",
+    "https://github.com/pytorch/pytorch/issues/153909",
     [
       "mac",
       "macos"
@@ -3368,6 +3416,22 @@
     "https://github.com/pytorch/pytorch/issues/141484",
     [
       "linux"
+    ]
+  ],
+  "test_weight_norm_bwd_mps (__main__.GPUTests)": [
+    "153905",
+    "https://github.com/pytorch/pytorch/issues/153905",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
+  "test_where_broadcast_mps (__main__.GPUTests)": [
+    "153907",
+    "https://github.com/pytorch/pytorch/issues/153907",
+    [
+      "mac",
+      "macos"
     ]
   ],
   "test_where_with_logical_op_mps (__main__.GPUTests)": [
