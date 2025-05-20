@@ -900,6 +900,14 @@
       "macos"
     ]
   ],
+  "test_dtypeview_int32_float16_mps (__main__.GPUTests)": [
+    "153912",
+    "https://github.com/pytorch/pytorch/issues/153912",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_dunder_round_edgecases_val_2147483647_ndigits_-1 (__main__.TestNonarrayArgs)": [
     "116121",
     "https://github.com/pytorch/pytorch/issues/116121",
@@ -1848,6 +1856,14 @@
       "slow"
     ]
   ],
+  "test_mm_views_mps (__main__.GPUTests)": [
+    "153914",
+    "https://github.com/pytorch/pytorch/issues/153914",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_multi_output_unbacked_custom_op_cuda (__main__.TestInductorDynamicCUDA)": [
     "135755",
     "https://github.com/pytorch/pytorch/issues/135755",
@@ -1984,9 +2000,9 @@
       "slow"
     ]
   ],
-  "test_parity__foreach_acos_fastpath_inplace_cuda_float32 (__main__.TestForeachCUDA)": [
-    "151003",
-    "https://github.com/pytorch/pytorch/issues/151003",
+  "test_parity__foreach_abs_fastpath_inplace_cuda_bool (__main__.TestForeachCUDA)": [
+    "150468",
+    "https://github.com/pytorch/pytorch/issues/150468",
     [
       "linux",
       "slow"
@@ -2322,6 +2338,14 @@
       "rocm"
     ]
   ],
+  "test_reduction2_mps (__main__.GPUTests)": [
+    "153915",
+    "https://github.com/pytorch/pytorch/issues/153915",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_reentrant_parent_error_on_cpu_cuda (__main__.TestAutogradDeviceTypeCUDA)": [
     "86735",
     "https://github.com/pytorch/pytorch/issues/86735",
@@ -2385,6 +2409,14 @@
     "https://github.com/pytorch/pytorch/issues/69178",
     [
       "mac"
+    ]
+  ],
+  "test_remove_no_ops_mps (__main__.GPUTests)": [
+    "153918",
+    "https://github.com/pytorch/pytorch/issues/153918",
+    [
+      "mac",
+      "macos"
     ]
   ],
   "test_remove_noop_slice1_cpu (__main__.CpuTests)": [
@@ -2823,6 +2855,14 @@
       "macos"
     ]
   ],
+  "test_slice_mutation1_mps (__main__.GPUTests)": [
+    "153913",
+    "https://github.com/pytorch/pytorch/issues/153913",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_slice_scatter_reinplace_cuda (__main__.GPUTests)": [
     "145189",
     "https://github.com/pytorch/pytorch/issues/145189",
@@ -2878,6 +2918,14 @@
   "test_split_cumsum_mps (__main__.GPUTests)": [
     "153804",
     "https://github.com/pytorch/pytorch/issues/153804",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
+  "test_split_with_list_mps (__main__.GPUTests)": [
+    "153917",
+    "https://github.com/pytorch/pytorch/issues/153917",
     [
       "mac",
       "macos"
@@ -3052,6 +3100,14 @@
   "test_to_device_constant_mps (__main__.GPUTests)": [
     "153909",
     "https://github.com/pytorch/pytorch/issues/153909",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
+  "test_to_device_mps (__main__.GPUTests)": [
+    "153916",
+    "https://github.com/pytorch/pytorch/issues/153916",
     [
       "mac",
       "macos"
