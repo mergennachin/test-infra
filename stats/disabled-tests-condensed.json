@@ -1132,17 +1132,6 @@
       "linux"
     ]
   ],
-  "test_hook_with_closure (__main__.HooksTests)": [
-    "153032",
-    "https://github.com/pytorch/pytorch/issues/153032",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm"
-    ]
-  ],
   "test_hook_with_nested_closure (__main__.HooksTests)": [
     "153045",
     "https://github.com/pytorch/pytorch/issues/153045",
@@ -1857,9 +1846,9 @@
       "slow"
     ]
   ],
-  "test_parity__foreach_acos_fastpath_outplace_cuda_complex64 (__main__.TestForeachCUDA)": [
-    "151099",
-    "https://github.com/pytorch/pytorch/issues/151099",
+  "test_parity__foreach_abs_fastpath_inplace_cuda_int16 (__main__.TestForeachCUDA)": [
+    "150590",
+    "https://github.com/pytorch/pytorch/issues/150590",
     [
       "linux"
     ]
@@ -2173,6 +2162,13 @@
   "test_remote_cache_load_function_device_cuda_float32_dynamic_False_bundle_triton_False (__main__.TestFxGraphCache)": [
     "145212",
     "https://github.com/pytorch/pytorch/issues/145212",
+    [
+      "rocm"
+    ]
+  ],
+  "test_remote_cache_load_function_device_cuda_float32_dynamic_False_bundle_triton_False_use_static_cuda_launcher_False (__main__.TestFxGraphCache)": [
+    "151074",
+    "https://github.com/pytorch/pytorch/issues/151074",
     [
       "rocm"
     ]
