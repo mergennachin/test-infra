@@ -1116,13 +1116,6 @@
       "linux"
     ]
   ],
-  "test_impl_device_cpu (__main__.TestCustomOp)": [
-    "153763",
-    "https://github.com/pytorch/pytorch/issues/153763",
-    [
-      "dynamo"
-    ]
-  ],
   "test_ind_worker_queue (__main__.TestIndividualWorkerQueue)": [
     "68643",
     "https://github.com/pytorch/pytorch/issues/68643",
