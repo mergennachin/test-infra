@@ -324,14 +324,6 @@
       "inductor"
     ]
   ],
-  "test_comprehensive_baddbmm_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
-    "140076",
-    "https://github.com/pytorch/pytorch/issues/140076",
-    [
-      "inductor",
-      "linux"
-    ]
-  ],
   "test_comprehensive_complex_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
     "140367",
     "https://github.com/pytorch/pytorch/issues/140367",
@@ -1836,6 +1828,14 @@
   "test_parity__foreach_abs_fastpath_inplace_cuda_int32 (__main__.TestForeachCUDA)": [
     "150602",
     "https://github.com/pytorch/pytorch/issues/150602",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
+  "test_parity__foreach_abs_fastpath_inplace_cuda_int64 (__main__.TestForeachCUDA)": [
+    "150617",
+    "https://github.com/pytorch/pytorch/issues/150617",
     [
       "linux",
       "slow"
