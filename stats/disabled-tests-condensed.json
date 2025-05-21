@@ -489,14 +489,6 @@
       "inductor"
     ]
   ],
-  "test_comprehensive_signal_windows_general_cosine_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
-    "139682",
-    "https://github.com/pytorch/pytorch/issues/139682",
-    [
-      "linux",
-      "inductor"
-    ]
-  ],
   "test_comprehensive_special_xlog1py_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
     "140648",
     "https://github.com/pytorch/pytorch/issues/140648",
@@ -1130,18 +1122,6 @@
     "https://github.com/pytorch/pytorch/issues/105024",
     [
       "linux"
-    ]
-  ],
-  "test_hook_with_nested_closure (__main__.HooksTests)": [
-    "153045",
-    "https://github.com/pytorch/pytorch/issues/153045",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "slow"
     ]
   ],
   "test_impl_device_cpu (__main__.TestCustomOp)": [
@@ -1849,13 +1829,6 @@
   "test_parity__foreach_abs_fastpath_inplace_cuda_int16 (__main__.TestForeachCUDA)": [
     "150590",
     "https://github.com/pytorch/pytorch/issues/150590",
-    [
-      "linux"
-    ]
-  ],
-  "test_parity__foreach_acos_fastpath_outplace_cuda_float16 (__main__.TestForeachCUDA)": [
-    "151114",
-    "https://github.com/pytorch/pytorch/issues/151114",
     [
       "linux"
     ]
