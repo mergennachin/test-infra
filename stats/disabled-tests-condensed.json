@@ -194,6 +194,22 @@
       "slow"
     ]
   ],
+  "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_int16 (__main__.TestForeachCUDA)": [
+    "149627",
+    "https://github.com/pytorch/pytorch/issues/149627",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
+  "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_int32 (__main__.TestForeachCUDA)": [
+    "149628",
+    "https://github.com/pytorch/pytorch/issues/149628",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_builtin_remote_message_dropped_timeout_to_self (__main__.FaultyFaultyAgentRpcTest)": [
     "69179",
     "https://github.com/pytorch/pytorch/issues/69179",
@@ -1412,13 +1428,6 @@
       "linux"
     ]
   ],
-  "test_lowering_to_x86 (__main__.TestQuantizePT2EX86Inductor)": [
-    "153140",
-    "https://github.com/pytorch/pytorch/issues/153140",
-    [
-      "linux"
-    ]
-  ],
   "test_matmul_layer_norm_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
     "151835",
     "https://github.com/pytorch/pytorch/issues/151835",
@@ -1818,6 +1827,14 @@
   "test_parity__foreach_abs_fastpath_inplace_cuda_uint8 (__main__.TestForeachCUDA)": [
     "150662",
     "https://github.com/pytorch/pytorch/issues/150662",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
+  "test_parity__foreach_abs_fastpath_outplace_cuda_bfloat16 (__main__.TestForeachCUDA)": [
+    "150668",
+    "https://github.com/pytorch/pytorch/issues/150668",
     [
       "linux",
       "slow"
