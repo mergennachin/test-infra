@@ -1299,17 +1299,6 @@
       "rocm"
     ]
   ],
-  "test_intermediary_hooks_same_on_inductor (__main__.HooksTests)": [
-    "153129",
-    "https://github.com/pytorch/pytorch/issues/153129",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm"
-    ]
-  ],
   "test_intermediate_hook_with_closure_aot (__main__.HooksTests)": [
     "153141",
     "https://github.com/pytorch/pytorch/issues/153141",
@@ -1675,18 +1664,6 @@
     "https://github.com/pytorch/pytorch/issues/131089",
     [
       "dynamo"
-    ]
-  ],
-  "test_nn_module (__main__.TestGuardSerialization)": [
-    "153120",
-    "https://github.com/pytorch/pytorch/issues/153120",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "slow"
     ]
   ],
   "test_nnc_correctness_frac_cpu_bfloat16 (__main__.TestNNCOpInfoCPU)": [
@@ -3036,6 +3013,15 @@
     "113850",
     "https://github.com/pytorch/pytorch/issues/113850",
     [
+      "linux"
+    ]
+  ],
+  "test_wait_tensor (__main__.CompileTest)": [
+    "148014",
+    "https://github.com/pytorch/pytorch/issues/148014",
+    [
+      "inductor",
+      "rocm",
       "linux"
     ]
   ],
