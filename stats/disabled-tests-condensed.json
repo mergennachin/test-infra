@@ -1231,15 +1231,6 @@
       "linux"
     ]
   ],
-  "test_inductor_reduce_scatter_tensor_coalesced (__main__.CompileTest)": [
-    "147887",
-    "https://github.com/pytorch/pytorch/issues/147887",
-    [
-      "inductor",
-      "rocm",
-      "linux"
-    ]
-  ],
   "test_inductor_reduce_scatter_tensor_single (__main__.CompileTest)": [
     "147911",
     "https://github.com/pytorch/pytorch/issues/147911",
@@ -1293,18 +1284,6 @@
     "https://github.com/pytorch/pytorch/issues/146007",
     [
       "rocm"
-    ]
-  ],
-  "test_intermediate_hook_with_closure_eager (__main__.HooksTests)": [
-    "153160",
-    "https://github.com/pytorch/pytorch/issues/153160",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "slow"
     ]
   ],
   "test_intra_node_comm_all_reduce (__main__.CommTest)": [
@@ -1820,11 +1799,12 @@
       "slow"
     ]
   ],
-  "test_parity__foreach_add_fastpath_inplace_cuda_bool (__main__.TestForeachCUDA)": [
-    "151268",
-    "https://github.com/pytorch/pytorch/issues/151268",
+  "test_parity__foreach_abs_fastpath_outplace_cuda_bool (__main__.TestForeachCUDA)": [
+    "150680",
+    "https://github.com/pytorch/pytorch/issues/150680",
     [
-      "linux"
+      "linux",
+      "slow"
     ]
   ],
   "test_parity__foreach_add_fastpath_inplace_cuda_complex128 (__main__.TestForeachCUDA)": [
