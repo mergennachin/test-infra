@@ -1299,18 +1299,6 @@
       "rocm"
     ]
   ],
-  "test_intermediate_hook_with_closure_aot (__main__.HooksTests)": [
-    "153141",
-    "https://github.com/pytorch/pytorch/issues/153141",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_intermediate_hook_with_closure_eager (__main__.HooksTests)": [
     "153160",
     "https://github.com/pytorch/pytorch/issues/153160",
@@ -1831,7 +1819,8 @@
     "150662",
     "https://github.com/pytorch/pytorch/issues/150662",
     [
-      "linux"
+      "linux",
+      "slow"
     ]
   ],
   "test_parity__foreach_add_fastpath_inplace_cuda_bool (__main__.TestForeachCUDA)": [
