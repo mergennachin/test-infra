@@ -1830,11 +1830,12 @@
       "slow"
     ]
   ],
-  "test_parity__foreach_acos_fastpath_outplace_cuda_float64 (__main__.TestForeachCUDA)": [
-    "151214",
-    "https://github.com/pytorch/pytorch/issues/151214",
+  "test_parity__foreach_abs_fastpath_inplace_cuda_int8 (__main__.TestForeachCUDA)": [
+    "150630",
+    "https://github.com/pytorch/pytorch/issues/150630",
     [
-      "linux"
+      "linux",
+      "slow"
     ]
   ],
   "test_parity__foreach_add_fastpath_inplace_cuda_bfloat16 (__main__.TestForeachCUDA)": [
@@ -3035,15 +3036,6 @@
     "113850",
     "https://github.com/pytorch/pytorch/issues/113850",
     [
-      "linux"
-    ]
-  ],
-  "test_wait_tensor (__main__.CompileTest)": [
-    "148014",
-    "https://github.com/pytorch/pytorch/issues/148014",
-    [
-      "inductor",
-      "rocm",
       "linux"
     ]
   ],
