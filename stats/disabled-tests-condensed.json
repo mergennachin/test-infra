@@ -635,6 +635,14 @@
       "linux"
     ]
   ],
+  "test_deterministic_algorithms (__main__.TestGuardSerialization)": [
+    "154090",
+    "https://github.com/pytorch/pytorch/issues/154090",
+    [
+      "asan",
+      "linux"
+    ]
+  ],
   "test_dict_contains (__main__.TestGuardSerialization)": [
     "153530",
     "https://github.com/pytorch/pytorch/issues/153530",
@@ -1289,18 +1297,6 @@
     "https://github.com/pytorch/pytorch/issues/146007",
     [
       "rocm"
-    ]
-  ],
-  "test_intermediary_hooks_same_on_aot_eager (__main__.HooksTests)": [
-    "153100",
-    "https://github.com/pytorch/pytorch/issues/153100",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "slow"
     ]
   ],
   "test_intermediary_hooks_same_on_inductor (__main__.HooksTests)": [
