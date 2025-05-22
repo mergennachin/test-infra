@@ -1666,6 +1666,18 @@
       "dynamo"
     ]
   ],
+  "test_nn_module (__main__.TestGuardSerialization)": [
+    "153120",
+    "https://github.com/pytorch/pytorch/issues/153120",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_nnc_correctness_frac_cpu_bfloat16 (__main__.TestNNCOpInfoCPU)": [
     "104454",
     "https://github.com/pytorch/pytorch/issues/104454",
@@ -1815,9 +1827,9 @@
       "slow"
     ]
   ],
-  "test_parity__foreach_add_fastpath_inplace_cuda_bfloat16 (__main__.TestForeachCUDA)": [
-    "151228",
-    "https://github.com/pytorch/pytorch/issues/151228",
+  "test_parity__foreach_abs_fastpath_inplace_cuda_uint8 (__main__.TestForeachCUDA)": [
+    "150662",
+    "https://github.com/pytorch/pytorch/issues/150662",
     [
       "linux"
     ]
@@ -2116,13 +2128,6 @@
   "test_remote_cache_load_function_device_cuda_float32_dynamic_False_bundle_triton_True (__main__.TestFxGraphCache)": [
     "145191",
     "https://github.com/pytorch/pytorch/issues/145191",
-    [
-      "rocm"
-    ]
-  ],
-  "test_remote_cache_load_function_device_cuda_float32_dynamic_False_bundle_triton_True_use_static_cuda_launcher_False (__main__.TestFxGraphCache)": [
-    "152370",
-    "https://github.com/pytorch/pytorch/issues/152370",
     [
       "rocm"
     ]
@@ -2850,6 +2855,13 @@
       "linux",
       "rocm",
       "slow"
+    ]
+  ],
+  "test_triton_template_generated_code_caching (__main__.TestMaxAutotune)": [
+    "154108",
+    "https://github.com/pytorch/pytorch/issues/154108",
+    [
+      "rocm"
     ]
   ],
   "test_unshard_async (__main__.TestFullyShardUnshardMultiProcess)": [
