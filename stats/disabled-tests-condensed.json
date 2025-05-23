@@ -1231,6 +1231,15 @@
       "linux"
     ]
   ],
+  "test_inductor_reduce_scatter_tensor_coalesced (__main__.CompileTest)": [
+    "147887",
+    "https://github.com/pytorch/pytorch/issues/147887",
+    [
+      "inductor",
+      "rocm",
+      "linux"
+    ]
+  ],
   "test_inductor_reduce_scatter_tensor_single (__main__.CompileTest)": [
     "147911",
     "https://github.com/pytorch/pytorch/issues/147911",
@@ -1641,18 +1650,6 @@
       "asan"
     ]
   ],
-  "test_no_recompile_on_hook_identity_change (__main__.HooksTests)": [
-    "153207",
-    "https://github.com/pytorch/pytorch/issues/153207",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_non_contiguous_input_mm_plus_mm (__main__.TestMaxAutotune)": [
     "126867",
     "https://github.com/pytorch/pytorch/issues/126867",
@@ -1807,9 +1804,9 @@
       "slow"
     ]
   ],
-  "test_parity__foreach_add_fastpath_inplace_cuda_complex128 (__main__.TestForeachCUDA)": [
-    "151300",
-    "https://github.com/pytorch/pytorch/issues/151300",
+  "test_parity__foreach_abs_fastpath_outplace_cuda_float16 (__main__.TestForeachCUDA)": [
+    "150712",
+    "https://github.com/pytorch/pytorch/issues/150712",
     [
       "linux",
       "slow"
