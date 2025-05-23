@@ -1610,6 +1610,13 @@
       "dynamo"
     ]
   ],
+  "test_mutation_rename (__main__.TestMaxAutotune)": [
+    "154218",
+    "https://github.com/pytorch/pytorch/issues/154218",
+    [
+      "linux"
+    ]
+  ],
   "test_nested (quantization.jit.test_quantize_jit.TestQuantizeJit)": [
     "105120",
     "https://github.com/pytorch/pytorch/issues/105120",
