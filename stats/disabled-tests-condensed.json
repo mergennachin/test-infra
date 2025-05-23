@@ -1015,14 +1015,6 @@
       "slow"
     ]
   ],
-  "test_foreach_reduce_large_input__foreach_max_w_empty_False_cuda_bool (__main__.TestForeachCUDA)": [
-    "151229",
-    "https://github.com/pytorch/pytorch/issues/151229",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_foreach_reduce_large_input__foreach_max_w_empty_False_cuda_float16 (__main__.TestForeachCUDA)": [
     "153379",
     "https://github.com/pytorch/pytorch/issues/153379",
@@ -1828,11 +1820,12 @@
       "slow"
     ]
   ],
-  "test_parity__foreach_add_fastpath_inplace_cuda_float16 (__main__.TestForeachCUDA)": [
-    "153250",
-    "https://github.com/pytorch/pytorch/issues/153250",
+  "test_parity__foreach_abs_fastpath_outplace_cuda_float64 (__main__.TestForeachCUDA)": [
+    "150752",
+    "https://github.com/pytorch/pytorch/issues/150752",
     [
-      "linux"
+      "linux",
+      "slow"
     ]
   ],
   "test_parity__foreach_add_fastpath_inplace_cuda_float32 (__main__.TestForeachCUDA)": [
@@ -1999,6 +1992,15 @@
     "https://github.com/pytorch/pytorch/issues/84937",
     [
       "asan"
+    ]
+  ],
+  "test_ranks_and_tag (__main__.CompileTest)": [
+    "147974",
+    "https://github.com/pytorch/pytorch/issues/147974",
+    [
+      "inductor",
+      "rocm",
+      "linux"
     ]
   ],
   "test_re_export_preserve_handle (__main__.TestNumericDebugger)": [
