@@ -1986,15 +1986,6 @@
       "asan"
     ]
   ],
-  "test_ranks_and_tag (__main__.CompileTest)": [
-    "147974",
-    "https://github.com/pytorch/pytorch/issues/147974",
-    [
-      "inductor",
-      "rocm",
-      "linux"
-    ]
-  ],
   "test_re_export_preserve_handle (__main__.TestNumericDebugger)": [
     "144898",
     "https://github.com/pytorch/pytorch/issues/144898",
@@ -2035,15 +2026,6 @@
     "152367",
     "https://github.com/pytorch/pytorch/issues/152367",
     [
-      "rocm"
-    ]
-  ],
-  "test_reentrant_parent_error_on_cpu_cuda (__main__.TestAutogradDeviceTypeCUDA)": [
-    "86735",
-    "https://github.com/pytorch/pytorch/issues/86735",
-    [
-      "win",
-      "windows",
       "rocm"
     ]
   ],
