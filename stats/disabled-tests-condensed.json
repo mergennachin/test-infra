@@ -2809,7 +2809,8 @@
     "154108",
     "https://github.com/pytorch/pytorch/issues/154108",
     [
-      "rocm"
+      "rocm",
+      "xpu"
     ]
   ],
   "test_unshard_async (__main__.TestFullyShardUnshardMultiProcess)": [
