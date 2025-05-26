@@ -2220,15 +2220,6 @@
       "macos"
     ]
   ],
-  "test_rng (__main__.TestCompilerBisector)": [
-    "139590",
-    "https://github.com/pytorch/pytorch/issues/139590",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_roi_align_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
     "103156",
     "https://github.com/pytorch/pytorch/issues/103156",
