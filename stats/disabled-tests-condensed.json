@@ -1073,6 +1073,13 @@
       "mac"
     ]
   ],
+  "test_grad_with_manual_interleaved_ScheduleClass0_use_new_runtime_True (__main__.ScheduleTest)": [
+    "154373",
+    "https://github.com/pytorch/pytorch/issues/154373",
+    [
+      "linux"
+    ]
+  ],
   "test_graph_concurrent_replay (__main__.TestCuda)": [
     "104055",
     "https://github.com/pytorch/pytorch/issues/104055",
@@ -1154,15 +1161,6 @@
       "linux",
       "rocm",
       "inductor"
-    ]
-  ],
-  "test_inductor_all_reduce_non_contig_input (__main__.CompileTest)": [
-    "147733",
-    "https://github.com/pytorch/pytorch/issues/147733",
-    [
-      "inductor",
-      "linux",
-      "rocm"
     ]
   ],
   "test_inductor_all_reduce_single (__main__.CompileTest)": [
@@ -1797,13 +1795,6 @@
       "linux"
     ]
   ],
-  "test_parity__foreach_add_fastpath_inplace_cuda_float64 (__main__.TestForeachCUDA)": [
-    "153395",
-    "https://github.com/pytorch/pytorch/issues/153395",
-    [
-      "linux"
-    ]
-  ],
   "test_parity__foreach_add_fastpath_inplace_cuda_int16 (__main__.TestForeachCUDA)": [
     "153440",
     "https://github.com/pytorch/pytorch/issues/153440",
@@ -2220,6 +2211,15 @@
       "macos"
     ]
   ],
+  "test_rng (__main__.TestCompilerBisector)": [
+    "139590",
+    "https://github.com/pytorch/pytorch/issues/139590",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_roi_align_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
     "103156",
     "https://github.com/pytorch/pytorch/issues/103156",
@@ -2566,13 +2566,6 @@
     "https://github.com/pytorch/pytorch/issues/91497",
     [
       "linux"
-    ]
-  ],
-  "test_tensor_subclasses (__main__.TestScript)": [
-    "119949",
-    "https://github.com/pytorch/pytorch/issues/119949",
-    [
-      "dynamo"
     ]
   ],
   "test_tensorboard_trace_handler (__main__.TestProfiler)": [
