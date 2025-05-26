@@ -1295,15 +1295,6 @@
       "dynamo"
     ]
   ],
-  "test_item_to_inputs_kernel_nobreak_cuda (__main__.TestInductorDynamicCUDA)": [
-    "119538",
-    "https://github.com/pytorch/pytorch/issues/119538",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_jacobian_vectorize_raises_no_warnings_logging_tensor (__main__.TestAutogradFunctional)": [
     "153707",
     "https://github.com/pytorch/pytorch/issues/153707",
@@ -2996,18 +2987,6 @@
     "153712",
     "https://github.com/pytorch/pytorch/issues/153712",
     [
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_while_loop_schema_gen (__main__.TestHopSchema)": [
-    "141202",
-    "https://github.com/pytorch/pytorch/issues/141202",
-    [
-      "asan",
-      "linux",
-      "rocm",
-      "slow",
       "mac",
       "macos"
     ]
