@@ -1220,6 +1220,15 @@
       "rocm"
     ]
   ],
+  "test_inductor_inplace_op_on_view (__main__.CompileTest)": [
+    "147852",
+    "https://github.com/pytorch/pytorch/issues/147852",
+    [
+      "inductor",
+      "rocm",
+      "linux"
+    ]
+  ],
   "test_inductor_reduce_scatter_tensor_coalesced (__main__.CompileTest)": [
     "147887",
     "https://github.com/pytorch/pytorch/issues/147887",
@@ -2011,6 +2020,15 @@
     "152367",
     "https://github.com/pytorch/pytorch/issues/152367",
     [
+      "rocm"
+    ]
+  ],
+  "test_reentrant_parent_error_on_cpu_cuda (__main__.TestAutogradDeviceTypeCUDA)": [
+    "86735",
+    "https://github.com/pytorch/pytorch/issues/86735",
+    [
+      "win",
+      "windows",
       "rocm"
     ]
   ],
