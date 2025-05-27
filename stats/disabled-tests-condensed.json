@@ -1080,6 +1080,13 @@
       "linux"
     ]
   ],
+  "test_grad_with_manual_interleaved_ScheduleClass1_use_new_runtime_False (__main__.ScheduleTest)": [
+    "154391",
+    "https://github.com/pytorch/pytorch/issues/154391",
+    [
+      "linux"
+    ]
+  ],
   "test_graph_concurrent_replay (__main__.TestCuda)": [
     "104055",
     "https://github.com/pytorch/pytorch/issues/104055",
@@ -1161,6 +1168,15 @@
       "linux",
       "rocm",
       "inductor"
+    ]
+  ],
+  "test_inductor_all_reduce_non_contig_input (__main__.CompileTest)": [
+    "147733",
+    "https://github.com/pytorch/pytorch/issues/147733",
+    [
+      "inductor",
+      "linux",
+      "rocm"
     ]
   ],
   "test_inductor_all_reduce_single (__main__.CompileTest)": [
@@ -1779,16 +1795,9 @@
       "slow"
     ]
   ],
-  "test_parity__foreach_add_fastpath_inplace_cuda_float32 (__main__.TestForeachCUDA)": [
-    "153284",
-    "https://github.com/pytorch/pytorch/issues/153284",
-    [
-      "linux"
-    ]
-  ],
-  "test_parity__foreach_add_fastpath_inplace_cuda_int16 (__main__.TestForeachCUDA)": [
-    "153440",
-    "https://github.com/pytorch/pytorch/issues/153440",
+  "test_parity__foreach_abs_fastpath_outplace_cuda_int32 (__main__.TestForeachCUDA)": [
+    "150800",
+    "https://github.com/pytorch/pytorch/issues/150800",
     [
       "linux"
     ]
@@ -2557,6 +2566,13 @@
     "https://github.com/pytorch/pytorch/issues/91497",
     [
       "linux"
+    ]
+  ],
+  "test_tensor_subclasses (__main__.TestScript)": [
+    "119949",
+    "https://github.com/pytorch/pytorch/issues/119949",
+    [
+      "dynamo"
     ]
   ],
   "test_tensorboard_trace_handler (__main__.TestProfiler)": [
