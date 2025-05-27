@@ -1188,6 +1188,15 @@
       "linux"
     ]
   ],
+  "test_inductor_all_to_all_single (__main__.CompileTest)": [
+    "147795",
+    "https://github.com/pytorch/pytorch/issues/147795",
+    [
+      "inductor",
+      "linux",
+      "rocm"
+    ]
+  ],
   "test_inductor_broadcast (__main__.CompileTest)": [
     "147816",
     "https://github.com/pytorch/pytorch/issues/147816",
@@ -1799,7 +1808,8 @@
     "150800",
     "https://github.com/pytorch/pytorch/issues/150800",
     [
-      "linux"
+      "linux",
+      "slow"
     ]
   ],
   "test_parity__foreach_add_fastpath_inplace_cuda_int32 (__main__.TestForeachCUDA)": [
