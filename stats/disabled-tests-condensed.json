@@ -1001,14 +1001,6 @@
       "slow"
     ]
   ],
-  "test_foreach_reduce_large_input__foreach_max_w_empty_False_cuda_float32 (__main__.TestForeachCUDA)": [
-    "153470",
-    "https://github.com/pytorch/pytorch/issues/153470",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_foreach_reduce_large_input__foreach_max_w_empty_False_cuda_float64 (__main__.TestForeachCUDA)": [
     "153544",
     "https://github.com/pytorch/pytorch/issues/153544",
@@ -1098,6 +1090,13 @@
   "test_grad_with_manual_interleaved_ScheduleClass1_use_new_runtime_True (__main__.ScheduleTest)": [
     "154408",
     "https://github.com/pytorch/pytorch/issues/154408",
+    [
+      "linux"
+    ]
+  ],
+  "test_grad_with_manual_interleaved_ScheduleClass2_use_new_runtime_False (__main__.ScheduleTest)": [
+    "154443",
+    "https://github.com/pytorch/pytorch/issues/154443",
     [
       "linux"
     ]
@@ -1221,27 +1220,9 @@
       "rocm"
     ]
   ],
-  "test_inductor_inplace_op_on_view (__main__.CompileTest)": [
-    "147852",
-    "https://github.com/pytorch/pytorch/issues/147852",
-    [
-      "inductor",
-      "rocm",
-      "linux"
-    ]
-  ],
   "test_inductor_reduce_scatter_tensor_coalesced (__main__.CompileTest)": [
     "147887",
     "https://github.com/pytorch/pytorch/issues/147887",
-    [
-      "inductor",
-      "rocm",
-      "linux"
-    ]
-  ],
-  "test_inductor_reduce_scatter_tensor_single (__main__.CompileTest)": [
-    "147911",
-    "https://github.com/pytorch/pytorch/issues/147911",
     [
       "inductor",
       "rocm",
@@ -1835,16 +1816,17 @@
       "slow"
     ]
   ],
+  "test_parity__foreach_abs_fastpath_outplace_cuda_int8 (__main__.TestForeachCUDA)": [
+    "150837",
+    "https://github.com/pytorch/pytorch/issues/150837",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_parity__foreach_add_fastpath_inplace_cuda_int32 (__main__.TestForeachCUDA)": [
     "153464",
     "https://github.com/pytorch/pytorch/issues/153464",
-    [
-      "linux"
-    ]
-  ],
-  "test_parity__foreach_add_fastpath_inplace_cuda_int64 (__main__.TestForeachCUDA)": [
-    "153482",
-    "https://github.com/pytorch/pytorch/issues/153482",
     [
       "linux"
     ]
