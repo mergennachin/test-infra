@@ -697,13 +697,6 @@
       "linux"
     ]
   ],
-  "test_dict_contains (__main__.TestGuardSerialization)": [
-    "153530",
-    "https://github.com/pytorch/pytorch/issues/153530",
-    [
-      "linux"
-    ]
-  ],
   "test_dict_keys_match (__main__.TestGuardSerialization)": [
     "153617",
     "https://github.com/pytorch/pytorch/issues/153617",
@@ -1619,6 +1612,15 @@
       "dynamo"
     ]
   ],
+  "test_multi_output_unbacked_custom_op_cuda (__main__.TestInductorDynamicCUDA)": [
+    "135755",
+    "https://github.com/pytorch/pytorch/issues/135755",
+    [
+      "rocm",
+      "linux",
+      "slow"
+    ]
+  ],
   "test_multiple_module (__main__.TestInvokeSubgraphExportStrict)": [
     "150877",
     "https://github.com/pytorch/pytorch/issues/150877",
@@ -1888,13 +1890,6 @@
   "test_parity__foreach_add_fastpath_inplace_cuda_int32 (__main__.TestForeachCUDA)": [
     "153464",
     "https://github.com/pytorch/pytorch/issues/153464",
-    [
-      "linux"
-    ]
-  ],
-  "test_parity__foreach_add_fastpath_outplace_cuda_bfloat16 (__main__.TestForeachCUDA)": [
-    "153537",
-    "https://github.com/pytorch/pytorch/issues/153537",
     [
       "linux"
     ]
