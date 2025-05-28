@@ -779,6 +779,20 @@
       "dynamo"
     ]
   ],
+  "test_duplicate_registration_impl (__main__.TestOpProfiles)": [
+    "151281",
+    "https://github.com/pytorch/pytorch/issues/151281",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "win",
+      "windows",
+      "slow"
+    ]
+  ],
   "test_dynamic_shape_m_20480_k_5_n_2_should_decompose_True_has_bias_False (__main__.TestDecomposeMemMM)": [
     "153735",
     "https://github.com/pytorch/pytorch/issues/153735",
@@ -1234,6 +1248,15 @@
   "test_inductor_reduce_scatter_tensor_single (__main__.CompileTest)": [
     "147911",
     "https://github.com/pytorch/pytorch/issues/147911",
+    [
+      "inductor",
+      "rocm",
+      "linux"
+    ]
+  ],
+  "test_inductor_reuse_buffer_after_inplace_collective (__main__.CompileTest)": [
+    "147950",
+    "https://github.com/pytorch/pytorch/issues/147950",
     [
       "inductor",
       "rocm",
@@ -2203,6 +2226,16 @@
     "https://github.com/pytorch/pytorch/issues/144922",
     [
       "rocm"
+    ]
+  ],
+  "test_repeated_calling_cuda (__main__.AOTInductorTestABICompatibleGpu)": [
+    "146185",
+    "https://github.com/pytorch/pytorch/issues/146185",
+    [
+      "linux",
+      "rocm",
+      "slow",
+      "inductor"
     ]
   ],
   "test_requires_grad_loop (test_jit.TestScript)": [
