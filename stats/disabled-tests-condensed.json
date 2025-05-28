@@ -608,6 +608,13 @@
       "linux"
     ]
   ],
+  "test_cublas_addmm_reduced_precision_fp16_accumulate_size_10000_backend_cublas_cuda_float16 (__main__.TestMatmulCudaCUDA)": [
+    "154546",
+    "https://github.com/pytorch/pytorch/issues/154546",
+    [
+      "linux"
+    ]
+  ],
   "test_cublas_addmm_reduced_precision_fp16_accumulate_size_10000_backend_cublaslt_cuda_float16 (__main__.TestMatmulCudaCUDA)": [
     "154499",
     "https://github.com/pytorch/pytorch/issues/154499",
@@ -898,20 +905,6 @@
       "windows"
     ]
   ],
-  "test_fake_registration (__main__.TestOpProfiles)": [
-    "151301",
-    "https://github.com/pytorch/pytorch/issues/151301",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "slow",
-      "win",
-      "windows"
-    ]
-  ],
   "test_flop_counter_op_options1_cuda_float16 (__main__.TestSchedulerCUDA)": [
     "153494",
     "https://github.com/pytorch/pytorch/issues/153494",
@@ -1011,14 +1004,6 @@
   "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_uint8 (__main__.TestForeachCUDA)": [
     "150417",
     "https://github.com/pytorch/pytorch/issues/150417",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
-  "test_foreach_reduce_large_input__foreach_max_w_empty_False_cuda_float64 (__main__.TestForeachCUDA)": [
-    "153544",
-    "https://github.com/pytorch/pytorch/issues/153544",
     [
       "linux",
       "slow"
@@ -1424,13 +1409,6 @@
   "test_matmul_triton_kernel_benchmark (__main__.TestKernelBenchmark)": [
     "115002",
     "https://github.com/pytorch/pytorch/issues/115002",
-    [
-      "rocm"
-    ]
-  ],
-  "test_matrix_rank_basic_cuda_float32 (__main__.TestLinalgCUDA)": [
-    "150406",
-    "https://github.com/pytorch/pytorch/issues/150406",
     [
       "rocm"
     ]
@@ -2127,15 +2105,6 @@
       "rocm"
     ]
   ],
-  "test_remove_noop_slice1_cuda (__main__.GPUTests)": [
-    "151381",
-    "https://github.com/pytorch/pytorch/issues/151381",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_remove_noop_slice_cpu (__main__.CpuTests)": [
     "151384",
     "https://github.com/pytorch/pytorch/issues/151384",
@@ -2145,15 +2114,6 @@
       "rocm",
       "mac",
       "macos"
-    ]
-  ],
-  "test_remove_noop_slice_cuda (__main__.GPUTests)": [
-    "151383",
-    "https://github.com/pytorch/pytorch/issues/151383",
-    [
-      "linux",
-      "rocm",
-      "slow"
     ]
   ],
   "test_remove_noop_slice_scatter_cpu (__main__.CpuTests)": [
@@ -3068,6 +3028,13 @@
     [
       "mac",
       "macos"
+    ]
+  ],
+  "test_zero_bubble_with_model_kwargs_ScheduleClass0 (__main__.ScheduleTest)": [
+    "154547",
+    "https://github.com/pytorch/pytorch/issues/154547",
+    [
+      "linux"
     ]
   ],
   "test_zero_element_mutation_mps (__main__.GPUTests)": [
