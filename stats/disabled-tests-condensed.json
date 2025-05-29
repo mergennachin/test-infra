@@ -1365,8 +1365,8 @@
     ]
   ],
   "test_linear (__main__.TestAOTInductorPackageCpp_xpu)": [
-    "154684",
-    "https://github.com/pytorch/pytorch/issues/154684",
+    "154689",
+    "https://github.com/pytorch/pytorch/issues/154689",
     [
       "linux"
     ]
@@ -1587,6 +1587,13 @@
       "rocm",
       "linux",
       "slow"
+    ]
+  ],
+  "test_multiple_methods (__main__.TestAOTInductorPackageCpp_xpu)": [
+    "154690",
+    "https://github.com/pytorch/pytorch/issues/154690",
+    [
+      "linux"
     ]
   ],
   "test_multiple_module (__main__.TestInvokeSubgraphExportStrict)": [
