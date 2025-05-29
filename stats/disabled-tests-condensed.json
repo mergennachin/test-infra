@@ -1164,6 +1164,15 @@
       "macos"
     ]
   ],
+  "test_inductor_all_gather_into_tensor_coalesced (__main__.CompileTest)": [
+    "146806",
+    "https://github.com/pytorch/pytorch/issues/146806",
+    [
+      "linux",
+      "rocm",
+      "inductor"
+    ]
+  ],
   "test_inductor_all_gather_into_tensor_single (__main__.CompileTest)": [
     "147707",
     "https://github.com/pytorch/pytorch/issues/147707",
@@ -1297,13 +1306,6 @@
     [
       "mac",
       "macos"
-    ]
-  ],
-  "test_is_isnot (__main__.TestScript)": [
-    "120694",
-    "https://github.com/pytorch/pytorch/issues/120694",
-    [
-      "dynamo"
     ]
   ],
   "test_jacobian_vectorize_raises_no_warnings_logging_tensor (__main__.TestAutogradFunctional)": [
