@@ -21,6 +21,13 @@
       "linux"
     ]
   ],
+  "test_add (__main__.TestAOTInductorPackageCpp_xpu)": [
+    "154682",
+    "https://github.com/pytorch/pytorch/issues/154682",
+    [
+      "linux"
+    ]
+  ],
   "test_all_gather_uneven (__main__.DeviceMeshCollectiveTest)": [
     "98049",
     "https://github.com/pytorch/pytorch/issues/98049",
@@ -217,6 +224,13 @@
     [
       "linux",
       "slow"
+    ]
+  ],
+  "test_bool_input (__main__.TestAOTInductorPackageCpp_xpu)": [
+    "154683",
+    "https://github.com/pytorch/pytorch/issues/154683",
+    [
+      "linux"
     ]
   ],
   "test_builtin_remote_message_dropped_timeout_to_self (__main__.FaultyFaultyAgentRpcTest)": [
@@ -1350,6 +1364,13 @@
       "inductor"
     ]
   ],
+  "test_linear (__main__.TestAOTInductorPackageCpp_xpu)": [
+    "154684",
+    "https://github.com/pytorch/pytorch/issues/154684",
+    [
+      "linux"
+    ]
+  ],
   "test_linear_and_cel_max_autotune (__main__.InplacePaddingTest)": [
     "145359",
     "https://github.com/pytorch/pytorch/issues/145359",
@@ -1464,6 +1485,13 @@
   "test_merge_liveness (jit.test_freezing.TestMKLDNNReinplacing)": [
     "91481",
     "https://github.com/pytorch/pytorch/issues/91481",
+    [
+      "linux"
+    ]
+  ],
+  "test_metadata (__main__.TestAOTInductorPackageCpp_xpu)": [
+    "154685",
+    "https://github.com/pytorch/pytorch/issues/154685",
     [
       "linux"
     ]
@@ -2386,6 +2414,13 @@
   "test_special_polygamma_cpu_halide (__main__.HalideCpuTests)": [
     "150624",
     "https://github.com/pytorch/pytorch/issues/150624",
+    [
+      "linux"
+    ]
+  ],
+  "test_specified_output_dir (__main__.TestAOTInductorPackageCpp_xpu)": [
+    "154681",
+    "https://github.com/pytorch/pytorch/issues/154681",
     [
       "linux"
     ]
