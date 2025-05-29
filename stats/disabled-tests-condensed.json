@@ -139,14 +139,6 @@
       "mac"
     ]
   ],
-  "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_bfloat16 (__main__.TestForeachCUDA)": [
-    "148965",
-    "https://github.com/pytorch/pytorch/issues/148965",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_complex128 (__main__.TestForeachCUDA)": [
     "149323",
     "https://github.com/pytorch/pytorch/issues/149323",
@@ -719,13 +711,6 @@
       "linux"
     ]
   ],
-  "test_dict_keys_match (__main__.TestGuardSerialization)": [
-    "153617",
-    "https://github.com/pytorch/pytorch/issues/153617",
-    [
-      "linux"
-    ]
-  ],
   "test_disable_external_correlation (__main__.TestProfiler)": [
     "143373",
     "https://github.com/pytorch/pytorch/issues/143373",
@@ -942,6 +927,14 @@
       "slow"
     ]
   ],
+  "test_foreach_check_stride_ignore_dims_of_one_cuda_float32 (__main__.TestForeachCUDA)": [
+    "150026",
+    "https://github.com/pytorch/pytorch/issues/150026",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_bfloat16 (__main__.TestForeachCUDA)": [
     "150119",
     "https://github.com/pytorch/pytorch/issues/150119",
@@ -961,14 +954,6 @@
   "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_complex128 (__main__.TestForeachCUDA)": [
     "150141",
     "https://github.com/pytorch/pytorch/issues/150141",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
-  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_float16 (__main__.TestForeachCUDA)": [
-    "150173",
-    "https://github.com/pytorch/pytorch/issues/150173",
     [
       "linux",
       "slow"
@@ -2308,14 +2293,6 @@
     "https://github.com/pytorch/pytorch/issues/71195",
     [
       "mac"
-    ]
-  ],
-  "test_seqential_batch_workers (__main__.TestDataLoader)": [
-    "81891",
-    "https://github.com/pytorch/pytorch/issues/81891",
-    [
-      "linux",
-      "dynamo"
     ]
   ],
   "test_serialized_patterns_up_to_date (__main__.TestPatternMatcher)": [
