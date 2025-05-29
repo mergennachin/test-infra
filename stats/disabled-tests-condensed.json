@@ -958,6 +958,14 @@
       "slow"
     ]
   ],
+  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_complex128 (__main__.TestForeachCUDA)": [
+    "150141",
+    "https://github.com/pytorch/pytorch/issues/150141",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_complex64 (__main__.TestForeachCUDA)": [
     "150161",
     "https://github.com/pytorch/pytorch/issues/150161",
@@ -2057,6 +2065,17 @@
       "slow"
     ]
   ],
+  "test_remove_noop_slice_cpu (__main__.CpuTests)": [
+    "151384",
+    "https://github.com/pytorch/pytorch/issues/151384",
+    [
+      "asan",
+      "linux",
+      "rocm",
+      "mac",
+      "macos"
+    ]
+  ],
   "test_remove_noop_slice_cuda (__main__.GPUTests)": [
     "151383",
     "https://github.com/pytorch/pytorch/issues/151383",
@@ -2075,6 +2094,15 @@
       "mac",
       "macos",
       "rocm"
+    ]
+  ],
+  "test_remove_noop_slice_scatter_cuda (__main__.GPUTests)": [
+    "151378",
+    "https://github.com/pytorch/pytorch/issues/151378",
+    [
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_remove_noop_view_default_cpu (__main__.CpuTests)": [
