@@ -17,10 +17,7 @@
   "test_AllenaiLongformerBase_repro_cpu (__main__.CpuTests)": [
     "102865",
     "https://github.com/pytorch/pytorch/issues/102865",
-    [
-      "rocm",
-      "linux"
-    ]
+    []
   ],
   "test_DistributedDataParallel (__main__.TestDistBackendWithSpawn)": [
     "77317",
