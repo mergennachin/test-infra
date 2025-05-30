@@ -14,6 +14,13 @@
       "slow"
     ]
   ],
+  "test_AllenaiLongformerBase_repro_cpu (__main__.CpuTests)": [
+    "102865",
+    "https://github.com/pytorch/pytorch/issues/102865",
+    [
+      "rocm"
+    ]
+  ],
   "test_DistributedDataParallel (__main__.TestDistBackendWithSpawn)": [
     "77317",
     "https://github.com/pytorch/pytorch/issues/77317",
