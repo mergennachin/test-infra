@@ -2457,6 +2457,13 @@
       "macos"
     ]
   ],
+  "test_stft_xpu (__main__.AOTInductorTestABICompatibleGpu)": [
+    "154701",
+    "https://github.com/pytorch/pytorch/issues/154701",
+    [
+      "linux"
+    ]
+  ],
   "test_successful (jit.test_freezing.TestMKLDNNReinplacing)": [
     "91489",
     "https://github.com/pytorch/pytorch/issues/91489",
