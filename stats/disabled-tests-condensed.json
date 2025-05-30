@@ -21,6 +21,13 @@
       "linux"
     ]
   ],
+  "test_add (__main__.TestAOTInductorPackageCpp_xpu)": [
+    "154682",
+    "https://github.com/pytorch/pytorch/issues/154682",
+    [
+      "linux"
+    ]
+  ],
   "test_all_gather_uneven (__main__.DeviceMeshCollectiveTest)": [
     "98049",
     "https://github.com/pytorch/pytorch/issues/98049",
