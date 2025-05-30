@@ -1571,6 +1571,13 @@
       "dynamo"
     ]
   ],
+  "test_neg_index_cpu (__main__.CpuTests)": [
+    "154760",
+    "https://github.com/pytorch/pytorch/issues/154760",
+    [
+      "linux"
+    ]
+  ],
   "test_nested (quantization.jit.test_quantize_jit.TestQuantizeJit)": [
     "105120",
     "https://github.com/pytorch/pytorch/issues/105120",
