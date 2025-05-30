@@ -1436,13 +1436,6 @@
       "slow"
     ]
   ],
-  "test_mempool_with_allocator (__main__.TestMemPool)": [
-    "154566",
-    "https://github.com/pytorch/pytorch/issues/154566",
-    [
-      "linux"
-    ]
-  ],
   "test_merge_liveness (jit.test_freezing.TestMKLDNNReinplacing)": [
     "91481",
     "https://github.com/pytorch/pytorch/issues/91481",
