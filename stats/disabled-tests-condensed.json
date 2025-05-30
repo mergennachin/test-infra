@@ -18,7 +18,8 @@
     "102865",
     "https://github.com/pytorch/pytorch/issues/102865",
     [
-      "rocm"
+      "rocm",
+      "linux"
     ]
   ],
   "test_DistributedDataParallel (__main__.TestDistBackendWithSpawn)": [
@@ -979,14 +980,6 @@
       "slow"
     ]
   ],
-  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_int32 (__main__.TestForeachCUDA)": [
-    "150350",
-    "https://github.com/pytorch/pytorch/issues/150350",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_int64 (__main__.TestForeachCUDA)": [
     "150392",
     "https://github.com/pytorch/pytorch/issues/150392",
@@ -1310,13 +1303,6 @@
       "dynamo"
     ]
   ],
-  "test_jacobian_vectorize_raises_no_warnings_logging_tensor (__main__.TestAutogradFunctional)": [
-    "153707",
-    "https://github.com/pytorch/pytorch/issues/153707",
-    [
-      "dynamo"
-    ]
-  ],
   "test_jvpvjp_nn_functional_conv3d_cuda_float32 (__main__.TestOperatorsCUDA)": [
     "114654",
     "https://github.com/pytorch/pytorch/issues/114654",
@@ -1405,14 +1391,6 @@
     "https://github.com/pytorch/pytorch/issues/150406",
     [
       "rocm"
-    ]
-  ],
-  "test_mean_mps (__main__.GPUTests)": [
-    "153747",
-    "https://github.com/pytorch/pytorch/issues/153747",
-    [
-      "mac",
-      "macos"
     ]
   ],
   "test_mem_get_info (__main__.TestCuda)": [
@@ -2140,6 +2118,15 @@
       "linux",
       "mac",
       "macos",
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_remove_noop_view_dtype_cuda (__main__.GPUTests)": [
+    "151541",
+    "https://github.com/pytorch/pytorch/issues/151541",
+    [
+      "linux",
       "rocm",
       "slow"
     ]
