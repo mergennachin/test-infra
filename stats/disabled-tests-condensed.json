@@ -270,13 +270,6 @@
       "rocm"
     ]
   ],
-  "test_cache_load_function_device_cuda_float32_dynamic_False_bundle_triton_True_use_static_cuda_launcher_False_grad_True (__main__.TestFxGraphCache)": [
-    "150991",
-    "https://github.com/pytorch/pytorch/issues/150991",
-    [
-      "rocm"
-    ]
-  ],
   "test_cat_max_autotune_triton (__main__.TestMaxAutotune)": [
     "145830",
     "https://github.com/pytorch/pytorch/issues/145830",
@@ -973,6 +966,14 @@
       "slow"
     ]
   ],
+  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_float32 (__main__.TestForeachCUDA)": [
+    "150208",
+    "https://github.com/pytorch/pytorch/issues/150208",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_int16 (__main__.TestForeachCUDA)": [
     "150309",
     "https://github.com/pytorch/pytorch/issues/150309",
@@ -1225,6 +1226,13 @@
     [
       "rocm",
       "inductor"
+    ]
+  ],
+  "test_inductor_multiple_specializations_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
+    "154710",
+    "https://github.com/pytorch/pytorch/issues/154710",
+    [
+      "rocm"
     ]
   ],
   "test_inductor_reduce_scatter_tensor_coalesced (__main__.CompileTest)": [
@@ -2128,15 +2136,12 @@
       "slow"
     ]
   ],
-  "test_remove_noop_view_dtype_cpu (__main__.CpuTests)": [
-    "151540",
-    "https://github.com/pytorch/pytorch/issues/151540",
+  "test_remove_noop_view_default_cuda (__main__.GPUTests)": [
+    "151511",
+    "https://github.com/pytorch/pytorch/issues/151511",
     [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
       "rocm",
+      "linux",
       "slow"
     ]
   ],
