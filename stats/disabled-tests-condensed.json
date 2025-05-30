@@ -989,14 +989,6 @@
       "slow"
     ]
   ],
-  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_float32 (__main__.TestForeachCUDA)": [
-    "150208",
-    "https://github.com/pytorch/pytorch/issues/150208",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_float64 (__main__.TestForeachCUDA)": [
     "150298",
     "https://github.com/pytorch/pytorch/issues/150298",
@@ -1136,6 +1128,13 @@
     [
       "rocm",
       "inductor"
+    ]
+  ],
+  "test_hessian_vectorize_raises_no_warnings_logging_tensor (__main__.TestAutogradFunctional)": [
+    "153644",
+    "https://github.com/pytorch/pytorch/issues/153644",
+    [
+      "dynamo"
     ]
   ],
   "test_homogeneous_attributes (__main__.TestFSDPMiscMultiThread)": [
@@ -1291,6 +1290,13 @@
     "https://github.com/pytorch/pytorch/issues/135380",
     [
       "linux",
+      "rocm"
+    ]
+  ],
+  "test_int64_upsample3d_cuda_bfloat16 (__main__.TestTorchDeviceTypeCUDA)": [
+    "146007",
+    "https://github.com/pytorch/pytorch/issues/146007",
+    [
       "rocm"
     ]
   ],
@@ -2118,11 +2124,14 @@
       "slow"
     ]
   ],
-  "test_remove_noop_view_default_cuda (__main__.GPUTests)": [
-    "151511",
-    "https://github.com/pytorch/pytorch/issues/151511",
+  "test_remove_noop_view_default_cpu (__main__.CpuTests)": [
+    "151512",
+    "https://github.com/pytorch/pytorch/issues/151512",
     [
+      "mac",
+      "macos",
       "rocm",
+      "asan",
       "linux",
       "slow"
     ]
