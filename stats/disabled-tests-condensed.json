@@ -1853,6 +1853,14 @@
       "slow"
     ]
   ],
+  "test_parity__foreach_acos_fastpath_inplace_cuda_float16 (__main__.TestForeachCUDA)": [
+    "150985",
+    "https://github.com/pytorch/pytorch/issues/150985",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_pattern_matcher_multi_user_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
     "134433",
     "https://github.com/pytorch/pytorch/issues/134433",
@@ -2446,14 +2454,6 @@
       "linux"
     ]
   ],
-  "test_tensor_index_put_slice_mps (__main__.GPUTests)": [
-    "153761",
-    "https://github.com/pytorch/pytorch/issues/153761",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_tensor_requires_grad (test_jit.TestScript)": [
     "91497",
     "https://github.com/pytorch/pytorch/issues/91497",
@@ -2632,14 +2632,6 @@
   "test_upsample_nearest1d_mps (__main__.GPUTests)": [
     "153866",
     "https://github.com/pytorch/pytorch/issues/153866",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_var_mean_tile_reduction_False_mps (__main__.GPUTests)": [
-    "153762",
-    "https://github.com/pytorch/pytorch/issues/153762",
     [
       "mac",
       "macos"
