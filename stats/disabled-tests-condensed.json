@@ -14,11 +14,6 @@
       "slow"
     ]
   ],
-  "test_AllenaiLongformerBase_repro_cpu (__main__.CpuTests)": [
-    "102865",
-    "https://github.com/pytorch/pytorch/issues/102865",
-    []
-  ],
   "test_DistributedDataParallel (__main__.TestDistBackendWithSpawn)": [
     "77317",
     "https://github.com/pytorch/pytorch/issues/77317",
@@ -1562,13 +1557,6 @@
     "https://github.com/pytorch/pytorch/issues/150877",
     [
       "dynamo"
-    ]
-  ],
-  "test_neg_index_cpu (__main__.CpuTests)": [
-    "154760",
-    "https://github.com/pytorch/pytorch/issues/154760",
-    [
-      "linux"
     ]
   ],
   "test_nested (quantization.jit.test_quantize_jit.TestQuantizeJit)": [
