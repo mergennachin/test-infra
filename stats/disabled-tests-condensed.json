@@ -498,16 +498,6 @@
       "linux"
     ]
   ],
-  "test_comprehensive_pca_lowrank_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
-    "139828",
-    "https://github.com/pytorch/pytorch/issues/139828",
-    [
-      "linux",
-      "rocm",
-      "slow",
-      "inductor"
-    ]
-  ],
   "test_comprehensive_rot90_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
     "140773",
     "https://github.com/pytorch/pytorch/issues/140773",
@@ -1021,14 +1011,6 @@
       "linux"
     ]
   ],
-  "test_full_dtype (__main__.TestFull)": [
-    "138574",
-    "https://github.com/pytorch/pytorch/issues/138574",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_fully_shard_post_optim_event_overlap (__main__.TestFullyShardOverlap)": [
     "131081",
     "https://github.com/pytorch/pytorch/issues/131081",
@@ -1226,6 +1208,13 @@
     [
       "rocm",
       "inductor"
+    ]
+  ],
+  "test_inductor_multiple_specializations_dynamic_shapes_cuda (__main__.DynamicShapesCodegenGPUTests)": [
+    "154718",
+    "https://github.com/pytorch/pytorch/issues/154718",
+    [
+      "rocm"
     ]
   ],
   "test_inductor_multiple_specializations_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
@@ -1562,6 +1551,13 @@
   "test_mm_concat_cuda (__main__.FreezingGpuTests)": [
     "145186",
     "https://github.com/pytorch/pytorch/issues/145186",
+    [
+      "rocm"
+    ]
+  ],
+  "test_mm_plus_mm (__main__.TestPatternMatcher)": [
+    "145335",
+    "https://github.com/pytorch/pytorch/issues/145335",
     [
       "rocm"
     ]
@@ -2145,15 +2141,6 @@
       "slow"
     ]
   ],
-  "test_remove_noop_view_dtype_cuda (__main__.GPUTests)": [
-    "151541",
-    "https://github.com/pytorch/pytorch/issues/151541",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_reorder_peak_memory (__main__.TestOperatorReorderForPeakMemory)": [
     "145332",
     "https://github.com/pytorch/pytorch/issues/145332",
@@ -2480,14 +2467,6 @@
     "https://github.com/pytorch/pytorch/issues/144689",
     [
       "rocm"
-    ]
-  ],
-  "test_tensor1_mps (__main__.GPUTests)": [
-    "153709",
-    "https://github.com/pytorch/pytorch/issues/153709",
-    [
-      "mac",
-      "macos"
     ]
   ],
   "test_tensor_as_tensor_shape_prop (test_jit.TestScript)": [
@@ -2922,14 +2901,6 @@
     [
       "linux",
       "rocm"
-    ]
-  ],
-  "test_zero_element_mutation_mps (__main__.GPUTests)": [
-    "153708",
-    "https://github.com/pytorch/pytorch/issues/153708",
-    [
-      "mac",
-      "macos"
     ]
   ]
 }
