@@ -226,6 +226,13 @@
       "slow"
     ]
   ],
+  "test_bool_input (__main__.TestAOTInductorPackageCpp_xpu)": [
+    "154683",
+    "https://github.com/pytorch/pytorch/issues/154683",
+    [
+      "linux"
+    ]
+  ],
   "test_builtin_remote_message_dropped_timeout_to_self (__main__.FaultyFaultyAgentRpcTest)": [
     "69179",
     "https://github.com/pytorch/pytorch/issues/69179",
@@ -1329,6 +1336,13 @@
       "inductor"
     ]
   ],
+  "test_linear (__main__.TestAOTInductorPackageCpp_xpu)": [
+    "154689",
+    "https://github.com/pytorch/pytorch/issues/154689",
+    [
+      "linux"
+    ]
+  ],
   "test_linear_and_cel_max_autotune (__main__.InplacePaddingTest)": [
     "145359",
     "https://github.com/pytorch/pytorch/issues/145359",
@@ -1420,6 +1434,13 @@
   "test_merge_liveness (jit.test_freezing.TestMKLDNNReinplacing)": [
     "91481",
     "https://github.com/pytorch/pytorch/issues/91481",
+    [
+      "linux"
+    ]
+  ],
+  "test_metadata (__main__.TestAOTInductorPackageCpp_xpu)": [
+    "154685",
+    "https://github.com/pytorch/pytorch/issues/154685",
     [
       "linux"
     ]
@@ -1522,6 +1543,13 @@
       "rocm",
       "linux",
       "slow"
+    ]
+  ],
+  "test_multiple_methods (__main__.TestAOTInductorPackageCpp_xpu)": [
+    "154690",
+    "https://github.com/pytorch/pytorch/issues/154690",
+    [
+      "linux"
     ]
   ],
   "test_multiple_module (__main__.TestInvokeSubgraphExportStrict)": [
@@ -2357,12 +2385,26 @@
       "linux"
     ]
   ],
+  "test_specified_output_dir (__main__.TestAOTInductorPackageCpp_xpu)": [
+    "154681",
+    "https://github.com/pytorch/pytorch/issues/154681",
+    [
+      "linux"
+    ]
+  ],
   "test_split_cumsum_mps (__main__.GPUTests)": [
     "153804",
     "https://github.com/pytorch/pytorch/issues/153804",
     [
       "mac",
       "macos"
+    ]
+  ],
+  "test_stft_xpu (__main__.AOTInductorTestABICompatibleGpu)": [
+    "154701",
+    "https://github.com/pytorch/pytorch/issues/154701",
+    [
+      "linux"
     ]
   ],
   "test_successful (jit.test_freezing.TestMKLDNNReinplacing)": [
