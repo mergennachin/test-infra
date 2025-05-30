@@ -762,27 +762,11 @@
       "linux"
     ]
   ],
-  "test_div_zero_dim_mps (__main__.GPUTests)": [
-    "153694",
-    "https://github.com/pytorch/pytorch/issues/153694",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_doc_examples (__main__.TestTypeHints)": [
     "98259",
     "https://github.com/pytorch/pytorch/issues/98259",
     [
       "linux"
-    ]
-  ],
-  "test_dropout_trivial_1_mps (__main__.GPUTests)": [
-    "153695",
-    "https://github.com/pytorch/pytorch/issues/153695",
-    [
-      "mac",
-      "macos"
     ]
   ],
   "test_dtensor_op_db_full_like_cpu_float32 (__main__.TestDTensorOpsCPU)": [
@@ -984,14 +968,6 @@
   "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_float16 (__main__.TestForeachCUDA)": [
     "150173",
     "https://github.com/pytorch/pytorch/issues/150173",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
-  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_float64 (__main__.TestForeachCUDA)": [
-    "150298",
-    "https://github.com/pytorch/pytorch/issues/150298",
     [
       "linux",
       "slow"
@@ -1241,6 +1217,14 @@
       "inductor",
       "rocm",
       "linux"
+    ]
+  ],
+  "test_inductor_multiple_specializations_cuda (__main__.GPUTests)": [
+    "154705",
+    "https://github.com/pytorch/pytorch/issues/154705",
+    [
+      "rocm",
+      "inductor"
     ]
   ],
   "test_inductor_reduce_scatter_tensor_coalesced (__main__.CompileTest)": [
@@ -1707,6 +1691,14 @@
     "https://github.com/pytorch/pytorch/issues/91494",
     [
       "linux"
+    ]
+  ],
+  "test_parity__foreach_abs_fastpath_inplace_cuda_bfloat16 (__main__.TestForeachCUDA)": [
+    "148966",
+    "https://github.com/pytorch/pytorch/issues/148966",
+    [
+      "linux",
+      "slow"
     ]
   ],
   "test_parity__foreach_abs_fastpath_inplace_cuda_bool (__main__.TestForeachCUDA)": [
@@ -2546,14 +2538,6 @@
       "linux"
     ]
   ],
-  "test_tmp_not_defined_issue2_mps (__main__.GPUTests)": [
-    "153693",
-    "https://github.com/pytorch/pytorch/issues/153693",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_to_dtype_mps (__main__.GPUTests)": [
     "153812",
     "https://github.com/pytorch/pytorch/issues/153812",
@@ -2707,14 +2691,6 @@
       "macos"
     ]
   ],
-  "test_var_correction_mps (__main__.GPUTests)": [
-    "153691",
-    "https://github.com/pytorch/pytorch/issues/153691",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_var_mean_tile_reduction_False_mps (__main__.GPUTests)": [
     "153762",
     "https://github.com/pytorch/pytorch/issues/153762",
@@ -2792,14 +2768,6 @@
   "test_view_uint8_through_differing_bitwidths_mps (__main__.GPUTests)": [
     "153720",
     "https://github.com/pytorch/pytorch/issues/153720",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_views1_mps (__main__.GPUTests)": [
-    "153692",
-    "https://github.com/pytorch/pytorch/issues/153692",
     [
       "mac",
       "macos"
