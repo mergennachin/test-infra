@@ -154,9 +154,9 @@
       "slow"
     ]
   ],
-  "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_complex64 (__main__.TestForeachCUDA)": [
-    "149199",
-    "https://github.com/pytorch/pytorch/issues/149199",
+  "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_complex128 (__main__.TestForeachCUDA)": [
+    "149323",
+    "https://github.com/pytorch/pytorch/issues/149323",
     [
       "linux",
       "slow"
@@ -173,14 +173,6 @@
   "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_float32 (__main__.TestForeachCUDA)": [
     "149409",
     "https://github.com/pytorch/pytorch/issues/149409",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
-  "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_float64 (__main__.TestForeachCUDA)": [
-    "149523",
-    "https://github.com/pytorch/pytorch/issues/149523",
     [
       "linux",
       "slow"
@@ -952,14 +944,6 @@
   "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_int32 (__main__.TestForeachCUDA)": [
     "150350",
     "https://github.com/pytorch/pytorch/issues/150350",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
-  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_int64 (__main__.TestForeachCUDA)": [
-    "150392",
-    "https://github.com/pytorch/pytorch/issues/150392",
     [
       "linux",
       "slow"
@@ -2427,6 +2411,13 @@
       "mac"
     ]
   ],
+  "test_tmp_not_defined_issue2_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "135219",
+    "https://github.com/pytorch/pytorch/issues/135219",
+    [
+      "linux"
+    ]
+  ],
   "test_torch_name_rule_map_updated (__main__.TraceRuleTests)": [
     "114831",
     "https://github.com/pytorch/pytorch/issues/114831",
@@ -2708,6 +2699,13 @@
       "windows",
       "rocm",
       "slow"
+    ]
+  ],
+  "test_weight_norm_bwd_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
+    "153803",
+    "https://github.com/pytorch/pytorch/issues/153803",
+    [
+      "linux"
     ]
   ],
   "test_while_loop_schema_gen (__main__.TestHopSchema)": [
