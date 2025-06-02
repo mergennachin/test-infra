@@ -958,6 +958,14 @@
       "slow"
     ]
   ],
+  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_int32 (__main__.TestForeachCUDA)": [
+    "150350",
+    "https://github.com/pytorch/pytorch/issues/150350",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_int64 (__main__.TestForeachCUDA)": [
     "150392",
     "https://github.com/pytorch/pytorch/issues/150392",
@@ -1277,6 +1285,13 @@
   "test_is_isnot (__main__.TestScript)": [
     "120694",
     "https://github.com/pytorch/pytorch/issues/120694",
+    [
+      "dynamo"
+    ]
+  ],
+  "test_jacobian_vectorize_raises_no_warnings_logging_tensor (__main__.TestAutogradFunctional)": [
+    "153707",
+    "https://github.com/pytorch/pytorch/issues/153707",
     [
       "dynamo"
     ]
@@ -1883,13 +1898,6 @@
       "rocm"
     ]
   ],
-  "test_profiler_mark_wrapper_call_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "135294",
-    "https://github.com/pytorch/pytorch/issues/135294",
-    [
-      "linux"
-    ]
-  ],
   "test_profiler_remote_cuda (__main__.TensorPipeCudaRpcTest)": [
     "154587",
     "https://github.com/pytorch/pytorch/issues/154587",
@@ -2386,14 +2394,6 @@
       "linux"
     ]
   ],
-  "test_split_cumsum_mps (__main__.GPUTests)": [
-    "153804",
-    "https://github.com/pytorch/pytorch/issues/153804",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_stft_xpu (__main__.AOTInductorTestABICompatibleGpu)": [
     "154701",
     "https://github.com/pytorch/pytorch/issues/154701",
@@ -2458,13 +2458,6 @@
     "https://github.com/pytorch/pytorch/issues/70546",
     [
       "mac"
-    ]
-  ],
-  "test_tmp_not_defined_issue2_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "135219",
-    "https://github.com/pytorch/pytorch/issues/135219",
-    [
-      "linux"
     ]
   ],
   "test_to_dtype_mps (__main__.GPUTests)": [
@@ -2756,13 +2749,6 @@
       "windows",
       "rocm",
       "slow"
-    ]
-  ],
-  "test_weight_norm_bwd_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
-    "153803",
-    "https://github.com/pytorch/pytorch/issues/153803",
-    [
-      "linux"
     ]
   ],
   "test_weight_norm_bwd_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
