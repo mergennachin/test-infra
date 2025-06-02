@@ -870,6 +870,20 @@
       "windows"
     ]
   ],
+  "test_fake_registration (__main__.TestOpProfiles)": [
+    "151301",
+    "https://github.com/pytorch/pytorch/issues/151301",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "slow",
+      "win",
+      "windows"
+    ]
+  ],
   "test_flop_counter_op_options1_cuda_float16 (__main__.TestSchedulerCUDA)": [
     "153494",
     "https://github.com/pytorch/pytorch/issues/153494",
