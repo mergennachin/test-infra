@@ -510,6 +510,115 @@
       "inductor"
     ]
   ],
+  "test_cond_contains_unbacked_no_escape (__main__.TestExport)": [
+    "154909",
+    "https://github.com/pytorch/pytorch/issues/154909",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm"
+    ]
+  ],
+  "test_cond_contains_unbacked_no_escape_cpp_serdes (__main__.CppSerdesTestExport)": [
+    "154919",
+    "https://github.com/pytorch/pytorch/issues/154919",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm"
+    ]
+  ],
+  "test_cond_contains_unbacked_no_escape_inline_and_install_strict (__main__.InlineAndInstallStrictExportTestExport)": [
+    "154910",
+    "https://github.com/pytorch/pytorch/issues/154910",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm"
+    ]
+  ],
+  "test_cond_contains_unbacked_no_escape_retraceability_nonstrict (__main__.RetraceExportNonStrictTestExport)": [
+    "154914",
+    "https://github.com/pytorch/pytorch/issues/154914",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm"
+    ]
+  ],
+  "test_cond_contains_unbacked_no_escape_retraceability_strict (__main__.RetraceExportTestExport)": [
+    "154915",
+    "https://github.com/pytorch/pytorch/issues/154915",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm"
+    ]
+  ],
+  "test_cond_contains_unbacked_no_escape_serdes_nonstrict (__main__.SerDesExportNonStrictTestExport)": [
+    "154911",
+    "https://github.com/pytorch/pytorch/issues/154911",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm"
+    ]
+  ],
+  "test_cond_contains_unbacked_no_escape_serdes_strict (__main__.SerDesExportTestExport)": [
+    "154912",
+    "https://github.com/pytorch/pytorch/issues/154912",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm"
+    ]
+  ],
+  "test_cond_contains_unbacked_no_escape_strict (__main__.StrictExportTestExport)": [
+    "154913",
+    "https://github.com/pytorch/pytorch/issues/154913",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm"
+    ]
+  ],
+  "test_cond_contains_unbacked_no_escape_training_ir_to_decomp_nonstrict (__main__.TrainingIRToRunDecompExportNonStrictTestExport)": [
+    "154916",
+    "https://github.com/pytorch/pytorch/issues/154916",
+    [
+      "linux",
+      "mac",
+      "macos",
+      "rocm"
+    ]
+  ],
+  "test_cond_contains_unbacked_no_escape_training_ir_to_decomp_strict (__main__.TrainingIRToRunDecompExportTestExport)": [
+    "154917",
+    "https://github.com/pytorch/pytorch/issues/154917",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm"
+    ]
+  ],
   "test_conv (quantization.jit.test_quantize_jit.TestQuantizeJit)": [
     "105125",
     "https://github.com/pytorch/pytorch/issues/105125",
@@ -685,6 +794,14 @@
       "linux"
     ]
   ],
+  "test_dim_dynamic_specialization_training_ir_to_decomp_nonstrict (__main__.TrainingIRToRunDecompExportNonStrictTestExport)": [
+    "154918",
+    "https://github.com/pytorch/pytorch/issues/154918",
+    [
+      "asan",
+      "linux"
+    ]
+  ],
   "test_disable_external_correlation (__main__.TestProfiler)": [
     "143373",
     "https://github.com/pytorch/pytorch/issues/143373",
@@ -741,14 +858,6 @@
     "https://github.com/pytorch/pytorch/issues/123294",
     [
       "linux"
-    ]
-  ],
-  "test_dtypeview_int16_bfloat16_mps (__main__.GPUTests)": [
-    "153864",
-    "https://github.com/pytorch/pytorch/issues/153864",
-    [
-      "mac",
-      "macos"
     ]
   ],
   "test_dunder_round_edgecases_val_2147483647_ndigits_-1 (__main__.TestNonarrayArgs)": [
@@ -893,6 +1002,14 @@
       "slow"
     ]
   ],
+  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_bool (__main__.TestForeachCUDA)": [
+    "150120",
+    "https://github.com/pytorch/pytorch/issues/150120",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_complex128 (__main__.TestForeachCUDA)": [
     "150141",
     "https://github.com/pytorch/pytorch/issues/150141",
@@ -944,14 +1061,6 @@
   "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_int32 (__main__.TestForeachCUDA)": [
     "150350",
     "https://github.com/pytorch/pytorch/issues/150350",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
-  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_int8 (__main__.TestForeachCUDA)": [
-    "150407",
-    "https://github.com/pytorch/pytorch/issues/150407",
     [
       "linux",
       "slow"
@@ -1818,13 +1927,6 @@
       "slow"
     ]
   ],
-  "test_pattern_matcher_multi_user_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "134433",
-    "https://github.com/pytorch/pytorch/issues/134433",
-    [
-      "linux"
-    ]
-  ],
   "test_pending_fusions_multiple (__main__.TestPrologueFusion)": [
     "152221",
     "https://github.com/pytorch/pytorch/issues/152221",
@@ -2149,70 +2251,109 @@
     "154876",
     "https://github.com/pytorch/pytorch/issues/154876",
     [
-      "rocm"
+      "rocm",
+      "asan",
+      "linux",
+      "mac",
+      "macos"
     ]
   ],
   "test_reshape_view_helper_cpp_serdes (__main__.CppSerdesTestExport)": [
     "154871",
     "https://github.com/pytorch/pytorch/issues/154871",
     [
-      "rocm"
+      "rocm",
+      "asan",
+      "linux",
+      "mac",
+      "macos"
     ]
   ],
   "test_reshape_view_helper_inline_and_install_strict (__main__.InlineAndInstallStrictExportTestExport)": [
     "154877",
     "https://github.com/pytorch/pytorch/issues/154877",
     [
-      "rocm"
+      "rocm",
+      "asan",
+      "linux",
+      "mac",
+      "macos"
     ]
   ],
   "test_reshape_view_helper_retraceability_nonstrict (__main__.RetraceExportNonStrictTestExport)": [
     "154874",
     "https://github.com/pytorch/pytorch/issues/154874",
     [
-      "rocm"
+      "rocm",
+      "asan",
+      "linux",
+      "mac",
+      "macos"
     ]
   ],
   "test_reshape_view_helper_retraceability_strict (__main__.RetraceExportTestExport)": [
     "154875",
     "https://github.com/pytorch/pytorch/issues/154875",
     [
-      "rocm"
+      "rocm",
+      "asan",
+      "linux",
+      "mac",
+      "macos"
     ]
   ],
   "test_reshape_view_helper_serdes_nonstrict (__main__.SerDesExportNonStrictTestExport)": [
     "154872",
     "https://github.com/pytorch/pytorch/issues/154872",
     [
-      "rocm"
+      "rocm",
+      "asan",
+      "linux",
+      "mac",
+      "macos"
     ]
   ],
   "test_reshape_view_helper_serdes_strict (__main__.SerDesExportTestExport)": [
     "154873",
     "https://github.com/pytorch/pytorch/issues/154873",
     [
-      "rocm"
+      "rocm",
+      "asan",
+      "linux",
+      "mac",
+      "macos"
     ]
   ],
   "test_reshape_view_helper_strict (__main__.StrictExportTestExport)": [
     "154878",
     "https://github.com/pytorch/pytorch/issues/154878",
     [
-      "rocm"
+      "rocm",
+      "asan",
+      "linux",
+      "mac",
+      "macos"
     ]
   ],
   "test_reshape_view_helper_training_ir_to_decomp_nonstrict (__main__.TrainingIRToRunDecompExportNonStrictTestExport)": [
     "154869",
     "https://github.com/pytorch/pytorch/issues/154869",
     [
-      "rocm"
+      "rocm",
+      "asan",
+      "linux",
+      "mac",
+      "macos"
     ]
   ],
   "test_reshape_view_helper_training_ir_to_decomp_strict (__main__.TrainingIRToRunDecompExportTestExport)": [
     "154870",
     "https://github.com/pytorch/pytorch/issues/154870",
     [
-      "rocm"
+      "rocm",
+      "linux",
+      "mac",
+      "macos"
     ]
   ],
   "test_rng (__main__.TestCompilerBisector)": [
@@ -2617,14 +2758,6 @@
       "inductor"
     ]
   ],
-  "test_upsample_nearest1d_mps (__main__.GPUTests)": [
-    "153866",
-    "https://github.com/pytorch/pytorch/issues/153866",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_var_mean_tile_reduction_True_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
     "149016",
     "https://github.com/pytorch/pytorch/issues/149016",
@@ -2774,6 +2907,13 @@
   "test_weight_norm_bwd_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
     "153803",
     "https://github.com/pytorch/pytorch/issues/153803",
+    [
+      "linux"
+    ]
+  ],
+  "test_weight_norm_bwd_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "141484",
+    "https://github.com/pytorch/pytorch/issues/141484",
     [
       "linux"
     ]
