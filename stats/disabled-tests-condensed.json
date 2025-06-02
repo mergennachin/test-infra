@@ -2145,6 +2145,76 @@
       "linux"
     ]
   ],
+  "test_reshape_view_helper (__main__.TestExport)": [
+    "154876",
+    "https://github.com/pytorch/pytorch/issues/154876",
+    [
+      "rocm"
+    ]
+  ],
+  "test_reshape_view_helper_cpp_serdes (__main__.CppSerdesTestExport)": [
+    "154871",
+    "https://github.com/pytorch/pytorch/issues/154871",
+    [
+      "rocm"
+    ]
+  ],
+  "test_reshape_view_helper_inline_and_install_strict (__main__.InlineAndInstallStrictExportTestExport)": [
+    "154877",
+    "https://github.com/pytorch/pytorch/issues/154877",
+    [
+      "rocm"
+    ]
+  ],
+  "test_reshape_view_helper_retraceability_nonstrict (__main__.RetraceExportNonStrictTestExport)": [
+    "154874",
+    "https://github.com/pytorch/pytorch/issues/154874",
+    [
+      "rocm"
+    ]
+  ],
+  "test_reshape_view_helper_retraceability_strict (__main__.RetraceExportTestExport)": [
+    "154875",
+    "https://github.com/pytorch/pytorch/issues/154875",
+    [
+      "rocm"
+    ]
+  ],
+  "test_reshape_view_helper_serdes_nonstrict (__main__.SerDesExportNonStrictTestExport)": [
+    "154872",
+    "https://github.com/pytorch/pytorch/issues/154872",
+    [
+      "rocm"
+    ]
+  ],
+  "test_reshape_view_helper_serdes_strict (__main__.SerDesExportTestExport)": [
+    "154873",
+    "https://github.com/pytorch/pytorch/issues/154873",
+    [
+      "rocm"
+    ]
+  ],
+  "test_reshape_view_helper_strict (__main__.StrictExportTestExport)": [
+    "154878",
+    "https://github.com/pytorch/pytorch/issues/154878",
+    [
+      "rocm"
+    ]
+  ],
+  "test_reshape_view_helper_training_ir_to_decomp_nonstrict (__main__.TrainingIRToRunDecompExportNonStrictTestExport)": [
+    "154869",
+    "https://github.com/pytorch/pytorch/issues/154869",
+    [
+      "rocm"
+    ]
+  ],
+  "test_reshape_view_helper_training_ir_to_decomp_strict (__main__.TrainingIRToRunDecompExportTestExport)": [
+    "154870",
+    "https://github.com/pytorch/pytorch/issues/154870",
+    [
+      "rocm"
+    ]
+  ],
   "test_rng (__main__.TestCompilerBisector)": [
     "139590",
     "https://github.com/pytorch/pytorch/issues/139590",
