@@ -794,6 +794,22 @@
       "linux"
     ]
   ],
+  "test_dim_dynamic_retraceability_nonstrict (__main__.RetraceExportNonStrictTestExport)": [
+    "154939",
+    "https://github.com/pytorch/pytorch/issues/154939",
+    [
+      "linux",
+      "rocm"
+    ]
+  ],
+  "test_dim_dynamic_retraceability_strict (__main__.RetraceExportTestExport)": [
+    "154940",
+    "https://github.com/pytorch/pytorch/issues/154940",
+    [
+      "linux",
+      "rocm"
+    ]
+  ],
   "test_dim_dynamic_specialization_training_ir_to_decomp_nonstrict (__main__.TrainingIRToRunDecompExportNonStrictTestExport)": [
     "154918",
     "https://github.com/pytorch/pytorch/issues/154918",
