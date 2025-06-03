@@ -1740,13 +1740,6 @@
       "inductor"
     ]
   ],
-  "test_linear (__main__.TestAOTInductorPackageCpp_xpu)": [
-    "154689",
-    "https://github.com/pytorch/pytorch/issues/154689",
-    [
-      "linux"
-    ]
-  ],
   "test_linear_and_cel_max_autotune (__main__.InplacePaddingTest)": [
     "145359",
     "https://github.com/pytorch/pytorch/issues/145359",
