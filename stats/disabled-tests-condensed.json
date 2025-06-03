@@ -21,13 +21,6 @@
       "linux"
     ]
   ],
-  "test_add (__main__.TestAOTInductorPackageCpp_xpu)": [
-    "154682",
-    "https://github.com/pytorch/pytorch/issues/154682",
-    [
-      "linux"
-    ]
-  ],
   "test_all_gather_uneven (__main__.DeviceMeshCollectiveTest)": [
     "98049",
     "https://github.com/pytorch/pytorch/issues/98049",
@@ -208,13 +201,6 @@
     [
       "linux",
       "slow"
-    ]
-  ],
-  "test_bool_input (__main__.TestAOTInductorPackageCpp_xpu)": [
-    "154683",
-    "https://github.com/pytorch/pytorch/issues/154683",
-    [
-      "linux"
     ]
   ],
   "test_builtin_remote_message_dropped_timeout_to_self (__main__.FaultyFaultyAgentRpcTest)": [
@@ -1849,13 +1835,6 @@
       "linux"
     ]
   ],
-  "test_metadata (__main__.TestAOTInductorPackageCpp_xpu)": [
-    "154685",
-    "https://github.com/pytorch/pytorch/issues/154685",
-    [
-      "linux"
-    ]
-  ],
   "test_metadata_consistency_check (__main__.DTensorMeshTest)": [
     "131598",
     "https://github.com/pytorch/pytorch/issues/131598",
@@ -1954,13 +1933,6 @@
       "linux",
       "rocm",
       "slow"
-    ]
-  ],
-  "test_multiple_methods (__main__.TestAOTInductorPackageCpp_xpu)": [
-    "154690",
-    "https://github.com/pytorch/pytorch/issues/154690",
-    [
-      "linux"
     ]
   ],
   "test_multiple_module (__main__.TestInvokeSubgraphExportStrict)": [
@@ -2841,13 +2813,6 @@
   "test_special_polygamma_cpu_halide (__main__.HalideCpuTests)": [
     "150624",
     "https://github.com/pytorch/pytorch/issues/150624",
-    [
-      "linux"
-    ]
-  ],
-  "test_specified_output_dir (__main__.TestAOTInductorPackageCpp_xpu)": [
-    "154681",
-    "https://github.com/pytorch/pytorch/issues/154681",
     [
       "linux"
     ]
