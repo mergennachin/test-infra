@@ -518,7 +518,8 @@
       "linux",
       "mac",
       "macos",
-      "rocm"
+      "rocm",
+      "slow"
     ]
   ],
   "test_cond_contains_unbacked_no_escape_cpp_serdes (__main__.CppSerdesTestExport)": [
@@ -529,7 +530,8 @@
       "linux",
       "mac",
       "macos",
-      "rocm"
+      "rocm",
+      "slow"
     ]
   ],
   "test_cond_contains_unbacked_no_escape_inline_and_install_strict (__main__.InlineAndInstallStrictExportTestExport)": [
@@ -540,7 +542,8 @@
       "linux",
       "mac",
       "macos",
-      "rocm"
+      "rocm",
+      "slow"
     ]
   ],
   "test_cond_contains_unbacked_no_escape_retraceability_nonstrict (__main__.RetraceExportNonStrictTestExport)": [
@@ -551,7 +554,8 @@
       "linux",
       "mac",
       "macos",
-      "rocm"
+      "rocm",
+      "slow"
     ]
   ],
   "test_cond_contains_unbacked_no_escape_retraceability_strict (__main__.RetraceExportTestExport)": [
@@ -562,7 +566,8 @@
       "linux",
       "mac",
       "macos",
-      "rocm"
+      "rocm",
+      "slow"
     ]
   ],
   "test_cond_contains_unbacked_no_escape_serdes_nonstrict (__main__.SerDesExportNonStrictTestExport)": [
@@ -573,7 +578,8 @@
       "linux",
       "mac",
       "macos",
-      "rocm"
+      "rocm",
+      "slow"
     ]
   ],
   "test_cond_contains_unbacked_no_escape_serdes_strict (__main__.SerDesExportTestExport)": [
@@ -584,7 +590,8 @@
       "linux",
       "mac",
       "macos",
-      "rocm"
+      "rocm",
+      "slow"
     ]
   ],
   "test_cond_contains_unbacked_no_escape_strict (__main__.StrictExportTestExport)": [
@@ -595,7 +602,8 @@
       "linux",
       "mac",
       "macos",
-      "rocm"
+      "rocm",
+      "slow"
     ]
   ],
   "test_cond_contains_unbacked_no_escape_training_ir_to_decomp_nonstrict (__main__.TrainingIRToRunDecompExportNonStrictTestExport)": [
@@ -605,7 +613,8 @@
       "linux",
       "mac",
       "macos",
-      "rocm"
+      "rocm",
+      "slow"
     ]
   ],
   "test_cond_contains_unbacked_no_escape_training_ir_to_decomp_strict (__main__.TrainingIRToRunDecompExportTestExport)": [
@@ -616,7 +625,8 @@
       "linux",
       "mac",
       "macos",
-      "rocm"
+      "rocm",
+      "slow"
     ]
   ],
   "test_conv (quantization.jit.test_quantize_jit.TestQuantizeJit)": [
@@ -794,12 +804,48 @@
       "linux"
     ]
   ],
+  "test_dim_dynamic (__main__.TestExport)": [
+    "154950",
+    "https://github.com/pytorch/pytorch/issues/154950",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm"
+    ]
+  ],
+  "test_dim_dynamic_cpp_serdes (__main__.CppSerdesTestExport)": [
+    "154957",
+    "https://github.com/pytorch/pytorch/issues/154957",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm"
+    ]
+  ],
+  "test_dim_dynamic_inline_and_install_strict (__main__.InlineAndInstallStrictExportTestExport)": [
+    "154951",
+    "https://github.com/pytorch/pytorch/issues/154951",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm"
+    ]
+  ],
   "test_dim_dynamic_retraceability_nonstrict (__main__.RetraceExportNonStrictTestExport)": [
     "154939",
     "https://github.com/pytorch/pytorch/issues/154939",
     [
       "linux",
-      "rocm"
+      "rocm",
+      "asan",
+      "mac",
+      "macos"
     ]
   ],
   "test_dim_dynamic_retraceability_strict (__main__.RetraceExportTestExport)": [
@@ -807,6 +853,42 @@
     "https://github.com/pytorch/pytorch/issues/154940",
     [
       "linux",
+      "rocm",
+      "asan",
+      "mac",
+      "macos"
+    ]
+  ],
+  "test_dim_dynamic_serdes_nonstrict (__main__.SerDesExportNonStrictTestExport)": [
+    "154952",
+    "https://github.com/pytorch/pytorch/issues/154952",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm"
+    ]
+  ],
+  "test_dim_dynamic_serdes_strict (__main__.SerDesExportTestExport)": [
+    "154953",
+    "https://github.com/pytorch/pytorch/issues/154953",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm"
+    ]
+  ],
+  "test_dim_dynamic_specialization_strict (__main__.StrictExportTestExport)": [
+    "154954",
+    "https://github.com/pytorch/pytorch/issues/154954",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
       "rocm"
     ]
   ],
@@ -815,7 +897,29 @@
     "https://github.com/pytorch/pytorch/issues/154918",
     [
       "asan",
-      "linux"
+      "linux",
+      "mac",
+      "macos"
+    ]
+  ],
+  "test_dim_dynamic_specialization_training_ir_to_decomp_strict (__main__.TrainingIRToRunDecompExportTestExport)": [
+    "154955",
+    "https://github.com/pytorch/pytorch/issues/154955",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm"
+    ]
+  ],
+  "test_dim_dynamic_training_ir_to_decomp_nonstrict (__main__.TrainingIRToRunDecompExportNonStrictTestExport)": [
+    "154956",
+    "https://github.com/pytorch/pytorch/issues/154956",
+    [
+      "asan",
+      "linux",
+      "rocm"
     ]
   ],
   "test_disable_external_correlation (__main__.TestProfiler)": [
@@ -1077,6 +1181,14 @@
   "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_int32 (__main__.TestForeachCUDA)": [
     "150350",
     "https://github.com/pytorch/pytorch/issues/150350",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
+  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_int64 (__main__.TestForeachCUDA)": [
+    "150392",
+    "https://github.com/pytorch/pytorch/issues/150392",
     [
       "linux",
       "slow"
@@ -1943,6 +2055,13 @@
       "slow"
     ]
   ],
+  "test_pattern_matcher_multi_user_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "134433",
+    "https://github.com/pytorch/pytorch/issues/134433",
+    [
+      "linux"
+    ]
+  ],
   "test_pending_fusions_multiple (__main__.TestPrologueFusion)": [
     "152221",
     "https://github.com/pytorch/pytorch/issues/152221",
@@ -2267,109 +2386,119 @@
     "154876",
     "https://github.com/pytorch/pytorch/issues/154876",
     [
-      "rocm",
       "asan",
       "linux",
       "mac",
-      "macos"
+      "macos",
+      "rocm",
+      "slow"
     ]
   ],
   "test_reshape_view_helper_cpp_serdes (__main__.CppSerdesTestExport)": [
     "154871",
     "https://github.com/pytorch/pytorch/issues/154871",
     [
-      "rocm",
       "asan",
       "linux",
       "mac",
-      "macos"
+      "macos",
+      "rocm",
+      "slow"
     ]
   ],
   "test_reshape_view_helper_inline_and_install_strict (__main__.InlineAndInstallStrictExportTestExport)": [
     "154877",
     "https://github.com/pytorch/pytorch/issues/154877",
     [
-      "rocm",
       "asan",
       "linux",
       "mac",
-      "macos"
+      "macos",
+      "rocm",
+      "slow"
     ]
   ],
   "test_reshape_view_helper_retraceability_nonstrict (__main__.RetraceExportNonStrictTestExport)": [
     "154874",
     "https://github.com/pytorch/pytorch/issues/154874",
     [
-      "rocm",
       "asan",
       "linux",
       "mac",
-      "macos"
+      "macos",
+      "rocm",
+      "slow"
     ]
   ],
   "test_reshape_view_helper_retraceability_strict (__main__.RetraceExportTestExport)": [
     "154875",
     "https://github.com/pytorch/pytorch/issues/154875",
     [
-      "rocm",
       "asan",
       "linux",
       "mac",
-      "macos"
+      "macos",
+      "rocm",
+      "slow"
     ]
   ],
   "test_reshape_view_helper_serdes_nonstrict (__main__.SerDesExportNonStrictTestExport)": [
     "154872",
     "https://github.com/pytorch/pytorch/issues/154872",
     [
-      "rocm",
       "asan",
       "linux",
       "mac",
-      "macos"
+      "macos",
+      "rocm",
+      "slow"
     ]
   ],
   "test_reshape_view_helper_serdes_strict (__main__.SerDesExportTestExport)": [
     "154873",
     "https://github.com/pytorch/pytorch/issues/154873",
     [
-      "rocm",
       "asan",
       "linux",
       "mac",
-      "macos"
+      "macos",
+      "rocm",
+      "slow"
     ]
   ],
   "test_reshape_view_helper_strict (__main__.StrictExportTestExport)": [
     "154878",
     "https://github.com/pytorch/pytorch/issues/154878",
     [
-      "rocm",
       "asan",
       "linux",
       "mac",
-      "macos"
+      "macos",
+      "rocm",
+      "slow"
     ]
   ],
   "test_reshape_view_helper_training_ir_to_decomp_nonstrict (__main__.TrainingIRToRunDecompExportNonStrictTestExport)": [
     "154869",
     "https://github.com/pytorch/pytorch/issues/154869",
     [
-      "rocm",
       "asan",
       "linux",
       "mac",
-      "macos"
+      "macos",
+      "rocm",
+      "slow"
     ]
   ],
   "test_reshape_view_helper_training_ir_to_decomp_strict (__main__.TrainingIRToRunDecompExportTestExport)": [
     "154870",
     "https://github.com/pytorch/pytorch/issues/154870",
     [
-      "rocm",
       "linux",
       "mac",
-      "macos"
+      "macos",
+      "rocm",
+      "slow"
     ]
   ],
   "test_rng (__main__.TestCompilerBisector)": [
