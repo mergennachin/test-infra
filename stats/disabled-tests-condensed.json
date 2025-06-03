@@ -162,14 +162,6 @@
       "slow"
     ]
   ],
-  "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_float16 (__main__.TestForeachCUDA)": [
-    "149522",
-    "https://github.com/pytorch/pytorch/issues/149522",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_float32 (__main__.TestForeachCUDA)": [
     "149409",
     "https://github.com/pytorch/pytorch/issues/149409",
@@ -1044,13 +1036,32 @@
     "154988",
     "https://github.com/pytorch/pytorch/issues/154988",
     [
-      "rocm"
+      "rocm",
+      "asan",
+      "linux",
+      "mac",
+      "macos"
     ]
   ],
   "test_dim_hint_range_violations_cpp_serdes (__main__.CppSerdesTestExport)": [
     "154989",
     "https://github.com/pytorch/pytorch/issues/154989",
     [
+      "rocm",
+      "asan",
+      "linux",
+      "mac",
+      "macos"
+    ]
+  ],
+  "test_dim_hint_range_violations_inline_and_install_strict (__main__.InlineAndInstallStrictExportTestExport)": [
+    "155010",
+    "https://github.com/pytorch/pytorch/issues/155010",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
       "rocm"
     ]
   ],
@@ -1058,55 +1069,76 @@
     "154990",
     "https://github.com/pytorch/pytorch/issues/154990",
     [
-      "rocm",
       "asan",
-      "linux"
+      "linux",
+      "rocm",
+      "mac",
+      "macos"
     ]
   ],
   "test_dim_hint_range_violations_retraceability_strict (__main__.RetraceExportTestExport)": [
     "154991",
     "https://github.com/pytorch/pytorch/issues/154991",
     [
-      "rocm",
       "asan",
-      "linux"
+      "linux",
+      "rocm",
+      "mac",
+      "macos"
     ]
   ],
   "test_dim_hint_range_violations_serdes_nonstrict (__main__.SerDesExportNonStrictTestExport)": [
     "154992",
     "https://github.com/pytorch/pytorch/issues/154992",
     [
-      "rocm"
+      "rocm",
+      "asan",
+      "linux",
+      "mac",
+      "macos"
     ]
   ],
   "test_dim_hint_range_violations_serdes_strict (__main__.SerDesExportTestExport)": [
     "154993",
     "https://github.com/pytorch/pytorch/issues/154993",
     [
-      "rocm"
+      "rocm",
+      "asan",
+      "linux",
+      "mac",
+      "macos"
     ]
   ],
   "test_dim_hint_range_violations_strict (__main__.StrictExportTestExport)": [
     "154994",
     "https://github.com/pytorch/pytorch/issues/154994",
     [
-      "rocm"
+      "rocm",
+      "asan",
+      "linux",
+      "mac",
+      "macos"
     ]
   ],
   "test_dim_hint_range_violations_training_ir_to_decomp_nonstrict (__main__.TrainingIRToRunDecompExportNonStrictTestExport)": [
     "154968",
     "https://github.com/pytorch/pytorch/issues/154968",
     [
-      "rocm",
       "linux",
-      "slow"
+      "rocm",
+      "slow",
+      "mac",
+      "macos"
     ]
   ],
   "test_dim_hint_range_violations_training_ir_to_decomp_strict (__main__.TrainingIRToRunDecompExportTestExport)": [
     "154995",
     "https://github.com/pytorch/pytorch/issues/154995",
     [
-      "rocm"
+      "rocm",
+      "linux",
+      "mac",
+      "macos"
     ]
   ],
   "test_disable_external_correlation (__main__.TestProfiler)": [
@@ -2054,14 +2086,6 @@
   "test_parity__foreach_abs_fastpath_inplace_cuda_bfloat16 (__main__.TestForeachCUDA)": [
     "148966",
     "https://github.com/pytorch/pytorch/issues/148966",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
-  "test_parity__foreach_abs_fastpath_inplace_cuda_float32 (__main__.TestForeachCUDA)": [
-    "150530",
-    "https://github.com/pytorch/pytorch/issues/150530",
     [
       "linux",
       "slow"
