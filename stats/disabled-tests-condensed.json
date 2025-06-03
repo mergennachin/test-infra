@@ -1480,6 +1480,13 @@
       "mac"
     ]
   ],
+  "test_grad_with_manual_interleaved_ScheduleClass0_use_new_runtime_True (__main__.ScheduleTest)": [
+    "154373",
+    "https://github.com/pytorch/pytorch/issues/154373",
+    [
+      "linux"
+    ]
+  ],
   "test_grad_with_manual_interleaved_ScheduleClass1_use_new_runtime_False (__main__.ScheduleTest)": [
     "154391",
     "https://github.com/pytorch/pytorch/issues/154391",
@@ -1567,15 +1574,6 @@
   "test_inductor_all_gather_into_tensor_coalesced (__main__.CompileTest)": [
     "146806",
     "https://github.com/pytorch/pytorch/issues/146806",
-    [
-      "inductor",
-      "linux",
-      "rocm"
-    ]
-  ],
-  "test_inductor_all_gather_into_tensor_single (__main__.CompileTest)": [
-    "147707",
-    "https://github.com/pytorch/pytorch/issues/147707",
     [
       "inductor",
       "linux",
@@ -2274,13 +2272,6 @@
       "rocm"
     ]
   ],
-  "test_per_sample_api_compute_batch_size_not_pytreeable_cpu (__main__.TestExpandedWeightModuleCPU)": [
-    "146972",
-    "https://github.com/pytorch/pytorch/issues/146972",
-    [
-      "dynamo"
-    ]
-  ],
   "test_prim_grad_undefined (test_jit.TestScript)": [
     "91493",
     "https://github.com/pytorch/pytorch/issues/91493",
@@ -2713,14 +2704,6 @@
       "linux",
       "rocm",
       "slow"
-    ]
-  ],
-  "test_roi_align_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "103156",
-    "https://github.com/pytorch/pytorch/issues/103156",
-    [
-      "linux",
-      "rocm"
     ]
   ],
   "test_run_decompositions_map_handle_to_new_nodes (__main__.TestNumericDebugger)": [
