@@ -1058,14 +1058,18 @@
     "154990",
     "https://github.com/pytorch/pytorch/issues/154990",
     [
-      "rocm"
+      "rocm",
+      "asan",
+      "linux"
     ]
   ],
   "test_dim_hint_range_violations_retraceability_strict (__main__.RetraceExportTestExport)": [
     "154991",
     "https://github.com/pytorch/pytorch/issues/154991",
     [
-      "rocm"
+      "rocm",
+      "asan",
+      "linux"
     ]
   ],
   "test_dim_hint_range_violations_serdes_nonstrict (__main__.SerDesExportNonStrictTestExport)": [
