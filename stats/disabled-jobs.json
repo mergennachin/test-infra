@@ -1,44 +1,4 @@
 {
-  "AotInductorTest.FreeInactiveConstantBufferCuda (build.bin.test_aoti_inference)": [
-    "pytorch-bot",
-    "149495",
-    "https://github.com/pytorch/pytorch/issues/149495",
-    "AotInductorTest.FreeInactiveConstantBufferCuda (build.bin.test_aoti_inference)",
-    "",
-    ""
-  ],
-  "AotInductorTest.FreeInactiveConstantBufferRuntimeConstantFoldingCuda (build.bin.test_aoti_inference)": [
-    "pytorch-bot",
-    "150299",
-    "https://github.com/pytorch/pytorch/issues/150299",
-    "AotInductorTest.FreeInactiveConstantBufferRuntimeConstantFoldingCuda (build.bin.test_aoti_inference)",
-    "",
-    ""
-  ],
-  "PyTorchStreamWriterAndReader.LoadWithMultiThreads (build.win_tmp.build.torch.test.inline_container_test.exe)": [
-    "pytorch-bot",
-    "154011",
-    "https://github.com/pytorch/pytorch/issues/154011",
-    "PyTorchStreamWriterAndReader.LoadWithMultiThreads (build.win_tmp.build.torch.test.inline_container_test.exe)",
-    "",
-    ""
-  ],
-  "TCPStoreTest.testMultiTenantStores (__main__.TCPStoreTest)": [
-    "pytorch-bot",
-    "142030",
-    "https://github.com/pytorch/pytorch/issues/142030",
-    "TCPStoreTest.testMultiTenantStores (__main__.TCPStoreTest)",
-    "",
-    ""
-  ],
-  "TCPStoreTest.testMultiTenantStoresUV (__main__.TCPStoreTest)": [
-    "pytorch-bot",
-    "139150",
-    "https://github.com/pytorch/pytorch/issues/139150",
-    "TCPStoreTest.testMultiTenantStoresUV (__main__.TCPStoreTest)",
-    "",
-    ""
-  ],
   "distributed/_composable/fsdp/test_fully_shard_training.py::TestFullyShard1DTrainingCompose::test_train_parity_with_activation_checkpointing": [
     "jithunnair-amd",
     "120945",
