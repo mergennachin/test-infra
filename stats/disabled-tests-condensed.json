@@ -155,9 +155,17 @@
       "slow"
     ]
   ],
-  "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_float32 (__main__.TestForeachCUDA)": [
-    "149409",
-    "https://github.com/pytorch/pytorch/issues/149409",
+  "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_complex64 (__main__.TestForeachCUDA)": [
+    "149199",
+    "https://github.com/pytorch/pytorch/issues/149199",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
+  "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_float64 (__main__.TestForeachCUDA)": [
+    "149523",
+    "https://github.com/pytorch/pytorch/issues/149523",
     [
       "linux",
       "slow"
@@ -1833,6 +1841,15 @@
     "https://github.com/pytorch/pytorch/issues/95172",
     [
       "rocm"
+    ]
+  ],
+  "test_mempool_ctx_multithread (__main__.TestMemPool)": [
+    "153460",
+    "https://github.com/pytorch/pytorch/issues/153460",
+    [
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_mempool_with_allocator (__main__.TestMemPool)": [
