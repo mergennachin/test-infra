@@ -226,6 +226,14 @@
       "macos"
     ]
   ],
+  "test_byte_tensor_assignment (__main__.TestAdvancedIndexing)": [
+    "137028",
+    "https://github.com/pytorch/pytorch/issues/137028",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_cache_hot_load_device_cuda_bfloat16_dynamic_False (__main__.AOTAutogradCacheTests)": [
     "145334",
     "https://github.com/pytorch/pytorch/issues/145334",
@@ -708,13 +716,6 @@
   "test_cuda_variable_sharing (__main__.TestMultiprocessing)": [
     "92131",
     "https://github.com/pytorch/pytorch/issues/92131",
-    [
-      "rocm"
-    ]
-  ],
-  "test_ddp_apply_optim_in_backward (__main__.TestDistBackendWithSpawn)": [
-    "153266",
-    "https://github.com/pytorch/pytorch/issues/153266",
     [
       "rocm"
     ]
@@ -1487,6 +1488,13 @@
       "linux"
     ]
   ],
+  "test_grad_with_manual_interleaved_ScheduleClass2_use_new_runtime_False (__main__.ScheduleTest)": [
+    "154443",
+    "https://github.com/pytorch/pytorch/issues/154443",
+    [
+      "linux"
+    ]
+  ],
   "test_graph_concurrent_replay (__main__.TestCuda)": [
     "104055",
     "https://github.com/pytorch/pytorch/issues/104055",
@@ -1777,6 +1785,13 @@
       "linux"
     ]
   ],
+  "test_matmul_layer_norm_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "151835",
+    "https://github.com/pytorch/pytorch/issues/151835",
+    [
+      "linux"
+    ]
+  ],
   "test_matmul_triton_kernel_benchmark (__main__.TestKernelBenchmark)": [
     "115002",
     "https://github.com/pytorch/pytorch/issues/115002",
@@ -1818,15 +1833,6 @@
     "https://github.com/pytorch/pytorch/issues/95172",
     [
       "rocm"
-    ]
-  ],
-  "test_mempool_ctx_multithread (__main__.TestMemPool)": [
-    "153460",
-    "https://github.com/pytorch/pytorch/issues/153460",
-    [
-      "linux",
-      "rocm",
-      "slow"
     ]
   ],
   "test_mempool_with_allocator (__main__.TestMemPool)": [
