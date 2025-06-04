@@ -2370,6 +2370,13 @@
       "mac"
     ]
   ],
+  "test_reduce_stress_cuda (__main__.ProcessGroupGlooLazyInitTest)": [
+    "152201",
+    "https://github.com/pytorch/pytorch/issues/152201",
+    [
+      "rocm"
+    ]
+  ],
   "test_reduce_stress_cuda (__main__.ProcessGroupGlooTest)": [
     "152367",
     "https://github.com/pytorch/pytorch/issues/152367",
