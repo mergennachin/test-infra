@@ -469,6 +469,16 @@
       "rocm"
     ]
   ],
+  "test_comprehensive_pca_lowrank_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
+    "139828",
+    "https://github.com/pytorch/pytorch/issues/139828",
+    [
+      "inductor",
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_comprehensive_rot90_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
     "140773",
     "https://github.com/pytorch/pytorch/issues/140773",
@@ -2747,6 +2757,14 @@
       "linux",
       "rocm",
       "slow"
+    ]
+  ],
+  "test_roi_align_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
+    "103156",
+    "https://github.com/pytorch/pytorch/issues/103156",
+    [
+      "linux",
+      "rocm"
     ]
   ],
   "test_run_decompositions_map_handle_to_new_nodes (__main__.TestNumericDebugger)": [
