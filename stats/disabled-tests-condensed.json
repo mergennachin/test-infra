@@ -1503,6 +1503,13 @@
       "linux"
     ]
   ],
+  "test_grad_with_manual_interleaved_ScheduleClass2_use_new_runtime_True (__main__.ScheduleTest)": [
+    "154481",
+    "https://github.com/pytorch/pytorch/issues/154481",
+    [
+      "linux"
+    ]
+  ],
   "test_graph_concurrent_replay (__main__.TestCuda)": [
     "104055",
     "https://github.com/pytorch/pytorch/issues/104055",
@@ -2260,6 +2267,14 @@
   "test_parity__foreach_acos_fastpath_inplace_cuda_float32 (__main__.TestForeachCUDA)": [
     "151003",
     "https://github.com/pytorch/pytorch/issues/151003",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
+  "test_parity__foreach_acos_fastpath_inplace_cuda_float64 (__main__.TestForeachCUDA)": [
+    "151019",
+    "https://github.com/pytorch/pytorch/issues/151019",
     [
       "linux",
       "slow"
