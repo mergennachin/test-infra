@@ -2304,6 +2304,11 @@
       "linux"
     ]
   ],
+  "test_penalized_small_dim (__main__.TestTiling)": [
+    "155186",
+    "https://github.com/pytorch/pytorch/issues/155186",
+    []
+  ],
   "test_pending_fusions_multiple (__main__.TestPrologueFusion)": [
     "152221",
     "https://github.com/pytorch/pytorch/issues/152221",
