@@ -2016,14 +2016,6 @@
       "asan"
     ]
   ],
-  "test_non_contiguous_input_mm_plus_mm (__main__.TestMaxAutotune)": [
-    "126867",
-    "https://github.com/pytorch/pytorch/issues/126867",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_non_contiguous_tensors_nn_ConvTranspose1d_cuda_complex32 (__main__.TestModuleCUDA)": [
     "81732",
     "https://github.com/pytorch/pytorch/issues/81732",
@@ -2921,13 +2913,6 @@
   "test_sparse_gradients (__main__.DistributedDataParallelTest)": [
     "153142",
     "https://github.com/pytorch/pytorch/issues/153142",
-    [
-      "linux"
-    ]
-  ],
-  "test_sparse_gradients_grad_is_view (__main__.DistributedDataParallelTest)": [
-    "140368",
-    "https://github.com/pytorch/pytorch/issues/140368",
     [
       "linux"
     ]
