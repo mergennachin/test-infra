@@ -35,6 +35,13 @@
       "rocm"
     ]
   ],
+  "test_Transformer_multilayer_coder_cuda_tf32 (__main__.TestNN)": [
+    "155235",
+    "https://github.com/pytorch/pytorch/issues/155235",
+    [
+      "rocm"
+    ]
+  ],
   "test_all_gather_uneven (__main__.DeviceMeshCollectiveTest)": [
     "98049",
     "https://github.com/pytorch/pytorch/issues/98049",
