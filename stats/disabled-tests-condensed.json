@@ -2289,6 +2289,14 @@
       "linux"
     ]
   ],
+  "test_parity__foreach_acos_fastpath_outplace_cuda_complex128 (__main__.TestForeachCUDA)": [
+    "151093",
+    "https://github.com/pytorch/pytorch/issues/151093",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_pattern_matcher_multi_user_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
     "134433",
     "https://github.com/pytorch/pytorch/issues/134433",
@@ -3240,15 +3248,6 @@
     "https://github.com/pytorch/pytorch/issues/113850",
     [
       "linux"
-    ]
-  ],
-  "test_wait_tensor (__main__.CompileTest)": [
-    "148014",
-    "https://github.com/pytorch/pytorch/issues/148014",
-    [
-      "inductor",
-      "linux",
-      "rocm"
     ]
   ],
   "test_warn_on_invalid_torch_function_standalone_class (__main__.TestTorchFunctionWarning)": [
