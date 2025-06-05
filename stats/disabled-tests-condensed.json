@@ -786,14 +786,6 @@
       "linux"
     ]
   ],
-  "test_deterministic_algorithms (__main__.TestGuardSerialization)": [
-    "154090",
-    "https://github.com/pytorch/pytorch/issues/154090",
-    [
-      "asan",
-      "linux"
-    ]
-  ],
   "test_dict_contains (__main__.TestGuardSerialization)": [
     "153530",
     "https://github.com/pytorch/pytorch/issues/153530",
