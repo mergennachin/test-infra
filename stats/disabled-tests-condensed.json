@@ -208,22 +208,6 @@
       "slow"
     ]
   ],
-  "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_int16 (__main__.TestForeachCUDA)": [
-    "149627",
-    "https://github.com/pytorch/pytorch/issues/149627",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
-  "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_int32 (__main__.TestForeachCUDA)": [
-    "149628",
-    "https://github.com/pytorch/pytorch/issues/149628",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_int64 (__main__.TestForeachCUDA)": [
     "149735",
     "https://github.com/pytorch/pytorch/issues/149735",
@@ -2034,6 +2018,18 @@
       "dynamo"
     ]
   ],
+  "test_nn_module (__main__.TestGuardSerialization)": [
+    "153120",
+    "https://github.com/pytorch/pytorch/issues/153120",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_nnc_correctness_frac_cpu_bfloat16 (__main__.TestNNCOpInfoCPU)": [
     "104454",
     "https://github.com/pytorch/pytorch/issues/104454",
@@ -2317,6 +2313,13 @@
   "test_parity__foreach_acos_fastpath_outplace_cuda_complex64 (__main__.TestForeachCUDA)": [
     "151099",
     "https://github.com/pytorch/pytorch/issues/151099",
+    [
+      "linux"
+    ]
+  ],
+  "test_parity__foreach_acos_fastpath_outplace_cuda_float16 (__main__.TestForeachCUDA)": [
+    "151114",
+    "https://github.com/pytorch/pytorch/issues/151114",
     [
       "linux"
     ]
