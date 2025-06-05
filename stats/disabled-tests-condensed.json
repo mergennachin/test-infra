@@ -21,6 +21,20 @@
       "linux"
     ]
   ],
+  "test_Linear_cuda_tf32 (__main__.TestNN)": [
+    "155216",
+    "https://github.com/pytorch/pytorch/issues/155216",
+    [
+      "rocm"
+    ]
+  ],
+  "test_TransformerEncoderLayer_gelu_activation_cuda_tf32 (__main__.TestNN)": [
+    "155217",
+    "https://github.com/pytorch/pytorch/issues/155217",
+    [
+      "rocm"
+    ]
+  ],
   "test_all_gather_uneven (__main__.DeviceMeshCollectiveTest)": [
     "98049",
     "https://github.com/pytorch/pytorch/issues/98049",
@@ -1997,18 +2011,6 @@
       "dynamo"
     ]
   ],
-  "test_nn_module (__main__.TestGuardSerialization)": [
-    "153120",
-    "https://github.com/pytorch/pytorch/issues/153120",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_nnc_correctness_frac_cpu_bfloat16 (__main__.TestNNCOpInfoCPU)": [
     "104454",
     "https://github.com/pytorch/pytorch/issues/104454",
@@ -2287,6 +2289,13 @@
     [
       "linux",
       "slow"
+    ]
+  ],
+  "test_parity__foreach_acos_fastpath_outplace_cuda_complex64 (__main__.TestForeachCUDA)": [
+    "151099",
+    "https://github.com/pytorch/pytorch/issues/151099",
+    [
+      "linux"
     ]
   ],
   "test_pattern_matcher_multi_user_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
@@ -3233,6 +3242,15 @@
     "https://github.com/pytorch/pytorch/issues/113850",
     [
       "linux"
+    ]
+  ],
+  "test_wait_tensor (__main__.CompileTest)": [
+    "148014",
+    "https://github.com/pytorch/pytorch/issues/148014",
+    [
+      "inductor",
+      "linux",
+      "rocm"
     ]
   ],
   "test_warn_on_invalid_torch_function_standalone_class (__main__.TestTorchFunctionWarning)": [
