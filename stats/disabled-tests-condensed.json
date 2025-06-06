@@ -2348,6 +2348,13 @@
       "slow"
     ]
   ],
+  "test_parity__foreach_add_fastpath_inplace_cuda_bfloat16 (__main__.TestForeachCUDA)": [
+    "151228",
+    "https://github.com/pytorch/pytorch/issues/151228",
+    [
+      "linux"
+    ]
+  ],
   "test_pattern_matcher_multi_user_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
     "134433",
     "https://github.com/pytorch/pytorch/issues/134433",
