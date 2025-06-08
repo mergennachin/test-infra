@@ -2979,6 +2979,11 @@
       "rocm"
     ]
   ],
+  "test_smoke (__main__.TestCollectEnv)": [
+    "77345",
+    "https://github.com/pytorch/pytorch/issues/77345",
+    []
+  ],
   "test_sparse_add_cuda_float64 (__main__.TestSparseCSRCUDA)": [
     "145019",
     "https://github.com/pytorch/pytorch/issues/145019",
