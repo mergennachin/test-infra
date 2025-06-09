@@ -2362,6 +2362,14 @@
       "linux"
     ]
   ],
+  "test_parity__foreach_add_fastpath_inplace_cuda_complex128 (__main__.TestForeachCUDA)": [
+    "151300",
+    "https://github.com/pytorch/pytorch/issues/151300",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_pattern_matcher_multi_user_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
     "134433",
     "https://github.com/pytorch/pytorch/issues/134433",
@@ -2983,13 +2991,6 @@
     "77345",
     "https://github.com/pytorch/pytorch/issues/77345",
     []
-  ],
-  "test_sparse_add_cuda_float64 (__main__.TestSparseCSRCUDA)": [
-    "145019",
-    "https://github.com/pytorch/pytorch/issues/145019",
-    [
-      "rocm"
-    ]
   ],
   "test_sparse_gradients (__main__.DistributedDataParallelTest)": [
     "153142",
