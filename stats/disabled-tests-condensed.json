@@ -2377,13 +2377,6 @@
       "linux"
     ]
   ],
-  "test_pending_fusions_multiple (__main__.TestPrologueFusion)": [
-    "152221",
-    "https://github.com/pytorch/pytorch/issues/152221",
-    [
-      "rocm"
-    ]
-  ],
   "test_per_sample_api_compute_batch_size_not_pytreeable_cpu (__main__.TestExpandedWeightModuleCPU)": [
     "146972",
     "https://github.com/pytorch/pytorch/issues/146972",
