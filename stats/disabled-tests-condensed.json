@@ -2853,6 +2853,15 @@
       "slow"
     ]
   ],
+  "test_rng (__main__.TestCompilerBisector)": [
+    "139590",
+    "https://github.com/pytorch/pytorch/issues/139590",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_roi_align_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
     "103156",
     "https://github.com/pytorch/pytorch/issues/103156",
@@ -3373,6 +3382,20 @@
     "https://github.com/pytorch/pytorch/issues/141484",
     [
       "linux"
+    ]
+  ],
+  "test_weight_norm_bwd_dynamic_shapes_cuda (__main__.DynamicShapesCodegenGPUTests)": [
+    "155516",
+    "https://github.com/pytorch/pytorch/issues/155516",
+    [
+      "rocm"
+    ]
+  ],
+  "test_weight_norm_bwd_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
+    "155517",
+    "https://github.com/pytorch/pytorch/issues/155517",
+    [
+      "rocm"
     ]
   ],
   "test_while_loop_schema_gen (__main__.TestHopSchema)": [
