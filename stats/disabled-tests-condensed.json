@@ -1655,14 +1655,6 @@
       "slow"
     ]
   ],
-  "test_parity__foreach_abs_fastpath_outplace_cuda_int8 (__main__.TestForeachCUDA)": [
-    "150837",
-    "https://github.com/pytorch/pytorch/issues/150837",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_parity__foreach_abs_fastpath_outplace_cuda_uint8 (__main__.TestForeachCUDA)": [
     "150878",
     "https://github.com/pytorch/pytorch/issues/150878",
@@ -2503,6 +2495,13 @@
     "https://github.com/pytorch/pytorch/issues/154108",
     [
       "rocm"
+    ]
+  ],
+  "test_trust_repo_check_yes (__main__.TestHub)": [
+    "155617",
+    "https://github.com/pytorch/pytorch/issues/155617",
+    [
+      "dynamo"
     ]
   ],
   "test_unshard_async (__main__.TestFullyShardUnshardMultiProcess)": [
