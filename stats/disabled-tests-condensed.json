@@ -2398,6 +2398,13 @@
       "linux"
     ]
   ],
+  "test_parity__foreach_add_fastpath_inplace_cuda_float64 (__main__.TestForeachCUDA)": [
+    "153395",
+    "https://github.com/pytorch/pytorch/issues/153395",
+    [
+      "linux"
+    ]
+  ],
   "test_pattern_matcher_multi_user_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
     "134433",
     "https://github.com/pytorch/pytorch/issues/134433",
