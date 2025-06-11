@@ -239,14 +239,6 @@
       "slow"
     ]
   ],
-  "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_uint8 (__main__.TestForeachCUDA)": [
-    "149858",
-    "https://github.com/pytorch/pytorch/issues/149858",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_builtin_remote_message_dropped_timeout_to_self (__main__.FaultyFaultyAgentRpcTest)": [
     "69179",
     "https://github.com/pytorch/pytorch/issues/69179",
@@ -589,13 +581,6 @@
     "https://github.com/pytorch/pytorch/issues/131064",
     [
       "asan",
-      "linux"
-    ]
-  ],
-  "test_cublas_addmm_reduced_precision_fp16_accumulate_size_10000_backend_cublas_cuda_float16 (__main__.TestMatmulCudaCUDA)": [
-    "154546",
-    "https://github.com/pytorch/pytorch/issues/154546",
-    [
       "linux"
     ]
   ],
@@ -1216,6 +1201,15 @@
       "rocm"
     ]
   ],
+  "test_inductor_reuse_buffer_after_inplace_collective (__main__.CompileTest)": [
+    "147950",
+    "https://github.com/pytorch/pytorch/issues/147950",
+    [
+      "inductor",
+      "linux",
+      "rocm"
+    ]
+  ],
   "test_inplace_custom_op (__main__.InplacingTests)": [
     "135327",
     "https://github.com/pytorch/pytorch/issues/135327",
@@ -1619,22 +1613,6 @@
   "test_parity__foreach_abs_fastpath_inplace_cuda_float64 (__main__.TestForeachCUDA)": [
     "150562",
     "https://github.com/pytorch/pytorch/issues/150562",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
-  "test_parity__foreach_acos_fastpath_inplace_cuda_complex128 (__main__.TestForeachCUDA)": [
-    "150933",
-    "https://github.com/pytorch/pytorch/issues/150933",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
-  "test_parity__foreach_acos_fastpath_inplace_cuda_complex64 (__main__.TestForeachCUDA)": [
-    "150960",
-    "https://github.com/pytorch/pytorch/issues/150960",
     [
       "linux",
       "slow"
