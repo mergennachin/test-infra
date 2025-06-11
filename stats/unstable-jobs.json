@@ -30,13 +30,5 @@
     "inductor-rocm-mi300",
     "rocm-py3.10-inductor-mi300",
     "test (inductor)"
-  ],
-  "pull / linux-jammy-py3-clang12-executorch / build": [
-    "clee2000",
-    "150261",
-    "https://github.com/pytorch/pytorch/issues/150261",
-    "pull",
-    "linux-jammy-py3-clang12-executorch",
-    "build"
   ]
 }
