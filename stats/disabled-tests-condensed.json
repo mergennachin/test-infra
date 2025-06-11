@@ -278,14 +278,6 @@
       "rocm"
     ]
   ],
-  "test_cat_max_autotune_triton (__main__.TestMaxAutotune)": [
-    "145830",
-    "https://github.com/pytorch/pytorch/issues/145830",
-    [
-      "inductor",
-      "rocm"
-    ]
-  ],
   "test_causal_variants_compile_causal_variant_CausalVariant_LOWER_RIGHT_shape0_cuda (__main__.TestAttnBiasCUDA)": [
     "118641",
     "https://github.com/pytorch/pytorch/issues/118641",
@@ -593,13 +585,6 @@
       "linux"
     ]
   ],
-  "test_cublas_addmm_reduced_precision_fp16_accumulate_size_10000_backend_cublas_cuda_bfloat16 (__main__.TestMatmulCudaCUDA)": [
-    "154500",
-    "https://github.com/pytorch/pytorch/issues/154500",
-    [
-      "linux"
-    ]
-  ],
   "test_cublas_addmm_reduced_precision_fp16_accumulate_size_10000_backend_cublas_cuda_float16 (__main__.TestMatmulCudaCUDA)": [
     "154546",
     "https://github.com/pytorch/pytorch/issues/154546",
@@ -610,20 +595,6 @@
   "test_cublas_addmm_reduced_precision_fp16_accumulate_size_10000_backend_cublaslt_cuda_bfloat16 (__main__.TestMatmulCudaCUDA)": [
     "154588",
     "https://github.com/pytorch/pytorch/issues/154588",
-    [
-      "linux"
-    ]
-  ],
-  "test_cublas_addmm_reduced_precision_fp16_accumulate_size_10000_backend_cublaslt_cuda_float16 (__main__.TestMatmulCudaCUDA)": [
-    "154499",
-    "https://github.com/pytorch/pytorch/issues/154499",
-    [
-      "linux"
-    ]
-  ],
-  "test_cublas_addmm_size_10000_backend_cublaslt_cuda_float32 (__main__.TestMatmulCudaCUDA)": [
-    "154498",
-    "https://github.com/pytorch/pytorch/issues/154498",
     [
       "linux"
     ]
@@ -1222,6 +1193,15 @@
       "rocm"
     ]
   ],
+  "test_inductor_reduce_scatter_tensor_single (__main__.CompileTest)": [
+    "147911",
+    "https://github.com/pytorch/pytorch/issues/147911",
+    [
+      "inductor",
+      "linux",
+      "rocm"
+    ]
+  ],
   "test_inplace_custom_op (__main__.InplacingTests)": [
     "135327",
     "https://github.com/pytorch/pytorch/issues/135327",
@@ -1324,13 +1304,6 @@
   "test_lobpcg (__main__.TestAutograd)": [
     "80338",
     "https://github.com/pytorch/pytorch/issues/80338",
-    [
-      "linux"
-    ]
-  ],
-  "test_lowering_to_x86 (__main__.TestQuantizePT2EX86Inductor)": [
-    "153140",
-    "https://github.com/pytorch/pytorch/issues/153140",
     [
       "linux"
     ]
@@ -1641,14 +1614,6 @@
   "test_parity__foreach_abs_fastpath_inplace_cuda_float64 (__main__.TestForeachCUDA)": [
     "150562",
     "https://github.com/pytorch/pytorch/issues/150562",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
-  "test_parity__foreach_acos_fastpath_inplace_cuda_bfloat16 (__main__.TestForeachCUDA)": [
-    "150902",
-    "https://github.com/pytorch/pytorch/issues/150902",
     [
       "linux",
       "slow"
@@ -2088,6 +2053,16 @@
       "rocm"
     ]
   ],
+  "test_repeated_calling_cuda (__main__.AOTInductorTestABICompatibleGpu)": [
+    "146185",
+    "https://github.com/pytorch/pytorch/issues/146185",
+    [
+      "inductor",
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_requires_grad_loop (test_jit.TestScript)": [
     "91492",
     "https://github.com/pytorch/pytorch/issues/91492",
@@ -2494,13 +2469,6 @@
   "test_variant_consistency_jit_linalg_lu_factor_ex_cuda_complex64 (__main__.TestJitCUDA)": [
     "86887",
     "https://github.com/pytorch/pytorch/issues/86887",
-    [
-      "linux"
-    ]
-  ],
-  "test_vdd_clamp_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "134445",
-    "https://github.com/pytorch/pytorch/issues/134445",
     [
       "linux"
     ]
