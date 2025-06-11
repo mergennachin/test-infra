@@ -768,20 +768,6 @@
       "dynamo"
     ]
   ],
-  "test_duplicate_registration_impl (__main__.TestOpProfiles)": [
-    "151281",
-    "https://github.com/pytorch/pytorch/issues/151281",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "slow",
-      "win",
-      "windows"
-    ]
-  ],
   "test_dynamic_shape_m_20480_k_5_n_2_should_decompose_True_has_bias_False (__main__.TestDecomposeMemMM)": [
     "153735",
     "https://github.com/pytorch/pytorch/issues/153735",
@@ -1189,6 +1175,15 @@
   "test_inductor_broadcast (__main__.CompileTest)": [
     "147816",
     "https://github.com/pytorch/pytorch/issues/147816",
+    [
+      "inductor",
+      "linux",
+      "rocm"
+    ]
+  ],
+  "test_inductor_inplace_op_on_view (__main__.CompileTest)": [
+    "147852",
+    "https://github.com/pytorch/pytorch/issues/147852",
     [
       "inductor",
       "linux",
