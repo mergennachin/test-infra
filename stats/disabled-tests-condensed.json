@@ -1179,15 +1179,6 @@
       "rocm"
     ]
   ],
-  "test_inductor_inplace_op_on_view (__main__.CompileTest)": [
-    "147852",
-    "https://github.com/pytorch/pytorch/issues/147852",
-    [
-      "inductor",
-      "linux",
-      "rocm"
-    ]
-  ],
   "test_inductor_multiple_specializations_cuda (__main__.GPUTests)": [
     "154705",
     "https://github.com/pytorch/pytorch/issues/154705",
@@ -1650,6 +1641,14 @@
   "test_parity__foreach_abs_fastpath_inplace_cuda_float32 (__main__.TestForeachCUDA)": [
     "150530",
     "https://github.com/pytorch/pytorch/issues/150530",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
+  "test_parity__foreach_abs_fastpath_inplace_cuda_float64 (__main__.TestForeachCUDA)": [
+    "150562",
+    "https://github.com/pytorch/pytorch/issues/150562",
     [
       "linux",
       "slow"
