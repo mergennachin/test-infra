@@ -1473,15 +1473,6 @@
       "windows"
     ]
   ],
-  "test_multi_output_unbacked_custom_op_cuda (__main__.TestInductorDynamicCUDA)": [
-    "135755",
-    "https://github.com/pytorch/pytorch/issues/135755",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_multiple_module (__main__.TestInvokeSubgraphExportStrict)": [
     "150877",
     "https://github.com/pytorch/pytorch/issues/150877",
