@@ -626,8 +626,8 @@
     ]
   ],
   "test_ddp_apply_optim_in_backward_ignored_params (__main__.TestDistBackendWithSpawn)": [
-    "106361",
-    "https://github.com/pytorch/pytorch/issues/106361",
+    "155751",
+    "https://github.com/pytorch/pytorch/issues/155751",
     [
       "rocm"
     ]
