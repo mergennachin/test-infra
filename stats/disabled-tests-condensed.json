@@ -1301,6 +1301,13 @@
       "rocm"
     ]
   ],
+  "test_matrix_rank_basic_cuda_float32 (__main__.TestLinalgCUDA)": [
+    "150406",
+    "https://github.com/pytorch/pytorch/issues/150406",
+    [
+      "rocm"
+    ]
+  ],
   "test_mem_get_info (__main__.TestCuda)": [
     "103495",
     "https://github.com/pytorch/pytorch/issues/103495",
@@ -1491,6 +1498,13 @@
     "https://github.com/pytorch/pytorch/issues/81732",
     [
       "linux"
+    ]
+  ],
+  "test_non_pow_2_headdim_head_dim_121_float16_cuda_float16 (__main__.TestFlexDecodingCUDA)": [
+    "155824",
+    "https://github.com/pytorch/pytorch/issues/155824",
+    [
+      "rocm"
     ]
   ],
   "test_non_pow_2_headdim_head_dim_94_float16_cuda_float16 (__main__.TestFlexDecodingCUDA)": [
