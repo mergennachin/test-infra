@@ -1049,6 +1049,15 @@
       "macos"
     ]
   ],
+  "test_inductor_all_gather_into_tensor_coalesced (__main__.CompileTest)": [
+    "146806",
+    "https://github.com/pytorch/pytorch/issues/146806",
+    [
+      "inductor",
+      "linux",
+      "rocm"
+    ]
+  ],
   "test_inductor_all_gather_into_tensor_single (__main__.CompileTest)": [
     "147707",
     "https://github.com/pytorch/pytorch/issues/147707",
@@ -1902,6 +1911,15 @@
       "mac",
       "macos",
       "rocm"
+    ]
+  ],
+  "test_remove_noop_slice_scatter_cuda (__main__.GPUTests)": [
+    "151378",
+    "https://github.com/pytorch/pytorch/issues/151378",
+    [
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_remove_noop_view_default_cpu (__main__.CpuTests)": [
