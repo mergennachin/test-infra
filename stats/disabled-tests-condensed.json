@@ -472,15 +472,6 @@
       "windows"
     ]
   ],
-  "test_comprehensive_nn_functional_nll_loss_cuda_float64 (__main__.TestDecompCUDA)": [
-    "118355",
-    "https://github.com/pytorch/pytorch/issues/118355",
-    [
-      "rocm",
-      "win",
-      "windows"
-    ]
-  ],
   "test_comprehensive_nn_functional_pad_reflect_cuda_bfloat16 (__main__.TestDecompCUDA)": [
     "131050",
     "https://github.com/pytorch/pytorch/issues/131050",
@@ -847,14 +838,6 @@
   "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_bool (__main__.TestForeachCUDA)": [
     "150120",
     "https://github.com/pytorch/pytorch/issues/150120",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
-  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_complex128 (__main__.TestForeachCUDA)": [
-    "150141",
-    "https://github.com/pytorch/pytorch/issues/150141",
     [
       "linux",
       "slow"
@@ -1881,9 +1864,9 @@
       "mac"
     ]
   ],
-  "test_remove_noop_slice_cpu (__main__.CpuTests)": [
-    "151384",
-    "https://github.com/pytorch/pytorch/issues/151384",
+  "test_remove_noop_slice1_cpu (__main__.CpuTests)": [
+    "151379",
+    "https://github.com/pytorch/pytorch/issues/151379",
     [
       "asan",
       "linux",
@@ -1892,13 +1875,33 @@
       "rocm"
     ]
   ],
-  "test_remove_noop_slice_scatter_cuda (__main__.GPUTests)": [
-    "151378",
-    "https://github.com/pytorch/pytorch/issues/151378",
+  "test_remove_noop_slice1_cuda (__main__.GPUTests)": [
+    "151381",
+    "https://github.com/pytorch/pytorch/issues/151381",
     [
       "linux",
       "rocm",
       "slow"
+    ]
+  ],
+  "test_remove_noop_slice_cuda (__main__.GPUTests)": [
+    "151383",
+    "https://github.com/pytorch/pytorch/issues/151383",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_remove_noop_slice_scatter_cpu (__main__.CpuTests)": [
+    "151382",
+    "https://github.com/pytorch/pytorch/issues/151382",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm"
     ]
   ],
   "test_remove_noop_view_default_cpu (__main__.CpuTests)": [
@@ -2356,27 +2359,6 @@
       "windows"
     ]
   ],
-  "test_variant_consistency_jit_linalg_lu_cuda_complex64 (__main__.TestJitCUDA)": [
-    "87070",
-    "https://github.com/pytorch/pytorch/issues/87070",
-    [
-      "linux"
-    ]
-  ],
-  "test_variant_consistency_jit_linalg_lu_factor_cuda_float32 (__main__.TestJitCUDA)": [
-    "86839",
-    "https://github.com/pytorch/pytorch/issues/86839",
-    [
-      "linux"
-    ]
-  ],
-  "test_variant_consistency_jit_linalg_lu_factor_ex_cuda_complex64 (__main__.TestJitCUDA)": [
-    "86887",
-    "https://github.com/pytorch/pytorch/issues/86887",
-    [
-      "linux"
-    ]
-  ],
   "test_vit_aten_export (__main__.TestQuantizePT2EModels)": [
     "113506",
     "https://github.com/pytorch/pytorch/issues/113506",
@@ -2391,41 +2373,6 @@
     "https://github.com/pytorch/pytorch/issues/121530",
     [
       "rocm"
-    ]
-  ],
-  "test_vmapjvpall_linalg_lu_cuda_float32 (__main__.TestOperatorsCUDA)": [
-    "86770",
-    "https://github.com/pytorch/pytorch/issues/86770",
-    [
-      "linux"
-    ]
-  ],
-  "test_vmapjvpvjp_linalg_lu_cuda_float32 (__main__.TestOperatorsCUDA)": [
-    "86733",
-    "https://github.com/pytorch/pytorch/issues/86733",
-    [
-      "linux"
-    ]
-  ],
-  "test_vmapvjp_linalg_lu_cuda_float32 (__main__.TestOperatorsCUDA)": [
-    "86893",
-    "https://github.com/pytorch/pytorch/issues/86893",
-    [
-      "linux"
-    ]
-  ],
-  "test_vmapvjpvjp_linalg_lu_cuda_float32 (__main__.TestOperatorsCUDA)": [
-    "86929",
-    "https://github.com/pytorch/pytorch/issues/86929",
-    [
-      "linux"
-    ]
-  ],
-  "test_vmapvjpvjp_linalg_lu_factor_cuda_float32 (__main__.TestOperatorsCUDA)": [
-    "113850",
-    "https://github.com/pytorch/pytorch/issues/113850",
-    [
-      "linux"
     ]
   ],
   "test_wait_tensor (__main__.CompileTest)": [
