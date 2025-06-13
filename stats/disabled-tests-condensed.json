@@ -1498,6 +1498,13 @@
       "rocm"
     ]
   ],
+  "test_non_pow_2_headdim_head_dim_24_float16_cuda_float16 (__main__.TestFlexDecodingCUDA)": [
+    "155905",
+    "https://github.com/pytorch/pytorch/issues/155905",
+    [
+      "rocm"
+    ]
+  ],
   "test_non_pow_2_headdim_head_dim_94_float16_cuda_float16 (__main__.TestFlexDecodingCUDA)": [
     "155808",
     "https://github.com/pytorch/pytorch/issues/155808",
