@@ -23,6 +23,14 @@
     "Lint URLs",
     "linux-job"
   ],
+  "inductor-rocm / rocm-py3.10-inductor / test (inductor)": [
+    "clee2000",
+    "155917",
+    "https://github.com/pytorch/pytorch/issues/155917",
+    "inductor-rocm",
+    "rocm-py3.10-inductor",
+    "test (inductor)"
+  ],
   "inductor-rocm-mi300 / rocm-py3.10-inductor-mi300 / test (inductor)": [
     "seemethere",
     "154884",
