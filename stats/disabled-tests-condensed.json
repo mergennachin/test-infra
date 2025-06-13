@@ -838,25 +838,17 @@
       "slow"
     ]
   ],
+  "test_foreach_check_stride_ignore_dims_of_one_cuda_float32 (__main__.TestForeachCUDA)": [
+    "150026",
+    "https://github.com/pytorch/pytorch/issues/150026",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_bool (__main__.TestForeachCUDA)": [
     "150120",
     "https://github.com/pytorch/pytorch/issues/150120",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
-  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_complex64 (__main__.TestForeachCUDA)": [
-    "150161",
-    "https://github.com/pytorch/pytorch/issues/150161",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
-  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_float16 (__main__.TestForeachCUDA)": [
-    "150173",
-    "https://github.com/pytorch/pytorch/issues/150173",
     [
       "linux",
       "slow"
@@ -1216,13 +1208,6 @@
     "https://github.com/pytorch/pytorch/issues/115859",
     [
       "rocm"
-    ]
-  ],
-  "test_is_isnot (__main__.TestScript)": [
-    "120694",
-    "https://github.com/pytorch/pytorch/issues/120694",
-    [
-      "dynamo"
     ]
   ],
   "test_jacobian_vectorize_raises_no_warnings_logging_tensor (__main__.TestAutogradFunctional)": [
