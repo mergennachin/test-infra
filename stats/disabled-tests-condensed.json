@@ -167,14 +167,6 @@
       "mac"
     ]
   ],
-  "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_bfloat16 (__main__.TestForeachCUDA)": [
-    "148965",
-    "https://github.com/pytorch/pytorch/issues/148965",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_complex128 (__main__.TestForeachCUDA)": [
     "149323",
     "https://github.com/pytorch/pytorch/issues/149323",
@@ -854,14 +846,6 @@
       "slow"
     ]
   ],
-  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_float64 (__main__.TestForeachCUDA)": [
-    "150298",
-    "https://github.com/pytorch/pytorch/issues/150298",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_int16 (__main__.TestForeachCUDA)": [
     "150309",
     "https://github.com/pytorch/pytorch/issues/150309",
@@ -913,6 +897,14 @@
   "test_foreach_reduce_large_input__foreach_max_w_empty_False_cuda_bfloat16 (__main__.TestForeachCUDA)": [
     "150932",
     "https://github.com/pytorch/pytorch/issues/150932",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
+  "test_foreach_reduce_large_input__foreach_max_w_empty_False_cuda_bool (__main__.TestForeachCUDA)": [
+    "151229",
+    "https://github.com/pytorch/pytorch/issues/151229",
     [
       "linux",
       "slow"
@@ -1981,14 +1973,11 @@
       "slow"
     ]
   ],
-  "test_remove_noop_view_dtype_cpu (__main__.CpuTests)": [
-    "151540",
-    "https://github.com/pytorch/pytorch/issues/151540",
+  "test_remove_noop_view_default_cuda (__main__.GPUTests)": [
+    "151511",
+    "https://github.com/pytorch/pytorch/issues/151511",
     [
-      "asan",
       "linux",
-      "mac",
-      "macos",
       "rocm",
       "slow"
     ]
