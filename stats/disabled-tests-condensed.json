@@ -1693,6 +1693,13 @@
       "linux"
     ]
   ],
+  "test_parity__foreach_ceil_fastpath_inplace_cuda_complex128 (__main__.TestForeachCUDA)": [
+    "155887",
+    "https://github.com/pytorch/pytorch/issues/155887",
+    [
+      "rocm"
+    ]
+  ],
   "test_pattern_matcher_multi_user_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
     "134433",
     "https://github.com/pytorch/pytorch/issues/134433",
