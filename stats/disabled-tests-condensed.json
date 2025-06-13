@@ -1196,6 +1196,13 @@
       "rocm"
     ]
   ],
+  "test_is_isnot (__main__.TestScript)": [
+    "120694",
+    "https://github.com/pytorch/pytorch/issues/120694",
+    [
+      "dynamo"
+    ]
+  ],
   "test_jacobian_vectorize_raises_no_warnings_logging_tensor (__main__.TestAutogradFunctional)": [
     "153707",
     "https://github.com/pytorch/pytorch/issues/153707",
@@ -1478,6 +1485,13 @@
       "rocm"
     ]
   ],
+  "test_non_pow_2_headdim_head_dim_17_float16_cuda_float16 (__main__.TestFlexDecodingCUDA)": [
+    "155893",
+    "https://github.com/pytorch/pytorch/issues/155893",
+    [
+      "rocm"
+    ]
+  ],
   "test_non_pow_2_headdim_head_dim_94_float16_cuda_float16 (__main__.TestFlexDecodingCUDA)": [
     "155808",
     "https://github.com/pytorch/pytorch/issues/155808",
@@ -1532,14 +1546,6 @@
     "https://github.com/pytorch/pytorch/issues/91494",
     [
       "linux"
-    ]
-  ],
-  "test_parity__foreach_abs_fastpath_inplace_cuda_bfloat16 (__main__.TestForeachCUDA)": [
-    "148966",
-    "https://github.com/pytorch/pytorch/issues/148966",
-    [
-      "linux",
-      "slow"
     ]
   ],
   "test_parity__foreach_abs_fastpath_inplace_cuda_bool (__main__.TestForeachCUDA)": [
