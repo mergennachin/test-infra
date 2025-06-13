@@ -1780,16 +1780,6 @@
       "linux"
     ]
   ],
-  "test_randint_distribution_dynamic_shapes_xpu (__main__.DynamicShapesCodegenGPUTests)": [
-    "155689",
-    "https://github.com/pytorch/pytorch/issues/155689",
-    []
-  ],
-  "test_randint_distribution_dynamic_shapes_xpu (__main__.DynamicShapesGPUTests)": [
-    "155692",
-    "https://github.com/pytorch/pytorch/issues/155692",
-    []
-  ],
   "test_random_seed (__main__.TestDataLoaderUtils)": [
     "84937",
     "https://github.com/pytorch/pytorch/issues/84937",
@@ -2075,27 +2065,6 @@
     [
       "mac",
       "macos"
-    ]
-  ],
-  "test_sdpa_rewriter_11_cuda (__main__.SDPAPatternRewriterCudaTests)": [
-    "148525",
-    "https://github.com/pytorch/pytorch/issues/148525",
-    [
-      "rocm"
-    ]
-  ],
-  "test_sdpa_rewriter_12_cuda (__main__.SDPAPatternRewriterCudaDynamicTests)": [
-    "145188",
-    "https://github.com/pytorch/pytorch/issues/145188",
-    [
-      "rocm"
-    ]
-  ],
-  "test_sdpa_rewriter_12_cuda (__main__.SDPAPatternRewriterCudaTests)": [
-    "145187",
-    "https://github.com/pytorch/pytorch/issues/145187",
-    [
-      "rocm"
     ]
   ],
   "test_send_recv_all_to_all (__main__.ProcessGroupGlooTest)": [
