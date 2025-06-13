@@ -1011,13 +1011,6 @@
       "rocm"
     ]
   ],
-  "test_hessian_vectorize_raises_no_warnings_logging_tensor (__main__.TestAutogradFunctional)": [
-    "153644",
-    "https://github.com/pytorch/pytorch/issues/153644",
-    [
-      "dynamo"
-    ]
-  ],
   "test_homogeneous_attributes (__main__.TestFSDPMiscMultiThread)": [
     "105024",
     "https://github.com/pytorch/pytorch/issues/105024",
@@ -1193,13 +1186,6 @@
     "https://github.com/pytorch/pytorch/issues/135380",
     [
       "linux",
-      "rocm"
-    ]
-  ],
-  "test_int64_upsample3d_cuda_bfloat16 (__main__.TestTorchDeviceTypeCUDA)": [
-    "146007",
-    "https://github.com/pytorch/pytorch/issues/146007",
-    [
       "rocm"
     ]
   ],
@@ -1946,18 +1932,6 @@
     "https://github.com/pytorch/pytorch/issues/151378",
     [
       "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
-  "test_remove_noop_view_default_cpu (__main__.CpuTests)": [
-    "151512",
-    "https://github.com/pytorch/pytorch/issues/151512",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
       "rocm",
       "slow"
     ]
