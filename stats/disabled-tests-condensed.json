@@ -1780,6 +1780,16 @@
       "linux"
     ]
   ],
+  "test_randint_distribution_dynamic_shapes_xpu (__main__.DynamicShapesCodegenGPUTests)": [
+    "155689",
+    "https://github.com/pytorch/pytorch/issues/155689",
+    []
+  ],
+  "test_randint_distribution_dynamic_shapes_xpu (__main__.DynamicShapesGPUTests)": [
+    "155692",
+    "https://github.com/pytorch/pytorch/issues/155692",
+    []
+  ],
   "test_random_seed (__main__.TestDataLoaderUtils)": [
     "84937",
     "https://github.com/pytorch/pytorch/issues/84937",
