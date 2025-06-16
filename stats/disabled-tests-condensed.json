@@ -636,6 +636,13 @@
     "https://github.com/pytorch/pytorch/issues/137765",
     []
   ],
+  "test_ddp_uneven_inputs (__main__.TestDistBackendWithSpawn)": [
+    "75648",
+    "https://github.com/pytorch/pytorch/issues/75648",
+    [
+      "linux"
+    ]
+  ],
   "test_decoder_padding_and_src_mask_bool_cpu (__main__.TestTransformersCPU)": [
     "101787",
     "https://github.com/pytorch/pytorch/issues/101787",
