@@ -267,13 +267,6 @@
       "macos"
     ]
   ],
-  "test_cache_hot_load_device_cuda_bfloat16_dynamic_False (__main__.AOTAutogradCacheTests)": [
-    "145334",
-    "https://github.com/pytorch/pytorch/issues/145334",
-    [
-      "rocm"
-    ]
-  ],
   "test_call_count_tunableop_cuda_float32 (__main__.TestLinalgCUDA)": [
     "155953",
     "https://github.com/pytorch/pytorch/issues/155953",
