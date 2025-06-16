@@ -1246,6 +1246,14 @@
       "linux"
     ]
   ],
+  "test_lowering_to_x86 (__main__.TestQuantizePT2EX86Inductor)": [
+    "153140",
+    "https://github.com/pytorch/pytorch/issues/153140",
+    [
+      "linux",
+      "rocm"
+    ]
+  ],
   "test_matmul_layer_norm_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
     "151835",
     "https://github.com/pytorch/pytorch/issues/151835",
@@ -1787,7 +1795,8 @@
     "https://github.com/pytorch/pytorch/issues/144898",
     [
       "mac",
-      "macos"
+      "macos",
+      "rocm"
     ]
   ],
   "test_record_stream_cuda_float32 (__main__.TestNestedTensorSubclassCUDA)": [
