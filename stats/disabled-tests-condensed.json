@@ -1508,11 +1508,6 @@
       "rocm"
     ]
   ],
-  "test_on_device_tma_store_old_api (__main__.MutationTests)": [
-    "155691",
-    "https://github.com/pytorch/pytorch/issues/155691",
-    []
-  ],
   "test_open_device_registration (__main__.ExtensionBackendTests)": [
     "137027",
     "https://github.com/pytorch/pytorch/issues/137027",
