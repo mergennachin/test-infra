@@ -172,14 +172,6 @@
     "https://github.com/pytorch/pytorch/issues/156063",
     []
   ],
-  "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_complex128 (__main__.TestForeachCUDA)": [
-    "149323",
-    "https://github.com/pytorch/pytorch/issues/149323",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_complex64 (__main__.TestForeachCUDA)": [
     "149199",
     "https://github.com/pytorch/pytorch/issues/149199",
@@ -888,6 +880,14 @@
   "test_foreach_reduce_large_input__foreach_max_w_empty_False_cuda_bool (__main__.TestForeachCUDA)": [
     "151229",
     "https://github.com/pytorch/pytorch/issues/151229",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
+  "test_foreach_reduce_large_input__foreach_max_w_empty_False_cuda_float16 (__main__.TestForeachCUDA)": [
+    "153379",
+    "https://github.com/pytorch/pytorch/issues/153379",
     [
       "linux",
       "slow"
@@ -2041,7 +2041,8 @@
     "156088",
     "https://github.com/pytorch/pytorch/issues/156088",
     [
-      "linux"
+      "linux",
+      "rocm"
     ]
   ],
   "test_schema_correctness_nn_functional_conv3d_cuda_complex64 (__main__.TestSchemaCheckModeOpInfoCUDA)": [
@@ -2195,13 +2196,6 @@
     "https://github.com/pytorch/pytorch/issues/70546",
     [
       "mac"
-    ]
-  ],
-  "test_tmp_not_defined_issue2_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "135219",
-    "https://github.com/pytorch/pytorch/issues/135219",
-    [
-      "linux"
     ]
   ],
   "test_torch_name_rule_map_updated (__main__.TraceRuleTests)": [
