@@ -1749,6 +1749,11 @@
       "slow"
     ]
   ],
+  "test_quantize (__main__.TestOpenReg)": [
+    "156089",
+    "https://github.com/pytorch/pytorch/issues/156089",
+    []
+  ],
   "test_rand (test_jit.TestScript)": [
     "91495",
     "https://github.com/pytorch/pytorch/issues/91495",
