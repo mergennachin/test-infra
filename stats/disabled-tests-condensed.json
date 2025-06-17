@@ -836,14 +836,6 @@
       "slow"
     ]
   ],
-  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_int8 (__main__.TestForeachCUDA)": [
-    "150407",
-    "https://github.com/pytorch/pytorch/issues/150407",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_foreach_l2_large_value_input__foreach_norm_cuda_bfloat16 (__main__.TestForeachCUDA)": [
     "150467",
     "https://github.com/pytorch/pytorch/issues/150467",
@@ -1157,6 +1149,13 @@
   "test_inplace_on_view_backprop_view_cpu (__main__.TestAutogradDeviceTypeCPU)": [
     "156163",
     "https://github.com/pytorch/pytorch/issues/156163",
+    [
+      "dynamo"
+    ]
+  ],
+  "test_inplace_on_view_backprop_view_of_view_cpu (__main__.TestAutogradDeviceTypeCPU)": [
+    "156180",
+    "https://github.com/pytorch/pytorch/issues/156180",
     [
       "dynamo"
     ]
@@ -1816,15 +1815,6 @@
     "https://github.com/pytorch/pytorch/issues/152367",
     [
       "rocm"
-    ]
-  ],
-  "test_reentrant_parent_error_on_cpu_cuda (__main__.TestAutogradDeviceTypeCUDA)": [
-    "86735",
-    "https://github.com/pytorch/pytorch/issues/86735",
-    [
-      "rocm",
-      "win",
-      "windows"
     ]
   ],
   "test_remote_cache_load_function_device_cuda_bfloat16_dynamic_False_bundle_triton_False (__main__.TestFxGraphCache)": [
