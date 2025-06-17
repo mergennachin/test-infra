@@ -2416,13 +2416,6 @@
       "windows"
     ]
   ],
-  "test_weight_norm_bwd_dynamic_shapes_cpu (__main__.DynamicShapesCodegenCpuTests)": [
-    "153803",
-    "https://github.com/pytorch/pytorch/issues/153803",
-    [
-      "linux"
-    ]
-  ],
   "test_weight_norm_bwd_dynamic_shapes_cuda (__main__.DynamicShapesCodegenGPUTests)": [
     "155516",
     "https://github.com/pytorch/pytorch/issues/155516",
