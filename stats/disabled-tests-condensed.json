@@ -836,14 +836,6 @@
       "slow"
     ]
   ],
-  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_int64 (__main__.TestForeachCUDA)": [
-    "150392",
-    "https://github.com/pytorch/pytorch/issues/150392",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_int8 (__main__.TestForeachCUDA)": [
     "150407",
     "https://github.com/pytorch/pytorch/issues/150407",
@@ -1158,6 +1150,13 @@
   "test_inplace_on_view_backprop_base_cpu (__main__.TestAutogradDeviceTypeCPU)": [
     "156143",
     "https://github.com/pytorch/pytorch/issues/156143",
+    [
+      "dynamo"
+    ]
+  ],
+  "test_inplace_on_view_backprop_view_cpu (__main__.TestAutogradDeviceTypeCPU)": [
+    "156163",
+    "https://github.com/pytorch/pytorch/issues/156163",
     [
       "dynamo"
     ]
