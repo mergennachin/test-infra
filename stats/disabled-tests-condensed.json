@@ -167,11 +167,6 @@
       "mac"
     ]
   ],
-  "test_basic (__main__.PrecompileContextTests)": [
-    "156063",
-    "https://github.com/pytorch/pytorch/issues/156063",
-    []
-  ],
   "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_complex64 (__main__.TestForeachCUDA)": [
     "149199",
     "https://github.com/pytorch/pytorch/issues/149199",
@@ -1740,16 +1735,6 @@
       "linux"
     ]
   ],
-  "test_randint_distribution_dynamic_shapes_xpu (__main__.DynamicShapesCodegenGPUTests)": [
-    "155689",
-    "https://github.com/pytorch/pytorch/issues/155689",
-    []
-  ],
-  "test_randint_distribution_dynamic_shapes_xpu (__main__.DynamicShapesGPUTests)": [
-    "155692",
-    "https://github.com/pytorch/pytorch/issues/155692",
-    []
-  ],
   "test_random_seed (__main__.TestDataLoaderUtils)": [
     "84937",
     "https://github.com/pytorch/pytorch/issues/84937",
@@ -2053,11 +2038,6 @@
     [
       "mac"
     ]
-  ],
-  "test_serialize_by_key (__main__.PrecompileContextTests)": [
-    "156146",
-    "https://github.com/pytorch/pytorch/issues/156146",
-    []
   ],
   "test_serialized_patterns_up_to_date (__main__.TestPatternMatcher)": [
     "135476",
