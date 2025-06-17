@@ -1431,6 +1431,13 @@
       "dynamo"
     ]
   ],
+  "test_name_match (__main__.TestGuardSerialization)": [
+    "156246",
+    "https://github.com/pytorch/pytorch/issues/156246",
+    [
+      "linux"
+    ]
+  ],
   "test_nested (quantization.jit.test_quantize_jit.TestQuantizeJit)": [
     "105120",
     "https://github.com/pytorch/pytorch/issues/105120",
@@ -1549,14 +1556,6 @@
     "https://github.com/pytorch/pytorch/issues/91494",
     [
       "linux"
-    ]
-  ],
-  "test_parity__foreach_abs_fastpath_inplace_cuda_bool (__main__.TestForeachCUDA)": [
-    "150468",
-    "https://github.com/pytorch/pytorch/issues/150468",
-    [
-      "linux",
-      "slow"
     ]
   ],
   "test_parity__foreach_abs_fastpath_inplace_cuda_float16 (__main__.TestForeachCUDA)": [
