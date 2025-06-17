@@ -2085,6 +2085,11 @@
       "mac"
     ]
   ],
+  "test_serialize_by_key (__main__.PrecompileContextTests)": [
+    "156146",
+    "https://github.com/pytorch/pytorch/issues/156146",
+    []
+  ],
   "test_serialized_patterns_up_to_date (__main__.TestPatternMatcher)": [
     "135476",
     "https://github.com/pytorch/pytorch/issues/135476",
