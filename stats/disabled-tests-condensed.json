@@ -1140,6 +1140,13 @@
       "dynamo"
     ]
   ],
+  "test_inplace_on_view_of_view_cpu (__main__.TestAutogradDeviceTypeCPU)": [
+    "156289",
+    "https://github.com/pytorch/pytorch/issues/156289",
+    [
+      "dynamo"
+    ]
+  ],
   "test_int64_upsample3d_cuda_bfloat16 (__main__.TestTorchDeviceTypeCUDA)": [
     "146007",
     "https://github.com/pytorch/pytorch/issues/146007",
@@ -1521,14 +1528,6 @@
     "https://github.com/pytorch/pytorch/issues/91494",
     [
       "linux"
-    ]
-  ],
-  "test_parity__foreach_abs_fastpath_inplace_cuda_float32 (__main__.TestForeachCUDA)": [
-    "150530",
-    "https://github.com/pytorch/pytorch/issues/150530",
-    [
-      "linux",
-      "slow"
     ]
   ],
   "test_parity__foreach_abs_fastpath_inplace_cuda_float64 (__main__.TestForeachCUDA)": [
