@@ -879,6 +879,14 @@
       "slow"
     ]
   ],
+  "test_foreach_reduce_large_input__foreach_max_w_empty_False_cuda_float64 (__main__.TestForeachCUDA)": [
+    "153544",
+    "https://github.com/pytorch/pytorch/issues/153544",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_fsdp_unsupported_module_cls (__main__.TestFSDPMiscMultiThread)": [
     "137948",
     "https://github.com/pytorch/pytorch/issues/137948",
@@ -1547,14 +1555,6 @@
       "slow"
     ]
   ],
-  "test_parity__foreach_acos_fastpath_inplace_cuda_float32 (__main__.TestForeachCUDA)": [
-    "151003",
-    "https://github.com/pytorch/pytorch/issues/151003",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_parity__foreach_acos_fastpath_inplace_cuda_float64 (__main__.TestForeachCUDA)": [
     "151019",
     "https://github.com/pytorch/pytorch/issues/151019",
@@ -2009,6 +2009,13 @@
     "https://github.com/pytorch/pytorch/issues/156088",
     [
       "linux",
+      "rocm"
+    ]
+  ],
+  "test_schedule_with_native_zero_bubble_ScheduleClass1 (__main__.ScheduleTest)": [
+    "156328",
+    "https://github.com/pytorch/pytorch/issues/156328",
+    [
       "rocm"
     ]
   ],
