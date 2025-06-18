@@ -979,6 +979,15 @@
       "rocm"
     ]
   ],
+  "test_inductor_all_gather_into_tensor_single (__main__.CompileTest)": [
+    "147707",
+    "https://github.com/pytorch/pytorch/issues/147707",
+    [
+      "inductor",
+      "linux",
+      "rocm"
+    ]
+  ],
   "test_inductor_all_reduce_coalesced (__main__.CompileTest)": [
     "147726",
     "https://github.com/pytorch/pytorch/issues/147726",
@@ -1236,13 +1245,6 @@
     [
       "linux",
       "rocm"
-    ]
-  ],
-  "test_matmul_layer_norm_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "151835",
-    "https://github.com/pytorch/pytorch/issues/151835",
-    [
-      "linux"
     ]
   ],
   "test_matmul_triton_kernel_benchmark (__main__.TestKernelBenchmark)": [
@@ -1647,6 +1649,13 @@
     "https://github.com/pytorch/pytorch/issues/153395",
     [
       "linux"
+    ]
+  ],
+  "test_per_sample_api_compute_batch_size_not_pytreeable_cpu (__main__.TestExpandedWeightModuleCPU)": [
+    "146972",
+    "https://github.com/pytorch/pytorch/issues/146972",
+    [
+      "dynamo"
     ]
   ],
   "test_prim_grad_undefined (test_jit.TestScript)": [
