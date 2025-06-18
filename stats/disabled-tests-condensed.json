@@ -1142,6 +1142,13 @@
       "dynamo"
     ]
   ],
+  "test_inplace_on_view_non_contig_cpu (__main__.TestAutogradDeviceTypeCPU)": [
+    "156265",
+    "https://github.com/pytorch/pytorch/issues/156265",
+    [
+      "dynamo"
+    ]
+  ],
   "test_int64_upsample3d_cuda_bfloat16 (__main__.TestTorchDeviceTypeCUDA)": [
     "146007",
     "https://github.com/pytorch/pytorch/issues/146007",
@@ -2074,6 +2081,14 @@
       "linux",
       "mac",
       "macos"
+    ]
+  ],
+  "test_shape_env (__main__.TestGuardSerialization)": [
+    "156264",
+    "https://github.com/pytorch/pytorch/issues/156264",
+    [
+      "linux",
+      "rocm"
     ]
   ],
   "test_simple (__main__.TestNumericDebugger)": [
