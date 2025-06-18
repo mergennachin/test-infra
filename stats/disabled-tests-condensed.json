@@ -167,14 +167,6 @@
       "mac"
     ]
   ],
-  "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_complex64 (__main__.TestForeachCUDA)": [
-    "149199",
-    "https://github.com/pytorch/pytorch/issues/149199",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_float16 (__main__.TestForeachCUDA)": [
     "149522",
     "https://github.com/pytorch/pytorch/issues/149522",
@@ -186,14 +178,6 @@
   "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_float32 (__main__.TestForeachCUDA)": [
     "149409",
     "https://github.com/pytorch/pytorch/issues/149409",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
-  "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_float64 (__main__.TestForeachCUDA)": [
-    "149523",
-    "https://github.com/pytorch/pytorch/issues/149523",
     [
       "linux",
       "slow"
@@ -473,16 +457,6 @@
     [
       "linux",
       "rocm"
-    ]
-  ],
-  "test_comprehensive_pca_lowrank_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
-    "139828",
-    "https://github.com/pytorch/pytorch/issues/139828",
-    [
-      "inductor",
-      "linux",
-      "rocm",
-      "slow"
     ]
   ],
   "test_comprehensive_rot90_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
@@ -1171,6 +1145,13 @@
       "dynamo"
     ]
   ],
+  "test_inplace_on_view_undefined_grad_output_cpu (__main__.TestAutogradDeviceTypeCPU)": [
+    "156363",
+    "https://github.com/pytorch/pytorch/issues/156363",
+    [
+      "dynamo"
+    ]
+  ],
   "test_int64_upsample3d_cuda_bfloat16 (__main__.TestTorchDeviceTypeCUDA)": [
     "146007",
     "https://github.com/pytorch/pytorch/issues/146007",
@@ -1303,15 +1284,6 @@
     "https://github.com/pytorch/pytorch/issues/95172",
     [
       "rocm"
-    ]
-  ],
-  "test_mempool_ctx_multithread (__main__.TestMemPool)": [
-    "153460",
-    "https://github.com/pytorch/pytorch/issues/153460",
-    [
-      "linux",
-      "rocm",
-      "slow"
     ]
   ],
   "test_mempool_with_allocator (__main__.TestMemPool)": [
@@ -1550,14 +1522,6 @@
   "test_parity__foreach_abs_fastpath_inplace_cuda_float64 (__main__.TestForeachCUDA)": [
     "150562",
     "https://github.com/pytorch/pytorch/issues/150562",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
-  "test_parity__foreach_acos_fastpath_inplace_cuda_float64 (__main__.TestForeachCUDA)": [
-    "151019",
-    "https://github.com/pytorch/pytorch/issues/151019",
     [
       "linux",
       "slow"
@@ -1961,14 +1925,6 @@
       "linux",
       "rocm",
       "slow"
-    ]
-  ],
-  "test_roi_align_dynamic_shapes_cpu (__main__.DynamicShapesCpuTests)": [
-    "103156",
-    "https://github.com/pytorch/pytorch/issues/103156",
-    [
-      "linux",
-      "rocm"
     ]
   ],
   "test_run_decompositions_map_handle_to_new_nodes (__main__.TestNumericDebugger)": [
