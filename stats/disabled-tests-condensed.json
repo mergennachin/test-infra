@@ -1291,7 +1291,17 @@
     "https://github.com/pytorch/pytorch/issues/126953",
     [
       "linux",
-      "rocm"
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_mempool_ctx_multithread (__main__.TestMemPool)": [
+    "153460",
+    "https://github.com/pytorch/pytorch/issues/153460",
+    [
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_mempool_with_allocator (__main__.TestMemPool)": [
