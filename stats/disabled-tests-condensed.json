@@ -167,22 +167,6 @@
       "mac"
     ]
   ],
-  "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_float16 (__main__.TestForeachCUDA)": [
-    "149522",
-    "https://github.com/pytorch/pytorch/issues/149522",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
-  "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_float32 (__main__.TestForeachCUDA)": [
-    "149409",
-    "https://github.com/pytorch/pytorch/issues/149409",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_int16 (__main__.TestForeachCUDA)": [
     "149627",
     "https://github.com/pytorch/pytorch/issues/149627",
@@ -863,6 +847,14 @@
   "test_foreach_reduce_large_input__foreach_max_w_empty_False_cuda_float64 (__main__.TestForeachCUDA)": [
     "153544",
     "https://github.com/pytorch/pytorch/issues/153544",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
+  "test_foreach_reduce_large_input__foreach_max_w_empty_False_cuda_int16 (__main__.TestForeachCUDA)": [
+    "156430",
+    "https://github.com/pytorch/pytorch/issues/156430",
     [
       "linux",
       "slow"
