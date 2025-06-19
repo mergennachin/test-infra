@@ -773,6 +773,13 @@
       "windows"
     ]
   ],
+  "test_fake_crossref_backward_no_amp_cholesky_solve_cuda_float32 (__main__.TestFakeTensorCUDA)": [
+    "156419",
+    "https://github.com/pytorch/pytorch/issues/156419",
+    [
+      "rocm"
+    ]
+  ],
   "test_flop_counter_op_options1_cuda_float16 (__main__.TestSchedulerCUDA)": [
     "153494",
     "https://github.com/pytorch/pytorch/issues/153494",
@@ -2288,6 +2295,15 @@
     "121530",
     "https://github.com/pytorch/pytorch/issues/121530",
     [
+      "rocm"
+    ]
+  ],
+  "test_wait_tensor (__main__.CompileTest)": [
+    "148014",
+    "https://github.com/pytorch/pytorch/issues/148014",
+    [
+      "inductor",
+      "linux",
       "rocm"
     ]
   ],
