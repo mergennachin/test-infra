@@ -1545,14 +1545,6 @@
       "slow"
     ]
   ],
-  "test_parity__foreach_acos_fastpath_outplace_cuda_complex128 (__main__.TestForeachCUDA)": [
-    "151093",
-    "https://github.com/pytorch/pytorch/issues/151093",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_parity__foreach_acos_fastpath_outplace_cuda_complex64 (__main__.TestForeachCUDA)": [
     "151099",
     "https://github.com/pytorch/pytorch/issues/151099",
@@ -1685,15 +1677,6 @@
     "https://github.com/pytorch/pytorch/issues/121576",
     [
       "asan"
-    ]
-  ],
-  "test_qlinear_add_int8_mixed_bf16_use_relu_True_is_qat_True_is_dynamic_True (__main__.TestPatternMatcher)": [
-    "154565",
-    "https://github.com/pytorch/pytorch/issues/154565",
-    [
-      "asan",
-      "linux",
-      "slow"
     ]
   ],
   "test_quantize (__main__.TestOpenReg)": [
