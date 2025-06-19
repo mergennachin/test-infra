@@ -1072,6 +1072,11 @@
       "rocm"
     ]
   ],
+  "test_inlined_optimized_graph (__main__.TestTEFuserDynamic)": [
+    "156438",
+    "https://github.com/pytorch/pytorch/issues/156438",
+    []
+  ],
   "test_inplace_custom_op (__main__.InplacingTests)": [
     "135327",
     "https://github.com/pytorch/pytorch/issues/135327",
@@ -2046,6 +2051,13 @@
     "https://github.com/pytorch/pytorch/issues/105121",
     [
       "rocm"
+    ]
+  ],
+  "test_skip_grad_in_check (__main__.TestTEFuserDynamic)": [
+    "156436",
+    "https://github.com/pytorch/pytorch/issues/156436",
+    [
+      "linux"
     ]
   ],
   "test_slice_scatter_reinplace_cuda (__main__.GPUTests)": [
