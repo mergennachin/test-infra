@@ -1286,6 +1286,14 @@
       "rocm"
     ]
   ],
+  "test_memory_snapshot (__main__.TestCudaMallocAsync)": [
+    "126953",
+    "https://github.com/pytorch/pytorch/issues/126953",
+    [
+      "linux",
+      "rocm"
+    ]
+  ],
   "test_mempool_with_allocator (__main__.TestMemPool)": [
     "154566",
     "https://github.com/pytorch/pytorch/issues/154566",
@@ -1525,13 +1533,6 @@
     [
       "linux",
       "slow"
-    ]
-  ],
-  "test_parity__foreach_acos_fastpath_outplace_cuda_bfloat16 (__main__.TestForeachCUDA)": [
-    "151054",
-    "https://github.com/pytorch/pytorch/issues/151054",
-    [
-      "linux"
     ]
   ],
   "test_parity__foreach_acos_fastpath_outplace_cuda_complex128 (__main__.TestForeachCUDA)": [
