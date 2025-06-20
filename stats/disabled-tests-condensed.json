@@ -853,6 +853,14 @@
       "slow"
     ]
   ],
+  "test_foreach_reduce_large_input__foreach_max_w_empty_False_cuda_int32 (__main__.TestForeachCUDA)": [
+    "156497",
+    "https://github.com/pytorch/pytorch/issues/156497",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_fsdp_unsupported_module_cls (__main__.TestFSDPMiscMultiThread)": [
     "137948",
     "https://github.com/pytorch/pytorch/issues/137948",
@@ -1436,14 +1444,6 @@
     "https://github.com/pytorch/pytorch/issues/104454",
     [
       "asan"
-    ]
-  ],
-  "test_non_contiguous_input_mm_plus_mm (__main__.TestMaxAutotune)": [
-    "126867",
-    "https://github.com/pytorch/pytorch/issues/126867",
-    [
-      "linux",
-      "slow"
     ]
   ],
   "test_non_contiguous_tensors_nn_ConvTranspose1d_cuda_complex32 (__main__.TestModuleCUDA)": [
