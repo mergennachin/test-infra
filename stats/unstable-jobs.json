@@ -39,14 +39,6 @@
     "rocm-py3.10-inductor",
     "test (inductor)"
   ],
-  "inductor-rocm-mi300 / rocm-py3.10-inductor-mi300 / test (inductor)": [
-    "seemethere",
-    "154884",
-    "https://github.com/pytorch/pytorch/issues/154884",
-    "inductor-rocm-mi300",
-    "rocm-py3.10-inductor-mi300",
-    "test (inductor)"
-  ],
   "periodic / linux-jammy-rocm-py3.10 / test (distributed)": [
     "jithunnair-amd",
     "156327",
@@ -69,14 +61,6 @@
     "https://github.com/pytorch/pytorch/issues/156098",
     "rocm",
     "linux-jammy-rocm-py3.10",
-    "test (default)"
-  ],
-  "rocm-mi300 / linux-jammy-rocm-py3.10-mi300 / test (default)": [
-    "jithunnair-amd",
-    "156360",
-    "https://github.com/pytorch/pytorch/issues/156360",
-    "rocm-mi300",
-    "linux-jammy-rocm-py3.10-mi300",
     "test (default)"
   ]
 }
