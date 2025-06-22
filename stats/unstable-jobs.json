@@ -23,14 +23,6 @@
     "Lint URLs",
     "linux-job"
   ],
-  "inductor / linux-jammy-cpu-py3.9-gcc11-inductor / test (inductor_torchbench_cpu_smoketest_perf)": [
-    "atalman",
-    "156521",
-    "https://github.com/pytorch/pytorch/issues/156521",
-    "inductor",
-    "linux-jammy-cpu-py3.9-gcc11-inductor",
-    "test (inductor_torchbench_cpu_smoketest_perf)"
-  ],
   "inductor-rocm / rocm-py3.10-inductor / test (inductor)": [
     "clee2000",
     "155917",
