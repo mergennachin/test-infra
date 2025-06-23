@@ -228,6 +228,14 @@
       "rocm"
     ]
   ],
+  "test_cat_max_autotune_triton (__main__.TestMaxAutotune)": [
+    "145830",
+    "https://github.com/pytorch/pytorch/issues/145830",
+    [
+      "inductor",
+      "rocm"
+    ]
+  ],
   "test_causal_variants_compile_causal_variant_CausalVariant_LOWER_RIGHT_shape0_cuda (__main__.TestAttnBiasCUDA)": [
     "118641",
     "https://github.com/pytorch/pytorch/issues/118641",
@@ -940,15 +948,6 @@
       "linux"
     ]
   ],
-  "test_ind_worker_queue (__main__.TestIndividualWorkerQueue)": [
-    "68643",
-    "https://github.com/pytorch/pytorch/issues/68643",
-    [
-      "linux",
-      "macos",
-      "win"
-    ]
-  ],
   "test_index_add_correctness (__main__.TestTorch)": [
     "91184",
     "https://github.com/pytorch/pytorch/issues/91184",
@@ -1402,18 +1401,6 @@
     [
       "linux",
       "slow"
-    ]
-  ],
-  "test_module_and_optimizer_ids (__main__.TestTorchTidyProfiler)": [
-    "87581",
-    "https://github.com/pytorch/pytorch/issues/87581",
-    [
-      "dynamo",
-      "linux",
-      "mac",
-      "macos",
-      "win",
-      "windows"
     ]
   ],
   "test_multiple_module (__main__.TestInvokeSubgraphExportStrict)": [
