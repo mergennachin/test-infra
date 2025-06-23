@@ -181,22 +181,6 @@
       "mac"
     ]
   ],
-  "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_int32 (__main__.TestForeachCUDA)": [
-    "149628",
-    "https://github.com/pytorch/pytorch/issues/149628",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
-  "test_binary_op_with_scalar_self_support__foreach_pow_is_fastpath_True_cuda_int64 (__main__.TestForeachCUDA)": [
-    "149735",
-    "https://github.com/pytorch/pytorch/issues/149735",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_builtin_remote_message_dropped_timeout_to_self (__main__.FaultyFaultyAgentRpcTest)": [
     "69179",
     "https://github.com/pytorch/pytorch/issues/69179",
@@ -899,6 +883,14 @@
       "slow"
     ]
   ],
+  "test_foreach_reduce_large_input__foreach_max_w_empty_False_cuda_int64 (__main__.TestForeachCUDA)": [
+    "156612",
+    "https://github.com/pytorch/pytorch/issues/156612",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_fsdp_unsupported_module_cls (__main__.TestFSDPMiscMultiThread)": [
     "137948",
     "https://github.com/pytorch/pytorch/issues/137948",
@@ -925,7 +917,8 @@
     "https://github.com/pytorch/pytorch/issues/156598",
     [
       "linux",
-      "rocm"
+      "rocm",
+      "slow"
     ]
   ],
   "test_globals_change_in_other_file (__main__.ContextlibContextManagerTests)": [
