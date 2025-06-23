@@ -49,6 +49,13 @@
       "linux"
     ]
   ],
+  "test_add_sub_alpha_out (__main__.ReproTests)": [
+    "156597",
+    "https://github.com/pytorch/pytorch/issues/156597",
+    [
+      "linux"
+    ]
+  ],
   "test_all_gather_uneven (__main__.DeviceMeshCollectiveTest)": [
     "98049",
     "https://github.com/pytorch/pytorch/issues/98049",
@@ -910,6 +917,14 @@
     "134139",
     "https://github.com/pytorch/pytorch/issues/134139",
     [
+      "rocm"
+    ]
+  ],
+  "test_get_parameter_dtype (__main__.ReproTests)": [
+    "156598",
+    "https://github.com/pytorch/pytorch/issues/156598",
+    [
+      "linux",
       "rocm"
     ]
   ],
