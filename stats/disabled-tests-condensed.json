@@ -1549,14 +1549,6 @@
       "slow"
     ]
   ],
-  "test_parity__foreach_add_fastpath_inplace_cuda_complex128 (__main__.TestForeachCUDA)": [
-    "151300",
-    "https://github.com/pytorch/pytorch/issues/151300",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_parity__foreach_add_fastpath_inplace_cuda_complex64 (__main__.TestForeachCUDA)": [
     "151313",
     "https://github.com/pytorch/pytorch/issues/151313",
