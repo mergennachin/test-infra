@@ -42,6 +42,13 @@
       "rocm"
     ]
   ],
+  "test_add_complex_conj (__main__.ReproTests)": [
+    "156579",
+    "https://github.com/pytorch/pytorch/issues/156579",
+    [
+      "linux"
+    ]
+  ],
   "test_all_gather_uneven (__main__.DeviceMeshCollectiveTest)": [
     "98049",
     "https://github.com/pytorch/pytorch/issues/98049",
@@ -659,6 +666,15 @@
     [
       "linux",
       "rocm"
+    ]
+  ],
+  "test_dont_dce_rand (__main__.ReproTests)": [
+    "156580",
+    "https://github.com/pytorch/pytorch/issues/156580",
+    [
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_dtensor_op_db_full_like_cpu_float32 (__main__.TestDTensorOpsCPU)": [
@@ -1648,6 +1664,15 @@
     "https://github.com/pytorch/pytorch/issues/84937",
     [
       "asan"
+    ]
+  ],
+  "test_ranks_and_tag (__main__.CompileTest)": [
+    "147974",
+    "https://github.com/pytorch/pytorch/issues/147974",
+    [
+      "inductor",
+      "linux",
+      "rocm"
     ]
   ],
   "test_re_export_preserve_handle (__main__.TestNumericDebugger)": [
