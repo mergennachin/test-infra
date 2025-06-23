@@ -653,6 +653,14 @@
       "linux"
     ]
   ],
+  "test_dont_aggressively_write_assert (__main__.ReproTests)": [
+    "156570",
+    "https://github.com/pytorch/pytorch/issues/156570",
+    [
+      "linux",
+      "rocm"
+    ]
+  ],
   "test_dtensor_op_db_full_like_cpu_float32 (__main__.TestDTensorOpsCPU)": [
     "132447",
     "https://github.com/pytorch/pytorch/issues/132447",
@@ -899,14 +907,6 @@
     "104055",
     "https://github.com/pytorch/pytorch/issues/104055",
     [
-      "rocm"
-    ]
-  ],
-  "test_graph_partition (__main__.TritonCodeGenTests)": [
-    "148957",
-    "https://github.com/pytorch/pytorch/issues/148957",
-    [
-      "inductor",
       "rocm"
     ]
   ],
@@ -1380,13 +1380,6 @@
       "rocm"
     ]
   ],
-  "test_mm_plus_mm (__main__.TestPatternMatcher)": [
-    "145335",
-    "https://github.com/pytorch/pytorch/issues/145335",
-    [
-      "rocm"
-    ]
-  ],
   "test_mm_triton_kernel_benchmark (__main__.TestKernelBenchmark)": [
     "118346",
     "https://github.com/pytorch/pytorch/issues/118346",
@@ -1417,6 +1410,13 @@
   "test_name_match (__main__.TestGuardSerialization)": [
     "156246",
     "https://github.com/pytorch/pytorch/issues/156246",
+    [
+      "linux"
+    ]
+  ],
+  "test_nccl_symmem_alloc (__main__.NCCLSymmetricMemoryTest)": [
+    "156569",
+    "https://github.com/pytorch/pytorch/issues/156569",
     [
       "linux"
     ]
@@ -1549,13 +1549,6 @@
       "slow"
     ]
   ],
-  "test_parity__foreach_add_fastpath_inplace_cuda_bool (__main__.TestForeachCUDA)": [
-    "151268",
-    "https://github.com/pytorch/pytorch/issues/151268",
-    [
-      "linux"
-    ]
-  ],
   "test_parity__foreach_add_fastpath_inplace_cuda_complex128 (__main__.TestForeachCUDA)": [
     "151300",
     "https://github.com/pytorch/pytorch/issues/151300",
@@ -1663,15 +1656,6 @@
     "https://github.com/pytorch/pytorch/issues/84937",
     [
       "asan"
-    ]
-  ],
-  "test_ranks_and_tag (__main__.CompileTest)": [
-    "147974",
-    "https://github.com/pytorch/pytorch/issues/147974",
-    [
-      "inductor",
-      "linux",
-      "rocm"
     ]
   ],
   "test_re_export_preserve_handle (__main__.TestNumericDebugger)": [
