@@ -14,13 +14,5 @@
     "testAssertNotRegex (__main__.CPythonTest_Assertions)",
     "",
     ""
-  ],
-  "test_basic_fn_backend_eager_device_cuda(__main__.TestPackage)": [
-    "guangyey",
-    "156576",
-    "https://github.com/pytorch/pytorch/issues/156576",
-    "test_basic_fn_backend_eager_device_cuda(__main__.TestPackage)",
-    "",
-    ""
   ]
 }
