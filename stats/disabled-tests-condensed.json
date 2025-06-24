@@ -195,6 +195,13 @@
       "mac"
     ]
   ],
+  "test_bitwise_print_precedence (__main__.ReproTests)": [
+    "156736",
+    "https://github.com/pytorch/pytorch/issues/156736",
+    [
+      "linux"
+    ]
+  ],
   "test_builtin_remote_message_dropped_timeout_to_self (__main__.FaultyFaultyAgentRpcTest)": [
     "69179",
     "https://github.com/pytorch/pytorch/issues/69179",
@@ -772,6 +779,14 @@
       "rocm"
     ]
   ],
+  "test_empty_cpu_tensor (__main__.CudaGraphTreeTests)": [
+    "156734",
+    "https://github.com/pytorch/pytorch/issues/156734",
+    [
+      "linux",
+      "rocm"
+    ]
+  ],
   "test_equivalent_template_code (__main__.BenchmarkMultiTemplateFusionCudaTest)": [
     "145017",
     "https://github.com/pytorch/pytorch/issues/145017",
@@ -830,14 +845,6 @@
   "test_foreach_check_stride_ignore_dims_of_one_cuda_float32 (__main__.TestForeachCUDA)": [
     "150026",
     "https://github.com/pytorch/pytorch/issues/150026",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
-  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_int16 (__main__.TestForeachCUDA)": [
-    "150309",
-    "https://github.com/pytorch/pytorch/issues/150309",
     [
       "linux",
       "slow"
@@ -1065,15 +1072,6 @@
   "test_inductor_all_reduce_single (__main__.CompileTest)": [
     "147754",
     "https://github.com/pytorch/pytorch/issues/147754",
-    [
-      "inductor",
-      "linux",
-      "rocm"
-    ]
-  ],
-  "test_inductor_all_to_all_single (__main__.CompileTest)": [
-    "147795",
-    "https://github.com/pytorch/pytorch/issues/147795",
     [
       "inductor",
       "linux",
