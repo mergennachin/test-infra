@@ -743,6 +743,14 @@
       "windows"
     ]
   ],
+  "test_dynamic_warmup (__main__.CudaGraphTreeTests)": [
+    "156692",
+    "https://github.com/pytorch/pytorch/issues/156692",
+    [
+      "linux",
+      "rocm"
+    ]
+  ],
   "test_e2e_compile_True_model_type0 (__main__.TestE2ESaveAndLoad)": [
     "152168",
     "https://github.com/pytorch/pytorch/issues/152168",
@@ -1719,6 +1727,14 @@
     "https://github.com/pytorch/pytorch/issues/156679",
     [
       "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_relative_import_no_modulename (__main__.ReproTests)": [
+    "156691",
+    "https://github.com/pytorch/pytorch/issues/156691",
+    [
       "rocm"
     ]
   ],
