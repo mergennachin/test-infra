@@ -780,10 +780,18 @@
     ]
   ],
   "test_empty_cpu_tensor (__main__.CudaGraphTreeTests)": [
-    "156734",
-    "https://github.com/pytorch/pytorch/issues/156734",
+    "156735",
+    "https://github.com/pytorch/pytorch/issues/156735",
     [
       "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_empty_storage (__main__.CudaGraphTreeTests)": [
+    "156754",
+    "https://github.com/pytorch/pytorch/issues/156754",
+    [
       "rocm"
     ]
   ],
@@ -1072,6 +1080,15 @@
   "test_inductor_all_reduce_single (__main__.CompileTest)": [
     "147754",
     "https://github.com/pytorch/pytorch/issues/147754",
+    [
+      "inductor",
+      "linux",
+      "rocm"
+    ]
+  ],
+  "test_inductor_all_to_all_single (__main__.CompileTest)": [
+    "147795",
+    "https://github.com/pytorch/pytorch/issues/147795",
     [
       "inductor",
       "linux",
