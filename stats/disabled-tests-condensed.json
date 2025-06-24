@@ -744,8 +744,8 @@
     ]
   ],
   "test_dynamic_warmup (__main__.CudaGraphTreeTests)": [
-    "156692",
-    "https://github.com/pytorch/pytorch/issues/156692",
+    "156693",
+    "https://github.com/pytorch/pytorch/issues/156693",
     [
       "linux",
       "rocm"
@@ -1047,6 +1047,15 @@
   "test_inductor_all_reduce_coalesced (__main__.CompileTest)": [
     "147726",
     "https://github.com/pytorch/pytorch/issues/147726",
+    [
+      "inductor",
+      "linux",
+      "rocm"
+    ]
+  ],
+  "test_inductor_all_reduce_non_contig_input (__main__.CompileTest)": [
+    "147733",
+    "https://github.com/pytorch/pytorch/issues/147733",
     [
       "inductor",
       "linux",
@@ -1735,6 +1744,7 @@
     "156691",
     "https://github.com/pytorch/pytorch/issues/156691",
     [
+      "linux",
       "rocm"
     ]
   ],
