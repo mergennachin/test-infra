@@ -1597,13 +1597,6 @@
       "slow"
     ]
   ],
-  "test_parity__foreach_add_fastpath_inplace_cuda_float32 (__main__.TestForeachCUDA)": [
-    "153284",
-    "https://github.com/pytorch/pytorch/issues/153284",
-    [
-      "linux"
-    ]
-  ],
   "test_parity__foreach_add_fastpath_inplace_cuda_float64 (__main__.TestForeachCUDA)": [
     "153395",
     "https://github.com/pytorch/pytorch/issues/153395",
@@ -1896,15 +1889,6 @@
     "https://github.com/pytorch/pytorch/issues/91492",
     [
       "linux"
-    ]
-  ],
-  "test_rng (__main__.TestCompilerBisector)": [
-    "139590",
-    "https://github.com/pytorch/pytorch/issues/139590",
-    [
-      "linux",
-      "rocm",
-      "slow"
     ]
   ],
   "test_run_decompositions_map_handle_to_new_nodes (__main__.TestNumericDebugger)": [
@@ -2319,20 +2303,6 @@
       "slow",
       "win",
       "windows"
-    ]
-  ],
-  "test_weight_norm_bwd_dynamic_shapes_cuda (__main__.DynamicShapesCodegenGPUTests)": [
-    "155516",
-    "https://github.com/pytorch/pytorch/issues/155516",
-    [
-      "rocm"
-    ]
-  ],
-  "test_weight_norm_bwd_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
-    "155517",
-    "https://github.com/pytorch/pytorch/issues/155517",
-    [
-      "rocm"
     ]
   ],
   "test_while_loop_schema_gen (__main__.TestHopSchema)": [
