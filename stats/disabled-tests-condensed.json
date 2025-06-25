@@ -479,6 +479,16 @@
       "rocm"
     ]
   ],
+  "test_comprehensive_pca_lowrank_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
+    "139828",
+    "https://github.com/pytorch/pytorch/issues/139828",
+    [
+      "inductor",
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_comprehensive_rot90_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
     "140773",
     "https://github.com/pytorch/pytorch/issues/140773",
@@ -805,8 +815,8 @@
     ]
   ],
   "test_end_recording_early (__main__.CudaGraphTreeTests)": [
-    "156777",
-    "https://github.com/pytorch/pytorch/issues/156777",
+    "156778",
+    "https://github.com/pytorch/pytorch/issues/156778",
     [
       "rocm"
     ]
@@ -869,14 +879,6 @@
   "test_foreach_check_stride_ignore_dims_of_one_cuda_float32 (__main__.TestForeachCUDA)": [
     "150026",
     "https://github.com/pytorch/pytorch/issues/150026",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
-  "test_foreach_l2_large_value_input__foreach_norm_cuda_bfloat16 (__main__.TestForeachCUDA)": [
-    "150467",
-    "https://github.com/pytorch/pytorch/issues/150467",
     [
       "linux",
       "slow"
