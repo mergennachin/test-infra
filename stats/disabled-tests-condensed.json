@@ -842,7 +842,8 @@
     "https://github.com/pytorch/pytorch/issues/156801",
     [
       "linux",
-      "rocm"
+      "rocm",
+      "slow"
     ]
   ],
   "test_error_on_dealloc_use2 (__main__.CudaGraphTreeTests)": [
@@ -858,6 +859,13 @@
     [
       "win",
       "windows"
+    ]
+  ],
+  "test_execution_into_recording (__main__.CudaGraphTreeTests)": [
+    "156837",
+    "https://github.com/pytorch/pytorch/issues/156837",
+    [
+      "rocm"
     ]
   ],
   "test_execution_trace_with_kineto (__main__.TestExecutionTrace)": [
@@ -911,6 +919,14 @@
   "test_foreach_l2_large_value_input__foreach_norm_cuda_bfloat16 (__main__.TestForeachCUDA)": [
     "150467",
     "https://github.com/pytorch/pytorch/issues/150467",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
+  "test_foreach_l2_large_value_input__foreach_norm_cuda_float16 (__main__.TestForeachCUDA)": [
+    "150509",
+    "https://github.com/pytorch/pytorch/issues/150509",
     [
       "linux",
       "slow"
