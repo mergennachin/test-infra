@@ -663,6 +663,13 @@
       "dynamo"
     ]
   ],
+  "test_deferred_runtime_asserts (__main__.ReproTests)": [
+    "156817",
+    "https://github.com/pytorch/pytorch/issues/156817",
+    [
+      "linux"
+    ]
+  ],
   "test_disable_external_correlation (__main__.TestProfiler)": [
     "143373",
     "https://github.com/pytorch/pytorch/issues/143373",
@@ -834,12 +841,13 @@
     "156801",
     "https://github.com/pytorch/pytorch/issues/156801",
     [
+      "linux",
       "rocm"
     ]
   ],
   "test_error_on_dealloc_use2 (__main__.CudaGraphTreeTests)": [
-    "156807",
-    "https://github.com/pytorch/pytorch/issues/156807",
+    "156808",
+    "https://github.com/pytorch/pytorch/issues/156808",
     [
       "rocm"
     ]
@@ -1138,6 +1146,15 @@
       "rocm"
     ]
   ],
+  "test_inductor_inplace_op_on_view (__main__.CompileTest)": [
+    "147852",
+    "https://github.com/pytorch/pytorch/issues/147852",
+    [
+      "inductor",
+      "linux",
+      "rocm"
+    ]
+  ],
   "test_inductor_multiple_specializations_cuda (__main__.GPUTests)": [
     "154705",
     "https://github.com/pytorch/pytorch/issues/154705",
@@ -1163,15 +1180,6 @@
   "test_inductor_reduce_scatter_tensor_coalesced (__main__.CompileTest)": [
     "147887",
     "https://github.com/pytorch/pytorch/issues/147887",
-    [
-      "inductor",
-      "linux",
-      "rocm"
-    ]
-  ],
-  "test_inductor_reduce_scatter_tensor_single (__main__.CompileTest)": [
-    "147911",
-    "https://github.com/pytorch/pytorch/issues/147911",
     [
       "inductor",
       "linux",
@@ -1929,16 +1937,6 @@
     "https://github.com/pytorch/pytorch/issues/144922",
     [
       "rocm"
-    ]
-  ],
-  "test_repeated_calling_cuda (__main__.AOTInductorTestABICompatibleGpu)": [
-    "146185",
-    "https://github.com/pytorch/pytorch/issues/146185",
-    [
-      "inductor",
-      "linux",
-      "rocm",
-      "slow"
     ]
   ],
   "test_requires_grad_loop (test_jit.TestScript)": [
