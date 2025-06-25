@@ -656,13 +656,6 @@
       "dynamo"
     ]
   ],
-  "test_decompose_mm_cpu_m_1_k_64_n_32_should_decompose_False (__main__.TestDecomposeMemMM)": [
-    "153616",
-    "https://github.com/pytorch/pytorch/issues/153616",
-    [
-      "linux"
-    ]
-  ],
   "test_disable_external_correlation (__main__.TestProfiler)": [
     "143373",
     "https://github.com/pytorch/pytorch/issues/143373",
