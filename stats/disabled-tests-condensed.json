@@ -601,6 +601,13 @@
       "linux"
     ]
   ],
+  "test_dataclass_init_with_default_factory_with_inputs (__main__.ReproTests)": [
+    "156799",
+    "https://github.com/pytorch/pytorch/issues/156799",
+    [
+      "linux"
+    ]
+  ],
   "test_ddp_apply_optim_in_backward (__main__.TestDistBackendWithSpawn)": [
     "155714",
     "https://github.com/pytorch/pytorch/issues/155714",
@@ -811,12 +818,21 @@
     "156778",
     "https://github.com/pytorch/pytorch/issues/156778",
     [
-      "rocm"
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_equivalent_template_code (__main__.BenchmarkMultiTemplateFusionCudaTest)": [
     "145017",
     "https://github.com/pytorch/pytorch/issues/145017",
+    [
+      "rocm"
+    ]
+  ],
+  "test_error_on_dealloc_use (__main__.CudaGraphTreeTests)": [
+    "156800",
+    "https://github.com/pytorch/pytorch/issues/156800",
     [
       "rocm"
     ]
@@ -1109,15 +1125,6 @@
   "test_inductor_broadcast (__main__.CompileTest)": [
     "147816",
     "https://github.com/pytorch/pytorch/issues/147816",
-    [
-      "inductor",
-      "linux",
-      "rocm"
-    ]
-  ],
-  "test_inductor_inplace_op_on_view (__main__.CompileTest)": [
-    "147852",
-    "https://github.com/pytorch/pytorch/issues/147852",
     [
       "inductor",
       "linux",
