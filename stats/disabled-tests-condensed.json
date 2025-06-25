@@ -862,8 +862,8 @@
     ]
   ],
   "test_execution_into_recording (__main__.CudaGraphTreeTests)": [
-    "156837",
-    "https://github.com/pytorch/pytorch/issues/156837",
+    "156838",
+    "https://github.com/pytorch/pytorch/issues/156838",
     [
       "rocm"
     ]
@@ -1202,9 +1202,9 @@
       "rocm"
     ]
   ],
-  "test_inductor_reuse_buffer_after_inplace_collective (__main__.CompileTest)": [
-    "147950",
-    "https://github.com/pytorch/pytorch/issues/147950",
+  "test_inductor_reduce_scatter_tensor_single (__main__.CompileTest)": [
+    "147911",
+    "https://github.com/pytorch/pytorch/issues/147911",
     [
       "inductor",
       "linux",
@@ -1953,6 +1953,16 @@
     "https://github.com/pytorch/pytorch/issues/144922",
     [
       "rocm"
+    ]
+  ],
+  "test_repeated_calling_cuda (__main__.AOTInductorTestABICompatibleGpu)": [
+    "146185",
+    "https://github.com/pytorch/pytorch/issues/146185",
+    [
+      "inductor",
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_requires_grad_loop (test_jit.TestScript)": [
