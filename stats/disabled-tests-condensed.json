@@ -584,6 +584,13 @@
       "rocm"
     ]
   ],
+  "test_dataclass_in_module (__main__.ReproTests)": [
+    "156776",
+    "https://github.com/pytorch/pytorch/issues/156776",
+    [
+      "linux"
+    ]
+  ],
   "test_ddp_apply_optim_in_backward (__main__.TestDistBackendWithSpawn)": [
     "155714",
     "https://github.com/pytorch/pytorch/issues/155714",
@@ -789,8 +796,17 @@
     ]
   ],
   "test_empty_storage (__main__.CudaGraphTreeTests)": [
-    "156754",
-    "https://github.com/pytorch/pytorch/issues/156754",
+    "156755",
+    "https://github.com/pytorch/pytorch/issues/156755",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_end_recording_early (__main__.CudaGraphTreeTests)": [
+    "156777",
+    "https://github.com/pytorch/pytorch/issues/156777",
     [
       "rocm"
     ]
@@ -1617,14 +1633,6 @@
     "https://github.com/pytorch/pytorch/issues/91494",
     [
       "linux"
-    ]
-  ],
-  "test_parity__foreach_abs_fastpath_inplace_cuda_float64 (__main__.TestForeachCUDA)": [
-    "150562",
-    "https://github.com/pytorch/pytorch/issues/150562",
-    [
-      "linux",
-      "slow"
     ]
   ],
   "test_per_sample_api_compute_batch_size_not_pytreeable_cpu (__main__.TestExpandedWeightModuleCPU)": [
