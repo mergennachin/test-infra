@@ -850,7 +850,9 @@
     "156808",
     "https://github.com/pytorch/pytorch/issues/156808",
     [
-      "rocm"
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_event_elapsed_time (__main__.TestOpenReg)": [
@@ -873,6 +875,13 @@
     "https://github.com/pytorch/pytorch/issues/123536",
     [
       "dynamo"
+    ]
+  ],
+  "test_expanded_inputs (__main__.CudaGraphTreeTests)": [
+    "156885",
+    "https://github.com/pytorch/pytorch/issues/156885",
+    [
+      "rocm"
     ]
   ],
   "test_extract_gradients_from_optimizer_set_to_none (__main__.TestIdentifyGradients)": [
@@ -1053,6 +1062,14 @@
     "104055",
     "https://github.com/pytorch/pytorch/issues/104055",
     [
+      "rocm"
+    ]
+  ],
+  "test_graph_partition (__main__.TritonCodeGenTests)": [
+    "148957",
+    "https://github.com/pytorch/pytorch/issues/148957",
+    [
+      "inductor",
       "rocm"
     ]
   ],
