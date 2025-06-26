@@ -54,13 +54,5 @@
     "rocm",
     "linux-jammy-rocm-py3.10",
     "test (default)"
-  ],
-  "trunk / macos-py3-arm64 / test (mps)": [
-    "malfet",
-    "156833",
-    "https://github.com/pytorch/pytorch/issues/156833",
-    "trunk",
-    "macos-py3-arm64",
-    "test (mps)"
   ]
 }
