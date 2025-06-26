@@ -878,8 +878,8 @@
     ]
   ],
   "test_expanded_inputs (__main__.CudaGraphTreeTests)": [
-    "156885",
-    "https://github.com/pytorch/pytorch/issues/156885",
+    "156886",
+    "https://github.com/pytorch/pytorch/issues/156886",
     [
       "rocm"
     ]
@@ -897,6 +897,13 @@
   "test_fake_crossref_backward_no_amp_cholesky_solve_cuda_float32 (__main__.TestFakeTensorCUDA)": [
     "156419",
     "https://github.com/pytorch/pytorch/issues/156419",
+    [
+      "rocm"
+    ]
+  ],
+  "test_fallback_to_eager_if_recompiling_too_many_times (__main__.CudaGraphTreeTests)": [
+    "130749",
+    "https://github.com/pytorch/pytorch/issues/130749",
     [
       "rocm"
     ]
@@ -1222,6 +1229,15 @@
   "test_inductor_reduce_scatter_tensor_single (__main__.CompileTest)": [
     "147911",
     "https://github.com/pytorch/pytorch/issues/147911",
+    [
+      "inductor",
+      "linux",
+      "rocm"
+    ]
+  ],
+  "test_inductor_reuse_buffer_after_inplace_collective (__main__.CompileTest)": [
+    "147950",
+    "https://github.com/pytorch/pytorch/issues/147950",
     [
       "inductor",
       "linux",
