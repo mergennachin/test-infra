@@ -309,6 +309,17 @@
       "win"
     ]
   ],
+  "test_compiled_autograd_attribution (__main__.StructuredTraceTest)": [
+    "156921",
+    "https://github.com/pytorch/pytorch/issues/156921",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm"
+    ]
+  ],
   "test_compiler_collectives_automatic_dynamic_tensor (__main__.TestMultiProc)": [
     "152944",
     "https://github.com/pytorch/pytorch/issues/152944",
@@ -867,7 +878,9 @@
     "156838",
     "https://github.com/pytorch/pytorch/issues/156838",
     [
-      "rocm"
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_execution_trace_with_kineto (__main__.TestExecutionTrace)": [
@@ -904,6 +917,13 @@
   "test_fallback_to_eager_if_recompiling_too_many_times (__main__.CudaGraphTreeTests)": [
     "130749",
     "https://github.com/pytorch/pytorch/issues/130749",
+    [
+      "rocm"
+    ]
+  ],
+  "test_fallback_to_eager_if_recompiling_too_many_times_due_to_cudagraph_managed_tensor (__main__.CudaGraphTreeTests)": [
+    "156922",
+    "https://github.com/pytorch/pytorch/issues/156922",
     [
       "rocm"
     ]
@@ -1558,6 +1578,14 @@
     [
       "linux",
       "slow"
+    ]
+  ],
+  "test_mps_event_module (__main__.TestMPS)": [
+    "145052",
+    "https://github.com/pytorch/pytorch/issues/145052",
+    [
+      "mac",
+      "macos"
     ]
   ],
   "test_multiple_module (__main__.TestInvokeSubgraphExportStrict)": [
