@@ -317,7 +317,8 @@
       "linux",
       "mac",
       "macos",
-      "rocm"
+      "rocm",
+      "slow"
     ]
   ],
   "test_compiler_collectives_automatic_dynamic_tensor (__main__.TestMultiProc)": [
@@ -2161,6 +2162,13 @@
       "mac",
       "macos",
       "rocm"
+    ]
+  ],
+  "test_simple_multi_arch_embed_kernel_binary_True_cuda (__main__.AOTInductorTestABICompatibleGpu)": [
+    "156930",
+    "https://github.com/pytorch/pytorch/issues/156930",
+    [
+      "inductor"
     ]
   ],
   "test_single_linear (quantization.jit.test_quantize_jit.TestQuantizeJit)": [
