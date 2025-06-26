@@ -283,6 +283,11 @@
       "linux"
     ]
   ],
+  "test_circular_dependencies (__main__.TestImports)": [
+    "110040",
+    "https://github.com/pytorch/pytorch/issues/110040",
+    []
+  ],
   "test_clip_grad_norm_2d (__main__.TestClipGradNormWorldSize4)": [
     "153236",
     "https://github.com/pytorch/pytorch/issues/153236",
