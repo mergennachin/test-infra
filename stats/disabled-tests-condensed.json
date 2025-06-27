@@ -1315,8 +1315,8 @@
     ]
   ],
   "test_frozen_fn (__main__.CudaGraphTreeTests)": [
-    "157111",
-    "https://github.com/pytorch/pytorch/issues/157111",
+    "157112",
+    "https://github.com/pytorch/pytorch/issues/157112",
     [
       "rocm"
     ]
@@ -1338,6 +1338,13 @@
   "test_fully_shard_training_overlap (__main__.TestFullyShardOverlap)": [
     "134139",
     "https://github.com/pytorch/pytorch/issues/134139",
+    [
+      "rocm"
+    ]
+  ],
+  "test_function_compiled_multiple_times (__main__.CudaGraphTreeTests)": [
+    "157142",
+    "https://github.com/pytorch/pytorch/issues/157142",
     [
       "rocm"
     ]
@@ -1643,8 +1650,8 @@
     ]
   ],
   "test_invalid_status_for_legacy_api (__main__.TestCuda)": [
-    "157109",
-    "https://github.com/pytorch/pytorch/issues/157109",
+    "157110",
+    "https://github.com/pytorch/pytorch/issues/157110",
     [
       "linux",
       "slow"
@@ -2370,6 +2377,27 @@
   "test_remove_noop_slice_scatter_cuda (__main__.GPUTests)": [
     "151378",
     "https://github.com/pytorch/pytorch/issues/151378",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_remove_noop_view_default_cpu (__main__.CpuTests)": [
+    "151512",
+    "https://github.com/pytorch/pytorch/issues/151512",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_remove_noop_view_default_cuda (__main__.GPUTests)": [
+    "151511",
+    "https://github.com/pytorch/pytorch/issues/151511",
     [
       "linux",
       "rocm",
