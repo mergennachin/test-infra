@@ -23,22 +23,6 @@
     "Lint URLs",
     "linux-job"
   ],
-  "inductor-rocm / rocm-py3.10-inductor / test (inductor)": [
-    "clee2000",
-    "155917",
-    "https://github.com/pytorch/pytorch/issues/155917",
-    "inductor-rocm",
-    "rocm-py3.10-inductor",
-    "test (inductor)"
-  ],
-  "periodic / linux-jammy-rocm-py3.10 / test (distributed)": [
-    "jithunnair-amd",
-    "156327",
-    "https://github.com/pytorch/pytorch/issues/156327",
-    "periodic",
-    "linux-jammy-rocm-py3.10",
-    "test (distributed)"
-  ],
   "pull / cuda12.8-py3.10-gcc9-sm75 / test (pr_time_benchmarks)": [
     "nWEIdia",
     "153987",
@@ -46,13 +30,5 @@
     "pull",
     "cuda12.8-py3.10-gcc9-sm75",
     "test (pr_time_benchmarks)"
-  ],
-  "rocm / linux-jammy-rocm-py3.10 / test (default)": [
-    "atalman",
-    "156098",
-    "https://github.com/pytorch/pytorch/issues/156098",
-    "rocm",
-    "linux-jammy-rocm-py3.10",
-    "test (default)"
   ]
 }
