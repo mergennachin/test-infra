@@ -1177,8 +1177,8 @@
     ]
   ],
   "test_forward_backward_not_called_backend_inductor (__main__.CudaGraphTreeTests)": [
-    "157034",
-    "https://github.com/pytorch/pytorch/issues/157034",
+    "157035",
+    "https://github.com/pytorch/pytorch/issues/157035",
     [
       "rocm"
     ]
