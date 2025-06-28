@@ -2052,13 +2052,6 @@
       "linux"
     ]
   ],
-  "test_nccl_symmem_alloc (__main__.NCCLSymmetricMemoryTest)": [
-    "156569",
-    "https://github.com/pytorch/pytorch/issues/156569",
-    [
-      "linux"
-    ]
-  ],
   "test_nested (quantization.jit.test_quantize_jit.TestQuantizeJit)": [
     "105120",
     "https://github.com/pytorch/pytorch/issues/105120",
