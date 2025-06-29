@@ -807,14 +807,6 @@
       "rocm"
     ]
   ],
-  "test_corrcoef_cuda_int32 (__main__.TestTorchDeviceTypeCUDA)": [
-    "156988",
-    "https://github.com/pytorch/pytorch/issues/156988",
-    [
-      "inductor",
-      "rocm"
-    ]
-  ],
   "test_cpp_wrapper_cpu (__main__.FreezingCpuTests)": [
     "106557",
     "https://github.com/pytorch/pytorch/issues/106557",
