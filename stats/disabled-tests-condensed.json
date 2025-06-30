@@ -685,13 +685,6 @@
       "inductor"
     ]
   ],
-  "test_comprehensive_nn_functional_linear_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
-    "156514",
-    "https://github.com/pytorch/pytorch/issues/156514",
-    [
-      "inductor"
-    ]
-  ],
   "test_comprehensive_nn_functional_nll_loss_cuda_float32 (__main__.TestDecompCUDA)": [
     "117732",
     "https://github.com/pytorch/pytorch/issues/117732",
@@ -1431,11 +1424,12 @@
       "rocm"
     ]
   ],
-  "test_hessian_vectorize_raises_no_warnings_logging_tensor (__main__.TestAutogradFunctional)": [
-    "153644",
-    "https://github.com/pytorch/pytorch/issues/153644",
+  "test_hoist_conv_packed_params (__main__.TestOptimizer)": [
+    "157247",
+    "https://github.com/pytorch/pytorch/issues/157247",
     [
-      "dynamo"
+      "mac",
+      "macos"
     ]
   ],
   "test_homogeneous_attributes (__main__.TestFSDPMiscMultiThread)": [
@@ -2262,6 +2256,31 @@
       "asan"
     ]
   ],
+  "test_qengine (__main__.TestTorch)": [
+    "157245",
+    "https://github.com/pytorch/pytorch/issues/157245",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
+  "test_qsoftmax_qnnpack (__main__.TestQuantizedOps)": [
+    "157243",
+    "https://github.com/pytorch/pytorch/issues/157243",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
+  "test_quantization_doc_custom (__main__.TestQuantizationDocs)": [
+    "125668",
+    "https://github.com/pytorch/pytorch/issues/125668",
+    [
+      "linux",
+      "mac",
+      "macos"
+    ]
+  ],
   "test_quantize (__main__.TestOpenReg)": [
     "156089",
     "https://github.com/pytorch/pytorch/issues/156089",
@@ -2460,11 +2479,14 @@
       "slow"
     ]
   ],
-  "test_remove_noop_view_dtype_cuda (__main__.GPUTests)": [
-    "151541",
-    "https://github.com/pytorch/pytorch/issues/151541",
+  "test_remove_noop_view_dtype_cpu (__main__.CpuTests)": [
+    "151540",
+    "https://github.com/pytorch/pytorch/issues/151540",
     [
+      "asan",
       "linux",
+      "mac",
+      "macos",
       "rocm",
       "slow"
     ]
@@ -2780,6 +2802,14 @@
       "rocm"
     ]
   ],
+  "test_sigmoid (__main__.TestStaticQuantizedModule)": [
+    "157244",
+    "https://github.com/pytorch/pytorch/issues/157244",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_simple (__main__.TestNumericDebugger)": [
     "142470",
     "https://github.com/pytorch/pytorch/issues/142470",
@@ -2883,6 +2913,14 @@
       "macos",
       "win",
       "windows"
+    ]
+  ],
+  "test_tensoriterator_output_setup (__main__.TestTorch)": [
+    "157246",
+    "https://github.com/pytorch/pytorch/issues/157246",
+    [
+      "mac",
+      "macos"
     ]
   ],
   "test_tensorpipe_set_default_timeout (__main__.TensorPipeTensorPipeAgentRpcTest)": [
