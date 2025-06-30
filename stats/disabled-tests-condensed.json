@@ -1319,7 +1319,8 @@
     "https://github.com/pytorch/pytorch/issues/157035",
     [
       "linux",
-      "rocm"
+      "rocm",
+      "slow"
     ]
   ],
   "test_forward_generation (__main__.CudaGraphTreeTests)": [
@@ -1426,8 +1427,8 @@
     ]
   ],
   "test_graph_partition_cpu_op_and_dynamic_shapes (__main__.CudaGraphTreeTests)": [
-    "157257",
-    "https://github.com/pytorch/pytorch/issues/157257",
+    "157258",
+    "https://github.com/pytorch/pytorch/issues/157258",
     [
       "rocm"
     ]
@@ -2574,13 +2575,6 @@
       "linux",
       "rocm",
       "slow"
-    ]
-  ],
-  "test_reorder_peak_memory (__main__.TestOperatorReorderForPeakMemory)": [
-    "145332",
-    "https://github.com/pytorch/pytorch/issues/145332",
-    [
-      "rocm"
     ]
   ],
   "test_repeat_graph_capture_cublas_workspace_memory (__main__.TestCuda)": [
