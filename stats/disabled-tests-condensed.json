@@ -203,6 +203,13 @@
       "rocm"
     ]
   ],
+  "test_addmm_mv_transpose_a_False_transpose_b_True_alpha_0_2_beta_1_0_cuda_float32 (__main__.TestLinalgCUDA)": [
+    "157313",
+    "https://github.com/pytorch/pytorch/issues/157313",
+    [
+      "rocm"
+    ]
+  ],
   "test_addmm_mv_transpose_a_True_transpose_b_False_alpha_0_2_beta_0_0_cuda_float32 (__main__.TestLinalgCUDA)": [
     "157168",
     "https://github.com/pytorch/pytorch/issues/157168",
@@ -1344,7 +1351,9 @@
     "157086",
     "https://github.com/pytorch/pytorch/issues/157086",
     [
-      "rocm"
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_frozen_fn (__main__.CudaGraphTreeTests)": [
@@ -1446,6 +1455,13 @@
   "test_graph_partition_cpu_scalar1 (__main__.CudaGraphTreeTests)": [
     "157280",
     "https://github.com/pytorch/pytorch/issues/157280",
+    [
+      "rocm"
+    ]
+  ],
+  "test_graph_partition_cpu_scalar2 (__main__.CudaGraphTreeTests)": [
+    "157311",
+    "https://github.com/pytorch/pytorch/issues/157311",
     [
       "rocm"
     ]
@@ -1830,6 +1846,13 @@
       "rocm"
     ]
   ],
+  "test_linalg_solve_triangular_cuda_float32 (__main__.TestLinalgCUDA)": [
+    "157314",
+    "https://github.com/pytorch/pytorch/issues/157314",
+    [
+      "rocm"
+    ]
+  ],
   "test_linear_and_cel_max_autotune (__main__.InplacePaddingTest)": [
     "145359",
     "https://github.com/pytorch/pytorch/issues/145359",
@@ -1898,14 +1921,6 @@
     "https://github.com/pytorch/pytorch/issues/80338",
     [
       "linux"
-    ]
-  ],
-  "test_lowering_to_x86 (__main__.TestQuantizePT2EX86Inductor)": [
-    "153140",
-    "https://github.com/pytorch/pytorch/issues/153140",
-    [
-      "linux",
-      "rocm"
     ]
   ],
   "test_lu_solve_large_matrices_cuda_float32 (__main__.TestLinalgCUDA)": [
@@ -2239,6 +2254,13 @@
   "test_op_has_batch_rule_nn_functional_conv2d_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "157278",
     "https://github.com/pytorch/pytorch/issues/157278",
+    [
+      "rocm"
+    ]
+  ],
+  "test_op_has_batch_rule_nn_functional_conv2d_strided_padding_dilation_no_bias_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
+    "157315",
+    "https://github.com/pytorch/pytorch/issues/157315",
     [
       "rocm"
     ]
