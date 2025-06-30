@@ -793,6 +793,14 @@
       "rocm"
     ]
   ],
+  "test_conv1d_api (__main__.TestQuantizedFunctionalOps)": [
+    "157296",
+    "https://github.com/pytorch/pytorch/issues/157296",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_conv3d_64bit_indexing_cuda (__main__.TestConvolutionNNDeviceTypeCUDA)": [
     "104366",
     "https://github.com/pytorch/pytorch/issues/104366",
@@ -909,13 +917,6 @@
     "137765",
     "https://github.com/pytorch/pytorch/issues/137765",
     []
-  ],
-  "test_ddp_uneven_inputs (__main__.TestDistBackendWithSpawn)": [
-    "75648",
-    "https://github.com/pytorch/pytorch/issues/75648",
-    [
-      "linux"
-    ]
   ],
   "test_decoder_padding_and_src_mask_bool_cpu (__main__.TestTransformersCPU)": [
     "101787",
@@ -1178,6 +1179,7 @@
     "156419",
     "https://github.com/pytorch/pytorch/issues/156419",
     [
+      "inductor",
       "rocm"
     ]
   ],
@@ -1334,7 +1336,8 @@
     "https://github.com/pytorch/pytorch/issues/157058",
     [
       "linux",
-      "rocm"
+      "rocm",
+      "slow"
     ]
   ],
   "test_forward_with_skipped_cudagraphed_backward (__main__.CudaGraphTreeTests)": [
@@ -1441,8 +1444,8 @@
     ]
   ],
   "test_graph_partition_cpu_scalar1 (__main__.CudaGraphTreeTests)": [
-    "157277",
-    "https://github.com/pytorch/pytorch/issues/157277",
+    "157280",
+    "https://github.com/pytorch/pytorch/issues/157280",
     [
       "rocm"
     ]
@@ -3008,6 +3011,13 @@
       "macos",
       "win",
       "windows"
+    ]
+  ],
+  "test_tensordot_cuda (__main__.TestLinalgCUDA)": [
+    "157297",
+    "https://github.com/pytorch/pytorch/issues/157297",
+    [
+      "rocm"
     ]
   ],
   "test_tensoriterator_output_setup (__main__.TestTorch)": [
