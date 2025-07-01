@@ -238,6 +238,13 @@
       "rocm"
     ]
   ],
+  "test_addmm_mv_transpose_a_True_transpose_b_True_alpha_0_2_beta_0_5_cuda_float32 (__main__.TestLinalgCUDA)": [
+    "157369",
+    "https://github.com/pytorch/pytorch/issues/157369",
+    [
+      "rocm"
+    ]
+  ],
   "test_addmm_relu_tunableop_rocm_cuda_float32 (__main__.TestLinalgCUDA)": [
     "156992",
     "https://github.com/pytorch/pytorch/issues/156992",
@@ -1286,14 +1293,6 @@
       "slow"
     ]
   ],
-  "test_foreach_reduce_large_input__foreach_max_w_empty_False_cuda_float32 (__main__.TestForeachCUDA)": [
-    "153470",
-    "https://github.com/pytorch/pytorch/issues/153470",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_foreach_reduce_large_input__foreach_max_w_empty_False_cuda_float64 (__main__.TestForeachCUDA)": [
     "153544",
     "https://github.com/pytorch/pytorch/issues/153544",
@@ -1460,6 +1459,7 @@
     "157173",
     "https://github.com/pytorch/pytorch/issues/157173",
     [
+      "linux",
       "rocm"
     ]
   ],
@@ -1509,6 +1509,13 @@
   "test_graph_partition_cpu_scalar_mutation (__main__.CudaGraphTreeTests)": [
     "157359",
     "https://github.com/pytorch/pytorch/issues/157359",
+    [
+      "rocm"
+    ]
+  ],
+  "test_graph_partition_cpu_tensor_symints (__main__.CudaGraphTreeTests)": [
+    "157366",
+    "https://github.com/pytorch/pytorch/issues/157366",
     [
       "rocm"
     ]
@@ -1999,6 +2006,15 @@
       "rocm"
     ]
   ],
+  "test_matmul_small_brute_force_tunableop_cuda_float32 (__main__.TestLinalgCUDA)": [
+    "141635",
+    "https://github.com/pytorch/pytorch/issues/141635",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_matmul_triton_kernel_benchmark (__main__.TestKernelBenchmark)": [
     "115002",
     "https://github.com/pytorch/pytorch/issues/115002",
@@ -2340,6 +2356,13 @@
       "linux",
       "rocm",
       "slow"
+    ]
+  ],
+  "test_op_has_batch_rule_nn_functional_conv_transpose2d_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
+    "157368",
+    "https://github.com/pytorch/pytorch/issues/157368",
+    [
+      "rocm"
     ]
   ],
   "test_open_device_registration (__main__.ExtensionBackendTests)": [
