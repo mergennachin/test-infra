@@ -1507,8 +1507,8 @@
     ]
   ],
   "test_graph_partition_cpu_scalar_mutation (__main__.CudaGraphTreeTests)": [
-    "157358",
-    "https://github.com/pytorch/pytorch/issues/157358",
+    "157359",
+    "https://github.com/pytorch/pytorch/issues/157359",
     [
       "rocm"
     ]
