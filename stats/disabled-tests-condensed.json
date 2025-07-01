@@ -1412,7 +1412,9 @@
     "157143",
     "https://github.com/pytorch/pytorch/issues/157143",
     [
-      "rocm"
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_get_parameter_dtype (__main__.ReproTests)": [
@@ -1500,6 +1502,13 @@
   "test_graph_partition_cpu_scalar4 (__main__.CudaGraphTreeTests)": [
     "157350",
     "https://github.com/pytorch/pytorch/issues/157350",
+    [
+      "rocm"
+    ]
+  ],
+  "test_graph_partition_cpu_scalar_mutation (__main__.CudaGraphTreeTests)": [
+    "157358",
+    "https://github.com/pytorch/pytorch/issues/157358",
     [
       "rocm"
     ]
