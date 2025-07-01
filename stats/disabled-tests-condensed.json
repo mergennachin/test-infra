@@ -1498,8 +1498,8 @@
     ]
   ],
   "test_graph_partition_cpu_scalar4 (__main__.CudaGraphTreeTests)": [
-    "157347",
-    "https://github.com/pytorch/pytorch/issues/157347",
+    "157350",
+    "https://github.com/pytorch/pytorch/issues/157350",
     [
       "rocm"
     ]
