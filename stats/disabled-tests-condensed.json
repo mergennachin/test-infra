@@ -217,6 +217,13 @@
       "rocm"
     ]
   ],
+  "test_addmm_mv_transpose_a_True_transpose_b_False_alpha_0_2_beta_0_5_cuda_float32 (__main__.TestLinalgCUDA)": [
+    "157336",
+    "https://github.com/pytorch/pytorch/issues/157336",
+    [
+      "rocm"
+    ]
+  ],
   "test_addmm_mv_transpose_a_True_transpose_b_True_alpha_0_2_beta_0_0_cuda_float32 (__main__.TestLinalgCUDA)": [
     "157260",
     "https://github.com/pytorch/pytorch/issues/157260",
@@ -1460,8 +1467,15 @@
     ]
   ],
   "test_graph_partition_cpu_scalar2 (__main__.CudaGraphTreeTests)": [
-    "157311",
-    "https://github.com/pytorch/pytorch/issues/157311",
+    "157312",
+    "https://github.com/pytorch/pytorch/issues/157312",
+    [
+      "rocm"
+    ]
+  ],
+  "test_graph_partition_cpu_scalar3 (__main__.CudaGraphTreeTests)": [
+    "157338",
+    "https://github.com/pytorch/pytorch/issues/157338",
     [
       "rocm"
     ]
@@ -1938,6 +1952,13 @@
       "win"
     ]
   ],
+  "test_matmul_small_brute_force_2d_Nd_cuda_float32 (__main__.TestLinalgCUDA)": [
+    "157337",
+    "https://github.com/pytorch/pytorch/issues/157337",
+    [
+      "rocm"
+    ]
+  ],
   "test_matmul_triton_kernel_benchmark (__main__.TestKernelBenchmark)": [
     "115002",
     "https://github.com/pytorch/pytorch/issues/115002",
@@ -2261,6 +2282,13 @@
   "test_op_has_batch_rule_nn_functional_conv2d_strided_padding_dilation_no_bias_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "157315",
     "https://github.com/pytorch/pytorch/issues/157315",
+    [
+      "rocm"
+    ]
+  ],
+  "test_op_has_batch_rule_nn_functional_conv2d_strided_padding_dilation_with_bias_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
+    "157335",
+    "https://github.com/pytorch/pytorch/issues/157335",
     [
       "rocm"
     ]
