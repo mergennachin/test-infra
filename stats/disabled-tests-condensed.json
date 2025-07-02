@@ -245,6 +245,13 @@
       "rocm"
     ]
   ],
+  "test_addmm_mv_transpose_a_True_transpose_b_True_alpha_0_2_beta_1_0_cuda_float32 (__main__.TestLinalgCUDA)": [
+    "157414",
+    "https://github.com/pytorch/pytorch/issues/157414",
+    [
+      "rocm"
+    ]
+  ],
   "test_addmm_relu_tunableop_rocm_cuda_float32 (__main__.TestLinalgCUDA)": [
     "156992",
     "https://github.com/pytorch/pytorch/issues/156992",
@@ -1475,7 +1482,9 @@
     "157258",
     "https://github.com/pytorch/pytorch/issues/157258",
     [
-      "rocm"
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_graph_partition_cpu_scalar1 (__main__.CudaGraphTreeTests)": [
@@ -1514,8 +1523,15 @@
     ]
   ],
   "test_graph_partition_cpu_tensor_symints (__main__.CudaGraphTreeTests)": [
-    "157366",
-    "https://github.com/pytorch/pytorch/issues/157366",
+    "157367",
+    "https://github.com/pytorch/pytorch/issues/157367",
+    [
+      "rocm"
+    ]
+  ],
+  "test_graph_partition_custom_op (__main__.CudaGraphTreeTests)": [
+    "157412",
+    "https://github.com/pytorch/pytorch/issues/157412",
     [
       "rocm"
     ]
@@ -2163,6 +2179,18 @@
       "slow"
     ]
   ],
+  "test_module_and_optimizer_ids (__main__.TestTorchTidyProfiler)": [
+    "87581",
+    "https://github.com/pytorch/pytorch/issues/87581",
+    [
+      "dynamo",
+      "linux",
+      "mac",
+      "macos",
+      "win",
+      "windows"
+    ]
+  ],
   "test_mps_event_module (__main__.TestMPS)": [
     "145052",
     "https://github.com/pytorch/pytorch/issues/145052",
@@ -2190,13 +2218,6 @@
     "https://github.com/pytorch/pytorch/issues/150877",
     [
       "dynamo"
-    ]
-  ],
-  "test_name_match (__main__.TestGuardSerialization)": [
-    "156246",
-    "https://github.com/pytorch/pytorch/issues/156246",
-    [
-      "linux"
     ]
   ],
   "test_nested (quantization.jit.test_quantize_jit.TestQuantizeJit)": [
@@ -2264,6 +2285,13 @@
   "test_observer_with_ignored_function (quantization.jit.test_quantize_jit.TestQuantizeJit)": [
     "105123",
     "https://github.com/pytorch/pytorch/issues/105123",
+    [
+      "rocm"
+    ]
+  ],
+  "test_old_cholesky_batched_upper_cuda_float32 (__main__.TestLinalgCUDA)": [
+    "157415",
+    "https://github.com/pytorch/pytorch/issues/157415",
     [
       "rocm"
     ]
@@ -2362,6 +2390,14 @@
     "157368",
     "https://github.com/pytorch/pytorch/issues/157368",
     [
+      "rocm"
+    ]
+  ],
+  "test_op_has_batch_rule_nn_functional_conv_transpose3d_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
+    "82340",
+    "https://github.com/pytorch/pytorch/issues/82340",
+    [
+      "linux",
       "rocm"
     ]
   ],
@@ -3012,14 +3048,6 @@
       "linux",
       "mac",
       "macos"
-    ]
-  ],
-  "test_shape_env (__main__.TestGuardSerialization)": [
-    "156264",
-    "https://github.com/pytorch/pytorch/issues/156264",
-    [
-      "linux",
-      "rocm"
     ]
   ],
   "test_sigmoid (__main__.TestStaticQuantizedModule)": [
