@@ -1507,7 +1507,9 @@
     "157312",
     "https://github.com/pytorch/pytorch/issues/157312",
     [
-      "rocm"
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_graph_partition_cpu_scalar3 (__main__.CudaGraphTreeTests)": [
@@ -1546,8 +1548,15 @@
     ]
   ],
   "test_graph_partition_custom_op_dynamoc_shapes (__main__.CudaGraphTreeTests)": [
-    "157426",
-    "https://github.com/pytorch/pytorch/issues/157426",
+    "157428",
+    "https://github.com/pytorch/pytorch/issues/157428",
+    [
+      "rocm"
+    ]
+  ],
+  "test_graph_partition_custom_op_mutation (__main__.CudaGraphTreeTests)": [
+    "157448",
+    "https://github.com/pytorch/pytorch/issues/157448",
     [
       "rocm"
     ]
@@ -1620,15 +1629,6 @@
   "test_inductor_all_gather_into_tensor_coalesced (__main__.CompileTest)": [
     "146806",
     "https://github.com/pytorch/pytorch/issues/146806",
-    [
-      "inductor",
-      "linux",
-      "rocm"
-    ]
-  ],
-  "test_inductor_all_gather_into_tensor_single (__main__.CompileTest)": [
-    "147707",
-    "https://github.com/pytorch/pytorch/issues/147707",
     [
       "inductor",
       "linux",
@@ -2426,6 +2426,13 @@
       "slow"
     ]
   ],
+  "test_op_has_batch_rule_vdot_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
+    "157450",
+    "https://github.com/pytorch/pytorch/issues/157450",
+    [
+      "rocm"
+    ]
+  ],
   "test_open_device_registration (__main__.ExtensionBackendTests)": [
     "137027",
     "https://github.com/pytorch/pytorch/issues/137027",
@@ -2454,13 +2461,6 @@
     "https://github.com/pytorch/pytorch/issues/157047",
     [
       "rocm"
-    ]
-  ],
-  "test_per_sample_api_compute_batch_size_not_pytreeable_cpu (__main__.TestExpandedWeightModuleCPU)": [
-    "146972",
-    "https://github.com/pytorch/pytorch/issues/146972",
-    [
-      "dynamo"
     ]
   ],
   "test_pinv_cuda_float32 (__main__.TestLinalgCUDA)": [
