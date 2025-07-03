@@ -1556,8 +1556,15 @@
     ]
   ],
   "test_graph_partition_custom_op_no_split (__main__.CudaGraphTreeTests)": [
-    "157532",
-    "https://github.com/pytorch/pytorch/issues/157532",
+    "157533",
+    "https://github.com/pytorch/pytorch/issues/157533",
+    [
+      "rocm"
+    ]
+  ],
+  "test_graph_partition_dynamic_shapes (__main__.CudaGraphTreeTests)": [
+    "157555",
+    "https://github.com/pytorch/pytorch/issues/157555",
     [
       "rocm"
     ]
@@ -2069,6 +2076,13 @@
   "test_matmul_triton_kernel_benchmark (__main__.TestKernelBenchmark)": [
     "115002",
     "https://github.com/pytorch/pytorch/issues/115002",
+    [
+      "rocm"
+    ]
+  ],
+  "test_matrix_rank_basic_cuda_float32 (__main__.TestLinalgCUDA)": [
+    "150406",
+    "https://github.com/pytorch/pytorch/issues/150406",
     [
       "rocm"
     ]
@@ -3069,17 +3083,6 @@
     "https://github.com/pytorch/pytorch/issues/135476",
     [
       "linux"
-    ]
-  ],
-  "test_set_stance_aot_eager_then_compile (__main__.DecoratorTests)": [
-    "148644",
-    "https://github.com/pytorch/pytorch/issues/148644",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm"
     ]
   ],
   "test_set_stance_eager_then_compile (__main__.DecoratorTests)": [
