@@ -1307,14 +1307,6 @@
       "slow"
     ]
   ],
-  "test_foreach_reduce_large_input__foreach_max_w_empty_False_cuda_float64 (__main__.TestForeachCUDA)": [
-    "153544",
-    "https://github.com/pytorch/pytorch/issues/153544",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_foreach_reduce_large_input__foreach_max_w_empty_False_cuda_int16 (__main__.TestForeachCUDA)": [
     "156430",
     "https://github.com/pytorch/pytorch/issues/156430",
@@ -1516,7 +1508,9 @@
     "157339",
     "https://github.com/pytorch/pytorch/issues/157339",
     [
-      "rocm"
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_graph_partition_cpu_scalar4 (__main__.CudaGraphTreeTests)": [
@@ -1555,8 +1549,15 @@
     ]
   ],
   "test_graph_partition_custom_op_mutation (__main__.CudaGraphTreeTests)": [
-    "157448",
-    "https://github.com/pytorch/pytorch/issues/157448",
+    "157449",
+    "https://github.com/pytorch/pytorch/issues/157449",
+    [
+      "rocm"
+    ]
+  ],
+  "test_graph_partition_custom_op_no_split (__main__.CudaGraphTreeTests)": [
+    "157532",
+    "https://github.com/pytorch/pytorch/issues/157532",
     [
       "rocm"
     ]
@@ -1597,6 +1598,15 @@
       "linux"
     ]
   ],
+  "test_host_memory_stats (__main__.TestCuda)": [
+    "148607",
+    "https://github.com/pytorch/pytorch/issues/148607",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_ind_worker_queue (__main__.TestIndividualWorkerQueue)": [
     "68643",
     "https://github.com/pytorch/pytorch/issues/68643",
@@ -1629,6 +1639,15 @@
   "test_inductor_all_gather_into_tensor_coalesced (__main__.CompileTest)": [
     "146806",
     "https://github.com/pytorch/pytorch/issues/146806",
+    [
+      "inductor",
+      "linux",
+      "rocm"
+    ]
+  ],
+  "test_inductor_all_gather_into_tensor_single (__main__.CompileTest)": [
+    "147707",
+    "https://github.com/pytorch/pytorch/issues/147707",
     [
       "inductor",
       "linux",
@@ -2461,6 +2480,13 @@
     "https://github.com/pytorch/pytorch/issues/157047",
     [
       "rocm"
+    ]
+  ],
+  "test_per_sample_api_compute_batch_size_not_pytreeable_cpu (__main__.TestExpandedWeightModuleCPU)": [
+    "146972",
+    "https://github.com/pytorch/pytorch/issues/146972",
+    [
+      "dynamo"
     ]
   ],
   "test_pinv_cuda_float32 (__main__.TestLinalgCUDA)": [
@@ -3402,6 +3428,13 @@
   "test_vmap_autograd_grad__batch_norm_with_update_cuda_float64 (__main__.TestOperatorsCUDA)": [
     "121530",
     "https://github.com/pytorch/pytorch/issues/121530",
+    [
+      "rocm"
+    ]
+  ],
+  "test_vmap_exhaustive___rmatmul___cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
+    "157534",
+    "https://github.com/pytorch/pytorch/issues/157534",
     [
       "rocm"
     ]
