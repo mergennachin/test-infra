@@ -1307,14 +1307,6 @@
       "slow"
     ]
   ],
-  "test_foreach_reduce_large_input__foreach_max_w_empty_False_cuda_int16 (__main__.TestForeachCUDA)": [
-    "156430",
-    "https://github.com/pytorch/pytorch/issues/156430",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_foreach_reduce_large_input__foreach_max_w_empty_False_cuda_int32 (__main__.TestForeachCUDA)": [
     "156497",
     "https://github.com/pytorch/pytorch/issues/156497",
@@ -1517,7 +1509,9 @@
     "157350",
     "https://github.com/pytorch/pytorch/issues/157350",
     [
-      "rocm"
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_graph_partition_cpu_scalar_mutation (__main__.CudaGraphTreeTests)": [
@@ -1563,8 +1557,15 @@
     ]
   ],
   "test_graph_partition_dynamic_shapes (__main__.CudaGraphTreeTests)": [
-    "157555",
-    "https://github.com/pytorch/pytorch/issues/157555",
+    "157556",
+    "https://github.com/pytorch/pytorch/issues/157556",
+    [
+      "rocm"
+    ]
+  ],
+  "test_graph_partition_forward_backward (__main__.CudaGraphTreeTests)": [
+    "157615",
+    "https://github.com/pytorch/pytorch/issues/157615",
     [
       "rocm"
     ]
@@ -2138,6 +2139,7 @@
     "157256",
     "https://github.com/pytorch/pytorch/issues/157256",
     [
+      "linux",
       "rocm"
     ]
   ],
@@ -3442,12 +3444,10 @@
       "rocm"
     ]
   ],
-  "test_wait_tensor (__main__.CompileTest)": [
-    "148014",
-    "https://github.com/pytorch/pytorch/issues/148014",
+  "test_vmap_exhaustive_addmv_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
+    "157617",
+    "https://github.com/pytorch/pytorch/issues/157617",
     [
-      "inductor",
-      "linux",
       "rocm"
     ]
   ],
