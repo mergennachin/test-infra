@@ -396,13 +396,6 @@
       "linux"
     ]
   ],
-  "test_aoti (__main__.TestMemoryPlanning)": [
-    "145211",
-    "https://github.com/pytorch/pytorch/issues/145211",
-    [
-      "rocm"
-    ]
-  ],
   "test_assigning_back_deleter_fns_to_tensor (__main__.TestBlockStateAbsorption)": [
     "134810",
     "https://github.com/pytorch/pytorch/issues/134810",
@@ -1029,14 +1022,6 @@
       "linux"
     ]
   ],
-  "test_dont_aggressively_write_assert (__main__.ReproTests)": [
-    "156570",
-    "https://github.com/pytorch/pytorch/issues/156570",
-    [
-      "linux",
-      "rocm"
-    ]
-  ],
   "test_dont_dce_rand (__main__.ReproTests)": [
     "156580",
     "https://github.com/pytorch/pytorch/issues/156580",
@@ -1568,8 +1553,8 @@
     ]
   ],
   "test_graph_partition_forward_backward_not_called (__main__.CudaGraphTreeTests)": [
-    "157642",
-    "https://github.com/pytorch/pytorch/issues/157642",
+    "157643",
+    "https://github.com/pytorch/pytorch/issues/157643",
     [
       "rocm"
     ]
@@ -2297,14 +2282,6 @@
     "https://github.com/pytorch/pytorch/issues/104454",
     [
       "asan"
-    ]
-  ],
-  "test_non_contiguous_input_mm_plus_mm (__main__.TestMaxAutotune)": [
-    "126867",
-    "https://github.com/pytorch/pytorch/issues/126867",
-    [
-      "linux",
-      "slow"
     ]
   ],
   "test_non_contiguous_tensors_nn_ConvTranspose1d_cuda_complex32 (__main__.TestModuleCUDA)": [
@@ -3272,20 +3249,6 @@
   "test_trace_while_active (__main__.NCCLTraceTest)": [
     "112815",
     "https://github.com/pytorch/pytorch/issues/112815",
-    [
-      "rocm"
-    ]
-  ],
-  "test_tracker_non_root_forward_backward (__main__.TestTrackerFullyShard1DTrainingCore)": [
-    "129692",
-    "https://github.com/pytorch/pytorch/issues/129692",
-    [
-      "rocm"
-    ]
-  ],
-  "test_tracker_with_activation_checkpointing (__main__.TestTrackerFullyShard1DTrainingCompose)": [
-    "139814",
-    "https://github.com/pytorch/pytorch/issues/139814",
     [
       "rocm"
     ]
