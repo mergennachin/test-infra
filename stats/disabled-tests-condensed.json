@@ -112,13 +112,6 @@
       "rocm"
     ]
   ],
-  "test_add_complex_conj (__main__.ReproTests)": [
-    "156579",
-    "https://github.com/pytorch/pytorch/issues/156579",
-    [
-      "linux"
-    ]
-  ],
   "test_add_sub_alpha_out (__main__.ReproTests)": [
     "156597",
     "https://github.com/pytorch/pytorch/issues/156597",
@@ -1022,9 +1015,9 @@
       "linux"
     ]
   ],
-  "test_dont_dce_rand (__main__.ReproTests)": [
-    "156580",
-    "https://github.com/pytorch/pytorch/issues/156580",
+  "test_dont_aggressively_write_assert (__main__.ReproTests)": [
+    "156570",
+    "https://github.com/pytorch/pytorch/issues/156570",
     [
       "linux",
       "rocm",
@@ -1731,6 +1724,15 @@
     "154710",
     "https://github.com/pytorch/pytorch/issues/154710",
     [
+      "rocm"
+    ]
+  ],
+  "test_inductor_reduce_scatter_tensor_coalesced (__main__.CompileTest)": [
+    "147887",
+    "https://github.com/pytorch/pytorch/issues/147887",
+    [
+      "inductor",
+      "linux",
       "rocm"
     ]
   ],
@@ -2591,15 +2593,6 @@
     "https://github.com/pytorch/pytorch/issues/84937",
     [
       "asan"
-    ]
-  ],
-  "test_ranks_and_tag (__main__.CompileTest)": [
-    "147974",
-    "https://github.com/pytorch/pytorch/issues/147974",
-    [
-      "inductor",
-      "linux",
-      "rocm"
     ]
   ],
   "test_re_export_preserve_handle (__main__.TestNumericDebugger)": [
