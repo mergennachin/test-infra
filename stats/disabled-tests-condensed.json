@@ -701,6 +701,11 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_logcumsumexp_xpu_float16 (__main__.TestInductorOpInfoXPU)": [
+    "157697",
+    "https://github.com/pytorch/pytorch/issues/157697",
+    []
+  ],
   "test_comprehensive_matmul_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
     "140584",
     "https://github.com/pytorch/pytorch/issues/140584",
