@@ -112,13 +112,6 @@
       "rocm"
     ]
   ],
-  "test_add_sub_alpha_out (__main__.ReproTests)": [
-    "156597",
-    "https://github.com/pytorch/pytorch/issues/156597",
-    [
-      "linux"
-    ]
-  ],
   "test_addbmm_cuda_float32 (__main__.TestLinalgCUDA)": [
     "156989",
     "https://github.com/pytorch/pytorch/issues/156989",
@@ -500,14 +493,6 @@
     [
       "mac",
       "macos"
-    ]
-  ],
-  "test_cat_max_autotune_triton (__main__.TestMaxAutotune)": [
-    "145830",
-    "https://github.com/pytorch/pytorch/issues/145830",
-    [
-      "inductor",
-      "rocm"
     ]
   ],
   "test_causal_variants_compile_causal_variant_CausalVariant_LOWER_RIGHT_shape0_cuda (__main__.TestAttnBiasCUDA)": [
@@ -3026,6 +3011,14 @@
       "slow",
       "win",
       "windows"
+    ]
+  ],
+  "test_sdpa_mask_fp16_L6_S17_NH23_HS121 (__main__.TestSDPA)": [
+    "138905",
+    "https://github.com/pytorch/pytorch/issues/138905",
+    [
+      "mac",
+      "macos"
     ]
   ],
   "test_sdpa_with_packed_in_proj_cuda_float32 (__main__.TestNestedTensorSubclassCUDA)": [
