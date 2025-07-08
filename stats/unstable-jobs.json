@@ -38,5 +38,13 @@
     "rocm",
     "linux-jammy-rocm-py3.10",
     "test (default)"
+  ],
+  "rocm-mi300 / linux-jammy-rocm-py3.10-mi300 / test (default)": [
+    "jithunnair-amd",
+    "156360",
+    "https://github.com/pytorch/pytorch/issues/156360",
+    "rocm-mi300",
+    "linux-jammy-rocm-py3.10-mi300",
+    "test (default)"
   ]
 }
