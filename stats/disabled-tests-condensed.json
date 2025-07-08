@@ -112,13 +112,6 @@
       "rocm"
     ]
   ],
-  "test_add_complex_conj (__main__.ReproTests)": [
-    "156579",
-    "https://github.com/pytorch/pytorch/issues/156579",
-    [
-      "linux"
-    ]
-  ],
   "test_add_sub_alpha_out (__main__.ReproTests)": [
     "156597",
     "https://github.com/pytorch/pytorch/issues/156597",
@@ -1023,15 +1016,6 @@
   "test_dont_aggressively_write_assert (__main__.ReproTests)": [
     "156570",
     "https://github.com/pytorch/pytorch/issues/156570",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
-  "test_dont_dce_rand (__main__.ReproTests)": [
-    "156580",
-    "https://github.com/pytorch/pytorch/issues/156580",
     [
       "linux",
       "rocm",
@@ -2294,14 +2278,6 @@
     "https://github.com/pytorch/pytorch/issues/104454",
     [
       "asan"
-    ]
-  ],
-  "test_non_contiguous_input_mm_plus_mm (__main__.TestMaxAutotune)": [
-    "126867",
-    "https://github.com/pytorch/pytorch/issues/126867",
-    [
-      "linux",
-      "slow"
     ]
   ],
   "test_non_contiguous_tensors_nn_ConvTranspose1d_cuda_complex32 (__main__.TestModuleCUDA)": [
