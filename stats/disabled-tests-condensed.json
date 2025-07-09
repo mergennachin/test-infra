@@ -98,13 +98,6 @@
       "rocm"
     ]
   ],
-  "test_Transformer_multilayer_coder_cuda_fp32 (__main__.TestNN)": [
-    "157120",
-    "https://github.com/pytorch/pytorch/issues/157120",
-    [
-      "rocm"
-    ]
-  ],
   "test_Transformer_multilayer_coder_cuda_tf32 (__main__.TestNN)": [
     "155235",
     "https://github.com/pytorch/pytorch/issues/155235",
@@ -1578,6 +1571,13 @@
       "rocm"
     ]
   ],
+  "test_graph_partition_reorder_custom_op_with_no_dependency (__main__.CudaGraphTreeTests)": [
+    "157871",
+    "https://github.com/pytorch/pytorch/issues/157871",
+    [
+      "rocm"
+    ]
+  ],
   "test_grid_sample_large_cuda (__main__.TestNNDeviceTypeCUDA)": [
     "157164",
     "https://github.com/pytorch/pytorch/issues/157164",
@@ -1846,6 +1846,13 @@
     "https://github.com/pytorch/pytorch/issues/156363",
     [
       "dynamo"
+    ]
+  ],
+  "test_int64_index_intermediate (__main__.CudaReproTests)": [
+    "157872",
+    "https://github.com/pytorch/pytorch/issues/157872",
+    [
+      "rocm"
     ]
   ],
   "test_int64_upsample3d_cuda_bfloat16 (__main__.TestTorchDeviceTypeCUDA)": [
