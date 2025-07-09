@@ -63,13 +63,6 @@
       "rocm"
     ]
   ],
-  "test_TransformerDecoderLayer_gelu_activation_cuda_fp32 (__main__.TestNN)": [
-    "157121",
-    "https://github.com/pytorch/pytorch/issues/157121",
-    [
-      "rocm"
-    ]
-  ],
   "test_TransformerDecoderLayer_relu_activation_cuda_fp32 (__main__.TestNN)": [
     "157122",
     "https://github.com/pytorch/pytorch/issues/157122",
