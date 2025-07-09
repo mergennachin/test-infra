@@ -30,21 +30,5 @@
     "pull",
     "cuda12.8-py3.10-gcc9-sm75",
     "test (pr_time_benchmarks)"
-  ],
-  "rocm / linux-jammy-rocm-py3.10 / test (default)": [
-    "atalman",
-    "156098",
-    "https://github.com/pytorch/pytorch/issues/156098",
-    "rocm",
-    "linux-jammy-rocm-py3.10",
-    "test (default)"
-  ],
-  "rocm-mi300 / linux-jammy-rocm-py3.10-mi300 / test (default)": [
-    "jithunnair-amd",
-    "156360",
-    "https://github.com/pytorch/pytorch/issues/156360",
-    "rocm-mi300",
-    "linux-jammy-rocm-py3.10-mi300",
-    "test (default)"
   ]
 }
