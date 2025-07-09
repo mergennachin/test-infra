@@ -6,6 +6,13 @@
       "rocm"
     ]
   ],
+  "test_2d_reductions_mixed_indexing_reduction_op0_cpu (__main__.TritonBlockPointerTestCPU)": [
+    "157895",
+    "https://github.com/pytorch/pytorch/issues/157895",
+    [
+      "inductor"
+    ]
+  ],
   "test_2d_reductions_mixed_indexing_reduction_op0_cuda (__main__.TritonBlockPointerTestGPU)": [
     "147755",
     "https://github.com/pytorch/pytorch/issues/147755",
@@ -94,6 +101,13 @@
   "test_TransformerEncoderLayer_relu_activation_cuda_fp32 (__main__.TestNN)": [
     "157083",
     "https://github.com/pytorch/pytorch/issues/157083",
+    [
+      "rocm"
+    ]
+  ],
+  "test_Transformer_multilayer_coder_cuda_fp32 (__main__.TestNN)": [
+    "157120",
+    "https://github.com/pytorch/pytorch/issues/157120",
     [
       "rocm"
     ]
@@ -772,16 +786,6 @@
       "rocm"
     ]
   ],
-  "test_comprehensive_pca_lowrank_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
-    "139828",
-    "https://github.com/pytorch/pytorch/issues/139828",
-    [
-      "inductor",
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_comprehensive_rot90_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
     "140773",
     "https://github.com/pytorch/pytorch/issues/140773",
@@ -902,9 +906,9 @@
       "rocm"
     ]
   ],
-  "test_dataclass_init_with_default_factory_with_inputs (__main__.ReproTests)": [
-    "156799",
-    "https://github.com/pytorch/pytorch/issues/156799",
+  "test_dataclass_in_module (__main__.ReproTests)": [
+    "156776",
+    "https://github.com/pytorch/pytorch/issues/156776",
     [
       "linux"
     ]
@@ -1107,9 +1111,9 @@
       "rocm"
     ]
   ],
-  "test_end_recording_early (__main__.CudaGraphTreeTests)": [
-    "156778",
-    "https://github.com/pytorch/pytorch/issues/156778",
+  "test_empty_cpu_tensor (__main__.CudaGraphTreeTests)": [
+    "156735",
+    "https://github.com/pytorch/pytorch/issues/156735",
     [
       "linux",
       "rocm",
@@ -1564,6 +1568,13 @@
       "rocm"
     ]
   ],
+  "test_graph_partition_reorder_custom_op_with_no_dependency1 (__main__.CudaGraphTreeTests)": [
+    "157900",
+    "https://github.com/pytorch/pytorch/issues/157900",
+    [
+      "rocm"
+    ]
+  ],
   "test_grid_sample_large_cuda (__main__.TestNNDeviceTypeCUDA)": [
     "157164",
     "https://github.com/pytorch/pytorch/issues/157164",
@@ -1684,6 +1695,15 @@
   "test_inductor_all_reduce_single (__main__.CompileTest)": [
     "147754",
     "https://github.com/pytorch/pytorch/issues/147754",
+    [
+      "inductor",
+      "linux",
+      "rocm"
+    ]
+  ],
+  "test_inductor_all_to_all_single (__main__.CompileTest)": [
+    "147795",
+    "https://github.com/pytorch/pytorch/issues/147795",
     [
       "inductor",
       "linux",
@@ -2270,6 +2290,13 @@
       "dynamo"
     ]
   ],
+  "test_nccl_watchdog_cudagraph (__main__.ProcessGroupNCCLOpTest)": [
+    "157896",
+    "https://github.com/pytorch/pytorch/issues/157896",
+    [
+      "rocm"
+    ]
+  ],
   "test_nested (quantization.jit.test_quantize_jit.TestQuantizeJit)": [
     "105120",
     "https://github.com/pytorch/pytorch/issues/105120",
@@ -2656,6 +2683,13 @@
     "https://github.com/pytorch/pytorch/issues/75168",
     [
       "mac"
+    ]
+  ],
+  "test_reduce_scatter_float8 (__main__.ProcessGroupNCCLOpTest)": [
+    "157897",
+    "https://github.com/pytorch/pytorch/issues/157897",
+    [
+      "linux"
     ]
   ],
   "test_reduce_stress_cuda (__main__.ProcessGroupGlooLazyInitTest)": [
@@ -3387,6 +3421,13 @@
       "linux"
     ]
   ],
+  "test_triton_get_ring (__main__.NVSHMEMTritonTest)": [
+    "157898",
+    "https://github.com/pytorch/pytorch/issues/157898",
+    [
+      "linux"
+    ]
+  ],
   "test_triton_kernel_to_post_grad_tracing_cuda (__main__.TestProvenanceTracingArtifact)": [
     "150087",
     "https://github.com/pytorch/pytorch/issues/150087",
@@ -3512,6 +3553,13 @@
   "test_vmap_exhaustive_nn_functional_conv2d_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "157880",
     "https://github.com/pytorch/pytorch/issues/157880",
+    [
+      "rocm"
+    ]
+  ],
+  "test_vmap_exhaustive_nn_functional_conv2d_strided_padding_dilation_no_bias_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
+    "157899",
+    "https://github.com/pytorch/pytorch/issues/157899",
     [
       "rocm"
     ]
