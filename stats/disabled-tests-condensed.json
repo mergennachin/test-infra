@@ -3276,13 +3276,6 @@
     "https://github.com/pytorch/pytorch/issues/114831",
     []
   ],
-  "test_torch_to (__main__.TestTEFuserDynamic)": [
-    "121875",
-    "https://github.com/pytorch/pytorch/issues/121875",
-    [
-      "dynamo"
-    ]
-  ],
   "test_torch_to (__main__.TestTEFuserStatic)": [
     "121876",
     "https://github.com/pytorch/pytorch/issues/121876",
