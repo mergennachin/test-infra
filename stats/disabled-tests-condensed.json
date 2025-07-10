@@ -3217,7 +3217,7 @@
     "145189",
     "https://github.com/pytorch/pytorch/issues/145189",
     [
-      "inductor",
+      "linux",
       "rocm"
     ]
   ],
