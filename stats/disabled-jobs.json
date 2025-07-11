@@ -14,13 +14,5 @@
     "testAssertNotRegex (__main__.CPythonTest_Assertions)",
     "",
     ""
-  ],
-  "test_sdpfa_xpu.(__main__.TestUnbackedSymintsXPU)": [
-    "guangyey",
-    "158095",
-    "https://github.com/pytorch/pytorch/issues/158095",
-    "test_sdpfa_xpu.(__main__.TestUnbackedSymintsXPU)",
-    "",
-    ""
   ]
 }
