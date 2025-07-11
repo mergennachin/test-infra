@@ -3217,6 +3217,13 @@
       "dynamo"
     ]
   ],
+  "test_torch_to (__main__.TestTEFuserStatic)": [
+    "121876",
+    "https://github.com/pytorch/pytorch/issues/121876",
+    [
+      "dynamo"
+    ]
+  ],
   "test_torchvision_models_efficientnet_b7 (__main__.TestVisionTracing)": [
     "123890",
     "https://github.com/pytorch/pytorch/issues/123890",
