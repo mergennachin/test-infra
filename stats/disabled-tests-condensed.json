@@ -2763,6 +2763,15 @@
       "slow"
     ]
   ],
+  "test_remove_noop_view_default_cuda (__main__.GPUTests)": [
+    "151511",
+    "https://github.com/pytorch/pytorch/issues/151511",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_remove_noop_view_dtype_cpu (__main__.CpuTests)": [
     "151540",
     "https://github.com/pytorch/pytorch/issues/151540",
