@@ -3339,6 +3339,13 @@
       "linux"
     ]
   ],
+  "test_triton_relu_fused_gemm (__main__.MultiKernelTest)": [
+    "158274",
+    "https://github.com/pytorch/pytorch/issues/158274",
+    [
+      "rocm"
+    ]
+  ],
   "test_triton_signal_wait_until (__main__.NVSHMEMTritonTest)": [
     "158114",
     "https://github.com/pytorch/pytorch/issues/158114",
