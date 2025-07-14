@@ -607,13 +607,6 @@
       "win"
     ]
   ],
-  "test_compile_kernel_advanced (__main__.TestCompileKernel)": [
-    "157172",
-    "https://github.com/pytorch/pytorch/issues/157172",
-    [
-      "linux"
-    ]
-  ],
   "test_compiled_autograd_attribution (__main__.StructuredTraceTest)": [
     "156921",
     "https://github.com/pytorch/pytorch/issues/156921",
@@ -1216,13 +1209,6 @@
       "slow"
     ]
   ],
-  "test_export_opnames_interface (__main__.TestMisc)": [
-    "154986",
-    "https://github.com/pytorch/pytorch/issues/154986",
-    [
-      "dynamo"
-    ]
-  ],
   "test_extract_gradients_from_optimizer_set_to_none (__main__.TestIdentifyGradients)": [
     "88721",
     "https://github.com/pytorch/pytorch/issues/88721",
@@ -1264,14 +1250,6 @@
       "linux",
       "rocm",
       "slow"
-    ]
-  ],
-  "test_forward_backward_not_called_backend_cudagraphs (__main__.CudaGraphTreeTests)": [
-    "156984",
-    "https://github.com/pytorch/pytorch/issues/156984",
-    [
-      "linux",
-      "rocm"
     ]
   ],
   "test_forward_backward_not_called_backend_inductor (__main__.CudaGraphTreeTests)": [
@@ -2308,13 +2286,6 @@
       "rocm"
     ]
   ],
-  "test_op_has_batch_rule_matmul_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
-    "157163",
-    "https://github.com/pytorch/pytorch/issues/157163",
-    [
-      "rocm"
-    ]
-  ],
   "test_op_has_batch_rule_mv_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "142697",
     "https://github.com/pytorch/pytorch/issues/142697",
@@ -2549,15 +2520,6 @@
       "macos"
     ]
   ],
-  "test_quantization_doc_custom (__main__.TestQuantizationDocs)": [
-    "125668",
-    "https://github.com/pytorch/pytorch/issues/125668",
-    [
-      "linux",
-      "mac",
-      "macos"
-    ]
-  ],
   "test_quantized_conv_no_asan_failures (__main__.TestOptimizer)": [
     "157254",
     "https://github.com/pytorch/pytorch/issues/157254",
@@ -2772,18 +2734,6 @@
       "slow"
     ]
   ],
-  "test_remove_noop_view_dtype_cpu (__main__.CpuTests)": [
-    "151540",
-    "https://github.com/pytorch/pytorch/issues/151540",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_remove_noop_view_dtype_cuda (__main__.GPUTests)": [
     "151541",
     "https://github.com/pytorch/pytorch/issues/151541",
@@ -2798,16 +2748,6 @@
     "https://github.com/pytorch/pytorch/issues/144922",
     [
       "rocm"
-    ]
-  ],
-  "test_repeated_calling_cuda (__main__.AOTInductorTestABICompatibleGpu)": [
-    "146185",
-    "https://github.com/pytorch/pytorch/issues/146185",
-    [
-      "inductor",
-      "linux",
-      "rocm",
-      "slow"
     ]
   ],
   "test_requires_grad_loop (test_jit.TestScript)": [
