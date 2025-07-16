@@ -959,6 +959,13 @@
       "rocm"
     ]
   ],
+  "test_cupy_as_tensor (__main__.CupyAsTensorTest)": [
+    "158466",
+    "https://github.com/pytorch/pytorch/issues/158466",
+    [
+      "rocm"
+    ]
+  ],
   "test_dataclass_in_module (__main__.ReproTests)": [
     "156776",
     "https://github.com/pytorch/pytorch/issues/156776",
@@ -1188,6 +1195,13 @@
       "rocm"
     ]
   ],
+  "test_empty_strided_p2p_persistent_set_device_True (__main__.SymmetricMemoryTest)": [
+    "158464",
+    "https://github.com/pytorch/pytorch/issues/158464",
+    [
+      "rocm"
+    ]
+  ],
   "test_end_recording_early (__main__.CudaGraphTreeTests)": [
     "156778",
     "https://github.com/pytorch/pytorch/issues/156778",
@@ -1337,6 +1351,15 @@
   "test_forward_generation (__main__.CudaGraphTreeTests)": [
     "157058",
     "https://github.com/pytorch/pytorch/issues/157058",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_forward_with_skipped_cudagraphed_backward (__main__.CudaGraphTreeTests)": [
+    "157086",
+    "https://github.com/pytorch/pytorch/issues/157086",
     [
       "linux",
       "rocm",
@@ -1775,6 +1798,13 @@
   "test_inplace_on_view_non_contig_cpu (__main__.TestAutogradDeviceTypeCPU)": [
     "156265",
     "https://github.com/pytorch/pytorch/issues/156265",
+    [
+      "dynamo"
+    ]
+  ],
+  "test_inplace_on_view_of_view_cpu (__main__.TestAutogradDeviceTypeCPU)": [
+    "156289",
+    "https://github.com/pytorch/pytorch/issues/156289",
     [
       "dynamo"
     ]
@@ -2385,6 +2415,15 @@
     "https://github.com/pytorch/pytorch/issues/157090",
     [
       "rocm"
+    ]
+  ],
+  "test_op_has_batch_rule_linalg_vecdot_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
+    "142924",
+    "https://github.com/pytorch/pytorch/issues/142924",
+    [
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_open_device_registration (__main__.ExtensionBackendTests)": [
@@ -3626,6 +3665,13 @@
       "macos",
       "rocm",
       "slow"
+    ]
+  ],
+  "test_with_cudagraphs_cuda (__main__.AOTInductorTestABICompatibleGpu)": [
+    "158465",
+    "https://github.com/pytorch/pytorch/issues/158465",
+    [
+      "rocm"
     ]
   ],
   "test_zero_bubble_with_model_kwargs_ScheduleClass0 (__main__.ScheduleTest)": [
