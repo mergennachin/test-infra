@@ -23,6 +23,14 @@
     "Lint URLs",
     "linux-job"
   ],
+  "pull / cuda12.8-py3.10-gcc9-sm75 / test (pr_time_benchmarks)": [
+    "nWEIdia",
+    "153987",
+    "https://github.com/pytorch/pytorch/issues/153987",
+    "pull",
+    "cuda12.8-py3.10-gcc9-sm75",
+    "test (pr_time_benchmarks)"
+  ],
   "rocm / linux-jammy-rocm-py3.10 / test (default)": [
     "atalman",
     "156098",
