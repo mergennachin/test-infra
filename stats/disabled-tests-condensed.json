@@ -1823,13 +1823,6 @@
       "dynamo"
     ]
   ],
-  "test_int64_index_intermediate (__main__.CudaReproTests)": [
-    "157872",
-    "https://github.com/pytorch/pytorch/issues/157872",
-    [
-      "rocm"
-    ]
-  ],
   "test_int64_upsample3d_cuda_bfloat16 (__main__.TestTorchDeviceTypeCUDA)": [
     "146007",
     "https://github.com/pytorch/pytorch/issues/146007",
