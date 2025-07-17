@@ -1170,6 +1170,13 @@
       "rocm"
     ]
   ],
+  "test_einsum_to_pointwise (__main__.TestKernelOptimization)": [
+    "158546",
+    "https://github.com/pytorch/pytorch/issues/158546",
+    [
+      "rocm"
+    ]
+  ],
   "test_empty_cpu_tensor (__main__.CudaGraphTreeTests)": [
     "156735",
     "https://github.com/pytorch/pytorch/issues/156735",
@@ -1364,6 +1371,13 @@
       "linux",
       "rocm",
       "slow"
+    ]
+  ],
+  "test_frozen_fn (__main__.CudaGraphTreeTests)": [
+    "157111",
+    "https://github.com/pytorch/pytorch/issues/157111",
+    [
+      "rocm"
     ]
   ],
   "test_fsdp_unsupported_module_cls (__main__.TestFSDPMiscMultiThread)": [
