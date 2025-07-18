@@ -1401,13 +1401,6 @@
       "rocm"
     ]
   ],
-  "test_generalized_sq_cases (__main__.TestSolve)": [
-    "158054",
-    "https://github.com/pytorch/pytorch/issues/158054",
-    [
-      "slow"
-    ]
-  ],
   "test_get_parameter_dtype (__main__.ReproTests)": [
     "156598",
     "https://github.com/pytorch/pytorch/issues/156598",
