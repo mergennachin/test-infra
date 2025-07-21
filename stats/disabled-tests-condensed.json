@@ -3062,14 +3062,6 @@
       "macos"
     ]
   ],
-  "test_sdpa_mask_fp16_L6_S17_NH23_HS121 (__main__.TestSDPA)": [
-    "138905",
-    "https://github.com/pytorch/pytorch/issues/138905",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_sdpa_with_packed_in_proj_cuda_float32 (__main__.TestNestedTensorSubclassCUDA)": [
     "120029",
     "https://github.com/pytorch/pytorch/issues/120029",
