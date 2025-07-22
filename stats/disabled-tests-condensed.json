@@ -2314,14 +2314,6 @@
       "dynamo"
     ]
   ],
-  "test_non_contiguous_input_mm_plus_mm (__main__.TestMaxAutotune)": [
-    "126867",
-    "https://github.com/pytorch/pytorch/issues/126867",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_non_contiguous_tensors_nn_ConvTranspose1d_cuda_complex32 (__main__.TestModuleCUDA)": [
     "81732",
     "https://github.com/pytorch/pytorch/issues/81732",
@@ -3298,6 +3290,13 @@
     "114831",
     "https://github.com/pytorch/pytorch/issues/114831",
     []
+  ],
+  "test_torch_to (__main__.TestTEFuserDynamic)": [
+    "121875",
+    "https://github.com/pytorch/pytorch/issues/121875",
+    [
+      "dynamo"
+    ]
   ],
   "test_torch_to (__main__.TestTEFuserStatic)": [
     "121876",
