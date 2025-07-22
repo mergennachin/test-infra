@@ -22,5 +22,13 @@
     "Lint",
     "Lint URLs",
     "linux-job"
+  ],
+  "pull / linux-jammy-py3_9-clang9-xla / test (xla)": [
+    "ZainRizvi",
+    "158876",
+    "https://github.com/pytorch/pytorch/issues/158876",
+    "pull",
+    "linux-jammy-py3_9-clang9-xla",
+    "test (xla)"
   ]
 }
