@@ -775,13 +775,6 @@
       "inductor"
     ]
   ],
-  "test_comprehensive_nansum_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
-    "140693",
-    "https://github.com/pytorch/pytorch/issues/140693",
-    [
-      "inductor"
-    ]
-  ],
   "test_comprehensive_nn_functional_adaptive_avg_pool2d_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
     "131080",
     "https://github.com/pytorch/pytorch/issues/131080",
@@ -857,23 +850,9 @@
       "slow"
     ]
   ],
-  "test_comprehensive_rot90_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
-    "140773",
-    "https://github.com/pytorch/pytorch/issues/140773",
-    [
-      "inductor"
-    ]
-  ],
   "test_comprehensive_rsub_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
     "140503",
     "https://github.com/pytorch/pytorch/issues/140503",
-    [
-      "inductor"
-    ]
-  ],
-  "test_comprehensive_special_xlog1py_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
-    "140648",
-    "https://github.com/pytorch/pytorch/issues/140648",
     [
       "inductor"
     ]
