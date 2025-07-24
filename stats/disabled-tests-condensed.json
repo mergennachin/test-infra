@@ -2222,6 +2222,11 @@
       "rocm"
     ]
   ],
+  "test_mm_k_1 (__main__.TestMaxAutotune)": [
+    "159000",
+    "https://github.com/pytorch/pytorch/issues/159000",
+    []
+  ],
   "test_mm_plus_mm (__main__.TestPatternMatcher)": [
     "145335",
     "https://github.com/pytorch/pytorch/issues/145335",
