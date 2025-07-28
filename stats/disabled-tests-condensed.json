@@ -604,14 +604,6 @@
       "macos"
     ]
   ],
-  "test_cat_max_autotune_triton (__main__.TestMaxAutotune)": [
-    "145830",
-    "https://github.com/pytorch/pytorch/issues/145830",
-    [
-      "inductor",
-      "rocm"
-    ]
-  ],
   "test_causal_variants_compile_causal_variant_CausalVariant_LOWER_RIGHT_shape0_cuda (__main__.TestAttnBiasCUDA)": [
     "118641",
     "https://github.com/pytorch/pytorch/issues/118641",
@@ -1106,6 +1098,13 @@
       "dynamo"
     ]
   ],
+  "test_deferred_runtime_asserts (__main__.ReproTests)": [
+    "156817",
+    "https://github.com/pytorch/pytorch/issues/156817",
+    [
+      "linux"
+    ]
+  ],
   "test_disable_external_correlation (__main__.TestProfiler)": [
     "143373",
     "https://github.com/pytorch/pytorch/issues/143373",
@@ -1336,6 +1335,15 @@
       "windows"
     ]
   ],
+  "test_execution_into_recording (__main__.CudaGraphTreeTests)": [
+    "156838",
+    "https://github.com/pytorch/pytorch/issues/156838",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_execution_trace_with_kineto (__main__.TestExecutionTrace)": [
     "123536",
     "https://github.com/pytorch/pytorch/issues/123536",
@@ -1558,6 +1566,13 @@
   "test_grad_with_tracer_ScheduleClass0 (__main__.ScheduleTest)": [
     "159034",
     "https://github.com/pytorch/pytorch/issues/159034",
+    [
+      "rocm"
+    ]
+  ],
+  "test_grad_with_tracer_ScheduleClass1 (__main__.ScheduleTest)": [
+    "159253",
+    "https://github.com/pytorch/pytorch/issues/159253",
     [
       "rocm"
     ]
@@ -2563,6 +2578,15 @@
       "rocm"
     ]
   ],
+  "test_op_has_batch_rule_tensordot_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
+    "142769",
+    "https://github.com/pytorch/pytorch/issues/142769",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_open_device_registration (__main__.ExtensionBackendTests)": [
     "137027",
     "https://github.com/pytorch/pytorch/issues/137027",
@@ -2995,6 +3019,15 @@
       "rocm"
     ]
   ],
+  "test_remove_noop_slice_scatter_cuda (__main__.GPUTests)": [
+    "151378",
+    "https://github.com/pytorch/pytorch/issues/151378",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_remove_noop_view_default_cpu (__main__.CpuTests)": [
     "151512",
     "https://github.com/pytorch/pytorch/issues/151512",
@@ -3003,6 +3036,15 @@
       "linux",
       "mac",
       "macos",
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_remove_noop_view_default_cuda (__main__.GPUTests)": [
+    "151511",
+    "https://github.com/pytorch/pytorch/issues/151511",
+    [
+      "linux",
       "rocm",
       "slow"
     ]
@@ -3394,6 +3436,13 @@
   "test_sum_all_cpu_float64 (__main__.TestReductionsCPU)": [
     "158664",
     "https://github.com/pytorch/pytorch/issues/158664",
+    [
+      "dynamo"
+    ]
+  ],
+  "test_supports_tensor_lists_mode_nothing (__main__.TestAutogradFallback)": [
+    "159254",
+    "https://github.com/pytorch/pytorch/issues/159254",
     [
       "dynamo"
     ]
