@@ -837,13 +837,6 @@
       "inductor"
     ]
   ],
-  "test_comprehensive_nn_functional_interpolate_bilinear_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
-    "147057",
-    "https://github.com/pytorch/pytorch/issues/147057",
-    [
-      "inductor"
-    ]
-  ],
   "test_comprehensive_nn_functional_interpolate_linear_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
     "147058",
     "https://github.com/pytorch/pytorch/issues/147058",
@@ -1647,6 +1640,14 @@
     "https://github.com/pytorch/pytorch/issues/157164",
     [
       "rocm"
+    ]
+  ],
+  "test_gru (__main__.TestXNNPACKQuantizer)": [
+    "158116",
+    "https://github.com/pytorch/pytorch/issues/158116",
+    [
+      "mac",
+      "macos"
     ]
   ],
   "test_hessian_vectorize_correctness_multi_input_cuda (__main__.TestHessianCUDA)": [
