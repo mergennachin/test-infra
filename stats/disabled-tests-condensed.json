@@ -999,6 +999,14 @@
       "slow"
     ]
   ],
+  "test_cuda_kernel_loop_overflow_large (__main__.TestCuda)": [
+    "159283",
+    "https://github.com/pytorch/pytorch/issues/159283",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_cuda_load (__main__.TestCUDACodeCache)": [
     "138343",
     "https://github.com/pytorch/pytorch/issues/138343",
@@ -1600,6 +1608,13 @@
       "rocm"
     ]
   ],
+  "test_graph_memory_stats_and_use_result_after_destroy_graph (__main__.TestCuda)": [
+    "159284",
+    "https://github.com/pytorch/pytorch/issues/159284",
+    [
+      "linux"
+    ]
+  ],
   "test_graph_partition (__main__.CudaGraphTreeTests)": [
     "157173",
     "https://github.com/pytorch/pytorch/issues/157173",
@@ -1641,13 +1656,6 @@
       "linux",
       "rocm",
       "slow"
-    ]
-  ],
-  "test_graph_partition_reorder_custom_op_with_no_dependency (__main__.CudaGraphTreeTests)": [
-    "157871",
-    "https://github.com/pytorch/pytorch/issues/157871",
-    [
-      "rocm"
     ]
   ],
   "test_graph_two_successive (__main__.TestCuda)": [
