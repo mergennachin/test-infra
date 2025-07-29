@@ -3453,6 +3453,13 @@
       "rocm"
     ]
   ],
+  "test_sort_large_cuda_uint8 (__main__.TestSortAndSelectCUDA)": [
+    "159426",
+    "https://github.com/pytorch/pytorch/issues/159426",
+    [
+      "rocm"
+    ]
+  ],
   "test_special_polygamma_cpu_halide (__main__.HalideCpuTests)": [
     "150624",
     "https://github.com/pytorch/pytorch/issues/150624",
