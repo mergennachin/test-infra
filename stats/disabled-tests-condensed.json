@@ -375,6 +375,13 @@
       "rocm"
     ]
   ],
+  "test_against_reference_multi_input_multi_output_jacfwd_cuda (__main__.TestJacCUDA)": [
+    "157036",
+    "https://github.com/pytorch/pytorch/issues/157036",
+    [
+      "rocm"
+    ]
+  ],
   "test_all_gather_uneven (__main__.DeviceMeshCollectiveTest)": [
     "98049",
     "https://github.com/pytorch/pytorch/issues/98049",
@@ -1438,6 +1445,15 @@
       "slow"
     ]
   ],
+  "test_fallback_to_eager_if_recompiling_too_many_times_due_to_cudagraph_managed_tensor (__main__.CudaGraphTreeTests)": [
+    "156922",
+    "https://github.com/pytorch/pytorch/issues/156922",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_143_seq_len_k_2048_head_dim_8_is_causal_False_dropout_p_0_22_float16_scale0_enable_gqa_False_n_heads0_cuda_float16 (__main__.TestSDPACudaOnlyCUDA)": [
     "158890",
     "https://github.com/pytorch/pytorch/issues/158890",
@@ -1525,6 +1541,13 @@
       "linux",
       "rocm",
       "slow"
+    ]
+  ],
+  "test_fused_all_gather_matmul_gather_dim_0 (__main__.SymmetricMemoryTest)": [
+    "159396",
+    "https://github.com/pytorch/pytorch/issues/159396",
+    [
+      "rocm"
     ]
   ],
   "test_fused_all_gather_matmul_native_symm_mem_input_False_is_b_row_major_False (__main__.SymmetricMemoryTest)": [
@@ -2107,6 +2130,14 @@
       "rocm"
     ]
   ],
+  "test_linear_gru (__main__.TestXNNPACKQuantizer)": [
+    "158332",
+    "https://github.com/pytorch/pytorch/issues/158332",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_linear_relu_dynamic_shapes_gpu_wrapper (__main__.DynamicShapesGpuWrapperGpuTests)": [
     "157005",
     "https://github.com/pytorch/pytorch/issues/157005",
@@ -2200,6 +2231,15 @@
     "https://github.com/pytorch/pytorch/issues/95172",
     [
       "rocm"
+    ]
+  ],
+  "test_memory_plots_free_segment_stack (__main__.TestCudaMallocAsync)": [
+    "137223",
+    "https://github.com/pytorch/pytorch/issues/137223",
+    [
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_memory_snapshot (__main__.TestCudaMallocAsync)": [
@@ -2470,6 +2510,13 @@
   "test_op_has_batch_rule___rmatmul___cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "157003",
     "https://github.com/pytorch/pytorch/issues/157003",
+    [
+      "rocm"
+    ]
+  ],
+  "test_op_has_batch_rule_addmv_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
+    "157037",
+    "https://github.com/pytorch/pytorch/issues/157037",
     [
       "rocm"
     ]
@@ -3737,6 +3784,20 @@
   "test_trust_repo_check_yes (__main__.TestHub)": [
     "155617",
     "https://github.com/pytorch/pytorch/issues/155617",
+    [
+      "dynamo"
+    ]
+  ],
+  "test_two_shot_all_reduce (__main__.SymmMemCollectiveTest)": [
+    "159397",
+    "https://github.com/pytorch/pytorch/issues/159397",
+    [
+      "rocm"
+    ]
+  ],
+  "test_undefined_grads_mode_nothing (__main__.TestAutogradFallback)": [
+    "159398",
+    "https://github.com/pytorch/pytorch/issues/159398",
     [
       "dynamo"
     ]
