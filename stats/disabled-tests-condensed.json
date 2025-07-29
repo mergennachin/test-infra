@@ -1429,6 +1429,15 @@
       "rocm"
     ]
   ],
+  "test_fallback_to_eager_if_recompiling_too_many_times (__main__.CudaGraphTreeTests)": [
+    "130749",
+    "https://github.com/pytorch/pytorch/issues/130749",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_143_seq_len_k_2048_head_dim_8_is_causal_False_dropout_p_0_22_float16_scale0_enable_gqa_False_n_heads0_cuda_float16 (__main__.TestSDPACudaOnlyCUDA)": [
     "158890",
     "https://github.com/pytorch/pytorch/issues/158890",
@@ -1891,6 +1900,13 @@
   "test_inplace_on_view_makes_base_require_grad_cpu (__main__.TestAutogradDeviceTypeCPU)": [
     "156209",
     "https://github.com/pytorch/pytorch/issues/156209",
+    [
+      "dynamo"
+    ]
+  ],
+  "test_inplace_on_view_non_contig_cpu (__main__.TestAutogradDeviceTypeCPU)": [
+    "156265",
+    "https://github.com/pytorch/pytorch/issues/156265",
     [
       "dynamo"
     ]
@@ -2999,11 +3015,35 @@
       "slow"
     ]
   ],
+  "test_remove_noop_view_default_cpu (__main__.CpuTests)": [
+    "151512",
+    "https://github.com/pytorch/pytorch/issues/151512",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_remove_noop_view_default_cuda (__main__.GPUTests)": [
     "151511",
     "https://github.com/pytorch/pytorch/issues/151511",
     [
       "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_remove_noop_view_dtype_cpu (__main__.CpuTests)": [
+    "151540",
+    "https://github.com/pytorch/pytorch/issues/151540",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
       "rocm",
       "slow"
     ]
