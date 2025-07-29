@@ -736,6 +736,11 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_argsort_xpu_bool (__main__.TestInductorOpInfoXPU)": [
+    "159330",
+    "https://github.com/pytorch/pytorch/issues/159330",
+    []
+  ],
   "test_comprehensive_complex_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
     "140367",
     "https://github.com/pytorch/pytorch/issues/140367",
