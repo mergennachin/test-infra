@@ -502,6 +502,11 @@
       "rocm"
     ]
   ],
+  "test_automatic_dynamo_autotune_cache_device_xpu (__main__.TestPackage)": [
+    "159334",
+    "https://github.com/pytorch/pytorch/issues/159334",
+    []
+  ],
   "test_backward_ddp_inside (__main__.TensorPipeDdpUnderDistAutogradTest)": [
     "104328",
     "https://github.com/pytorch/pytorch/issues/104328",
@@ -703,6 +708,11 @@
       "linux"
     ]
   ],
+  "test_compile_obj_torchbind_op_with_autocast_device_cuda_backend_aot_eager (__main__.TestCompileTorchbind)": [
+    "159331",
+    "https://github.com/pytorch/pytorch/issues/159331",
+    []
+  ],
   "test_compiled_autograd_attribution (__main__.StructuredTraceTest)": [
     "156921",
     "https://github.com/pytorch/pytorch/issues/156921",
@@ -739,6 +749,11 @@
   "test_comprehensive_argsort_xpu_bool (__main__.TestInductorOpInfoXPU)": [
     "159330",
     "https://github.com/pytorch/pytorch/issues/159330",
+    []
+  ],
+  "test_comprehensive_byte_xpu_float32 (__main__.TestInductorOpInfoXPU)": [
+    "159332",
+    "https://github.com/pytorch/pytorch/issues/159332",
     []
   ],
   "test_comprehensive_complex_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
@@ -892,6 +907,11 @@
     [
       "inductor"
     ]
+  ],
+  "test_comprehensive_sort_xpu_bool (__main__.TestInductorOpInfoXPU)": [
+    "159335",
+    "https://github.com/pytorch/pytorch/issues/159335",
+    []
   ],
   "test_comprehensive_stft_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
     "146978",
