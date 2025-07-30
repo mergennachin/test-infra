@@ -856,6 +856,13 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_nn_functional_interpolate_bilinear_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
+    "147057",
+    "https://github.com/pytorch/pytorch/issues/147057",
+    [
+      "inductor"
+    ]
+  ],
   "test_comprehensive_nn_functional_interpolate_linear_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
     "147058",
     "https://github.com/pytorch/pytorch/issues/147058",
@@ -1801,15 +1808,6 @@
   "test_inductor_all_reduce_non_contig_input (__main__.CompileTest)": [
     "147733",
     "https://github.com/pytorch/pytorch/issues/147733",
-    [
-      "inductor",
-      "linux",
-      "rocm"
-    ]
-  ],
-  "test_inductor_all_reduce_single (__main__.CompileTest)": [
-    "147754",
-    "https://github.com/pytorch/pytorch/issues/147754",
     [
       "inductor",
       "linux",
