@@ -1484,18 +1484,18 @@
       "slow"
     ]
   ],
-  "test_forward_generation (__main__.CudaGraphTreeTests)": [
-    "157058",
-    "https://github.com/pytorch/pytorch/issues/157058",
+  "test_forward_backward (__main__.CudaGraphTreeTests)": [
+    "156957",
+    "https://github.com/pytorch/pytorch/issues/156957",
     [
       "linux",
       "rocm",
       "slow"
     ]
   ],
-  "test_forward_with_skipped_cudagraphed_backward (__main__.CudaGraphTreeTests)": [
-    "157086",
-    "https://github.com/pytorch/pytorch/issues/157086",
+  "test_forward_generation (__main__.CudaGraphTreeTests)": [
+    "157058",
+    "https://github.com/pytorch/pytorch/issues/157058",
     [
       "linux",
       "rocm",
@@ -1558,6 +1558,13 @@
   "test_fused_all_gather_matmul_native_symm_mem_input_False_is_b_row_major_True (__main__.SymmetricMemoryTest)": [
     "159347",
     "https://github.com/pytorch/pytorch/issues/159347",
+    [
+      "rocm"
+    ]
+  ],
+  "test_fused_all_gather_matmul_native_symm_mem_input_True_is_b_row_major_False (__main__.SymmetricMemoryTest)": [
+    "159499",
+    "https://github.com/pytorch/pytorch/issues/159499",
     [
       "rocm"
     ]
@@ -1628,13 +1635,6 @@
     "https://github.com/pytorch/pytorch/issues/159253",
     [
       "rocm"
-    ]
-  ],
-  "test_gradients_synchronizations (__main__.TensorPipeTensorPipeCudaDistAutogradTest)": [
-    "158443",
-    "https://github.com/pytorch/pytorch/issues/158443",
-    [
-      "linux"
     ]
   ],
   "test_graph_break_unsupported_fake (__main__.ReproTests)": [
@@ -1723,6 +1723,13 @@
     [
       "mac",
       "macos"
+    ]
+  ],
+  "test_hessian_vectorize_correctness_multi_input_cuda (__main__.TestHessianCUDA)": [
+    "157059",
+    "https://github.com/pytorch/pytorch/issues/157059",
+    [
+      "rocm"
     ]
   ],
   "test_hoist_conv_packed_params (__main__.TestOptimizer)": [
@@ -1912,13 +1919,6 @@
   "test_inplace_on_view_non_contig_cpu (__main__.TestAutogradDeviceTypeCPU)": [
     "156265",
     "https://github.com/pytorch/pytorch/issues/156265",
-    [
-      "dynamo"
-    ]
-  ],
-  "test_inplace_on_view_of_view_cpu (__main__.TestAutogradDeviceTypeCPU)": [
-    "156289",
-    "https://github.com/pytorch/pytorch/issues/156289",
     [
       "dynamo"
     ]
@@ -2519,20 +2519,11 @@
       "rocm"
     ]
   ],
-  "test_op_has_batch_rule_inner_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
-    "157090",
-    "https://github.com/pytorch/pytorch/issues/157090",
+  "test_op_has_batch_rule_dot_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
+    "157069",
+    "https://github.com/pytorch/pytorch/issues/157069",
     [
       "rocm"
-    ]
-  ],
-  "test_op_has_batch_rule_linalg_vecdot_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
-    "142924",
-    "https://github.com/pytorch/pytorch/issues/142924",
-    [
-      "linux",
-      "rocm",
-      "slow"
     ]
   ],
   "test_op_has_batch_rule_matmul_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
@@ -3070,6 +3061,15 @@
       "slow"
     ]
   ],
+  "test_remove_noop_view_dtype_cuda (__main__.GPUTests)": [
+    "151541",
+    "https://github.com/pytorch/pytorch/issues/151541",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_repeat_graph_capture_cublas_workspace_memory (__main__.TestCuda)": [
     "144922",
     "https://github.com/pytorch/pytorch/issues/144922",
@@ -3323,13 +3323,6 @@
       "macos"
     ]
   ],
-  "test_sdpa_with_packed_in_proj_cuda_float32 (__main__.TestNestedTensorSubclassCUDA)": [
-    "120029",
-    "https://github.com/pytorch/pytorch/issues/120029",
-    [
-      "rocm"
-    ]
-  ],
   "test_send_recv_all_to_all (__main__.ProcessGroupGlooTest)": [
     "71195",
     "https://github.com/pytorch/pytorch/issues/71195",
@@ -3342,6 +3335,14 @@
     "https://github.com/pytorch/pytorch/issues/135476",
     [
       "linux"
+    ]
+  ],
+  "test_set_per_process_memory_fraction (__main__.TestCuda)": [
+    "135115",
+    "https://github.com/pytorch/pytorch/issues/135115",
+    [
+      "linux",
+      "slow"
     ]
   ],
   "test_set_stance_eager_then_compile (__main__.DecoratorTests)": [
