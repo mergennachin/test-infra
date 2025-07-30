@@ -1585,6 +1585,13 @@
       "mac"
     ]
   ],
+  "test_grad_layout_1devicemodule_1replicaperprocess (__main__.DistributedDataParallelTest)": [
+    "159488",
+    "https://github.com/pytorch/pytorch/issues/159488",
+    [
+      "rocm"
+    ]
+  ],
   "test_grad_with_manual_interleaved_ScheduleClass1_use_new_runtime_True (__main__.ScheduleTest)": [
     "154408",
     "https://github.com/pytorch/pytorch/issues/154408",
@@ -3415,6 +3422,13 @@
     "https://github.com/pytorch/pytorch/issues/150624",
     [
       "linux"
+    ]
+  ],
+  "test_strided_grad_layout (__main__.TestDataParallel)": [
+    "159489",
+    "https://github.com/pytorch/pytorch/issues/159489",
+    [
+      "rocm"
     ]
   ],
   "test_successful (jit.test_freezing.TestMKLDNNReinplacing)": [
