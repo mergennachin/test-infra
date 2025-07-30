@@ -30,13 +30,5 @@
     "pull",
     "linux-jammy-py3_9-clang9-xla",
     "test (xla)"
-  ],
-  "rocm / linux-jammy-rocm-py3.10 / test (default)": [
-    "atalman",
-    "156098",
-    "https://github.com/pytorch/pytorch/issues/156098",
-    "rocm",
-    "linux-jammy-rocm-py3.10",
-    "test (default)"
   ]
 }
