@@ -3776,13 +3776,6 @@
       "rocm"
     ]
   ],
-  "test_undefined_grads_mode_nothing (__main__.TestAutogradFallback)": [
-    "159398",
-    "https://github.com/pytorch/pytorch/issues/159398",
-    [
-      "dynamo"
-    ]
-  ],
   "test_undefined_grads_mode_warn (__main__.TestAutogradFallback)": [
     "159471",
     "https://github.com/pytorch/pytorch/issues/159471",
