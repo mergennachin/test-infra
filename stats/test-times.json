@@ -38386,7 +38386,7 @@
       "inductor/test_efficient_conv_bn_eval": 0.0010000000474974513,
       "inductor/test_extension_backend": 1.8039999802907307,
       "inductor/test_external_callables": 17.3853333791097,
-      "inductor/test_flex_attention": 1.9023332799552009,
+      "inductor/test_flex_attention": 1800,
       "inductor/test_flex_decoding": 1.7060000101725261,
       "inductor/test_foreach": 38.528666178385414,
       "inductor/test_fp8": 211.00266674781838,
