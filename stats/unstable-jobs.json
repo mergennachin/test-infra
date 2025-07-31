@@ -30,5 +30,13 @@
     "pull",
     "linux-jammy-py3_9-clang9-xla",
     "test (xla)"
+  ],
+  "rocm-mi300 / linux-noble-rocm-py3.12-mi300 / test (default)": [
+    "huydhn",
+    "158182",
+    "https://github.com/pytorch/pytorch/issues/158182",
+    "rocm-mi300",
+    "linux-noble-rocm-py3.12-mi300",
+    "test (default)"
   ]
 }
