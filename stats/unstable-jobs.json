@@ -31,6 +31,14 @@
     "linux-jammy-py3_9-clang9-xla",
     "test (xla)"
   ],
+  "rocm / linux-jammy-rocm-py3.10 / test (default)": [
+    "atalman",
+    "156098",
+    "https://github.com/pytorch/pytorch/issues/156098",
+    "rocm",
+    "linux-jammy-rocm-py3.10",
+    "test (default)"
+  ],
   "rocm-mi300 / linux-noble-rocm-py3.12-mi300 / test (default)": [
     "huydhn",
     "158182",
