@@ -1608,14 +1608,6 @@
       "rocm"
     ]
   ],
-  "test_grad_with_manual_interleaved_ScheduleClass1_use_new_runtime_True (__main__.ScheduleTest)": [
-    "154408",
-    "https://github.com/pytorch/pytorch/issues/154408",
-    [
-      "linux",
-      "rocm"
-    ]
-  ],
   "test_grad_with_manual_interleaved_ScheduleClass2_use_new_runtime_False (__main__.ScheduleTest)": [
     "154443",
     "https://github.com/pytorch/pytorch/issues/154443",
