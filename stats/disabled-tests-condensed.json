@@ -1223,13 +1223,6 @@
       "linux"
     ]
   ],
-  "test_dunder_round_edgecases_val_2147483647_ndigits_-1 (__main__.TestNonarrayArgs)": [
-    "116121",
-    "https://github.com/pytorch/pytorch/issues/116121",
-    [
-      "dynamo"
-    ]
-  ],
   "test_dynamic_shape_m_20480_k_5_n_2_should_decompose_True_has_bias_False (__main__.TestDecomposeMemMM)": [
     "153735",
     "https://github.com/pytorch/pytorch/issues/153735",
