@@ -1543,6 +1543,13 @@
       "rocm"
     ]
   ],
+  "test_fused_all_gather_matmul_gather_dim_1 (__main__.SymmetricMemoryTest)": [
+    "159643",
+    "https://github.com/pytorch/pytorch/issues/159643",
+    [
+      "rocm"
+    ]
+  ],
   "test_fused_all_gather_matmul_native_symm_mem_input_False_is_b_row_major_False (__main__.SymmetricMemoryTest)": [
     "158916",
     "https://github.com/pytorch/pytorch/issues/158916",
@@ -1590,6 +1597,13 @@
   "test_grad_layout_1devicemodule_1replicaperprocess (__main__.DistributedDataParallelTest)": [
     "159488",
     "https://github.com/pytorch/pytorch/issues/159488",
+    [
+      "rocm"
+    ]
+  ],
+  "test_grad_with_manual_ScheduleClass0_shape_inference_False (__main__.ScheduleTest)": [
+    "159644",
+    "https://github.com/pytorch/pytorch/issues/159644",
     [
       "rocm"
     ]
@@ -1756,17 +1770,6 @@
       "linux",
       "rocm",
       "slow"
-    ]
-  ],
-  "test_ind_worker_queue (__main__.TestIndividualWorkerQueue)": [
-    "68643",
-    "https://github.com/pytorch/pytorch/issues/68643",
-    [
-      "linux",
-      "mac",
-      "macos",
-      "win",
-      "windows"
     ]
   ],
   "test_index (__main__.TestPythonBuiltinOP)": [
