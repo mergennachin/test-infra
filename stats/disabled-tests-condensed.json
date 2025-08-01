@@ -214,6 +214,11 @@
       "rocm"
     ]
   ],
+  "test_addmm_dtype_mismatch (__main__.TestPatternMatcher)": [
+    "159631",
+    "https://github.com/pytorch/pytorch/issues/159631",
+    []
+  ],
   "test_addmm_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
     "157279",
     "https://github.com/pytorch/pytorch/issues/157279",
