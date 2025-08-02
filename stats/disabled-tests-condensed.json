@@ -1594,13 +1594,6 @@
       "rocm"
     ]
   ],
-  "test_grad_with_manual_ScheduleClass0_shape_inference_False (__main__.ScheduleTest)": [
-    "159644",
-    "https://github.com/pytorch/pytorch/issues/159644",
-    [
-      "rocm"
-    ]
-  ],
   "test_grad_with_manual_interleaved_ScheduleClass2_use_new_runtime_False (__main__.ScheduleTest)": [
     "154443",
     "https://github.com/pytorch/pytorch/issues/154443",
