@@ -3604,103 +3604,12 @@
       "rocm"
     ]
   ],
-  "test_triton_alltoall (__main__.NVSHMEMTritonTest)": [
-    "158840",
-    "https://github.com/pytorch/pytorch/issues/158840",
-    [
-      "linux"
-    ]
-  ],
-  "test_triton_barrier (__main__.NVSHMEMTritonTest)": [
-    "158761",
-    "https://github.com/pytorch/pytorch/issues/158761",
-    [
-      "linux"
-    ]
-  ],
-  "test_triton_broadcast (__main__.NVSHMEMTritonTest)": [
-    "158908",
-    "https://github.com/pytorch/pytorch/issues/158908",
-    [
-      "linux"
-    ]
-  ],
-  "test_triton_fence (__main__.NVSHMEMTritonTest)": [
-    "157789",
-    "https://github.com/pytorch/pytorch/issues/157789",
-    [
-      "linux"
-    ]
-  ],
   "test_triton_fx_graph_with_et_cuda (__main__.TestExecutionTraceCUDA)": [
     "159236",
     "https://github.com/pytorch/pytorch/issues/159236",
     [
       "linux",
       "rocm"
-    ]
-  ],
-  "test_triton_get (__main__.NVSHMEMTritonTest)": [
-    "157877",
-    "https://github.com/pytorch/pytorch/issues/157877",
-    [
-      "linux"
-    ]
-  ],
-  "test_triton_get_ring (__main__.NVSHMEMTritonTest)": [
-    "157898",
-    "https://github.com/pytorch/pytorch/issues/157898",
-    [
-      "linux"
-    ]
-  ],
-  "test_triton_put (__main__.NVSHMEMTritonTest)": [
-    "157986",
-    "https://github.com/pytorch/pytorch/issues/157986",
-    [
-      "linux"
-    ]
-  ],
-  "test_triton_put_signal_add (__main__.NVSHMEMTritonTest)": [
-    "158008",
-    "https://github.com/pytorch/pytorch/issues/158008",
-    [
-      "linux"
-    ]
-  ],
-  "test_triton_put_signal_set (__main__.NVSHMEMTritonTest)": [
-    "158023",
-    "https://github.com/pytorch/pytorch/issues/158023",
-    [
-      "linux"
-    ]
-  ],
-  "test_triton_quiet (__main__.NVSHMEMTritonTest)": [
-    "158106",
-    "https://github.com/pytorch/pytorch/issues/158106",
-    [
-      "linux"
-    ]
-  ],
-  "test_triton_signal_wait_until (__main__.NVSHMEMTritonTest)": [
-    "158114",
-    "https://github.com/pytorch/pytorch/issues/158114",
-    [
-      "linux"
-    ]
-  ],
-  "test_triton_sync (__main__.NVSHMEMTritonTest)": [
-    "159035",
-    "https://github.com/pytorch/pytorch/issues/159035",
-    [
-      "linux"
-    ]
-  ],
-  "test_triton_wait_until (__main__.NVSHMEMTritonTest)": [
-    "158423",
-    "https://github.com/pytorch/pytorch/issues/158423",
-    [
-      "linux"
     ]
   ],
   "test_trust_repo_check_yes (__main__.TestHub)": [
