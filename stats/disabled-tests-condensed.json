@@ -2941,6 +2941,13 @@
       "slow"
     ]
   ],
+  "test_repeat_interleave_2_dynamic_shapes_xpu (__main__.DynamicShapesCodegenGPUTests)": [
+    "159803",
+    "https://github.com/pytorch/pytorch/issues/159803",
+    [
+      "linux"
+    ]
+  ],
   "test_repeated_calling_cuda (__main__.AOTInductorTestABICompatibleGpu)": [
     "146185",
     "https://github.com/pytorch/pytorch/issues/146185",
