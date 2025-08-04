@@ -2204,14 +2204,6 @@
       "slow"
     ]
   ],
-  "test_mempool_empty_cache_inactive (__main__.TestMemPool)": [
-    "159663",
-    "https://github.com/pytorch/pytorch/issues/159663",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_mempool_with_allocator (__main__.TestMemPool)": [
     "154566",
     "https://github.com/pytorch/pytorch/issues/154566",
