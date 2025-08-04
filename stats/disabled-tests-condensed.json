@@ -625,14 +625,6 @@
       "macos"
     ]
   ],
-  "test_byte_tensor_assignment (__main__.TestAdvancedIndexing)": [
-    "137028",
-    "https://github.com/pytorch/pytorch/issues/137028",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_causal_variants_compile_causal_variant_CausalVariant_LOWER_RIGHT_shape0_cuda (__main__.TestAttnBiasCUDA)": [
     "118641",
     "https://github.com/pytorch/pytorch/issues/118641",
@@ -848,14 +840,6 @@
       "linux"
     ]
   ],
-  "test_comprehensive_nn_functional_conv_transpose3d_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
-    "148853",
-    "https://github.com/pytorch/pytorch/issues/148853",
-    [
-      "inductor",
-      "linux"
-    ]
-  ],
   "test_comprehensive_nn_functional_glu_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
     "140383",
     "https://github.com/pytorch/pytorch/issues/140383",
@@ -903,16 +887,6 @@
     [
       "linux",
       "rocm"
-    ]
-  ],
-  "test_comprehensive_pca_lowrank_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
-    "139828",
-    "https://github.com/pytorch/pytorch/issues/139828",
-    [
-      "inductor",
-      "linux",
-      "rocm",
-      "slow"
     ]
   ],
   "test_comprehensive_rsub_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
@@ -1490,6 +1464,15 @@
       "slow"
     ]
   ],
+  "test_forward_backward_not_called_backend_inductor (__main__.CudaGraphTreeTests)": [
+    "157035",
+    "https://github.com/pytorch/pytorch/issues/157035",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_frozen_fn (__main__.CudaGraphTreeTests)": [
     "157111",
     "https://github.com/pytorch/pytorch/issues/157111",
@@ -1518,15 +1501,6 @@
     "https://github.com/pytorch/pytorch/issues/134139",
     [
       "rocm"
-    ]
-  ],
-  "test_function_compiled_multiple_times (__main__.CudaGraphTreeTests)": [
-    "157143",
-    "https://github.com/pytorch/pytorch/issues/157143",
-    [
-      "linux",
-      "rocm",
-      "slow"
     ]
   ],
   "test_fused_all_gather_matmul_gather_dim_0 (__main__.SymmetricMemoryTest)": [
@@ -1863,13 +1837,6 @@
     "https://github.com/pytorch/pytorch/issues/154705",
     [
       "inductor",
-      "rocm"
-    ]
-  ],
-  "test_inductor_multiple_specializations_dynamic_shapes_cuda (__main__.DynamicShapesCodegenGPUTests)": [
-    "154718",
-    "https://github.com/pytorch/pytorch/issues/154718",
-    [
       "rocm"
     ]
   ],
@@ -3724,6 +3691,14 @@
       "macos",
       "rocm",
       "slow"
+    ]
+  ],
+  "test_with_cudagraphs_cuda (__main__.AOTInductorTestABICompatibleGpu)": [
+    "158465",
+    "https://github.com/pytorch/pytorch/issues/158465",
+    [
+      "inductor",
+      "rocm"
     ]
   ],
   "test_zero_bubble_with_model_kwargs_ScheduleClass0 (__main__.ScheduleTest)": [
