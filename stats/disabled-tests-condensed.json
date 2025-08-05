@@ -1560,6 +1560,14 @@
       "linux"
     ]
   ],
+  "test_graph_partition (__main__.CudaGraphTreeTests)": [
+    "157173",
+    "https://github.com/pytorch/pytorch/issues/157173",
+    [
+      "linux",
+      "rocm"
+    ]
+  ],
   "test_graph_partition (__main__.TritonCodeGenTests)": [
     "148957",
     "https://github.com/pytorch/pytorch/issues/148957",
@@ -3504,6 +3512,7 @@
     "159860",
     "https://github.com/pytorch/pytorch/issues/159860",
     [
+      "inductor",
       "linux"
     ]
   ],
