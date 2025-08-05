@@ -2499,13 +2499,6 @@
       "rocm"
     ]
   ],
-  "test_pin_memory_no_cuda (__main__.TestDictDataLoader)": [
-    "159802",
-    "https://github.com/pytorch/pytorch/issues/159802",
-    [
-      "linux"
-    ]
-  ],
   "test_pinv_cuda_float32 (__main__.TestLinalgCUDA)": [
     "157068",
     "https://github.com/pytorch/pytorch/issues/157068",
