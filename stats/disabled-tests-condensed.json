@@ -1544,36 +1544,6 @@
       "rocm"
     ]
   ],
-  "test_grad_with_manual_interleaved_ScheduleClass2_use_new_runtime_False (__main__.ScheduleTest)": [
-    "154443",
-    "https://github.com/pytorch/pytorch/issues/154443",
-    [
-      "linux",
-      "rocm"
-    ]
-  ],
-  "test_grad_with_manual_interleaved_ScheduleClass2_use_new_runtime_True (__main__.ScheduleTest)": [
-    "154481",
-    "https://github.com/pytorch/pytorch/issues/154481",
-    [
-      "linux",
-      "rocm"
-    ]
-  ],
-  "test_grad_with_tracer_ScheduleClass0 (__main__.ScheduleTest)": [
-    "159034",
-    "https://github.com/pytorch/pytorch/issues/159034",
-    [
-      "rocm"
-    ]
-  ],
-  "test_grad_with_tracer_ScheduleClass1 (__main__.ScheduleTest)": [
-    "159253",
-    "https://github.com/pytorch/pytorch/issues/159253",
-    [
-      "rocm"
-    ]
-  ],
   "test_graph_break_unsupported_fake (__main__.ReproTests)": [
     "156629",
     "https://github.com/pytorch/pytorch/issues/156629",
@@ -3154,21 +3124,6 @@
       "linux"
     ]
   ],
-  "test_schedule_with_native_zero_bubble_ScheduleClass0 (__main__.ScheduleTest)": [
-    "156088",
-    "https://github.com/pytorch/pytorch/issues/156088",
-    [
-      "linux",
-      "rocm"
-    ]
-  ],
-  "test_schedule_with_native_zero_bubble_ScheduleClass1 (__main__.ScheduleTest)": [
-    "156328",
-    "https://github.com/pytorch/pytorch/issues/156328",
-    [
-      "rocm"
-    ]
-  ],
   "test_schema_correctness_nn_functional_conv3d_cuda_complex64 (__main__.TestSchemaCheckModeOpInfoCUDA)": [
     "114574",
     "https://github.com/pytorch/pytorch/issues/114574",
@@ -3636,22 +3591,6 @@
     "https://github.com/pytorch/pytorch/issues/158465",
     [
       "inductor",
-      "rocm"
-    ]
-  ],
-  "test_zero_bubble_with_model_kwargs_ScheduleClass0 (__main__.ScheduleTest)": [
-    "154547",
-    "https://github.com/pytorch/pytorch/issues/154547",
-    [
-      "linux",
-      "rocm"
-    ]
-  ],
-  "test_zero_bubble_with_model_kwargs_ScheduleClass1 (__main__.ScheduleTest)": [
-    "154579",
-    "https://github.com/pytorch/pytorch/issues/154579",
-    [
-      "linux",
       "rocm"
     ]
   ]
