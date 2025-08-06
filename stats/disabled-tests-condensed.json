@@ -3502,13 +3502,6 @@
       "linux"
     ]
   ],
-  "test_triton_broadcast (__main__.NVSHMEMTritonTest)": [
-    "158908",
-    "https://github.com/pytorch/pytorch/issues/158908",
-    [
-      "linux"
-    ]
-  ],
   "test_triton_fx_graph_with_et_cuda (__main__.TestExecutionTraceCUDA)": [
     "159236",
     "https://github.com/pytorch/pytorch/issues/159236",
