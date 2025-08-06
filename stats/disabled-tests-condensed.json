@@ -1099,13 +1099,6 @@
       "rocm"
     ]
   ],
-  "test_distributed_checkpoint_state_dict_type0_cuda (__main__.TestDistributedCheckpointCUDA)": [
-    "145807",
-    "https://github.com/pytorch/pytorch/issues/145807",
-    [
-      "linux"
-    ]
-  ],
   "test_distributed_checkpoint_state_dict_type1 (__main__.TestDistributedCheckpoint)": [
     "113936",
     "https://github.com/pytorch/pytorch/issues/113936",
