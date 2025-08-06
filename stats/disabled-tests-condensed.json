@@ -661,6 +661,11 @@
       "rocm"
     ]
   ],
+  "test_comment_graph_fragment (__main__.TritonCodeGenTests)": [
+    "159925",
+    "https://github.com/pytorch/pytorch/issues/159925",
+    []
+  ],
   "test_compare_cpu__refs_empty_strided_cuda_float32 (__main__.TestCommonCUDA)": [
     "101625",
     "https://github.com/pytorch/pytorch/issues/101625",
