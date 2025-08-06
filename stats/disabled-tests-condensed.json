@@ -1666,6 +1666,16 @@
       "linux"
     ]
   ],
+  "test_hop (__main__.TorchFunctionModeTests)": [
+    "159951",
+    "https://github.com/pytorch/pytorch/issues/159951",
+    []
+  ],
+  "test_hop_eager (__main__.TorchFunctionModeTests)": [
+    "159950",
+    "https://github.com/pytorch/pytorch/issues/159950",
+    []
+  ],
   "test_host_memory_stats (__main__.TestCuda)": [
     "148607",
     "https://github.com/pytorch/pytorch/issues/148607",
@@ -2263,6 +2273,11 @@
     [
       "dynamo"
     ]
+  ],
+  "test_multiple_mutations_of_buf (__main__.TestOperatorReorderForPeakMemory)": [
+    "159952",
+    "https://github.com/pytorch/pytorch/issues/159952",
+    []
   ],
   "test_name_match (__main__.TestGuardSerialization)": [
     "156246",
