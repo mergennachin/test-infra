@@ -655,11 +655,6 @@
       "rocm"
     ]
   ],
-  "test_comment_graph_fragment (__main__.TritonCodeGenTests)": [
-    "159925",
-    "https://github.com/pytorch/pytorch/issues/159925",
-    []
-  ],
   "test_compare_cpu__refs_empty_strided_cuda_float32 (__main__.TestCommonCUDA)": [
     "101625",
     "https://github.com/pytorch/pytorch/issues/101625",
@@ -1658,16 +1653,6 @@
     [
       "linux"
     ]
-  ],
-  "test_hop (__main__.TorchFunctionModeTests)": [
-    "159951",
-    "https://github.com/pytorch/pytorch/issues/159951",
-    []
-  ],
-  "test_hop_eager (__main__.TorchFunctionModeTests)": [
-    "159950",
-    "https://github.com/pytorch/pytorch/issues/159950",
-    []
   ],
   "test_host_memory_stats (__main__.TestCuda)": [
     "148607",
