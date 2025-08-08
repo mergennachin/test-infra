@@ -3250,7 +3250,7 @@
       "rocm"
     ]
   ],
-  "test_sort_large_cuda_uint8 (__main__.TestSortAndSelectCUDA)": [
+  "test_sort_large_cuda_float16 (__main__.TestSortAndSelectCUDA)": [
     "159426",
     "https://github.com/pytorch/pytorch/issues/159426",
     [
