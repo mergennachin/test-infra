@@ -167,14 +167,6 @@
       "macos"
     ]
   ],
-  "test_add_loggers_linear_mod_quant_fp32 (__main__.TestFXNumericSuiteNShadows)": [
-    "159152",
-    "https://github.com/pytorch/pytorch/issues/159152",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_add_loggers_linear_mod_quant_quant (__main__.TestFXNumericSuiteNShadows)": [
     "142172",
     "https://github.com/pytorch/pytorch/issues/142172",
@@ -1007,13 +999,6 @@
       "rocm"
     ]
   ],
-  "test_dataclass_in_module (__main__.ReproTests)": [
-    "156776",
-    "https://github.com/pytorch/pytorch/issues/156776",
-    [
-      "linux"
-    ]
-  ],
   "test_dataclass_init_with_default_factory_with_inputs (__main__.ReproTests)": [
     "156799",
     "https://github.com/pytorch/pytorch/issues/156799",
@@ -1243,20 +1228,20 @@
       "rocm"
     ]
   ],
+  "test_end_recording_early (__main__.CudaGraphTreeTests)": [
+    "156778",
+    "https://github.com/pytorch/pytorch/issues/156778",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_equivalent_template_code (__main__.BenchmarkMultiTemplateFusionCudaTest)": [
     "145017",
     "https://github.com/pytorch/pytorch/issues/145017",
     [
       "rocm"
-    ]
-  ],
-  "test_error_on_dealloc_use (__main__.CudaGraphTreeTests)": [
-    "156801",
-    "https://github.com/pytorch/pytorch/issues/156801",
-    [
-      "linux",
-      "rocm",
-      "slow"
     ]
   ],
   "test_error_on_dealloc_use2 (__main__.CudaGraphTreeTests)": [
@@ -1712,15 +1697,6 @@
   "test_inductor_all_reduce_single (__main__.CompileTest)": [
     "147754",
     "https://github.com/pytorch/pytorch/issues/147754",
-    [
-      "inductor",
-      "linux",
-      "rocm"
-    ]
-  ],
-  "test_inductor_reuse_buffer_after_inplace_collective (__main__.CompileTest)": [
-    "147950",
-    "https://github.com/pytorch/pytorch/issues/147950",
     [
       "inductor",
       "linux",
@@ -2406,14 +2382,6 @@
       "rocm"
     ]
   ],
-  "test_op_has_batch_rule_nn_functional_conv_transpose3d_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
-    "82340",
-    "https://github.com/pytorch/pytorch/issues/82340",
-    [
-      "linux",
-      "rocm"
-    ]
-  ],
   "test_op_has_batch_rule_tensordot_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "142769",
     "https://github.com/pytorch/pytorch/issues/142769",
@@ -2736,6 +2704,15 @@
   "test_relative_import (__main__.ReproTests)": [
     "156679",
     "https://github.com/pytorch/pytorch/issues/156679",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_relative_import_no_modulename (__main__.ReproTests)": [
+    "156691",
+    "https://github.com/pytorch/pytorch/issues/156691",
     [
       "linux",
       "rocm",
