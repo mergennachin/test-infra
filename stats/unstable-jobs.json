@@ -39,6 +39,14 @@
     "Lint URLs",
     "linux-job"
   ],
+  "inductor-rocm-mi300 / rocm-py3.10-inductor-mi300 / test (inductor)": [
+    "seemethere",
+    "154884",
+    "https://github.com/pytorch/pytorch/issues/154884",
+    "inductor-rocm-mi300",
+    "rocm-py3.10-inductor-mi300",
+    "test (inductor)"
+  ],
   "pull / linux-jammy-py3_9-clang9-xla / test (xla)": [
     "ZainRizvi",
     "158876",
