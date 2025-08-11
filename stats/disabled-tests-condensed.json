@@ -176,6 +176,14 @@
       "macos"
     ]
   ],
+  "test_add_loggers_linear_mod_quant_fp32 (__main__.TestFXNumericSuiteNShadows)": [
+    "159152",
+    "https://github.com/pytorch/pytorch/issues/159152",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_add_loggers_linear_mod_quant_quant (__main__.TestFXNumericSuiteNShadows)": [
     "142172",
     "https://github.com/pytorch/pytorch/issues/142172",
@@ -970,14 +978,6 @@
       "rocm"
     ]
   ],
-  "test_conv_transpose_unary_fusion_ops (__main__.TestMkldnnFusion)": [
-    "158115",
-    "https://github.com/pytorch/pytorch/issues/158115",
-    [
-      "asan",
-      "linux"
-    ]
-  ],
   "test_conv_with_as_strided_cpu (__main__.FreezingCpuTests)": [
     "107893",
     "https://github.com/pytorch/pytorch/issues/107893",
@@ -1671,6 +1671,15 @@
   "test_graph_partition_cpu_scalar1 (__main__.CudaGraphTreeTests)": [
     "157280",
     "https://github.com/pytorch/pytorch/issues/157280",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_graph_partition_cpu_scalar2 (__main__.CudaGraphTreeTests)": [
+    "157312",
+    "https://github.com/pytorch/pytorch/issues/157312",
     [
       "linux",
       "rocm",
@@ -2457,6 +2466,13 @@
       "slow"
     ]
   ],
+  "test_op_has_batch_rule_nn_functional_conv_transpose2d_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
+    "157368",
+    "https://github.com/pytorch/pytorch/issues/157368",
+    [
+      "rocm"
+    ]
+  ],
   "test_op_has_batch_rule_tensordot_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "142769",
     "https://github.com/pytorch/pytorch/issues/142769",
@@ -2651,15 +2667,6 @@
     [
       "mac",
       "macos"
-    ]
-  ],
-  "test_qlinear_add_int8_mixed_bf16_use_relu_False_is_qat_False_is_dynamic_True (__main__.TestPatternMatcher)": [
-    "157911",
-    "https://github.com/pytorch/pytorch/issues/157911",
-    [
-      "asan",
-      "linux",
-      "slow"
     ]
   ],
   "test_qlinear_add_int8_mixed_bf16_use_relu_True_is_qat_False_is_dynamic_True (__main__.TestPatternMatcher)": [
@@ -3256,6 +3263,13 @@
     "https://github.com/pytorch/pytorch/issues/157126",
     [
       "rocm"
+    ]
+  ],
+  "test_small_stability (__main__.TestBase)": [
+    "160290",
+    "https://github.com/pytorch/pytorch/issues/160290",
+    [
+      "dynamo"
     ]
   ],
   "test_sort_large_cuda_float16 (__main__.TestSortAndSelectCUDA)": [
