@@ -383,6 +383,13 @@
       "rocm"
     ]
   ],
+  "test_against_reference_multi_input_jacfwd_cuda (__main__.TestJacCUDA)": [
+    "156998",
+    "https://github.com/pytorch/pytorch/issues/156998",
+    [
+      "rocm"
+    ]
+  ],
   "test_against_reference_multi_input_multi_output_jacfwd_cuda (__main__.TestJacCUDA)": [
     "157036",
     "https://github.com/pytorch/pytorch/issues/157036",
@@ -559,6 +566,13 @@
     "https://github.com/pytorch/pytorch/issues/158335",
     [
       "inductor"
+    ]
+  ],
+  "test_bitwise_print_precedence (__main__.ReproTests)": [
+    "156736",
+    "https://github.com/pytorch/pytorch/issues/156736",
+    [
+      "linux"
     ]
   ],
   "test_bmm_cuda_float32 (__main__.TestLinalgCUDA)": [
@@ -995,14 +1009,6 @@
     "https://github.com/pytorch/pytorch/issues/106308",
     []
   ],
-  "test_cuda_kernel_loop_overflow_large (__main__.TestCuda)": [
-    "159285",
-    "https://github.com/pytorch/pytorch/issues/159285",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_cuda_load (__main__.TestCUDACodeCache)": [
     "138343",
     "https://github.com/pytorch/pytorch/issues/138343",
@@ -1031,6 +1037,14 @@
     "https://github.com/pytorch/pytorch/issues/92131",
     [
       "rocm"
+    ]
+  ],
+  "test_custom_functions_and_tracer (__main__.TestFXNumericSuiteNShadows)": [
+    "160346",
+    "https://github.com/pytorch/pytorch/issues/160346",
+    [
+      "mac",
+      "macos"
     ]
   ],
   "test_ddp_apply_optim_in_backward (__main__.TestDistBackendWithSpawn)": [
@@ -1079,13 +1093,6 @@
     "https://github.com/pytorch/pytorch/issues/101787",
     [
       "dynamo"
-    ]
-  ],
-  "test_deferred_runtime_asserts (__main__.ReproTests)": [
-    "156817",
-    "https://github.com/pytorch/pytorch/issues/156817",
-    [
-      "linux"
     ]
   ],
   "test_disable_external_correlation (__main__.TestProfiler)": [
@@ -1289,21 +1296,21 @@
       "slow"
     ]
   ],
+  "test_error_on_dealloc_use2 (__main__.CudaGraphTreeTests)": [
+    "156808",
+    "https://github.com/pytorch/pytorch/issues/156808",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_event_elapsed_time (__main__.TestOpenReg)": [
     "151861",
     "https://github.com/pytorch/pytorch/issues/151861",
     [
       "win",
       "windows"
-    ]
-  ],
-  "test_execution_into_recording (__main__.CudaGraphTreeTests)": [
-    "156838",
-    "https://github.com/pytorch/pytorch/issues/156838",
-    [
-      "linux",
-      "rocm",
-      "slow"
     ]
   ],
   "test_execution_trace_with_kineto (__main__.TestExecutionTrace)": [
@@ -1566,6 +1573,13 @@
       "rocm"
     ]
   ],
+  "test_fused_all_gather_scaled_matmul_gather_dim_1_scale_mode_tensor-wise (__main__.SymmetricMemoryTest)": [
+    "160347",
+    "https://github.com/pytorch/pytorch/issues/160347",
+    [
+      "rocm"
+    ]
+  ],
   "test_get_parameter_dtype (__main__.ReproTests)": [
     "156598",
     "https://github.com/pytorch/pytorch/issues/156598",
@@ -1610,13 +1624,6 @@
     "https://github.com/pytorch/pytorch/issues/104055",
     [
       "rocm"
-    ]
-  ],
-  "test_graph_memory_stats_and_use_result_after_destroy_graph (__main__.TestCuda)": [
-    "159286",
-    "https://github.com/pytorch/pytorch/issues/159286",
-    [
-      "linux"
     ]
   ],
   "test_graph_partition (__main__.CudaGraphTreeTests)": [
@@ -1677,14 +1684,6 @@
     "https://github.com/pytorch/pytorch/issues/157164",
     [
       "rocm"
-    ]
-  ],
-  "test_gru (__main__.TestXNNPACKQuantizer)": [
-    "158116",
-    "https://github.com/pytorch/pytorch/issues/158116",
-    [
-      "mac",
-      "macos"
     ]
   ],
   "test_hessian_vectorize_correctness_multi_input_cuda (__main__.TestHessianCUDA)": [
@@ -2362,6 +2361,13 @@
       "rocm"
     ]
   ],
+  "test_op_has_batch_rule___rmatmul___cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
+    "157003",
+    "https://github.com/pytorch/pytorch/issues/157003",
+    [
+      "rocm"
+    ]
+  ],
   "test_op_has_batch_rule_addmv_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "157037",
     "https://github.com/pytorch/pytorch/issues/157037",
@@ -2443,15 +2449,6 @@
     "https://github.com/pytorch/pytorch/issues/157368",
     [
       "rocm"
-    ]
-  ],
-  "test_op_has_batch_rule_tensordot_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
-    "142769",
-    "https://github.com/pytorch/pytorch/issues/142769",
-    [
-      "linux",
-      "rocm",
-      "slow"
     ]
   ],
   "test_op_has_batch_rule_vdot_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
@@ -2808,13 +2805,55 @@
       "mac"
     ]
   ],
-  "test_remove_noop_slice_scatter_cuda (__main__.GPUTests)": [
-    "151378",
-    "https://github.com/pytorch/pytorch/issues/151378",
+  "test_remove_noop_slice1_cpu (__main__.CpuTests)": [
+    "151379",
+    "https://github.com/pytorch/pytorch/issues/151379",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm"
+    ]
+  ],
+  "test_remove_noop_slice1_cuda (__main__.GPUTests)": [
+    "151381",
+    "https://github.com/pytorch/pytorch/issues/151381",
     [
       "linux",
       "rocm",
       "slow"
+    ]
+  ],
+  "test_remove_noop_slice_cpu (__main__.CpuTests)": [
+    "151384",
+    "https://github.com/pytorch/pytorch/issues/151384",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm"
+    ]
+  ],
+  "test_remove_noop_slice_cuda (__main__.GPUTests)": [
+    "151383",
+    "https://github.com/pytorch/pytorch/issues/151383",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_remove_noop_slice_scatter_cpu (__main__.CpuTests)": [
+    "151382",
+    "https://github.com/pytorch/pytorch/issues/151382",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm"
     ]
   ],
   "test_remove_noop_view_default_cpu (__main__.CpuTests)": [
@@ -2825,15 +2864,6 @@
       "linux",
       "mac",
       "macos",
-      "rocm",
-      "slow"
-    ]
-  ],
-  "test_remove_noop_view_default_cuda (__main__.GPUTests)": [
-    "151511",
-    "https://github.com/pytorch/pytorch/issues/151511",
-    [
-      "linux",
       "rocm",
       "slow"
     ]
@@ -2874,6 +2904,14 @@
     "https://github.com/pytorch/pytorch/issues/91492",
     [
       "linux"
+    ]
+  ],
+  "test_resnet (__main__.TestBlockStateAbsorption)": [
+    "157725",
+    "https://github.com/pytorch/pytorch/issues/157725",
+    [
+      "linux",
+      "slow"
     ]
   ],
   "test_retracibility_nested_list_out_dynamic_shapes (__main__.DynamicShapesExportTests)": [
