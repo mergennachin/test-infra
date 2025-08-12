@@ -1793,13 +1793,6 @@
       "rocm"
     ]
   ],
-  "test_inplace_on_view_of_view_cpu (__main__.TestAutogradDeviceTypeCPU)": [
-    "156289",
-    "https://github.com/pytorch/pytorch/issues/156289",
-    [
-      "dynamo"
-    ]
-  ],
   "test_int64_upsample3d_cuda_bfloat16 (__main__.TestTorchDeviceTypeCUDA)": [
     "146007",
     "https://github.com/pytorch/pytorch/issues/146007",
