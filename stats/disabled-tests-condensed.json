@@ -840,16 +840,6 @@
       "inductor"
     ]
   ],
-  "test_comprehensive_nn_functional_interpolate_trilinear_xpu_float32 (__main__.TestInductorOpInfoXPU)": [
-    "160245",
-    "https://github.com/pytorch/pytorch/issues/160245",
-    []
-  ],
-  "test_comprehensive_nn_functional_interpolate_trilinear_xpu_float64 (__main__.TestInductorOpInfoXPU)": [
-    "160244",
-    "https://github.com/pytorch/pytorch/issues/160244",
-    []
-  ],
   "test_comprehensive_nn_functional_nll_loss_cuda_float32 (__main__.TestDecompCUDA)": [
     "117732",
     "https://github.com/pytorch/pytorch/issues/117732",
@@ -985,11 +975,6 @@
     [
       "rocm"
     ]
-  ],
-  "test_copy_non_blocking_is_pinned_xpu (__main__.AOTInductorTestABICompatibleGpu)": [
-    "160243",
-    "https://github.com/pytorch/pytorch/issues/160243",
-    []
   ],
   "test_cpp_wrapper_cpu (__main__.FreezingCpuTests)": [
     "106557",
