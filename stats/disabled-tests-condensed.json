@@ -2281,11 +2281,6 @@
       "dynamo"
     ]
   ],
-  "test_multiple_mutations_of_buf (__main__.TestOperatorReorderForPeakMemory)": [
-    "159952",
-    "https://github.com/pytorch/pytorch/issues/159952",
-    []
-  ],
   "test_name_match (__main__.TestGuardSerialization)": [
     "156246",
     "https://github.com/pytorch/pytorch/issues/156246",
