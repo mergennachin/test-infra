@@ -6,5 +6,13 @@
     "RecordDebugHandles.Basic (__main__.test_jit)",
     "",
     ""
+  ],
+  "testAssertNotRegex (__main__.CPythonTest_Assertions)": [
+    "pytorch-bot",
+    "152869",
+    "https://github.com/pytorch/pytorch/issues/152869",
+    "testAssertNotRegex (__main__.CPythonTest_Assertions)",
+    "",
+    ""
   ]
 }
