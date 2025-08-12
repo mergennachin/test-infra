@@ -640,6 +640,15 @@
       "rocm"
     ]
   ],
+  "test_cdist_large_batch_cpu (__main__.TestTorchDeviceTypeCPU)": [
+    "158909",
+    "https://github.com/pytorch/pytorch/issues/158909",
+    [
+      "asan",
+      "linux",
+      "slow"
+    ]
+  ],
   "test_cdist_non_contiguous_batch_cuda (__main__.TestTorchDeviceTypeCUDA)": [
     "156985",
     "https://github.com/pytorch/pytorch/issues/156985",
@@ -1313,6 +1322,15 @@
       "windows"
     ]
   ],
+  "test_execution_into_recording (__main__.CudaGraphTreeTests)": [
+    "156838",
+    "https://github.com/pytorch/pytorch/issues/156838",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_execution_trace_with_kineto (__main__.TestExecutionTrace)": [
     "123536",
     "https://github.com/pytorch/pytorch/issues/123536",
@@ -1684,6 +1702,14 @@
     "https://github.com/pytorch/pytorch/issues/157164",
     [
       "rocm"
+    ]
+  ],
+  "test_gru (__main__.TestXNNPACKQuantizer)": [
+    "158116",
+    "https://github.com/pytorch/pytorch/issues/158116",
+    [
+      "mac",
+      "macos"
     ]
   ],
   "test_hessian_vectorize_correctness_multi_input_cuda (__main__.TestHessianCUDA)": [
@@ -2451,6 +2477,14 @@
       "rocm"
     ]
   ],
+  "test_op_has_batch_rule_nn_functional_conv_transpose3d_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
+    "82340",
+    "https://github.com/pytorch/pytorch/issues/82340",
+    [
+      "linux",
+      "rocm"
+    ]
+  ],
   "test_op_has_batch_rule_vdot_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "157450",
     "https://github.com/pytorch/pytorch/issues/157450",
@@ -2856,6 +2890,15 @@
       "rocm"
     ]
   ],
+  "test_remove_noop_slice_scatter_cuda (__main__.GPUTests)": [
+    "151378",
+    "https://github.com/pytorch/pytorch/issues/151378",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_remove_noop_view_default_cpu (__main__.CpuTests)": [
     "151512",
     "https://github.com/pytorch/pytorch/issues/151512",
@@ -2864,6 +2907,15 @@
       "linux",
       "mac",
       "macos",
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_remove_noop_view_default_cuda (__main__.GPUTests)": [
+    "151511",
+    "https://github.com/pytorch/pytorch/issues/151511",
+    [
+      "linux",
       "rocm",
       "slow"
     ]
