@@ -1,1 +1,50 @@
-{}
+{
+  "Build manywheel docker images for s390x / build-docker-cpu-s390x": [
+    "huydhn",
+    "154074",
+    "https://github.com/pytorch/pytorch/issues/154074",
+    "Build manywheel docker images for s390x",
+    "build-docker-cpu-s390x",
+    ""
+  ],
+  "Check Labels / Check labels": [
+    "clee2000",
+    "159894",
+    "https://github.com/pytorch/pytorch/issues/159894",
+    "Check Labels",
+    "Check labels",
+    ""
+  ],
+  "Check mergeability of ghstack PR / ghstack-mergeability-check": [
+    "clee2000",
+    "159899",
+    "https://github.com/pytorch/pytorch/issues/159899",
+    "Check mergeability of ghstack PR",
+    "ghstack-mergeability-check",
+    ""
+  ],
+  "Lint / Link checks / Lint URLs / linux-job": [
+    "huydhn",
+    "152884",
+    "https://github.com/pytorch/pytorch/issues/152884",
+    "Lint",
+    "Link checks",
+    "Lint URLs / linux-job"
+  ],
+  "Lint / Lint URLs / linux-job": [
+    "huydhn",
+    "152489",
+    "https://github.com/pytorch/pytorch/issues/152489",
+    "Lint",
+    "Lint URLs",
+    "linux-job"
+  ],
+  "pull / linux-jammy-py3_9-clang9-xla / test (xla)": [
+    "ZainRizvi",
+    "158876",
+    "https://github.com/pytorch/pytorch/issues/158876",
+    "pull",
+    "linux-jammy-py3_9-clang9-xla",
+    "test (xla)"
+  ]
+}
