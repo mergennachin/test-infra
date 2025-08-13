@@ -7,14 +7,6 @@
     "build-docker-cpu-s390x",
     ""
   ],
-  "Check Labels / Check labels": [
-    "clee2000",
-    "159894",
-    "https://github.com/pytorch/pytorch/issues/159894",
-    "Check Labels",
-    "Check labels",
-    ""
-  ],
   "Lint / Link checks / Lint URLs / linux-job": [
     "huydhn",
     "152884",
