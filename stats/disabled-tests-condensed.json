@@ -381,6 +381,13 @@
       "rocm"
     ]
   ],
+  "test_against_reference_multi_input_multi_output_jacfwd_cuda (__main__.TestJacCUDA)": [
+    "157036",
+    "https://github.com/pytorch/pytorch/issues/157036",
+    [
+      "rocm"
+    ]
+  ],
   "test_all_gather_uneven (__main__.DeviceMeshCollectiveTest)": [
     "98049",
     "https://github.com/pytorch/pytorch/issues/98049",
@@ -501,6 +508,13 @@
       "linux",
       "win",
       "windows"
+    ]
+  ],
+  "test_autocast_checkpointing (__main__.TestCudaAutocast)": [
+    "160507",
+    "https://github.com/pytorch/pytorch/issues/160507",
+    [
+      "rocm"
     ]
   ],
   "test_autocast_rnn (__main__.TestCuda)": [
@@ -1033,6 +1047,13 @@
       "linux"
     ]
   ],
+  "test_dataclass_init_with_default_factory_with_inputs (__main__.ReproTests)": [
+    "156799",
+    "https://github.com/pytorch/pytorch/issues/156799",
+    [
+      "linux"
+    ]
+  ],
   "test_ddp_apply_optim_in_backward (__main__.TestDistBackendWithSpawn)": [
     "155714",
     "https://github.com/pytorch/pytorch/issues/155714",
@@ -1308,6 +1329,15 @@
       "dynamo"
     ]
   ],
+  "test_expanded_inputs (__main__.CudaGraphTreeTests)": [
+    "156886",
+    "https://github.com/pytorch/pytorch/issues/156886",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_extract_gradients_from_optimizer_set_to_none (__main__.TestIdentifyGradients)": [
     "88721",
     "https://github.com/pytorch/pytorch/issues/88721",
@@ -1341,15 +1371,6 @@
     [
       "linux",
       "rocm"
-    ]
-  ],
-  "test_fallback_to_eager_if_recompiling_too_many_times (__main__.CudaGraphTreeTests)": [
-    "130749",
-    "https://github.com/pytorch/pytorch/issues/130749",
-    [
-      "linux",
-      "rocm",
-      "slow"
     ]
   ],
   "test_fallback_to_eager_if_recompiling_too_many_times_warn_only_once (__main__.CudaGraphTreeTests)": [
@@ -1562,6 +1583,13 @@
   "test_fused_matmul_reduce_scatter_scatter_dim_0 (__main__.SymmetricMemoryTest)": [
     "160445",
     "https://github.com/pytorch/pytorch/issues/160445",
+    [
+      "rocm"
+    ]
+  ],
+  "test_fused_matmul_reduce_scatter_scatter_dim_1 (__main__.SymmetricMemoryTest)": [
+    "160506",
+    "https://github.com/pytorch/pytorch/issues/160506",
     [
       "rocm"
     ]
@@ -1961,6 +1989,14 @@
       "rocm"
     ]
   ],
+  "test_linear_gru (__main__.TestXNNPACKQuantizer)": [
+    "158332",
+    "https://github.com/pytorch/pytorch/issues/158332",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_linear_relu_dynamic_shapes_gpu_wrapper (__main__.DynamicShapesGpuWrapperGpuTests)": [
     "157005",
     "https://github.com/pytorch/pytorch/issues/157005",
@@ -2331,6 +2367,13 @@
   "test_op_has_batch_rule___rmatmul___cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "157003",
     "https://github.com/pytorch/pytorch/issues/157003",
+    [
+      "rocm"
+    ]
+  ],
+  "test_op_has_batch_rule_addmv_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
+    "157037",
+    "https://github.com/pytorch/pytorch/issues/157037",
     [
       "rocm"
     ]
@@ -2835,35 +2878,11 @@
       "slow"
     ]
   ],
-  "test_remove_noop_view_default_cpu (__main__.CpuTests)": [
-    "151512",
-    "https://github.com/pytorch/pytorch/issues/151512",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_remove_noop_view_default_cuda (__main__.GPUTests)": [
     "151511",
     "https://github.com/pytorch/pytorch/issues/151511",
     [
       "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
-  "test_remove_noop_view_dtype_cpu (__main__.CpuTests)": [
-    "151540",
-    "https://github.com/pytorch/pytorch/issues/151540",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
       "rocm",
       "slow"
     ]
@@ -3261,6 +3280,13 @@
     "https://github.com/pytorch/pytorch/issues/158664",
     [
       "dynamo"
+    ]
+  ],
+  "test_svd_cuda_float32 (__main__.TestLinalgCUDA)": [
+    "105118",
+    "https://github.com/pytorch/pytorch/issues/105118",
+    [
+      "rocm"
     ]
   ],
   "test_switch_inputs_to_inplace (jit.test_freezing.TestMKLDNNReinplacing)": [
