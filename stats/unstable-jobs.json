@@ -15,14 +15,6 @@
     "Check labels",
     ""
   ],
-  "Check mergeability of ghstack PR / ghstack-mergeability-check": [
-    "clee2000",
-    "159899",
-    "https://github.com/pytorch/pytorch/issues/159899",
-    "Check mergeability of ghstack PR",
-    "ghstack-mergeability-check",
-    ""
-  ],
   "Lint / Link checks / Lint URLs / linux-job": [
     "huydhn",
     "152884",
