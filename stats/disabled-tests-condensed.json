@@ -3704,13 +3704,5 @@
       "inductor",
       "rocm"
     ]
-  ],
-  "test_zero_bubble_with_model_kwargs_ScheduleClass1 (__main__.ScheduleTest)": [
-    "154579",
-    "https://github.com/pytorch/pytorch/issues/154579",
-    [
-      "linux",
-      "rocm"
-    ]
   ]
 }
