@@ -1466,6 +1466,15 @@
       "slow"
     ]
   ],
+  "test_forward_backward (__main__.CudaGraphTreeTests)": [
+    "156957",
+    "https://github.com/pytorch/pytorch/issues/156957",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_forward_backward_not_called_backend_cudagraphs (__main__.CudaGraphTreeTests)": [
     "156984",
     "https://github.com/pytorch/pytorch/issues/156984",
@@ -1657,6 +1666,13 @@
   "test_fused_scaled_matmul_reduce_scatter_scatter_dim_0_rowwise_True (__main__.SymmetricMemoryTest)": [
     "160621",
     "https://github.com/pytorch/pytorch/issues/160621",
+    [
+      "rocm"
+    ]
+  ],
+  "test_fused_scaled_matmul_reduce_scatter_scatter_dim_1_rowwise_False (__main__.SymmetricMemoryTest)": [
+    "160665",
+    "https://github.com/pytorch/pytorch/issues/160665",
     [
       "rocm"
     ]
@@ -2111,14 +2127,6 @@
     "https://github.com/pytorch/pytorch/issues/115002",
     [
       "rocm"
-    ]
-  ],
-  "test_max_split_expandable (__main__.TestCudaMallocAsync)": [
-    "134837",
-    "https://github.com/pytorch/pytorch/issues/134837",
-    [
-      "linux",
-      "slow"
     ]
   ],
   "test_mem_get_info (__main__.TestCuda)": [
@@ -3246,14 +3254,6 @@
       "linux"
     ]
   ],
-  "test_set_per_process_memory_fraction (__main__.TestCuda)": [
-    "135115",
-    "https://github.com/pytorch/pytorch/issues/135115",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_set_stance_eager_then_compile (__main__.DecoratorTests)": [
     "148515",
     "https://github.com/pytorch/pytorch/issues/148515",
@@ -3646,6 +3646,13 @@
   "test_vmap_exhaustive_addmv_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "157617",
     "https://github.com/pytorch/pytorch/issues/157617",
+    [
+      "rocm"
+    ]
+  ],
+  "test_vmap_exhaustive_dot_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
+    "157644",
+    "https://github.com/pytorch/pytorch/issues/157644",
     [
       "rocm"
     ]
