@@ -793,6 +793,14 @@
       "rocm"
     ]
   ],
+  "test_conv_transpose_unary_fusion_ops (__main__.TestMkldnnFusion)": [
+    "158115",
+    "https://github.com/pytorch/pytorch/issues/158115",
+    [
+      "asan",
+      "linux"
+    ]
+  ],
   "test_conv_with_as_strided_cpu (__main__.FreezingCpuTests)": [
     "107893",
     "https://github.com/pytorch/pytorch/issues/107893",
@@ -927,6 +935,15 @@
       "linux"
     ]
   ],
+  "test_dont_aggressively_write_assert (__main__.ReproTests)": [
+    "156570",
+    "https://github.com/pytorch/pytorch/issues/156570",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_dtensor_op_db_full_like_cpu_float32 (__main__.TestDTensorOpsCPU)": [
     "132447",
     "https://github.com/pytorch/pytorch/issues/132447",
@@ -1026,6 +1043,24 @@
     "https://github.com/pytorch/pytorch/issues/145017",
     [
       "rocm"
+    ]
+  ],
+  "test_error_on_dealloc_use (__main__.CudaGraphTreeTests)": [
+    "156801",
+    "https://github.com/pytorch/pytorch/issues/156801",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_error_on_dealloc_use2 (__main__.CudaGraphTreeTests)": [
+    "156808",
+    "https://github.com/pytorch/pytorch/issues/156808",
+    [
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_event_elapsed_time (__main__.TestOpenReg)": [
@@ -1316,6 +1351,15 @@
   "test_graph_partition_cpu_op_and_dynamic_shapes (__main__.CudaGraphTreeTests)": [
     "157258",
     "https://github.com/pytorch/pytorch/issues/157258",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_graph_partition_cpu_scalar1 (__main__.CudaGraphTreeTests)": [
+    "157280",
+    "https://github.com/pytorch/pytorch/issues/157280",
     [
       "linux",
       "rocm",
