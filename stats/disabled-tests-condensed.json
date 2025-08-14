@@ -1422,6 +1422,15 @@
       "slow"
     ]
   ],
+  "test_fallback_to_eager_if_recompiling_too_many_times_warn_only_once (__main__.CudaGraphTreeTests)": [
+    "156954",
+    "https://github.com/pytorch/pytorch/issues/156954",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_flash_attention_vs_math_ref_grads_batch_size_1_seq_len_q_143_seq_len_k_2048_head_dim_8_is_causal_False_dropout_p_0_22_float16_scale0_enable_gqa_False_n_heads0_cuda_float16 (__main__.TestSDPACudaOnlyCUDA)": [
     "158890",
     "https://github.com/pytorch/pytorch/issues/158890",
@@ -1527,6 +1536,14 @@
       "slow"
     ]
   ],
+  "test_functions (__main__.TestFXNumericSuiteNShadows)": [
+    "160620",
+    "https://github.com/pytorch/pytorch/issues/160620",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_fused_all_gather_matmul_gather_dim_0 (__main__.SymmetricMemoryTest)": [
     "159396",
     "https://github.com/pytorch/pytorch/issues/159396",
@@ -1628,6 +1645,13 @@
   "test_fused_scaled_matmul_reduce_scatter_scatter_dim_0_rowwise_False (__main__.SymmetricMemoryTest)": [
     "160549",
     "https://github.com/pytorch/pytorch/issues/160549",
+    [
+      "rocm"
+    ]
+  ],
+  "test_fused_scaled_matmul_reduce_scatter_scatter_dim_0_rowwise_True (__main__.SymmetricMemoryTest)": [
+    "160621",
+    "https://github.com/pytorch/pytorch/issues/160621",
     [
       "rocm"
     ]
@@ -1753,6 +1777,13 @@
     [
       "mac",
       "macos"
+    ]
+  ],
+  "test_hessian_vectorize_correctness_multi_input_cuda (__main__.TestHessianCUDA)": [
+    "157059",
+    "https://github.com/pytorch/pytorch/issues/157059",
+    [
+      "rocm"
     ]
   ],
   "test_hessian_vectorize_raises_no_warnings_logging_tensor (__main__.TestAutogradFunctional)": [
@@ -2400,6 +2431,13 @@
       "rocm"
     ]
   ],
+  "test_op_has_batch_rule_dot_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
+    "157069",
+    "https://github.com/pytorch/pytorch/issues/157069",
+    [
+      "rocm"
+    ]
+  ],
   "test_op_has_batch_rule_inner_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "157090",
     "https://github.com/pytorch/pytorch/issues/157090",
@@ -2929,6 +2967,15 @@
       "linux",
       "mac",
       "macos",
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_remove_noop_view_dtype_cuda (__main__.GPUTests)": [
+    "151541",
+    "https://github.com/pytorch/pytorch/issues/151541",
+    [
+      "linux",
       "rocm",
       "slow"
     ]
