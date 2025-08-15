@@ -1677,6 +1677,13 @@
       "rocm"
     ]
   ],
+  "test_fused_scaled_matmul_reduce_scatter_scatter_dim_1_rowwise_True (__main__.SymmetricMemoryTest)": [
+    "160716",
+    "https://github.com/pytorch/pytorch/issues/160716",
+    [
+      "rocm"
+    ]
+  ],
   "test_get_parameter_dtype (__main__.ReproTests)": [
     "156598",
     "https://github.com/pytorch/pytorch/issues/156598",
@@ -1779,6 +1786,15 @@
   "test_graph_partition_cpu_scalar4 (__main__.CudaGraphTreeTests)": [
     "157350",
     "https://github.com/pytorch/pytorch/issues/157350",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_graph_partition_cpu_scalar_multiple (__main__.CudaGraphTreeTests)": [
+    "160718",
+    "https://github.com/pytorch/pytorch/issues/160718",
     [
       "linux",
       "rocm",
@@ -2058,6 +2074,14 @@
   "test_linear_gru (__main__.TestXNNPACKQuantizer)": [
     "158332",
     "https://github.com/pytorch/pytorch/issues/158332",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
+  "test_linear_mod (__main__.TestFXNumericSuiteNShadows)": [
+    "160717",
+    "https://github.com/pytorch/pytorch/issues/160717",
     [
       "mac",
       "macos"
@@ -3653,6 +3677,13 @@
   "test_vmap_exhaustive_dot_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "157644",
     "https://github.com/pytorch/pytorch/issues/157644",
+    [
+      "rocm"
+    ]
+  ],
+  "test_vmap_exhaustive_inner_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
+    "157726",
+    "https://github.com/pytorch/pytorch/issues/157726",
     [
       "rocm"
     ]
