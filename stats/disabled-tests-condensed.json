@@ -233,6 +233,14 @@
       "rocm"
     ]
   ],
+  "test_addmm_multiple_dynamic_cuda (__main__.AOTInductorTestABICompatibleGpu)": [
+    "159628",
+    "https://github.com/pytorch/pytorch/issues/159628",
+    [
+      "inductor",
+      "rocm"
+    ]
+  ],
   "test_addmm_mv_transpose_a_False_transpose_b_False_alpha_0_2_beta_0_0_cuda_float32 (__main__.TestLinalgCUDA)": [
     "156991",
     "https://github.com/pytorch/pytorch/issues/156991",
@@ -1472,6 +1480,15 @@
       "slow"
     ]
   ],
+  "test_forward_backward_not_called_backend_cudagraphs (__main__.CudaGraphTreeTests)": [
+    "156984",
+    "https://github.com/pytorch/pytorch/issues/156984",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_forward_backward_not_called_backend_inductor (__main__.CudaGraphTreeTests)": [
     "157035",
     "https://github.com/pytorch/pytorch/issues/157035",
@@ -1672,6 +1689,13 @@
       "rocm"
     ]
   ],
+  "test_get_backend (__main__.SymmetricMemoryTest)": [
+    "160768",
+    "https://github.com/pytorch/pytorch/issues/160768",
+    [
+      "rocm"
+    ]
+  ],
   "test_get_parameter_dtype (__main__.ReproTests)": [
     "156598",
     "https://github.com/pytorch/pytorch/issues/156598",
@@ -1773,8 +1797,8 @@
     ]
   ],
   "test_graph_partition_cpu_scalar_multiple (__main__.CudaGraphTreeTests)": [
-    "160718",
-    "https://github.com/pytorch/pytorch/issues/160718",
+    "160719",
+    "https://github.com/pytorch/pytorch/issues/160719",
     [
       "linux",
       "rocm",
@@ -1810,6 +1834,13 @@
     "https://github.com/pytorch/pytorch/issues/157059",
     [
       "rocm"
+    ]
+  ],
+  "test_hessian_vectorize_raises_no_warnings_logging_tensor (__main__.TestAutogradFunctional)": [
+    "153644",
+    "https://github.com/pytorch/pytorch/issues/153644",
+    [
+      "dynamo"
     ]
   ],
   "test_hoist_conv_packed_params (__main__.TestOptimizer)": [
