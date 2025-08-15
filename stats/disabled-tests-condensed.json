@@ -207,6 +207,11 @@
       "rocm"
     ]
   ],
+  "test_addmm_activation (__main__.TestPatternMatcher)": [
+    "160727",
+    "https://github.com/pytorch/pytorch/issues/160727",
+    []
+  ],
   "test_addmm_cuda_float32 (__main__.TestLinalgCUDA)": [
     "156990",
     "https://github.com/pytorch/pytorch/issues/156990",
