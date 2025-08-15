@@ -1773,8 +1773,8 @@
     ]
   ],
   "test_graph_partition_cpu_scalar_multiple (__main__.CudaGraphTreeTests)": [
-    "160719",
-    "https://github.com/pytorch/pytorch/issues/160719",
+    "160718",
+    "https://github.com/pytorch/pytorch/issues/160718",
     [
       "linux",
       "rocm",
