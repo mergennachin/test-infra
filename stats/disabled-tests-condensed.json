@@ -1838,7 +1838,8 @@
     "https://github.com/pytorch/pytorch/issues/157413",
     [
       "linux",
-      "rocm"
+      "rocm",
+      "slow"
     ]
   ],
   "test_grid_sample_large_cuda (__main__.TestNNDeviceTypeCUDA)": [
