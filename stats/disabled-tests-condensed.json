@@ -219,6 +219,13 @@
       "rocm"
     ]
   ],
+  "test_addmm_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
+    "157279",
+    "https://github.com/pytorch/pytorch/issues/157279",
+    [
+      "rocm"
+    ]
+  ],
   "test_addmm_dynamic_shapes_gpu_wrapper (__main__.DynamicShapesGpuWrapperGpuTests)": [
     "157084",
     "https://github.com/pytorch/pytorch/issues/157084",
@@ -1489,15 +1496,6 @@
       "slow"
     ]
   ],
-  "test_forward_backward_not_called_backend_inductor (__main__.CudaGraphTreeTests)": [
-    "157035",
-    "https://github.com/pytorch/pytorch/issues/157035",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_forward_generation (__main__.CudaGraphTreeTests)": [
     "157058",
     "https://github.com/pytorch/pytorch/issues/157058",
@@ -1808,6 +1806,15 @@
   "test_graph_partition_cpu_scalar_mutation (__main__.CudaGraphTreeTests)": [
     "157359",
     "https://github.com/pytorch/pytorch/issues/157359",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_graph_partition_cpu_tensor_symints (__main__.CudaGraphTreeTests)": [
+    "157367",
+    "https://github.com/pytorch/pytorch/issues/157367",
     [
       "linux",
       "rocm",
@@ -2489,6 +2496,13 @@
       "rocm"
     ]
   ],
+  "test_op_has_batch_rule_inner_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
+    "157090",
+    "https://github.com/pytorch/pytorch/issues/157090",
+    [
+      "rocm"
+    ]
+  ],
   "test_op_has_batch_rule_linalg_vecdot_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "142924",
     "https://github.com/pytorch/pytorch/issues/142924",
@@ -2767,6 +2781,22 @@
   "test_qsoftmax_qnnpack (__main__.TestQuantizedOps)": [
     "157243",
     "https://github.com/pytorch/pytorch/issues/157243",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
+  "test_quantized_conv_no_asan_failures (__main__.TestOptimizer)": [
+    "157254",
+    "https://github.com/pytorch/pytorch/issues/157254",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
+  "test_quantized_mean_qnnpack (__main__.TestQuantizedOps)": [
+    "157255",
+    "https://github.com/pytorch/pytorch/issues/157255",
     [
       "mac",
       "macos"
@@ -3246,6 +3276,13 @@
     [
       "mac",
       "macos"
+    ]
+  ],
+  "test_sdpa_with_packed_in_proj_cuda_float32 (__main__.TestNestedTensorSubclassCUDA)": [
+    "120029",
+    "https://github.com/pytorch/pytorch/issues/120029",
+    [
+      "rocm"
     ]
   ],
   "test_select_SparseBSC_int32_cuda_bfloat16 (__main__.TestSparseCSRCUDA)": [
@@ -3738,14 +3775,6 @@
       "macos",
       "rocm",
       "slow"
-    ]
-  ],
-  "test_with_cudagraphs_cuda (__main__.AOTInductorTestABICompatibleGpu)": [
-    "158465",
-    "https://github.com/pytorch/pytorch/issues/158465",
-    [
-      "inductor",
-      "rocm"
     ]
   ]
 }
