@@ -965,14 +965,6 @@
       "rocm"
     ]
   ],
-  "test_conv1d_api (__main__.TestQuantizedFunctionalOps)": [
-    "157296",
-    "https://github.com/pytorch/pytorch/issues/157296",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_conv2d_api (__main__.TestQuantizedFunctionalOps)": [
     "157346",
     "https://github.com/pytorch/pytorch/issues/157346",
@@ -1436,6 +1428,13 @@
       "rocm"
     ]
   ],
+  "test_fake_export_gradient_cpu_float32 (__main__.TestExportOpInfoCPU)": [
+    "160879",
+    "https://github.com/pytorch/pytorch/issues/160879",
+    [
+      "linux"
+    ]
+  ],
   "test_fallback_to_eager_if_recompiling_too_many_times (__main__.CudaGraphTreeTests)": [
     "130749",
     "https://github.com/pytorch/pytorch/issues/130749",
@@ -1514,24 +1513,6 @@
   "test_forward_backward_not_called_backend_inductor (__main__.CudaGraphTreeTests)": [
     "157035",
     "https://github.com/pytorch/pytorch/issues/157035",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
-  "test_forward_generation (__main__.CudaGraphTreeTests)": [
-    "157058",
-    "https://github.com/pytorch/pytorch/issues/157058",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
-  "test_forward_with_skipped_cudagraphed_backward (__main__.CudaGraphTreeTests)": [
-    "157086",
-    "https://github.com/pytorch/pytorch/issues/157086",
     [
       "linux",
       "rocm",
@@ -1727,6 +1708,13 @@
       "slow"
     ]
   ],
+  "test_get_signal_pad (__main__.SymmetricMemoryTest)": [
+    "160881",
+    "https://github.com/pytorch/pytorch/issues/160881",
+    [
+      "rocm"
+    ]
+  ],
   "test_globals_change_in_other_file (__main__.ContextlibContextManagerTests)": [
     "148523",
     "https://github.com/pytorch/pytorch/issues/148523",
@@ -1843,6 +1831,14 @@
       "linux",
       "rocm",
       "slow"
+    ]
+  ],
+  "test_graph_partition_custom_op (__main__.CudaGraphTreeTests)": [
+    "157413",
+    "https://github.com/pytorch/pytorch/issues/157413",
+    [
+      "linux",
+      "rocm"
     ]
   ],
   "test_grid_sample_large_cuda (__main__.TestNNDeviceTypeCUDA)": [
@@ -2143,6 +2139,14 @@
     "https://github.com/pytorch/pytorch/issues/157006",
     [
       "rocm"
+    ]
+  ],
+  "test_linear_relu_mod (__main__.TestFXNumericSuiteNShadows)": [
+    "160880",
+    "https://github.com/pytorch/pytorch/issues/160880",
+    [
+      "mac",
+      "macos"
     ]
   ],
   "test_lobpcg (__main__.TestAutograd)": [
@@ -2527,15 +2531,6 @@
       "rocm"
     ]
   ],
-  "test_op_has_batch_rule_linalg_vecdot_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
-    "142924",
-    "https://github.com/pytorch/pytorch/issues/142924",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_op_has_batch_rule_matmul_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "157163",
     "https://github.com/pytorch/pytorch/issues/157163",
@@ -2689,22 +2684,6 @@
       "linux",
       "rocm",
       "slow"
-    ]
-  ],
-  "test_pp_ddp_ScheduleClass0 (__main__.ComposabilityTest)": [
-    "151078",
-    "https://github.com/pytorch/pytorch/issues/151078",
-    [
-      "linux",
-      "rocm"
-    ]
-  ],
-  "test_pp_ddp_ScheduleClass1 (__main__.ComposabilityTest)": [
-    "151081",
-    "https://github.com/pytorch/pytorch/issues/151081",
-    [
-      "linux",
-      "rocm"
     ]
   ],
   "test_pp_fsdp_dp_type_FSDP_MP_ScheduleClass0 (__main__.ComposabilityTest)": [
@@ -3757,6 +3736,13 @@
   "test_vmap_exhaustive_linalg_vecdot_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "157762",
     "https://github.com/pytorch/pytorch/issues/157762",
+    [
+      "rocm"
+    ]
+  ],
+  "test_vmap_exhaustive_matmul_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
+    "157790",
+    "https://github.com/pytorch/pytorch/issues/157790",
     [
       "rocm"
     ]
