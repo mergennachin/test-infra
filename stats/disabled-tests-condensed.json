@@ -510,6 +510,11 @@
     "https://github.com/pytorch/pytorch/issues/160951",
     []
   ],
+  "test_aoti_fx_dynamic (__main__.AOTFxirTestCase)": [
+    "160970",
+    "https://github.com/pytorch/pytorch/issues/160970",
+    []
+  ],
   "test_assigning_back_deleter_fns_to_tensor (__main__.TestBlockStateAbsorption)": [
     "134810",
     "https://github.com/pytorch/pytorch/issues/134810",
@@ -1104,6 +1109,11 @@
       "mac",
       "macos"
     ]
+  ],
+  "test_data_dependent_failure (__main__.TestDraftExport)": [
+    "160969",
+    "https://github.com/pytorch/pytorch/issues/160969",
+    []
   ],
   "test_dataclass_in_module (__main__.ReproTests)": [
     "156776",
