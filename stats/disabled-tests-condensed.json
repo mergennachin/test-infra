@@ -505,6 +505,11 @@
       "linux"
     ]
   ],
+  "test_aoti_fx_const (__main__.AOTFxirTestCase)": [
+    "160951",
+    "https://github.com/pytorch/pytorch/issues/160951",
+    []
+  ],
   "test_assigning_back_deleter_fns_to_tensor (__main__.TestBlockStateAbsorption)": [
     "134810",
     "https://github.com/pytorch/pytorch/issues/134810",
@@ -774,6 +779,18 @@
     "https://github.com/pytorch/pytorch/issues/152944",
     [
       "inductor"
+    ]
+  ],
+  "test_complex_data_dependent_expr (__main__.TestDraftExport)": [
+    "147426",
+    "https://github.com/pytorch/pytorch/issues/147426",
+    [
+      "asan",
+      "linux",
+      "rocm",
+      "slow",
+      "win",
+      "windows"
     ]
   ],
   "test_complex_half_reference_testing_as_strided_scatter_cuda_complex32 (__main__.TestCommonCUDA)": [
