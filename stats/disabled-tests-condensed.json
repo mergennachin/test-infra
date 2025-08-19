@@ -992,9 +992,9 @@
       "rocm"
     ]
   ],
-  "test_conv2d_api (__main__.TestQuantizedFunctionalOps)": [
-    "157346",
-    "https://github.com/pytorch/pytorch/issues/157346",
+  "test_conv1d_api (__main__.TestQuantizedFunctionalOps)": [
+    "157296",
+    "https://github.com/pytorch/pytorch/issues/157296",
     [
       "mac",
       "macos"
@@ -1212,15 +1212,6 @@
     "https://github.com/pytorch/pytorch/issues/98259",
     [
       "linux"
-    ]
-  ],
-  "test_dont_aggressively_write_assert (__main__.ReproTests)": [
-    "156570",
-    "https://github.com/pytorch/pytorch/issues/156570",
-    [
-      "linux",
-      "rocm",
-      "slow"
     ]
   ],
   "test_dont_dce_rand (__main__.ReproTests)": [
@@ -1546,9 +1537,9 @@
       "slow"
     ]
   ],
-  "test_frozen_fn (__main__.CudaGraphTreeTests)": [
-    "157112",
-    "https://github.com/pytorch/pytorch/issues/157112",
+  "test_forward_generation (__main__.CudaGraphTreeTests)": [
+    "157058",
+    "https://github.com/pytorch/pytorch/issues/157058",
     [
       "linux",
       "rocm",
@@ -1574,15 +1565,6 @@
     "https://github.com/pytorch/pytorch/issues/134139",
     [
       "rocm"
-    ]
-  ],
-  "test_function_compiled_multiple_times (__main__.CudaGraphTreeTests)": [
-    "157143",
-    "https://github.com/pytorch/pytorch/issues/157143",
-    [
-      "linux",
-      "rocm",
-      "slow"
     ]
   ],
   "test_functions (__main__.TestFXNumericSuiteNShadows)": [
@@ -2012,6 +1994,13 @@
       "rocm"
     ]
   ],
+  "test_large_alloc (__main__.SymmetricMemoryTest)": [
+    "160989",
+    "https://github.com/pytorch/pytorch/issues/160989",
+    [
+      "rocm"
+    ]
+  ],
   "test_ldl_factor_cuda_float32 (__main__.TestLinalgCUDA)": [
     "157046",
     "https://github.com/pytorch/pytorch/issues/157046",
@@ -2293,14 +2282,6 @@
       "slow"
     ]
   ],
-  "test_mempool_limited_memory_with_allocator (__main__.TestMemPool)": [
-    "157256",
-    "https://github.com/pytorch/pytorch/issues/157256",
-    [
-      "linux",
-      "rocm"
-    ]
-  ],
   "test_mempool_with_allocator (__main__.TestMemPool)": [
     "154566",
     "https://github.com/pytorch/pytorch/issues/154566",
@@ -2430,18 +2411,6 @@
       "dynamo"
     ]
   ],
-  "test_name_match (__main__.TestGuardSerialization)": [
-    "156246",
-    "https://github.com/pytorch/pytorch/issues/156246",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_nccl_watchdog_cudagraph (__main__.ProcessGroupNCCLOpTest)": [
     "157896",
     "https://github.com/pytorch/pytorch/issues/157896",
@@ -2559,16 +2528,9 @@
       "rocm"
     ]
   ],
-  "test_op_has_batch_rule_matmul_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
-    "157163",
-    "https://github.com/pytorch/pytorch/issues/157163",
-    [
-      "rocm"
-    ]
-  ],
-  "test_op_has_batch_rule_mv_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
-    "142697",
-    "https://github.com/pytorch/pytorch/issues/142697",
+  "test_op_has_batch_rule_linalg_vecdot_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
+    "142924",
+    "https://github.com/pytorch/pytorch/issues/142924",
     [
       "linux",
       "rocm",
@@ -2712,14 +2674,6 @@
       "linux",
       "rocm",
       "slow"
-    ]
-  ],
-  "test_pp_fsdp_dp_type_FSDP_MP_ScheduleClass0 (__main__.ComposabilityTest)": [
-    "151083",
-    "https://github.com/pytorch/pytorch/issues/151083",
-    [
-      "linux",
-      "rocm"
     ]
   ],
   "test_prim_grad_undefined (test_jit.TestScript)": [
@@ -3402,14 +3356,6 @@
       "linux"
     ]
   ],
-  "test_slice_scatter_reinplace_cuda (__main__.GPUTests)": [
-    "145189",
-    "https://github.com/pytorch/pytorch/issues/145189",
-    [
-      "linux",
-      "rocm"
-    ]
-  ],
   "test_slogdet_cuda_float32 (__main__.TestLinalgCUDA)": [
     "157126",
     "https://github.com/pytorch/pytorch/issues/157126",
@@ -3580,6 +3526,14 @@
     "125555",
     "https://github.com/pytorch/pytorch/issues/125555",
     [
+      "rocm"
+    ]
+  ],
+  "test_train_parity_2d_transformer_checkpoint_resume (__main__.TestFullyShard2DTraining)": [
+    "125644",
+    "https://github.com/pytorch/pytorch/issues/125644",
+    [
+      "linux",
       "rocm"
     ]
   ],
