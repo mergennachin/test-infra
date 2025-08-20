@@ -630,6 +630,13 @@
       "rocm"
     ]
   ],
+  "test_broadcast_with_singleton_dims_cuda (__main__.TritonBlockPointerTestGPU)": [
+    "161095",
+    "https://github.com/pytorch/pytorch/issues/161095",
+    [
+      "rocm"
+    ]
+  ],
   "test_builtin_remote_message_dropped_timeout_to_self (__main__.FaultyFaultyAgentRpcTest)": [
     "69179",
     "https://github.com/pytorch/pytorch/issues/69179",
