@@ -407,6 +407,20 @@
       "rocm"
     ]
   ],
+  "test_allow_overlapping_devices (__main__.SymmetricMemoryTest)": [
+    "158135",
+    "https://github.com/pytorch/pytorch/issues/158135",
+    [
+      "rocm"
+    ]
+  ],
+  "test_allreduce_float8 (__main__.ProcessGroupNCCLOpTest)": [
+    "157879",
+    "https://github.com/pytorch/pytorch/issues/157879",
+    [
+      "linux"
+    ]
+  ],
   "test_always_alive_values (jit.test_freezing.TestMKLDNNReinplacing)": [
     "91486",
     "https://github.com/pytorch/pytorch/issues/91486",
@@ -1954,6 +1968,13 @@
       "dynamo"
     ]
   ],
+  "test_nccl_watchdog_cudagraph (__main__.ProcessGroupNCCLOpTest)": [
+    "157896",
+    "https://github.com/pytorch/pytorch/issues/157896",
+    [
+      "rocm"
+    ]
+  ],
   "test_nested (quantization.jit.test_quantize_jit.TestQuantizeJit)": [
     "105120",
     "https://github.com/pytorch/pytorch/issues/105120",
@@ -2166,6 +2187,24 @@
       "rocm"
     ]
   ],
+  "test_pool_method_spawn (__main__.TestAsyncCompile)": [
+    "158024",
+    "https://github.com/pytorch/pytorch/issues/158024",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_pool_method_subprocess (__main__.TestAsyncCompile)": [
+    "158107",
+    "https://github.com/pytorch/pytorch/issues/158107",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_prim_grad_undefined (test_jit.TestScript)": [
     "91493",
     "https://github.com/pytorch/pytorch/issues/91493",
@@ -2204,6 +2243,20 @@
     "https://github.com/pytorch/pytorch/issues/125365",
     [
       "linux"
+    ]
+  ],
+  "test_progressive (__main__.GPUTests)": [
+    "157724",
+    "https://github.com/pytorch/pytorch/issues/157724",
+    [
+      "rocm"
+    ]
+  ],
+  "test_progressive (__main__.TestSubprocess)": [
+    "157788",
+    "https://github.com/pytorch/pytorch/issues/157788",
+    [
+      "rocm"
     ]
   ],
   "test_pynode_destruction_deadlock (__main__.TestAutogradWithCompiledAutograd)": [
@@ -2281,6 +2334,13 @@
     "https://github.com/pytorch/pytorch/issues/75168",
     [
       "mac"
+    ]
+  ],
+  "test_reduce_scatter_float8 (__main__.ProcessGroupNCCLOpTest)": [
+    "157897",
+    "https://github.com/pytorch/pytorch/issues/157897",
+    [
+      "linux"
     ]
   ],
   "test_reduce_stress_cuda (__main__.ProcessGroupGlooLazyInitTest)": [
