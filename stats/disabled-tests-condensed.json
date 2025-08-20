@@ -515,6 +515,11 @@
     "https://github.com/pytorch/pytorch/issues/160970",
     []
   ],
+  "test_aoti_fx_linear (__main__.AOTFxirTestCase)": [
+    "161038",
+    "https://github.com/pytorch/pytorch/issues/161038",
+    []
+  ],
   "test_assigning_back_deleter_fns_to_tensor (__main__.TestBlockStateAbsorption)": [
     "134810",
     "https://github.com/pytorch/pytorch/issues/134810",
