@@ -181,11 +181,6 @@
       "rocm"
     ]
   ],
-  "test_addmm_activation (__main__.TestPatternMatcher)": [
-    "160727",
-    "https://github.com/pytorch/pytorch/issues/160727",
-    []
-  ],
   "test_addmm_cuda_float32 (__main__.TestLinalgCUDA)": [
     "156990",
     "https://github.com/pytorch/pytorch/issues/156990",
@@ -619,11 +614,6 @@
       "rocm"
     ]
   ],
-  "test_broadcast_with_singleton_dims_xpu (__main__.TritonBlockPointerTestGPU)": [
-    "161162",
-    "https://github.com/pytorch/pytorch/issues/161162",
-    []
-  ],
   "test_builtin_remote_message_dropped_timeout_to_self (__main__.FaultyFaultyAgentRpcTest)": [
     "69179",
     "https://github.com/pytorch/pytorch/issues/69179",
@@ -821,21 +811,6 @@
     [
       "inductor"
     ]
-  ],
-  "test_comprehensive_grid_sampler_3d_xpu_float16 (__main__.TestInductorOpInfoXPU)": [
-    "160948",
-    "https://github.com/pytorch/pytorch/issues/160948",
-    []
-  ],
-  "test_comprehensive_grid_sampler_3d_xpu_float32 (__main__.TestInductorOpInfoXPU)": [
-    "160947",
-    "https://github.com/pytorch/pytorch/issues/160947",
-    []
-  ],
-  "test_comprehensive_grid_sampler_3d_xpu_float64 (__main__.TestInductorOpInfoXPU)": [
-    "160946",
-    "https://github.com/pytorch/pytorch/issues/160946",
-    []
   ],
   "test_comprehensive_linalg_ldl_factor_ex_cuda (__main__.TestDecompCUDA)": [
     "76962",
@@ -2401,13 +2376,6 @@
       "macos",
       "rocm",
       "slow"
-    ]
-  ],
-  "test_nnc_correctness_frac_cpu_bfloat16 (__main__.TestNNCOpInfoCPU)": [
-    "104454",
-    "https://github.com/pytorch/pytorch/issues/104454",
-    [
-      "asan"
     ]
   ],
   "test_non_contiguous_tensors_nn_ConvTranspose1d_cuda_complex32 (__main__.TestModuleCUDA)": [
