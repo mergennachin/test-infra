@@ -812,6 +812,11 @@
       "inductor"
     ]
   ],
+  "test_comprehensive_grid_sampler_3d_xpu_float16 (__main__.TestInductorOpInfoXPU)": [
+    "160948",
+    "https://github.com/pytorch/pytorch/issues/160948",
+    []
+  ],
   "test_comprehensive_linalg_ldl_factor_ex_cuda (__main__.TestDecompCUDA)": [
     "76962",
     "https://github.com/pytorch/pytorch/issues/76962",
