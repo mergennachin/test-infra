@@ -23,6 +23,22 @@
     "Lint URLs",
     "linux-job"
   ],
+  "inductor / linux-jammy-cpu-py3.9-gcc11-inductor / test (cpu_inductor_torchbench)": [
+    "yangw-dev",
+    "149977",
+    "https://github.com/pytorch/pytorch/issues/149977",
+    "inductor",
+    "linux-jammy-cpu-py3.9-gcc11-inductor",
+    "test (cpu_inductor_torchbench)"
+  ],
+  "inductor / linux-jammy-cpu-py3.9-gcc11-inductor / test (dynamic_cpu_inductor_torchbench)": [
+    "yangw-dev",
+    "149979",
+    "https://github.com/pytorch/pytorch/issues/149979",
+    "inductor",
+    "linux-jammy-cpu-py3.9-gcc11-inductor",
+    "test (dynamic_cpu_inductor_torchbench)"
+  ],
   "inductor-periodic / cuda12.8-py3.10-gcc9-sm80 / test (inductor_torchbench_smoketest_perf)": [
     "zou3519",
     "161295",
