@@ -487,6 +487,11 @@
       "rocm"
     ]
   ],
+  "test_autotune_conv1x1_search_space_EXHAUSTIVE (__main__.TestMaxAutotune)": [
+    "161384",
+    "https://github.com/pytorch/pytorch/issues/161384",
+    []
+  ],
   "test_backward_ddp_inside (__main__.TensorPipeDdpUnderDistAutogradTest)": [
     "104328",
     "https://github.com/pytorch/pytorch/issues/104328",
