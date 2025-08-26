@@ -2667,6 +2667,11 @@
       "rocm"
     ]
   ],
+  "test_prune_configs_over_shared_memory_limit_do_pruning_True (__main__.TestTritonHeuristics)": [
+    "161482",
+    "https://github.com/pytorch/pytorch/issues/161482",
+    []
+  ],
   "test_pynode_destruction_deadlock (__main__.TestAutogradWithCompiledAutograd)": [
     "121576",
     "https://github.com/pytorch/pytorch/issues/121576",
