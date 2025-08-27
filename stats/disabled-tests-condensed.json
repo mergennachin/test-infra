@@ -382,6 +382,13 @@
       "rocm"
     ]
   ],
+  "test_against_reference_multi_input_multi_output_jacfwd_cuda (__main__.TestJacCUDA)": [
+    "157036",
+    "https://github.com/pytorch/pytorch/issues/157036",
+    [
+      "rocm"
+    ]
+  ],
   "test_all_gather_extensions_end_to_end (__main__.TestFullyShardAllGatherExtensionsMultiThread)": [
     "161251",
     "https://github.com/pytorch/pytorch/issues/161251",
@@ -423,6 +430,14 @@
     "https://github.com/pytorch/pytorch/issues/151077",
     [
       "rocm"
+    ]
+  ],
+  "test_allocate_in_thread_to_pool (__main__.TestBlockStateAbsorption)": [
+    "158764",
+    "https://github.com/pytorch/pytorch/issues/158764",
+    [
+      "linux",
+      "slow"
     ]
   ],
   "test_allow_implicit_sharing (__main__.TestQuantizePT2E)": [
@@ -507,6 +522,13 @@
       "linux",
       "win",
       "windows"
+    ]
+  ],
+  "test_autocast_checkpointing (__main__.TestCudaAutocast)": [
+    "160507",
+    "https://github.com/pytorch/pytorch/issues/160507",
+    [
+      "rocm"
     ]
   ],
   "test_autocast_custom_cast_inputs (__main__.TestCudaAutocast)": [
@@ -1370,14 +1392,6 @@
       "slow"
     ]
   ],
-  "test_event_elapsed_time (__main__.TestOpenReg)": [
-    "151861",
-    "https://github.com/pytorch/pytorch/issues/151861",
-    [
-      "win",
-      "windows"
-    ]
-  ],
   "test_execution_into_recording (__main__.CudaGraphTreeTests)": [
     "156838",
     "https://github.com/pytorch/pytorch/issues/156838",
@@ -1392,6 +1406,15 @@
     "https://github.com/pytorch/pytorch/issues/123536",
     [
       "dynamo"
+    ]
+  ],
+  "test_expanded_inputs (__main__.CudaGraphTreeTests)": [
+    "156886",
+    "https://github.com/pytorch/pytorch/issues/156886",
+    [
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_extract_gradients_from_optimizer_set_to_none (__main__.TestIdentifyGradients)": [
@@ -2499,6 +2522,13 @@
       "rocm"
     ]
   ],
+  "test_op_has_batch_rule_addmv_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
+    "157037",
+    "https://github.com/pytorch/pytorch/issues/157037",
+    [
+      "rocm"
+    ]
+  ],
   "test_op_has_batch_rule_dot_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "157069",
     "https://github.com/pytorch/pytorch/issues/157069",
@@ -2589,6 +2619,13 @@
       "linux",
       "rocm",
       "slow"
+    ]
+  ],
+  "test_optimal_layout_dim_0 (__main__.SymmetricMemoryTest)": [
+    "161642",
+    "https://github.com/pytorch/pytorch/issues/161642",
+    [
+      "rocm"
     ]
   ],
   "test_optional_list (test_jit.TestScript)": [
