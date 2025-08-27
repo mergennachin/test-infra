@@ -2675,6 +2675,13 @@
       "linux"
     ]
   ],
+  "test_printing (__main__.TestOpenReg)": [
+    "161584",
+    "https://github.com/pytorch/pytorch/issues/161584",
+    [
+      "linux"
+    ]
+  ],
   "test_profiler (__main__.TestJit)": [
     "65521",
     "https://github.com/pytorch/pytorch/issues/65521",
