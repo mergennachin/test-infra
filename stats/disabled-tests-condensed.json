@@ -1930,6 +1930,13 @@
       "rocm"
     ]
   ],
+  "test_int64_indexing_large_stride_cuda (__main__.TestFlexAttentionCUDA)": [
+    "161655",
+    "https://github.com/pytorch/pytorch/issues/161655",
+    [
+      "rocm"
+    ]
+  ],
   "test_int64_upsample3d_cuda_bfloat16 (__main__.TestTorchDeviceTypeCUDA)": [
     "146007",
     "https://github.com/pytorch/pytorch/issues/146007",
