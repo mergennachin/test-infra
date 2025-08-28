@@ -572,6 +572,11 @@
     "https://github.com/pytorch/pytorch/issues/161384",
     []
   ],
+  "test_background_thread_for_pin_memory_xpu (__main__.TestXpuXPU)": [
+    "161697",
+    "https://github.com/pytorch/pytorch/issues/161697",
+    []
+  ],
   "test_backward_ddp_inside (__main__.TensorPipeDdpUnderDistAutogradTest)": [
     "104328",
     "https://github.com/pytorch/pytorch/issues/104328",
@@ -1140,6 +1145,11 @@
     [
       "rocm"
     ]
+  ],
+  "test_custom_triton_autotune_dynamic (__main__.AOTFxirTestCase)": [
+    "161698",
+    "https://github.com/pytorch/pytorch/issues/161698",
+    []
   ],
   "test_ddp_apply_optim_in_backward (__main__.TestDistBackendWithSpawn)": [
     "155714",
