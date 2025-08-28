@@ -771,6 +771,17 @@
       "linux"
     ]
   ],
+  "test_compile_selective_checkpoint_tensor_subclass_cuda (__main__.ActivationCheckpointingViaTagsTestsCUDA)": [
+    "161720",
+    "https://github.com/pytorch/pytorch/issues/161720",
+    [
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "win"
+    ]
+  ],
   "test_compiled_autograd_attribution (__main__.StructuredTraceTest)": [
     "156921",
     "https://github.com/pytorch/pytorch/issues/156921",
