@@ -1001,6 +1001,11 @@
       "inductor"
     ]
   ],
+  "test_cond_select_with_input_idx_device_cuda_dynamic_False (__main__.CondTests)": [
+    "161702",
+    "https://github.com/pytorch/pytorch/issues/161702",
+    []
+  ],
   "test_cond_select_with_input_idx_device_cuda_dynamic_True (__main__.CondTests)": [
     "161682",
     "https://github.com/pytorch/pytorch/issues/161682",
@@ -1052,6 +1057,11 @@
       "mac",
       "macos"
     ]
+  ],
+  "test_conv_cat_search_space_EXHAUSTIVE (__main__.TestMaxAutotune)": [
+    "161701",
+    "https://github.com/pytorch/pytorch/issues/161701",
+    []
   ],
   "test_conv_stride_constraints (__main__.CPUReproTests)": [
     "107774",
