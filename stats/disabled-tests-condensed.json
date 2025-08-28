@@ -1085,6 +1085,11 @@
       "rocm"
     ]
   ],
+  "test_copy_same_device (__main__.TestOpenReg)": [
+    "161691",
+    "https://github.com/pytorch/pytorch/issues/161691",
+    []
+  ],
   "test_cpp_wrapper_cpu (__main__.FreezingCpuTests)": [
     "106557",
     "https://github.com/pytorch/pytorch/issues/106557",
