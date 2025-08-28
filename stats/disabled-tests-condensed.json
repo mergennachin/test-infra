@@ -500,16 +500,6 @@
       "linux"
     ]
   ],
-  "test_aoti_fx_const (__main__.AOTFxirTestCase)": [
-    "160951",
-    "https://github.com/pytorch/pytorch/issues/160951",
-    []
-  ],
-  "test_aoti_fx_dynamic (__main__.AOTFxirTestCase)": [
-    "160970",
-    "https://github.com/pytorch/pytorch/issues/160970",
-    []
-  ],
   "test_aoti_fx_linear (__main__.AOTFxirTestCase)": [
     "161038",
     "https://github.com/pytorch/pytorch/issues/161038",
@@ -567,11 +557,6 @@
       "rocm"
     ]
   ],
-  "test_autotune_conv1x1_search_space_EXHAUSTIVE (__main__.TestMaxAutotune)": [
-    "161384",
-    "https://github.com/pytorch/pytorch/issues/161384",
-    []
-  ],
   "test_background_thread_for_pin_memory_xpu (__main__.TestXpuXPU)": [
     "161697",
     "https://github.com/pytorch/pytorch/issues/161697",
@@ -603,13 +588,6 @@
     "https://github.com/pytorch/pytorch/issues/156994",
     [
       "rocm"
-    ]
-  ],
-  "test_baddmm_search_space_EXHAUSTIVE (__main__.TestMaxAutotune)": [
-    "161484",
-    "https://github.com/pytorch/pytorch/issues/161484",
-    [
-      "linux"
     ]
   ],
   "test_barrier_timeout_group (__main__.TestDistBackendWithSpawn)": [
@@ -769,17 +747,6 @@
     "https://github.com/pytorch/pytorch/issues/157172",
     [
       "linux"
-    ]
-  ],
-  "test_compile_selective_checkpoint_tensor_subclass_cuda (__main__.ActivationCheckpointingViaTagsTestsCUDA)": [
-    "161720",
-    "https://github.com/pytorch/pytorch/issues/161720",
-    [
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "win"
     ]
   ],
   "test_compiled_autograd_attribution (__main__.StructuredTraceTest)": [
@@ -1012,16 +979,6 @@
       "inductor"
     ]
   ],
-  "test_cond_select_with_input_idx_device_cuda_dynamic_False (__main__.CondTests)": [
-    "161702",
-    "https://github.com/pytorch/pytorch/issues/161702",
-    []
-  ],
-  "test_cond_select_with_input_idx_device_cuda_dynamic_True (__main__.CondTests)": [
-    "161682",
-    "https://github.com/pytorch/pytorch/issues/161682",
-    []
-  ],
   "test_conv (quantization.jit.test_quantize_jit.TestQuantizeJit)": [
     "105125",
     "https://github.com/pytorch/pytorch/issues/105125",
@@ -1069,11 +1026,6 @@
       "macos"
     ]
   ],
-  "test_conv_cat_search_space_EXHAUSTIVE (__main__.TestMaxAutotune)": [
-    "161701",
-    "https://github.com/pytorch/pytorch/issues/161701",
-    []
-  ],
   "test_conv_stride_constraints (__main__.CPUReproTests)": [
     "107774",
     "https://github.com/pytorch/pytorch/issues/107774",
@@ -1109,13 +1061,6 @@
     "https://github.com/pytorch/pytorch/issues/107893",
     [
       "rocm"
-    ]
-  ],
-  "test_copy_same_device (__main__.TestOpenReg)": [
-    "161691",
-    "https://github.com/pytorch/pytorch/issues/161691",
-    [
-      "linux"
     ]
   ],
   "test_cpp_wrapper_cpu (__main__.FreezingCpuTests)": [
@@ -1166,11 +1111,6 @@
     [
       "rocm"
     ]
-  ],
-  "test_custom_triton_autotune_dynamic (__main__.AOTFxirTestCase)": [
-    "161698",
-    "https://github.com/pytorch/pytorch/issues/161698",
-    []
   ],
   "test_ddp_apply_optim_in_backward (__main__.TestDistBackendWithSpawn)": [
     "155714",
@@ -1354,11 +1294,6 @@
     [
       "rocm"
     ]
-  ],
-  "test_empty_conv_input_search_space_EXHAUSTIVE_kernel_size_1 (__main__.TestMaxAutotune)": [
-    "161714",
-    "https://github.com/pytorch/pytorch/issues/161714",
-    []
   ],
   "test_empty_cpu_tensor (__main__.CudaGraphTreeTests)": [
     "156735",
@@ -2291,18 +2226,6 @@
       "rocm"
     ]
   ],
-  "test_max_autotune_addmm_search_space_EXHAUSTIVE_dynamic_False (__main__.TestMaxAutotuneSubproc)": [
-    "161696",
-    "https://github.com/pytorch/pytorch/issues/161696",
-    []
-  ],
-  "test_max_autotune_addmm_search_space_EXHAUSTIVE_dynamic_True (__main__.TestMaxAutotuneSubproc)": [
-    "161463",
-    "https://github.com/pytorch/pytorch/issues/161463",
-    [
-      "linux"
-    ]
-  ],
   "test_mem_get_info (__main__.TestCuda)": [
     "103495",
     "https://github.com/pytorch/pytorch/issues/103495",
@@ -2778,13 +2701,6 @@
       "linux"
     ]
   ],
-  "test_printing (__main__.TestOpenReg)": [
-    "161584",
-    "https://github.com/pytorch/pytorch/issues/161584",
-    [
-      "linux"
-    ]
-  ],
   "test_profiler (__main__.TestJit)": [
     "65521",
     "https://github.com/pytorch/pytorch/issues/65521",
@@ -2840,11 +2756,6 @@
     [
       "rocm"
     ]
-  ],
-  "test_prune_configs_over_shared_memory_limit_do_pruning_True (__main__.TestTritonHeuristics)": [
-    "161482",
-    "https://github.com/pytorch/pytorch/issues/161482",
-    []
   ],
   "test_pynode_destruction_deadlock (__main__.TestAutogradWithCompiledAutograd)": [
     "121576",
