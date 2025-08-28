@@ -996,6 +996,11 @@
       "inductor"
     ]
   ],
+  "test_cond_select_with_input_idx_device_cuda_dynamic_True (__main__.CondTests)": [
+    "161682",
+    "https://github.com/pytorch/pytorch/issues/161682",
+    []
+  ],
   "test_conv (quantization.jit.test_quantize_jit.TestQuantizeJit)": [
     "105125",
     "https://github.com/pytorch/pytorch/issues/105125",
