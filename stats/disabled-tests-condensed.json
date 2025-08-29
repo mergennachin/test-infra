@@ -1261,6 +1261,11 @@
       "rocm"
     ]
   ],
+  "test_empty_conv_input_search_space_EXHAUSTIVE_kernel_size_3 (__main__.TestMaxAutotune)": [
+    "161758",
+    "https://github.com/pytorch/pytorch/issues/161758",
+    []
+  ],
   "test_empty_cpu_tensor (__main__.CudaGraphTreeTests)": [
     "156735",
     "https://github.com/pytorch/pytorch/issues/156735",
