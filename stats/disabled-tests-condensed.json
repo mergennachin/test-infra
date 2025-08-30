@@ -1132,7 +1132,7 @@
     "161698",
     "https://github.com/pytorch/pytorch/issues/161698",
     [
-      "xpu"
+      "rocm"
     ]
   ],
   "test_dataclass_in_module (__main__.ReproTests)": [
