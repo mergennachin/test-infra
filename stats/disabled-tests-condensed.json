@@ -502,7 +502,9 @@
   "test_aoti_fx_linear (__main__.AOTFxirTestCase)": [
     "161038",
     "https://github.com/pytorch/pytorch/issues/161038",
-    []
+    [
+      "xpu"
+    ]
   ],
   "test_assigning_back_deleter_fns_to_tensor (__main__.TestBlockStateAbsorption)": [
     "134810",
@@ -569,7 +571,9 @@
   "test_background_thread_for_pin_memory_xpu (__main__.TestXpuXPU)": [
     "161697",
     "https://github.com/pytorch/pytorch/issues/161697",
-    []
+    [
+      "xpu"
+    ]
   ],
   "test_backward_ddp_inside (__main__.TensorPipeDdpUnderDistAutogradTest)": [
     "104328",
@@ -652,7 +656,9 @@
   "test_broadcast_with_singleton_dims_xpu (__main__.TritonBlockPointerTestGPU)": [
     "161162",
     "https://github.com/pytorch/pytorch/issues/161162",
-    []
+    [
+      "xpu"
+    ]
   ],
   "test_builtin_remote_message_dropped_timeout_to_self (__main__.FaultyFaultyAgentRpcTest)": [
     "69179",
@@ -850,17 +856,23 @@
   "test_comprehensive_grid_sampler_3d_xpu_float16 (__main__.TestInductorOpInfoXPU)": [
     "160948",
     "https://github.com/pytorch/pytorch/issues/160948",
-    []
+    [
+      "xpu"
+    ]
   ],
   "test_comprehensive_grid_sampler_3d_xpu_float32 (__main__.TestInductorOpInfoXPU)": [
     "160947",
     "https://github.com/pytorch/pytorch/issues/160947",
-    []
+    [
+      "xpu"
+    ]
   ],
   "test_comprehensive_grid_sampler_3d_xpu_float64 (__main__.TestInductorOpInfoXPU)": [
     "160946",
     "https://github.com/pytorch/pytorch/issues/160946",
-    []
+    [
+      "xpu"
+    ]
   ],
   "test_comprehensive_linalg_ldl_factor_ex_cuda (__main__.TestDecompCUDA)": [
     "76962",
@@ -1119,7 +1131,9 @@
   "test_custom_triton_autotune_dynamic (__main__.AOTFxirTestCase)": [
     "161698",
     "https://github.com/pytorch/pytorch/issues/161698",
-    []
+    [
+      "xpu"
+    ]
   ],
   "test_dataclass_in_module (__main__.ReproTests)": [
     "156776",
@@ -1179,7 +1193,9 @@
   "test_default_priority_order_xpu (__main__.TestSDPAXpuOnlyXPU)": [
     "161483",
     "https://github.com/pytorch/pytorch/issues/161483",
-    []
+    [
+      "xpu"
+    ]
   ],
   "test_disable_external_correlation (__main__.TestProfiler)": [
     "143373",
