@@ -184,6 +184,15 @@
       "macos"
     ]
   ],
+  "test_add_loggers_linear_mod_quant_quant (__main__.TestFXNumericSuiteNShadows)": [
+    "142172",
+    "https://github.com/pytorch/pytorch/issues/142172",
+    [
+      "dynamo",
+      "mac",
+      "macos"
+    ]
+  ],
   "test_add_sub_alpha_out (__main__.ReproTests)": [
     "156597",
     "https://github.com/pytorch/pytorch/issues/156597",
@@ -1110,7 +1119,9 @@
     "161698",
     "https://github.com/pytorch/pytorch/issues/161698",
     [
-      "rocm"
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_dataclass_in_module (__main__.ReproTests)": [
@@ -2562,6 +2573,13 @@
       "linux",
       "rocm",
       "slow"
+    ]
+  ],
+  "test_op_has_batch_rule_vdot_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
+    "157450",
+    "https://github.com/pytorch/pytorch/issues/157450",
+    [
+      "rocm"
     ]
   ],
   "test_open_device_registration (__main__.ExtensionBackendTests)": [
