@@ -1304,6 +1304,15 @@
       "linux"
     ]
   ],
+  "test_dtensor_seq_par_shard_dim_1 (__main__.MicroPipelineTPTest)": [
+    "153223",
+    "https://github.com/pytorch/pytorch/issues/153223",
+    [
+      "inductor",
+      "linux",
+      "rocm"
+    ]
+  ],
   "test_dynamic_shape_m_20480_k_5_n_2_should_decompose_True_has_bias_False (__main__.TestDecomposeMemMM)": [
     "153735",
     "https://github.com/pytorch/pytorch/issues/153735",
@@ -1535,13 +1544,6 @@
     "https://github.com/pytorch/pytorch/issues/161503",
     [
       "linux"
-    ]
-  ],
-  "test_flop_counter_op_options0_cuda_float16 (__main__.TestSchedulerCUDA)": [
-    "160052",
-    "https://github.com/pytorch/pytorch/issues/160052",
-    [
-      "rocm"
     ]
   ],
   "test_flop_counter_op_options1_cuda_float16 (__main__.TestSchedulerCUDA)": [
@@ -1871,6 +1873,15 @@
   "test_graph_partition (__main__.CudaGraphTreeTests)": [
     "157173",
     "https://github.com/pytorch/pytorch/issues/157173",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_graph_partition_cpu_op_and_dynamic_shapes (__main__.CudaGraphTreeTests)": [
+    "157258",
+    "https://github.com/pytorch/pytorch/issues/157258",
     [
       "linux",
       "rocm",
