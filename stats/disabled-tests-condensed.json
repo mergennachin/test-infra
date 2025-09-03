@@ -2091,6 +2091,13 @@
       "rocm"
     ]
   ],
+  "test_large_grid_xpu (__main__.AOTInductorTestABICompatibleGpu)": [
+    "162036",
+    "https://github.com/pytorch/pytorch/issues/162036",
+    [
+      "xpu"
+    ]
+  ],
   "test_ldl_factor_cuda_float32 (__main__.TestLinalgCUDA)": [
     "157046",
     "https://github.com/pytorch/pytorch/issues/157046",
