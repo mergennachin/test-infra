@@ -1405,6 +1405,13 @@
       "rocm"
     ]
   ],
+  "test_empty_strided_p2p_set_device_False (__main__.SymmMemEmptySetDeviceTest)": [
+    "162071",
+    "https://github.com/pytorch/pytorch/issues/162071",
+    [
+      "rocm"
+    ]
+  ],
   "test_empty_strided_p2p_set_device_False (__main__.SymmetricMemoryTest)": [
     "158759",
     "https://github.com/pytorch/pytorch/issues/158759",
