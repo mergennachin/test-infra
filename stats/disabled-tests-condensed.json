@@ -1235,13 +1235,6 @@
       "dynamo"
     ]
   ],
-  "test_default_priority_order_xpu (__main__.TestSDPAXpuOnlyXPU)": [
-    "161483",
-    "https://github.com/pytorch/pytorch/issues/161483",
-    [
-      "xpu"
-    ]
-  ],
   "test_disable_external_correlation (__main__.TestProfiler)": [
     "143373",
     "https://github.com/pytorch/pytorch/issues/143373",
