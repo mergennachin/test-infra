@@ -31,6 +31,22 @@
     "cuda12.8-py3.10-gcc9-sm80",
     "test (inductor_torchbench_smoketest_perf)"
   ],
+  "inductor-rocm / rocm-py3.10-inductor / test (inductor)": [
+    "clee2000",
+    "155917",
+    "https://github.com/pytorch/pytorch/issues/155917",
+    "inductor-rocm",
+    "rocm-py3.10-inductor",
+    "test (inductor)"
+  ],
+  "periodic / linux-jammy-rocm-py3.10 / test (distributed)": [
+    "jithunnair-amd",
+    "156327",
+    "https://github.com/pytorch/pytorch/issues/156327",
+    "periodic",
+    "linux-jammy-rocm-py3.10",
+    "test (distributed)"
+  ],
   "pull / linux-jammy-py3_9-clang9-xla / test (xla)": [
     "ZainRizvi",
     "158876",
@@ -38,5 +54,13 @@
     "pull",
     "linux-jammy-py3_9-clang9-xla",
     "test (xla)"
+  ],
+  "rocm / linux-jammy-rocm-py3.10 / test (default)": [
+    "atalman",
+    "156098",
+    "https://github.com/pytorch/pytorch/issues/156098",
+    "rocm",
+    "linux-jammy-rocm-py3.10",
+    "test (default)"
   ]
 }
