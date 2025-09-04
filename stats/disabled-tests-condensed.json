@@ -2455,13 +2455,6 @@
       "rocm"
     ]
   ],
-  "test_max_autotune_addmm_persistent_tma_a_transposed_False_b_transposed_False_dynamic_False (__main__.TestMaxAutotune)": [
-    "162048",
-    "https://github.com/pytorch/pytorch/issues/162048",
-    [
-      "xpu"
-    ]
-  ],
   "test_max_autotune_addmm_persistent_tma_a_transposed_False_b_transposed_False_dynamic_True (__main__.TestMaxAutotune)": [
     "162140",
     "https://github.com/pytorch/pytorch/issues/162140",
