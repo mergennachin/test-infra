@@ -1343,6 +1343,13 @@
       "rocm"
     ]
   ],
+  "test_dup_unbacked_sym_decl_with_refinement_xpu (__main__.AOTInductorTestABICompatibleGpu)": [
+    "162139",
+    "https://github.com/pytorch/pytorch/issues/162139",
+    [
+      "xpu"
+    ]
+  ],
   "test_dynamic_shape_m_20480_k_5_n_2_should_decompose_True_has_bias_False (__main__.TestDecomposeMemMM)": [
     "153735",
     "https://github.com/pytorch/pytorch/issues/153735",
@@ -2388,6 +2395,13 @@
   "test_max_autotune_addmm_persistent_tma_a_transposed_False_b_transposed_False_dynamic_False (__main__.TestMaxAutotune)": [
     "162048",
     "https://github.com/pytorch/pytorch/issues/162048",
+    [
+      "xpu"
+    ]
+  ],
+  "test_max_autotune_addmm_persistent_tma_a_transposed_False_b_transposed_False_dynamic_True (__main__.TestMaxAutotune)": [
+    "162140",
+    "https://github.com/pytorch/pytorch/issues/162140",
     [
       "xpu"
     ]
