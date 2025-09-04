@@ -1050,6 +1050,14 @@
       "rocm"
     ]
   ],
+  "test_conv1d_api (__main__.TestQuantizedFunctionalOps)": [
+    "157296",
+    "https://github.com/pytorch/pytorch/issues/157296",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_conv2d_api (__main__.TestQuantizedFunctionalOps)": [
     "157346",
     "https://github.com/pytorch/pytorch/issues/157346",
@@ -1171,8 +1179,8 @@
     ]
   ],
   "test_cudagraph_or_error (__main__.CudaGraphTreeTests)": [
-    "162124",
-    "https://github.com/pytorch/pytorch/issues/162124",
+    "162125",
+    "https://github.com/pytorch/pytorch/issues/162125",
     [
       "linux",
       "rocm",
@@ -1281,6 +1289,14 @@
       "rocm"
     ]
   ],
+  "test_detect_leak_nonstrict_retraceability_nonstrict (__main__.RetraceExportNonStrictTestExport)": [
+    "162145",
+    "https://github.com/pytorch/pytorch/issues/162145",
+    [
+      "linux",
+      "rocm"
+    ]
+  ],
   "test_detect_leak_nonstrict_serdes_strict (__main__.SerDesExportTestExport)": [
     "162123",
     "https://github.com/pytorch/pytorch/issues/162123",
@@ -1316,6 +1332,15 @@
     "https://github.com/pytorch/pytorch/issues/98259",
     [
       "linux"
+    ]
+  ],
+  "test_dont_aggressively_write_assert (__main__.ReproTests)": [
+    "156570",
+    "https://github.com/pytorch/pytorch/issues/156570",
+    [
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_dont_dce_rand (__main__.ReproTests)": [
@@ -1649,6 +1674,15 @@
   "test_forward_backward_not_called_backend_inductor (__main__.CudaGraphTreeTests)": [
     "157035",
     "https://github.com/pytorch/pytorch/issues/157035",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_forward_generation (__main__.CudaGraphTreeTests)": [
+    "157058",
+    "https://github.com/pytorch/pytorch/issues/157058",
     [
       "linux",
       "rocm",
@@ -2761,6 +2795,15 @@
     "https://github.com/pytorch/pytorch/issues/157090",
     [
       "rocm"
+    ]
+  ],
+  "test_op_has_batch_rule_linalg_vecdot_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
+    "142924",
+    "https://github.com/pytorch/pytorch/issues/142924",
+    [
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_op_has_batch_rule_matmul_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
