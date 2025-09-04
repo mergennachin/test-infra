@@ -3643,6 +3643,13 @@
       "dynamo"
     ]
   ],
+  "test_softmax_view_reshape (__main__.HelionTests)": [
+    "162175",
+    "https://github.com/pytorch/pytorch/issues/162175",
+    [
+      "rocm"
+    ]
+  ],
   "test_special_polygamma_cpu_halide (__main__.HalideCpuTests)": [
     "150624",
     "https://github.com/pytorch/pytorch/issues/150624",
