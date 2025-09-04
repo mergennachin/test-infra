@@ -591,6 +591,13 @@
       "xpu"
     ]
   ],
+  "test_autograd_inductor_guards_device_xpu_float16_requires_grad_True (__main__.AOTAutogradCacheBundledTests)": [
+    "162141",
+    "https://github.com/pytorch/pytorch/issues/162141",
+    [
+      "xpu"
+    ]
+  ],
   "test_autograd_inductor_guards_device_xpu_float16_requires_grad_True (__main__.AOTAutogradCacheTests)": [
     "162039",
     "https://github.com/pytorch/pytorch/issues/162039",
