@@ -1720,8 +1720,8 @@
     ]
   ],
   "test_frozen_fn (__main__.CudaGraphTreeTests)": [
-    "157111",
-    "https://github.com/pytorch/pytorch/issues/157111",
+    "157112",
+    "https://github.com/pytorch/pytorch/issues/157112",
     [
       "linux",
       "rocm",
@@ -2050,6 +2050,15 @@
   "test_graph_partition_cpu_scalar3 (__main__.CudaGraphTreeTests)": [
     "157339",
     "https://github.com/pytorch/pytorch/issues/157339",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_graph_partition_cpu_scalar4 (__main__.CudaGraphTreeTests)": [
+    "157350",
+    "https://github.com/pytorch/pytorch/issues/157350",
     [
       "linux",
       "rocm",
@@ -2413,6 +2422,14 @@
     "https://github.com/pytorch/pytorch/issues/80338",
     [
       "linux"
+    ]
+  ],
+  "test_logger_enabled_and_save_activations_flags (__main__.TestFXNumericSuiteNShadows)": [
+    "162249",
+    "https://github.com/pytorch/pytorch/issues/162249",
+    [
+      "mac",
+      "macos"
     ]
   ],
   "test_low_contention_all_gather_symm_mem_input_False (__main__.SymmetricMemoryTest)": [
@@ -3248,6 +3265,13 @@
       "rocm"
     ]
   ],
+  "test_remote_group_merge (__main__.ProcessGroupGlooTest)": [
+    "162250",
+    "https://github.com/pytorch/pytorch/issues/162250",
+    [
+      "linux"
+    ]
+  ],
   "test_remote_timeout_to_here_in_jit (__main__.FaultyJitFaultyAgentRpcTest)": [
     "69178",
     "https://github.com/pytorch/pytorch/issues/69178",
@@ -4078,6 +4102,15 @@
     "https://github.com/pytorch/pytorch/issues/157790",
     [
       "rocm"
+    ]
+  ],
+  "test_vmap_exhaustive_mv_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
+    "142631",
+    "https://github.com/pytorch/pytorch/issues/142631",
+    [
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_warn_on_invalid_torch_function_standalone_class (__main__.TestTorchFunctionWarning)": [
