@@ -1720,8 +1720,8 @@
     ]
   ],
   "test_frozen_fn (__main__.CudaGraphTreeTests)": [
-    "157112",
-    "https://github.com/pytorch/pytorch/issues/157112",
+    "157111",
+    "https://github.com/pytorch/pytorch/issues/157111",
     [
       "linux",
       "rocm",
