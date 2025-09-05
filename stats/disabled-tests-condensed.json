@@ -562,34 +562,6 @@
       "rocm"
     ]
   ],
-  "test_autograd_inductor_guards_device_xpu_bfloat16_requires_grad_True (__main__.AOTAutogradCacheBundledTests)": [
-    "162128",
-    "https://github.com/pytorch/pytorch/issues/162128",
-    [
-      "xpu"
-    ]
-  ],
-  "test_autograd_inductor_guards_device_xpu_bfloat16_requires_grad_True (__main__.AOTAutogradCacheTests)": [
-    "161931",
-    "https://github.com/pytorch/pytorch/issues/161931",
-    [
-      "xpu"
-    ]
-  ],
-  "test_autograd_inductor_guards_device_xpu_float16_requires_grad_True (__main__.AOTAutogradCacheBundledTests)": [
-    "162141",
-    "https://github.com/pytorch/pytorch/issues/162141",
-    [
-      "xpu"
-    ]
-  ],
-  "test_autograd_inductor_guards_device_xpu_float16_requires_grad_True (__main__.AOTAutogradCacheTests)": [
-    "162039",
-    "https://github.com/pytorch/pytorch/issues/162039",
-    [
-      "xpu"
-    ]
-  ],
   "test_backward_ddp_inside (__main__.TensorPipeDdpUnderDistAutogradTest)": [
     "104328",
     "https://github.com/pytorch/pytorch/issues/104328",
@@ -666,13 +638,6 @@
     "https://github.com/pytorch/pytorch/issues/161095",
     [
       "rocm"
-    ]
-  ],
-  "test_broadcast_with_singleton_dims_xpu (__main__.TritonBlockPointerTestGPU)": [
-    "161162",
-    "https://github.com/pytorch/pytorch/issues/161162",
-    [
-      "xpu"
     ]
   ],
   "test_builtin_remote_message_dropped_timeout_to_self (__main__.FaultyFaultyAgentRpcTest)": [
@@ -868,27 +833,6 @@
     "https://github.com/pytorch/pytorch/issues/140484",
     [
       "inductor"
-    ]
-  ],
-  "test_comprehensive_grid_sampler_3d_xpu_float16 (__main__.TestInductorOpInfoXPU)": [
-    "160948",
-    "https://github.com/pytorch/pytorch/issues/160948",
-    [
-      "xpu"
-    ]
-  ],
-  "test_comprehensive_grid_sampler_3d_xpu_float32 (__main__.TestInductorOpInfoXPU)": [
-    "160947",
-    "https://github.com/pytorch/pytorch/issues/160947",
-    [
-      "xpu"
-    ]
-  ],
-  "test_comprehensive_grid_sampler_3d_xpu_float64 (__main__.TestInductorOpInfoXPU)": [
-    "160946",
-    "https://github.com/pytorch/pytorch/issues/160946",
-    [
-      "xpu"
     ]
   ],
   "test_comprehensive_linalg_ldl_factor_ex_cuda (__main__.TestDecompCUDA)": [
@@ -1363,13 +1307,6 @@
       "rocm"
     ]
   ],
-  "test_dup_unbacked_sym_decl_with_refinement_xpu (__main__.AOTInductorTestABICompatibleGpu)": [
-    "162139",
-    "https://github.com/pytorch/pytorch/issues/162139",
-    [
-      "xpu"
-    ]
-  ],
   "test_dynamic_shape_m_20480_k_5_n_2_should_decompose_True_has_bias_False (__main__.TestDecomposeMemMM)": [
     "153735",
     "https://github.com/pytorch/pytorch/issues/153735",
@@ -1439,20 +1376,6 @@
       "slow"
     ]
   ],
-  "test_empty_strided_p2p_persistent_set_device_False (__main__.SymmetricMemoryTest)": [
-    "158422",
-    "https://github.com/pytorch/pytorch/issues/158422",
-    [
-      "rocm"
-    ]
-  ],
-  "test_empty_strided_p2p_persistent_set_device_True (__main__.SymmetricMemoryTest)": [
-    "158464",
-    "https://github.com/pytorch/pytorch/issues/158464",
-    [
-      "rocm"
-    ]
-  ],
   "test_empty_strided_p2p_set_device_False (__main__.SymmMemEmptySetDeviceTest)": [
     "162071",
     "https://github.com/pytorch/pytorch/issues/162071",
@@ -1460,23 +1383,9 @@
       "rocm"
     ]
   ],
-  "test_empty_strided_p2p_set_device_False (__main__.SymmetricMemoryTest)": [
-    "158759",
-    "https://github.com/pytorch/pytorch/issues/158759",
-    [
-      "rocm"
-    ]
-  ],
   "test_empty_strided_p2p_set_device_True (__main__.SymmMemEmptySetDeviceTest)": [
     "161989",
     "https://github.com/pytorch/pytorch/issues/161989",
-    [
-      "rocm"
-    ]
-  ],
-  "test_empty_strided_p2p_set_device_True (__main__.SymmetricMemoryTest)": [
-    "159066",
-    "https://github.com/pytorch/pytorch/issues/159066",
     [
       "rocm"
     ]
@@ -2116,13 +2025,6 @@
       "rocm"
     ]
   ],
-  "test_int64_indexing_large_stride_cuda (__main__.TestFlexAttentionCUDA)": [
-    "161655",
-    "https://github.com/pytorch/pytorch/issues/161655",
-    [
-      "rocm"
-    ]
-  ],
   "test_int64_upsample3d_cuda_bfloat16 (__main__.TestTorchDeviceTypeCUDA)": [
     "146007",
     "https://github.com/pytorch/pytorch/issues/146007",
@@ -2184,13 +2086,6 @@
     "https://github.com/pytorch/pytorch/issues/160989",
     [
       "rocm"
-    ]
-  ],
-  "test_large_grid_xpu (__main__.AOTInductorTestABICompatibleGpu)": [
-    "162036",
-    "https://github.com/pytorch/pytorch/issues/162036",
-    [
-      "xpu"
     ]
   ],
   "test_ldl_factor_cuda_float32 (__main__.TestLinalgCUDA)": [
