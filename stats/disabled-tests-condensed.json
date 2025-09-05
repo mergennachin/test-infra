@@ -1271,6 +1271,14 @@
       "linux"
     ]
   ],
+  "test_detect_leak_nonstrict (__main__.TestExport)": [
+    "162232",
+    "https://github.com/pytorch/pytorch/issues/162232",
+    [
+      "asan",
+      "linux"
+    ]
+  ],
   "test_detect_leak_nonstrict_cpp_serdes (__main__.CppSerdesTestExport)": [
     "162122",
     "https://github.com/pytorch/pytorch/issues/162122",
@@ -1288,9 +1296,31 @@
       "rocm"
     ]
   ],
+  "test_detect_leak_nonstrict_retraceability_strict (__main__.RetraceExportTestExport)": [
+    "162234",
+    "https://github.com/pytorch/pytorch/issues/162234",
+    [
+      "linux"
+    ]
+  ],
+  "test_detect_leak_nonstrict_serdes_nonstrict (__main__.SerDesExportNonStrictTestExport)": [
+    "162233",
+    "https://github.com/pytorch/pytorch/issues/162233",
+    [
+      "asan",
+      "linux"
+    ]
+  ],
   "test_detect_leak_nonstrict_serdes_strict (__main__.SerDesExportTestExport)": [
     "162123",
     "https://github.com/pytorch/pytorch/issues/162123",
+    [
+      "linux"
+    ]
+  ],
+  "test_detect_leak_nonstrict_training_ir_to_decomp_nonstrict (__main__.TrainingIRToRunDecompExportNonStrictTestExport)": [
+    "162229",
+    "https://github.com/pytorch/pytorch/issues/162229",
     [
       "linux"
     ]
@@ -1683,6 +1713,15 @@
   "test_forward_with_skipped_cudagraphed_backward (__main__.CudaGraphTreeTests)": [
     "157086",
     "https://github.com/pytorch/pytorch/issues/157086",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_frozen_fn (__main__.CudaGraphTreeTests)": [
+    "157112",
+    "https://github.com/pytorch/pytorch/issues/157112",
     [
       "linux",
       "rocm",
@@ -2361,6 +2400,14 @@
       "rocm"
     ]
   ],
+  "test_linear_relu_mod (__main__.TestFXNumericSuiteNShadows)": [
+    "160880",
+    "https://github.com/pytorch/pytorch/issues/160880",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_lobpcg (__main__.TestAutograd)": [
     "80338",
     "https://github.com/pytorch/pytorch/issues/80338",
@@ -2812,6 +2859,13 @@
       "linux",
       "rocm",
       "slow"
+    ]
+  ],
+  "test_op_has_batch_rule_matmul_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
+    "157163",
+    "https://github.com/pytorch/pytorch/issues/157163",
+    [
+      "rocm"
     ]
   ],
   "test_op_has_batch_rule_mv_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
@@ -3363,6 +3417,14 @@
       "rocm"
     ]
   ],
+  "test_scalar_multiply (__main__.FxGraphRunnableTest)": [
+    "162230",
+    "https://github.com/pytorch/pytorch/issues/162230",
+    [
+      "asan",
+      "linux"
+    ]
+  ],
   "test_scaled_dot_product_attention_3D_input_dim_2D_causal_attn_mask_dropout_p_0_0_cuda (__main__.TestTransformersCUDA)": [
     "157061",
     "https://github.com/pytorch/pytorch/issues/157061",
@@ -3769,6 +3831,14 @@
       "slow"
     ]
   ],
+  "test_toy_model_batch_processing (__main__.FxGraphRunnableTest)": [
+    "162231",
+    "https://github.com/pytorch/pytorch/issues/162231",
+    [
+      "asan",
+      "linux"
+    ]
+  ],
   "test_toy_model_dynamic_batch (__main__.FxGraphRunnableTest)": [
     "161580",
     "https://github.com/pytorch/pytorch/issues/161580",
@@ -3999,6 +4069,13 @@
   "test_vmap_exhaustive_linalg_vecdot_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "157762",
     "https://github.com/pytorch/pytorch/issues/157762",
+    [
+      "rocm"
+    ]
+  ],
+  "test_vmap_exhaustive_matmul_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
+    "157790",
+    "https://github.com/pytorch/pytorch/issues/157790",
     [
       "rocm"
     ]
