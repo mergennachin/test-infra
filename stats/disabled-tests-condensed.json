@@ -193,13 +193,6 @@
       "macos"
     ]
   ],
-  "test_add_sub_alpha_out (__main__.ReproTests)": [
-    "156597",
-    "https://github.com/pytorch/pytorch/issues/156597",
-    [
-      "linux"
-    ]
-  ],
   "test_addbmm_cuda_float32 (__main__.TestLinalgCUDA)": [
     "156989",
     "https://github.com/pytorch/pytorch/issues/156989",
@@ -394,14 +387,6 @@
     "157036",
     "https://github.com/pytorch/pytorch/issues/157036",
     [
-      "rocm"
-    ]
-  ],
-  "test_all_gather_extensions_end_to_end (__main__.TestFullyShardAllGatherExtensionsMultiThread)": [
-    "161251",
-    "https://github.com/pytorch/pytorch/issues/161251",
-    [
-      "linux",
       "rocm"
     ]
   ],
@@ -1003,16 +988,6 @@
       "rocm"
     ]
   ],
-  "test_comprehensive_pca_lowrank_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
-    "139828",
-    "https://github.com/pytorch/pytorch/issues/139828",
-    [
-      "inductor",
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_comprehensive_rsub_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
     "140503",
     "https://github.com/pytorch/pytorch/issues/140503",
@@ -1044,14 +1019,6 @@
   "test_conv1d_api (__main__.TestQuantizedFunctionalOps)": [
     "157296",
     "https://github.com/pytorch/pytorch/issues/157296",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_conv2d_api (__main__.TestQuantizedFunctionalOps)": [
-    "157346",
-    "https://github.com/pytorch/pytorch/issues/157346",
     [
       "mac",
       "macos"
@@ -1431,15 +1398,6 @@
     [
       "rocm",
       "windows"
-    ]
-  ],
-  "test_dynamic_warmup (__main__.CudaGraphTreeTests)": [
-    "156693",
-    "https://github.com/pytorch/pytorch/issues/156693",
-    [
-      "linux",
-      "rocm",
-      "slow"
     ]
   ],
   "test_e2e_compile_True_model_type0 (__main__.TestE2ESaveAndLoad)": [
@@ -1932,15 +1890,6 @@
     "https://github.com/pytorch/pytorch/issues/160768",
     [
       "rocm"
-    ]
-  ],
-  "test_get_parameter_dtype (__main__.ReproTests)": [
-    "156598",
-    "https://github.com/pytorch/pytorch/issues/156598",
-    [
-      "linux",
-      "rocm",
-      "slow"
     ]
   ],
   "test_get_signal_pad (__main__.SymmetricMemoryTest)": [
@@ -2885,15 +2834,6 @@
       "rocm"
     ]
   ],
-  "test_op_has_batch_rule_mv_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
-    "142697",
-    "https://github.com/pytorch/pytorch/issues/142697",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_op_has_batch_rule_nn_functional_conv2d_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "157278",
     "https://github.com/pytorch/pytorch/issues/157278",
@@ -3406,15 +3346,6 @@
       "slow"
     ]
   ],
-  "test_rng (__main__.TestCompilerBisector)": [
-    "139590",
-    "https://github.com/pytorch/pytorch/issues/139590",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_rnn_fused_cuda_float32 (__main__.TestNNDeviceTypeCUDA)": [
     "157082",
     "https://github.com/pytorch/pytorch/issues/157082",
@@ -3690,15 +3621,6 @@
     "https://github.com/pytorch/pytorch/issues/156436",
     [
       "linux"
-    ]
-  ],
-  "test_slice_scatter_reinplace_cuda (__main__.GPUTests)": [
-    "145189",
-    "https://github.com/pytorch/pytorch/issues/145189",
-    [
-      "inductor",
-      "linux",
-      "rocm"
     ]
   ],
   "test_slogdet_cuda_float32 (__main__.TestLinalgCUDA)": [
@@ -4015,14 +3937,6 @@
     "https://github.com/pytorch/pytorch/issues/159348",
     [
       "rocm"
-    ]
-  ],
-  "test_upper_bound_i64_cuda (__main__.AOTInductorTestABICompatibleGpu)": [
-    "159860",
-    "https://github.com/pytorch/pytorch/issues/159860",
-    [
-      "inductor",
-      "linux"
     ]
   ],
   "test_vae_cuda (__main__.TestModels)": [
