@@ -1801,6 +1801,15 @@
       "rocm"
     ]
   ],
+  "test_get_parameter_dtype (__main__.ReproTests)": [
+    "156598",
+    "https://github.com/pytorch/pytorch/issues/156598",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_get_signal_pad (__main__.SymmetricMemoryTest)": [
     "160881",
     "https://github.com/pytorch/pytorch/issues/160881",
@@ -3238,6 +3247,15 @@
     "https://github.com/pytorch/pytorch/issues/157725",
     [
       "linux",
+      "slow"
+    ]
+  ],
+  "test_rng (__main__.TestCompilerBisector)": [
+    "139590",
+    "https://github.com/pytorch/pytorch/issues/139590",
+    [
+      "linux",
+      "rocm",
       "slow"
     ]
   ],
