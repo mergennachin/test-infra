@@ -501,6 +501,14 @@
       "rocm"
     ]
   ],
+  "test_aoti_fx_const (__main__.AOTFxirTestCase)": [
+    "160951",
+    "https://github.com/pytorch/pytorch/issues/160951",
+    [
+      "rocm",
+      "xpu"
+    ]
+  ],
   "test_aoti_fx_linear (__main__.AOTFxirTestCase)": [
     "161038",
     "https://github.com/pytorch/pytorch/issues/161038",
@@ -1708,6 +1716,13 @@
       "rocm"
     ]
   ],
+  "test_fused_all_gather_matmul_native_symm_mem_input_True_is_b_row_major_True (__main__.AsyncTPTest)": [
+    "162381",
+    "https://github.com/pytorch/pytorch/issues/162381",
+    [
+      "rocm"
+    ]
+  ],
   "test_fused_all_gather_matmul_native_symm_mem_input_True_is_b_row_major_True (__main__.SymmetricMemoryTest)": [
     "159764",
     "https://github.com/pytorch/pytorch/issues/159764",
@@ -1940,6 +1955,15 @@
   "test_graph_partition_cpu_scalar_multiple (__main__.CudaGraphTreeTests)": [
     "160719",
     "https://github.com/pytorch/pytorch/issues/160719",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_graph_partition_cpu_scalar_mutation (__main__.CudaGraphTreeTests)": [
+    "157359",
+    "https://github.com/pytorch/pytorch/issues/157359",
     [
       "linux",
       "rocm",
@@ -2866,6 +2890,14 @@
       "rocm"
     ]
   ],
+  "test_partial_qconfig_mapping (__main__.TestFXNumericSuiteNShadows)": [
+    "162382",
+    "https://github.com/pytorch/pytorch/issues/162382",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_pending_fusions_multiple (__main__.TestPrologueFusion)": [
     "152221",
     "https://github.com/pytorch/pytorch/issues/152221",
@@ -3480,6 +3512,13 @@
       "macos"
     ]
   ],
+  "test_sdpa_with_packed_in_proj_cuda_float32 (__main__.TestNestedTensorSubclassCUDA)": [
+    "120029",
+    "https://github.com/pytorch/pytorch/issues/120029",
+    [
+      "rocm"
+    ]
+  ],
   "test_send_recv_all_to_all (__main__.ProcessGroupGlooTest)": [
     "71195",
     "https://github.com/pytorch/pytorch/issues/71195",
@@ -3957,6 +3996,13 @@
       "linux",
       "rocm",
       "slow"
+    ]
+  ],
+  "test_vmap_exhaustive_nn_functional_conv2d_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
+    "157880",
+    "https://github.com/pytorch/pytorch/issues/157880",
+    [
+      "rocm"
     ]
   ],
   "test_warn_on_invalid_torch_function_standalone_class (__main__.TestTorchFunctionWarning)": [
