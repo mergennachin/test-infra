@@ -504,6 +504,7 @@
     "160951",
     "https://github.com/pytorch/pytorch/issues/160951",
     [
+      "linux",
       "rocm",
       "xpu"
     ]
