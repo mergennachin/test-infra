@@ -684,6 +684,14 @@
       "mac"
     ]
   ],
+  "test_cdist_non_contiguous_batch_cuda (__main__.TestTorchDeviceTypeCUDA)": [
+    "156985",
+    "https://github.com/pytorch/pytorch/issues/156985",
+    [
+      "inductor",
+      "rocm"
+    ]
+  ],
   "test_cdist_non_contiguous_cuda (__main__.TestTorchDeviceTypeCUDA)": [
     "157071",
     "https://github.com/pytorch/pytorch/issues/157071",
