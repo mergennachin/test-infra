@@ -1803,6 +1803,13 @@
       "rocm"
     ]
   ],
+  "test_fw_bw_graph_correctness_xpu (__main__.TestFlexAttentionXPU)": [
+    "162435",
+    "https://github.com/pytorch/pytorch/issues/162435",
+    [
+      "xpu"
+    ]
+  ],
   "test_get_backend (__main__.SymmetricMemoryTest)": [
     "160768",
     "https://github.com/pytorch/pytorch/issues/160768",
@@ -3261,6 +3268,13 @@
     [
       "linux",
       "slow"
+    ]
+  ],
+  "test_return_max__squared_xpu_float32 (__main__.TestFlexAttentionXPU)": [
+    "162436",
+    "https://github.com/pytorch/pytorch/issues/162436",
+    [
+      "xpu"
     ]
   ],
   "test_rng (__main__.TestCompilerBisector)": [
