@@ -133,11 +133,10 @@
       "rocm"
     ]
   ],
-  "test_add_loggers_conv_bn_relu_fusion_quant (__main__.TestFXNumericSuiteNShadows)": [
-    "127814",
-    "https://github.com/pytorch/pytorch/issues/127814",
+  "test_add_loggers_conv_bn_relu_fusion_fp32 (__main__.TestFXNumericSuiteNShadows)": [
+    "158762",
+    "https://github.com/pytorch/pytorch/issues/158762",
     [
-      "dynamo",
       "mac",
       "macos"
     ]
@@ -340,13 +339,6 @@
       "rocm"
     ]
   ],
-  "test_addr_alpha_beta_out (__main__.ReproTests)": [
-    "156641",
-    "https://github.com/pytorch/pytorch/issues/156641",
-    [
-      "linux"
-    ]
-  ],
   "test_affine_2d_rotate45_cuda (__main__.TestNNDeviceTypeCUDA)": [
     "157113",
     "https://github.com/pytorch/pytorch/issues/157113",
@@ -505,6 +497,14 @@
     "https://github.com/pytorch/pytorch/issues/160951",
     [
       "linux",
+      "rocm",
+      "xpu"
+    ]
+  ],
+  "test_aoti_fx_dynamic (__main__.AOTFxirTestCase)": [
+    "160970",
+    "https://github.com/pytorch/pytorch/issues/160970",
+    [
       "rocm",
       "xpu"
     ]
@@ -1233,6 +1233,13 @@
       "linux"
     ]
   ],
+  "test_detect_leak_nonstrict_strict (__main__.StrictExportTestExport)": [
+    "162445",
+    "https://github.com/pytorch/pytorch/issues/162445",
+    [
+      "linux"
+    ]
+  ],
   "test_detect_leak_nonstrict_training_ir_to_decomp_nonstrict (__main__.TrainingIRToRunDecompExportNonStrictTestExport)": [
     "162229",
     "https://github.com/pytorch/pytorch/issues/162229",
@@ -1273,6 +1280,15 @@
   "test_dont_aggressively_write_assert (__main__.ReproTests)": [
     "156570",
     "https://github.com/pytorch/pytorch/issues/156570",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_dont_dce_rand (__main__.ReproTests)": [
+    "156580",
+    "https://github.com/pytorch/pytorch/issues/156580",
     [
       "linux",
       "rocm",
@@ -1362,9 +1378,9 @@
       "rocm"
     ]
   ],
-  "test_empty_storage (__main__.CudaGraphTreeTests)": [
-    "156755",
-    "https://github.com/pytorch/pytorch/issues/156755",
+  "test_empty_cpu_tensor (__main__.CudaGraphTreeTests)": [
+    "156735",
+    "https://github.com/pytorch/pytorch/issues/156735",
     [
       "linux",
       "rocm",
@@ -1870,6 +1886,15 @@
       "rocm"
     ]
   ],
+  "test_graph_break_unsupported_fake (__main__.ReproTests)": [
+    "156629",
+    "https://github.com/pytorch/pytorch/issues/156629",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_graph_concurrent_replay (__main__.TestCuda)": [
     "104055",
     "https://github.com/pytorch/pytorch/issues/104055",
@@ -2072,14 +2097,6 @@
     "https://github.com/pytorch/pytorch/issues/115859",
     [
       "rocm"
-    ]
-  ],
-  "test_invalid_status_for_legacy_api (__main__.TestCuda)": [
-    "157110",
-    "https://github.com/pytorch/pytorch/issues/157110",
-    [
-      "linux",
-      "slow"
     ]
   ],
   "test_issue_140766_cuda (__main__.AOTInductorTestABICompatibleGpu)": [
@@ -2764,9 +2781,9 @@
       "slow"
     ]
   ],
-  "test_op_has_batch_rule_nn_functional_conv2d_strided_padding_dilation_no_bias_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
-    "157315",
-    "https://github.com/pytorch/pytorch/issues/157315",
+  "test_op_has_batch_rule_nn_functional_conv2d_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
+    "157278",
+    "https://github.com/pytorch/pytorch/issues/157278",
     [
       "rocm"
     ]
@@ -2961,6 +2978,14 @@
       "asan"
     ]
   ],
+  "test_qconfig_multi_mapping_deduplication (__main__.TestFXNumericSuiteNShadows)": [
+    "162444",
+    "https://github.com/pytorch/pytorch/issues/162444",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_qengine (__main__.TestTorch)": [
     "157245",
     "https://github.com/pytorch/pytorch/issues/157245",
@@ -3081,15 +3106,6 @@
       "rocm",
       "win",
       "windows"
-    ]
-  ],
-  "test_relative_import (__main__.ReproTests)": [
-    "156679",
-    "https://github.com/pytorch/pytorch/issues/156679",
-    [
-      "linux",
-      "rocm",
-      "slow"
     ]
   ],
   "test_relative_import_no_modulename (__main__.ReproTests)": [
@@ -3980,6 +3996,13 @@
   "test_vmap_exhaustive_nn_functional_conv2d_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "157880",
     "https://github.com/pytorch/pytorch/issues/157880",
+    [
+      "rocm"
+    ]
+  ],
+  "test_vmap_exhaustive_nn_functional_conv2d_strided_padding_dilation_no_bias_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
+    "157899",
+    "https://github.com/pytorch/pytorch/issues/157899",
     [
       "rocm"
     ]
