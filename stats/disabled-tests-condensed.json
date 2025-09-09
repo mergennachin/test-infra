@@ -35,6 +35,13 @@
       "rocm"
     ]
   ],
+  "test_Conv2d_size_1_kernel_cuda (__main__.TestConvolutionNNDeviceTypeCUDA)": [
+    "157001",
+    "https://github.com/pytorch/pytorch/issues/157001",
+    [
+      "rocm"
+    ]
+  ],
   "test_ConvTranspose2d_size_1_kernel_cuda (__main__.TestConvolutionNNDeviceTypeCUDA)": [
     "157002",
     "https://github.com/pytorch/pytorch/issues/157002",
