@@ -4035,6 +4035,13 @@
       "windows"
     ]
   ],
+  "test_while_loop_with_unbacked_symint_closure_device_xpu_dynamic_True_autograd_True (__main__.WhileLoopTests)": [
+    "162452",
+    "https://github.com/pytorch/pytorch/issues/162452",
+    [
+      "xpu"
+    ]
+  ],
   "test_with_cudagraphs_cuda (__main__.AOTInductorTestABICompatibleGpu)": [
     "158465",
     "https://github.com/pytorch/pytorch/issues/158465",
