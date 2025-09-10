@@ -35,13 +35,6 @@
       "rocm"
     ]
   ],
-  "test_Conv2d_size_1_kernel_cuda (__main__.TestConvolutionNNDeviceTypeCUDA)": [
-    "157001",
-    "https://github.com/pytorch/pytorch/issues/157001",
-    [
-      "rocm"
-    ]
-  ],
   "test_ConvTranspose2d_size_1_kernel_cuda (__main__.TestConvolutionNNDeviceTypeCUDA)": [
     "157002",
     "https://github.com/pytorch/pytorch/issues/157002",
@@ -653,6 +646,14 @@
     "https://github.com/pytorch/pytorch/issues/69179",
     [
       "mac"
+    ]
+  ],
+  "test_cdist_non_contiguous_batch_cuda (__main__.TestTorchDeviceTypeCUDA)": [
+    "156985",
+    "https://github.com/pytorch/pytorch/issues/156985",
+    [
+      "inductor",
+      "rocm"
     ]
   ],
   "test_cdist_non_contiguous_cuda (__main__.TestTorchDeviceTypeCUDA)": [
