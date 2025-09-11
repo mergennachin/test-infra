@@ -1458,13 +1458,6 @@
       "slow"
     ]
   ],
-  "test_epilogue_fusion_with_view (__main__.CudaReproTests)": [
-    "162390",
-    "https://github.com/pytorch/pytorch/issues/162390",
-    [
-      "rocm"
-    ]
-  ],
   "test_equivalent_template_code (__main__.BenchmarkMultiTemplateFusionCudaTest)": [
     "145017",
     "https://github.com/pytorch/pytorch/issues/145017",
