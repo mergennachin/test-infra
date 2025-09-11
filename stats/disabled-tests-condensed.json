@@ -1811,6 +1811,13 @@
       "rocm"
     ]
   ],
+  "test_fused_all_gather_scaled_matmul_gather_dim_1_scale_mode_row-wise-replicated (__main__.AsyncTPTest)": [
+    "162742",
+    "https://github.com/pytorch/pytorch/issues/162742",
+    [
+      "rocm"
+    ]
+  ],
   "test_fused_all_gather_scaled_matmul_gather_dim_1_scale_mode_row-wise-replicated (__main__.SymmetricMemoryTest)": [
     "160177",
     "https://github.com/pytorch/pytorch/issues/160177",
@@ -2100,7 +2107,17 @@
     "https://github.com/pytorch/pytorch/issues/157533",
     [
       "linux",
-      "rocm"
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_graph_partition_dynamic_shapes (__main__.CudaGraphTreeTests)": [
+    "157556",
+    "https://github.com/pytorch/pytorch/issues/157556",
+    [
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_grid_sample_large_cuda (__main__.TestNNDeviceTypeCUDA)": [
