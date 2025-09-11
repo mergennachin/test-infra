@@ -1167,6 +1167,13 @@
       "rocm"
     ]
   ],
+  "test_ddp_model_diff_shape_across_ranks (__main__.TestDistBackendWithSpawn)": [
+    "162676",
+    "https://github.com/pytorch/pytorch/issues/162676",
+    [
+      "linux"
+    ]
+  ],
   "test_ddp_profiling_autograd_profiler (__main__.TestDistBackendWithSpawn)": [
     "77342",
     "https://github.com/pytorch/pytorch/issues/77342",
@@ -1461,6 +1468,15 @@
   "test_error_on_dealloc_use2 (__main__.CudaGraphTreeTests)": [
     "156808",
     "https://github.com/pytorch/pytorch/issues/156808",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_execution_into_recording (__main__.CudaGraphTreeTests)": [
+    "156838",
+    "https://github.com/pytorch/pytorch/issues/156838",
     [
       "linux",
       "rocm",
@@ -2059,14 +2075,6 @@
     "https://github.com/pytorch/pytorch/issues/157164",
     [
       "rocm"
-    ]
-  ],
-  "test_gru (__main__.TestXNNPACKQuantizer)": [
-    "158116",
-    "https://github.com/pytorch/pytorch/issues/158116",
-    [
-      "mac",
-      "macos"
     ]
   ],
   "test_hessian_vectorize_correctness_multi_input_cuda (__main__.TestHessianCUDA)": [
@@ -3092,6 +3100,14 @@
       "macos"
     ]
   ],
+  "test_qconfig_multi_mapping_from_list (__main__.TestFXNumericSuiteNShadows)": [
+    "162675",
+    "https://github.com/pytorch/pytorch/issues/162675",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_qengine (__main__.TestTorch)": [
     "157245",
     "https://github.com/pytorch/pytorch/issues/157245",
@@ -3203,6 +3219,13 @@
     "https://github.com/pytorch/pytorch/issues/152367",
     [
       "rocm"
+    ]
+  ],
+  "test_reentrant_mode_idiom (__main__.TestTorchFunctionMode)": [
+    "162677",
+    "https://github.com/pytorch/pytorch/issues/162677",
+    [
+      "dynamo"
     ]
   ],
   "test_reentrant_parent_error_on_cpu_cuda (__main__.TestAutogradDeviceTypeCUDA)": [
@@ -4116,6 +4139,13 @@
   "test_vmap_exhaustive_nn_functional_conv2d_strided_padding_dilation_with_bias_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "157987",
     "https://github.com/pytorch/pytorch/issues/157987",
+    [
+      "rocm"
+    ]
+  ],
+  "test_vmap_exhaustive_nn_functional_conv_transpose1d_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
+    "158010",
+    "https://github.com/pytorch/pytorch/issues/158010",
     [
       "rocm"
     ]
