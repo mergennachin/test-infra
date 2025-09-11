@@ -471,6 +471,13 @@
       "macos"
     ]
   ],
+  "test_aot_autograd_runtime_wrapper_prologue_profiled (__main__.ReproTests)": [
+    "156678",
+    "https://github.com/pytorch/pytorch/issues/156678",
+    [
+      "linux"
+    ]
+  ],
   "test_aot_cudagraphs_cuda (__main__.TestOptimizationsCUDA)": [
     "146851",
     "https://github.com/pytorch/pytorch/issues/146851",
@@ -996,6 +1003,15 @@
       "slow"
     ]
   ],
+  "test_conv2d_unary_dynamic_shapes_cpu (__main__.TestDynamicPatternMatcherGenericCPU)": [
+    "162703",
+    "https://github.com/pytorch/pytorch/issues/162703",
+    [
+      "asan",
+      "linux",
+      "slow"
+    ]
+  ],
   "test_conv3d_64bit_indexing_cuda (__main__.TestConvolutionNNDeviceTypeCUDA)": [
     "104366",
     "https://github.com/pytorch/pytorch/issues/104366",
@@ -1490,6 +1506,15 @@
       "dynamo"
     ]
   ],
+  "test_expanded_inputs (__main__.CudaGraphTreeTests)": [
+    "156886",
+    "https://github.com/pytorch/pytorch/issues/156886",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_extract_gradients_from_optimizer_set_to_none (__main__.TestIdentifyGradients)": [
     "88721",
     "https://github.com/pytorch/pytorch/issues/88721",
@@ -1944,6 +1969,13 @@
     [
       "linux",
       "rocm"
+    ]
+  ],
+  "test_gradients_synchronizations (__main__.TensorPipeTensorPipeCudaDistAutogradTest)": [
+    "158443",
+    "https://github.com/pytorch/pytorch/issues/158443",
+    [
+      "linux"
     ]
   ],
   "test_graph_break_unsupported_fake (__main__.ReproTests)": [
@@ -3840,6 +3872,13 @@
     "https://github.com/pytorch/pytorch/issues/70546",
     [
       "mac"
+    ]
+  ],
+  "test_torch_function_all_disabled_api (__main__.TestTorchFunctionMode)": [
+    "162704",
+    "https://github.com/pytorch/pytorch/issues/162704",
+    [
+      "dynamo"
     ]
   ],
   "test_torch_name_rule_map_updated (__main__.TraceRuleTests)": [
