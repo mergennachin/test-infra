@@ -2102,11 +2102,27 @@
       "slow"
     ]
   ],
+  "test_graph_partition_custom_op_no_split (__main__.CudaGraphTreeTests)": [
+    "157533",
+    "https://github.com/pytorch/pytorch/issues/157533",
+    [
+      "linux",
+      "rocm"
+    ]
+  ],
   "test_grid_sample_large_cuda (__main__.TestNNDeviceTypeCUDA)": [
     "157164",
     "https://github.com/pytorch/pytorch/issues/157164",
     [
       "rocm"
+    ]
+  ],
+  "test_gru (__main__.TestXNNPACKQuantizer)": [
+    "158116",
+    "https://github.com/pytorch/pytorch/issues/158116",
+    [
+      "mac",
+      "macos"
     ]
   ],
   "test_hessian_vectorize_correctness_multi_input_cuda (__main__.TestHessianCUDA)": [
