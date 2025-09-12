@@ -524,6 +524,16 @@
       "xpu"
     ]
   ],
+  "test_assigning_back_deleter_fns_to_tensor (__main__.TestBlockStateAbsorption)": [
+    "134810",
+    "https://github.com/pytorch/pytorch/issues/134810",
+    [
+      "linux",
+      "slow",
+      "win",
+      "windows"
+    ]
+  ],
   "test_attn_cuda (__main__.TestMin)": [
     "86710",
     "https://github.com/pytorch/pytorch/issues/86710",
@@ -619,6 +629,13 @@
     "https://github.com/pytorch/pytorch/issues/158335",
     [
       "inductor"
+    ]
+  ],
+  "test_bitwise_print_precedence (__main__.ReproTests)": [
+    "156736",
+    "https://github.com/pytorch/pytorch/issues/156736",
+    [
+      "linux"
     ]
   ],
   "test_bmm_cuda_float32 (__main__.TestLinalgCUDA)": [
@@ -1558,6 +1575,15 @@
       "slow"
     ]
   ],
+  "test_fallback_to_eager_if_recompiling_too_many_times_due_to_cudagraph_managed_tensor (__main__.CudaGraphTreeTests)": [
+    "156922",
+    "https://github.com/pytorch/pytorch/issues/156922",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_fallback_to_eager_if_recompiling_too_many_times_warn_only_once (__main__.CudaGraphTreeTests)": [
     "156954",
     "https://github.com/pytorch/pytorch/issues/156954",
@@ -1818,6 +1844,13 @@
   "test_fused_all_gather_scaled_matmul_gather_dim_1_scale_mode_row-wise-replicated (__main__.SymmetricMemoryTest)": [
     "160177",
     "https://github.com/pytorch/pytorch/issues/160177",
+    [
+      "rocm"
+    ]
+  ],
+  "test_fused_all_gather_scaled_matmul_gather_dim_1_scale_mode_row-wise-sharded (__main__.AsyncTPTest)": [
+    "162833",
+    "https://github.com/pytorch/pytorch/issues/162833",
     [
       "rocm"
     ]
