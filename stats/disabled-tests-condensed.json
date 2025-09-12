@@ -986,13 +986,6 @@
       "inductor"
     ]
   ],
-  "test_conv (quantization.jit.test_quantize_jit.TestQuantizeJit)": [
-    "105125",
-    "https://github.com/pytorch/pytorch/issues/105125",
-    [
-      "rocm"
-    ]
-  ],
   "test_conv1d_api (__main__.TestQuantizedFunctionalOps)": [
     "157296",
     "https://github.com/pytorch/pytorch/issues/157296",
