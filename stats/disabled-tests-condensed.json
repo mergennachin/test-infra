@@ -1708,23 +1708,9 @@
       "rocm"
     ]
   ],
-  "test_fused_all_gather_matmul_gather_dim_0 (__main__.SymmetricMemoryTest)": [
-    "159396",
-    "https://github.com/pytorch/pytorch/issues/159396",
-    [
-      "rocm"
-    ]
-  ],
   "test_fused_all_gather_matmul_gather_dim_1 (__main__.AsyncTPTest)": [
     "161956",
     "https://github.com/pytorch/pytorch/issues/161956",
-    [
-      "rocm"
-    ]
-  ],
-  "test_fused_all_gather_matmul_gather_dim_1 (__main__.SymmetricMemoryTest)": [
-    "159643",
-    "https://github.com/pytorch/pytorch/issues/159643",
     [
       "rocm"
     ]
@@ -1736,23 +1722,9 @@
       "rocm"
     ]
   ],
-  "test_fused_all_gather_matmul_native_symm_mem_input_False_is_b_row_major_False (__main__.SymmetricMemoryTest)": [
-    "158916",
-    "https://github.com/pytorch/pytorch/issues/158916",
-    [
-      "rocm"
-    ]
-  ],
   "test_fused_all_gather_matmul_native_symm_mem_input_False_is_b_row_major_True (__main__.AsyncTPTest)": [
     "162161",
     "https://github.com/pytorch/pytorch/issues/162161",
-    [
-      "rocm"
-    ]
-  ],
-  "test_fused_all_gather_matmul_native_symm_mem_input_False_is_b_row_major_True (__main__.SymmetricMemoryTest)": [
-    "159347",
-    "https://github.com/pytorch/pytorch/issues/159347",
     [
       "rocm"
     ]
@@ -1764,23 +1736,9 @@
       "rocm"
     ]
   ],
-  "test_fused_all_gather_matmul_native_symm_mem_input_True_is_b_row_major_False (__main__.SymmetricMemoryTest)": [
-    "159499",
-    "https://github.com/pytorch/pytorch/issues/159499",
-    [
-      "rocm"
-    ]
-  ],
   "test_fused_all_gather_matmul_native_symm_mem_input_True_is_b_row_major_True (__main__.AsyncTPTest)": [
     "162381",
     "https://github.com/pytorch/pytorch/issues/162381",
-    [
-      "rocm"
-    ]
-  ],
-  "test_fused_all_gather_matmul_native_symm_mem_input_True_is_b_row_major_True (__main__.SymmetricMemoryTest)": [
-    "159764",
-    "https://github.com/pytorch/pytorch/issues/159764",
     [
       "rocm"
     ]
@@ -1792,23 +1750,9 @@
       "rocm"
     ]
   ],
-  "test_fused_all_gather_scaled_matmul_gather_dim_0_scale_mode_row-wise-replicated (__main__.SymmetricMemoryTest)": [
-    "159921",
-    "https://github.com/pytorch/pytorch/issues/159921",
-    [
-      "rocm"
-    ]
-  ],
   "test_fused_all_gather_scaled_matmul_gather_dim_0_scale_mode_row-wise-sharded (__main__.AsyncTPTest)": [
     "162517",
     "https://github.com/pytorch/pytorch/issues/162517",
-    [
-      "rocm"
-    ]
-  ],
-  "test_fused_all_gather_scaled_matmul_gather_dim_0_scale_mode_row-wise-sharded (__main__.SymmetricMemoryTest)": [
-    "160049",
-    "https://github.com/pytorch/pytorch/issues/160049",
     [
       "rocm"
     ]
@@ -1820,13 +1764,6 @@
       "rocm"
     ]
   ],
-  "test_fused_all_gather_scaled_matmul_gather_dim_0_scale_mode_tensor-wise (__main__.SymmetricMemoryTest)": [
-    "160085",
-    "https://github.com/pytorch/pytorch/issues/160085",
-    [
-      "rocm"
-    ]
-  ],
   "test_fused_all_gather_scaled_matmul_gather_dim_1_scale_mode_row-wise-replicated (__main__.AsyncTPTest)": [
     "162742",
     "https://github.com/pytorch/pytorch/issues/162742",
@@ -1834,72 +1771,9 @@
       "rocm"
     ]
   ],
-  "test_fused_all_gather_scaled_matmul_gather_dim_1_scale_mode_row-wise-replicated (__main__.SymmetricMemoryTest)": [
-    "160177",
-    "https://github.com/pytorch/pytorch/issues/160177",
-    [
-      "rocm"
-    ]
-  ],
   "test_fused_all_gather_scaled_matmul_gather_dim_1_scale_mode_row-wise-sharded (__main__.AsyncTPTest)": [
     "162833",
     "https://github.com/pytorch/pytorch/issues/162833",
-    [
-      "rocm"
-    ]
-  ],
-  "test_fused_all_gather_scaled_matmul_gather_dim_1_scale_mode_row-wise-sharded (__main__.SymmetricMemoryTest)": [
-    "160203",
-    "https://github.com/pytorch/pytorch/issues/160203",
-    [
-      "rocm"
-    ]
-  ],
-  "test_fused_all_gather_scaled_matmul_gather_dim_1_scale_mode_tensor-wise (__main__.SymmetricMemoryTest)": [
-    "160347",
-    "https://github.com/pytorch/pytorch/issues/160347",
-    [
-      "rocm"
-    ]
-  ],
-  "test_fused_matmul_reduce_scatter_scatter_dim_0 (__main__.SymmetricMemoryTest)": [
-    "160445",
-    "https://github.com/pytorch/pytorch/issues/160445",
-    [
-      "rocm"
-    ]
-  ],
-  "test_fused_matmul_reduce_scatter_scatter_dim_1 (__main__.SymmetricMemoryTest)": [
-    "160506",
-    "https://github.com/pytorch/pytorch/issues/160506",
-    [
-      "rocm"
-    ]
-  ],
-  "test_fused_scaled_matmul_reduce_scatter_scatter_dim_0_rowwise_False (__main__.SymmetricMemoryTest)": [
-    "160549",
-    "https://github.com/pytorch/pytorch/issues/160549",
-    [
-      "rocm"
-    ]
-  ],
-  "test_fused_scaled_matmul_reduce_scatter_scatter_dim_0_rowwise_True (__main__.SymmetricMemoryTest)": [
-    "160621",
-    "https://github.com/pytorch/pytorch/issues/160621",
-    [
-      "rocm"
-    ]
-  ],
-  "test_fused_scaled_matmul_reduce_scatter_scatter_dim_1_rowwise_False (__main__.SymmetricMemoryTest)": [
-    "160665",
-    "https://github.com/pytorch/pytorch/issues/160665",
-    [
-      "rocm"
-    ]
-  ],
-  "test_fused_scaled_matmul_reduce_scatter_scatter_dim_1_rowwise_True (__main__.SymmetricMemoryTest)": [
-    "160716",
-    "https://github.com/pytorch/pytorch/issues/160716",
     [
       "rocm"
     ]
@@ -3036,13 +2910,6 @@
       "linux",
       "rocm",
       "slow"
-    ]
-  ],
-  "test_optimal_layout_dim_0 (__main__.SymmetricMemoryTest)": [
-    "161642",
-    "https://github.com/pytorch/pytorch/issues/161642",
-    [
-      "rocm"
     ]
   ],
   "test_optional_list (test_jit.TestScript)": [
@@ -4244,41 +4111,6 @@
     "https://github.com/pytorch/pytorch/issues/158010",
     [
       "rocm"
-    ]
-  ],
-  "test_warn_on_invalid_torch_function_standalone_class (__main__.TestTorchFunctionWarning)": [
-    "145333",
-    "https://github.com/pytorch/pytorch/issues/145333",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "slow",
-      "win",
-      "windows"
-    ]
-  ],
-  "test_warn_on_invalid_torch_function_tensor_subclass (__main__.TestTorchFunctionWarning)": [
-    "132719",
-    "https://github.com/pytorch/pytorch/issues/132719",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "slow",
-      "win",
-      "windows"
-    ]
-  ],
-  "test_while_loop_with_unbacked_symint_closure_device_xpu_dynamic_True_autograd_True (__main__.WhileLoopTests)": [
-    "162452",
-    "https://github.com/pytorch/pytorch/issues/162452",
-    [
-      "xpu"
     ]
   ],
   "test_with_cudagraphs_cuda (__main__.AOTInductorTestABICompatibleGpu)": [
