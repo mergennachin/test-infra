@@ -390,6 +390,13 @@
       "rocm"
     ]
   ],
+  "test_against_reference_multi_input_multi_output_jacfwd_cuda (__main__.TestJacCUDA)": [
+    "157036",
+    "https://github.com/pytorch/pytorch/issues/157036",
+    [
+      "rocm"
+    ]
+  ],
   "test_all_gather_uneven (__main__.DeviceMeshCollectiveTest)": [
     "98049",
     "https://github.com/pytorch/pytorch/issues/98049",
@@ -524,16 +531,6 @@
       "xpu"
     ]
   ],
-  "test_assigning_back_deleter_fns_to_tensor (__main__.TestBlockStateAbsorption)": [
-    "134810",
-    "https://github.com/pytorch/pytorch/issues/134810",
-    [
-      "linux",
-      "slow",
-      "win",
-      "windows"
-    ]
-  ],
   "test_attn_cuda (__main__.TestMin)": [
     "86710",
     "https://github.com/pytorch/pytorch/issues/86710",
@@ -543,6 +540,13 @@
       "slow",
       "win",
       "windows"
+    ]
+  ],
+  "test_autocast_checkpointing (__main__.TestCudaAutocast)": [
+    "160507",
+    "https://github.com/pytorch/pytorch/issues/160507",
+    [
+      "rocm"
     ]
   ],
   "test_autocast_custom_cast_inputs (__main__.TestCudaAutocast)": [
@@ -621,13 +625,6 @@
     "https://github.com/pytorch/pytorch/issues/158335",
     [
       "inductor"
-    ]
-  ],
-  "test_bitwise_print_precedence (__main__.ReproTests)": [
-    "156736",
-    "https://github.com/pytorch/pytorch/issues/156736",
-    [
-      "linux"
     ]
   ],
   "test_bmm_cuda_float32 (__main__.TestLinalgCUDA)": [
@@ -1668,15 +1665,6 @@
       "rocm"
     ]
   ],
-  "test_function_compiled_multiple_times (__main__.CudaGraphTreeTests)": [
-    "157143",
-    "https://github.com/pytorch/pytorch/issues/157143",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_functions (__main__.TestFXNumericSuiteNShadows)": [
     "160620",
     "https://github.com/pytorch/pytorch/issues/160620",
@@ -2120,6 +2108,14 @@
       "slow"
     ]
   ],
+  "test_graph_partition_forward_backward (__main__.CudaGraphTreeTests)": [
+    "157616",
+    "https://github.com/pytorch/pytorch/issues/157616",
+    [
+      "linux",
+      "rocm"
+    ]
+  ],
   "test_grid_sample_large_cuda (__main__.TestNNDeviceTypeCUDA)": [
     "157164",
     "https://github.com/pytorch/pytorch/issues/157164",
@@ -2238,14 +2234,6 @@
     [
       "linux",
       "slow"
-    ]
-  ],
-  "test_issue_140766_cuda (__main__.AOTInductorTestABICompatibleGpu)": [
-    "161727",
-    "https://github.com/pytorch/pytorch/issues/161727",
-    [
-      "inductor",
-      "rocm"
     ]
   ],
   "test_jacobian_vectorize_raises_no_warnings_logging_tensor (__main__.TestAutogradFunctional)": [
@@ -2413,22 +2401,6 @@
     "https://github.com/pytorch/pytorch/issues/157166",
     [
       "rocm"
-    ]
-  ],
-  "test_linear_dynamic_maxautotune_cuda (__main__.AOTInductorTestABICompatibleGpu)": [
-    "159472",
-    "https://github.com/pytorch/pytorch/issues/159472",
-    [
-      "inductor",
-      "rocm"
-    ]
-  ],
-  "test_linear_gru (__main__.TestXNNPACKQuantizer)": [
-    "158332",
-    "https://github.com/pytorch/pytorch/issues/158332",
-    [
-      "mac",
-      "macos"
     ]
   ],
   "test_linear_mod (__main__.TestFXNumericSuiteNShadows)": [
@@ -2906,6 +2878,13 @@
       "rocm"
     ]
   ],
+  "test_op_has_batch_rule_addmv_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
+    "157037",
+    "https://github.com/pytorch/pytorch/issues/157037",
+    [
+      "rocm"
+    ]
+  ],
   "test_op_has_batch_rule_dot_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "157069",
     "https://github.com/pytorch/pytorch/issues/157069",
@@ -2973,14 +2952,6 @@
       "linux",
       "rocm",
       "slow"
-    ]
-  ],
-  "test_op_has_batch_rule_nn_functional_conv_transpose3d_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
-    "82340",
-    "https://github.com/pytorch/pytorch/issues/82340",
-    [
-      "linux",
-      "rocm"
     ]
   ],
   "test_op_has_batch_rule_tensordot_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
@@ -3161,6 +3132,14 @@
   "test_qconfig_multi_mapping_from_list (__main__.TestFXNumericSuiteNShadows)": [
     "162675",
     "https://github.com/pytorch/pytorch/issues/162675",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
+  "test_qconfig_multi_mapping_insert_padding (__main__.TestFXNumericSuiteNShadows)": [
+    "162783",
+    "https://github.com/pytorch/pytorch/issues/162783",
     [
       "mac",
       "macos"
@@ -4104,13 +4083,6 @@
     [
       "inductor",
       "linux"
-    ]
-  ],
-  "test_vae_cuda (__main__.TestModels)": [
-    "161726",
-    "https://github.com/pytorch/pytorch/issues/161726",
-    [
-      "rocm"
     ]
   ],
   "test_var_mean_tile_reduction_True_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
