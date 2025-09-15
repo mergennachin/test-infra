@@ -559,6 +559,13 @@
       "rocm"
     ]
   ],
+  "test_autocast_custom_enabled (__main__.TestCudaAutocast)": [
+    "160598",
+    "https://github.com/pytorch/pytorch/issues/160598",
+    [
+      "rocm"
+    ]
+  ],
   "test_autocast_ignored_types (__main__.TestCudaAutocast)": [
     "161581",
     "https://github.com/pytorch/pytorch/issues/161581",
@@ -607,6 +614,13 @@
     "https://github.com/pytorch/pytorch/issues/156994",
     [
       "rocm"
+    ]
+  ],
+  "test_baddmm_search_space_EXHAUSTIVE (__main__.TestMaxAutotune)": [
+    "161484",
+    "https://github.com/pytorch/pytorch/issues/161484",
+    [
+      "xpu"
     ]
   ],
   "test_barrier_timeout_group (__main__.TestDistBackendWithSpawn)": [
@@ -1577,15 +1591,6 @@
       "slow"
     ]
   ],
-  "test_fallback_to_eager_if_recompiling_too_many_times_warn_only_once (__main__.CudaGraphTreeTests)": [
-    "156954",
-    "https://github.com/pytorch/pytorch/issues/156954",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_flex_attention_stride_ordering_mode_paged_attention_permute_order3_shape1_cuda (__main__.TestFlexAttentionCUDA)": [
     "161503",
     "https://github.com/pytorch/pytorch/issues/161503",
@@ -2024,6 +2029,14 @@
       "linux",
       "rocm",
       "slow"
+    ]
+  ],
+  "test_graph_partition_forward_backward_not_called (__main__.CudaGraphTreeTests)": [
+    "157643",
+    "https://github.com/pytorch/pytorch/issues/157643",
+    [
+      "linux",
+      "rocm"
     ]
   ],
   "test_grid_sample_large_cuda (__main__.TestNNDeviceTypeCUDA)": [
@@ -2896,6 +2909,14 @@
       "rocm"
     ]
   ],
+  "test_op_has_batch_rule_nn_functional_conv_transpose3d_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
+    "82340",
+    "https://github.com/pytorch/pytorch/issues/82340",
+    [
+      "linux",
+      "rocm"
+    ]
+  ],
   "test_op_has_batch_rule_vdot_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "157450",
     "https://github.com/pytorch/pytorch/issues/157450",
@@ -3066,6 +3087,14 @@
   "test_qconfig_multi_mapping_insert_padding (__main__.TestFXNumericSuiteNShadows)": [
     "162783",
     "https://github.com/pytorch/pytorch/issues/162783",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
+  "test_qconfig_multi_mapping_ordering (__main__.TestFXNumericSuiteNShadows)": [
+    "162930",
+    "https://github.com/pytorch/pytorch/issues/162930",
     [
       "mac",
       "macos"
