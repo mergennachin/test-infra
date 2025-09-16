@@ -1145,11 +1145,12 @@
       "slow"
     ]
   ],
-  "test_cupy_as_tensor (__main__.CupyAsTensorTest)": [
-    "158466",
-    "https://github.com/pytorch/pytorch/issues/158466",
+  "test_custom_functions_and_tracer (__main__.TestFXNumericSuiteNShadows)": [
+    "160346",
+    "https://github.com/pytorch/pytorch/issues/160346",
     [
-      "rocm"
+      "mac",
+      "macos"
     ]
   ],
   "test_custom_triton_autotune_dynamic (__main__.AOTFxirTestCase)": [
@@ -1368,15 +1369,6 @@
     "https://github.com/pytorch/pytorch/issues/123294",
     [
       "linux"
-    ]
-  ],
-  "test_dtensor_seq_par_shard_dim_1 (__main__.MicroPipelineTPTest)": [
-    "153223",
-    "https://github.com/pytorch/pytorch/issues/153223",
-    [
-      "inductor",
-      "linux",
-      "rocm"
     ]
   ],
   "test_dynamic_shape_m_20480_k_5_n_2_should_decompose_True_has_bias_False (__main__.TestDecomposeMemMM)": [
@@ -1619,6 +1611,15 @@
   "test_forward_backward_not_called_backend_cudagraphs (__main__.CudaGraphTreeTests)": [
     "156984",
     "https://github.com/pytorch/pytorch/issues/156984",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_forward_backward_not_called_backend_inductor (__main__.CudaGraphTreeTests)": [
+    "157035",
+    "https://github.com/pytorch/pytorch/issues/157035",
     [
       "linux",
       "rocm",
@@ -1891,15 +1892,6 @@
     "https://github.com/pytorch/pytorch/issues/104055",
     [
       "rocm"
-    ]
-  ],
-  "test_graph_partition_cpu_op_and_dynamic_shapes (__main__.CudaGraphTreeTests)": [
-    "157258",
-    "https://github.com/pytorch/pytorch/issues/157258",
-    [
-      "linux",
-      "rocm",
-      "slow"
     ]
   ],
   "test_graph_partition_cpu_scalar1 (__main__.CudaGraphTreeTests)": [
@@ -2981,13 +2973,6 @@
       "rocm"
     ]
   ],
-  "test_p2p_ipc (__main__.P2PIpcTest)": [
-    "158421",
-    "https://github.com/pytorch/pytorch/issues/158421",
-    [
-      "rocm"
-    ]
-  ],
   "test_partial_qconfig_mapping (__main__.TestFXNumericSuiteNShadows)": [
     "162382",
     "https://github.com/pytorch/pytorch/issues/162382",
@@ -3608,13 +3593,6 @@
       "rocm"
     ]
   ],
-  "test_scaled_dot_product_attention_4D_input_dim_4D_causal_attn_mask_dropout_p_0_5_cuda (__main__.TestTransformersCUDA)": [
-    "157094",
-    "https://github.com/pytorch/pytorch/issues/157094",
-    [
-      "rocm"
-    ]
-  ],
   "test_scaled_dot_product_attention_4D_input_dim_no_attn_mask_dropout_p_0_0_cuda (__main__.TestTransformersCUDA)": [
     "129853",
     "https://github.com/pytorch/pytorch/issues/129853",
@@ -4097,9 +4075,9 @@
       "rocm"
     ]
   ],
-  "test_vmap_exhaustive_addmv_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
-    "157617",
-    "https://github.com/pytorch/pytorch/issues/157617",
+  "test_vmap_exhaustive___rmatmul___cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
+    "157534",
+    "https://github.com/pytorch/pytorch/issues/157534",
     [
       "rocm"
     ]
