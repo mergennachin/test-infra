@@ -1854,6 +1854,13 @@
       "linux"
     ]
   ],
+  "test_graph_break_bomb_backend_inductor_device_xpu (__main__.TestPackage)": [
+    "163045",
+    "https://github.com/pytorch/pytorch/issues/163045",
+    [
+      "xpu"
+    ]
+  ],
   "test_graph_break_unsupported_fake (__main__.ReproTests)": [
     "156629",
     "https://github.com/pytorch/pytorch/issues/156629",
