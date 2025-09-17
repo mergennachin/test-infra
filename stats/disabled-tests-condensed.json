@@ -2015,6 +2015,13 @@
       "slow"
     ]
   ],
+  "test_graph_partition_default_device_context (__main__.TritonCodeGenTests)": [
+    "163159",
+    "https://github.com/pytorch/pytorch/issues/163159",
+    [
+      "xpu"
+    ]
+  ],
   "test_graph_partition_dynamic_shapes (__main__.CudaGraphTreeTests)": [
     "157556",
     "https://github.com/pytorch/pytorch/issues/157556",
