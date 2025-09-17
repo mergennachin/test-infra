@@ -659,14 +659,6 @@
       "rocm"
     ]
   ],
-  "test_broadcast_add_dynamic (__main__.FxGraphRunnableTest)": [
-    "159112",
-    "https://github.com/pytorch/pytorch/issues/159112",
-    [
-      "asan",
-      "linux"
-    ]
-  ],
   "test_broadcast_batched_matmul_cuda (__main__.TestLinalgCUDA)": [
     "157045",
     "https://github.com/pytorch/pytorch/issues/157045",
@@ -1065,6 +1057,14 @@
       "rocm"
     ]
   ],
+  "test_conv_sub_class_considered (__main__.TestFxModelReportDetector)": [
+    "163156",
+    "https://github.com/pytorch/pytorch/issues/163156",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_conv_transpose (quantization.jit.test_quantize_jit.TestQuantizeJit)": [
     "105124",
     "https://github.com/pytorch/pytorch/issues/105124",
@@ -1370,6 +1370,15 @@
     "https://github.com/pytorch/pytorch/issues/123294",
     [
       "linux"
+    ]
+  ],
+  "test_dynamic_input_expr_expr0 (__main__.AOTFxirTestCase)": [
+    "163157",
+    "https://github.com/pytorch/pytorch/issues/163157",
+    [
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_dynamic_shape_m_20480_k_5_n_2_should_decompose_True_has_bias_False (__main__.TestDecomposeMemMM)": [
@@ -2039,6 +2048,14 @@
       "linux",
       "rocm",
       "slow"
+    ]
+  ],
+  "test_graph_partition_reorder_cpu_and_gpu (__main__.CudaGraphTreeTests)": [
+    "157761",
+    "https://github.com/pytorch/pytorch/issues/157761",
+    [
+      "linux",
+      "rocm"
     ]
   ],
   "test_grid_sample_large_cuda (__main__.TestNNDeviceTypeCUDA)": [
@@ -2742,13 +2759,6 @@
     "https://github.com/pytorch/pytorch/issues/105120",
     [
       "rocm"
-    ]
-  ],
-  "test_new_spectral_norm_forward_swap_True (__main__.TestNNParametrization)": [
-    "131089",
-    "https://github.com/pytorch/pytorch/issues/131089",
-    [
-      "dynamo"
     ]
   ],
   "test_new_subgroups_by_enumeration (__main__.TestDistBackendWithSpawn)": [
@@ -3481,6 +3491,13 @@
       "rocm"
     ]
   ],
+  "test_scaled_dot_product_attention_3D_input_dim_2D_causal_attn_mask_dropout_p_0_2_cuda (__main__.TestTransformersCUDA)": [
+    "157039",
+    "https://github.com/pytorch/pytorch/issues/157039",
+    [
+      "rocm"
+    ]
+  ],
   "test_scaled_dot_product_attention_3D_input_dim_2D_causal_attn_mask_dropout_p_0_5_cuda (__main__.TestTransformersCUDA)": [
     "157091",
     "https://github.com/pytorch/pytorch/issues/157091",
@@ -3498,6 +3515,13 @@
   "test_scaled_dot_product_attention_3D_input_dim_3D_causal_attn_mask_dropout_p_0_2_cuda (__main__.TestTransformersCUDA)": [
     "157040",
     "https://github.com/pytorch/pytorch/issues/157040",
+    [
+      "rocm"
+    ]
+  ],
+  "test_scaled_dot_product_attention_3D_input_dim_3D_causal_attn_mask_dropout_p_0_5_cuda (__main__.TestTransformersCUDA)": [
+    "157092",
+    "https://github.com/pytorch/pytorch/issues/157092",
     [
       "rocm"
     ]
@@ -3533,6 +3557,13 @@
       "rocm"
     ]
   ],
+  "test_scaled_dot_product_attention_4D_input_dim_2D_causal_attn_mask_dropout_p_0_2_cuda (__main__.TestTransformersCUDA)": [
+    "157041",
+    "https://github.com/pytorch/pytorch/issues/157041",
+    [
+      "rocm"
+    ]
+  ],
   "test_scaled_dot_product_attention_4D_input_dim_2D_causal_attn_mask_dropout_p_0_5_cuda (__main__.TestTransformersCUDA)": [
     "157093",
     "https://github.com/pytorch/pytorch/issues/157093",
@@ -3543,6 +3574,13 @@
   "test_scaled_dot_product_attention_4D_input_dim_4D_causal_attn_mask_dropout_p_0_0_cuda (__main__.TestTransformersCUDA)": [
     "157064",
     "https://github.com/pytorch/pytorch/issues/157064",
+    [
+      "rocm"
+    ]
+  ],
+  "test_scaled_dot_product_attention_4D_input_dim_4D_causal_attn_mask_dropout_p_0_2_cuda (__main__.TestTransformersCUDA)": [
+    "157042",
+    "https://github.com/pytorch/pytorch/issues/157042",
     [
       "rocm"
     ]
@@ -3837,14 +3875,6 @@
       "linux"
     ]
   ],
-  "test_toy_model_dynamic_batch (__main__.FxGraphRunnableTest)": [
-    "161580",
-    "https://github.com/pytorch/pytorch/issues/161580",
-    [
-      "asan",
-      "linux"
-    ]
-  ],
   "test_trace_buffer_slice (__main__.TestFX)": [
     "74208",
     "https://github.com/pytorch/pytorch/issues/74208",
@@ -4039,6 +4069,13 @@
   "test_vmap_exhaustive_addmv_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "157617",
     "https://github.com/pytorch/pytorch/issues/157617",
+    [
+      "rocm"
+    ]
+  ],
+  "test_vmap_exhaustive_dot_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
+    "157644",
+    "https://github.com/pytorch/pytorch/issues/157644",
     [
       "rocm"
     ]
