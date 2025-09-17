@@ -1381,6 +1381,15 @@
       "slow"
     ]
   ],
+  "test_dynamic_input_expr_expr1 (__main__.AOTFxirTestCase)": [
+    "163178",
+    "https://github.com/pytorch/pytorch/issues/163178",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_dynamic_shape_m_20480_k_5_n_2_should_decompose_True_has_bias_False (__main__.TestDecomposeMemMM)": [
     "153735",
     "https://github.com/pytorch/pytorch/issues/153735",
@@ -2062,7 +2071,17 @@
     "https://github.com/pytorch/pytorch/issues/157761",
     [
       "linux",
-      "rocm"
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_graph_partition_reorder_cpu_and_gpu_interleave (__main__.CudaGraphTreeTests)": [
+    "152561",
+    "https://github.com/pytorch/pytorch/issues/152561",
+    [
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_grid_sample_large_cuda (__main__.TestNNDeviceTypeCUDA)": [
@@ -2728,6 +2747,14 @@
   "test_mps_memory_leak_detection (__main__.TestMemoryLeak)": [
     "160550",
     "https://github.com/pytorch/pytorch/issues/160550",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
+  "test_multi_linear_model_without_per_channel (__main__.TestFxModelReportDetector)": [
+    "163177",
+    "https://github.com/pytorch/pytorch/issues/163177",
     [
       "mac",
       "macos"
@@ -4141,6 +4168,13 @@
   "test_vmap_exhaustive_nn_functional_conv_transpose1d_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "158010",
     "https://github.com/pytorch/pytorch/issues/158010",
+    [
+      "rocm"
+    ]
+  ],
+  "test_vmap_exhaustive_nn_functional_conv_transpose2d_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
+    "158025",
+    "https://github.com/pytorch/pytorch/issues/158025",
     [
       "rocm"
     ]
