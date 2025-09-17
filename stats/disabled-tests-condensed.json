@@ -1525,6 +1525,14 @@
       "windows"
     ]
   ],
+  "test_extract_weights_linear (__main__.TestFXNumericSuiteNShadows)": [
+    "160446",
+    "https://github.com/pytorch/pytorch/issues/160446",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_fake_crossref_backward_amp_nn_functional_bilinear_cuda_float32 (__main__.TestFakeTensorCUDA)": [
     "159150",
     "https://github.com/pytorch/pytorch/issues/159150",
@@ -1884,6 +1892,15 @@
   "test_graph_partition (__main__.CudaGraphTreeTests)": [
     "157173",
     "https://github.com/pytorch/pytorch/issues/157173",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_graph_partition_cpu_op_and_dynamic_shapes (__main__.CudaGraphTreeTests)": [
+    "157258",
+    "https://github.com/pytorch/pytorch/issues/157258",
     [
       "linux",
       "rocm",
@@ -3072,6 +3089,14 @@
       "macos"
     ]
   ],
+  "test_qconfig_multi_mapping_retroactive_padding (__main__.TestFXNumericSuiteNShadows)": [
+    "163132",
+    "https://github.com/pytorch/pytorch/issues/163132",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_qengine (__main__.TestTorch)": [
     "157245",
     "https://github.com/pytorch/pytorch/issues/157245",
@@ -3370,6 +3395,15 @@
     "157725",
     "https://github.com/pytorch/pytorch/issues/157725",
     [
+      "linux",
+      "slow"
+    ]
+  ],
+  "test_retracibility_nested_list_out_dynamic_shapes (__main__.DynamicShapesExportTests)": [
+    "160050",
+    "https://github.com/pytorch/pytorch/issues/160050",
+    [
+      "asan",
       "linux",
       "slow"
     ]
