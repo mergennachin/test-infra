@@ -425,6 +425,14 @@
       "rocm"
     ]
   ],
+  "test_allocate_in_thread_to_pool (__main__.TestBlockStateAbsorption)": [
+    "158764",
+    "https://github.com/pytorch/pytorch/issues/158764",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_allow_implicit_sharing (__main__.TestQuantizePT2E)": [
     "144988",
     "https://github.com/pytorch/pytorch/issues/144988",
@@ -1007,6 +1015,14 @@
     "https://github.com/pytorch/pytorch/issues/147047",
     [
       "inductor"
+    ]
+  ],
+  "test_conv1d_api (__main__.TestQuantizedFunctionalOps)": [
+    "157296",
+    "https://github.com/pytorch/pytorch/issues/157296",
+    [
+      "mac",
+      "macos"
     ]
   ],
   "test_conv2d_api (__main__.TestQuantizedFunctionalOps)": [
@@ -1664,6 +1680,15 @@
       "slow"
     ]
   ],
+  "test_forward_with_skipped_cudagraphed_backward (__main__.CudaGraphTreeTests)": [
+    "157086",
+    "https://github.com/pytorch/pytorch/issues/157086",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_frozen_fn (__main__.CudaGraphTreeTests)": [
     "157112",
     "https://github.com/pytorch/pytorch/issues/157112",
@@ -1922,15 +1947,6 @@
   "test_graph_partition_cpu_scalar1 (__main__.CudaGraphTreeTests)": [
     "157280",
     "https://github.com/pytorch/pytorch/issues/157280",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
-  "test_graph_partition_cpu_scalar3 (__main__.CudaGraphTreeTests)": [
-    "157339",
-    "https://github.com/pytorch/pytorch/issues/157339",
     [
       "linux",
       "rocm",
