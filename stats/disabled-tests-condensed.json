@@ -696,6 +696,15 @@
       "rocm"
     ]
   ],
+  "test_cdist_large_batch_cpu (__main__.TestTorchDeviceTypeCPU)": [
+    "158909",
+    "https://github.com/pytorch/pytorch/issues/158909",
+    [
+      "asan",
+      "linux",
+      "slow"
+    ]
+  ],
   "test_cdist_non_contiguous_batch_cuda (__main__.TestTorchDeviceTypeCUDA)": [
     "156985",
     "https://github.com/pytorch/pytorch/issues/156985",
@@ -1000,14 +1009,6 @@
       "inductor"
     ]
   ],
-  "test_conv1d_api (__main__.TestQuantizedFunctionalOps)": [
-    "157296",
-    "https://github.com/pytorch/pytorch/issues/157296",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_conv2d_api (__main__.TestQuantizedFunctionalOps)": [
     "157346",
     "https://github.com/pytorch/pytorch/issues/157346",
@@ -1128,6 +1129,15 @@
     "https://github.com/pytorch/pytorch/issues/92131",
     [
       "rocm"
+    ]
+  ],
+  "test_cudagraph_or_error (__main__.CudaGraphTreeTests)": [
+    "162125",
+    "https://github.com/pytorch/pytorch/issues/162125",
+    [
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_custom_functions_and_tracer (__main__.TestFXNumericSuiteNShadows)": [
@@ -1332,15 +1342,6 @@
       "linux"
     ]
   ],
-  "test_dont_aggressively_write_assert (__main__.ReproTests)": [
-    "156570",
-    "https://github.com/pytorch/pytorch/issues/156570",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_dont_dce_rand (__main__.ReproTests)": [
     "156580",
     "https://github.com/pytorch/pytorch/issues/156580",
@@ -1393,6 +1394,14 @@
     "153736",
     "https://github.com/pytorch/pytorch/issues/153736",
     [
+      "linux"
+    ]
+  ],
+  "test_dynamic_shapes_run (__main__.FxGraphRunnableTest)": [
+    "161909",
+    "https://github.com/pytorch/pytorch/issues/161909",
+    [
+      "asan",
       "linux"
     ]
   ],
@@ -1637,15 +1646,6 @@
       "slow"
     ]
   ],
-  "test_forward_generation (__main__.CudaGraphTreeTests)": [
-    "157058",
-    "https://github.com/pytorch/pytorch/issues/157058",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_forward_with_skipped_cudagraphed_backward (__main__.CudaGraphTreeTests)": [
     "157086",
     "https://github.com/pytorch/pytorch/issues/157086",
@@ -1692,6 +1692,14 @@
       "linux",
       "rocm",
       "slow"
+    ]
+  ],
+  "test_functions (__main__.TestFXNumericSuiteNShadows)": [
+    "160620",
+    "https://github.com/pytorch/pytorch/issues/160620",
+    [
+      "mac",
+      "macos"
     ]
   ],
   "test_fused_all_gather_matmul_gather_dim_0 (__main__.AsyncTPTest)": [
@@ -2600,6 +2608,14 @@
       "slow"
     ]
   ],
+  "test_mempool_limited_memory_with_allocator (__main__.TestMemPool)": [
+    "157256",
+    "https://github.com/pytorch/pytorch/issues/157256",
+    [
+      "linux",
+      "rocm"
+    ]
+  ],
   "test_mempool_with_allocator (__main__.TestMemPool)": [
     "154566",
     "https://github.com/pytorch/pytorch/issues/154566",
@@ -2841,15 +2857,6 @@
     "https://github.com/pytorch/pytorch/issues/157090",
     [
       "rocm"
-    ]
-  ],
-  "test_op_has_batch_rule_linalg_vecdot_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
-    "142924",
-    "https://github.com/pytorch/pytorch/issues/142924",
-    [
-      "linux",
-      "rocm",
-      "slow"
     ]
   ],
   "test_op_has_batch_rule_matmul_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
@@ -3739,6 +3746,13 @@
       "linux"
     ]
   ],
+  "test_str_bytes_get_insert_thread_safe_Cache0 (__main__.CacheTest)": [
+    "163247",
+    "https://github.com/pytorch/pytorch/issues/163247",
+    [
+      "linux"
+    ]
+  ],
   "test_strided_grad_layout (__main__.TestDataParallel)": [
     "159489",
     "https://github.com/pytorch/pytorch/issues/159489",
@@ -3875,6 +3889,14 @@
   "test_toy_model_batch_processing (__main__.FxGraphRunnableTest)": [
     "162231",
     "https://github.com/pytorch/pytorch/issues/162231",
+    [
+      "asan",
+      "linux"
+    ]
+  ],
+  "test_toy_model_dynamic_batch (__main__.FxGraphRunnableTest)": [
+    "161580",
+    "https://github.com/pytorch/pytorch/issues/161580",
     [
       "asan",
       "linux"
@@ -4081,6 +4103,13 @@
   "test_vmap_exhaustive_dot_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "157644",
     "https://github.com/pytorch/pytorch/issues/157644",
+    [
+      "rocm"
+    ]
+  ],
+  "test_vmap_exhaustive_inner_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
+    "157726",
+    "https://github.com/pytorch/pytorch/issues/157726",
     [
       "rocm"
     ]
