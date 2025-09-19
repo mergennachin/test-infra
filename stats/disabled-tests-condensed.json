@@ -1696,6 +1696,15 @@
       "slow"
     ]
   ],
+  "test_frozen_fn (__main__.CudaGraphTreeTests)": [
+    "157112",
+    "https://github.com/pytorch/pytorch/issues/157112",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_fsdp_unsupported_module_cls (__main__.TestFSDPMiscMultiThread)": [
     "137948",
     "https://github.com/pytorch/pytorch/issues/137948",
@@ -2564,13 +2573,6 @@
     [
       "linux",
       "rocm"
-    ]
-  ],
-  "test_memory_format_nn_ConvTranspose1d_cuda_complex32 (__main__.TestModuleCUDA)": [
-    "107426",
-    "https://github.com/pytorch/pytorch/issues/107426",
-    [
-      "linux"
     ]
   ],
   "test_memory_format_nn_ConvTranspose2d_cuda_complex32 (__main__.TestModuleCUDA)": [
