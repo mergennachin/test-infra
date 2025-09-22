@@ -617,13 +617,6 @@
       "rocm"
     ]
   ],
-  "test_baddmm_search_space_EXHAUSTIVE (__main__.TestMaxAutotune)": [
-    "161484",
-    "https://github.com/pytorch/pytorch/issues/161484",
-    [
-      "xpu"
-    ]
-  ],
   "test_barrier_timeout_group (__main__.TestDistBackendWithSpawn)": [
     "70755",
     "https://github.com/pytorch/pytorch/issues/70755",
