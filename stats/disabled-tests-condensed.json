@@ -1970,6 +1970,15 @@
       "slow"
     ]
   ],
+  "test_graph_partition_cpu_scalar_multiple (__main__.CudaGraphTreeTests)": [
+    "160719",
+    "https://github.com/pytorch/pytorch/issues/160719",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_graph_partition_cpu_tensor_symints (__main__.CudaGraphTreeTests)": [
     "157367",
     "https://github.com/pytorch/pytorch/issues/157367",
