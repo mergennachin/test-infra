@@ -1025,6 +1025,14 @@
       "macos"
     ]
   ],
+  "test_conv2d_api (__main__.TestQuantizedFunctionalOps)": [
+    "157346",
+    "https://github.com/pytorch/pytorch/issues/157346",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_conv2d_unary_cpu_cpp_wrapper (__main__.TestCppWrapper)": [
     "158331",
     "https://github.com/pytorch/pytorch/issues/158331",
@@ -1418,6 +1426,15 @@
     [
       "rocm",
       "windows"
+    ]
+  ],
+  "test_dynamic_warmup (__main__.CudaGraphTreeTests)": [
+    "156693",
+    "https://github.com/pytorch/pytorch/issues/156693",
+    [
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_e2e_compile_True_model_type0 (__main__.TestE2ESaveAndLoad)": [
@@ -1947,15 +1964,6 @@
   "test_graph_partition_cpu_scalar4 (__main__.CudaGraphTreeTests)": [
     "157350",
     "https://github.com/pytorch/pytorch/issues/157350",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
-  "test_graph_partition_cpu_scalar_mutation (__main__.CudaGraphTreeTests)": [
-    "157359",
-    "https://github.com/pytorch/pytorch/issues/157359",
     [
       "linux",
       "rocm",
@@ -2967,14 +2975,6 @@
       "rocm"
     ]
   ],
-  "test_partial_qconfig_mapping (__main__.TestFXNumericSuiteNShadows)": [
-    "162382",
-    "https://github.com/pytorch/pytorch/issues/162382",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_pending_fusions_multiple (__main__.TestPrologueFusion)": [
     "152221",
     "https://github.com/pytorch/pytorch/issues/152221",
@@ -3471,6 +3471,15 @@
       "rocm"
     ]
   ],
+  "test_rng (__main__.TestCompilerBisector)": [
+    "139590",
+    "https://github.com/pytorch/pytorch/issues/139590",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_rnn_fused_cuda_float32 (__main__.TestNNDeviceTypeCUDA)": [
     "157082",
     "https://github.com/pytorch/pytorch/issues/157082",
@@ -3558,13 +3567,6 @@
     [
       "mac",
       "macos"
-    ]
-  ],
-  "test_sdpa_with_packed_in_proj_cuda_float32 (__main__.TestNestedTensorSubclassCUDA)": [
-    "120029",
-    "https://github.com/pytorch/pytorch/issues/120029",
-    [
-      "rocm"
     ]
   ],
   "test_send_recv_all_to_all (__main__.ProcessGroupGlooTest)": [
@@ -3966,6 +3968,14 @@
       "rocm"
     ]
   ],
+  "test_upper_bound_i64_cuda (__main__.AOTInductorTestABICompatibleGpu)": [
+    "159860",
+    "https://github.com/pytorch/pytorch/issues/159860",
+    [
+      "inductor",
+      "linux"
+    ]
+  ],
   "test_vae_cuda (__main__.TestModels)": [
     "161726",
     "https://github.com/pytorch/pytorch/issues/161726",
@@ -4013,13 +4023,6 @@
   "test_vmap_exhaustive_inner_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "157726",
     "https://github.com/pytorch/pytorch/issues/157726",
-    [
-      "rocm"
-    ]
-  ],
-  "test_vmap_exhaustive_nn_functional_conv2d_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
-    "157880",
-    "https://github.com/pytorch/pytorch/issues/157880",
     [
       "rocm"
     ]
