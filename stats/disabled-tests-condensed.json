@@ -1233,14 +1233,6 @@
       "linux"
     ]
   ],
-  "test_detect_leak_nonstrict (__main__.TestExport)": [
-    "162232",
-    "https://github.com/pytorch/pytorch/issues/162232",
-    [
-      "asan",
-      "linux"
-    ]
-  ],
   "test_detect_leak_nonstrict_cpp_serdes (__main__.CppSerdesTestExport)": [
     "162122",
     "https://github.com/pytorch/pytorch/issues/162122",
