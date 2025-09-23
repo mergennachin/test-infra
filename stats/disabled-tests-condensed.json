@@ -2785,6 +2785,13 @@
       "macos"
     ]
   ],
+  "test_qwen2_7b_sdpa_input_alignment_requires_recompile (__main__.CudaReproTests)": [
+    "163689",
+    "https://github.com/pytorch/pytorch/issues/163689",
+    [
+      "rocm"
+    ]
+  ],
   "test_rand (test_jit.TestScript)": [
     "91495",
     "https://github.com/pytorch/pytorch/issues/91495",
