@@ -1461,6 +1461,15 @@
       "slow"
     ]
   ],
+  "test_empty_storage (__main__.CudaGraphTreeTests)": [
+    "156755",
+    "https://github.com/pytorch/pytorch/issues/156755",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_empty_strided_p2p_set_device_False (__main__.SymmMemEmptySetDeviceTest)": [
     "162071",
     "https://github.com/pytorch/pytorch/issues/162071",
@@ -1865,6 +1874,14 @@
   "test_grad_scaling_autocast_fused_optimizers_Adam_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
     "135993",
     "https://github.com/pytorch/pytorch/issues/135993",
+    [
+      "linux",
+      "rocm"
+    ]
+  ],
+  "test_grad_scaling_autocast_fused_optimizers_SGD_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
+    "136013",
+    "https://github.com/pytorch/pytorch/issues/136013",
     [
       "linux",
       "rocm"
@@ -3208,6 +3225,15 @@
       "windows"
     ]
   ],
+  "test_relative_import (__main__.ReproTests)": [
+    "156679",
+    "https://github.com/pytorch/pytorch/issues/156679",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_relative_import_no_modulename (__main__.ReproTests)": [
     "156691",
     "https://github.com/pytorch/pytorch/issues/156691",
@@ -3402,6 +3428,13 @@
       "asan",
       "linux",
       "slow"
+    ]
+  ],
+  "test_return_aux_deprecation_warnings_cuda_float16 (__main__.TestFlexAttentionCUDA)": [
+    "162464",
+    "https://github.com/pytorch/pytorch/issues/162464",
+    [
+      "rocm"
     ]
   ],
   "test_ring_flex_attention (__main__.RingFlexAttentionTest)": [
