@@ -31,6 +31,14 @@
     "cuda12.8-py3.10-gcc9-sm80",
     "test (inductor_torchbench_smoketest_perf)"
   ],
+  "periodic / linux-jammy-cuda12.4-py3.10-gcc11 / test (legacy_nvidia_driver)": [
+    "atalman",
+    "163657",
+    "https://github.com/pytorch/pytorch/issues/163657",
+    "periodic",
+    "linux-jammy-cuda12.4-py3.10-gcc11",
+    "test (legacy_nvidia_driver)"
+  ],
   "pull / linux-jammy-py3_9-clang9-xla / test (xla)": [
     "ZainRizvi",
     "158876",
