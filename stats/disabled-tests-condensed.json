@@ -2978,6 +2978,13 @@
       "slow"
     ]
   ],
+  "test_repeated_masked_load (__main__.CudaReproTests)": [
+    "163701",
+    "https://github.com/pytorch/pytorch/issues/163701",
+    [
+      "rocm"
+    ]
+  ],
   "test_requires_grad_loop (test_jit.TestScript)": [
     "91492",
     "https://github.com/pytorch/pytorch/issues/91492",
