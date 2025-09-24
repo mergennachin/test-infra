@@ -150,10 +150,11 @@
       "macos"
     ]
   ],
-  "test_add_loggers_linear_mod_fp32_fp32 (__main__.TestFXNumericSuiteNShadows)": [
-    "159036",
-    "https://github.com/pytorch/pytorch/issues/159036",
+  "test_add_loggers_functions (__main__.TestFXNumericSuiteNShadows)": [
+    "140380",
+    "https://github.com/pytorch/pytorch/issues/140380",
     [
+      "dynamo",
       "mac",
       "macos"
     ]
@@ -1484,9 +1485,9 @@
       "rocm"
     ]
   ],
-  "test_flex_attention_stride_ordering_mode_paged_attention_permute_order3_shape1_cuda (__main__.TestFlexAttentionCUDA)": [
-    "161503",
-    "https://github.com/pytorch/pytorch/issues/161503",
+  "test_flex_attention_stride_ordering_mode_paged_attention_permute_order3_shape0_cuda (__main__.TestFlexAttentionCUDA)": [
+    "163717",
+    "https://github.com/pytorch/pytorch/issues/163717",
     [
       "linux"
     ]
@@ -2231,6 +2232,15 @@
       "rocm"
     ]
   ],
+  "test_memory_plots_free_segment_stack (__main__.TestCudaMallocAsync)": [
+    "137223",
+    "https://github.com/pytorch/pytorch/issues/137223",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_memory_snapshot (__main__.TestCudaMallocAsync)": [
     "126953",
     "https://github.com/pytorch/pytorch/issues/126953",
@@ -2360,6 +2370,13 @@
     [
       "linux",
       "slow"
+    ]
+  ],
+  "test_modes_handle_first (__main__.TestTorchFunctionMode)": [
+    "162624",
+    "https://github.com/pytorch/pytorch/issues/162624",
+    [
+      "dynamo"
     ]
   ],
   "test_module_and_optimizer_ids (__main__.TestTorchTidyProfiler)": [
@@ -2510,13 +2527,6 @@
       "linux",
       "rocm",
       "slow"
-    ]
-  ],
-  "test_op_has_batch_rule_nn_functional_conv2d_strided_padding_dilation_with_bias_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
-    "157335",
-    "https://github.com/pytorch/pytorch/issues/157335",
-    [
-      "rocm"
     ]
   ],
   "test_op_has_batch_rule_nn_functional_conv_transpose1d_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
@@ -2875,6 +2885,15 @@
       "slow"
     ]
   ],
+  "test_relative_import_no_modulename (__main__.ReproTests)": [
+    "156691",
+    "https://github.com/pytorch/pytorch/issues/156691",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_remote_cache_load_function_device_cuda_bfloat16_dynamic_False_bundle_triton_False (__main__.TestFxGraphCache)": [
     "145182",
     "https://github.com/pytorch/pytorch/issues/145182",
@@ -2917,13 +2936,55 @@
       "mac"
     ]
   ],
-  "test_remove_noop_slice_scatter_cuda (__main__.GPUTests)": [
-    "151378",
-    "https://github.com/pytorch/pytorch/issues/151378",
+  "test_remove_noop_slice1_cpu (__main__.CpuTests)": [
+    "151379",
+    "https://github.com/pytorch/pytorch/issues/151379",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm"
+    ]
+  ],
+  "test_remove_noop_slice1_cuda (__main__.GPUTests)": [
+    "151381",
+    "https://github.com/pytorch/pytorch/issues/151381",
     [
       "linux",
       "rocm",
       "slow"
+    ]
+  ],
+  "test_remove_noop_slice_cpu (__main__.CpuTests)": [
+    "151384",
+    "https://github.com/pytorch/pytorch/issues/151384",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm"
+    ]
+  ],
+  "test_remove_noop_slice_cuda (__main__.GPUTests)": [
+    "151383",
+    "https://github.com/pytorch/pytorch/issues/151383",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_remove_noop_slice_scatter_cpu (__main__.CpuTests)": [
+    "151382",
+    "https://github.com/pytorch/pytorch/issues/151382",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm"
     ]
   ],
   "test_remove_noop_view_default_cpu (__main__.CpuTests)": [
@@ -2934,15 +2995,6 @@
       "linux",
       "mac",
       "macos",
-      "rocm",
-      "slow"
-    ]
-  ],
-  "test_remove_noop_view_default_cuda (__main__.GPUTests)": [
-    "151511",
-    "https://github.com/pytorch/pytorch/issues/151511",
-    [
-      "linux",
       "rocm",
       "slow"
     ]
