@@ -1370,15 +1370,6 @@
       "rocm"
     ]
   ],
-  "test_empty_storage (__main__.CudaGraphTreeTests)": [
-    "156755",
-    "https://github.com/pytorch/pytorch/issues/156755",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_empty_strided_p2p_set_device_False (__main__.SymmMemEmptySetDeviceTest)": [
     "162071",
     "https://github.com/pytorch/pytorch/issues/162071",
