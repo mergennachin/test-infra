@@ -732,6 +732,14 @@
       "linux"
     ]
   ],
+  "test_compile_kernel_advanced (__main__.TestCompileKernel)": [
+    "157172",
+    "https://github.com/pytorch/pytorch/issues/157172",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_compile_selective_checkpoint_custom_rule_cuda (__main__.ActivationCheckpointingViaTagsTestsCUDA)": [
     "161923",
     "https://github.com/pytorch/pytorch/issues/161923",
