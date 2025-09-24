@@ -167,6 +167,15 @@
       "macos"
     ]
   ],
+  "test_add_loggers_linear_mod_fp32_quant (__main__.TestFXNumericSuiteNShadows)": [
+    "142860",
+    "https://github.com/pytorch/pytorch/issues/142860",
+    [
+      "dynamo",
+      "mac",
+      "macos"
+    ]
+  ],
   "test_add_loggers_linear_mod_quant_fp32 (__main__.TestFXNumericSuiteNShadows)": [
     "159152",
     "https://github.com/pytorch/pytorch/issues/159152",
@@ -463,16 +472,6 @@
       "linux"
     ]
   ],
-  "test_aoti_fx_dynamic (__main__.AOTFxirTestCase)": [
-    "160970",
-    "https://github.com/pytorch/pytorch/issues/160970",
-    [
-      "linux",
-      "rocm",
-      "slow",
-      "xpu"
-    ]
-  ],
   "test_aoti_fx_linear (__main__.AOTFxirTestCase)": [
     "161038",
     "https://github.com/pytorch/pytorch/issues/161038",
@@ -726,14 +725,6 @@
       "linux"
     ]
   ],
-  "test_compile_kernel_advanced (__main__.TestCompileKernel)": [
-    "157172",
-    "https://github.com/pytorch/pytorch/issues/157172",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_compile_selective_checkpoint_custom_rule_cuda (__main__.ActivationCheckpointingViaTagsTestsCUDA)": [
     "161923",
     "https://github.com/pytorch/pytorch/issues/161923",
@@ -860,18 +851,6 @@
       "inductor",
       "linux",
       "slow"
-    ]
-  ],
-  "test_comprehensive_nn_functional_conv_transpose3d_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
-    "102290",
-    "https://github.com/pytorch/pytorch/issues/102290",
-    [
-      "inductor",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "win"
     ]
   ],
   "test_comprehensive_nn_functional_glu_cuda_float16 (__main__.TestInductorOpInfoCUDA)": [
@@ -1591,6 +1570,21 @@
       "rocm"
     ]
   ],
+  "test_get_mode_stack (__main__.TestTorchFunctionMode)": [
+    "133994",
+    "https://github.com/pytorch/pytorch/issues/133994",
+    [
+      "asan",
+      "dynamo",
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "slow",
+      "win",
+      "windows"
+    ]
+  ],
   "test_get_parameter_dtype (__main__.ReproTests)": [
     "156598",
     "https://github.com/pytorch/pytorch/issues/156598",
@@ -1826,13 +1820,6 @@
     "https://github.com/pytorch/pytorch/issues/115859",
     [
       "rocm"
-    ]
-  ],
-  "test_jacobian_vectorize_raises_no_warnings_logging_tensor (__main__.TestAutogradFunctional)": [
-    "153707",
-    "https://github.com/pytorch/pytorch/issues/153707",
-    [
-      "dynamo"
     ]
   ],
   "test_jvpvjp_nn_functional_conv3d_cuda_float32 (__main__.TestOperatorsCUDA)": [
@@ -2645,14 +2632,6 @@
       "macos"
     ]
   ],
-  "test_qconfig_multi_mapping_end_to_end (__main__.TestFXNumericSuiteNShadows)": [
-    "162585",
-    "https://github.com/pytorch/pytorch/issues/162585",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_qconfig_multi_mapping_from_list (__main__.TestFXNumericSuiteNShadows)": [
     "162675",
     "https://github.com/pytorch/pytorch/issues/162675",
@@ -3249,15 +3228,6 @@
       "linux"
     ]
   ],
-  "test_slice_scatter_reinplace_cuda (__main__.GPUTests)": [
-    "145189",
-    "https://github.com/pytorch/pytorch/issues/145189",
-    [
-      "inductor",
-      "linux",
-      "rocm"
-    ]
-  ],
   "test_slogdet_cuda_float32 (__main__.TestLinalgCUDA)": [
     "157126",
     "https://github.com/pytorch/pytorch/issues/157126",
@@ -3636,13 +3606,6 @@
   "test_vmap_exhaustive_inner_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "157726",
     "https://github.com/pytorch/pytorch/issues/157726",
-    [
-      "rocm"
-    ]
-  ],
-  "test_vmap_exhaustive_nn_functional_conv2d_strided_padding_dilation_with_bias_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
-    "157987",
-    "https://github.com/pytorch/pytorch/issues/157987",
     [
       "rocm"
     ]
