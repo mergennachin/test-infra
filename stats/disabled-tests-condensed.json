@@ -1378,6 +1378,13 @@
       "rocm"
     ]
   ],
+  "test_emulate_precision_casts_mean_ratio_chain (__main__.CudaReproTests)": [
+    "163765",
+    "https://github.com/pytorch/pytorch/issues/163765",
+    [
+      "rocm"
+    ]
+  ],
   "test_equivalent_template_code (__main__.BenchmarkMultiTemplateFusionCudaTest)": [
     "145017",
     "https://github.com/pytorch/pytorch/issues/145017",
