@@ -397,6 +397,11 @@
       "mac"
     ]
   ],
+  "test_all_to_all_vdev_2d_offset (__main__.NVSHMEMAll2AllTest)": [
+    "163847",
+    "https://github.com/pytorch/pytorch/issues/163847",
+    []
+  ],
   "test_allgather_stress_cuda (__main__.ProcessGroupGlooFRTest)": [
     "155711",
     "https://github.com/pytorch/pytorch/issues/155711",
