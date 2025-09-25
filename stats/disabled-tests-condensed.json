@@ -479,16 +479,6 @@
       "linux"
     ]
   ],
-  "test_aoti_fx_linear (__main__.AOTFxirTestCase)": [
-    "161038",
-    "https://github.com/pytorch/pytorch/issues/161038",
-    [
-      "linux",
-      "rocm",
-      "slow",
-      "xpu"
-    ]
-  ],
   "test_assigning_back_deleter_fns_to_tensor (__main__.TestBlockStateAbsorption)": [
     "134810",
     "https://github.com/pytorch/pytorch/issues/134810",
@@ -737,6 +727,7 @@
     "https://github.com/pytorch/pytorch/issues/157172",
     [
       "linux",
+      "rocm",
       "slow"
     ]
   ],
@@ -1057,15 +1048,6 @@
     [
       "mac",
       "macos"
-    ]
-  ],
-  "test_custom_triton_autotune_dynamic (__main__.AOTFxirTestCase)": [
-    "161698",
-    "https://github.com/pytorch/pytorch/issues/161698",
-    [
-      "linux",
-      "rocm",
-      "slow"
     ]
   ],
   "test_dataclass_in_module (__main__.ReproTests)": [
