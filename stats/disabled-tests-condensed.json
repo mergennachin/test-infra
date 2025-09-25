@@ -465,13 +465,6 @@
       "macos"
     ]
   ],
-  "test_aot_autograd_runtime_wrapper_prologue_profiled (__main__.ReproTests)": [
-    "156678",
-    "https://github.com/pytorch/pytorch/issues/156678",
-    [
-      "linux"
-    ]
-  ],
   "test_aot_cudagraphs_cuda (__main__.TestOptimizationsCUDA)": [
     "146851",
     "https://github.com/pytorch/pytorch/issues/146851",
@@ -948,15 +941,6 @@
   "test_conv2d_unary_cpu_cpp_wrapper (__main__.TestCppWrapper)": [
     "158331",
     "https://github.com/pytorch/pytorch/issues/158331",
-    [
-      "asan",
-      "linux",
-      "slow"
-    ]
-  ],
-  "test_conv2d_unary_dynamic_shapes_cpu (__main__.TestDynamicPatternMatcherGenericCPU)": [
-    "162703",
-    "https://github.com/pytorch/pytorch/issues/162703",
     [
       "asan",
       "linux",
@@ -2635,14 +2619,6 @@
       "macos"
     ]
   ],
-  "test_qconfig_multi_mapping_from_list (__main__.TestFXNumericSuiteNShadows)": [
-    "162675",
-    "https://github.com/pytorch/pytorch/issues/162675",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_qconfig_multi_mapping_insert_padding (__main__.TestFXNumericSuiteNShadows)": [
     "162783",
     "https://github.com/pytorch/pytorch/issues/162783",
@@ -3609,13 +3585,6 @@
   "test_vmap_exhaustive_inner_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "157726",
     "https://github.com/pytorch/pytorch/issues/157726",
-    [
-      "rocm"
-    ]
-  ],
-  "test_vmap_exhaustive_nn_functional_conv_transpose1d_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
-    "158010",
-    "https://github.com/pytorch/pytorch/issues/158010",
     [
       "rocm"
     ]
