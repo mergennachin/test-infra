@@ -2582,34 +2582,6 @@
       "macos"
     ]
   ],
-  "test_select_SparseBSC_int32_cuda_bfloat16 (__main__.TestSparseCSRCUDA)": [
-    "160784",
-    "https://github.com/pytorch/pytorch/issues/160784",
-    [
-      "rocm"
-    ]
-  ],
-  "test_select_SparseBSC_int32_cuda_bool (__main__.TestSparseCSRCUDA)": [
-    "160786",
-    "https://github.com/pytorch/pytorch/issues/160786",
-    [
-      "rocm"
-    ]
-  ],
-  "test_select_SparseBSC_int32_cuda_complex64 (__main__.TestSparseCSRCUDA)": [
-    "160785",
-    "https://github.com/pytorch/pytorch/issues/160785",
-    [
-      "rocm"
-    ]
-  ],
-  "test_select_SparseBSC_int32_cuda_float16 (__main__.TestSparseCSRCUDA)": [
-    "163663",
-    "https://github.com/pytorch/pytorch/issues/163663",
-    [
-      "rocm"
-    ]
-  ],
   "test_send_recv_all_to_all (__main__.ProcessGroupGlooTest)": [
     "71195",
     "https://github.com/pytorch/pytorch/issues/71195",
