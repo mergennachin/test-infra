@@ -245,16 +245,6 @@
       "linux"
     ]
   ],
-  "test_assigning_back_deleter_fns_to_tensor (__main__.TestBlockStateAbsorption)": [
-    "134810",
-    "https://github.com/pytorch/pytorch/issues/134810",
-    [
-      "linux",
-      "slow",
-      "win",
-      "windows"
-    ]
-  ],
   "test_attn_cuda (__main__.TestMin)": [
     "86710",
     "https://github.com/pytorch/pytorch/issues/86710",
@@ -336,13 +326,6 @@
     [
       "linux",
       "rocm"
-    ]
-  ],
-  "test_bitwise_print_precedence (__main__.ReproTests)": [
-    "156736",
-    "https://github.com/pytorch/pytorch/issues/156736",
-    [
-      "linux"
     ]
   ],
   "test_broadcast_add_dynamic (__main__.FxGraphRunnableTest)": [
@@ -960,6 +943,7 @@
       "mac",
       "macos",
       "rocm",
+      "slow",
       "win",
       "windows"
     ]
@@ -1703,6 +1687,13 @@
       "rocm"
     ]
   ],
+  "test_memory_format_nn_ConvTranspose1d_cuda_complex32 (__main__.TestModuleCUDA)": [
+    "107426",
+    "https://github.com/pytorch/pytorch/issues/107426",
+    [
+      "linux"
+    ]
+  ],
   "test_memory_format_nn_ConvTranspose2d_cuda_complex32 (__main__.TestModuleCUDA)": [
     "95172",
     "https://github.com/pytorch/pytorch/issues/95172",
@@ -2371,9 +2362,42 @@
       "slow"
     ]
   ],
+  "test_remove_noop_view_default_cpu (__main__.CpuTests)": [
+    "151512",
+    "https://github.com/pytorch/pytorch/issues/151512",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_remove_noop_view_default_cuda (__main__.GPUTests)": [
     "151511",
     "https://github.com/pytorch/pytorch/issues/151511",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_remove_noop_view_dtype_cpu (__main__.CpuTests)": [
+    "151540",
+    "https://github.com/pytorch/pytorch/issues/151540",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_remove_noop_view_dtype_cuda (__main__.GPUTests)": [
+    "151541",
+    "https://github.com/pytorch/pytorch/issues/151541",
     [
       "linux",
       "rocm",
