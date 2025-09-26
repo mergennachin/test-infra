@@ -209,6 +209,13 @@
       "linux"
     ]
   ],
+  "test_allreduce_inductor_cudagraph_trees (__main__.TestCollectivesMultiProc)": [
+    "164018",
+    "https://github.com/pytorch/pytorch/issues/164018",
+    [
+      "rocm"
+    ]
+  ],
   "test_always_alive_values (jit.test_freezing.TestMKLDNNReinplacing)": [
     "91486",
     "https://github.com/pytorch/pytorch/issues/91486",
