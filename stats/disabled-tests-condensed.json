@@ -42,6 +42,20 @@
       "rocm"
     ]
   ],
+  "test_TransformerDecoderLayer_relu_activation_cuda_tf32 (__main__.TestNN)": [
+    "163917",
+    "https://github.com/pytorch/pytorch/issues/163917",
+    [
+      "rocm"
+    ]
+  ],
+  "test_TransformerEncoderLayer_relu_activation_cuda_tf32 (__main__.TestNN)": [
+    "163918",
+    "https://github.com/pytorch/pytorch/issues/163918",
+    [
+      "rocm"
+    ]
+  ],
   "test_Transformer_multilayer_coder_cuda_tf32 (__main__.TestNN)": [
     "155235",
     "https://github.com/pytorch/pytorch/issues/155235",
