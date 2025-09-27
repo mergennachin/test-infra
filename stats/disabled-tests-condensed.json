@@ -263,20 +263,6 @@
       "windows"
     ]
   ],
-  "test_autocast_checkpointing (__main__.TestCudaAutocast)": [
-    "160507",
-    "https://github.com/pytorch/pytorch/issues/160507",
-    [
-      "rocm"
-    ]
-  ],
-  "test_autocast_custom_enabled (__main__.TestCudaAutocast)": [
-    "160598",
-    "https://github.com/pytorch/pytorch/issues/160598",
-    [
-      "rocm"
-    ]
-  ],
   "test_autocast_rnn (__main__.TestCuda)": [
     "121806",
     "https://github.com/pytorch/pytorch/issues/121806",
