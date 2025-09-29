@@ -647,8 +647,8 @@
     ]
   ],
   "test_conv1d_with_permute_xpu (__main__.GPUTests)": [
-    "164098",
-    "https://github.com/pytorch/pytorch/issues/164098",
+    "164100",
+    "https://github.com/pytorch/pytorch/issues/164100",
     [
       "xpu"
     ]
@@ -855,76 +855,6 @@
       "asan",
       "linux",
       "rocm"
-    ]
-  ],
-  "test_detect_leak_nonstrict_cpp_serdes (__main__.CppSerdesTestExport)": [
-    "162122",
-    "https://github.com/pytorch/pytorch/issues/162122",
-    [
-      "asan",
-      "linux",
-      "rocm"
-    ]
-  ],
-  "test_detect_leak_nonstrict_inline_and_install_strict (__main__.InlineAndInstallStrictExportTestExport)": [
-    "162802",
-    "https://github.com/pytorch/pytorch/issues/162802",
-    [
-      "asan",
-      "linux"
-    ]
-  ],
-  "test_detect_leak_nonstrict_retraceability_nonstrict (__main__.RetraceExportNonStrictTestExport)": [
-    "162145",
-    "https://github.com/pytorch/pytorch/issues/162145",
-    [
-      "linux",
-      "rocm"
-    ]
-  ],
-  "test_detect_leak_nonstrict_retraceability_strict (__main__.RetraceExportTestExport)": [
-    "162234",
-    "https://github.com/pytorch/pytorch/issues/162234",
-    [
-      "linux"
-    ]
-  ],
-  "test_detect_leak_nonstrict_serdes_nonstrict (__main__.SerDesExportNonStrictTestExport)": [
-    "162233",
-    "https://github.com/pytorch/pytorch/issues/162233",
-    [
-      "asan",
-      "linux"
-    ]
-  ],
-  "test_detect_leak_nonstrict_serdes_strict (__main__.SerDesExportTestExport)": [
-    "162123",
-    "https://github.com/pytorch/pytorch/issues/162123",
-    [
-      "linux"
-    ]
-  ],
-  "test_detect_leak_nonstrict_strict (__main__.StrictExportTestExport)": [
-    "162445",
-    "https://github.com/pytorch/pytorch/issues/162445",
-    [
-      "linux"
-    ]
-  ],
-  "test_detect_leak_nonstrict_strict_export_v2 (__main__.StrictExportV2TestExport)": [
-    "162461",
-    "https://github.com/pytorch/pytorch/issues/162461",
-    [
-      "asan",
-      "linux",
-      "rocm"
-    ]
-  ],
-  "test_detect_leak_nonstrict_training_ir_to_decomp_nonstrict (__main__.TrainingIRToRunDecompExportNonStrictTestExport)": [
-    "162229",
-    "https://github.com/pytorch/pytorch/issues/162229",
-    [
-      "linux"
     ]
   ],
   "test_disable_external_correlation (__main__.TestProfiler)": [
@@ -1974,15 +1904,6 @@
   "test_op_has_batch_rule_linalg_vecdot_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "142924",
     "https://github.com/pytorch/pytorch/issues/142924",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
-  "test_op_has_batch_rule_tensordot_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
-    "142769",
-    "https://github.com/pytorch/pytorch/issues/142769",
     [
       "linux",
       "rocm",
