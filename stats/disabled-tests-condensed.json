@@ -323,6 +323,13 @@
       "rocm"
     ]
   ],
+  "test_bitwise_print_precedence (__main__.ReproTests)": [
+    "156736",
+    "https://github.com/pytorch/pytorch/issues/156736",
+    [
+      "linux"
+    ]
+  ],
   "test_broadcast_add_dynamic (__main__.FxGraphRunnableTest)": [
     "159112",
     "https://github.com/pytorch/pytorch/issues/159112",
@@ -769,13 +776,6 @@
     [
       "mac",
       "macos"
-    ]
-  ],
-  "test_dataclass_in_module (__main__.ReproTests)": [
-    "156776",
-    "https://github.com/pytorch/pytorch/issues/156776",
-    [
-      "linux"
     ]
   ],
   "test_dataclass_init_with_default_factory_with_inputs (__main__.ReproTests)": [
