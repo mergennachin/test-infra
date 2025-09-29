@@ -632,6 +632,27 @@
       "macos"
     ]
   ],
+  "test_conv1d_depthwise_dynamic_shapes_xpu (__main__.DynamicShapesCodegenGPUTests)": [
+    "164099",
+    "https://github.com/pytorch/pytorch/issues/164099",
+    [
+      "xpu"
+    ]
+  ],
+  "test_conv1d_with_permute_dynamic_shapes_xpu (__main__.DynamicShapesGPUTests)": [
+    "164097",
+    "https://github.com/pytorch/pytorch/issues/164097",
+    [
+      "xpu"
+    ]
+  ],
+  "test_conv1d_with_permute_xpu (__main__.GPUTests)": [
+    "164098",
+    "https://github.com/pytorch/pytorch/issues/164098",
+    [
+      "xpu"
+    ]
+  ],
   "test_conv2d_api (__main__.TestQuantizedFunctionalOps)": [
     "157346",
     "https://github.com/pytorch/pytorch/issues/157346",
