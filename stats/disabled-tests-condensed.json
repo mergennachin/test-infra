@@ -989,6 +989,14 @@
       "slow"
     ]
   ],
+  "test_dropout_deterministic_cuda (__main__.GPUTests)": [
+    "133025",
+    "https://github.com/pytorch/pytorch/issues/133025",
+    [
+      "inductor",
+      "linux"
+    ]
+  ],
   "test_dtensor_compile_redistribute (__main__.FxGraphRunnableTest)": [
     "163594",
     "https://github.com/pytorch/pytorch/issues/163594",
@@ -1972,14 +1980,6 @@
       "slow"
     ]
   ],
-  "test_op_has_batch_rule_nn_functional_conv_transpose3d_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
-    "82340",
-    "https://github.com/pytorch/pytorch/issues/82340",
-    [
-      "linux",
-      "rocm"
-    ]
-  ],
   "test_op_has_batch_rule_tensordot_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "142769",
     "https://github.com/pytorch/pytorch/issues/142769",
@@ -2107,14 +2107,6 @@
   "test_qat_aware_model_example (__main__.TestFxModelReportDetector)": [
     "163325",
     "https://github.com/pytorch/pytorch/issues/163325",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_qconfig_multi_mapping_ordering (__main__.TestFXNumericSuiteNShadows)": [
-    "162930",
-    "https://github.com/pytorch/pytorch/issues/162930",
     [
       "mac",
       "macos"
