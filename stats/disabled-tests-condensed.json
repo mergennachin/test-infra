@@ -677,6 +677,13 @@
       "rocm"
     ]
   ],
+  "test_conv3d_cudnn_broken_cuda (__main__.TestConvolutionNNDeviceTypeCUDA)": [
+    "164137",
+    "https://github.com/pytorch/pytorch/issues/164137",
+    [
+      "rocm"
+    ]
+  ],
   "test_conv_bn_relu_mod (__main__.TestFXNumericSuiteNShadows)": [
     "159470",
     "https://github.com/pytorch/pytorch/issues/159470",
