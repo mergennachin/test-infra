@@ -70,6 +70,13 @@
       "rocm"
     ]
   ],
+  "test_add_kernel (__main__.HelionTests)": [
+    "164239",
+    "https://github.com/pytorch/pytorch/issues/164239",
+    [
+      "rocm"
+    ]
+  ],
   "test_add_loggers_conv_bn_relu_fusion_fp32 (__main__.TestFXNumericSuiteNShadows)": [
     "158762",
     "https://github.com/pytorch/pytorch/issues/158762",
