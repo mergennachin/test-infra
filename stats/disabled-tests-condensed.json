@@ -1102,6 +1102,14 @@
       "rocm"
     ]
   ],
+  "test_fn_grad_cholesky_solve_cuda_float64 (__main__.TestBwdGradientsCUDA)": [
+    "164232",
+    "https://github.com/pytorch/pytorch/issues/164232",
+    [
+      "inductor",
+      "rocm"
+    ]
+  ],
   "test_fn_gradgrad_cholesky_solve_cuda_complex128 (__main__.TestBwdGradientsCUDA)": [
     "164193",
     "https://github.com/pytorch/pytorch/issues/164193",
@@ -1112,6 +1120,13 @@
   "test_forward_mode_AD_cholesky_solve_cuda_complex128 (__main__.TestFwdGradientsCUDA)": [
     "164194",
     "https://github.com/pytorch/pytorch/issues/164194",
+    [
+      "rocm"
+    ]
+  ],
+  "test_forward_mode_AD_cholesky_solve_cuda_float64 (__main__.TestFwdGradientsCUDA)": [
+    "164234",
+    "https://github.com/pytorch/pytorch/issues/164234",
     [
       "rocm"
     ]
@@ -2797,13 +2812,6 @@
       "linux",
       "mac",
       "macos"
-    ]
-  ],
-  "test_vmap_exhaustive___rmatmul___cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
-    "157534",
-    "https://github.com/pytorch/pytorch/issues/157534",
-    [
-      "rocm"
     ]
   ],
   "test_vmap_exhaustive_addmv_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
