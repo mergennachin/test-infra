@@ -1361,6 +1361,13 @@
       "rocm"
     ]
   ],
+  "test_hessian_vectorize_raises_no_warnings_logging_tensor (__main__.TestAutogradFunctional)": [
+    "153644",
+    "https://github.com/pytorch/pytorch/issues/153644",
+    [
+      "dynamo"
+    ]
+  ],
   "test_hoist_conv_packed_params (__main__.TestOptimizer)": [
     "157247",
     "https://github.com/pytorch/pytorch/issues/157247",
@@ -2052,6 +2059,14 @@
   "test_qsoftmax_qnnpack (__main__.TestQuantizedOps)": [
     "157243",
     "https://github.com/pytorch/pytorch/issues/157243",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
+  "test_quantized_conv_no_asan_failures (__main__.TestOptimizer)": [
+    "157254",
+    "https://github.com/pytorch/pytorch/issues/157254",
     [
       "mac",
       "macos"
@@ -2822,6 +2837,13 @@
   "test_vmap_exhaustive_nn_functional_conv_transpose3d_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "158108",
     "https://github.com/pytorch/pytorch/issues/158108",
+    [
+      "rocm"
+    ]
+  ],
+  "test_vmapjvpvjp_cholesky_solve_cuda_float32 (__main__.TestOperatorsCUDA)": [
+    "164217",
+    "https://github.com/pytorch/pytorch/issues/164217",
     [
       "rocm"
     ]
