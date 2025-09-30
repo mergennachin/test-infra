@@ -1296,14 +1296,6 @@
       "rocm"
     ]
   ],
-  "test_grad_scaling_autocast_fused_optimizers_AdamW_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
-    "135963",
-    "https://github.com/pytorch/pytorch/issues/135963",
-    [
-      "linux",
-      "rocm"
-    ]
-  ],
   "test_grad_scaling_autocast_fused_optimizers_SGD_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
     "136013",
     "https://github.com/pytorch/pytorch/issues/136013",
