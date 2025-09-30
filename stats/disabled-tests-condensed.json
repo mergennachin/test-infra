@@ -828,8 +828,6 @@
     "162232",
     "https://github.com/pytorch/pytorch/issues/162232",
     [
-      "asan",
-      "linux",
       "rocm"
     ]
   ],
