@@ -754,13 +754,6 @@
       "macos"
     ]
   ],
-  "test_dataclass_init_with_default_factory_with_inputs (__main__.ReproTests)": [
-    "156799",
-    "https://github.com/pytorch/pytorch/issues/156799",
-    [
-      "linux"
-    ]
-  ],
   "test_ddp_apply_optim_in_backward (__main__.TestDistBackendWithSpawn)": [
     "155714",
     "https://github.com/pytorch/pytorch/issues/155714",
@@ -1125,8 +1118,8 @@
     ]
   ],
   "test_forward_mode_AD_cholesky_solve_cuda_float64 (__main__.TestFwdGradientsCUDA)": [
-    "164234",
-    "https://github.com/pytorch/pytorch/issues/164234",
+    "164235",
+    "https://github.com/pytorch/pytorch/issues/164235",
     [
       "rocm"
     ]
@@ -1396,6 +1389,13 @@
     "https://github.com/pytorch/pytorch/issues/105024",
     [
       "linux"
+    ]
+  ],
+  "test_honor_sm_carveout_cuda (__main__.TestFP8MatmulCUDA)": [
+    "164271",
+    "https://github.com/pytorch/pytorch/issues/164271",
+    [
+      "rocm"
     ]
   ],
   "test_honor_sm_carveout_with_triton_tma_carveout0_op_scaled_mm (__main__.TestMaxAutotune)": [
@@ -2360,14 +2360,6 @@
     "https://github.com/pytorch/pytorch/issues/91492",
     [
       "linux"
-    ]
-  ],
-  "test_resnet (__main__.TestBlockStateAbsorption)": [
-    "157725",
-    "https://github.com/pytorch/pytorch/issues/157725",
-    [
-      "linux",
-      "slow"
     ]
   ],
   "test_retracibility_dict_container_inp_out_dynamic_shapes (__main__.DynamicShapesExportTests)": [
