@@ -113,15 +113,6 @@
       "macos"
     ]
   ],
-  "test_add_loggers_linear_mod_quant_quant (__main__.TestFXNumericSuiteNShadows)": [
-    "142172",
-    "https://github.com/pytorch/pytorch/issues/142172",
-    [
-      "dynamo",
-      "mac",
-      "macos"
-    ]
-  ],
   "test_add_sub_alpha_out (__main__.ReproTests)": [
     "156597",
     "https://github.com/pytorch/pytorch/issues/156597",
@@ -129,25 +120,10 @@
       "linux"
     ]
   ],
-  "test_addmm_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
-    "157279",
-    "https://github.com/pytorch/pytorch/issues/157279",
-    [
-      "rocm"
-    ]
-  ],
   "test_addmm_dynamic_shapes_gpu_wrapper (__main__.DynamicShapesGpuWrapperGpuTests)": [
     "157084",
     "https://github.com/pytorch/pytorch/issues/157084",
     [
-      "rocm"
-    ]
-  ],
-  "test_addmm_multiple_dynamic_cuda (__main__.AOTInductorTestABICompatibleGpu)": [
-    "159628",
-    "https://github.com/pytorch/pytorch/issues/159628",
-    [
-      "inductor",
       "rocm"
     ]
   ],
@@ -1118,6 +1094,28 @@
       "slow"
     ]
   ],
+  "test_fn_grad_cholesky_solve_cuda_complex128 (__main__.TestBwdGradientsCUDA)": [
+    "164192",
+    "https://github.com/pytorch/pytorch/issues/164192",
+    [
+      "inductor",
+      "rocm"
+    ]
+  ],
+  "test_fn_gradgrad_cholesky_solve_cuda_complex128 (__main__.TestBwdGradientsCUDA)": [
+    "164193",
+    "https://github.com/pytorch/pytorch/issues/164193",
+    [
+      "rocm"
+    ]
+  ],
+  "test_forward_mode_AD_cholesky_solve_cuda_complex128 (__main__.TestFwdGradientsCUDA)": [
+    "164194",
+    "https://github.com/pytorch/pytorch/issues/164194",
+    [
+      "rocm"
+    ]
+  ],
   "test_fsdp_unsupported_module_cls (__main__.TestFSDPMiscMultiThread)": [
     "137948",
     "https://github.com/pytorch/pytorch/issues/137948",
@@ -1298,14 +1296,6 @@
       "rocm"
     ]
   ],
-  "test_grad_scaling_autocast_fused_optimizers_Adam_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
-    "135993",
-    "https://github.com/pytorch/pytorch/issues/135993",
-    [
-      "linux",
-      "rocm"
-    ]
-  ],
   "test_grad_scaling_autocast_fused_optimizers_SGD_cuda_float32 (__main__.TestCudaOptimsCUDA)": [
     "136013",
     "https://github.com/pytorch/pytorch/issues/136013",
@@ -1369,13 +1359,6 @@
       "asan",
       "linux",
       "rocm"
-    ]
-  ],
-  "test_hessian_vectorize_raises_no_warnings_logging_tensor (__main__.TestAutogradFunctional)": [
-    "153644",
-    "https://github.com/pytorch/pytorch/issues/153644",
-    [
-      "dynamo"
     ]
   ],
   "test_hoist_conv_packed_params (__main__.TestOptimizer)": [
@@ -1866,6 +1849,13 @@
       "rocm"
     ]
   ],
+  "test_new_subgroups (__main__.TestDistBackendWithSpawn)": [
+    "164195",
+    "https://github.com/pytorch/pytorch/issues/164195",
+    [
+      "linux"
+    ]
+  ],
   "test_new_subgroups_by_enumeration (__main__.TestDistBackendWithSpawn)": [
     "162584",
     "https://github.com/pytorch/pytorch/issues/162584",
@@ -1901,13 +1891,6 @@
       "rocm"
     ]
   ],
-  "test_op_has_batch_rule_inner_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
-    "157090",
-    "https://github.com/pytorch/pytorch/issues/157090",
-    [
-      "rocm"
-    ]
-  ],
   "test_op_has_batch_rule_linalg_vecdot_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "142924",
     "https://github.com/pytorch/pytorch/issues/142924",
@@ -1915,13 +1898,6 @@
       "linux",
       "rocm",
       "slow"
-    ]
-  ],
-  "test_op_has_batch_rule_vdot_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
-    "157450",
-    "https://github.com/pytorch/pytorch/issues/157450",
-    [
-      "rocm"
     ]
   ],
   "test_open_device_registration (__main__.ExtensionBackendTests)": [
@@ -2076,14 +2052,6 @@
   "test_qsoftmax_qnnpack (__main__.TestQuantizedOps)": [
     "157243",
     "https://github.com/pytorch/pytorch/issues/157243",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_quantized_conv_no_asan_failures (__main__.TestOptimizer)": [
-    "157254",
-    "https://github.com/pytorch/pytorch/issues/157254",
     [
       "mac",
       "macos"
@@ -2855,14 +2823,6 @@
     "158108",
     "https://github.com/pytorch/pytorch/issues/158108",
     [
-      "rocm"
-    ]
-  ],
-  "test_with_cudagraphs_cuda (__main__.AOTInductorTestABICompatibleGpu)": [
-    "158465",
-    "https://github.com/pytorch/pytorch/issues/158465",
-    [
-      "inductor",
       "rocm"
     ]
   ]
