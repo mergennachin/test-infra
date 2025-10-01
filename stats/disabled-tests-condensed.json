@@ -938,15 +938,6 @@
       "linux"
     ]
   ],
-  "test_dynamic_input_expr_expr1 (__main__.AOTFxirTestCase)": [
-    "163178",
-    "https://github.com/pytorch/pytorch/issues/163178",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_dynamic_shape_m_20480_k_5_n_2_should_decompose_True_has_bias_False (__main__.TestDecomposeMemMM)": [
     "153735",
     "https://github.com/pytorch/pytorch/issues/153735",
@@ -2812,13 +2803,6 @@
   "test_vmap_exhaustive_inner_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "157726",
     "https://github.com/pytorch/pytorch/issues/157726",
-    [
-      "rocm"
-    ]
-  ],
-  "test_vmap_exhaustive_nn_functional_conv_transpose2d_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
-    "158025",
-    "https://github.com/pytorch/pytorch/issues/158025",
     [
       "rocm"
     ]
