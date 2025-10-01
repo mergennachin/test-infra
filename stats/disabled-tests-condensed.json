@@ -697,6 +697,14 @@
       "rocm"
     ]
   ],
+  "test_conv_transpose_unary_fusion_ops (__main__.TestMkldnnFusion)": [
+    "158115",
+    "https://github.com/pytorch/pytorch/issues/158115",
+    [
+      "asan",
+      "linux"
+    ]
+  ],
   "test_conv_with_as_strided_cpu (__main__.FreezingCpuTests)": [
     "107893",
     "https://github.com/pytorch/pytorch/issues/107893",
@@ -2607,6 +2615,13 @@
       "mac"
     ]
   ],
+  "test_tield_kernel_fusion_cuda (__main__.BenchmarkFusionCudaTest)": [
+    "164337",
+    "https://github.com/pytorch/pytorch/issues/164337",
+    [
+      "rocm"
+    ]
+  ],
   "test_torch_function_all_disabled_api (__main__.TestTorchFunctionMode)": [
     "162704",
     "https://github.com/pytorch/pytorch/issues/162704",
@@ -2785,13 +2800,6 @@
       "linux",
       "mac",
       "macos"
-    ]
-  ],
-  "test_vmap_exhaustive_addmv_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
-    "157617",
-    "https://github.com/pytorch/pytorch/issues/157617",
-    [
-      "rocm"
     ]
   ],
   "test_vmap_exhaustive_dot_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
