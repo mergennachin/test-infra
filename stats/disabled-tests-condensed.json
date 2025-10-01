@@ -754,6 +754,13 @@
       "linux"
     ]
   ],
+  "test_cudnn_convolution_relu_cuda_float16 (__main__.TestConvolutionNNDeviceTypeCUDA)": [
+    "162816",
+    "https://github.com/pytorch/pytorch/issues/162816",
+    [
+      "rocm"
+    ]
+  ],
   "test_custom_functions_and_tracer (__main__.TestFXNumericSuiteNShadows)": [
     "160346",
     "https://github.com/pytorch/pytorch/issues/160346",
