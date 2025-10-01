@@ -46,5 +46,13 @@
     "pull",
     "linux-jammy-py3_9-clang9-xla",
     "test (xla)"
+  ],
+  "vllm-test / ci-vllm-test / build": [
+    "yangw-dev",
+    "164362",
+    "https://github.com/pytorch/pytorch/issues/164362",
+    "vllm-test",
+    "ci-vllm-test",
+    "build"
   ]
 }
