@@ -2361,15 +2361,6 @@
       "slow"
     ]
   ],
-  "test_retracibility_nested_list_out_dynamic_shapes (__main__.DynamicShapesExportTests)": [
-    "160050",
-    "https://github.com/pytorch/pytorch/issues/160050",
-    [
-      "asan",
-      "linux",
-      "slow"
-    ]
-  ],
   "test_return_aux_deprecation_warnings_cuda_float16 (__main__.TestFlexAttentionCUDA)": [
     "162464",
     "https://github.com/pytorch/pytorch/issues/162464",
