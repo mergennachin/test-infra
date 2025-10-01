@@ -931,15 +931,6 @@
       "linux"
     ]
   ],
-  "test_dynamic_input_expr_expr0 (__main__.AOTFxirTestCase)": [
-    "163157",
-    "https://github.com/pytorch/pytorch/issues/163157",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_dynamic_input_expr_expr1 (__main__.AOTFxirTestCase)": [
     "163178",
     "https://github.com/pytorch/pytorch/issues/163178",
@@ -2069,6 +2060,15 @@
       "slow"
     ]
   ],
+  "test_qlinear_add_int8_mixed_bf16_use_relu_True_is_qat_True_is_dynamic_False (__main__.TestPatternMatcher)": [
+    "164351",
+    "https://github.com/pytorch/pytorch/issues/164351",
+    [
+      "asan",
+      "linux",
+      "slow"
+    ]
+  ],
   "test_qsoftmax_qnnpack (__main__.TestQuantizedOps)": [
     "157243",
     "https://github.com/pytorch/pytorch/issues/157243",
@@ -2800,13 +2800,6 @@
       "linux",
       "mac",
       "macos"
-    ]
-  ],
-  "test_vmap_exhaustive_dot_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
-    "157644",
-    "https://github.com/pytorch/pytorch/issues/157644",
-    [
-      "rocm"
     ]
   ],
   "test_vmap_exhaustive_inner_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
