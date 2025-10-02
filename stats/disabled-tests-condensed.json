@@ -889,15 +889,6 @@
       "linux"
     ]
   ],
-  "test_dont_aggressively_write_assert (__main__.ReproTests)": [
-    "156570",
-    "https://github.com/pytorch/pytorch/issues/156570",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_dont_dce_rand (__main__.ReproTests)": [
     "156580",
     "https://github.com/pytorch/pytorch/issues/156580",
@@ -948,14 +939,6 @@
     "153736",
     "https://github.com/pytorch/pytorch/issues/153736",
     [
-      "linux"
-    ]
-  ],
-  "test_dynamic_shapes_run (__main__.FxGraphRunnableTest)": [
-    "161909",
-    "https://github.com/pytorch/pytorch/issues/161909",
-    [
-      "asan",
       "linux"
     ]
   ],
@@ -1065,6 +1048,13 @@
       "linux"
     ]
   ],
+  "test_flex_attention_stride_ordering_mode_paged_attention_permute_order3_shape1_cuda (__main__.TestFlexAttentionCUDA)": [
+    "161503",
+    "https://github.com/pytorch/pytorch/issues/161503",
+    [
+      "linux"
+    ]
+  ],
   "test_flop_counter_op_options1_cuda_float16 (__main__.TestSchedulerCUDA)": [
     "153494",
     "https://github.com/pytorch/pytorch/issues/153494",
@@ -1092,6 +1082,14 @@
   "test_fn_grad_cholesky_solve_cuda_float64 (__main__.TestBwdGradientsCUDA)": [
     "164232",
     "https://github.com/pytorch/pytorch/issues/164232",
+    [
+      "inductor",
+      "rocm"
+    ]
+  ],
+  "test_fn_grad_grid_sampler_2d_cuda_float64 (__main__.TestBwdGradientsCUDA)": [
+    "131079",
+    "https://github.com/pytorch/pytorch/issues/131079",
     [
       "inductor",
       "rocm"
@@ -1417,13 +1415,6 @@
     "https://github.com/pytorch/pytorch/issues/156438",
     []
   ],
-  "test_int64_upsample3d_cuda_bfloat16 (__main__.TestTorchDeviceTypeCUDA)": [
-    "146007",
-    "https://github.com/pytorch/pytorch/issues/146007",
-    [
-      "rocm"
-    ]
-  ],
   "test_int8_woq_mm_cuda_batch_size_17_mid_dim_8_in_features_128_out_features_65_cuda_bfloat16 (__main__.TestSelectAlgorithmCudaCUDA)": [
     "163228",
     "https://github.com/pytorch/pytorch/issues/163228",
@@ -1607,6 +1598,14 @@
     "https://github.com/pytorch/pytorch/issues/162121",
     [
       "rocm"
+    ]
+  ],
+  "test_max_split_expandable (__main__.TestCudaMallocAsync)": [
+    "134837",
+    "https://github.com/pytorch/pytorch/issues/134837",
+    [
+      "linux",
+      "slow"
     ]
   ],
   "test_mem_get_info (__main__.TestCuda)": [
@@ -1891,15 +1890,6 @@
       "rocm"
     ]
   ],
-  "test_op_has_batch_rule_linalg_vecdot_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
-    "142924",
-    "https://github.com/pytorch/pytorch/issues/142924",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_open_device_registration (__main__.ExtensionBackendTests)": [
     "137027",
     "https://github.com/pytorch/pytorch/issues/137027",
@@ -1935,6 +1925,14 @@
     "152221",
     "https://github.com/pytorch/pytorch/issues/152221",
     [
+      "rocm"
+    ]
+  ],
+  "test_pre_grad (__main__.TestCompilerBisector)": [
+    "164462",
+    "https://github.com/pytorch/pytorch/issues/164462",
+    [
+      "linux",
       "rocm"
     ]
   ],
@@ -2425,14 +2423,6 @@
       "slow"
     ]
   ],
-  "test_serialized_patterns_up_to_date (__main__.TestPatternMatcher)": [
-    "135476",
-    "https://github.com/pytorch/pytorch/issues/135476",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_set_stance_eager_then_compile (__main__.DecoratorTests)": [
     "148515",
     "https://github.com/pytorch/pytorch/issues/148515",
@@ -2781,13 +2771,6 @@
       "linux",
       "mac",
       "macos"
-    ]
-  ],
-  "test_vmap_exhaustive_inner_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
-    "157726",
-    "https://github.com/pytorch/pytorch/issues/157726",
-    [
-      "rocm"
     ]
   ],
   "test_vmapjvpvjp_cholesky_solve_cuda_float32 (__main__.TestOperatorsCUDA)": [
