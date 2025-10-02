@@ -148,6 +148,14 @@
       "mac"
     ]
   ],
+  "test_all_reduce_collective (__main__.FxGraphRunnableTest)": [
+    "164425",
+    "https://github.com/pytorch/pytorch/issues/164425",
+    [
+      "asan",
+      "linux"
+    ]
+  ],
   "test_allgather_stress_cuda (__main__.ProcessGroupGlooFRTest)": [
     "155711",
     "https://github.com/pytorch/pytorch/issues/155711",
@@ -1610,14 +1618,6 @@
       "rocm"
     ]
   ],
-  "test_max_split_expandable (__main__.TestCudaMallocAsync)": [
-    "134837",
-    "https://github.com/pytorch/pytorch/issues/134837",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_mem_get_info (__main__.TestCuda)": [
     "103495",
     "https://github.com/pytorch/pytorch/issues/103495",
@@ -1835,6 +1835,13 @@
     [
       "mac",
       "macos"
+    ]
+  ],
+  "test_nan_assert_float16 (__main__.ProcessGroupNCCLGroupTest)": [
+    "164426",
+    "https://github.com/pytorch/pytorch/issues/164426",
+    [
+      "linux"
     ]
   ],
   "test_nccl_watchdog_cudagraph (__main__.ProcessGroupNCCLOpTest)": [
@@ -2796,13 +2803,6 @@
   "test_vmap_exhaustive_inner_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "157726",
     "https://github.com/pytorch/pytorch/issues/157726",
-    [
-      "rocm"
-    ]
-  ],
-  "test_vmap_exhaustive_nn_functional_conv_transpose3d_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
-    "158108",
-    "https://github.com/pytorch/pytorch/issues/158108",
     [
       "rocm"
     ]
