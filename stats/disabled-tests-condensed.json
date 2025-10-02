@@ -350,15 +350,6 @@
       "rocm"
     ]
   ],
-  "test_cdist_large_batch_cpu (__main__.TestTorchDeviceTypeCPU)": [
-    "158909",
-    "https://github.com/pytorch/pytorch/issues/158909",
-    [
-      "asan",
-      "linux",
-      "slow"
-    ]
-  ],
   "test_checkpoint_trigger (__main__.TestCheckpoint)": [
     "97402",
     "https://github.com/pytorch/pytorch/issues/97402",
@@ -2652,14 +2643,6 @@
   "test_toy_model_basic (__main__.FxGraphRunnableTest)": [
     "163595",
     "https://github.com/pytorch/pytorch/issues/163595",
-    [
-      "asan",
-      "linux"
-    ]
-  ],
-  "test_toy_model_dynamic_batch (__main__.FxGraphRunnableTest)": [
-    "161580",
-    "https://github.com/pytorch/pytorch/issues/161580",
     [
       "asan",
       "linux"
