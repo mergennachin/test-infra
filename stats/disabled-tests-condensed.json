@@ -63,49 +63,6 @@
       "rocm"
     ]
   ],
-  "test_add_loggers_conv_bn_relu_fusion_fp32 (__main__.TestFXNumericSuiteNShadows)": [
-    "158762",
-    "https://github.com/pytorch/pytorch/issues/158762",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_add_loggers_conv_bn_relu_fusion_quant (__main__.TestFXNumericSuiteNShadows)": [
-    "127814",
-    "https://github.com/pytorch/pytorch/issues/127814",
-    [
-      "dynamo",
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_add_loggers_functions (__main__.TestFXNumericSuiteNShadows)": [
-    "140380",
-    "https://github.com/pytorch/pytorch/issues/140380",
-    [
-      "dynamo",
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_add_loggers_linear_mod_fp32_fp32 (__main__.TestFXNumericSuiteNShadows)": [
-    "159036",
-    "https://github.com/pytorch/pytorch/issues/159036",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_add_loggers_linear_mod_fp32_quant (__main__.TestFXNumericSuiteNShadows)": [
-    "142860",
-    "https://github.com/pytorch/pytorch/issues/142860",
-    [
-      "dynamo",
-      "mac",
-      "macos"
-    ]
-  ],
   "test_add_sub_alpha_out (__main__.ReproTests)": [
     "156597",
     "https://github.com/pytorch/pytorch/issues/156597",
@@ -162,16 +119,6 @@
     [
       "linux",
       "slow"
-    ]
-  ],
-  "test_allow_implicit_sharing (__main__.TestQuantizePT2E)": [
-    "144988",
-    "https://github.com/pytorch/pytorch/issues/144988",
-    [
-      "linux",
-      "mac",
-      "macos",
-      "rocm"
     ]
   ],
   "test_allreduce_float8 (__main__.ProcessGroupNCCLOpTest)": [
@@ -585,43 +532,6 @@
       "inductor"
     ]
   ],
-  "test_conv1d_api (__main__.TestQuantizedFunctionalOps)": [
-    "157296",
-    "https://github.com/pytorch/pytorch/issues/157296",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_conv1d_depthwise_dynamic_shapes_xpu (__main__.DynamicShapesCodegenGPUTests)": [
-    "164099",
-    "https://github.com/pytorch/pytorch/issues/164099",
-    [
-      "xpu"
-    ]
-  ],
-  "test_conv1d_with_permute_dynamic_shapes_xpu (__main__.DynamicShapesGPUTests)": [
-    "164097",
-    "https://github.com/pytorch/pytorch/issues/164097",
-    [
-      "xpu"
-    ]
-  ],
-  "test_conv1d_with_permute_xpu (__main__.GPUTests)": [
-    "164100",
-    "https://github.com/pytorch/pytorch/issues/164100",
-    [
-      "xpu"
-    ]
-  ],
-  "test_conv2d_api (__main__.TestQuantizedFunctionalOps)": [
-    "157346",
-    "https://github.com/pytorch/pytorch/issues/157346",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_conv2d_unary_cpu_cpp_wrapper (__main__.TestCppWrapper)": [
     "158331",
     "https://github.com/pytorch/pytorch/issues/158331",
@@ -638,32 +548,9 @@
       "rocm"
     ]
   ],
-  "test_conv_bn_relu_mod (__main__.TestFXNumericSuiteNShadows)": [
-    "159470",
-    "https://github.com/pytorch/pytorch/issues/159470",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_conv_stride_constraints (__main__.CPUReproTests)": [
     "107774",
     "https://github.com/pytorch/pytorch/issues/107774",
-    [
-      "rocm"
-    ]
-  ],
-  "test_conv_sub_class_considered (__main__.TestFxModelReportDetector)": [
-    "163156",
-    "https://github.com/pytorch/pytorch/issues/163156",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_conv_transpose (quantization.jit.test_quantize_jit.TestQuantizeJit)": [
-    "105124",
-    "https://github.com/pytorch/pytorch/issues/105124",
     [
       "rocm"
     ]
@@ -723,14 +610,6 @@
     "https://github.com/pytorch/pytorch/issues/163852",
     [
       "linux"
-    ]
-  ],
-  "test_custom_functions_and_tracer (__main__.TestFXNumericSuiteNShadows)": [
-    "160346",
-    "https://github.com/pytorch/pytorch/issues/160346",
-    [
-      "mac",
-      "macos"
     ]
   ],
   "test_ddp_apply_optim_in_backward (__main__.TestDistBackendWithSpawn)": [
@@ -991,14 +870,6 @@
       "windows"
     ]
   ],
-  "test_extract_weights_linear (__main__.TestFXNumericSuiteNShadows)": [
-    "160446",
-    "https://github.com/pytorch/pytorch/issues/160446",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_fake_crossref_backward_amp_nn_functional_bilinear_cuda_float32 (__main__.TestFakeTensorCUDA)": [
     "159150",
     "https://github.com/pytorch/pytorch/issues/159150",
@@ -1103,14 +974,6 @@
     "https://github.com/pytorch/pytorch/issues/131081",
     [
       "linux"
-    ]
-  ],
-  "test_functions (__main__.TestFXNumericSuiteNShadows)": [
-    "160620",
-    "https://github.com/pytorch/pytorch/issues/160620",
-    [
-      "mac",
-      "macos"
     ]
   ],
   "test_fused_all_gather_matmul_gather_dim_0 (__main__.AsyncTPTest)": [
@@ -1438,14 +1301,6 @@
       "rocm"
     ]
   ],
-  "test_learnable_forward_per_channel_cpu (quantization.core.test_workflow_ops.TestFakeQuantizeOps)": [
-    "107155",
-    "https://github.com/pytorch/pytorch/issues/107155",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_like_channels_last_cpu (__main__.CpuTritonTests)": [
     "139149",
     "https://github.com/pytorch/pytorch/issues/139149",
@@ -1458,14 +1313,6 @@
     "https://github.com/pytorch/pytorch/issues/145359",
     [
       "linux"
-    ]
-  ],
-  "test_linear_mod (__main__.TestFXNumericSuiteNShadows)": [
-    "160717",
-    "https://github.com/pytorch/pytorch/issues/160717",
-    [
-      "mac",
-      "macos"
     ]
   ],
   "test_linear_relu_dynamic_shapes_gpu_wrapper (__main__.DynamicShapesGpuWrapperGpuTests)": [
@@ -1482,27 +1329,11 @@
       "rocm"
     ]
   ],
-  "test_linear_relu_mod (__main__.TestFXNumericSuiteNShadows)": [
-    "160880",
-    "https://github.com/pytorch/pytorch/issues/160880",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_lobpcg (__main__.TestAutograd)": [
     "80338",
     "https://github.com/pytorch/pytorch/issues/80338",
     [
       "linux"
-    ]
-  ],
-  "test_logger_enabled_and_save_activations_flags (__main__.TestFXNumericSuiteNShadows)": [
-    "162249",
-    "https://github.com/pytorch/pytorch/issues/162249",
-    [
-      "mac",
-      "macos"
     ]
   ],
   "test_low_contention_reduce_scatter_reduce_op_avg_symm_mem_input_True (__main__.SymmetricMemoryTest)": [
@@ -1772,27 +1603,11 @@
       "macos"
     ]
   ],
-  "test_multi_linear_model_without_per_channel (__main__.TestFxModelReportDetector)": [
-    "163177",
-    "https://github.com/pytorch/pytorch/issues/163177",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_multiple_module (__main__.TestInvokeSubgraphExportStrict)": [
     "150877",
     "https://github.com/pytorch/pytorch/issues/150877",
     [
       "dynamo"
-    ]
-  ],
-  "test_multiple_q_config_options (__main__.TestFxModelReportDetector)": [
-    "163229",
-    "https://github.com/pytorch/pytorch/issues/163229",
-    [
-      "mac",
-      "macos"
     ]
   ],
   "test_nan_assert_float16 (__main__.ProcessGroupNCCLGroupTest)": [
@@ -1805,13 +1620,6 @@
   "test_nccl_watchdog_cudagraph (__main__.ProcessGroupNCCLOpTest)": [
     "157896",
     "https://github.com/pytorch/pytorch/issues/157896",
-    [
-      "rocm"
-    ]
-  ],
-  "test_nested (quantization.jit.test_quantize_jit.TestQuantizeJit)": [
-    "105120",
-    "https://github.com/pytorch/pytorch/issues/105120",
     [
       "rocm"
     ]
@@ -1851,13 +1659,6 @@
       "inductor"
     ]
   ],
-  "test_observer_with_ignored_function (quantization.jit.test_quantize_jit.TestQuantizeJit)": [
-    "105123",
-    "https://github.com/pytorch/pytorch/issues/105123",
-    [
-      "rocm"
-    ]
-  ],
   "test_open_device_registration (__main__.ExtensionBackendTests)": [
     "137027",
     "https://github.com/pytorch/pytorch/issues/137027",
@@ -1879,14 +1680,6 @@
     "https://github.com/pytorch/pytorch/issues/91494",
     [
       "linux"
-    ]
-  ],
-  "test_partial_qconfig_mapping (__main__.TestFXNumericSuiteNShadows)": [
-    "162382",
-    "https://github.com/pytorch/pytorch/issues/162382",
-    [
-      "mac",
-      "macos"
     ]
   ],
   "test_pending_fusions_multiple (__main__.TestPrologueFusion)": [
@@ -1975,30 +1768,6 @@
       "asan"
     ]
   ],
-  "test_qat_aware_model_example (__main__.TestFxModelReportDetector)": [
-    "163325",
-    "https://github.com/pytorch/pytorch/issues/163325",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_qconfig_multi_mapping_repr (__main__.TestFXNumericSuiteNShadows)": [
-    "162958",
-    "https://github.com/pytorch/pytorch/issues/162958",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_qconfig_multi_mapping_retroactive_padding (__main__.TestFXNumericSuiteNShadows)": [
-    "163132",
-    "https://github.com/pytorch/pytorch/issues/163132",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_qengine (__main__.TestTorch)": [
     "157245",
     "https://github.com/pytorch/pytorch/issues/157245",
@@ -2025,25 +1794,9 @@
       "slow"
     ]
   ],
-  "test_qsoftmax_qnnpack (__main__.TestQuantizedOps)": [
-    "157243",
-    "https://github.com/pytorch/pytorch/issues/157243",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_quantized_conv_no_asan_failures (__main__.TestOptimizer)": [
     "157254",
     "https://github.com/pytorch/pytorch/issues/157254",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_quantized_mean_qnnpack (__main__.TestQuantizedOps)": [
-    "157255",
-    "https://github.com/pytorch/pytorch/issues/157255",
     [
       "mac",
       "macos"
@@ -2068,15 +1821,6 @@
     "https://github.com/pytorch/pytorch/issues/84937",
     [
       "asan"
-    ]
-  ],
-  "test_re_export_preserve_handle (__main__.TestNumericDebugger)": [
-    "144898",
-    "https://github.com/pytorch/pytorch/issues/144898",
-    [
-      "mac",
-      "macos",
-      "rocm"
     ]
   ],
   "test_record_stream_cuda_float32 (__main__.TestNestedTensorSubclassCUDA)": [
@@ -2332,25 +2076,6 @@
       "slow"
     ]
   ],
-  "test_run_decompositions_map_handle_to_new_nodes (__main__.TestNumericDebugger)": [
-    "144933",
-    "https://github.com/pytorch/pytorch/issues/144933",
-    [
-      "mac",
-      "macos",
-      "rocm"
-    ]
-  ],
-  "test_run_decompositions_same_handle_id (__main__.TestNumericDebugger)": [
-    "144963",
-    "https://github.com/pytorch/pytorch/issues/144963",
-    [
-      "linux",
-      "mac",
-      "macos",
-      "rocm"
-    ]
-  ],
   "test_scalar_multiply (__main__.FxGraphRunnableTest)": [
     "162230",
     "https://github.com/pytorch/pytorch/issues/162230",
@@ -2393,31 +2118,6 @@
       "macos"
     ]
   ],
-  "test_sigmoid (__main__.TestStaticQuantizedModule)": [
-    "157244",
-    "https://github.com/pytorch/pytorch/issues/157244",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
-  "test_simple (__main__.TestNumericDebugger)": [
-    "142470",
-    "https://github.com/pytorch/pytorch/issues/142470",
-    [
-      "linux",
-      "mac",
-      "macos",
-      "rocm"
-    ]
-  ],
-  "test_single_linear (quantization.jit.test_quantize_jit.TestQuantizeJit)": [
-    "105121",
-    "https://github.com/pytorch/pytorch/issues/105121",
-    [
-      "rocm"
-    ]
-  ],
   "test_skip_grad_in_check (__main__.TestTEFuserDynamic)": [
     "156436",
     "https://github.com/pytorch/pytorch/issues/156436",
@@ -2444,13 +2144,6 @@
   "test_special_polygamma_cpu_halide (__main__.HalideCpuTests)": [
     "150624",
     "https://github.com/pytorch/pytorch/issues/150624",
-    [
-      "linux"
-    ]
-  ],
-  "test_str_bytes_get_insert_thread_safe_Cache0 (__main__.CacheTest)": [
-    "163248",
-    "https://github.com/pytorch/pytorch/issues/163248",
     [
       "linux"
     ]
