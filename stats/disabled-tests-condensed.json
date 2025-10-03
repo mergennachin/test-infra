@@ -816,13 +816,6 @@
       "dynamo"
     ]
   ],
-  "test_deferred_runtime_asserts (__main__.ReproTests)": [
-    "156817",
-    "https://github.com/pytorch/pytorch/issues/156817",
-    [
-      "linux"
-    ]
-  ],
   "test_deferred_triton_kernels (__main__.TestProvenanceTracingStackTraces)": [
     "164535",
     "https://github.com/pytorch/pytorch/issues/164535",
@@ -1375,6 +1368,13 @@
     "https://github.com/pytorch/pytorch/issues/105024",
     [
       "linux"
+    ]
+  ],
+  "test_honor_sm_carveout_cuda (__main__.TestFP8MatmulCUDA)": [
+    "164271",
+    "https://github.com/pytorch/pytorch/issues/164271",
+    [
+      "rocm"
     ]
   ],
   "test_honor_sm_carveout_with_triton_tma_carveout0_op_scaled_mm (__main__.TestMaxAutotune)": [
@@ -2408,15 +2408,6 @@
       "mac"
     ]
   ],
-  "test_serialize_export_auto_functionalize_simple_cuda_float32 (__main__.TestHOPCUDA)": [
-    "123563",
-    "https://github.com/pytorch/pytorch/issues/123563",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_set_stance_eager_then_compile (__main__.DecoratorTests)": [
     "148515",
     "https://github.com/pytorch/pytorch/issues/148515",
@@ -2765,6 +2756,13 @@
       "linux",
       "mac",
       "macos"
+    ]
+  ],
+  "test_vmap_exhaustive_cholesky_solve_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
+    "164556",
+    "https://github.com/pytorch/pytorch/issues/164556",
+    [
+      "rocm"
     ]
   ],
   "test_vmapjvpvjp_cholesky_solve_cuda_float32 (__main__.TestOperatorsCUDA)": [
