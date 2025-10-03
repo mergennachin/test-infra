@@ -177,6 +177,14 @@
       "rocm"
     ]
   ],
+  "test_allocate_in_thread_to_pool (__main__.TestBlockStateAbsorption)": [
+    "158764",
+    "https://github.com/pytorch/pytorch/issues/158764",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_allow_implicit_sharing (__main__.TestQuantizePT2E)": [
     "144988",
     "https://github.com/pytorch/pytorch/issues/144988",
