@@ -1091,13 +1091,6 @@
       "slow"
     ]
   ],
-  "test_getitem_call (__main__.TestTorchFunctionMode)": [
-    "162586",
-    "https://github.com/pytorch/pytorch/issues/162586",
-    [
-      "dynamo"
-    ]
-  ],
   "test_globals_change_in_other_file (__main__.ContextlibContextManagerTests)": [
     "148523",
     "https://github.com/pytorch/pytorch/issues/148523",
@@ -1574,13 +1567,6 @@
     [
       "linux",
       "slow"
-    ]
-  ],
-  "test_modes_handle_first (__main__.TestTorchFunctionMode)": [
-    "162624",
-    "https://github.com/pytorch/pytorch/issues/162624",
-    [
-      "dynamo"
     ]
   ],
   "test_module_and_optimizer_ids (__main__.TestTorchTidyProfiler)": [
