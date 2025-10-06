@@ -1091,6 +1091,13 @@
       "slow"
     ]
   ],
+  "test_getitem_call (__main__.TestTorchFunctionMode)": [
+    "162586",
+    "https://github.com/pytorch/pytorch/issues/162586",
+    [
+      "dynamo"
+    ]
+  ],
   "test_globals_change_in_other_file (__main__.ContextlibContextManagerTests)": [
     "148523",
     "https://github.com/pytorch/pytorch/issues/148523",
@@ -1844,13 +1851,6 @@
       "rocm"
     ]
   ],
-  "test_reentrant_mode_idiom (__main__.TestTorchFunctionMode)": [
-    "162677",
-    "https://github.com/pytorch/pytorch/issues/162677",
-    [
-      "dynamo"
-    ]
-  ],
   "test_reentrant_parent_error_on_cpu_cuda (__main__.TestAutogradDeviceTypeCUDA)": [
     "86735",
     "https://github.com/pytorch/pytorch/issues/86735",
@@ -2222,13 +2222,6 @@
     "https://github.com/pytorch/pytorch/issues/164337",
     [
       "rocm"
-    ]
-  ],
-  "test_torch_function_all_disabled_api (__main__.TestTorchFunctionMode)": [
-    "162704",
-    "https://github.com/pytorch/pytorch/issues/162704",
-    [
-      "dynamo"
     ]
   ],
   "test_torch_name_rule_map_updated (__main__.TraceRuleTests)": [
