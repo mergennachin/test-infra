@@ -612,6 +612,13 @@
       "linux"
     ]
   ],
+  "test_dataclass_in_module (__main__.ReproTests)": [
+    "156776",
+    "https://github.com/pytorch/pytorch/issues/156776",
+    [
+      "linux"
+    ]
+  ],
   "test_ddp_apply_optim_in_backward (__main__.TestDistBackendWithSpawn)": [
     "155714",
     "https://github.com/pytorch/pytorch/issues/155714",
@@ -1080,6 +1087,15 @@
       "slow",
       "win",
       "windows"
+    ]
+  ],
+  "test_get_parameter_dtype (__main__.ReproTests)": [
+    "156598",
+    "https://github.com/pytorch/pytorch/issues/156598",
+    [
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_getitem_call (__main__.TestTorchFunctionMode)": [
@@ -1849,6 +1865,13 @@
       "rocm"
     ]
   ],
+  "test_reentrant_mode_idiom (__main__.TestTorchFunctionMode)": [
+    "162677",
+    "https://github.com/pytorch/pytorch/issues/162677",
+    [
+      "dynamo"
+    ]
+  ],
   "test_reentrant_parent_error_on_cpu_cuda (__main__.TestAutogradDeviceTypeCUDA)": [
     "86735",
     "https://github.com/pytorch/pytorch/issues/86735",
@@ -2015,6 +2038,16 @@
     "151541",
     "https://github.com/pytorch/pytorch/issues/151541",
     [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_repeated_calling_cuda (__main__.AOTInductorTestABICompatibleGpu)": [
+    "146185",
+    "https://github.com/pytorch/pytorch/issues/146185",
+    [
+      "inductor",
       "linux",
       "rocm",
       "slow"
@@ -2323,14 +2356,6 @@
     "https://github.com/pytorch/pytorch/issues/159348",
     [
       "rocm"
-    ]
-  ],
-  "test_upper_bound_i64_cuda (__main__.AOTInductorTestABICompatibleGpu)": [
-    "159860",
-    "https://github.com/pytorch/pytorch/issues/159860",
-    [
-      "inductor",
-      "linux"
     ]
   ],
   "test_var_mean_tile_reduction_True_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
