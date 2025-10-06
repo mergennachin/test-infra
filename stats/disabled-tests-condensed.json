@@ -1082,15 +1082,6 @@
       "windows"
     ]
   ],
-  "test_get_parameter_dtype (__main__.ReproTests)": [
-    "156598",
-    "https://github.com/pytorch/pytorch/issues/156598",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_getitem_call (__main__.TestTorchFunctionMode)": [
     "162586",
     "https://github.com/pytorch/pytorch/issues/162586",
@@ -2024,16 +2015,6 @@
     "151541",
     "https://github.com/pytorch/pytorch/issues/151541",
     [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
-  "test_repeated_calling_cuda (__main__.AOTInductorTestABICompatibleGpu)": [
-    "146185",
-    "https://github.com/pytorch/pytorch/issues/146185",
-    [
-      "inductor",
       "linux",
       "rocm",
       "slow"
