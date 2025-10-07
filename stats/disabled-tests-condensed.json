@@ -1150,15 +1150,6 @@
       "rocm"
     ]
   ],
-  "test_graph_partition_cpu_scalar_mutation (__main__.CudaGraphTreeTests)": [
-    "157359",
-    "https://github.com/pytorch/pytorch/issues/157359",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_graph_partition_cpu_tensor_symints (__main__.CudaGraphTreeTests)": [
     "157367",
     "https://github.com/pytorch/pytorch/issues/157367",
@@ -2245,6 +2236,13 @@
       "rocm"
     ]
   ],
+  "test_torch_function_all_disabled_api (__main__.TestTorchFunctionMode)": [
+    "162704",
+    "https://github.com/pytorch/pytorch/issues/162704",
+    [
+      "dynamo"
+    ]
+  ],
   "test_torch_name_rule_map_updated (__main__.TraceRuleTests)": [
     "114831",
     "https://github.com/pytorch/pytorch/issues/114831",
@@ -2265,14 +2263,6 @@
       "linux",
       "rocm",
       "slow"
-    ]
-  ],
-  "test_toy_model_basic (__main__.FxGraphRunnableTest)": [
-    "163595",
-    "https://github.com/pytorch/pytorch/issues/163595",
-    [
-      "asan",
-      "linux"
     ]
   ],
   "test_trace_buffer_slice (__main__.TestFX)": [
@@ -2356,6 +2346,14 @@
     "https://github.com/pytorch/pytorch/issues/159348",
     [
       "rocm"
+    ]
+  ],
+  "test_upper_bound_i64_cuda (__main__.AOTInductorTestABICompatibleGpu)": [
+    "159860",
+    "https://github.com/pytorch/pytorch/issues/159860",
+    [
+      "inductor",
+      "linux"
     ]
   ],
   "test_var_mean_tile_reduction_True_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
