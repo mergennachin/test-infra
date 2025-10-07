@@ -1172,6 +1172,13 @@
       "xpu"
     ]
   ],
+  "test_greencontext_carveout_cuda (__main__.TestMatmulCudaCUDA)": [
+    "164845",
+    "https://github.com/pytorch/pytorch/issues/164845",
+    [
+      "linux"
+    ]
+  ],
   "test_guard_serialization_fsdp_module (__main__.TestGuardSerializationFSDP)": [
     "162793",
     "https://github.com/pytorch/pytorch/issues/162793",
