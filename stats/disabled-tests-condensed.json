@@ -577,6 +577,13 @@
       "rocm"
     ]
   ],
+  "test_copy_non_blocking_is_pinned_cuda (__main__.AOTInductorTestABICompatibleGpu)": [
+    "164858",
+    "https://github.com/pytorch/pytorch/issues/164858",
+    [
+      "linux"
+    ]
+  ],
   "test_cpp_wrapper_cpu (__main__.FreezingCpuTests)": [
     "106557",
     "https://github.com/pytorch/pytorch/issues/106557",
@@ -1890,6 +1897,15 @@
       "rocm",
       "win",
       "windows"
+    ]
+  ],
+  "test_relative_import (__main__.ReproTests)": [
+    "156679",
+    "https://github.com/pytorch/pytorch/issues/156679",
+    [
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_relative_import_no_modulename (__main__.ReproTests)": [
