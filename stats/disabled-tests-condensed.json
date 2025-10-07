@@ -750,15 +750,6 @@
       "slow"
     ]
   ],
-  "test_dont_dce_rand (__main__.ReproTests)": [
-    "156580",
-    "https://github.com/pytorch/pytorch/issues/156580",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_dropout_deterministic_cuda (__main__.GPUTests)": [
     "133025",
     "https://github.com/pytorch/pytorch/issues/133025",
@@ -1132,15 +1123,6 @@
     "https://github.com/pytorch/pytorch/issues/158443",
     [
       "linux"
-    ]
-  ],
-  "test_graph_break_unsupported_fake (__main__.ReproTests)": [
-    "156629",
-    "https://github.com/pytorch/pytorch/issues/156629",
-    [
-      "linux",
-      "rocm",
-      "slow"
     ]
   ],
   "test_graph_concurrent_replay (__main__.TestCuda)": [
@@ -1683,6 +1665,13 @@
   "test_pending_fusions_multiple (__main__.TestPrologueFusion)": [
     "152221",
     "https://github.com/pytorch/pytorch/issues/152221",
+    [
+      "rocm"
+    ]
+  ],
+  "test_pointwise_op_with_tensor_of_scalarlist_overload__foreach_addcmul_is_fastpath_True_cuda_complex64 (__main__.TestForeachCUDA)": [
+    "164822",
+    "https://github.com/pytorch/pytorch/issues/164822",
     [
       "rocm"
     ]
