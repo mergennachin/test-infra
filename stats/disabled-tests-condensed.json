@@ -1078,7 +1078,8 @@
     "164840",
     "https://github.com/pytorch/pytorch/issues/164840",
     [
-      "linux"
+      "linux",
+      "rocm"
     ]
   ],
   "test_get_mode_stack (__main__.TestTorchFunctionMode)": [
