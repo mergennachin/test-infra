@@ -1954,6 +1954,15 @@
       "mac"
     ]
   ],
+  "test_remove_noop_slice_cuda (__main__.GPUTests)": [
+    "151383",
+    "https://github.com/pytorch/pytorch/issues/151383",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_remove_noop_slice_scatter_cuda (__main__.GPUTests)": [
     "151378",
     "https://github.com/pytorch/pytorch/issues/151378",
