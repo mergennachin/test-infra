@@ -1110,6 +1110,13 @@
       "rocm"
     ]
   ],
+  "test_fuzzer_issue_164428 (__main__.TestFuzzerCompileIssues)": [
+    "165093",
+    "https://github.com/pytorch/pytorch/issues/165093",
+    [
+      "rocm"
+    ]
+  ],
   "test_get_mode_stack (__main__.TestTorchFunctionMode)": [
     "133994",
     "https://github.com/pytorch/pytorch/issues/133994",
