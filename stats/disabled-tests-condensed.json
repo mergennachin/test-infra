@@ -171,6 +171,13 @@
       "linux"
     ]
   ],
+  "test_aoti_user_defined_triton_kernel_profiling_xpu (__main__.AOTInductorTestABICompatibleGpu)": [
+    "165130",
+    "https://github.com/pytorch/pytorch/issues/165130",
+    [
+      "xpu"
+    ]
+  ],
   "test_attn_cuda (__main__.TestMin)": [
     "86710",
     "https://github.com/pytorch/pytorch/issues/86710",
