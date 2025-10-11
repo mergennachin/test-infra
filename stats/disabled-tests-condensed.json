@@ -171,6 +171,13 @@
       "linux"
     ]
   ],
+  "test_aoti_user_defined_triton_kernel_profiling_xpu (__main__.AOTInductorTestABICompatibleGpu)": [
+    "165130",
+    "https://github.com/pytorch/pytorch/issues/165130",
+    [
+      "xpu"
+    ]
+  ],
   "test_attn_cuda (__main__.TestMin)": [
     "86710",
     "https://github.com/pytorch/pytorch/issues/86710",
@@ -373,6 +380,13 @@
       "inductor"
     ]
   ],
+  "test_comprehensive__unsafe_masked_index_put_accumulate_xpu_float16 (__main__.TestInductorOpInfoXPU)": [
+    "165025",
+    "https://github.com/pytorch/pytorch/issues/165025",
+    [
+      "xpu"
+    ]
+  ],
   "test_comprehensive_complex_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
     "140367",
     "https://github.com/pytorch/pytorch/issues/140367",
@@ -530,6 +544,27 @@
     "https://github.com/pytorch/pytorch/issues/147047",
     [
       "inductor"
+    ]
+  ],
+  "test_conv1d_depthwise_dynamic_shapes_xpu (__main__.DynamicShapesCodegenGPUTests)": [
+    "164099",
+    "https://github.com/pytorch/pytorch/issues/164099",
+    [
+      "xpu"
+    ]
+  ],
+  "test_conv1d_with_permute_dynamic_shapes_xpu (__main__.DynamicShapesGPUTests)": [
+    "164097",
+    "https://github.com/pytorch/pytorch/issues/164097",
+    [
+      "xpu"
+    ]
+  ],
+  "test_conv1d_with_permute_xpu (__main__.GPUTests)": [
+    "164098",
+    "https://github.com/pytorch/pytorch/issues/164098",
+    [
+      "xpu"
     ]
   ],
   "test_conv2d_unary_cpu_cpp_wrapper (__main__.TestCppWrapper)": [
