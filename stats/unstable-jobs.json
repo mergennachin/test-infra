@@ -46,13 +46,5 @@
     "pull",
     "linux-jammy-py3_9-clang9-xla",
     "test (xla)"
-  ],
-  "trunk / macos-py3-arm64 / test (default)": [
-    "huydhn",
-    "127542",
-    "https://github.com/pytorch/pytorch/issues/127542",
-    "trunk",
-    "macos-py3-arm64",
-    "test (default)"
   ]
 }
