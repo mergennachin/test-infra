@@ -342,6 +342,14 @@
       "inductor"
     ]
   ],
+  "test_comprehensive___rpow___cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
+    "165296",
+    "https://github.com/pytorch/pytorch/issues/165296",
+    [
+      "inductor",
+      "rocm"
+    ]
+  ],
   "test_comprehensive__unsafe_masked_index_put_accumulate_xpu_float16 (__main__.TestInductorOpInfoXPU)": [
     "165025",
     "https://github.com/pytorch/pytorch/issues/165025",
@@ -755,14 +763,6 @@
       "slow"
     ]
   ],
-  "test_dropout_deterministic_cuda (__main__.GPUTests)": [
-    "133025",
-    "https://github.com/pytorch/pytorch/issues/133025",
-    [
-      "inductor",
-      "linux"
-    ]
-  ],
   "test_dtensor_compile_redistribute (__main__.FxGraphRunnableTest)": [
     "163594",
     "https://github.com/pytorch/pytorch/issues/163594",
@@ -1076,6 +1076,21 @@
     "https://github.com/pytorch/pytorch/issues/165093",
     [
       "rocm"
+    ]
+  ],
+  "test_get_mode_stack (__main__.TestTorchFunctionMode)": [
+    "133994",
+    "https://github.com/pytorch/pytorch/issues/133994",
+    [
+      "asan",
+      "dynamo",
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "slow",
+      "win",
+      "windows"
     ]
   ],
   "test_get_parameter_dtype (__main__.ReproTests)": [
@@ -1584,6 +1599,20 @@
       "rocm"
     ]
   ],
+  "test_neg_view_cholesky_inverse_cuda_float64 (__main__.TestMathBitsCUDA)": [
+    "165292",
+    "https://github.com/pytorch/pytorch/issues/165292",
+    [
+      "rocm"
+    ]
+  ],
+  "test_neg_view_cholesky_solve_cuda_float64 (__main__.TestMathBitsCUDA)": [
+    "165293",
+    "https://github.com/pytorch/pytorch/issues/165293",
+    [
+      "rocm"
+    ]
+  ],
   "test_new_subgroups (__main__.TestDistBackendWithSpawn)": [
     "164195",
     "https://github.com/pytorch/pytorch/issues/164195",
@@ -1603,6 +1632,20 @@
     "https://github.com/pytorch/pytorch/issues/81732",
     [
       "linux"
+    ]
+  ],
+  "test_noncontiguous_samples_cholesky_solve_cuda_complex64 (__main__.TestCommonCUDA)": [
+    "165294",
+    "https://github.com/pytorch/pytorch/issues/165294",
+    [
+      "rocm"
+    ]
+  ],
+  "test_noncontiguous_samples_cholesky_solve_cuda_float32 (__main__.TestCommonCUDA)": [
+    "165295",
+    "https://github.com/pytorch/pytorch/issues/165295",
+    [
+      "rocm"
     ]
   ],
   "test_nondeterministic_alert_histc_cuda (__main__.TestTorchDeviceTypeCUDA)": [
@@ -1941,6 +1984,48 @@
       "mac",
       "macos",
       "rocm"
+    ]
+  ],
+  "test_remove_noop_slice_scatter_cuda (__main__.GPUTests)": [
+    "151378",
+    "https://github.com/pytorch/pytorch/issues/151378",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_remove_noop_view_default_cpu (__main__.CpuTests)": [
+    "151512",
+    "https://github.com/pytorch/pytorch/issues/151512",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_remove_noop_view_default_cuda (__main__.GPUTests)": [
+    "151511",
+    "https://github.com/pytorch/pytorch/issues/151511",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_remove_noop_view_dtype_cpu (__main__.CpuTests)": [
+    "151540",
+    "https://github.com/pytorch/pytorch/issues/151540",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "slow"
     ]
   ],
   "test_repeated_calling_cuda (__main__.AOTInductorTestABICompatibleGpu)": [
