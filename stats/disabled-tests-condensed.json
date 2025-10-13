@@ -516,6 +516,13 @@
       "inductor"
     ]
   ],
+  "test_conj_view_cholesky_solve_cuda_complex64 (__main__.TestMathBitsCUDA)": [
+    "165346",
+    "https://github.com/pytorch/pytorch/issues/165346",
+    [
+      "rocm"
+    ]
+  ],
   "test_conv1d_depthwise_dynamic_shapes_xpu (__main__.DynamicShapesCodegenGPUTests)": [
     "164099",
     "https://github.com/pytorch/pytorch/issues/164099",
@@ -1257,6 +1264,14 @@
     "https://github.com/pytorch/pytorch/issues/115859",
     [
       "rocm"
+    ]
+  ],
+  "test_invalid_status_for_legacy_api (__main__.TestCuda)": [
+    "157110",
+    "https://github.com/pytorch/pytorch/issues/157110",
+    [
+      "linux",
+      "slow"
     ]
   ],
   "test_jvpvjp_nn_functional_conv3d_cuda_float32 (__main__.TestOperatorsCUDA)": [
@@ -2024,6 +2039,15 @@
       "linux",
       "mac",
       "macos",
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_remove_noop_view_dtype_cuda (__main__.GPUTests)": [
+    "151541",
+    "https://github.com/pytorch/pytorch/issues/151541",
+    [
+      "linux",
       "rocm",
       "slow"
     ]
