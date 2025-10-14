@@ -366,6 +366,13 @@
       "xpu"
     ]
   ],
+  "test_comprehensive_atanh_xpu_float16 (__main__.TestInductorOpInfoXPU)": [
+    "165415",
+    "https://github.com/pytorch/pytorch/issues/165415",
+    [
+      "xpu"
+    ]
+  ],
   "test_comprehensive_complex_cuda_float64 (__main__.TestInductorOpInfoCUDA)": [
     "140367",
     "https://github.com/pytorch/pytorch/issues/140367",
@@ -596,6 +603,13 @@
     "https://github.com/pytorch/pytorch/issues/164858",
     [
       "linux"
+    ]
+  ],
+  "test_correctness_RAdam_use_closure_True_xpu_float32 (__main__.CompiledOptimizerParityTestsXPU)": [
+    "165413",
+    "https://github.com/pytorch/pytorch/issues/165413",
+    [
+      "xpu"
     ]
   ],
   "test_cpp_wrapper_cpu (__main__.FreezingCpuTests)": [
@@ -2410,12 +2424,40 @@
       "rocm"
     ]
   ],
+  "test_unspec_inputs_int32_dynamic_shapes_xpu (__main__.DynamicShapesGPUTests)": [
+    "165412",
+    "https://github.com/pytorch/pytorch/issues/165412",
+    [
+      "xpu"
+    ]
+  ],
+  "test_unspec_inputs_int8_xpu (__main__.GPUTests)": [
+    "165416",
+    "https://github.com/pytorch/pytorch/issues/165416",
+    [
+      "xpu"
+    ]
+  ],
+  "test_unspec_inputs_uint8_dynamic_shapes_xpu (__main__.DynamicShapesGPUTests)": [
+    "165411",
+    "https://github.com/pytorch/pytorch/issues/165411",
+    [
+      "xpu"
+    ]
+  ],
   "test_upper_bound_i64_cuda (__main__.AOTInductorTestABICompatibleGpu)": [
     "159860",
     "https://github.com/pytorch/pytorch/issues/159860",
     [
       "inductor",
       "linux"
+    ]
+  ],
+  "test_var_correction_xpu (__main__.GPUTests)": [
+    "165414",
+    "https://github.com/pytorch/pytorch/issues/165414",
+    [
+      "xpu"
     ]
   ],
   "test_var_mean_tile_reduction_True_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
