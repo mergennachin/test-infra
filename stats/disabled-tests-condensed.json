@@ -744,11 +744,7 @@
     "165403",
     "https://github.com/pytorch/pytorch/issues/165403",
     [
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "win"
+      "xpu"
     ]
   ],
   "test_do_not_guard_unbacked_inputs (__main__.TestUnbacked)": [
