@@ -740,6 +740,17 @@
       "rocm"
     ]
   ],
+  "test_div_by_zero_dynamic_shapes_xpu (__main__.DynamicShapesGPUTests)": [
+    "165403",
+    "https://github.com/pytorch/pytorch/issues/165403",
+    [
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "win"
+    ]
+  ],
   "test_do_not_guard_unbacked_inputs (__main__.TestUnbacked)": [
     "163953",
     "https://github.com/pytorch/pytorch/issues/163953",
