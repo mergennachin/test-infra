@@ -1210,13 +1210,6 @@
       "rocm"
     ]
   ],
-  "test_hessian_vectorize_raises_no_warnings_logging_tensor (__main__.TestAutogradFunctional)": [
-    "153644",
-    "https://github.com/pytorch/pytorch/issues/153644",
-    [
-      "dynamo"
-    ]
-  ],
   "test_hoist_conv_packed_params (__main__.TestOptimizer)": [
     "157247",
     "https://github.com/pytorch/pytorch/issues/157247",
@@ -1865,14 +1858,6 @@
       "asan",
       "linux",
       "slow"
-    ]
-  ],
-  "test_quantized_conv_no_asan_failures (__main__.TestOptimizer)": [
-    "157254",
-    "https://github.com/pytorch/pytorch/issues/157254",
-    [
-      "mac",
-      "macos"
     ]
   ],
   "test_qwen2_7b_sdpa_input_alignment_requires_recompile (__main__.CudaReproTests)": [
