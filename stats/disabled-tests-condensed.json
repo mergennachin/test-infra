@@ -724,13 +724,6 @@
       "dynamo"
     ]
   ],
-  "test_detect_leak_nonstrict (__main__.TestExport)": [
-    "162232",
-    "https://github.com/pytorch/pytorch/issues/162232",
-    [
-      "rocm"
-    ]
-  ],
   "test_disable_external_correlation (__main__.TestProfiler)": [
     "143373",
     "https://github.com/pytorch/pytorch/issues/143373",
