@@ -359,13 +359,6 @@
       "rocm"
     ]
   ],
-  "test_comprehensive__unsafe_masked_index_put_accumulate_xpu_float16 (__main__.TestInductorOpInfoXPU)": [
-    "165025",
-    "https://github.com/pytorch/pytorch/issues/165025",
-    [
-      "xpu"
-    ]
-  ],
   "test_comprehensive_atanh_xpu_float16 (__main__.TestInductorOpInfoXPU)": [
     "165415",
     "https://github.com/pytorch/pytorch/issues/165415",
@@ -537,27 +530,6 @@
     "https://github.com/pytorch/pytorch/issues/165346",
     [
       "rocm"
-    ]
-  ],
-  "test_conv1d_depthwise_dynamic_shapes_xpu (__main__.DynamicShapesCodegenGPUTests)": [
-    "164099",
-    "https://github.com/pytorch/pytorch/issues/164099",
-    [
-      "xpu"
-    ]
-  ],
-  "test_conv1d_with_permute_dynamic_shapes_xpu (__main__.DynamicShapesGPUTests)": [
-    "164097",
-    "https://github.com/pytorch/pytorch/issues/164097",
-    [
-      "xpu"
-    ]
-  ],
-  "test_conv1d_with_permute_xpu (__main__.GPUTests)": [
-    "164098",
-    "https://github.com/pytorch/pytorch/issues/164098",
-    [
-      "xpu"
     ]
   ],
   "test_conv2d_unary_cpu_cpp_wrapper (__main__.TestCppWrapper)": [
@@ -957,6 +929,13 @@
       "rocm"
     ]
   ],
+  "test_fn_fwgrad_bwgrad_cholesky_solve_cuda_float64 (__main__.TestFwdGradientsCUDA)": [
+    "165602",
+    "https://github.com/pytorch/pytorch/issues/165602",
+    [
+      "rocm"
+    ]
+  ],
   "test_fn_grad_cholesky_solve_cuda_complex128 (__main__.TestBwdGradientsCUDA)": [
     "164192",
     "https://github.com/pytorch/pytorch/issues/164192",
@@ -1188,13 +1167,6 @@
     "https://github.com/pytorch/pytorch/issues/104055",
     [
       "rocm"
-    ]
-  ],
-  "test_graph_partition_default_device_context (__main__.TritonCodeGenTests)": [
-    "163159",
-    "https://github.com/pytorch/pytorch/issues/163159",
-    [
-      "xpu"
     ]
   ],
   "test_greencontext_carveout_cuda (__main__.TestMatmulCudaCUDA)": [
@@ -1744,6 +1716,13 @@
       "linux",
       "rocm",
       "slow"
+    ]
+  ],
+  "test_ops_append_to_existing_file_tunableop_cuda_float32 (__main__.TestLinalgCUDA)": [
+    "165603",
+    "https://github.com/pytorch/pytorch/issues/165603",
+    [
+      "rocm"
     ]
   ],
   "test_optional_list (test_jit.TestScript)": [
