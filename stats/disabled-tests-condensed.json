@@ -548,6 +548,15 @@
       "rocm"
     ]
   ],
+  "test_conv3d_unary_dynamic_shapes_cpu (__main__.TestDynamicPatternMatcherGenericCPU)": [
+    "158329",
+    "https://github.com/pytorch/pytorch/issues/158329",
+    [
+      "asan",
+      "linux",
+      "slow"
+    ]
+  ],
   "test_conv_stride_constraints (__main__.CPUReproTests)": [
     "107774",
     "https://github.com/pytorch/pytorch/issues/107774",
@@ -1883,6 +1892,13 @@
     "https://github.com/pytorch/pytorch/issues/138557",
     [
       "linux"
+    ]
+  ],
+  "test_record_stream_on_shifted_view (__main__.TestCuda)": [
+    "120318",
+    "https://github.com/pytorch/pytorch/issues/120318",
+    [
+      "rocm"
     ]
   ],
   "test_reduce_full_group_max (__main__.TestDistBackendWithSpawn)": [
