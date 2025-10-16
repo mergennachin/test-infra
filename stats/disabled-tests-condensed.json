@@ -908,13 +908,6 @@
       "linux"
     ]
   ],
-  "test_flex_attention_stride_ordering_mode_paged_attention_permute_order3_shape1_cuda (__main__.TestFlexAttentionCUDA)": [
-    "161503",
-    "https://github.com/pytorch/pytorch/issues/161503",
-    [
-      "linux"
-    ]
-  ],
   "test_flop_counter_op_options1_cuda_float16 (__main__.TestSchedulerCUDA)": [
     "153494",
     "https://github.com/pytorch/pytorch/issues/153494",
@@ -1421,14 +1414,6 @@
     "https://github.com/pytorch/pytorch/issues/162121",
     [
       "rocm"
-    ]
-  ],
-  "test_max_split_expandable (__main__.TestCudaMallocAsync)": [
-    "134837",
-    "https://github.com/pytorch/pytorch/issues/134837",
-    [
-      "linux",
-      "slow"
     ]
   ],
   "test_mem_get_info (__main__.TestCuda)": [
