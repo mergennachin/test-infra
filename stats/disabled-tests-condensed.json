@@ -756,15 +756,6 @@
       "linux"
     ]
   ],
-  "test_dont_aggressively_write_assert (__main__.ReproTests)": [
-    "156570",
-    "https://github.com/pytorch/pytorch/issues/156570",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_dont_dce_rand (__main__.ReproTests)": [
     "156580",
     "https://github.com/pytorch/pytorch/issues/156580",
@@ -1745,15 +1736,6 @@
     "https://github.com/pytorch/pytorch/issues/164822",
     [
       "rocm"
-    ]
-  ],
-  "test_pre_grad (__main__.TestCompilerBisector)": [
-    "164462",
-    "https://github.com/pytorch/pytorch/issues/164462",
-    [
-      "linux",
-      "rocm",
-      "slow"
     ]
   ],
   "test_prim_grad_undefined (test_jit.TestScript)": [
