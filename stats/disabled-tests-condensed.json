@@ -1259,13 +1259,6 @@
       "linux"
     ]
   ],
-  "test_honor_sm_carveout_cuda (__main__.TestFP8MatmulCUDA)": [
-    "164271",
-    "https://github.com/pytorch/pytorch/issues/164271",
-    [
-      "rocm"
-    ]
-  ],
   "test_honor_sm_carveout_with_triton_tma_carveout0_op_scaled_mm (__main__.TestMaxAutotune)": [
     "161525",
     "https://github.com/pytorch/pytorch/issues/161525",
