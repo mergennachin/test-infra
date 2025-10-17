@@ -866,20 +866,6 @@
       "rocm"
     ]
   ],
-  "test_empty_strided_p2p_set_device_False (__main__.SymmMemEmptySetDeviceTest)": [
-    "162071",
-    "https://github.com/pytorch/pytorch/issues/162071",
-    [
-      "rocm"
-    ]
-  ],
-  "test_empty_strided_p2p_set_device_True (__main__.SymmMemEmptySetDeviceTest)": [
-    "161989",
-    "https://github.com/pytorch/pytorch/issues/161989",
-    [
-      "rocm"
-    ]
-  ],
   "test_emulate_precision_casts_mean_ratio_chain (__main__.CudaReproTests)": [
     "163765",
     "https://github.com/pytorch/pytorch/issues/163765",
