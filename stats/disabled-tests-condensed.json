@@ -572,6 +572,14 @@
       "linux"
     ]
   ],
+  "test_conv_unary_fusion_ops (__main__.TestMkldnnFusion)": [
+    "161579",
+    "https://github.com/pytorch/pytorch/issues/161579",
+    [
+      "asan",
+      "linux"
+    ]
+  ],
   "test_conv_with_as_strided_cpu (__main__.FreezingCpuTests)": [
     "107893",
     "https://github.com/pytorch/pytorch/issues/107893",
@@ -756,6 +764,15 @@
       "linux"
     ]
   ],
+  "test_dont_aggressively_write_assert (__main__.ReproTests)": [
+    "156570",
+    "https://github.com/pytorch/pytorch/issues/156570",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_dont_dce_rand (__main__.ReproTests)": [
     "156580",
     "https://github.com/pytorch/pytorch/issues/156580",
@@ -763,6 +780,14 @@
       "linux",
       "rocm",
       "slow"
+    ]
+  ],
+  "test_dropout_deterministic_cuda (__main__.GPUTests)": [
+    "133025",
+    "https://github.com/pytorch/pytorch/issues/133025",
+    [
+      "inductor",
+      "linux"
     ]
   ],
   "test_dtensor_compile_redistribute (__main__.FxGraphRunnableTest)": [
@@ -899,6 +924,13 @@
       "linux"
     ]
   ],
+  "test_flex_attention_stride_ordering_mode_paged_attention_permute_order3_shape1_cuda (__main__.TestFlexAttentionCUDA)": [
+    "161503",
+    "https://github.com/pytorch/pytorch/issues/161503",
+    [
+      "linux"
+    ]
+  ],
   "test_flop_counter_op_options1_cuda_float16 (__main__.TestSchedulerCUDA)": [
     "153494",
     "https://github.com/pytorch/pytorch/issues/153494",
@@ -957,6 +989,14 @@
     "164193",
     "https://github.com/pytorch/pytorch/issues/164193",
     [
+      "rocm"
+    ]
+  ],
+  "test_fn_gradgrad_cholesky_solve_cuda_float64 (__main__.TestBwdGradientsCUDA)": [
+    "165713",
+    "https://github.com/pytorch/pytorch/issues/165713",
+    [
+      "inductor",
       "rocm"
     ]
   ],
@@ -1741,6 +1781,15 @@
     "https://github.com/pytorch/pytorch/issues/164822",
     [
       "rocm"
+    ]
+  ],
+  "test_pre_grad (__main__.TestCompilerBisector)": [
+    "164462",
+    "https://github.com/pytorch/pytorch/issues/164462",
+    [
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_prim_grad_undefined (test_jit.TestScript)": [
