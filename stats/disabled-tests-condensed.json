@@ -21,6 +21,13 @@
       "rocm"
     ]
   ],
+  "test_3mm_add (__main__.TestTritonDotReduction)": [
+    "165719",
+    "https://github.com/pytorch/pytorch/issues/165719",
+    [
+      "xpu"
+    ]
+  ],
   "test_DistributedDataParallel (__main__.TestDistBackendWithSpawn)": [
     "77317",
     "https://github.com/pytorch/pytorch/issues/77317",
@@ -231,6 +238,13 @@
     [
       "linux",
       "rocm"
+    ]
+  ],
+  "test_binomial_sample (__main__.TestDistributions)": [
+    "165720",
+    "https://github.com/pytorch/pytorch/issues/165720",
+    [
+      "xpu"
     ]
   ],
   "test_broadcast_with_singleton_dims_cuda (__main__.TritonBlockPointerTestGPU)": [
